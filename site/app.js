@@ -341,10 +341,44 @@ function showMetric(id, anchor) {
 }
 
 /* -------------------------------------------------------------------- render */
+const KPI_GROUPS = [
+  ["Energy", ["brent", "wti"]],
+  ["Gas", ["ttf", "henry_hub"]],
+  ["Freight & fuel", ["bdi", "vlsfo_sing"]],
+];
+
 function renderKpis() {
   const host = $("#kpis");
   host.innerHTML = "";
-  for (const m of state.data.metrics.filter(x => x.kpi)) {
+  const byId = new Map(state.data.metrics.map(m => [m.id, m]));
+  const grouped = new Set(KPI_GROUPS.flatMap(([, ids]) => ids));
+
+  for (const [label, ids] of KPI_GROUPS) {
+    const rows = ids.map(id => byId.get(id)).filter(Boolean);
+    if (!rows.length) continue;
+    const wrap = el("div", "kpi-group");
+    wrap.appendChild(el("div", "grp", label));
+    const grid = el("div", "kpis");
+    for (const m of rows) grid.appendChild(kpiTile(m));
+    wrap.appendChild(grid);
+    host.appendChild(wrap);
+  }
+
+  // Anything flagged as a KPI but not placed in a group above still shows.
+  const rest = state.data.metrics.filter(x => x.kpi && !grouped.has(x.id));
+  if (rest.length) {
+    const wrap = el("div", "kpi-group");
+    wrap.appendChild(el("div", "grp", "Other"));
+    const grid = el("div", "kpis");
+    for (const m of rest) grid.appendChild(kpiTile(m));
+    wrap.appendChild(grid);
+    host.appendChild(wrap);
+  }
+  linkify(host);
+}
+
+function kpiTile(m) {
+  {
     const card = el("button", "kpi" + (m.stale ? " is-stale" : ""));
     card.type = "button";
     card.dataset.metric = m.id;
@@ -362,9 +396,8 @@ function renderKpis() {
     card.appendChild(val);
     card.appendChild(deltaNode(m.change, m.value, m.value != null));
     card.appendChild(el("div", "k-blurb", m.blurb || ""));
-    host.appendChild(card);
+    return card;
   }
-  linkify(host);
 }
 
 function newsItem(it) {
@@ -373,11 +406,17 @@ function newsItem(it) {
   const meta = el("div", "meta");
   meta.appendChild(el("span", null, it.source));
   if (it.ticker) {
-    const chip = el("button", "chip", it.ticker);
-    chip.type = "button";
+    // Show the company's actual name. A four-letter ticker means nothing to
+    // someone still learning who these companies are.
     const c = state.byTicker.get(it.ticker.toUpperCase());
-    if (c) chip.dataset.company = c.name; else chip.disabled = true;
-    chip.title = c ? `${c.name} — about this company` : it.ticker;
+    const chip = el("button", "chip", c ? c.name : it.ticker);
+    chip.type = "button";
+    if (c) {
+      chip.dataset.company = c.name;
+      chip.title = `${c.name} (${it.ticker}) — what this company does`;
+    } else {
+      chip.disabled = true;
+    }
     meta.appendChild(chip);
   }
   if (it.category) meta.appendChild(el("span", null, it.category));

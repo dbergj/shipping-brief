@@ -30,6 +30,7 @@ import registry as reg  # noqa: E402
 from bdi import fetch_bdi  # noqa: E402
 from bunkers import fetch_all_grades  # noqa: E402
 from eia import fetch_eia  # noqa: E402
+from fred import fetch_fred  # noqa: E402
 from news_oslo import fetch_oslo, resolve_issuers  # noqa: E402
 from news_rss import fetch_feeds  # noqa: E402
 from news_sec import fetch_sec  # noqa: E402
@@ -110,6 +111,14 @@ def collect_metrics(previous):
             eia_values = fetch_eia(need_fallback, log=log)
         except Exception as exc:  # noqa: BLE001
             note_error("eia", exc)
+        # Third line of defence. Yahoo can rate-limit and EIA's key service has
+        # its own outages, so a second official provider is worth the 40 lines.
+        still_missing = [m for m in need_fallback if m not in eia_values]
+        if still_missing:
+            try:
+                eia_values.update(fetch_fred(still_missing, log=log))
+            except Exception as exc:  # noqa: BLE001
+                note_error("fred", exc)
 
     bunkers = {}
     try:

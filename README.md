@@ -59,19 +59,25 @@ To switch it on:
 Leave it unset and the dashboard works exactly as before, with the one-line
 automatic summary instead. Nothing breaks.
 
-### Optional: better oil and gas prices
+### Optional: backup oil and gas prices
 
-The dashboard reads oil and gas prices from Yahoo Finance, which is free but
-sometimes refuses automated requests. There's a free official backup from the US
-government that kicks in automatically if you set it up:
+Oil and gas come from Yahoo Finance, which is free but undocumented and will
+refuse an IP that asks too often. Two official backups slot in automatically if a
+key is present — the collector tries Yahoo, then EIA, then FRED, and only gives
+up after all three.
 
-1. Go to <https://www.eia.gov/opendata/register.php> and enter your email. They send
-   you a key instantly.
-2. In your repository, click **Settings** → **Secrets and variables** → **Actions** →
-   **New repository secret**.
-3. Name it `EIA_API_KEY`, paste the key into the value box, and click **Add secret**.
+Either one is worth having; **FRED is the one to try first**, because EIA's key
+service has been returning "access denied" on request.
 
-You never see the key again and it isn't visible to anyone else.
+**FRED** (US Federal Reserve Bank of St. Louis) — <https://fredaccount.stlouisfed.org/apikey>
+Make an account, request a key, add it as the secret `FRED_API_KEY`.
+
+**EIA** (US Energy Information Administration) — <https://www.eia.gov/opendata/register.php>
+Add it as the secret `EIA_API_KEY`.
+
+To add either: your repo → **Settings** → **Secrets and variables** → **Actions**
+→ **New repository secret**. Both are free, and both publish the same underlying
+series, so the numbers agree.
 
 ---
 
@@ -118,7 +124,7 @@ Nothing is ever estimated or invented to fill a gap. A missing number stays miss
 
 | What | Source | Cost |
 |---|---|---|
-| Brent, WTI, gas, coal, product prices | Yahoo Finance, US EIA as backup | free |
+| Brent, WTI, gas, coal, product prices | Yahoo Finance, then EIA, then FRED | free |
 | Written morning brief | Claude API (optional) | ~$1-2/month |
 | Bunker fuel prices | Ship & Bunker | free |
 | Baltic Dry Index (headline only) | Hellenic Shipping News | free |
