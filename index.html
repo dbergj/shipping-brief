@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shipping Morning Brief</title>
+<meta name="description" content="A daily shipping brief that explains itself — rates, oil and gas prices, company news, and a glossary you can click.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚢</text></svg>">
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brand">Shipping Morning Brief <span id="asof"></span></div>
+    <div class="topbar-right">
+      <button class="btn" id="explainBtn" aria-pressed="false"
+              title="Show a plain-English explanation on every panel">
+        Explain mode
+      </button>
+      <button class="btn" id="themeBtn" title="Switch between light and dark">Theme</button>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="brief">
+    <h1>Today in shipping</h1>
+    <div class="date" id="briefDate"></div>
+    <div class="tone" id="tone">Loading…</div>
+  </div>
+
+  <section id="kpiSection">
+    <div class="sec-head">
+      <h2>Headline numbers</h2>
+      <span class="hint">Click any tile to see what it moves</span>
+    </div>
+    <div class="explain-note">
+      These are the six numbers worth checking first. Oil and gas set the cost of
+      running a ship and shape where cargo goes; the Baltic Dry Index shows what
+      bulk carriers earn; VLSFO is the fuel owners actually buy.
+      A <strong>stale</strong> tag means this morning's update could not reach that
+      source, so the tile is showing the last good value rather than pretending to
+      be current — hover it to see when the figure is from. <strong>No data</strong>
+      means there is no earlier value to fall back on either. Nothing on this page
+      is ever estimated to fill a gap.
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>News</h2>
+      <span class="hint">Underlined words are explained — click them</span>
+    </div>
+    <div class="explain-note">
+      Company news comes from official stock-exchange filings (Oslo Børs and the
+      US SEC), so it is the same disclosure a professional reads. Market news comes
+      from the maritime trade press. Company news builds up over time as the
+      exchange only publishes one day at a time.
+    </div>
+    <div class="news-grid">
+      <div class="newscol">
+        <h3>Company news <span class="count" id="cCount"></span></h3>
+        <div id="companyNews"></div>
+      </div>
+      <div class="newscol">
+        <h3>Market news <span class="count" id="mCount"></span></h3>
+        <div id="marketNews"></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Freight rates</h2>
+      <span class="hint">What ships earn per day</span>
+    </div>
+    <div class="explain-note">
+      A freight rate is what someone pays to move cargo. The figures here are TCE —
+      the ship's daily earnings after fuel and port costs — which is what actually
+      decides whether an owner makes money. Greyed rows need a paid Baltic Exchange
+      subscription, so they stay inactive; the labels are still here because knowing
+      the vessel classes and routes matters either way.
+    </div>
+    <div id="rateTables"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Energy, gas and fuel</h2>
+      <span class="hint">The costs and price gaps that drive shipping demand</span>
+    </div>
+    <div class="explain-note">
+      Shipping demand is mostly about price <em>gaps</em>, not price levels. When a
+      commodity is much dearer in one region than another, it gets shipped — and the
+      further it travels, the more ships are needed.
+    </div>
+    <div id="energyTables"></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Learn</h2>
+      <span class="hint">Every term and company, browsable</span>
+    </div>
+    <div class="learn-tools">
+      <input class="search" id="search" type="search"
+             placeholder="Search terms and companies — try &quot;TCE&quot;, &quot;Capesize&quot; or &quot;Hafnia&quot;"
+             aria-label="Search terms and companies">
+    </div>
+    <div class="sec-head" style="margin-top:6px"><h2 style="font-size:14px">Terms <span class="hint" id="termCount"></span></h2></div>
+    <div class="cloud" id="termCloud"></div>
+    <div class="sec-head" style="margin-top:22px"><h2 style="font-size:14px">Companies <span class="hint" id="coCount"></span></h2></div>
+    <div class="co-grid" id="coGrid"></div>
+  </section>
+
+  <div class="diag">
+    <details>
+      <summary id="diagSummary">Data sources and status</summary>
+      <div id="diagBody"></div>
+    </details>
+  </div>
+
+  <footer>
+    Built for learning. Prices from Yahoo Finance and the US EIA; bunker prices from
+    Ship &amp; Bunker; the Baltic Dry Index via Hellenic Shipping News; company
+    filings from Euronext Oslo Børs and SEC EDGAR; headlines from gCaptain,
+    Splash247, Hellenic Shipping News and The Maritime Executive. Every figure shows
+    its own source and age. Not investment advice.
+  </footer>
+</div>
+
+<div class="pop" id="pop" hidden role="dialog" aria-modal="false" aria-labelledby="popTitle"></div>
+
+<script src="site/app.js"></script>
+</body>
+</html>

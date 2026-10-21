@@ -1,0 +1,64 @@
+name: Morning brief
+
+# Runs every morning and commits that day's data. 05:30 UTC is 06:30 or 07:30 in
+# Norway depending on daylight saving — GitHub cron is always UTC.
+# Note: scheduled runs on GitHub can be delayed at busy times, so the brief may
+# land a little later than the exact minute below.
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write           # needed to commit the snapshot back to the repo
+
+concurrency:
+  group: morning-brief
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No pip install step: the collector deliberately uses only the standard
+      # library, so there are no dependencies to break over time.
+      - name: Collect today's data
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+        # The collector exits non-zero when a source fails but still writes a
+        # good snapshot, so we record the status and keep going rather than
+        # throwing away a run because one feed was down.
+        run: |
+          set +e
+          python3 collect/run.py | tee /tmp/collect.log
+          echo "COLLECT_EXIT=$?" >> "$GITHUB_ENV"
+          set -e
+
+      - name: Commit the snapshot
+        run: |
+          git config user.name  "shipping-brief bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changed; nothing to commit."
+          else
+            git commit -m "Brief for $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Report source failures
+        if: always()
+        run: |
+          if [ "${COLLECT_EXIT:-0}" != "0" ]; then
+            echo "::warning::One or more data sources failed. The dashboard still "\
+                 "published using the previous values, marked stale. See the log above."
+          fi
+          grep -E "unavailable|failed|WARNING" /tmp/collect.log || true

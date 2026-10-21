@@ -1,0 +1,57 @@
+{
+  "_note": "The causal map — 'what this moves'. Hand-written, deterministic, no model involved. Rendered as plain-English lines under each metric so a student can see how one number reaches another. 'dir' is the usual direction when the source rises.",
+  "links": [
+    {"from":"brent","affects":[
+      {"to":"vlsfo_sing","dir":"up","because":"Bunker fuel is refined from crude, so marine fuel prices follow Brent with a short lag."},
+      {"to":"vlcc_tce","dir":"down","because":"On a voyage charter the owner pays for the fuel, so dearer bunkers cut daily earnings even when the freight rate hasn't moved."},
+      {"to":"brent_wti_spread","dir":"varies","because":"Brent rising faster than WTI widens the gap, which is what makes exporting US crude profitable."}],
+     "watch_for":"A common beginner's trap is assuming high oil prices are good for tankers. They aren't by themselves — tankers are paid to move barrels a distance, not to move expensive barrels. What matters is volume and voyage length."},
+
+    {"from":"brent_wti_spread","affects":[
+      {"to":"vlcc_tce","dir":"up","because":"A wide gap pulls US crude to Asia and Europe. Those are long voyages, so each cargo ties up a ship for far longer."}],
+     "watch_for":"Think in tonne-miles, not tonnes. The same barrel shipped twice as far doubles the work the fleet has to do."},
+
+    {"from":"vlsfo_sing","affects":[
+      {"to":"vlcc_tce","dir":"down","because":"Fuel is the largest voyage cost, so it comes straight off the owner's TCE."},
+      {"to":"cape_5tc","dir":"down","because":"The same arithmetic applies to bulkers on voyage charters."}],
+     "watch_for":"Scrubber-fitted ships are affected differently — they burn cheaper high-sulphur fuel, so a wide VLSFO-to-IFO380 spread actually works in their favour."},
+
+    {"from":"ttf","affects":[
+      {"to":"lng_160k","dir":"varies","because":"What matters is not the level but the gap to Asian JKM prices. The wider gap decides which way cargoes sail, and therefore how far they travel."},
+      {"to":"coal_api2","dir":"up","because":"Expensive gas pushes European power stations back towards coal, lifting coal imports and the bulkers that carry them."}],
+     "watch_for":"European gas prices reach dry bulk through fuel switching in power generation. It's a good example of how two apparently unrelated markets connect."},
+
+    {"from":"henry_hub","affects":[
+      {"to":"lng_160k","dir":"down","because":"Cheap US gas relative to Europe and Asia is what makes US LNG exports profitable, and those long-haul cargoes are what LNG carriers depend on. Expensive US gas narrows the arbitrage and can idle export capacity."},
+      {"to":"vlgc_baltic","dir":"down","because":"US gas processing produces the propane that VLGCs carry from the US Gulf to Asia."}],
+     "watch_for":"For LNG and LPG shipping, the spread between regions matters far more than any single price."},
+
+    {"from":"coal_api2","affects":[
+      {"to":"cape_5tc","dir":"up","because":"Coal is one of the two main Capesize and Panamax cargoes, so stronger coal trade means more large bulker demand."},
+      {"to":"bdi","dir":"up","because":"Capesize and Panamax earnings are the heaviest components of the index."}],
+     "watch_for":"Where coal comes from matters as much as how much moves. Colombian coal to Europe is a far shorter voyage than Australian coal to Europe."},
+
+    {"from":"refining_margin","affects":[
+      {"to":"mr_tc2_tce","dir":"up","because":"Fat margins make refineries run at full tilt, producing more diesel and gasoline that needs shipping."},
+      {"to":"lr2_tce","dir":"up","because":"Strong margins also support the long-haul product cargoes that large product tankers carry."},
+      {"to":"vlcc_tce","dir":"up","because":"Refineries running hard need more crude delivered to them in the first place."}],
+     "watch_for":"This is the best leading indicator for clean tanker rates. Refinery economics drive cargo volumes before freight rates react."},
+
+    {"from":"bdi","affects":[
+      {"to":"bdry","dir":"up","because":"The ETF holds dry bulk freight futures, which settle against Baltic indices, so it tracks the index closely."}],
+     "watch_for":"The BDI is often reported as a gauge of world trade. Be careful: it reflects the balance between cargo and the number of ships available. A falling BDI can mean a flood of newbuildings rather than weak demand — always check the orderbook before drawing conclusions."},
+
+    {"from":"cape_5tc","affects":[
+      {"to":"bdi","dir":"up","because":"Capesize earnings carry the largest weight in the index and are its most volatile part."}],
+     "watch_for":"Capesize rates are essentially a bet on Chinese steel production, because iron ore dominates the cargo."},
+
+    {"from":"vlcc_tce","affects":[
+      {"to":"suezmax_tce","dir":"up","because":"When the largest tankers get expensive, charterers split cargoes into smaller ships, pulling Suezmax rates up behind them."}],
+     "watch_for":"The tanker classes are substitutes at the margin, so strength usually spreads from one size to the next rather than staying contained."},
+
+    {"from":"gasoil","affects":[
+      {"to":"refining_margin","dir":"up","because":"The crack is the product price minus crude, so stronger diesel widens it directly."},
+      {"to":"vlsfo_sing","dir":"up","because":"Distillate strength pulls refinery output away from residual fuel, tightening the marine fuel pool."}],
+     "watch_for":"Diesel is the product most tied to industrial activity and freight, so it tends to lead the wider fuel complex."}
+  ]
+}

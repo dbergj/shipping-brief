@@ -1,0 +1,19 @@
+{
+  "_comment": "Optional. Freight route rates are inactive by default because official Baltic data needs a paid subscription. Put a number next to an id below and that row switches on automatically; leave it null and it stays greyed out on the dashboard.",
+  "as_of": null,
+  "source": null,
+  "rates": {
+    "vlcc_tce": null,
+    "suezmax_tce": null,
+    "aframax_tce": null,
+    "lr2_tce": null,
+    "mr_tc2_tce": null,
+    "mr_tc7_tce": null,
+    "cape_5tc": null,
+    "panamax_4tc": null,
+    "supramax_10tc": null,
+    "handysize_7tc": null,
+    "lng_160k": null,
+    "vlgc_baltic": null
+  }
+}

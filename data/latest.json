@@ -1,0 +1,790 @@
+{
+ "generated_at": "2026-10-21T14:40:22+00:00",
+ "tone": "1 of 2 tracked prices rose and 1 fell. Biggest mover: RBOB gasoline -6.0% to 3.05 USD/gal.",
+ "metrics": [
+  {
+   "id": "brent",
+   "label": "Brent crude",
+   "unit": "USD/bbl",
+   "group": "energy",
+   "blurb": "The global benchmark price for crude oil. Most oil cargoes price off it.",
+   "kpi": true,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "wti",
+   "label": "WTI crude",
+   "unit": "USD/bbl",
+   "group": "energy",
+   "blurb": "The US crude benchmark. Its gap to Brent drives US export volumes.",
+   "kpi": true,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "ttf",
+   "label": "Dutch TTF gas",
+   "unit": "EUR/MWh",
+   "group": "gas",
+   "blurb": "Europe's benchmark gas price, set in the Netherlands.",
+   "kpi": true,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "henry_hub",
+   "label": "Henry Hub gas",
+   "unit": "USD/mmBtu",
+   "group": "gas",
+   "blurb": "The US benchmark gas price, set in Louisiana.",
+   "kpi": true,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "coal_api2",
+   "label": "Coal API2 (ARA)",
+   "unit": "USD/t",
+   "group": "energy",
+   "blurb": "Price of coal delivered into northwest Europe. A dry bulk demand signal.",
+   "kpi": false,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "gasoil",
+   "label": "Heating oil / gasoil",
+   "unit": "USD/gal",
+   "group": "energy",
+   "blurb": "A refined product price that tracks what bunker fuel costs.",
+   "kpi": false,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "gasoline",
+   "label": "RBOB gasoline",
+   "unit": "USD/gal",
+   "group": "energy",
+   "blurb": "US gasoline price. Strong margins here pull product tankers west.",
+   "kpi": false,
+   "value": 3.0535,
+   "change": -0.1819,
+   "as_of": "2026-10-21T14:28:59+00:00",
+   "source": "yahoo:RB=F",
+   "stale": false,
+   "age_days": 0.01
+  },
+  {
+   "id": "bdry",
+   "label": "Dry bulk ETF (BDRY)",
+   "unit": "USD",
+   "group": "proxy",
+   "blurb": "An ETF holding dry bulk freight futures. A rough daily read on bulker sentiment.",
+   "kpi": false,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "bwet",
+   "label": "Tanker ETF (BWET)",
+   "unit": "USD",
+   "group": "proxy",
+   "blurb": "An ETF holding tanker freight futures. A rough daily read on tanker sentiment.",
+   "kpi": false,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null
+  },
+  {
+   "id": "bdi",
+   "label": "Baltic Dry Index",
+   "unit": "points",
+   "group": "rates",
+   "blurb": "The Baltic Exchange's headline dry bulk freight index. Published late afternoon London time, so a morning brief shows the previous session.",
+   "kpi": true,
+   "value": 2680,
+   "change": 87,
+   "as_of": "2026-10-21T12:00:22+00:00",
+   "source": "Baltic Exchange via Hellenic Shipping News",
+   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2680-up-87-points/",
+   "stale": false,
+   "age_days": 0.11
+  },
+  {
+   "id": "vlsfo_sing",
+   "label": "VLSFO Singapore",
+   "unit": "USD/t",
+   "group": "bunkers",
+   "blurb": "Price of the main low-sulphur marine fuel at the world's biggest bunker port.",
+   "kpi": true,
+   "value": 932.5,
+   "change": null,
+   "as_of": "2026-10-21T14:31:52+00:00",
+   "source": "shipandbunker.com",
+   "stale": true,
+   "age_days": 0.01
+  },
+  {
+   "id": "vlsfo_rott",
+   "label": "VLSFO Rotterdam",
+   "unit": "USD/t",
+   "group": "bunkers",
+   "blurb": "The same fuel in Europe's biggest bunker port.",
+   "kpi": false,
+   "value": 765.0,
+   "change": null,
+   "as_of": "2026-10-21T14:31:52+00:00",
+   "source": "shipandbunker.com",
+   "stale": true,
+   "age_days": 0.01
+  },
+  {
+   "id": "vlsfo_fuj",
+   "label": "VLSFO Fujairah",
+   "unit": "USD/t",
+   "group": "bunkers",
+   "blurb": "The Middle East bunker hub, where most VLCC voyages refuel.",
+   "kpi": false,
+   "value": 979.5,
+   "change": null,
+   "as_of": "2026-10-21T14:31:52+00:00",
+   "source": "shipandbunker.com",
+   "stale": true,
+   "age_days": 0.01
+  },
+  {
+   "id": "vlsfo_hou",
+   "label": "VLSFO Houston",
+   "unit": "USD/t",
+   "group": "bunkers",
+   "blurb": "The US Gulf bunker price.",
+   "kpi": false,
+   "value": 785.0,
+   "change": null,
+   "as_of": "2026-10-21T14:31:52+00:00",
+   "source": "shipandbunker.com",
+   "stale": true,
+   "age_days": 0.01
+  },
+  {
+   "id": "refining_margin",
+   "label": "Diesel crack vs Brent",
+   "unit": "USD/bbl",
+   "group": "energy",
+   "blurb": "Roughly what a refinery makes turning a barrel of crude into diesel. Computed as the gasoil price converted to barrels minus Brent. Fat margins make refineries run hard, which creates product tanker cargo.",
+   "kpi": false,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null,
+   "derived_from": [
+    "gasoil",
+    "brent"
+   ]
+  },
+  {
+   "id": "brent_wti_spread",
+   "label": "Brent–WTI spread",
+   "unit": "USD/bbl",
+   "group": "energy",
+   "blurb": "How much more Brent costs than WTI. A wide gap makes exporting US crude profitable, which means more long-haul cargoes and stronger tanker demand.",
+   "kpi": false,
+   "value": null,
+   "change": null,
+   "as_of": null,
+   "source": null,
+   "stale": true,
+   "age_days": null,
+   "derived_from": [
+    "brent",
+    "wti"
+   ]
+  }
+ ],
+ "rates": [
+  {
+   "id": "vlcc_tce",
+   "label": "VLCC (TD3C, AG→China)",
+   "unit": "USD/day",
+   "segment": "tanker",
+   "blurb": "Daily earnings of a 2m-barrel crude tanker on the Arabian Gulf to China run.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "suezmax_tce",
+   "label": "Suezmax (TD20, W.Africa→UKC)",
+   "unit": "USD/day",
+   "segment": "tanker",
+   "blurb": "Daily earnings of a 1m-barrel crude tanker from West Africa to Europe.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "aframax_tce",
+   "label": "Aframax (TD7, N.Sea→UKC)",
+   "unit": "USD/day",
+   "segment": "tanker",
+   "blurb": "Daily earnings of a 600k-barrel crude tanker on a short North Sea haul.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "lr2_tce",
+   "label": "LR2 (TC1, AG→Japan)",
+   "unit": "USD/day",
+   "segment": "tanker",
+   "blurb": "Daily earnings of a large product tanker carrying clean refined products.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "mr_tc2_tce",
+   "label": "MR (TC2, Rotterdam→NY)",
+   "unit": "USD/day",
+   "segment": "tanker",
+   "blurb": "Daily earnings of a mid-size product tanker on the transatlantic gasoline run.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "mr_tc7_tce",
+   "label": "MR (TC7, Singapore→Australia)",
+   "unit": "USD/day",
+   "segment": "tanker",
+   "blurb": "Daily earnings of a mid-size product tanker east of Suez.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "cape_5tc",
+   "label": "Capesize 5TC",
+   "unit": "USD/day",
+   "segment": "dry",
+   "blurb": "Average daily earnings of a 180,000t bulker across five iron ore and coal routes.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "panamax_4tc",
+   "label": "Panamax 4TC",
+   "unit": "USD/day",
+   "segment": "dry",
+   "blurb": "Average daily earnings of an 82,000t bulker, mostly coal and grain.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "supramax_10tc",
+   "label": "Supramax 10TC",
+   "unit": "USD/day",
+   "segment": "dry",
+   "blurb": "Average daily earnings of a 58,000t geared bulker across ten routes.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "handysize_7tc",
+   "label": "Handysize 7TC",
+   "unit": "USD/day",
+   "segment": "dry",
+   "blurb": "Average daily earnings of a 38,000t bulker, the smallest Baltic-assessed class.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "lng_160k",
+   "label": "LNG 160k cbm spot",
+   "unit": "USD/day",
+   "segment": "gas",
+   "blurb": "Daily charter rate for a standard modern LNG carrier.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  },
+  {
+   "id": "vlgc_baltic",
+   "label": "VLGC (Baltic LPG, AG→Japan)",
+   "unit": "USD/day",
+   "segment": "gas",
+   "blurb": "Daily earnings of a very large gas carrier moving LPG from the Gulf to Asia.",
+   "value": null,
+   "as_of": null,
+   "source": null,
+   "status": "unavailable",
+   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+  }
+ ],
+ "news": {
+  "company": [
+   {
+    "title": "The Goldman Sachs Group, Inc. Disclosure in HIMALAYA SHIPPING LTD",
+    "link": "https://newsweb.oslobors.no/message/684539",
+    "published": "2026-10-21T14:03:00+00:00",
+    "source": "Oslo Børs",
+    "ticker": "HSHP",
+    "company": "Himalaya Shipping Ltd",
+    "category": "MAJOR SHAREHOLDINGS NOTIFICATION",
+    "kind": "company"
+   },
+   {
+    "title": "Shareholder Disclosure Notification",
+    "link": "https://newsweb.oslobors.no/message/684532",
+    "published": "2026-10-21T12:29:22+00:00",
+    "source": "Oslo Børs",
+    "ticker": "HSHP",
+    "company": "Himalaya Shipping Ltd",
+    "category": "MAJOR SHAREHOLDINGS NOTIFICATION",
+    "kind": "company"
+   },
+   {
+    "title": "Scorpio Tankers: 6-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1483934/000162828026066288/stng6k-10192026.htm",
+    "published": "2026-10-19T12:00:00+00:00",
+    "source": "SEC EDGAR",
+    "ticker": "STNG",
+    "company": "Scorpio Tankers",
+    "category": "6-K",
+    "kind": "company"
+   },
+   {
+    "title": "International Seaways: FORM 8-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926116371/tm2627713d1_8k.htm",
+    "published": "2026-10-16T12:00:00+00:00",
+    "source": "SEC EDGAR",
+    "ticker": "INSW",
+    "company": "International Seaways",
+    "category": "8-K",
+    "kind": "company"
+   },
+   {
+    "title": "DHT Holdings: REPORT OF FOREIGN PRIVATE ISSUER",
+    "link": "https://www.sec.gov/Archives/edgar/data/1331284/000095015726001092/form6-k.htm",
+    "published": "2026-10-13T12:00:00+00:00",
+    "source": "SEC EDGAR",
+    "ticker": "DHT",
+    "company": "DHT Holdings",
+    "category": "6-K",
+    "kind": "company"
+   },
+   {
+    "title": "Star Bulk Carriers: 6-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1386716/000114036126039287/ef20083535_form6k.htm",
+    "published": "2026-10-09T12:00:00+00:00",
+    "source": "SEC EDGAR",
+    "ticker": "SBLK",
+    "company": "Star Bulk Carriers",
+    "category": "6-K",
+    "kind": "company"
+   },
+   {
+    "title": "Scorpio Tankers: 6-K",
+    "link": "https://www.sec.gov/Archives/edgar/data/1483934/000162828026065357/stng6k-10072026.htm",
+    "published": "2026-10-07T12:00:00+00:00",
+    "source": "SEC EDGAR",
+    "ticker": "STNG",
+    "company": "Scorpio Tankers",
+    "category": "6-K",
+    "kind": "company"
+   }
+  ],
+  "market": [
+   {
+    "title": "How the Maritime Industry Will Unlock the Value of AI",
+    "link": "https://maritime-executive.com/article/how-the-maritime-industry-will-unlock-the-value-of-ai",
+    "published": "2026-10-21T13:49:58+00:00",
+    "summary": "Every industry has spent the past few years moving Artificial Intelligence into daily operations. Mining, aviation, construction and energy companies...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Russia Sees First Diesel Cargo Sailing for US on Thursday",
+    "link": "https://gcaptain.com/russia-sees-first-diesel-cargo-sailing-for-us-on-thursday/",
+    "published": "2026-10-21T12:05:03+00:00",
+    "summary": "A tanker loaded with Russian diesel will sail for the US on Thursday as Moscow starts to implement a fuel supply deal struck by Vladimir Putin and Donald Trump, according to Deputy Prime Minister Alexander Novak.",
+    "source": "gCaptain",
+    "kind": "market"
+   },
+   {
+    "title": "Baltic Dry Index climbs to 2680 up 87 points",
+    "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2680-up-87-points/",
+    "published": "2026-10-21T12:00:22+00:00",
+    "summary": "Today, Wednesday, October 21 2026, the Baltic Dry Index climbed 87 points, 2680 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "AG Seville wins 25-year port shipyard concession with $11m investment plan",
+    "link": "https://splash247.com/ag-seville-wins-25-year-port-shipyard-concession-with-11m-investment-plan/",
+    "published": "2026-10-21T10:28:27+00:00",
+    "summary": "AG Seville Shipyard has won the competition to continue operating the ship repair facilities at Spain’s Port of Seville, clearing an important hurdle for a proposed €10m ($11.2m) investment programme. Seville Port Authority’s board approved the selection of AG Seville Shipyard on October 20, allowing the company to ret",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Signal: The final quarter of 2026 is expected to see softer bauxite flows",
+    "link": "https://www.hellenicshippingnews.com/signal-the-final-quarter-of-2026-is-expected-to-see-softer-bauxite-flows/",
+    "published": "2026-10-21T10:00:59+00:00",
+    "summary": "Chinese front-loading is expected to have run its course, pointing to softer bauxite flows in 2026 Q4. • Global bauxite flows increased by 2.8% y/y in September. • Flows arriving in China increased by 21.2% y/y in September • Flows arriving in the UAE fell by over 60.0% in September. • Bauxite arriving in India ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Capital Maritime Finance: Historic Listing on Euronext Athens, with Unprecedented Participation from Retail Investors",
+    "link": "https://www.hellenicshippingnews.com/capital-maritime-finance-historic-listing-on-euronext-athens-with-unprecedented-participation-from-retail-investors/",
+    "published": "2026-10-21T10:00:57+00:00",
+    "summary": "Capital Maritime Finance Corp. (“CMF”) has completed the most successful public offering in recent years, with the exception of Athens International Airport (AIA), marking the first-ever exclusive listing of a shipping company on the Regulated Market of Euronext Athens, with total demand reaching a record €1.1 billion.",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "EU Arctic Strategy: NGOs Welcome EU Ambition on on Cutting Shipping’s Arctic Black Carbon Emissions",
+    "link": "https://www.hellenicshippingnews.com/eu-arctic-strategy-ngos-welcome-eu-ambition-on-on-cutting-shippings-arctic-black-carbon-emissions/",
+    "published": "2026-10-21T10:00:55+00:00",
+    "summary": "Responding to today’s publication of the EU’s Arctic Strategy, which definitively states the EU’s intention to support International Maritime Organization (IMO) regulations that would regulate the impacts of black carbon emissions from ships on the Arctic, Dr Sian Prior, Lead Advisor to the Clean Arctic Alliance said: ",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Possible further delay to road transport’s inclusion in EU ETS causes serious concern",
+    "link": "https://www.hellenicshippingnews.com/possible-further-delay-to-road-transports-inclusion-in-eu-ets-causes-serious-concern/",
+    "published": "2026-10-21T10:00:53+00:00",
+    "summary": "Interferry, the global trade association representing the ferry shipping industry, is raising serious concerns over the current state of EU Emissions Trading System (ETS) negotiations and the persistent regulatory imbalance unfairly penalizing maritime transport. As member states push to further delay the EU ETS2 frame",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Transport of live animals by sea: New rules should improve safety for animals, seafarers and the environment",
+    "link": "https://www.hellenicshippingnews.com/transport-of-live-animals-by-sea-new-rules-should-improve-safety-for-animals-seafarers-and-the-environment/",
+    "published": "2026-10-21T10:00:51+00:00",
+    "summary": "Revised rules on the transport of live animals by sea are being negotiated in the EU. Danish Shipping wants to ensure good animal welfare, seafarer safety and a level playing field for everyone transporting animals by sea in the EU. EU Member States are making progress in negotiations on new rules for the transport of ",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Veson Nautical partners with Seaber to accelerate pre-fixture optimization in IMOS",
+    "link": "https://www.hellenicshippingnews.com/veson-nautical-partners-with-seaber-to-accelerate-pre-fixture-optimization-in-imos/",
+    "published": "2026-10-21T10:00:49+00:00",
+    "summary": "Maritime data and technology provider Veson Nautical and scheduling and optimization company Seaber today announced a new integration to connect voyage workflows, enabling an optimized plan to become a live estimate in one step. The integration connects Veson’s flagship solution IMOS with Seaber’s scheduling and optimi",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Maersk partners with L&T for its first planned drydocking in India",
+    "link": "https://www.hellenicshippingnews.com/maersk-partners-with-lt-for-its-first-planned-drydocking-in-india/",
+    "published": "2026-10-21T10:00:47+00:00",
+    "summary": "Maersk (Maersk) will undertake its first planned drydocking in India, with the Singapore-flagged container vessel Maersk Chattogram scheduled to enter L&T Shipbuilding’s Kattupalli Shipyard near Chennai, in October 2026. The activity marks the first operational milestone arising from the Memorandum of Understanding sig",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Fujairah bunker sales increased in September",
+    "link": "https://www.hellenicshippingnews.com/fujairah-bunker-sales-increased-in-september/",
+    "published": "2026-10-21T10:00:45+00:00",
+    "summary": "Increased sales of HSFO and LSMGO contributed to lifting Fujairah’s total bunker sales higher in September than in August, according to data compiled by Fujairah Oil Industry Zone (FOIZ) and S&P Global Commodity Insights. Changes in Fujairah bunker fuel sales from August to September: • Total sales up by 5% to 231,000 ",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "MMI Daily Iron Ore Index Report October 21 2026",
+    "link": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-october-21-2026/",
+    "published": "2026-10-21T10:00:43+00:00",
+    "summary": "Demand showed marginal improvement, but prices did not move consistently higher. Surveyed daily hot metal output rose to 2.3584 million mt on Oct 21, up 6,400 mt, and the blast furnace operating rate increased to 87.16%. The 61%, 58% and 65% port indices each rose 1 yuan and DCE most-traded held at 681.5 yuan/mt. In ..",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "China pulls out of port project in Sri Lanka",
+    "link": "https://www.hellenicshippingnews.com/china-pulls-out-of-port-project-in-sri-lanka/",
+    "published": "2026-10-21T10:00:43+00:00",
+    "summary": "A Chinese state-owned firm has withdrawn from a $392 million joint venture to develop a major logistics hub at Sri Lanka’s main seaport, the key local partner said on Monday. The Sri Lanka Ports Authority (SLPA) said China Merchants Port Holdings had decided not to proceed with the collaboration announced in 2023, but ",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Key auto shipping hub scores green milestone",
+    "link": "https://www.hellenicshippingnews.com/key-auto-shipping-hub-scores-green-milestone/",
+    "published": "2026-10-21T10:00:41+00:00",
+    "summary": "A roll-on/roll-off (Ro-Ro) vessel loaded with over 4,000 new energy vehicles for export to Europe departed on Friday from an automobile terminal in Guangzhou, capital of Guangdong province, after completing its refueling with 2,300 metric tons of methanol. This marked the first green methanol refueling operation for a ",
+    "source": "Hellenic Shipping News",
+    "kind": "market"
+   },
+   {
+    "title": "Australian fund takes control of UK ports giant in £10bn deal",
+    "link": "https://splash247.com/australian-fund-takes-control-of-uk-ports-giant-in-10bn-deal/",
+    "published": "2026-10-21T08:57:49+00:00",
+    "summary": "Australian infrastructure investor IFM Investors has agreed to acquire a controlling stake in Associated British Ports (ABP), Britain’s largest port operator, in a deal valuing the business at more than £10bn ($13.4bn). The transaction will see Canadian pension giants CPP Investments and OMERS sell their combined 63.88",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Shipping equities turn geopolitical risk into an advantage",
+    "link": "https://splash247.com/shipping-equities-turn-geopolitical-risk-into-an-advantage/",
+    "published": "2026-10-21T08:27:34+00:00",
+    "summary": "New research from investment bank Jefferies charts how shipping shares have shifted from being negatively correlated with geopolitical risk during the first decade of this century to moving increasingly in tandem with global instability since 2021. The new report is bullish on tankers, predicting that shares have furth",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "NATO boosts Black Sea surveillance amid attacks on shipping",
+    "link": "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/",
+    "published": "2026-10-21T08:19:36+00:00",
+    "summary": "NATO is deploying additional maritime patrol aircraft, drones and radar systems to the Black Sea following a series of deadly attacks on merchant shipping off Romania and Bulgaria. The move follows a meeting of the alliance’s North Atlantic Council in Brussels on Tuesday, with members also sending intelligence personne",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Iraqi Line returns to Gulf container trade after 50 years",
+    "link": "https://splash247.com/iraqi-line-returns-to-gulf-container-trade-after-50-years/",
+    "published": "2026-10-21T07:41:22+00:00",
+    "summary": "Iraq’s national shipping line is returning to scheduled container services in the Gulf after more than half a century, as the country seeks to rebuild maritime connections disrupted by the Strait of Hormuz crisis. According to Alphaliner, Iraqi Maritime Line is deploying the 902 teu Basrah on an eight-day shuttle linki",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Danaos linked to $218m boxship order in China",
+    "link": "https://splash247.com/danaos-linked-to-218m-boxship-order-in-china/",
+    "published": "2026-10-21T07:16:30+00:00",
+    "summary": "Greek owner Danaos has been linked to another $218m newbuilding investment in China, with brokers placing the John Coustas-led company behind a pair of 9,200 teu boxships at Shanghai Waigaoqiao Shipbuilding (SWS). According to Xclusiv Shipbrokers, the New York-listed owner has lined up two ships at the CSSC-controlled ",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Gestion Maritime makes ultramax debut with China order",
+    "link": "https://splash247.com/gestion-maritime-makes-ultramax-debut-with-china-order/",
+    "published": "2026-10-21T06:55:11+00:00",
+    "summary": "Monaco-based shipowner Gestion Maritime is moving into the ultramax segment with an order for three 64,000 dwt bulk carriers at China’s Nantong Xiangyu Shipbuilding & Offshore Engineering. The Danilo Fumarola-led company has booked the trio for delivery between late 2028 and early 2029, expanding beyond its traditional",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "BW LPG India offloads 18-year-old VLGC for over $80m",
+    "link": "https://splash247.com/bw-lpg-india-offloads-18-year-old-vlgc-for-over-80m/",
+    "published": "2026-10-21T04:24:14+00:00",
+    "summary": "New York- and Oslo-listed gas carrier giant BW LPG is cashing in again on strong secondhand values, agreeing to sell an 18-year-old VLGC for more than $80m as it presses ahead with a major fleet renewal programme. The company’s 52%-owned subsidiary, BW LPG India, has signed an agreement to sell the 2008-built, 84,601 c",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Norway Plans to Buy 20 Standardized Naval Vessels for Three Nations",
+    "link": "https://maritime-executive.com/article/norway-plans-to-buy-20-standardized-naval-vessels-for-three-nations",
+    "published": "2026-10-21T03:56:26+00:00",
+    "summary": "Norway has unveiled plans to procure up to 20 standardized government vessels that are designed to strengthen the capabilities of three allied nations...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Report: Despite Iran's Attacks, Gulf Oil Exports Exceed Prewar Levels",
+    "link": "https://maritime-executive.com/article/report-despite-iran-s-attacks-gulf-oil-exports-exceed-prewar-levels",
+    "published": "2026-10-21T03:22:44+00:00",
+    "summary": "Commodity intelligence firm Kpler reports that oil flows out of the Arabian Gulf have rebounded so well that they now exceed levels seen before the st...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "HarborLab: Why shipping’s husbandry bills are still stuck in Excel",
+    "link": "https://splash247.com/harborlab-why-shippings-husbandry-bills-are-still-stuck-in-excel/",
+    "published": "2026-10-21T03:00:00+00:00",
+    "summary": "Shipping has spent years tightening voyage costs, bunker procurement and commercial port expenses, but one sizeable part of the bill remains comparatively untouched: husbandry. For Antonis Malaxianakis, founder and CEO of Athens-based port cost management platform HarborLab, that blind spot is particularly evident arou",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "Woodside resumes Scarborough work after Greenpeace protest",
+    "link": "https://splash247.com/woodside-resumes-scarborough-work-after-greenpeace-protest/",
+    "published": "2026-10-21T02:40:00+00:00",
+    "summary": "Australian energy major Woodside has resumed commissioning at its Scarborough gas project offshore Western Australia after Greenpeace activists occupied the site over the weekend, forcing a temporary suspension of work. The company confirmed operations restarted after the remaining protesters were removed from the 70,0",
+    "source": "Splash247",
+    "kind": "market"
+   },
+   {
+    "title": "U.S. Navy Awards $300M Contract to Robotic-Inspection Startup Gecko",
+    "link": "https://maritime-executive.com/article/u-s-navy-awards-300m-contract-to-robotic-inspection-startup-gecko",
+    "published": "2026-10-21T02:14:35+00:00",
+    "summary": "Pittsburgh-based automated inspection company Gecko Robotics has won a $300 million IDIQ contract with the U.S. Navy to help fight the age-old enemy o...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Littoral Combat Ship Transits Past a Contested Reef, Angering China",
+    "link": "https://maritime-executive.com/article/littoral-combat-ship-transits-past-a-contested-reef-angering-china",
+    "published": "2026-10-21T01:27:04+00:00",
+    "summary": "At a time of heightened tensions between the Philippines and China, the Independence-class LCS USS Charleston conducted a transit near Sabina Shoal, a...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "New Zealand Opens First Round for Offshore Energy Feasibility Permits",
+    "link": "https://maritime-executive.com/article/new-zealand-opens-first-round-for-offshore-energy-feasibility-permits",
+    "published": "2026-10-20T23:16:51+00:00",
+    "summary": "New Zealand has moved quickly to open its first round for offshore renewable energy feasibility permit applications just weeks after it completed the...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Pemex Platform Catches Fire at Abkatun Field",
+    "link": "https://maritime-executive.com/article/pemex-platform-catches-fire-at-abkatun-field",
+    "published": "2026-10-20T22:36:54+00:00",
+    "summary": "On Monday, Mexican state oil company Pemex reported that it was fighting a fire on an unmanned satellite platform at a position about 60 nautical mile...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Deployable Energy Nuclear Power Application Wins 2026 SHIPPINGInsight Award",
+    "link": "https://maritime-executive.com/article/deployable-energy-nuclear-power-application-wins-2026-shippinginsight-award",
+    "published": "2026-10-20T22:25:49+00:00",
+    "summary": "[By: SHIPPINGInsightThe prestigious SHIPPINGInsight Innovation Award for 2026 was presented to John Baber, Vice President of Deployable Energy on Octo...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Major Investments Strengthen Gothenburg RoRo Terminal",
+    "link": "https://maritime-executive.com/article/major-investments-strengthen-gothenburg-roro-terminal",
+    "published": "2026-10-20T22:21:06+00:00",
+    "summary": "Expanded terminal areas, new rail connections and modernised quays are among the investments that have strengthened Gothenburg RoRo Terminal in recent...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "NOAA Selects Fugro to Provide Critical Geo-Data Supporting Maritime Safety",
+    "link": "https://maritime-executive.com/article/noaa-selects-fugro-to-provide-critical-geo-data-supporting-maritime-safety",
+    "published": "2026-10-20T22:14:27+00:00",
+    "summary": "Fugro has been selected by the National Oceanic and Atmospheric Administration (NOAA) to deliver critical seafloor mapping data along Florida's Atlant...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Australian Government Seizes Historic Ship and Orders Immediate Disposal",
+    "link": "https://maritime-executive.com/article/australian-government-seizes-historic-ship-and-orders-immediate-disposal",
+    "published": "2026-10-20T22:13:50+00:00",
+    "summary": "The Government of New South Wales and preservationists are battling over the fate of a historic little vessel, MV Cape Don, with the local government...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Wärtsilä Engines Selected for 2 Additional Inland Waterway Tugs in Brazil",
+    "link": "https://maritime-executive.com/article/wartsila-engines-selected-for-2-additional-inland-waterway-tugs-in-brazil",
+    "published": "2026-10-20T22:09:27+00:00",
+    "summary": "Technology group Wärtsilä will supply the engines for two new inland waterway pusher tugs being built by Brazilian shipyard Estaleiro Rio Maguari. The...",
+    "source": "Maritime Executive",
+    "kind": "market"
+   },
+   {
+    "title": "Coast Guard Cutter Munro Wraps Up Arctic Patrol After Tracking Chinese Research Ships",
+    "link": "https://gcaptain.com/coast-guard-cutter-munro-wraps-up-arctic-patrol-after-tracking-chinese-research-ships/",
+    "published": "2026-10-20T21:37:02+00:00",
+    "summary": "The U.S. Coast Guard Cutter Munro has returned to its homeport in Alameda, California, following a 112-day patrol across the Bering Sea and Arctic Ocean that included monitoring Chinese research...",
+    "source": "gCaptain",
+    "kind": "market"
+   },
+   {
+    "title": "Army Corps Moves to Overhaul How U.S. Dredging Projects Are Awarded",
+    "link": "https://gcaptain.com/army-corps-moves-to-overhaul-how-u-s-dredging-projects-are-awarded/",
+    "published": "2026-10-20T21:22:37+00:00",
+    "summary": "The U.S. Army Corps of Engineers is overhauling how it manages dredging contracts nationwide, moving toward a centralized approach intended to reduce costs, improve scheduling and make better use of...",
+    "source": "gCaptain",
+    "kind": "market"
+   },
+   {
+    "title": "Iran Claims More Tankers Hit Mines in Hormuz, But Evidence Remains Elusive",
+    "link": "https://gcaptain.com/iran-claims-more-tankers-hit-mines-in-hormuz-but-evidence-remains-elusive/",
+    "published": "2026-10-20T17:46:36+00:00",
+    "summary": "Iran’s Revolutionary Guards claimed Tuesday that a supertanker caught fire after striking a naval mine south of the Strait of Hormuz, adding to a series of similar claims that have...",
+    "source": "gCaptain",
+    "kind": "market"
+   },
+   {
+    "title": "After 354 Accidents, Shipping Industry Urged to Rethink Enclosed Space Safety",
+    "link": "https://gcaptain.com/after-354-accidents-shipping-industry-urged-to-rethink-enclosed-space-safety/",
+    "published": "2026-10-20T17:27:47+00:00",
+    "summary": "A new survey of more than 900 seafarers has exposed a persistent gap between safety procedures and the realities of working aboard ships, prompting renewed calls for action to prevent...",
+    "source": "gCaptain",
+    "kind": "market"
+   },
+   {
+    "title": "Trump’s Plan to Revive Sanctioned Tankers Faces Tough Sell",
+    "link": "https://gcaptain.com/trumps-plan-to-revive-sanctioned-tankers-faces-tough-sell/",
+    "published": "2026-10-20T16:27:14+00:00",
+    "summary": "(Bloomberg) — A US plan to rehabilitate sanctioned tankers to boost oil supply may attract only a sliver of the dark fleet, as existing contracts, complex compliance checks and sky-high...",
+    "source": "gCaptain",
+    "kind": "market"
+   }
+  ]
+ },
+ "diagnostics": {
+  "errors": [
+   "bunkers: https://shipandbunker.com/prices failed: HTTP 525"
+  ],
+  "metrics_fresh": 2,
+  "metrics_total": 16,
+  "rates_active": 0,
+  "rates_total": 12
+ }
+}
