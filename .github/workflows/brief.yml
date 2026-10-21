@@ -36,10 +36,13 @@ jobs:
         # The collector exits non-zero when a source fails but still writes a
         # good snapshot, so we record the status and keep going rather than
         # throwing away a run because one feed was down.
+        shell: bash
         run: |
           set +e
-          python3 collect/run.py | tee /tmp/collect.log
-          echo "COLLECT_EXIT=$?" >> "$GITHUB_ENV"
+          python3 collect/run.py 2>&1 | tee /tmp/collect.log
+          # ${PIPESTATUS[0]} is the collector's own status; plain $? here would
+          # report tee's, which is always 0.
+          echo "COLLECT_EXIT=${PIPESTATUS[0]}" >> "$GITHUB_ENV"
           set -e
 
       - name: Commit the snapshot
@@ -58,7 +61,6 @@ jobs:
         if: always()
         run: |
           if [ "${COLLECT_EXIT:-0}" != "0" ]; then
-            echo "::warning::One or more data sources failed. The dashboard still "\
-                 "published using the previous values, marked stale. See the log above."
+            echo "::warning::One or more data sources failed. The dashboard still published, using previous values marked stale."
           fi
           grep -E "unavailable|failed|WARNING" /tmp/collect.log || true
