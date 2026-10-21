@@ -20,10 +20,12 @@ import datetime as dt
 import json
 import pathlib
 import sys
+import textwrap
 
 sys.path[:0] = [str(pathlib.Path(__file__).resolve().parent),
                 str(pathlib.Path(__file__).resolve().parent / "sources")]
 
+import brief as brief_mod  # noqa: E402
 import registry as reg  # noqa: E402
 from bdi import fetch_bdi  # noqa: E402
 from bunkers import fetch_all_grades  # noqa: E402
@@ -263,7 +265,10 @@ def collect_news():
 
     try:
         resolve_issuers(reg.OSLO_TICKERS, reg.OSLO_INACTIVE, log=log)
-        company += fetch_oslo(reg.OSLO_TICKERS, log=log)
+        company += fetch_oslo(reg.OSLO_TICKERS, log=log,
+                              rank_map=reg.OSLO_CATEGORY_RANK,
+                              routine=reg.OSLO_ROUTINE_CATEGORIES,
+                              routine_rank=reg.OSLO_ROUTINE_RANK)
     except Exception as exc:  # noqa: BLE001
         note_error("oslo", exc)
 
@@ -273,7 +278,7 @@ def collect_news():
         note_error("sec", exc)
 
     try:
-        market += fetch_feeds(reg.FEEDS, log=log)
+        market += fetch_feeds(reg.FEEDS, log=log, nordic_terms=reg.NORDIC_TERMS)
     except Exception as exc:  # noqa: BLE001
         note_error("rss", exc)
 
@@ -300,13 +305,47 @@ def merge_archive(fresh_company, fresh_market):
             # Later wins, so a re-fetch can correct an earlier parse.
             seen[key] = item
         kept = [i for i in seen.values() if (i.get("published") or "9999") >= cutoff]
-        kept.sort(key=lambda i: i.get("published") or "", reverse=True)
+        if bucket == "company":
+            # Substantive filings first, routine compliance notices after, each
+            # group newest-first. Sorting purely by time buries a fleet deal
+            # under three shareholding disclosures filed an hour later.
+            kept.sort(key=lambda i: (i.get("rank", 4), _neg_time(i)))
+        else:
+            kept.sort(key=lambda i: i.get("published") or "", reverse=True)
         merged[bucket] = kept
         log(f"  archive: {bucket}: {len(fresh)} fresh, {len(kept)} kept in {ARCHIVE_DAYS}-day window")
     return merged
 
 
 # --------------------------------------------------------------------------- #
+def _neg_time(item):
+    """Sort key that puts newer items first inside a rank group."""
+    return tuple(-ord(c) for c in (item.get("published") or ""))
+
+
+def interleave_by_source(items, per_round=1):
+    """Round-robin across sources so no single publisher dominates the column.
+
+    Caps are applied at fetch time, but a straight time sort still clusters one
+    source together when it posts in bursts. This spreads them out.
+    """
+    buckets = {}
+    for it in items:
+        buckets.setdefault(it.get("source", "?"), []).append(it)
+    for rows in buckets.values():
+        rows.sort(key=lambda i: i.get("published") or "", reverse=True)
+    # Sources whose newest item is most recent go first in each round.
+    order = sorted(buckets, key=lambda s: buckets[s][0].get("published") or "", reverse=True)
+
+    out = []
+    while any(buckets[s] for s in order):
+        for s in order:
+            for _ in range(per_round):
+                if buckets[s]:
+                    out.append(buckets[s].pop(0))
+    return out
+
+
 def market_tone(metrics):
     """A one-line summary built from arithmetic, not a language model."""
     moved = [m for m in metrics if m.get("change") not in (None, 0) and not m["stale"]]
@@ -324,6 +363,8 @@ def market_tone(metrics):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print findings, write nothing")
+    ap.add_argument("--show-prompt", action="store_true",
+                    help="print the written brief's prompt instead of calling the API")
     args = ap.parse_args()
 
     log(f"shipping-brief collector — {now_iso()}")
@@ -337,13 +378,18 @@ def main():
     company, market = collect_news()
     archive = merge_archive(company, market)
 
+    company_items = archive["company"][:NEWS_SHOWN]
+    market_items = interleave_by_source(archive["market"])[:NEWS_SHOWN]
+    nordic_n = sum(1 for i in market_items if i.get("nordic"))
+    log(f"  news: {len(market_items)} market items across "
+        f"{len({i.get('source') for i in market_items})} sources, {nordic_n} Nordic")
+
     snapshot = {
         "generated_at": now_iso(),
         "tone": market_tone(metrics),
         "metrics": metrics,
         "rates": rates,
-        "news": {"company": archive["company"][:NEWS_SHOWN],
-                 "market": archive["market"][:NEWS_SHOWN]},
+        "news": {"company": company_items, "market": market_items},
         "diagnostics": {
             "errors": errors,
             "metrics_fresh": sum(1 for m in metrics if not m["stale"]),
@@ -353,6 +399,11 @@ def main():
         },
     }
 
+    log("brief:")
+    written = brief_mod.generate(snapshot, company_items, market_items,
+                                 log=log, dry_run=args.show_prompt)
+    snapshot["brief"] = written
+
     print()
     print(f"{'metric':<16} {'value':>12}  {'chg':>9}  {'age':>6}  state")
     for m in metrics:
@@ -361,6 +412,9 @@ def main():
         age = f"{m['age_days']:.1f}d" if m["age_days"] is not None else "—"
         print(f"{m['id']:<16} {val:>12}  {chg:>9}  {age:>6}  {'STALE' if m['stale'] else 'ok'}")
     print(f"\ntone: {snapshot['tone']}")
+    if snapshot.get("brief"):
+        print("\nwritten brief:")
+        print(textwrap.indent(snapshot["brief"]["text"], "  "))
     print(f"news: {len(snapshot['news']['company'])} company, {len(snapshot['news']['market'])} market")
 
     if args.dry_run:

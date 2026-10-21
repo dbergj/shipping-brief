@@ -294,3 +294,42 @@ footer a { color: var(--text-secondary); }
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
+
+/* ---------- written brief ---------- */
+.briefbox {
+  margin-top: 14px; background: var(--surface-1);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px 18px 14px;
+}
+.brief-head { display: flex; align-items: center; gap: 9px; margin-bottom: 9px; }
+.brief-label {
+  font-size: 11.5px; text-transform: uppercase; letter-spacing: .07em;
+  font-weight: 650; color: var(--text-muted);
+}
+.briefbox p { margin: 0 0 10px; font-size: 14.5px; line-height: 1.6; color: var(--text-primary); }
+.briefbox p:last-of-type { margin-bottom: 10px; }
+.brief-foot {
+  font-size: 12px; color: var(--text-muted); border-top: 1px solid var(--border);
+  padding-top: 9px;
+}
+
+/* ---------- tags ---------- */
+.tag {
+  display: inline-flex; align-items: center; font-size: 10.5px; font-weight: 600;
+  letter-spacing: .04em; text-transform: uppercase; padding: 2px 6px;
+  border-radius: 5px; background: var(--surface-2); color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+.tag.nordic { color: var(--chip-ink); background: var(--accent-soft); border-color: transparent; }
+.tag.ai { color: var(--chip-ink); background: var(--accent-soft); border-color: transparent; }
+
+/* ---------- news summaries ---------- */
+.item .summary {
+  margin: 6px 0 0; font-size: 13px; line-height: 1.52; color: var(--text-secondary);
+}
+.item.routine { background: var(--surface-0); }
+.item.routine .headline a { color: var(--text-secondary); }
+
+/* A company reference reads the same as any other explainable word; the solid
+   underline distinguishes an organisation from a defined term. */
+.term.is-co { border-bottom-style: solid; }

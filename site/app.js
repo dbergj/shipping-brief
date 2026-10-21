@@ -73,24 +73,47 @@ const timeText = (iso) => {
 
 /* ------------------------------------------------------------- term matching */
 function buildTermIndex() {
+  // One matcher covers glossary terms AND company names, so a market headline
+  // explains its jargon and its companies in the same pass. Keyed by the
+  // lowercased surface form; `kind` says which kind of card to open.
   const entries = [];
+
   for (const t of state.glossary) {
     state.byTerm.set(t.term.toLowerCase(), t);
-    entries.push([t.term, t]);
+    entries.push({ text: t.term, kind: "term", key: t.term });
     for (const a of t.aliases || []) {
       state.byTerm.set(a.toLowerCase(), t);
-      entries.push([a, t]);
+      entries.push({ text: a, kind: "term", key: t.term });
     }
   }
-  // Longest first, so "Baltic Dry Index" wins over "Baltic Exchange" fragments
-  // and "clean products" is never split into "clean".
-  entries.sort((a, b) => b[0].length - a[0].length);
-  const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  state.termRe = new RegExp("\\b(" + entries.map(e => esc(e[0])).join("|") + ")\\b", "gi");
 
   for (const c of state.companies) {
     for (const tk of c.tickers) state.byTicker.set(tk.toUpperCase(), c);
+    for (const name of c.match || [c.name]) {
+      entries.push({
+        text: name, kind: "company", key: c.name,
+        // Short all-caps names like DHT, ZIM, MSC and BHP are only safe to match
+        // when the case matches too, or they would fire inside ordinary words.
+        exactCase: name.length <= 4 && name === name.toUpperCase(),
+      });
+    }
   }
+
+  state.matchIndex = new Map();
+  for (const e of entries) {
+    const k = e.text.toLowerCase();
+    // A glossary term wins over a company of the same name — "VLCC" should
+    // explain the vessel class, and the company card is reachable from it.
+    if (!state.matchIndex.has(k) || e.kind === "term") state.matchIndex.set(k, e);
+  }
+
+  // Longest first, so "Baltic Dry Index" wins over "Baltic Exchange" fragments,
+  // "clean products" is never split into "clean", and "Maersk Tankers" is not
+  // swallowed by "Maersk".
+  const surfaces = [...state.matchIndex.values()].sort((a, b) => b.text.length - a.text.length);
+  const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  state.termRe = new RegExp("(?<![\\w.])(" + surfaces.map(e => esc(e.text)).join("|") + ")(?![\\w])", "gi");
+
   for (const l of state.links) state.byMetric.set(l.from, l);
 }
 
@@ -102,8 +125,10 @@ function linkify(root) {
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
     acceptNode(node) {
       if (!node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
-      // Never nest inside an existing control.
-      if (node.parentElement.closest("button, .term, .chip")) return NodeFilter.FILTER_REJECT;
+      // Never nest inside an existing control, and never rewrite the metadata
+      // row — "LNG Prime" is a publication, not the term LNG.
+      if (node.parentElement.closest("button, .term, .chip, .meta, .brief-foot, caption, th"))
+        return NodeFilter.FILTER_REJECT;
       return NodeFilter.FILTER_ACCEPT;
     }
   });
@@ -115,16 +140,22 @@ function linkify(root) {
     state.termRe.lastIndex = 0;
     let m, last = 0, frag = null;
     while ((m = state.termRe.exec(src))) {
-      const key = m[0].toLowerCase();
-      const entry = state.byTerm.get(key);
-      if (!entry || seen.has(entry.term)) continue;
-      seen.add(entry.term);
+      const entry = state.matchIndex.get(m[0].toLowerCase());
+      if (!entry) continue;
+      if (entry.exactCase && m[0] !== entry.text) continue;
+      if (seen.has(entry.key)) continue;
+      seen.add(entry.key);
       frag = frag || document.createDocumentFragment();
       if (m.index > last) frag.appendChild(document.createTextNode(src.slice(last, m.index)));
-      const b = el("button", "term", m[0]);
+      const b = el("button", entry.kind === "company" ? "term is-co" : "term", m[0]);
       b.type = "button";
-      b.dataset.term = entry.term;
-      b.setAttribute("aria-label", `${m[0]} — show definition`);
+      if (entry.kind === "company") {
+        b.dataset.company = entry.key;
+        b.setAttribute("aria-label", `${m[0]} — about this company`);
+      } else {
+        b.dataset.term = entry.key;
+        b.setAttribute("aria-label", `${m[0]} — show definition`);
+      }
       frag.appendChild(b);
       last = m.index + m[0].length;
     }
@@ -133,19 +164,6 @@ function linkify(root) {
       node.parentNode.replaceChild(frag, node);
     }
   }
-}
-
-/* Tickers are matched as whole words against the curated list, which is why a
-   bare "VLCC" in a headline resolves to the vessel class via the glossary while
-   the company of that ticker is reachable from its own card. */
-function tickerChips(container, text) {
-  const found = new Set();
-  const words = (text || "").toUpperCase().match(/\b[A-Z0-9.]{2,10}\b/g) || [];
-  for (const w of words) {
-    const c = state.byTicker.get(w);
-    if (c && !found.has(c.name)) found.add(c.name);
-  }
-  return [...found];
 }
 
 /* ------------------------------------------------------------------ popovers */
@@ -350,7 +368,8 @@ function renderKpis() {
 }
 
 function newsItem(it) {
-  const d = el("div", "item");
+  const d = el("div", "item" + (it.routine ? " routine" : ""));
+
   const meta = el("div", "meta");
   meta.appendChild(el("span", null, it.source));
   if (it.ticker) {
@@ -358,9 +377,17 @@ function newsItem(it) {
     chip.type = "button";
     const c = state.byTicker.get(it.ticker.toUpperCase());
     if (c) chip.dataset.company = c.name; else chip.disabled = true;
+    chip.title = c ? `${c.name} — about this company` : it.ticker;
     meta.appendChild(chip);
   }
   if (it.category) meta.appendChild(el("span", null, it.category));
+  if (it.nordic && it.source !== "Oslo Børs") meta.appendChild(el("span", "tag nordic", "Nordic"));
+  if (it.routine) {
+    const r = el("span", "tag", "routine filing");
+    r.title = "A legally required disclosure, such as a large holder crossing an " +
+              "ownership threshold. Required, but rarely the day's news.";
+    meta.appendChild(r);
+  }
   const t = timeText(it.published);
   if (t) meta.appendChild(el("span", null, t));
   d.appendChild(meta);
@@ -373,19 +400,8 @@ function newsItem(it) {
   h.appendChild(a);
   d.appendChild(h);
 
-  // Company chips for names mentioned in the headline but not already tagged.
-  const extra = tickerChips(d, it.title).filter(n => !it.ticker || state.byTicker.get(it.ticker.toUpperCase())?.name !== n);
-  if (extra.length) {
-    const row = el("div", "rel");
-    row.style.marginTop = "6px";
-    for (const n of extra.slice(0, 3)) {
-      const chip = el("button", "chip", n);
-      chip.type = "button";
-      chip.dataset.company = n;
-      row.appendChild(chip);
-    }
-    d.appendChild(row);
-  }
+  // The summary is here so the page is readable without opening every article.
+  if (it.summary) d.appendChild(el("p", "summary", it.summary));
   return d;
 }
 
@@ -399,7 +415,8 @@ function renderNews() {
     host.innerHTML = "";
     countEl.textContent = items.length ? `${items.length} items` : "";
     if (!items.length) { host.appendChild(el("div", "empty", emptyMsg)); continue; }
-    for (const it of items.slice(0, 18)) host.appendChild(newsItem(it));
+    const shown = items.slice(0, key === "market" ? 22 : 18);
+    for (const it of shown) host.appendChild(newsItem(it));
     linkify(host);
   }
 }
@@ -526,6 +543,31 @@ function renderLearn() {
   $("#coCount").textContent = `${cos.length} of ${state.companies.length}`;
 }
 
+function renderBrief() {
+  const host = $("#briefBox");
+  const b = state.data.brief;
+  if (!b || !b.text) { host.hidden = true; return; }
+  host.hidden = false;
+  host.innerHTML = "";
+
+  const head = el("div", "brief-head");
+  head.appendChild(el("span", "brief-label", "Today's brief"));
+  const tag = el("span", "tag ai", "AI-written");
+  tag.title = `Written by ${b.model} from only the data on this page. ` +
+              "Everything else on the dashboard is collected directly from its source.";
+  head.appendChild(tag);
+  host.appendChild(head);
+
+  for (const para of b.text.split(/\n{2,}/)) {
+    if (para.trim()) host.appendChild(el("p", null, para.trim()));
+  }
+  host.appendChild(el("div", "brief-foot",
+    "Written from the numbers and headlines on this page only — it has no other " +
+    "sources and is told to say so when the data does not explain a move. Check it " +
+    "against the figures below."));
+  linkify(host);
+}
+
 function renderDiagnostics() {
   const d = state.data.diagnostics || {};
   $("#diagSummary").textContent =
@@ -576,6 +618,7 @@ async function boot() {
   $("#asof").textContent = "· updated " + timeText(state.data.generated_at);
   $("#tone").textContent = state.data.tone || "";
 
+  renderBrief();
   renderKpis();
   renderNews();
   renderRates();

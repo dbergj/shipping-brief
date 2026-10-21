@@ -27,12 +27,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      # No pip install step: the collector deliberately uses only the standard
-      # library, so there are no dependencies to break over time.
+      # The data collection itself uses only the standard library. The single
+      # dependency is the Anthropic SDK, used once a day to write the brief —
+      # and the run still succeeds without it.
+      # Skipped entirely when no key is configured — step-level `env` is not
+      # available to that same step's `if`, so the secret is tested directly.
+      - name: Install the Anthropic SDK (only used for the written brief)
+        if: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+        run: pip install --quiet anthropic
+
       - name: Collect today's data
         env:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         # The collector exits non-zero when a source fails but still writes a
         # good snapshot, so we record the status and keep going rather than
         # throwing away a run because one feed was down.

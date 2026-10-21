@@ -112,12 +112,49 @@ MANUAL_RATES = [
 ]
 
 # --- News sources -----------------------------------------------------------
+# `cap` is how many items each feed may contribute to a day's brief. Without it
+# Hellenic alone supplies roughly half the page simply because it publishes most
+# often, which crowds out everything else.
 FEEDS = [
-    dict(name="gCaptain", url="https://gcaptain.com/feed/", kind="rss"),
-    dict(name="Splash247", url="https://splash247.com/feed/", kind="rss"),
-    dict(name="Hellenic Shipping News", url="https://www.hellenicshippingnews.com/feed/", kind="rss"),
+    dict(name="gCaptain", url="https://gcaptain.com/feed/", kind="rss", cap=6),
+    dict(name="Splash247", url="https://splash247.com/feed/", kind="rss", cap=6),
+    dict(name="Hellenic Shipping News", url="https://www.hellenicshippingnews.com/feed/", kind="rss", cap=5),
     # Maritime Executive serves Atom (<entry>), not RSS (<item>).
-    dict(name="Maritime Executive", url="https://maritime-executive.com/articles.rss", kind="atom"),
+    dict(name="Maritime Executive", url="https://maritime-executive.com/articles.rss", kind="atom", cap=5),
+    dict(name="Seatrade Maritime", url="https://www.seatrade-maritime.com/rss.xml", kind="rss", cap=5),
+    dict(name="MarineLink", url="https://www.marinelink.com/news/rss", kind="rss", cap=4),
+    dict(name="LNG Prime", url="https://lngprime.com/feed/", kind="rss", cap=4),
+    dict(name="Bunkerspot", url="https://www.bunkerspot.com/rss", kind="rss", cap=4),
+]
+
+# Publications with a Norwegian or Nordic desk that have NO public feed. Kept as
+# documentation so nobody re-tests them hoping for a different answer:
+# TradeWinds, Upstream and Fiskeribladet (all NHST), ShippingWatch, Finansavisen
+# and Dagens Næringsliv are subscription products whose /rss paths serve the
+# site's HTML shell. Skipsrevyen, Sysla and maritime.no publish no feed at all.
+# E24 does publish one, but its terms of use explicitly forbid supplying the
+# content to large language models, which this project's daily brief would do.
+# The strongest free Norwegian signal we have is the Oslo Børs filings above.
+NO_PUBLIC_FEED = {
+    "TradeWinds": "subscription only (NHST); no public RSS",
+    "Upstream": "subscription only (NHST); no public RSS",
+    "ShippingWatch": "subscription only; /rss serves the site shell",
+    "E24": "has RSS, but its terms forbid LLM processing of the content",
+    "Skipsrevyen / Sysla / maritime.no": "no feed published",
+}
+
+# Terms that mark a story as Nordic-relevant, so the brief can surface the
+# Norwegian angle even though the sources are international.
+NORDIC_TERMS = [
+    "norway", "norwegian", "norge", "norsk", "oslo", "bergen", "stavanger",
+    "haugesund", "ålesund", "aalesund", "kristiansand", "trondheim",
+    "nordic", "scandinavia", "fredriksen", "høegh", "hoegh", "wallenius",
+    "wilhelmsen", "klaveness", "odfjell", "stolt", "grieg", "solstad",
+    "knutsen", "ugland", "equinor", "dnv", "kongsberg", "nhst", "tradewinds",
+    "euronext oslo", "oslo børs", "oslo bors", "nok ", "nkr",
+    # Nordic neighbours whose shipping is read closely from Oslo
+    "denmark", "danish", "copenhagen", "maersk", "torm", "norden", "dfds",
+    "sweden", "swedish", "stena", "gothenburg", "finland", "finnish",
 ]
 
 OSLO_NEWS_URL = "https://api3.oslo.oslobors.no/v1/newsreader/list?category=&issuer=&messageTitle="
@@ -179,6 +216,28 @@ SEC_COMPANIES = [
 ]
 
 SEC_FORMS_KEPT = {"6-K", "8-K"}
+
+# Oslo Borse tags every announcement with a category. Some are real news; others
+# are routine compliance filings that would otherwise dominate the company feed —
+# a bank crossing a 5% ownership threshold is legally notifiable but is not the
+# story of the day. Lower rank sorts first; "routine" rows are kept but grouped
+# below the substantive ones and tagged in the page.
+OSLO_CATEGORY_RANK = {
+    "INSIDE INFORMATION": 0,
+    "HALF YEAR FINANCIAL REPORT": 1,
+    "ANNUAL FINANCIAL REPORT": 1,
+    "ADDITIONAL REGULATED INFORMATION REQUIRED TO BE DISCLOSED UNDER THE LAWS OF A MEMBER STATE": 2,
+    "NON-REGULATORY PRESS RELEASES": 2,
+    "PROSPECTUS / ADMISSION DOCUMENT": 3,
+}
+OSLO_ROUTINE_CATEGORIES = {
+    "MAJOR SHAREHOLDINGS NOTIFICATION",
+    "ADJUSTMENT OF INTEREST RATE",
+    "ACQUISITION OR DISPOSAL OF AN ISSUER'S OWN SHARES",
+    "MANDATORY NOTIFICATION OF TRADE",
+    "MANDATORY NOTIFICATION OF TRADE PRIMARY INSIDERS",
+}
+OSLO_ROUTINE_RANK = 8
 
 ALL_IDS = ([m["id"] for m in METRICS] + [m["id"] for m in DERIVED]
            + [m["id"] for m in MANUAL_RATES])

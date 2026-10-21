@@ -39,6 +39,26 @@ right to make it run immediately instead of waiting until tomorrow morning.
 If something looks wrong, the page itself tells you: open **Data sources and status**
 at the bottom, which lists exactly which sources worked and which didn't.
 
+### Optional: the written morning brief
+
+The dashboard can open with a few paragraphs explaining what happened and why —
+written each morning by Claude from the numbers and headlines on the page. It is
+the only part of this project that uses AI, and it is strictly fenced in: it sees
+only the data this repository collected, it is told never to invent a reason for a
+price move, and it must say "the data here does not show why" when the cause isn't
+in front of it. It never replaces the numbers; it sits above them, labelled.
+
+To switch it on:
+
+1. Get an API key at <https://console.anthropic.com>. This one costs money —
+   roughly **$1-2 a month** at one brief a day. Everything else here is free.
+2. In your repository: **Settings** → **Secrets and variables** → **Actions** →
+   **New repository secret**.
+3. Name it `ANTHROPIC_API_KEY`, paste the key, click **Add secret**.
+
+Leave it unset and the dashboard works exactly as before, with the one-line
+automatic summary instead. Nothing breaks.
+
 ### Optional: better oil and gas prices
 
 The dashboard reads oil and gas prices from Yahoo Finance, which is free but
@@ -58,7 +78,11 @@ You never see the key again and it isn't visible to anyone else.
 ## How to use the dashboard
 
 - **Underlined words** are explained — click any of them. The explanation also says
-  *why it matters*, which is usually the part that teaches you something.
+  *why it matters*, which is usually the part that teaches you something. Company
+  names are underlined too, in both news columns, with a solid rather than dotted
+  line; clicking one opens what that company does and what drives it.
+- **Every headline carries a summary**, so you can read the page without opening
+  the articles.
 - **Click a KPI tile** to see what that number moves and why. Brent → bunker prices
   → tanker earnings, with the reasoning spelled out.
 - **Click a company ticker** (the little blue chips) for what the company does, where
@@ -95,12 +119,37 @@ Nothing is ever estimated or invented to fill a gap. A missing number stays miss
 | What | Source | Cost |
 |---|---|---|
 | Brent, WTI, gas, coal, product prices | Yahoo Finance, US EIA as backup | free |
+| Written morning brief | Claude API (optional) | ~$1-2/month |
 | Bunker fuel prices | Ship & Bunker | free |
 | Baltic Dry Index (headline only) | Hellenic Shipping News | free |
 | Company announcements | Euronext Oslo Børs NewsWeb API | free |
 | US company filings (6-K, 8-K) | SEC EDGAR | free |
-| Trade press headlines | gCaptain, Splash247, Hellenic, Maritime Executive | free |
+| Trade press headlines | gCaptain, Splash247, Hellenic, Maritime Executive, Seatrade, MarineLink, LNG Prime, Bunkerspot | free |
 | Baltic sub-indices, per-route TCE | Baltic Exchange | £3,420/yr — not used |
+
+### Why there is no TradeWinds
+
+TradeWinds is the obvious Norwegian-view source and it has no public feed — it is
+a subscription product from NHST, and its `/rss` path serves the website rather
+than articles. The same is true of Upstream, ShippingWatch, Finansavisen and
+Dagens Næringsliv. Skipsrevyen, Sysla and maritime.no publish no feed at all. E24
+does publish one, but its terms of use explicitly forbid supplying the content to
+a language model, which the written brief would do — so it is deliberately left
+out. All of this is recorded in `collect/registry.py` under `NO_PUBLIC_FEED` so
+nobody re-tests it hoping for a different answer.
+
+**If you have BI access, check whether the library licenses TradeWinds or
+Clarksons.** That would be the single biggest upgrade available to this project,
+and it would cost you nothing.
+
+What the dashboard does instead:
+
+- **Oslo Børs filings are the Norwegian view** — official disclosure from the
+  Norwegian-listed owners, which is the primary source TradeWinds itself reports on.
+- Stories touching Norway or the Nordics are tagged **Nordic** wherever they
+  appear, using a keyword list covering Norwegian ports, owners and companies.
+- Each publication is capped so the most prolific one cannot crowd out the rest,
+  and the column is interleaved across sources.
 
 ---
 
@@ -111,9 +160,11 @@ Nothing is ever estimated or invented to fill a gap. A missing number stays miss
 collect/run.py                fetches everything, writes a snapshot, commits it
 collect/registry.py           the one file listing every metric and source
 collect/sources/              one small adapter per source
+collect/brief.py              the only place AI is used — writes the morning brief
 content/                      the glossary, company cards and causal map
 data/latest.json              what the page reads
 data/history/                 one file per day — this is the historical record
+data/sec_cache.json           filing headlines already read, so we fetch each once
 index.html + site/            the page itself
 ```
 
@@ -124,6 +175,8 @@ Design rules that keep it from breaking:
   and flagged stale. A bad day degrades; it doesn't break.
 - **Nothing is invented.** No estimates, no model-generated figures. The glossary and
   company cards are hand-written and stored as plain files you can correct yourself.
+  The one AI-written element is labelled as such, is fed only this repository's own
+  data, and is instructed to admit when the data does not explain a move.
 - **The commit history is the database.** Each run saves a dated snapshot, so the
   historical record builds itself with no database to run.
 

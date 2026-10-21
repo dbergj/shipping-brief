@@ -79,8 +79,15 @@ def _iso(raw):
         return None
 
 
-def fetch_oslo(tickers, log=print):
-    """Return announcements whose issuerSign is in `tickers` (dict or set)."""
+def fetch_oslo(tickers, log=print, rank_map=None, routine=(), routine_rank=8):
+    """Return announcements whose issuerSign is in `tickers` (dict or set).
+
+    Each announcement carries a `rank` and a `routine` flag derived from the
+    exchange's own category. A bank crossing a 5% ownership threshold is a
+    legally required filing but it is not the day's news, and on a thin day
+    those notifications would otherwise be the entire company feed.
+    """
+    rank_map = rank_map or {}
     data = fetch_json(LIST_URL)
     messages = ((data or {}).get("data") or {}).get("messages") or []
     if not messages:
@@ -91,17 +98,46 @@ def fetch_oslo(tickers, log=print):
         sign = (m.get("issuerSign") or "").upper()
         if sign not in tickers:
             continue
-        cats = m.get("category") or []
-        category = cats[0].get("category_en") if cats else None
+        cats = [c.get("category_en") or c.get("category_no") for c in (m.get("category") or [])]
+        cats = [c for c in cats if c]
+        category = cats[0] if cats else None
+        is_routine = any(c in routine for c in cats)
+        rank = routine_rank if is_routine else min(
+            (rank_map.get(c, 4) for c in cats), default=4)
+
         out.append({
             "title": (m.get("title") or "").strip(),
             "link": MESSAGE_URL.format(id=m.get("messageId") or m.get("id")),
             "published": _iso(m.get("publishedTime")),
             "source": "Oslo Børs",
             "ticker": sign,
-            "company": m.get("issuerName") or tickers.get(sign) if isinstance(tickers, dict) else sign,
-            "category": category,
+            "company": m.get("issuerName") or (tickers.get(sign) if isinstance(tickers, dict) else sign),
+            "category": _pretty(category),
             "kind": "company",
+            "routine": is_routine,
+            "rank": rank,
+            "nordic": True,
         })
-    log(f"  oslo: {len(out)} shipping announcements out of {len(messages)} messages")
+    n_routine = sum(1 for o in out if o["routine"])
+    log(f"  oslo: {len(out)} shipping announcements out of {len(messages)} messages "
+        f"({n_routine} routine)")
     return out
+
+
+def _pretty(category):
+    """Exchange categories are shouted in full legalese; shorten for display."""
+    if not category:
+        return None
+    mapping = {
+        "MAJOR SHAREHOLDINGS NOTIFICATION": "Shareholding disclosure",
+        "ADDITIONAL REGULATED INFORMATION REQUIRED TO BE DISCLOSED UNDER THE LAWS OF A MEMBER STATE":
+            "Regulated information",
+        "ACQUISITION OR DISPOSAL OF AN ISSUER'S OWN SHARES": "Own-share transaction",
+        "HALF YEAR FINANCIAL REPORT": "Half-year report",
+        "ANNUAL FINANCIAL REPORT": "Annual report",
+        "NON-REGULATORY PRESS RELEASES": "Press release",
+        "INSIDE INFORMATION": "Inside information",
+        "PROSPECTUS / ADMISSION DOCUMENT": "Prospectus",
+        "ADJUSTMENT OF INTEREST RATE": "Interest rate adjustment",
+    }
+    return mapping.get(category, category.title())
