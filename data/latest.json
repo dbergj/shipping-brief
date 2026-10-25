@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T05:59:29+00:00",
+ "generated_at": "2026-10-25T06:01:27+00:00",
  "tone": "4 of 4 tracked prices rose and 0 fell. Biggest mover: VLSFO Singapore +2.7% to 963.00 USD/t.",
  "metrics": [
   {
@@ -14,7 +14,7 @@
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "yahoo:BZ=F",
    "stale": true,
-   "age_days": 2.62
+   "age_days": 3.62
   },
   {
    "id": "wti",
@@ -98,7 +98,7 @@
    "as_of": "2026-10-21T14:28:59+00:00",
    "source": "yahoo:RB=F",
    "stale": true,
-   "age_days": 2.65
+   "age_days": 3.65
   },
   {
    "id": "bdry",
@@ -141,7 +141,7 @@
    "source": "Baltic Exchange via Hellenic Shipping News",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-4-day-winning-run-2/",
    "stale": false,
-   "age_days": 0.37
+   "age_days": 1.37
   },
   {
    "id": "vlsfo_sing",
@@ -152,7 +152,7 @@
    "kpi": true,
    "value": 963.0,
    "change": 26.0,
-   "as_of": "2026-10-24T05:59:08+00:00",
+   "as_of": "2026-10-25T06:00:03+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -166,7 +166,7 @@
    "kpi": false,
    "value": 766.0,
    "change": 3.0,
-   "as_of": "2026-10-24T05:59:08+00:00",
+   "as_of": "2026-10-25T06:00:03+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -180,7 +180,7 @@
    "kpi": false,
    "value": 981.0,
    "change": 12.0,
-   "as_of": "2026-10-24T05:59:08+00:00",
+   "as_of": "2026-10-25T06:00:03+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -194,7 +194,7 @@
    "kpi": false,
    "value": 817.0,
    "change": 11.5,
-   "as_of": "2026-10-24T05:59:08+00:00",
+   "as_of": "2026-10-25T06:00:03+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -499,29 +499,29 @@
   ],
   "market": [
    {
-    "title": "Maersk Tankers' Ammonia Power Tanker Retrofit Project Gets EU Funding",
-    "link": "https://maritime-executive.com/article/maersk-tankers-ammonia-power-tanker-retrofit-project-gets-eu-funding",
-    "published": "2026-10-24T00:11:27+00:00",
-    "summary": "Maersk Tankers’ proposal to retrofit its Very Large Ammonia Carriers (VLACs) for...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": true
-   },
-   {
-    "title": "Trump Administration Unveils Seafood Strategy to Boost U.S. Fishing Fleet and Domestic Production",
-    "link": "https://gcaptain.com/trump-administration-unveils-seafood-strategy-to-boost-u-s-fishing-fleet-and-domestic-production/",
-    "published": "2026-10-23T21:41:45+00:00",
-    "summary": "The Trump administration on Friday unveiled its America First Seafood Strategy, outlining plans to strengthen the U.S. commercial fishing industry through regulatory reform, investment in fishing vessels and shoreside infrastructure,...",
+    "title": "Romania Blames Russia For Drone That Sinks Cargo Ship; 1 Killed, 3 Missing",
+    "link": "https://gcaptain.com/romania-blames-russia-for-drone-that-sinks-cargo-ship-1-killed-3-missing/",
+    "published": "2026-10-25T01:52:30+00:00",
+    "summary": "BUCHAREST, Oct 23 (Reuters) – Romanian President Nicusor Dan accused Russia of escalating its attacks on NATO’s eastern flank on Friday, after a drone strike sank a cargo ship off the Romanian Black Sea...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Shipping community issues clear call for IMO regulation to turn first-mover action into a global transition",
-    "link": "https://www.hellenicshippingnews.com/shipping-community-issues-clear-call-for-imo-regulation-to-turn-first-mover-action-into-a-global-transition/",
-    "published": "2026-10-23T21:00:59+00:00",
-    "summary": "Global leaders from across the maritime value chain met in Shanghai this week for the Global Maritime Forum Annual Summit 2026, where much of the discussion centred around the future of shipping’s energy transition. With the International Maritime Organization’s (IMO) Net-Zero Framework facing a pivotal point in December, the Summit provided a timely opportunity for ...",
+    "title": "UK Manufacturing Sector Grows at Faster Pace",
+    "link": "https://www.hellenicshippingnews.com/uk-manufacturing-sector-grows-at-faster-pace/",
+    "published": "2026-10-24T20:00:00+00:00",
+    "summary": "The S&P Global UK Manufacturing PMI rose to 52.8 in October 2026, up from 51.9 in September and above market expectations of 51.7, according to the preliminary estimate. The reading signaled the strongest improvement in manufacturing business conditions since May, supported by the fastest growth in output in just over two years and a solid ...",
     "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Port of Galveston Strengthening Security with $1.18M in Federal Grants",
+    "link": "https://maritime-executive.com/article/port-of-galveston-strengthening-security-with-1-18m-in-federal-grants",
+    "published": "2026-10-24T19:15:05+00:00",
+    "summary": "The Galveston Wharves will strengthen security systems around the port with federal grants totaling $1,180,524 and port funds. The Federal Emergency M...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -571,29 +571,29 @@
     "nordic": false
    },
    {
-    "title": "Defense Arm of US Investment Manager Buys Fraser Industries",
-    "link": "https://maritime-executive.com/article/defense-arm-of-us-investment-manager-buys-fraser-industries",
-    "published": "2026-10-23T23:58:49+00:00",
-    "summary": "A group focused on investments in the U.S. defense sector, recently launched by a Florida-based investment manager, has agreed to acquire the Wisconsi...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "MARAD’s Training Ship Success Offers a Blueprint for U.S. Shipbuilding",
-    "link": "https://gcaptain.com/marads-training-ship-success-offers-a-blueprint-for-u-s-shipbuilding/",
-    "published": "2026-10-23T20:22:20+00:00",
-    "summary": "The Maritime Administration (MARAD) recently embraced VCM when procuring a new generation of training ships for five of the six state maritime academies. To date, MARAD contractor TOTE Services has delivered four of the five vessels.",
+    "title": "Latvia Emerges As Top-Five Country Used To Ship Russian Grain",
+    "link": "https://gcaptain.com/latvia-emerges-as-top-five-country-used-to-ship-russian-grain/",
+    "published": "2026-10-25T01:34:43+00:00",
+    "summary": "MOSCOW, Oct 23 (Reuters) – Latvia, a member of the European Union and NATO, has emerged as one of the top five countries used to ship Russian grain this marketing season despite strained political...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Dry Bulk Market: China’s Iron Ore Imports on The Rise",
-    "link": "https://www.hellenicshippingnews.com/dry-bulk-market-chinas-iron-ore-imports-on-the-rise/",
+    "title": "Shipping community issues clear call for IMO regulation to turn first-mover action into a global transition",
+    "link": "https://www.hellenicshippingnews.com/shipping-community-issues-clear-call-for-imo-regulation-to-turn-first-mover-action-into-a-global-transition/",
     "published": "2026-10-23T21:00:59+00:00",
-    "summary": "China’s iron ore imports have been on the rise so far in 2026, providing the dry bulk market with the respective tailwinds. In its latest weekly report, shipbroker Banchero Costa said that “2025 was another positive year for global seaborne iron ore trade. In Jan-Dec 2025, global loadings of iron ore increased by +3.5% y-o-y ...",
+    "summary": "Global leaders from across the maritime value chain met in Shanghai this week for the Global Maritime Forum Annual Summit 2026, where much of the discussion centred around the future of shipping’s energy transition. With the International Maritime Organization’s (IMO) Net-Zero Framework facing a pivotal point in December, the Summit provided a timely opportunity for ...",
     "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Boluda Towage Names Damen ASD Tug 2813 VB Marte in Genoa Ceremony",
+    "link": "https://maritime-executive.com/article/boluda-towage-names-damen-asd-tug-2813-vb-marte-in-genoa-ceremony",
+    "published": "2026-10-24T16:43:40+00:00",
+    "summary": "Yesterday, the naming ceremony for the new vessels joining Boluda Towage’s fleet in the region took place in Genoa. During the event, the latest Damen...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -643,29 +643,29 @@
     "nordic": false
    },
    {
-    "title": "The Blockade on Iran is Deepening – But Also Widening",
-    "link": "https://maritime-executive.com/article/the-blockade-on-iran-is-deepening-but-also-widening",
-    "published": "2026-10-23T22:06:20+00:00",
-    "summary": "It is generally accepted that the U.S. naval blockade on Iran, targeting both Iranian ships and ports, is nearly 100 percent effective. Iran has not b...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "USTR Proposes Extending China Ship Port Fee Suspension Through January 2027",
-    "link": "https://gcaptain.com/ustr-proposes-extending-china-ship-port-fee-suspension-through-january-2027/",
-    "published": "2026-10-23T18:35:31+00:00",
-    "summary": "The Trump administration is proposing to extend its suspension of port fees targeting China-linked vessels for another two months, pushing their potential return into January 2027 as Washington and Beijing...",
+    "title": "UAE Shuts All Beaches As Neighbors Grapple With Oil Spill",
+    "link": "https://gcaptain.com/uae-shuts-all-beaches-as-neighbors-grapple-with-oil-spill/",
+    "published": "2026-10-24T19:07:31+00:00",
+    "summary": "Oct 24 (Reuters) – Ras Al Khaimah authorities said on Saturday that all beaches in the emirate would be closed until further notice, a day after anoffshore oil leak prompted beach closures in...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Sanctions risks reshape commodity trading",
-    "link": "https://www.hellenicshippingnews.com/sanctions-risks-reshape-commodity-trading/",
-    "published": "2026-10-23T21:00:58+00:00",
-    "summary": "Commodity traders are operating in an increasingly fragmented sanctions environment where geopolitical developments can determine not only whether a transaction is lawful, but whether it can be financed, insured and ultimately completed, according to a briefing from law firm HFW. In the briefing, authors Daniel Martin, HFW partner, and Amanda Rathbone, HFW knowledge counsel (commodities) ...",
+    "title": "Dry Bulk Market: China’s Iron Ore Imports on The Rise",
+    "link": "https://www.hellenicshippingnews.com/dry-bulk-market-chinas-iron-ore-imports-on-the-rise/",
+    "published": "2026-10-23T21:00:59+00:00",
+    "summary": "China’s iron ore imports have been on the rise so far in 2026, providing the dry bulk market with the respective tailwinds. In its latest weekly report, shipbroker Banchero Costa said that “2025 was another positive year for global seaborne iron ore trade. In Jan-Dec 2025, global loadings of iron ore increased by +3.5% y-o-y ...",
     "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "ClassNK Releases Handbook Supporting Consideration of Onboard Carbon Capture",
+    "link": "https://maritime-executive.com/article/classnk-releases-handbook-supporting-consideration-of-onboard-carbon-capture",
+    "published": "2026-10-24T16:41:03+00:00",
+    "summary": "ClassNK has released a new handbook entitled ‘Onboard Carbon Capture Systems Implementation Framework’ as part of its Handbook on Ship GHG Emissions E...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -715,29 +715,29 @@
     "nordic": false
    },
    {
-    "title": "HD Hyundai and Kiewit Plan to Develop New Gulf Coast Shipyard",
-    "link": "https://maritime-executive.com/article/hd-hyundai-and-kiewit-plan-to-develop-new-gulf-coast-shipyard",
-    "published": "2026-10-23T21:45:22+00:00",
-    "summary": "South Korea’s largest shipbuilder, HD Hyundai, is continuing its efforts to expand in the U.S. market, announcing a new joint venture with Texas-based...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Record Tanker Rates Threaten to Push U.S. Oil Exports to Asia to Seven-Year Low",
-    "link": "https://gcaptain.com/record-tanker-rates-threaten-to-push-u-s-oil-exports-to-asia-to-seven-year-low/",
-    "published": "2026-10-23T18:22:34+00:00",
-    "summary": "US crude oil exports to Asia are set to hit multi-year lows after the Iran war disrupted global shipping and pushed the cost to lease a tanker for the Pacific journey to a record of almost $80 million.",
+    "title": "Two Wealthy Americans Face Off In Bitter Feud Over Panama Port",
+    "link": "https://gcaptain.com/two-wealthy-americans-face-off-in-bitter-feud-over-panama-port/",
+    "published": "2026-10-24T18:47:58+00:00",
+    "summary": "By Devon Pendleton and Fabiano Maisonnave Oct 22, 2026 (Bloomberg) –To hedge-fund billionaire Louis Bacon, the crystalline waters and densely forested riverways of the Gulf of Chiriqui in western Panama are an...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Baltic Dry Index Snaps 4-Day Winning Run",
-    "link": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-4-day-winning-run-2/",
-    "published": "2026-10-23T21:00:57+00:00",
-    "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, snapped its four-day winning streak on Friday, falling by 1.2% to 2,660 points. The panamax index, which usually carries 60,000 to 70,000 tons of coal or grain, dropped roughly 2% to a fresh low since August 24 at 2,109 ...",
+    "title": "Sanctions risks reshape commodity trading",
+    "link": "https://www.hellenicshippingnews.com/sanctions-risks-reshape-commodity-trading/",
+    "published": "2026-10-23T21:00:58+00:00",
+    "summary": "Commodity traders are operating in an increasingly fragmented sanctions environment where geopolitical developments can determine not only whether a transaction is lawful, but whether it can be financed, insured and ultimately completed, according to a briefing from law firm HFW. In the briefing, authors Daniel Martin, HFW partner, and Amanda Rathbone, HFW knowledge counsel (commodities) ...",
     "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Wärtsilä Engines Selected for 2 Additional Inland Waterway Tugs in Brazil",
+    "link": "https://maritime-executive.com/article/wartsila-engines-selected-for-2-additional-inland-waterway-tugs-in-brazil",
+    "published": "2026-10-24T16:09:27+00:00",
+    "summary": "Technology group Wärtsilä will supply the engines for two new inland waterway pusher tugs being built by Brazilian shipyard Estaleiro Rio Maguari. The...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -787,31 +787,31 @@
     "nordic": false
    },
    {
-    "title": "Salvage Teams Continue to Fight Fires on Two Boxships at Sea",
-    "link": "https://maritime-executive.com/article/salvage-teams-continue-to-fight-fires-on-two-boxships-at-sea",
-    "published": "2026-10-23T21:10:14+00:00",
-    "summary": "Salvage teams are continuing to work on two different containership fires. Both Seaspan, as the owner of the Espirito Santo Express, and HMM updated o...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Rare Russian Diesel Shipment Expected in Norfolk November 2, Ahead of Tanker Bound for New York",
-    "link": "https://gcaptain.com/rare-russian-diesel-shipment-expected-to-arrive-in-norfolk-on-november-2/",
-    "published": "2026-10-23T17:08:24+00:00",
-    "summary": "A tanker carrying Russian diesel is expected to arrive in Norfolk, Virginia, on November 2, potentially becoming the first such shipment to reach the United States in more than three...",
+    "title": "Trump Administration Unveils Seafood Strategy to Boost U.S. Fishing Fleet and Domestic Production",
+    "link": "https://gcaptain.com/trump-administration-unveils-seafood-strategy-to-boost-u-s-fishing-fleet-and-domestic-production/",
+    "published": "2026-10-23T21:41:45+00:00",
+    "summary": "The Trump administration on Friday unveiled its America First Seafood Strategy, outlining plans to strengthen the U.S. commercial fishing industry through regulatory reform, investment in fishing vessels and shoreside infrastructure,...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "What is changing behind dry bulk and tanker freight markets?",
-    "link": "https://www.hellenicshippingnews.com/what-is-changing-behind-dry-bulk-and-tanker-freight-markets/",
+    "title": "Baltic Dry Index Snaps 4-Day Winning Run",
+    "link": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-4-day-winning-run-2/",
     "published": "2026-10-23T21:00:57+00:00",
-    "summary": "Alongside our weekly Dry and Tanker Market Monitors, this Market Insight presents our Commodity Freight Watch, examining developments that could influence seaborne trade and freight in the coming weeks. While the Monitors assess freight performance and vessel supply, this analysis focuses on the underlying commodity developments shaping cargo availability, supported by Signal Ocean Platform data ...",
+    "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, snapped its four-day winning streak on Friday, falling by 1.2% to 2,660 points. The panamax index, which usually carries 60,000 to 70,000 tons of coal or grain, dropped roughly 2% to a fresh low since August 24 at 2,109 ...",
     "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
+   },
+   {
+    "title": "Maersk Tankers' Ammonia Power Tanker Retrofit Project Gets EU Funding",
+    "link": "https://maritime-executive.com/article/maersk-tankers-ammonia-power-tanker-retrofit-project-gets-eu-funding",
+    "published": "2026-10-24T00:11:27+00:00",
+    "summary": "Maersk Tankers’ proposal to retrofit its Very Large Ammonia Carriers (VLACs) for...",
+    "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": true
    },
    {
     "title": "Port of Los Angeles Reports Record Low Emissions",
