@@ -59,15 +59,16 @@ To switch it on:
 Leave it unset and the dashboard works exactly as before, with the one-line
 automatic summary instead. Nothing breaks.
 
-### Optional: backup oil and gas prices
+### Do this: add a FRED key, or oil and gas stay blank
 
-Oil and gas come from Yahoo Finance, which is free but undocumented and will
-refuse an IP that asks too often. Two official backups slot in automatically if a
-key is present — the collector tries Yahoo, then EIA, then FRED, and only gives
-up after all three.
+**This one is not really optional.** Yahoo Finance refuses requests coming from
+servers, which is confirmed — the scheduled run reached it zero times across five
+consecutive mornings. It works from a laptop and not from CI, and no amount of
+retrying changes that.
 
-Either one is worth having; **FRED is the one to try first**, because EIA's key
-service has been returning "access denied" on request.
+The collector tries Yahoo, then EIA, then FRED, so adding one key restores Brent,
+WTI and Henry Hub from an official source. **FRED is the one to get**, because
+EIA's key service has been returning "access denied" on request.
 
 **FRED** (US Federal Reserve Bank of St. Louis) — <https://fredaccount.stlouisfed.org/apikey>
 Make an account, request a key, add it as the secret `FRED_API_KEY`.
@@ -78,6 +79,13 @@ Add it as the secret `EIA_API_KEY`.
 To add either: your repo → **Settings** → **Secrets and variables** → **Actions**
 → **New repository secret**. Both are free, and both publish the same underlying
 series, so the numbers agree.
+
+Dutch TTF, API2 coal, the refined-product futures and the two freight ETFs have
+**no free source at all** — they are exchange-licensed assessments. Those tiles
+say "no free source" rather than pretending a fetch failed, and the dashboard
+explains what each one is when you click it. They are kept for the same reason
+the paid Baltic routes are: knowing the instrument exists is worth something
+even when you cannot see today's number.
 
 ---
 

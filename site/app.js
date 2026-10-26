@@ -311,6 +311,20 @@ function showMetric(id, anchor) {
     if (m.status === "unavailable" && m.why_unavailable) {
       p.appendChild(el("div", "why", m.why_unavailable));
     }
+    if (m.value == null && m.no_free_source) {
+      const w = el("div", "why");
+      w.appendChild(el("b", null, "Why this is empty: "));
+      w.appendChild(document.createTextNode(m.no_free_source));
+      p.appendChild(w);
+    } else if (m.value == null && m.fallback) {
+      const w = el("div", "why");
+      w.appendChild(el("b", null, "Why this is empty: "));
+      w.appendChild(document.createTextNode(
+        "Yahoo Finance refuses requests from servers, so the scheduled morning run " +
+        "cannot reach it. Adding a free FRED_API_KEY as a repository secret restores " +
+        "this from an official source."));
+      p.appendChild(w);
+    }
 
     if (link) {
       p.appendChild(el("div", "rel-label", "What this moves"));
@@ -395,6 +409,11 @@ function kpiTile(m) {
     val.appendChild(el("span", "k-unit", m.unit));
     card.appendChild(val);
     card.appendChild(deltaNode(m.change, m.value, m.value != null));
+    if (m.value == null && m.no_free_source) {
+      card.appendChild(el("div", "k-note", "no free source"));
+    } else if (m.value == null && m.fallback) {
+      card.appendChild(el("div", "k-note", "needs an API key"));
+    }
     card.appendChild(el("div", "k-blurb", m.blurb || ""));
     return card;
   }
@@ -619,6 +638,12 @@ function renderDiagnostics() {
     "could not be refreshed keeps its previous value and is marked stale rather than " +
     "being shown as zero or blank. Nothing here is estimated or generated.");
   body.appendChild(p);
+  for (const h of d.hints || []) {
+    const box = el("div", "hint");
+    box.appendChild(el("b", null, h.problem + " "));
+    box.appendChild(document.createTextNode(h.fix));
+    body.appendChild(box);
+  }
   if ((d.errors || []).length) {
     body.appendChild(el("div", "rel-label", "Sources that failed on the last run"));
     const ul = el("ul");

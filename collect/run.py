@@ -162,6 +162,9 @@ def collect_metrics(previous):
         row = {k: spec[k] for k in ("id", "label", "unit", "group") if k in spec}
         row["blurb"] = spec.get("blurb", "")
         row["kpi"] = bool(spec.get("kpi"))
+        for k in ("fallback", "no_free_source"):
+            if spec.get(k):
+                row[k] = spec[k]
 
         if fresh:
             row.update(fresh)
@@ -355,6 +358,39 @@ def interleave_by_source(items, per_round=1):
     return out
 
 
+def setup_hints(metrics):
+    """Turn missing data into something the reader can actually act on.
+
+    A tile that reads "awaiting data" every morning is indistinguishable from a
+    broken dashboard. These say which of the two it is, and what would fix it.
+    """
+    import os
+
+    hints = []
+    needs_key = [m for m in metrics
+                 if m.get("value") is None and m.get("fallback")]
+    have_key = os.environ.get("FRED_API_KEY") or os.environ.get("EIA_API_KEY")
+    if needs_key and not have_key:
+        names = ", ".join(m["label"] for m in needs_key)
+        hints.append({
+            "problem": f"{names} could not be fetched.",
+            "fix": "Yahoo Finance refuses requests from servers, so the scheduled run "
+                   "cannot reach it. Add a free FRED_API_KEY (or EIA_API_KEY) as a "
+                   "repository secret and these come from an official source instead. "
+                   "Key: https://fredaccount.stlouisfed.org/apikey",
+        })
+
+    unavailable = [m for m in metrics if m.get("value") is None and m.get("no_free_source")]
+    if unavailable:
+        hints.append({
+            "problem": f"{len(unavailable)} prices have no free source at all.",
+            "fix": "These are exchange-licensed assessments. They are listed so you know "
+                   "they exist and what they mean, the same way the paid Baltic routes "
+                   "are — not because something is broken.",
+        })
+    return hints
+
+
 def market_tone(metrics):
     """A one-line summary built from arithmetic, not a language model."""
     moved = [m for m in metrics if m.get("change") not in (None, 0) and not m["stale"]]
@@ -401,6 +437,7 @@ def main():
         "news": {"company": company_items, "market": market_items},
         "diagnostics": {
             "errors": errors,
+            "hints": setup_hints(metrics),
             "metrics_fresh": sum(1 for m in metrics if not m["stale"]),
             "metrics_total": len(metrics),
             "rates_active": sum(1 for r in rates if r["status"] == "ok"),

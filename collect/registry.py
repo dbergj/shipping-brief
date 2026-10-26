@@ -64,6 +64,34 @@ METRICS = [
          blurb="The US Gulf bunker price."),
 ]
 
+# Yahoo refuses datacenter IPs — confirmed over five consecutive CI runs — so
+# every Yahoo-sourced metric needs an answer for what happens when it is absent.
+# `fallback` names the key that restores it; `no_free_source` marks the ones
+# that no free provider publishes at all, which the page explains rather than
+# showing as a permanent failure.
+FALLBACK_NOTES = {
+    "brent":     {"fallback": "FRED_API_KEY or EIA_API_KEY"},
+    "wti":       {"fallback": "FRED_API_KEY or EIA_API_KEY"},
+    "henry_hub": {"fallback": "FRED_API_KEY or EIA_API_KEY"},
+    "ttf": {"no_free_source":
+            "Dutch TTF is licensed by ICE and no free provider publishes it. "
+            "Henry Hub is the closest free gas benchmark; the TTF–JKM spread is "
+            "what actually steers LNG cargoes."},
+    "coal_api2": {"no_free_source":
+            "API2 coal is an Argus/McCloskey assessment and is not published free."},
+    "gasoil": {"no_free_source":
+            "Refined product futures are exchange-licensed; no free daily source."},
+    "gasoline": {"no_free_source":
+            "Refined product futures are exchange-licensed; no free daily source."},
+    "bdry": {"no_free_source":
+            "ETF quotes need an equity data provider; none is free from a server."},
+    "bwet": {"no_free_source":
+            "ETF quotes need an equity data provider; none is free from a server."},
+}
+
+for _m in METRICS:
+    _m.update(FALLBACK_NOTES.get(_m["id"], {}))
+
 # --- Derived metrics -------------------------------------------------------
 # Computed from the metrics above rather than fetched. Plain arithmetic, so
 # there is no extra source to break.
