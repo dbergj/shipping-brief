@@ -1,7 +1,7 @@
 {
  "company": [
   {
-   "title": "Document Information [Line Items]",
+   "title": "International Seaways entered a material agreement",
    "summary": "",
    "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/tm2628139d1_8k.htm",
    "published": "2026-10-23T12:00:00+00:00",
@@ -26,7 +26,7 @@
    "nordic": true
   },
   {
-   "title": "Document Information [Line Items]",
+   "title": "International Seaways sold unregistered equity",
    "summary": "",
    "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/tm2628048d1_8k.htm",
    "published": "2026-10-21T12:00:00+00:00",
@@ -168,6 +168,24 @@
    "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
+  },
+  {
+   "title": "CM Technologies Raises Alarm Over Recent Shipping Fuel Quality Concerns",
+   "link": "https://www.marinelink.com/news/cm-technologies-raises-alarm-recent-543899",
+   "published": "2026-10-26T13:35:29+00:00",
+   "summary": "German testing specialist CM Technologies (CMT) advises that shipowners and operators need to maintain close checks on fuel quality following a series of off-specification alerts at major bunkering ports and warns that contaminated or unstable…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Stena AB to Acquire Shipping Company Color Line",
+   "link": "https://www.marinelink.com/news/stena-ab-acquire-shipping-company-color-543898",
+   "published": "2026-10-26T13:30:21+00:00",
+   "summary": "The Swedish industrial Group Stena AB, owner of ferry operator Stena Line, has entered into an agreement to acquire the Norwegian shipping company Color Line, subject to regulatory approval. The transaction will bring together two companies…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
   },
   {
    "title": "DP World Converts Ghost Nets Into Sunglasses",

@@ -2,17 +2,20 @@
  "0001628280-26-066288": {
   "headline": "Scorpio Tankers Inc. Announces that on October 28, 2026, the Company Plans to Issue Its Third Quarter 2026 Results and Have a Conference Call",
   "summary": "MONACO, Oct. 19, 2026 (GLOBE NEWSWIRE) — Scorpio Tankers Inc. (NYSE: STNG) (“Scorpio Tankers,” or the “Company”) announced today that on Wednesday, October 28, 2026, the Company plans to issue its third quarter 2026 earnings press release in the morning (Eastern Daylight Time) and host a conference call at 8:00 AM Eastern Daylight Time and 1:00 PM Central European Time.",
-  "filed": "2026-10-19"
+  "filed": "2026-10-19",
+  "v": 2
  },
  "0001104659-26-116371": {
   "headline": "International Seaways Expands VLCC Fleet Through Strategic Combination",
   "summary": "(the “Company,” “Seaways,” or “INSW”), one of the largest tanker companies worldwide providing energy",
-  "filed": "2026-10-16"
+  "filed": "2026-10-16",
+  "v": 2
  },
  "0000950157-26-001092": {
   "headline": "DHT Holdings, Inc. today provides the following business update",
   "summary": null,
-  "filed": "2026-10-13"
+  "filed": "2026-10-13",
+  "v": 2
  },
  "0001140361-26-039287": {
   "headline": "STAR BULK CARRIERS CORP. ANNOUNCES RENEWAL OF EXISTING ATM EQUITY OFFERING PROGRAMS",
@@ -25,13 +28,15 @@
   "filed": "2026-10-07"
  },
  "0001104659-26-118505": {
-  "headline": "Document Information [Line Items]",
+  "headline": null,
   "summary": null,
-  "filed": "2026-10-23"
+  "filed": "2026-10-23",
+  "v": 2
  },
  "0001104659-26-117865": {
-  "headline": "Document Information [Line Items]",
+  "headline": null,
   "summary": null,
-  "filed": "2026-10-21"
+  "filed": "2026-10-21",
+  "v": 2
  }
 }

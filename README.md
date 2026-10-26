@@ -205,6 +205,15 @@ python3 -m http.server 8777        # then open http://localhost:8777
 Set `SHIPDASH_CACHE_MIN=30` while editing the page to cache responses and avoid
 hammering sources that rate-limit.
 
+The scheduled job commits to `data/` every morning, so pull before you edit:
+
+```bash
+git pull --rebase
+```
+
+If a rebase stops on a conflict inside `data/`, those are generated files —
+take either side and let the next run regenerate them.
+
 ---
 
 Not investment advice. Data is from public sources, each credited on the page; please

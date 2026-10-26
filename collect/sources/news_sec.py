@@ -37,6 +37,9 @@ LOOKBACK_DAYS = 14
 # keeps us well-behaved towards SEC's servers. The file is committed, so CI
 # benefits too.
 CACHE_PATH = pathlib.Path(__file__).resolve().parents[2] / "data" / "sec_cache.json"
+# Bump when the extraction logic changes, so entries stored by the old logic are
+# re-read instead of serving a headline we have since learned is wrong.
+CACHE_VERSION = 2
 CACHE_KEEP_DAYS = 90
 # Each enriched filing costs two extra requests, and http_util spaces requests
 # ~1.1s apart to stay polite. This caps the worst case at roughly a minute.
@@ -62,6 +65,13 @@ BOILERPLATE_PHRASES = (
     "translation of registrant",
     "address of principal executive",
     "exact name of registrant",
+    "document information",
+    "line items",
+    "idea: xbrl",
+    "amendment flag",
+    "document type",
+    "entity central index key",
+    "execution version",
 )
 
 # Street addresses read like prose but are not headlines.
@@ -191,7 +201,11 @@ def _enrich(cik, accession, form, log):
 
     files = (listing.get("directory") or {}).get("item") or []
     htm = [f for f in files if f.get("name", "").lower().endswith((".htm", ".html"))
-           and "index" not in f.get("name", "").lower()]
+           and "index" not in f.get("name", "").lower()
+           # R1.htm, R2.htm ... are XBRL renderings of the cover page. They are
+           # often the largest file in the folder and contain only tag labels
+           # like "Document Information [Line Items]".
+           and not re.fullmatch(r"r\d+\.html?", f.get("name", ""), re.I)]
     if not htm:
         return None, None
 
@@ -204,16 +218,13 @@ def _enrich(cik, accession, form, log):
             return 0
 
     exhibits = [f for f in htm if re.search(r"ex(?:hibit)?[\-_ ]?99", f.get("name", ""), re.I)]
-    if exhibits:
-        target = max(exhibits, key=size)
-    elif form == "8-K":
-        # An 8-K's primary document states the item itself, so it is worth reading.
-        target = max(htm, key=size)
-    else:
-        # A 6-K with no exhibit is a bare cover page. There is no news in it, and
-        # mining it just yields the filer's address or the legal preamble — so
-        # say plainly that a filing happened instead of inventing a headline.
+    if not exhibits:
+        # No press release attached. A cover page — whether a 6-K's legal
+        # preamble or an 8-K's inline-XBRL header — contains no prose worth
+        # lifting. The caller falls back to the 8-K item codes, which state
+        # what actually happened, or to a plain description of the filing.
         return None, None
+    target = max(exhibits, key=size)
 
     try:
         lines = _text_lines(fetch(base + target["name"], headers=WWW_HEADERS))
@@ -280,6 +291,8 @@ def fetch_sec(companies, forms, log=print, enrich=True):
 
         headline = summary = None
         cached = cache.get(c["acc"])
+        if cached is not None and cached.get("v") != CACHE_VERSION:
+            cached = None
         if cached is not None:
             headline, summary = cached.get("headline"), cached.get("summary")
             from_cache += 1
@@ -289,11 +302,11 @@ def fetch_sec(companies, forms, log=print, enrich=True):
             # Record misses too — a cover-page-only filing has no headline and
             # re-checking it every morning would be pure waste.
             cache[c["acc"]] = {"headline": headline, "summary": summary,
-                               "filed": c["filed"].isoformat()}
+                               "filed": c["filed"].isoformat(), "v": CACHE_VERSION}
 
         if not headline:
-            # Last resort: say what kind of filing it is in plain English rather
-            # than printing "6-K", which tells a reader nothing.
+            # The 8-K item code is a structured statement of what happened, which
+            # beats anything that could be scraped out of the cover page.
             what = _describe_items(c["items"])
             headline = (f"{comp['name']} {what}" if what
                         else f"{comp['name']} filed a {c['form']} "
