@@ -1,0 +1,12 @@
+{
+ "date": "2026-10-26",
+ "values": {
+  "brent": 109.19,
+  "gasoline": 3.0535,
+  "bdi": 2660,
+  "vlsfo_sing": 963.0,
+  "vlsfo_rott": 766.0,
+  "vlsfo_fuj": 981.0,
+  "vlsfo_hou": 817.0
+ }
+}
