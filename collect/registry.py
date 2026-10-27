@@ -123,35 +123,65 @@ DERIVED = [
 
 GALLONS_PER_BARREL = 42
 
-# --- Hand-entered freight rates ---------------------------------------------
-# Official Baltic route data costs GBP 3,420/yr, so these twelve come from
-# data/manual/rates.json. Order here is the order of the cheat sheet.
-MANUAL_RATES = [
+# --- Freight route rates ----------------------------------------------------
+# Filled from the Baltic Exchange's weekly market commentary and Reuters' daily
+# dry bulk report, both republished as plain text by Hellenic. The underlying
+# assessments are licensed, but the prose quoting them is public — see
+# collect/sources/route_rates.py and collect/sources/dry_rates.py.
+#
+# A row with no number still carries its label and explanation: knowing what a
+# VLCC on TD3C is has teaching value with or without today's figure.
+RATE_ROWS = [
     dict(id="vlcc_tce", label="VLCC (TD3C, AG→China)", unit="USD/day", segment="tanker",
-         blurb="Daily earnings of a 2m-barrel crude tanker on the Arabian Gulf to China run."),
+         cadence="weekly",
+         blurb="Daily earnings of a 2m-barrel crude tanker on the Arabian Gulf to China "
+               "run. The most quoted tanker rate in the world."),
     dict(id="suezmax_tce", label="Suezmax (TD20, W.Africa→UKC)", unit="USD/day", segment="tanker",
+         cadence="weekly",
          blurb="Daily earnings of a 1m-barrel crude tanker from West Africa to Europe."),
     dict(id="aframax_tce", label="Aframax (TD7, N.Sea→UKC)", unit="USD/day", segment="tanker",
-         blurb="Daily earnings of a 600k-barrel crude tanker on a short North Sea haul."),
+         cadence="weekly",
+         blurb="Daily earnings of a 600k-barrel crude tanker on a short North Sea haul — "
+               "the route closest to Norwegian crude exports."),
     dict(id="lr2_tce", label="LR2 (TC1, AG→Japan)", unit="USD/day", segment="tanker",
+         cadence="weekly",
          blurb="Daily earnings of a large product tanker carrying clean refined products."),
     dict(id="mr_tc2_tce", label="MR (TC2, Rotterdam→NY)", unit="USD/day", segment="tanker",
+         cadence="weekly",
          blurb="Daily earnings of a mid-size product tanker on the transatlantic gasoline run."),
-    dict(id="mr_tc7_tce", label="MR (TC7, Singapore→Australia)", unit="USD/day", segment="tanker",
-         blurb="Daily earnings of a mid-size product tanker east of Suez."),
-    dict(id="cape_5tc", label="Capesize 5TC", unit="USD/day", segment="dry",
-         blurb="Average daily earnings of a 180,000t bulker across five iron ore and coal routes."),
-    dict(id="panamax_4tc", label="Panamax 4TC", unit="USD/day", segment="dry",
+    dict(id="mr_tc14_tce", label="MR (TC14, US Gulf→UKC)", unit="USD/day", segment="tanker",
+         cadence="weekly",
+         blurb="Daily earnings of a mid-size product tanker carrying clean products east "
+               "across the Atlantic."),
+
+    dict(id="cape_5tc", label="Capesize 5TC", unit="USD/day", segment="dry", cadence="daily",
+         blurb="Average daily earnings of a 180,000t bulker across five iron ore and coal "
+               "routes."),
+    dict(id="panamax_4tc", label="Panamax 4TC", unit="USD/day", segment="dry", cadence="daily",
          blurb="Average daily earnings of an 82,000t bulker, mostly coal and grain."),
-    dict(id="supramax_10tc", label="Supramax 10TC", unit="USD/day", segment="dry",
+    dict(id="supramax_10tc", label="Supramax 10TC", unit="USD/day", segment="dry", cadence="daily",
          blurb="Average daily earnings of a 58,000t geared bulker across ten routes."),
-    dict(id="handysize_7tc", label="Handysize 7TC", unit="USD/day", segment="dry",
+    dict(id="handysize_7tc", label="Handysize 7TC", unit="USD/day", segment="dry", cadence="daily",
          blurb="Average daily earnings of a 38,000t bulker, the smallest Baltic-assessed class."),
-    dict(id="lng_160k", label="LNG 160k cbm spot", unit="USD/day", segment="gas",
-         blurb="Daily charter rate for a standard modern LNG carrier."),
-    dict(id="vlgc_baltic", label="VLGC (Baltic LPG, AG→Japan)", unit="USD/day", segment="gas",
-         blurb="Daily earnings of a very large gas carrier moving LPG from the Gulf to Asia."),
+
+    dict(id="lng_blng1", label="LNG (BLNG1, Australia→Japan)", unit="USD/day", segment="gas",
+         cadence="weekly",
+         blurb="Spot charter rate for a standard LNG carrier on the Pacific route."),
+    dict(id="lng_blng2", label="LNG (BLNG2, US Gulf→Continent)", unit="USD/day", segment="gas",
+         cadence="weekly",
+         blurb="The Atlantic LNG route. US cargoes to Europe are the short haul; compare "
+               "with BLNG3 to see which way cargoes are being pulled."),
+    dict(id="lng_blng3", label="LNG (BLNG3, US Gulf→Japan)", unit="USD/day", segment="gas",
+         cadence="weekly",
+         blurb="The long-haul LNG route. It pays more than BLNG2 because the voyage is far "
+               "longer, so the gap between them tracks the TTF–JKM arbitrage."),
+    dict(id="vlgc_baltic", label="VLGC (BLPG1, Ras Tanura→Chiba)", unit="USD/day", segment="gas",
+         cadence="weekly",
+         blurb="Daily earnings of a very large gas carrier moving LPG from the Gulf to Japan."),
 ]
+
+# Kept as the old name so nothing downstream has to change.
+MANUAL_RATES = RATE_ROWS
 
 # --- News sources -----------------------------------------------------------
 # `cap` is how many items each feed may contribute to a day's brief. Without it

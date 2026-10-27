@@ -234,7 +234,7 @@
    "earns_when": "MR rates rise and regional fuel arbitrages open.",
    "watch": [
     "mr_tc2_tce",
-    "mr_tc7_tce",
+    "mr_tc14_tce",
     "gasoline"
    ],
    "peers": [
@@ -687,7 +687,7 @@
    "position": "Chartered out on medium and long-term contracts, making it closer to an infrastructure income stream than a spot shipping play. Another Fredriksen-linked company.",
    "earns_when": "LNG charter rates are high at contract renewal, and LNG trade volumes grow.",
    "watch": [
-    "lng_160k",
+    "lng_blng1",
     "ttf",
     "henry_hub"
    ],
@@ -718,7 +718,7 @@
    "position": "More spot and short-term exposure than Flex LNG, so it feels the LNG shipping cycle more directly.",
    "earns_when": "LNG spot charter rates spike, usually with wide regional gas price gaps.",
    "watch": [
-    "lng_160k",
+    "lng_blng1",
     "ttf",
     "henry_hub"
    ],
@@ -775,7 +775,7 @@
    "position": "A micro-cap with very few vessels, so each charter fixture matters enormously.",
    "earns_when": "LNG spot rates rise.",
    "watch": [
-    "lng_160k",
+    "lng_blng1",
     "ttf"
    ],
    "peers": [
@@ -1134,7 +1134,7 @@
    "position": "Part of the continuing flow of gas shipping companies choosing Oslo for its specialist investor base.",
    "earns_when": "LNG charter rates and trade volumes rise.",
    "watch": [
-    "lng_160k",
+    "lng_blng1",
     "ttf"
    ],
    "peers": [

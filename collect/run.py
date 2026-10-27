@@ -30,6 +30,7 @@ import registry as reg  # noqa: E402
 from bdi import fetch_bdi  # noqa: E402
 from bunkers import fetch_all_grades  # noqa: E402
 from dry_rates import fetch_dry_rates  # noqa: E402
+from route_rates import fetch_route_rates  # noqa: E402
 from eia import fetch_eia  # noqa: E402
 from fred import fetch_fred  # noqa: E402
 from news_oslo import fetch_oslo, resolve_issuers  # noqa: E402
@@ -142,6 +143,12 @@ def collect_metrics(previous):
         dry = fetch_dry_rates(log=log)
     except Exception as exc:  # noqa: BLE001
         note_error("dry_rates", exc)
+
+    # Tanker, LNG and LPG routes, from the Baltic weekly commentary.
+    try:
+        dry.update(fetch_route_rates(log=log))
+    except Exception as exc:  # noqa: BLE001
+        note_error("route_rates", exc)
 
     bdi = None
     try:
@@ -280,21 +287,28 @@ def collect_rates(dry=None):
     rows = []
     for spec in reg.MANUAL_RATES:
         raw = values.get(spec["id"])
+        cadence = spec.get("cadence", "weekly")
         row = {
             "id": spec["id"], "label": spec["label"], "unit": spec["unit"],
             "segment": spec["segment"], "blurb": spec.get("blurb", ""),
+            "cadence": cadence,
             "value": None, "as_of": manual.get("as_of"), "source": None,
             "status": "unavailable",
-            "why_unavailable": "Official Baltic route data requires a paid subscription "
-                               "(£3,420/yr). This row activates automatically if a value "
-                               "is supplied.",
+            "why_unavailable": "Not quoted in the latest published market report. The "
+                               "Baltic assessment itself is a paid product; this row "
+                               "fills whenever the figure appears in the public "
+                               "commentary.",
         }
         # A figure quoted in the daily Reuters report beats a hand-entered one.
         if spec["id"] in dry:
             d = dry[spec["id"]]
+            age = age_days(d.get("as_of"))
+            limit = 4 if cadence == "daily" else 10
             row.update({"value": d["value"], "status": "ok", "as_of": d["as_of"],
                         "source": "Baltic Exchange via Reuters/Hellenic",
-                        "source_url": d.get("source_url")})
+                        "source_url": d.get("source_url"),
+                        "age_days": round(age, 2) if age is not None else None,
+                        "stale": bool(age is not None and age > limit)})
             row.pop("why_unavailable", None)
         elif isinstance(raw, (int, float)):
             row.update({"value": raw, "status": "ok",

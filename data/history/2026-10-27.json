@@ -2,7 +2,7 @@
  "date": "2026-10-27",
  "values": {
   "brent": 109.19,
-  "wti": 101.34,
+  "wti": 100.2,
   "gasoline": 3.0535,
   "bci": 3726.0,
   "bpi": 2075.0,
@@ -12,6 +12,6 @@
   "vlsfo_rott": 772.0,
   "vlsfo_fuj": 989.5,
   "vlsfo_hou": 843.0,
-  "brent_wti_spread": 7.85
+  "brent_wti_spread": 8.99
  }
 }

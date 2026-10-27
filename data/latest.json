@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27T21:20:42+00:00",
- "tone": "4 of 5 tracked prices rose and 1 fell. Biggest mover: VLSFO Houston +3.1% to 843.00 USD/t.",
+ "generated_at": "2026-10-27T21:32:22+00:00",
+ "tone": "5 of 6 tracked prices rose and 1 fell. Biggest mover: VLSFO Houston +3.1% to 843.00 USD/t.",
  "metrics": [
   {
    "id": "brent",
@@ -15,7 +15,7 @@
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "yahoo:BZ=F",
    "stale": true,
-   "age_days": 6.26
+   "age_days": 6.27
   },
   {
    "id": "wti",
@@ -25,12 +25,12 @@
    "blurb": "The US crude benchmark. Its gap to Brent drives US export volumes.",
    "kpi": true,
    "fallback": "FRED_API_KEY or EIA_API_KEY",
-   "value": 101.34,
-   "change": null,
-   "as_of": "2026-10-26T13:40:21+00:00",
+   "value": 100.2,
+   "change": 0.73,
+   "as_of": "2026-10-27T20:59:48+00:00",
    "source": "yahoo:CL=F",
-   "stale": true,
-   "age_days": 1.32
+   "stale": false,
+   "age_days": 0.02
   },
   {
    "id": "ttf",
@@ -150,7 +150,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
    "stale": false,
-   "age_days": 0.97
+   "age_days": 0.98
   },
   {
    "id": "bpi",
@@ -165,7 +165,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
    "stale": false,
-   "age_days": 0.97
+   "age_days": 0.98
   },
   {
    "id": "bsi",
@@ -180,7 +180,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-4-day-winning-run-2/",
    "stale": false,
-   "age_days": 4.01
+   "age_days": 4.02
   },
   {
    "id": "bdi",
@@ -195,7 +195,7 @@
    "source": "Baltic Exchange via Hellenic Shipping News",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2603-down-25-points/",
    "stale": false,
-   "age_days": 0.35
+   "age_days": 0.36
   },
   {
    "id": "vlsfo_sing",
@@ -206,7 +206,7 @@
    "kpi": true,
    "value": 980.0,
    "change": 17.0,
-   "as_of": "2026-10-27T21:19:44+00:00",
+   "as_of": "2026-10-27T21:30:57+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -220,7 +220,7 @@
    "kpi": false,
    "value": 772.0,
    "change": 6.0,
-   "as_of": "2026-10-27T21:19:44+00:00",
+   "as_of": "2026-10-27T21:30:57+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -234,7 +234,7 @@
    "kpi": false,
    "value": 989.5,
    "change": 8.5,
-   "as_of": "2026-10-27T21:19:44+00:00",
+   "as_of": "2026-10-27T21:30:57+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -248,7 +248,7 @@
    "kpi": false,
    "value": 843.0,
    "change": 26.0,
-   "as_of": "2026-10-27T21:19:44+00:00",
+   "as_of": "2026-10-27T21:30:57+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -278,12 +278,12 @@
    "group": "energy",
    "blurb": "How much more Brent costs than WTI. A wide gap makes exporting US crude profitable, which means more long-haul cargoes and stronger tanker demand.",
    "kpi": false,
-   "value": 7.85,
+   "value": 8.99,
    "change": null,
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "derived: brent − wti",
    "stale": true,
-   "age_days": 6.26,
+   "age_days": 6.27,
    "derived_from": [
     "brent",
     "wti"
@@ -296,12 +296,15 @@
    "label": "VLCC (TD3C, AG→China)",
    "unit": "USD/day",
    "segment": "tanker",
-   "blurb": "Daily earnings of a 2m-barrel crude tanker on the Arabian Gulf to China run.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "blurb": "Daily earnings of a 2m-barrel crude tanker on the Arabian Gulf to China run. The most quoted tanker rate in the world.",
+   "cadence": "weekly",
+   "value": 1287851.0,
+   "as_of": "2026-10-25T22:00:54+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
+   "age_days": 1.98,
+   "stale": false
   },
   {
    "id": "suezmax_tce",
@@ -309,23 +312,29 @@
    "unit": "USD/day",
    "segment": "tanker",
    "blurb": "Daily earnings of a 1m-barrel crude tanker from West Africa to Europe.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "cadence": "weekly",
+   "value": 406769.0,
+   "as_of": "2026-10-25T22:00:54+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
+   "age_days": 1.98,
+   "stale": false
   },
   {
    "id": "aframax_tce",
    "label": "Aframax (TD7, N.Sea→UKC)",
    "unit": "USD/day",
    "segment": "tanker",
-   "blurb": "Daily earnings of a 600k-barrel crude tanker on a short North Sea haul.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "blurb": "Daily earnings of a 600k-barrel crude tanker on a short North Sea haul — the route closest to Norwegian crude exports.",
+   "cadence": "weekly",
+   "value": 481500.0,
+   "as_of": "2026-10-25T22:00:54+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
+   "age_days": 1.98,
+   "stale": false
   },
   {
    "id": "lr2_tce",
@@ -333,11 +342,14 @@
    "unit": "USD/day",
    "segment": "tanker",
    "blurb": "Daily earnings of a large product tanker carrying clean refined products.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "cadence": "weekly",
+   "value": 313200.0,
+   "as_of": "2026-10-25T22:00:54+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
+   "age_days": 1.98,
+   "stale": false
   },
   {
    "id": "mr_tc2_tce",
@@ -345,23 +357,29 @@
    "unit": "USD/day",
    "segment": "tanker",
    "blurb": "Daily earnings of a mid-size product tanker on the transatlantic gasoline run.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "cadence": "weekly",
+   "value": 12900.0,
+   "as_of": "2026-10-25T22:00:54+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
+   "age_days": 1.98,
+   "stale": false
   },
   {
-   "id": "mr_tc7_tce",
-   "label": "MR (TC7, Singapore→Australia)",
+   "id": "mr_tc14_tce",
+   "label": "MR (TC14, US Gulf→UKC)",
    "unit": "USD/day",
    "segment": "tanker",
-   "blurb": "Daily earnings of a mid-size product tanker east of Suez.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "blurb": "Daily earnings of a mid-size product tanker carrying clean products east across the Atlantic.",
+   "cadence": "weekly",
+   "value": 53900.0,
+   "as_of": "2026-10-25T22:00:54+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
+   "age_days": 1.98,
+   "stale": false
   },
   {
    "id": "cape_5tc",
@@ -369,11 +387,14 @@
    "unit": "USD/day",
    "segment": "dry",
    "blurb": "Average daily earnings of a 180,000t bulker across five iron ore and coal routes.",
+   "cadence": "daily",
    "value": 30292.0,
    "as_of": "2026-10-26T22:00:59+00:00",
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
-   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/"
+   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
+   "age_days": 0.98,
+   "stale": false
   },
   {
    "id": "panamax_4tc",
@@ -381,11 +402,12 @@
    "unit": "USD/day",
    "segment": "dry",
    "blurb": "Average daily earnings of an 82,000t bulker, mostly coal and grain.",
+   "cadence": "daily",
    "value": null,
    "as_of": null,
    "source": null,
    "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary."
   },
   {
    "id": "supramax_10tc",
@@ -393,11 +415,12 @@
    "unit": "USD/day",
    "segment": "dry",
    "blurb": "Average daily earnings of a 58,000t geared bulker across ten routes.",
+   "cadence": "daily",
    "value": null,
    "as_of": null,
    "source": null,
    "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary."
   },
   {
    "id": "handysize_7tc",
@@ -405,35 +428,72 @@
    "unit": "USD/day",
    "segment": "dry",
    "blurb": "Average daily earnings of a 38,000t bulker, the smallest Baltic-assessed class.",
+   "cadence": "daily",
    "value": null,
    "as_of": null,
    "source": null,
    "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary."
   },
   {
-   "id": "lng_160k",
-   "label": "LNG 160k cbm spot",
+   "id": "lng_blng1",
+   "label": "LNG (BLNG1, Australia→Japan)",
    "unit": "USD/day",
    "segment": "gas",
-   "blurb": "Daily charter rate for a standard modern LNG carrier.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "blurb": "Spot charter rate for a standard LNG carrier on the Pacific route.",
+   "cadence": "weekly",
+   "value": 32800.0,
+   "as_of": "2026-10-26T11:00:59+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
+   "age_days": 1.44,
+   "stale": false
+  },
+  {
+   "id": "lng_blng2",
+   "label": "LNG (BLNG2, US Gulf→Continent)",
+   "unit": "USD/day",
+   "segment": "gas",
+   "blurb": "The Atlantic LNG route. US cargoes to Europe are the short haul; compare with BLNG3 to see which way cargoes are being pulled.",
+   "cadence": "weekly",
+   "value": 25400.0,
+   "as_of": "2026-10-26T11:00:59+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
+   "age_days": 1.44,
+   "stale": false
+  },
+  {
+   "id": "lng_blng3",
+   "label": "LNG (BLNG3, US Gulf→Japan)",
+   "unit": "USD/day",
+   "segment": "gas",
+   "blurb": "The long-haul LNG route. It pays more than BLNG2 because the voyage is far longer, so the gap between them tracks the TTF–JKM arbitrage.",
+   "cadence": "weekly",
+   "value": 58900.0,
+   "as_of": "2026-10-26T11:00:59+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
+   "age_days": 1.44,
+   "stale": false
   },
   {
    "id": "vlgc_baltic",
-   "label": "VLGC (Baltic LPG, AG→Japan)",
+   "label": "VLGC (BLPG1, Ras Tanura→Chiba)",
    "unit": "USD/day",
    "segment": "gas",
-   "blurb": "Daily earnings of a very large gas carrier moving LPG from the Gulf to Asia.",
-   "value": null,
-   "as_of": null,
-   "source": null,
-   "status": "unavailable",
-   "why_unavailable": "Official Baltic route data requires a paid subscription (£3,420/yr). This row activates automatically if a value is supplied."
+   "blurb": "Daily earnings of a very large gas carrier moving LPG from the Gulf to Japan.",
+   "cadence": "weekly",
+   "value": 242380.0,
+   "as_of": "2026-10-26T11:00:59+00:00",
+   "source": "Baltic Exchange via Reuters/Hellenic",
+   "status": "ok",
+   "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
+   "age_days": 1.44,
+   "stale": false
   }
  ],
  "news": {
@@ -991,9 +1051,7 @@
   ]
  },
  "diagnostics": {
-  "errors": [
-   "yahoo: no quotes returned for any of 9 symbols"
-  ],
+  "errors": [],
   "hints": [
    {
     "problem": "Henry Hub gas could not be fetched.",
@@ -1004,17 +1062,21 @@
     "fix": "These are exchange-licensed assessments. They are listed so you know they exist and what they mean, the same way the paid Baltic routes are — not because something is broken."
    }
   ],
-  "metrics_fresh": 8,
+  "metrics_fresh": 9,
   "metrics_total": 19,
-  "rates_active": 1,
-  "rates_total": 12
+  "rates_active": 11,
+  "rates_total": 14
  },
  "brief": null,
  "storylines": [],
  "storylines_closed": [],
  "brief_spend": {
-  "runs": 0,
-  "total_usd": 0.0,
-  "model": null
+  "runs": 1,
+  "total_usd": 0.0898,
+  "model": "claude-opus-5",
+  "last_run": "2026-10-27",
+  "first_run": "2026-10-27",
+  "avg_usd": 0.0898,
+  "projected_monthly_usd": 2.69
  }
 }

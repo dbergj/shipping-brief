@@ -349,7 +349,26 @@ function showMetric(id, anchor) {
     }
     if (m.source) {
       p.appendChild(el("div", "rel-label", "Source"));
-      p.appendChild(el("p", null, m.source + (m.stale ? " — not refreshed today, showing the last value" : "")));
+      const line = el("p", null);
+      line.appendChild(document.createTextNode(
+        m.source + (m.stale ? " — not refreshed today, showing the last value" : "")));
+      // Figures read out of a published report link back to the sentence they
+      // came from, so any number can be checked against its source.
+      if (m.source_url) {
+        line.appendChild(document.createTextNode(" "));
+        const a = el("a", null, "Read the report");
+        a.href = m.source_url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        line.appendChild(a);
+      }
+      p.appendChild(line);
+    }
+    if (m.cadence) {
+      p.appendChild(el("p", "cadence-note",
+        m.cadence === "daily"
+          ? "Published daily, one session in arrears."
+          : "Published weekly in the Baltic market report, so it updates once a week."));
     }
   });
 }
