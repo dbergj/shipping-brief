@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T20:41:10+00:00",
+ "generated_at": "2026-10-27T20:45:09+00:00",
  "tone": "4 of 5 tracked prices rose and 1 fell. Biggest mover: VLSFO Houston +3.1% to 843.00 USD/t.",
  "metrics": [
   {
@@ -15,7 +15,7 @@
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "yahoo:BZ=F",
    "stale": true,
-   "age_days": 6.23
+   "age_days": 6.24
   },
   {
    "id": "wti",
@@ -161,7 +161,7 @@
    "kpi": true,
    "value": 980.0,
    "change": 17.0,
-   "as_of": "2026-10-27T20:40:35+00:00",
+   "as_of": "2026-10-27T20:44:43+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -175,7 +175,7 @@
    "kpi": false,
    "value": 772.0,
    "change": 6.0,
-   "as_of": "2026-10-27T20:40:35+00:00",
+   "as_of": "2026-10-27T20:44:43+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -189,7 +189,7 @@
    "kpi": false,
    "value": 989.5,
    "change": 8.5,
-   "as_of": "2026-10-27T20:40:35+00:00",
+   "as_of": "2026-10-27T20:44:43+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -203,7 +203,7 @@
    "kpi": false,
    "value": 843.0,
    "change": 26.0,
-   "as_of": "2026-10-27T20:40:35+00:00",
+   "as_of": "2026-10-27T20:44:43+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -238,7 +238,7 @@
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "derived: brent − wti",
    "stale": true,
-   "age_days": 6.23,
+   "age_days": 6.24,
    "derived_from": [
     "brent",
     "wti"
@@ -951,10 +951,6 @@
   ],
   "hints": [
    {
-    "problem": "Henry Hub gas could not be fetched.",
-    "fix": "Yahoo Finance refuses requests from servers, so the scheduled run cannot reach it. Add a free FRED_API_KEY (or EIA_API_KEY) as a repository secret and these come from an official source instead. Key: https://fredaccount.stlouisfed.org/apikey"
-   },
-   {
     "problem": "5 prices have no free source at all.",
     "fix": "These are exchange-licensed assessments. They are listed so you know they exist and what they mean, the same way the paid Baltic routes are — not because something is broken."
    }
@@ -964,12 +960,214 @@
   "rates_active": 0,
   "rates_total": 12
  },
- "brief": null,
- "storylines": [],
+ "brief": {
+  "text": "The clearest signal in today's data is security risk around Gulf oil infrastructure and the Strait of Hormuz. MarineLink reports that Yemen's Houthis say they struck Saudi Arabia's Ras Tanura oil refinery, the kingdom's biggest, with a ballistic missile. Separately, Seatrade Maritime reports Iran's Hormuz authority (PGSA) will take \"legal action\" from 1 November against the Sinokor fleet, claiming its vessels breached transit rules for the strait. For anyone fixing ships, both items sit on the same loading region, so expect owners and charterers to be asking about war-risk cover and transit terms before they commit tonnage.\n\nOn prices, the only fresh moves are bunkers — the fuel ships burn — and the Baltic Dry Index. VLSFO (very low sulphur fuel oil, the standard 0.5% sulphur marine fuel) rose at all four hubs: Houston 843.00 USD/t, up 26.00 (+3.2%); Singapore 980.00 USD/t, up 17.00 (+1.8%); Fujairah 989.50 USD/t, up 8.50 (+0.9%); Rotterdam 772.00 USD/t, up 6.00 (+0.8%). The data here does not show why; the Ras Tanura headline is one possible factor for the Gulf and Asian hubs, but nothing in the data confirms it, and Houston moved most. The Baltic Dry Index, which tracks dry bulk freight, fell 25.00 points to 2,603.00 (-1.0%), with no headline here explaining it. Brent (109.19), WTI (101.34), the Brent-WTI spread (7.85) and RBOB gasoline (3.05) are all marked stale and are not today's figures, so treat them as unavailable. We have no freight route rates at all — no TCE (time charter equivalent, the daily earnings figure a voyage converts to) for any vessel class.\n\nThis is the first brief, so nothing is carried forward. Opening today: the Houthi strike; the PGSA–Sinokor dispute; QatarEnergy extending force majeure on Adriatic LNG cargoes to Edison until end-December; Russia's claim that Northern Sea Route transit cargo will nearly double in 2026; and International Seaways expanding its VLCC fleet (VLCC = very large crude carrier, roughly two million barrels) through a \"strategic combination\".\n\nWatch two things. First, whether bunker premiums at Fujairah and Singapore hold or widen against Rotterdam, since that spread is where Gulf disruption would show up in the fuel you stem. Second, 1 November, when PGSA says its action against Sinokor begins — that is a dated, checkable event rather than a rumour.",
+  "storylines": [
+   {
+    "id": "houthi-gulf-strikes",
+    "title": "Houthi strikes on Saudi oil infrastructure",
+    "status": "active",
+    "what": "Yemen's Iran-aligned Houthis say they hit Saudi Arabia's Ras Tanura refinery, the kingdom's largest, with a ballistic missile, and also claim attacks on Saudi military aircraft.",
+    "why_it_matters": "Ras Tanura is a major crude and products loading region; attacks there raise war-risk premiums and can affect willingness to fix tonnage into the Gulf.",
+    "latest": "Houthis claimed the Ras Tanura missile strike on Tuesday.",
+    "watch": [
+     "brent",
+     "vlsfo_fuj",
+     "vlsfo_sing"
+    ],
+    "sources": [
+     "Houthi Missile Strikes Saudi Oil Refinery"
+    ],
+    "first_seen": "2026-10-27",
+    "last_update": "2026-10-27",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "hormuz-sinokor-dispute",
+    "title": "Iran's Hormuz authority targets Sinokor fleet",
+    "status": "active",
+    "what": "Iran's Persian Gulf and Hormuz Strait authority (PGSA) says it will take legal action from 1 November against Sinokor vessels, alleging repeated violations of its Strait of Hormuz transit rules.",
+    "why_it_matters": "Enforcement action against a named operator in the world's busiest oil chokepoint creates transit and detention risk that charterers must price into Gulf voyages.",
+    "latest": "PGSA set a 1 November start date for the action.",
+    "watch": [
+     "brent",
+     "vlsfo_fuj"
+    ],
+    "sources": [
+     "Iran’s Hormuz authority to take 'legal action' against Sinokor fleet"
+    ],
+    "first_seen": "2026-10-27",
+    "last_update": "2026-10-27",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "qatarenergy-lng-force-majeure",
+    "title": "QatarEnergy force majeure on Adriatic LNG",
+    "status": "active",
+    "what": "Edison, a unit of EDF, received a new force majeure notice from QatarEnergy covering cargoes scheduled for the Adriatic LNG terminal in Italy until the end of December.",
+    "why_it_matters": "Extended force majeure removes scheduled LNG cargoes and the voyages that carry them, redirecting LNG carrier employment and European import flows.",
+    "latest": "Force majeure extended to end-December.",
+    "watch": [
+     "ttf"
+    ],
+    "sources": [
+     "Edison: QatarEnergy extends force majeure until end of December"
+    ],
+    "first_seen": "2026-10-27",
+    "last_update": "2026-10-27",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "northern-sea-route-growth",
+    "title": "Northern Sea Route transit volumes",
+    "status": "watch",
+    "what": "Russia says transit cargo on the Northern Sea Route will more than double in 2026, though volumes remain well below Moscow's original targets, and Western sanctions remain in place.",
+    "why_it_matters": "A functioning Arctic transit route is an alternative to Suez and Cape routings for some trades, with implications for tonne-mile demand and ice-class tonnage.",
+    "latest": "Russia published its doubling forecast for 2026 transit cargo.",
+    "watch": [
+     "bdi"
+    ],
+    "sources": [
+     "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026"
+    ],
+    "first_seen": "2026-10-27",
+    "last_update": "2026-10-27",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "tanker-fleet-consolidation",
+    "title": "VLCC fleet consolidation at International Seaways",
+    "status": "active",
+    "what": "International Seaways announced it is expanding its VLCC fleet through a strategic combination, alongside a material agreement filing and an unregistered equity sale.",
+    "why_it_matters": "Consolidation of large crude tonnage concentrates control of VLCC supply, which affects how competitive the fixing market is for big crude stems.",
+    "latest": "Deal announced today via SEC filings.",
+    "watch": [
+     "brent"
+    ],
+    "sources": [
+     "International Seaways Expands VLCC Fleet Through Strategic Combination",
+     "International Seaways entered a material agreement",
+     "International Seaways sold unregistered equity"
+    ],
+    "first_seen": "2026-10-27",
+    "last_update": "2026-10-27",
+    "days_running": 1,
+    "days_since_update": 0
+   }
+  ],
+  "model": "claude-opus-5",
+  "written_at": "2026-10-27T20:45:09+00:00",
+  "cost_usd": 0.0898
+ },
+ "storylines": [
+  {
+   "id": "houthi-gulf-strikes",
+   "title": "Houthi strikes on Saudi oil infrastructure",
+   "status": "active",
+   "what": "Yemen's Iran-aligned Houthis say they hit Saudi Arabia's Ras Tanura refinery, the kingdom's largest, with a ballistic missile, and also claim attacks on Saudi military aircraft.",
+   "why_it_matters": "Ras Tanura is a major crude and products loading region; attacks there raise war-risk premiums and can affect willingness to fix tonnage into the Gulf.",
+   "latest": "Houthis claimed the Ras Tanura missile strike on Tuesday.",
+   "watch": [
+    "brent",
+    "vlsfo_fuj",
+    "vlsfo_sing"
+   ],
+   "sources": [
+    "Houthi Missile Strikes Saudi Oil Refinery"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "hormuz-sinokor-dispute",
+   "title": "Iran's Hormuz authority targets Sinokor fleet",
+   "status": "active",
+   "what": "Iran's Persian Gulf and Hormuz Strait authority (PGSA) says it will take legal action from 1 November against Sinokor vessels, alleging repeated violations of its Strait of Hormuz transit rules.",
+   "why_it_matters": "Enforcement action against a named operator in the world's busiest oil chokepoint creates transit and detention risk that charterers must price into Gulf voyages.",
+   "latest": "PGSA set a 1 November start date for the action.",
+   "watch": [
+    "brent",
+    "vlsfo_fuj"
+   ],
+   "sources": [
+    "Iran’s Hormuz authority to take 'legal action' against Sinokor fleet"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "qatarenergy-lng-force-majeure",
+   "title": "QatarEnergy force majeure on Adriatic LNG",
+   "status": "active",
+   "what": "Edison, a unit of EDF, received a new force majeure notice from QatarEnergy covering cargoes scheduled for the Adriatic LNG terminal in Italy until the end of December.",
+   "why_it_matters": "Extended force majeure removes scheduled LNG cargoes and the voyages that carry them, redirecting LNG carrier employment and European import flows.",
+   "latest": "Force majeure extended to end-December.",
+   "watch": [
+    "ttf"
+   ],
+   "sources": [
+    "Edison: QatarEnergy extends force majeure until end of December"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "northern-sea-route-growth",
+   "title": "Northern Sea Route transit volumes",
+   "status": "watch",
+   "what": "Russia says transit cargo on the Northern Sea Route will more than double in 2026, though volumes remain well below Moscow's original targets, and Western sanctions remain in place.",
+   "why_it_matters": "A functioning Arctic transit route is an alternative to Suez and Cape routings for some trades, with implications for tonne-mile demand and ice-class tonnage.",
+   "latest": "Russia published its doubling forecast for 2026 transit cargo.",
+   "watch": [
+    "bdi"
+   ],
+   "sources": [
+    "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "tanker-fleet-consolidation",
+   "title": "VLCC fleet consolidation at International Seaways",
+   "status": "active",
+   "what": "International Seaways announced it is expanding its VLCC fleet through a strategic combination, alongside a material agreement filing and an unregistered equity sale.",
+   "why_it_matters": "Consolidation of large crude tonnage concentrates control of VLCC supply, which affects how competitive the fixing market is for big crude stems.",
+   "latest": "Deal announced today via SEC filings.",
+   "watch": [
+    "brent"
+   ],
+   "sources": [
+    "International Seaways Expands VLCC Fleet Through Strategic Combination",
+    "International Seaways entered a material agreement",
+    "International Seaways sold unregistered equity"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  }
+ ],
  "storylines_closed": [],
  "brief_spend": {
-  "runs": 0,
-  "total_usd": 0.0,
-  "model": null
+  "runs": 1,
+  "total_usd": 0.0898,
+  "model": "claude-opus-5",
+  "last_run": "2026-10-27",
+  "first_run": "2026-10-27",
+  "avg_usd": 0.0898,
+  "projected_monthly_usd": 2.69
  }
 }

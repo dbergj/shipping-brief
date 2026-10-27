@@ -1,4 +1,100 @@
 {
- "updated": "2026-10-27T20:41:10+00:00",
- "stories": []
+ "updated": "2026-10-27T20:45:44+00:00",
+ "stories": [
+  {
+   "id": "houthi-gulf-strikes",
+   "title": "Houthi strikes on Saudi oil infrastructure",
+   "status": "active",
+   "what": "Yemen's Iran-aligned Houthis say they hit Saudi Arabia's Ras Tanura refinery, the kingdom's largest, with a ballistic missile, and also claim attacks on Saudi military aircraft.",
+   "why_it_matters": "Ras Tanura is a major crude and products loading region; attacks there raise war-risk premiums and can affect willingness to fix tonnage into the Gulf.",
+   "latest": "Houthis claimed the Ras Tanura missile strike on Tuesday.",
+   "watch": [
+    "brent",
+    "vlsfo_fuj",
+    "vlsfo_sing"
+   ],
+   "sources": [
+    "Houthi Missile Strikes Saudi Oil Refinery"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "hormuz-sinokor-dispute",
+   "title": "Iran's Hormuz authority targets Sinokor fleet",
+   "status": "active",
+   "what": "Iran's Persian Gulf and Hormuz Strait authority (PGSA) says it will take legal action from 1 November against Sinokor vessels, alleging repeated violations of its Strait of Hormuz transit rules.",
+   "why_it_matters": "Enforcement action against a named operator in the world's busiest oil chokepoint creates transit and detention risk that charterers must price into Gulf voyages.",
+   "latest": "PGSA set a 1 November start date for the action.",
+   "watch": [
+    "brent",
+    "vlsfo_fuj"
+   ],
+   "sources": [
+    "Iran’s Hormuz authority to take 'legal action' against Sinokor fleet"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "qatarenergy-lng-force-majeure",
+   "title": "QatarEnergy force majeure on Adriatic LNG",
+   "status": "active",
+   "what": "Edison, a unit of EDF, received a new force majeure notice from QatarEnergy covering cargoes scheduled for the Adriatic LNG terminal in Italy until the end of December.",
+   "why_it_matters": "Extended force majeure removes scheduled LNG cargoes and the voyages that carry them, redirecting LNG carrier employment and European import flows.",
+   "latest": "Force majeure extended to end-December.",
+   "watch": [
+    "ttf"
+   ],
+   "sources": [
+    "Edison: QatarEnergy extends force majeure until end of December"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "northern-sea-route-growth",
+   "title": "Northern Sea Route transit volumes",
+   "status": "watch",
+   "what": "Russia says transit cargo on the Northern Sea Route will more than double in 2026, though volumes remain well below Moscow's original targets, and Western sanctions remain in place.",
+   "why_it_matters": "A functioning Arctic transit route is an alternative to Suez and Cape routings for some trades, with implications for tonne-mile demand and ice-class tonnage.",
+   "latest": "Russia published its doubling forecast for 2026 transit cargo.",
+   "watch": [
+    "bdi"
+   ],
+   "sources": [
+    "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "tanker-fleet-consolidation",
+   "title": "VLCC fleet consolidation at International Seaways",
+   "status": "active",
+   "what": "International Seaways announced it is expanding its VLCC fleet through a strategic combination, alongside a material agreement filing and an unregistered equity sale.",
+   "why_it_matters": "Consolidation of large crude tonnage concentrates control of VLCC supply, which affects how competitive the fixing market is for big crude stems.",
+   "latest": "Deal announced today via SEC filings.",
+   "watch": [
+    "brent"
+   ],
+   "sources": [
+    "International Seaways Expands VLCC Fleet Through Strategic Combination",
+    "International Seaways entered a material agreement",
+    "International Seaways sold unregistered equity"
+   ],
+   "first_seen": "2026-10-27",
+   "last_update": "2026-10-27",
+   "days_running": 1,
+   "days_since_update": 0
+  }
+ ]
 }
