@@ -16,17 +16,17 @@ import os
 
 from http_util import FetchError, fetch_json
 
-API = (
-    "https://api.eia.gov/v2/{route}/data/"
-    "?api_key={key}&frequency=daily&data[0]=value"
-    "&facets[series][]={series}&sort[0][column]=period&sort[0][direction]=desc&length=2"
-)
+# The /v2/seriesid/ route accepts a legacy series ID directly and resolves the
+# category path itself. Using it avoids guessing the dataset hierarchy, which is
+# where this adapter would otherwise be one wrong path segment from silence.
+API = ("https://api.eia.gov/v2/seriesid/{series}"
+       "?api_key={key}&sort[0][column]=period&sort[0][direction]=desc&length=4")
 
-# metric id -> (EIA route, series id)
+# metric id -> EIA series id
 SERIES = {
-    "brent": ("petroleum/pri/spt", "RBRTE"),
-    "wti": ("petroleum/pri/spt", "RWTC"),
-    "henry_hub": ("natural-gas/pri/fut", "RNGWHHD"),
+    "brent": "RBRTE",       # Europe Brent spot FOB, USD/barrel, daily
+    "wti": "RWTC",          # Cushing WTI spot FOB, USD/barrel, daily
+    "henry_hub": "RNGWHHD",  # Henry Hub natural gas spot, USD/mmBtu, daily
 }
 
 
@@ -45,9 +45,9 @@ def fetch_eia(metric_ids, log=print):
     for mid in metric_ids:
         if mid not in SERIES:
             continue
-        route, series = SERIES[mid]
+        series = SERIES[mid]
         try:
-            data = fetch_json(API.format(route=route, key=key, series=series))
+            data = fetch_json(API.format(key=key, series=series))
         except FetchError as exc:
             log(f"  eia: {mid} unavailable — {exc}")
             continue
@@ -55,8 +55,13 @@ def fetch_eia(metric_ids, log=print):
         rows = ((data or {}).get("response") or {}).get("data") or []
         points = []
         for row in rows:
+            # The seriesid route names the number "value"; some datasets use the
+            # series id as the column name instead.
+            raw = row.get("value", row.get(series))
+            if raw in (None, "", "."):
+                continue
             try:
-                points.append((row["period"], float(row["value"])))
+                points.append((row["period"], float(raw)))
             except (KeyError, TypeError, ValueError):
                 continue
         if not points:

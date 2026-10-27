@@ -490,3 +490,45 @@ footer a { color: var(--text-secondary); }
   font-size: 12.5px; line-height: 1.6;
 }
 .diag .hint b { color: var(--text-primary); }
+
+/* ---------- running stories ---------- */
+.stories { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); }
+.story {
+  background: var(--surface-1); border: 1px solid var(--border);
+  border-left: 2px solid var(--border-strong);
+  border-radius: var(--radius); padding: 14px 16px 13px; box-shadow: var(--shadow-sm);
+}
+.story.s-active { border-left-color: var(--cyan); }
+.story.s-watch  { border-left-color: var(--border-strong); }
+.story-head { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-bottom: 8px; }
+.story-head h3 { margin: 0; font-size: 14.5px; font-weight: 650; letter-spacing: -.012em; flex: 1 1 auto; }
+.story-age {
+  font-size: 10px; color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: .08em; font-weight: 650; white-space: nowrap;
+}
+.tag.st-active { color: var(--chip-ink); background: var(--accent-soft); border-color: transparent; }
+.story-what { margin: 0 0 9px; font-size: 13.2px; line-height: 1.6; color: var(--text-secondary); }
+.story-latest {
+  background: var(--accent-soft); border-radius: 7px; padding: 9px 11px;
+  font-size: 13px; line-height: 1.58; color: var(--text-primary); margin-bottom: 9px;
+}
+.story-latest-label {
+  display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--chip-ink); margin-right: 7px;
+}
+.story-quiet {
+  font-size: 12.3px; color: var(--text-muted); font-style: italic;
+  margin-bottom: 9px; padding-left: 11px; border-left: 1px solid var(--border);
+}
+.story-why { font-size: 12.5px; line-height: 1.58; color: var(--text-secondary); }
+.story-why b { color: var(--text-primary); font-weight: 650; }
+.story-src { margin-top: 10px; font-size: 11.5px; color: var(--text-muted); }
+.story-src summary { cursor: pointer; }
+.story-src p { margin: 7px 0 0; font-size: 12px; line-height: 1.5; color: var(--text-secondary); }
+
+/* Running cost of the written brief, so the model choice stays an informed one. */
+.brief-foot .spend {
+  display: block; margin-top: 7px; padding-top: 7px;
+  border-top: 1px dashed var(--border); font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}

@@ -41,10 +41,18 @@ DATA = ROOT / "data"
 LATEST = DATA / "latest.json"
 HISTORY = DATA / "history"
 ARCHIVE = DATA / "news_archive.json"
+STORYLINES = DATA / "storylines.json"
+SPEND = DATA / "brief_spend.json"
 MANUAL = DATA / "manual" / "rates.json"
 
 ARCHIVE_DAYS = 30
 NEWS_SHOWN = 40
+
+# A story with no development for this long is closed automatically. Ageing is
+# done here rather than by the model: it is a calendar rule, and leaving it to
+# the model invites "tensions continue" filler to keep a dead story alive.
+STORY_STALE_DAYS = 12
+STORY_DROP_DAYS = 30
 
 errors = []
 
@@ -391,6 +399,86 @@ def setup_hints(metrics):
     return hints
 
 
+def record_spend(written, today):
+    """Keep a running total of what the written brief has cost.
+
+    Shown on the page so the decision to stay on this model, or move to a
+    cheaper one, is made against real numbers rather than my estimate.
+    """
+    data = load_json(SPEND, {})
+    if not isinstance(data, dict):
+        data = {}
+    runs = data.get("runs", 0)
+    total = float(data.get("total_usd", 0.0))
+    if written and written.get("cost_usd"):
+        runs += 1
+        total = round(total + float(written["cost_usd"]), 4)
+        data["last_run"] = today
+        data.setdefault("first_run", today)
+    data.update({"runs": runs, "total_usd": total,
+                 "model": (written or {}).get("model") or data.get("model")})
+    if runs:
+        data["avg_usd"] = round(total / runs, 4)
+        data["projected_monthly_usd"] = round(total / runs * 30, 2)
+    return data
+
+
+def load_storylines():
+    data = load_json(STORYLINES, {})
+    return data.get("stories", []) if isinstance(data, dict) else []
+
+
+def merge_storylines(previous, updated, today, log):
+    """Fold the model's update into the stored stories, then age them.
+
+    The model decides substance; this decides time. Each story keeps the date it
+    was opened and the date it last genuinely developed, so "day 6 of this" is
+    counted from the record rather than from the model's recollection.
+    """
+    if updated is None:
+        log("  storylines: no usable update returned; carrying yesterday's forward")
+        updated = [dict(s) for s in previous]
+
+    prev_by_id = {s.get("id"): s for s in previous}
+    out = []
+    for s in updated:
+        old = prev_by_id.get(s["id"], {})
+        first_seen = old.get("first_seen") or today
+        # Only a real development moves the clock; a null `latest` does not.
+        last_update = today if s.get("latest") else old.get("last_update", first_seen)
+        try:
+            age = (dt.date.fromisoformat(today) - dt.date.fromisoformat(last_update)).days
+        except ValueError:
+            age = 0
+
+        status = s.get("status", "watch")
+        if status != "closed" and age >= STORY_STALE_DAYS:
+            status = "closed"
+            log(f"  storylines: closing '{s['id']}' — {age} days without a development")
+
+        s.update({
+            "first_seen": first_seen,
+            "last_update": last_update,
+            "days_running": max(0, (dt.date.fromisoformat(today)
+                                    - dt.date.fromisoformat(first_seen)).days) + 1,
+            "days_since_update": age,
+            "status": status,
+        })
+        out.append(s)
+
+    # Drop long-closed stories entirely so the file cannot grow without bound.
+    kept = []
+    for s in out:
+        if s["status"] == "closed" and s.get("days_since_update", 0) >= STORY_DROP_DAYS:
+            log(f"  storylines: dropping '{s['id']}' after {s['days_since_update']} quiet days")
+            continue
+        kept.append(s)
+
+    live = sum(1 for s in kept if s["status"] != "closed")
+    log(f"  storylines: {live} live, {len(kept) - live} closed")
+    return kept
+
+
 def market_tone(metrics):
     """A one-line summary built from arithmetic, not a language model."""
     moved = [m for m in metrics if m.get("change") not in (None, 0) and not m["stale"]]
@@ -446,9 +534,25 @@ def main():
     }
 
     log("brief:")
+    today = dt.date.today().isoformat()
+    previous_stories = load_storylines()
     written = brief_mod.generate(snapshot, company_items, market_items,
+                                 storylines=previous_stories,
                                  log=log, dry_run=args.show_prompt)
     snapshot["brief"] = written
+
+    stories = merge_storylines(
+        previous_stories,
+        written.get("storylines") if written else None,
+        today, log)
+    snapshot["storylines"] = [s for s in stories if s["status"] != "closed"]
+    snapshot["storylines_closed"] = [s for s in stories if s["status"] == "closed"][:4]
+
+    spend = record_spend(written, today)
+    snapshot["brief_spend"] = spend
+    if spend.get("runs"):
+        log(f"  brief: ${spend['total_usd']:.3f} over {spend['runs']} runs "
+            f"(~${spend['projected_monthly_usd']:.2f}/month at this rate)")
 
     print()
     print(f"{'metric':<16} {'value':>12}  {'chg':>9}  {'age':>6}  state")
@@ -461,6 +565,11 @@ def main():
     if snapshot.get("brief"):
         print("\nwritten brief:")
         print(textwrap.indent(snapshot["brief"]["text"], "  "))
+    if snapshot.get("storylines"):
+        print("\nrunning stories:")
+        for s in snapshot["storylines"]:
+            mark = "*" if s.get("latest") else " "
+            print(f"  {mark} [{s['status']}] day {s['days_running']}: {s['title']}")
     print(f"news: {len(snapshot['news']['company'])} company, {len(snapshot['news']['market'])} market")
 
     if args.dry_run:
@@ -470,6 +579,10 @@ def main():
         HISTORY.mkdir(parents=True, exist_ok=True)
         LATEST.write_text(json.dumps(snapshot, indent=1, ensure_ascii=False), encoding="utf-8")
         ARCHIVE.write_text(json.dumps(archive, indent=1, ensure_ascii=False), encoding="utf-8")
+        SPEND.write_text(json.dumps(spend, indent=1), encoding="utf-8")
+        STORYLINES.write_text(json.dumps(
+            {"updated": now_iso(), "stories": stories}, indent=1, ensure_ascii=False),
+            encoding="utf-8")
         # History keeps only the numbers, which is all the sparklines need.
         day = dt.date.today().isoformat()
         (HISTORY / f"{day}.json").write_text(json.dumps({

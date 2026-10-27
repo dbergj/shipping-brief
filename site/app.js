@@ -619,10 +619,92 @@ function renderBrief() {
   for (const para of b.text.split(/\n{2,}/)) {
     if (para.trim()) host.appendChild(el("p", null, para.trim()));
   }
-  host.appendChild(el("div", "brief-foot",
+  const foot = el("div", "brief-foot");
+  foot.appendChild(document.createTextNode(
     "Written from the numbers and headlines on this page only — it has no other " +
     "sources and is told to say so when the data does not explain a move. Check it " +
     "against the figures below."));
+  const sp = state.data.brief_spend;
+  if (sp && sp.runs) {
+    foot.appendChild(el("span", "spend",
+      `${sp.model || "model"} · $${Number(sp.total_usd).toFixed(2)} over ${sp.runs} ` +
+      `brief${sp.runs === 1 ? "" : "s"} · about $${Number(sp.projected_monthly_usd).toFixed(2)}/month at this rate`));
+  }
+  host.appendChild(foot);
+  linkify(host);
+}
+
+function storyCard(s) {
+  const card = el("article", "story s-" + (s.status || "watch"));
+
+  const head = el("div", "story-head");
+  head.appendChild(el("h3", null, s.title));
+  const st = el("span", "tag st-" + (s.status || "watch"), s.status || "watch");
+  st.title = s.status === "active" ? "Developed in the last few days"
+           : s.status === "watch" ? "Unresolved, but quiet"
+           : "Resolved or no longer relevant";
+  head.appendChild(st);
+  const d = el("span", "story-age", `Day ${s.days_running || 1}`);
+  d.title = `First seen ${s.first_seen}. Last development ${s.last_update}.`;
+  head.appendChild(d);
+  card.appendChild(head);
+
+  if (s.what) card.appendChild(el("p", "story-what", s.what));
+
+  // Today's development is the thing a reader scans for, so it leads visually.
+  if (s.latest) {
+    const t = el("div", "story-latest");
+    t.appendChild(el("span", "story-latest-label", "Today"));
+    t.appendChild(document.createTextNode(s.latest));
+    card.appendChild(t);
+  } else {
+    const q = el("div", "story-quiet",
+      `No new information today${s.days_since_update ? ` — last development ${s.days_since_update} day${s.days_since_update === 1 ? "" : "s"} ago` : ""}.`);
+    card.appendChild(q);
+  }
+
+  if (s.why_it_matters) {
+    const w = el("div", "story-why");
+    w.appendChild(el("b", null, "Why it matters for shipping: "));
+    w.appendChild(document.createTextNode(s.why_it_matters));
+    card.appendChild(w);
+  }
+
+  const all = (state.data.metrics || []).concat(state.data.rates || []);
+  const watched = (s.watch || []).map(id => all.find(m => m.id === id)).filter(Boolean);
+  if (watched.length) {
+    const row = el("div", "rel");
+    row.style.marginTop = "10px";
+    for (const m of watched) {
+      const b = el("button", "chip", m.label);
+      b.type = "button";
+      b.dataset.metric = m.id;
+      row.appendChild(b);
+    }
+    card.appendChild(row);
+  }
+
+  if ((s.sources || []).length) {
+    const det = el("details", "story-src");
+    det.appendChild(el("summary", null, `Based on ${s.sources.length} headline${s.sources.length === 1 ? "" : "s"}`));
+    for (const q of s.sources) det.appendChild(el("p", null, "\u201c" + q + "\u201d"));
+    card.appendChild(det);
+  }
+  return card;
+}
+
+function renderStories() {
+  const sec = $("#storySection"), host = $("#stories");
+  const list = state.data.storylines || [];
+  if (!list.length) { sec.hidden = true; return; }
+  sec.hidden = false;
+  host.innerHTML = "";
+  // Anything that moved today first, then by how long it has been running.
+  const sorted = list.slice().sort((a, b) =>
+    (b.latest ? 1 : 0) - (a.latest ? 1 : 0) ||
+    (a.status === "active" ? -1 : 1) - (b.status === "active" ? -1 : 1) ||
+    (b.days_running || 0) - (a.days_running || 0));
+  for (const s of sorted) host.appendChild(storyCard(s));
   linkify(host);
 }
 
@@ -683,6 +765,7 @@ async function boot() {
   $("#tone").textContent = state.data.tone || "";
 
   renderBrief();
+  renderStories();
   renderKpis();
   renderNews();
   renderRates();
