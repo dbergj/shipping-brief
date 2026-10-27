@@ -16,17 +16,21 @@ import os
 
 from http_util import FetchError, fetch_json
 
-# The /v2/seriesid/ route accepts a legacy series ID directly and resolves the
-# category path itself. Using it avoids guessing the dataset hierarchy, which is
-# where this adapter would otherwise be one wrong path segment from silence.
+# The /v2/seriesid/ route takes a legacy v1 series ID and resolves the category
+# path itself. The ID must be fully qualified — "PET.RBRTE.D", not "RBRTE" —
+# which is what a bare ID returning 404 taught us. Both spellings are tried, so
+# the adapter self-heals if EIA ever accepts the short form.
 API = ("https://api.eia.gov/v2/seriesid/{series}"
        "?api_key={key}&sort[0][column]=period&sort[0][direction]=desc&length=4")
 
-# metric id -> EIA series id
+# metric id -> candidate series IDs, most-likely first.
 SERIES = {
-    "brent": "RBRTE",       # Europe Brent spot FOB, USD/barrel, daily
-    "wti": "RWTC",          # Cushing WTI spot FOB, USD/barrel, daily
-    "henry_hub": "RNGWHHD",  # Henry Hub natural gas spot, USD/mmBtu, daily
+    # Europe Brent spot FOB, USD/barrel, daily
+    "brent": ("PET.RBRTE.D", "RBRTE"),
+    # Cushing WTI spot FOB, USD/barrel, daily
+    "wti": ("PET.RWTC.D", "RWTC"),
+    # Henry Hub natural gas spot, USD/mmBtu, daily
+    "henry_hub": ("NG.RNGWHHD.D", "RNGWHHD"),
 }
 
 
@@ -45,11 +49,19 @@ def fetch_eia(metric_ids, log=print):
     for mid in metric_ids:
         if mid not in SERIES:
             continue
-        series = SERIES[mid]
-        try:
-            data = fetch_json(API.format(key=key, series=series))
-        except FetchError as exc:
-            log(f"  eia: {mid} unavailable — {exc}")
+        data = None
+        last_error = None
+        for series in SERIES[mid]:
+            try:
+                data = fetch_json(API.format(key=key, series=series))
+                break
+            except FetchError as exc:
+                last_error = exc
+                # A 404 means this spelling of the id is wrong; try the next.
+                if getattr(exc, "status", None) != 404:
+                    break
+        if data is None:
+            log(f"  eia: {mid} unavailable — {last_error}")
             continue
 
         rows = ((data or {}).get("response") or {}).get("data") or []
@@ -57,7 +69,13 @@ def fetch_eia(metric_ids, log=print):
         for row in rows:
             # The seriesid route names the number "value"; some datasets use the
             # series id as the column name instead.
-            raw = row.get("value", row.get(series))
+            raw = row.get("value")
+            if raw is None:
+                # Some datasets name the column after the series instead.
+                for k, v in row.items():
+                    if k not in ("period", "series", "seriesDescription", "units"):
+                        raw = v
+                        break
             if raw in (None, "", "."):
                 continue
             try:

@@ -29,6 +29,7 @@ import brief as brief_mod  # noqa: E402
 import registry as reg  # noqa: E402
 from bdi import fetch_bdi  # noqa: E402
 from bunkers import fetch_all_grades  # noqa: E402
+from dry_rates import fetch_dry_rates  # noqa: E402
 from eia import fetch_eia  # noqa: E402
 from fred import fetch_fred  # noqa: E402
 from news_oslo import fetch_oslo, resolve_issuers  # noqa: E402
@@ -136,6 +137,12 @@ def collect_metrics(previous):
     except Exception as exc:  # noqa: BLE001
         note_error("bunkers", exc)
 
+    dry = {}
+    try:
+        dry = fetch_dry_rates(log=log)
+    except Exception as exc:  # noqa: BLE001
+        note_error("dry_rates", exc)
+
     bdi = None
     try:
         bdi = fetch_bdi(log=log)
@@ -162,10 +169,23 @@ def collect_metrics(previous):
             fresh = {"value": e["value"], "change": e.get("change"),
                      "as_of": e["as_of"], "source": "EIA (official)"}
 
-        if spec["source"] == "bdi" and bdi and fresh is None:
-            fresh = {"value": bdi["value"], "change": bdi.get("change"),
-                     "as_of": bdi["as_of"], "source": "Baltic Exchange via Hellenic Shipping News",
-                     "source_url": bdi.get("source_url")}
+        if spec["source"] == "dry_rates" and spec["id"] in dry and fresh is None:
+            d = dry[spec["id"]]
+            fresh = {"value": d["value"], "change": None, "as_of": d["as_of"],
+                     "source": "Baltic Exchange via Reuters/Hellenic",
+                     "source_url": d.get("source_url")}
+
+        if spec["source"] == "bdi" and fresh is None:
+            if bdi:
+                fresh = {"value": bdi["value"], "change": bdi.get("change"),
+                         "as_of": bdi["as_of"],
+                         "source": "Baltic Exchange via Hellenic Shipping News",
+                         "source_url": bdi.get("source_url")}
+            elif "bdi" in dry:
+                d = dry["bdi"]
+                fresh = {"value": d["value"], "change": None, "as_of": d["as_of"],
+                         "source": "Baltic Exchange via Reuters/Hellenic",
+                         "source_url": d.get("source_url")}
 
         row = {k: spec[k] for k in ("id", "label", "unit", "group") if k in spec}
         row["blurb"] = spec.get("blurb", "")
@@ -198,7 +218,7 @@ def collect_metrics(previous):
         out.append(row)
 
     out.extend(derive_metrics(out))
-    return out
+    return out, dry
 
 
 def derive_metrics(metrics):
@@ -245,7 +265,7 @@ def derive_metrics(metrics):
 # --------------------------------------------------------------------------- #
 # Freight routes that need a paid Baltic subscription
 # --------------------------------------------------------------------------- #
-def collect_rates():
+def collect_rates(dry=None):
     """Build the rate table. Rows with no number render as inactive.
 
     Official Baltic route assessments cost GBP 3,420/yr, so these are inactive
@@ -255,6 +275,7 @@ def collect_rates():
     """
     manual = load_json(MANUAL, {})
     values = manual.get("rates", {}) if isinstance(manual, dict) else {}
+    dry = dry or {}
 
     rows = []
     for spec in reg.MANUAL_RATES:
@@ -268,8 +289,16 @@ def collect_rates():
                                "(£3,420/yr). This row activates automatically if a value "
                                "is supplied.",
         }
-        if isinstance(raw, (int, float)):
-            row.update({"value": raw, "status": "ok", "source": manual.get("source", "manual entry")})
+        # A figure quoted in the daily Reuters report beats a hand-entered one.
+        if spec["id"] in dry:
+            d = dry[spec["id"]]
+            row.update({"value": d["value"], "status": "ok", "as_of": d["as_of"],
+                        "source": "Baltic Exchange via Reuters/Hellenic",
+                        "source_url": d.get("source_url")})
+            row.pop("why_unavailable", None)
+        elif isinstance(raw, (int, float)):
+            row.update({"value": raw, "status": "ok",
+                        "source": manual.get("source", "manual entry")})
         rows.append(row)
 
     live = sum(1 for r in rows if r["status"] == "ok")
@@ -504,9 +533,9 @@ def main():
     previous = load_json(LATEST, {})
 
     log("prices:")
-    metrics = collect_metrics(previous)
+    metrics, dry = collect_metrics(previous)
     log("rates:")
-    rates = collect_rates()
+    rates = collect_rates(dry)
     log("news:")
     company, market = collect_news()
     archive = merge_archive(company, market)

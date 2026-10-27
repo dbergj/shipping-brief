@@ -22,12 +22,25 @@ import re
 from http_util import FetchError, fetch, fetch_json
 
 SUBMISSIONS = "https://data.sec.gov/submissions/CIK{cik}.json"
+# Fallback listing. data.sec.gov refuses datacenter IPs with a blanket 403 —
+# which emptied the company-news column on every scheduled run while working
+# fine from a laptop — but www.sec.gov still serves EDGAR's Atom feeds.
+ATOM = ("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}"
+        "&type=&dateb=&owner=include&count=25&output=atom")
 ARCHIVE = "https://www.sec.gov/Archives/edgar/data/{cik_int}/{acc}/"
 INDEX_URL = "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type={form}"
 
-CONTACT = os.environ.get("SEC_CONTACT", "shipping-brief educational dashboard")
-DATA_HEADERS = {"User-Agent": CONTACT, "Host": "data.sec.gov"}
+# SEC requires a User-Agent that identifies the requester and includes a contact
+# address. A UA without one now gets a blanket 403 on every request, which is
+# what silently emptied the company-news column. Set SEC_CONTACT to an email.
+CONTACT = os.environ.get("SEC_CONTACT") or "shipping-brief dashboard contact@example.com"
+# Host is not set explicitly: urllib derives it, and forcing it adds nothing.
+DATA_HEADERS = {"User-Agent": CONTACT}
 WWW_HEADERS = {"User-Agent": CONTACT}
+
+
+def contact_is_configured():
+    return bool(os.environ.get("SEC_CONTACT"))
 
 LOOKBACK_DAYS = 14
 
@@ -242,16 +255,64 @@ def _describe_items(items):
     return meanings[0] if meanings else None
 
 
+def _from_atom(comp, forms, cutoff, log):
+    """List a company's recent filings from EDGAR's Atom feed.
+
+    Carries form type, date and a link whose path contains the accession
+    number. It has no 8-K item codes, so filings listed this way fall back to a
+    plain description when no press release is attached.
+    """
+    try:
+        xml = fetch(ATOM.format(cik=comp["cik"]), headers=WWW_HEADERS)
+    except FetchError as exc:
+        log(f"  sec: {comp['ticker']} atom feed unavailable — {exc}")
+        return []
+
+    out = []
+    for entry in re.findall(r"<entry>(.*?)</entry>", xml, re.S):
+        form = re.search(r"<filing-type>(.*?)</filing-type>", entry, re.S)
+        date = re.search(r"<filing-date>(.*?)</filing-date>", entry, re.S)
+        href = re.search(r"<filing-href>(.*?)</filing-href>", entry, re.S)
+        if not (form and date and href):
+            continue
+        form = form.group(1).strip()
+        if form not in forms:
+            continue
+        try:
+            filed = dt.date.fromisoformat(date.group(1).strip())
+        except ValueError:
+            continue
+        if filed < cutoff:
+            continue
+        # .../Archives/edgar/data/<cik>/<accession-no-dashes>/<acc>-index.htm
+        m = re.search(r"/(\d{10}-?\d{2}-?\d{6})-index", href.group(1))
+        acc = m.group(1) if m else ""
+        if acc and "-" not in acc:
+            acc = f"{acc[:10]}-{acc[10:12]}-{acc[12:]}"
+        out.append({"company": comp, "form": form, "filed": filed,
+                    "acc": acc, "doc": "", "items": ""})
+    return out
+
+
 def fetch_sec(companies, forms, log=print, enrich=True):
     """Return recent 6-K/8-K filings with readable headlines where possible."""
+    if not contact_is_configured():
+        log("  sec: SEC_CONTACT is not set. SEC requires a contact email in the "
+            "User-Agent and returns 403 without one — set it as a repository secret.")
+
     cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=LOOKBACK_DAYS)).date()
     candidates = []
 
+    blocked = 0
     for comp in companies:
         try:
             data = fetch_json(SUBMISSIONS.format(cik=comp["cik"]), headers=DATA_HEADERS)
         except FetchError as exc:
-            log(f"  sec: {comp['ticker']} unavailable — {exc}")
+            if getattr(exc, "status", None) == 403:
+                blocked += 1
+                candidates.extend(_from_atom(comp, forms, cutoff, log))
+            else:
+                log(f"  sec: {comp['ticker']} unavailable — {exc}")
             continue
 
         recent = (data.get("filings") or {}).get("recent") or {}
@@ -277,6 +338,9 @@ def fetch_sec(companies, forms, log=print, enrich=True):
                 "items": items[i] if i < len(items) else "",
             })
 
+    if blocked:
+        log(f"  sec: data.sec.gov refused {blocked} request(s) (403, datacenter IP); "
+            f"used EDGAR's Atom feed instead")
     candidates.sort(key=lambda c: c["filed"], reverse=True)
     cache = _load_cache()
     out = []
@@ -285,9 +349,14 @@ def fetch_sec(companies, forms, log=print, enrich=True):
     for c in candidates:
         comp = c["company"]
         acc_nodash = c["acc"].replace("-", "")
-        link = (ARCHIVE.format(cik_int=int(comp["cik"]), acc=acc_nodash) + c["doc"]
-                if c["acc"] and c["doc"]
-                else INDEX_URL.format(cik=comp["cik"], form=c["form"]))
+        if c["acc"] and c["doc"]:
+            link = ARCHIVE.format(cik_int=int(comp["cik"]), acc=acc_nodash) + c["doc"]
+        elif c["acc"]:
+            # Atom gives no primary document name; the filing index page lists it.
+            link = (ARCHIVE.format(cik_int=int(comp["cik"]), acc=acc_nodash)
+                    + f"{c['acc']}-index.htm")
+        else:
+            link = INDEX_URL.format(cik=comp["cik"], form=c["form"])
 
         headline = summary = None
         cached = cache.get(c["acc"])

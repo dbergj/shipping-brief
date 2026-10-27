@@ -46,6 +46,20 @@ METRICS = [
          blurb="An ETF holding tanker freight futures. A rough daily read on tanker sentiment."),
 
     # Scraped / parsed sources
+    # Baltic sub-indices, read out of the daily Reuters report rather than the
+    # licensed feed. See collect/sources/dry_rates.py.
+    dict(id="bci", label="Baltic Capesize Index", unit="points", group="rates",
+         source="dry_rates", max_age_days=5, verified=True,
+         blurb="The Capesize component of the Baltic Dry Index. The most volatile part, "
+               "and effectively a bet on Chinese steel production."),
+    dict(id="bpi", label="Baltic Panamax Index", unit="points", group="rates",
+         source="dry_rates", max_age_days=5, verified=True,
+         blurb="The Panamax component. Coal and grain rather than iron ore, so it "
+               "follows harvests and power demand more than steel."),
+    dict(id="bsi", label="Baltic Supramax Index", unit="points", group="rates",
+         source="dry_rates", max_age_days=5, verified=True,
+         blurb="The Supramax component. These ships have their own cranes and serve "
+               "smaller ports, so it reflects broad trade rather than one commodity."),
     dict(id="bdi", label="Baltic Dry Index", unit="points", group="rates",
          source="bdi", kpi=True, max_age_days=4, verified=True,
          blurb="The Baltic Exchange's headline dry bulk freight index. Published late "
