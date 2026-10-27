@@ -1,6 +1,32 @@
 {
  "company": [
   {
+   "title": "KCC: Third Quarter 2026   Solid Q3, record Q4 outlook",
+   "link": "https://newsweb.oslobors.no/message/684866",
+   "published": "2026-10-27T06:01:10+00:00",
+   "source": "Oslo Børs",
+   "ticker": "KCC",
+   "company": "Klaveness Combination Carriers ASA",
+   "category": "Half-year report",
+   "kind": "company",
+   "routine": false,
+   "rank": 1,
+   "nordic": true
+  },
+  {
+   "title": "KCC: Key information relating to dividend for third quarter 2026",
+   "link": "https://newsweb.oslobors.no/message/684865",
+   "published": "2026-10-27T06:01:02+00:00",
+   "source": "Oslo Børs",
+   "ticker": "KCC",
+   "company": "Klaveness Combination Carriers ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "International Seaways entered a material agreement",
    "summary": "",
    "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/tm2628139d1_8k.htm",
@@ -151,6 +177,267 @@
   }
  ],
  "market": [
+  {
+   "title": "New study pours cold water on nuclear shipping economics",
+   "link": "https://splash247.com/new-study-pours-cold-water-on-nuclear-shipping-economics/",
+   "published": "2026-10-27T06:01:33+00:00",
+   "summary": "The commercial case for nuclear-powered shipping remains highly uncertain, with new research suggesting the technology could become competitive by 2040, but only with dramatic reductions in reactor costs and effective global carbon regulation. A study published today by University College London’s Energy Institute examines the total cost of ownership of nuclear-powered containerships, comparing them with …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Japanese shipping giants join forces for ammonia-fuelled car carrier quartet",
+   "link": "https://splash247.com/japanese-shipping-giants-join-forces-for-ammonia-fuelled-car-carrier-quartet/",
+   "published": "2026-10-27T05:56:59+00:00",
+   "summary": "Seven Japanese companies have joined forces to build four ammonia-fuelled car carriers and establish an integrated bunkering network, in one of the most ambitious commercial shipping projects yet involving the alternative fuel. Nippon Yusen Kaisha (NYK) and Kawasaki Kisen Kaisha (K Line) will each operate two vessels, scheduled for delivery in 2030, with Japanese shipbuilders …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UCL Energy’s Dr Tristan Smith says supporters of nuclear propulsion should back IMO Net Zero Framework",
+   "link": "https://ship.energy/information/ucl-energys-dr-tristan-smith-says-supporters-of-nuclear-propulsion-should-back-imo-net-zero-framework/",
+   "published": "2026-10-27T01:01:00+00:00",
+   "summary": "Dr Tristan Smith, Professor of Energy and Transport, UCL Shipping and Oceans Research Group, has argued that ‘anyone backing [nuclear] reactor programmes should want a stringent international GHG policy and credible global framework’, with his remarks coming as his research group publishes new research on the total cost of ownership for nuclear powered ships. The report ‘Nuclear Reactors for Merchant Shipping: A Tota",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DP World Joins Efforts to Develop Trade Through Canada’s Port of Churchill",
+   "link": "https://maritime-executive.com/article/dp-world-joins-efforts-to-develop-trade-through-canada-s-port-of-churchill",
+   "published": "2026-10-26T23:57:09+00:00",
+   "summary": "DP World has entered into a new partnership with the operators of Canada’s northern Port of Churchill, along with CentrePort Canada, which operates Ca...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "As Attacks Mount, Shipping Faces an Uncomfortable Question: Are Safety Rules Fit for War?",
+   "link": "https://gcaptain.com/as-attacks-mount-shipping-faces-an-uncomfortable-question-are-safety-rules-fit-for-war/",
+   "published": "2026-10-26T23:43:42+00:00",
+   "summary": "October has become the worst month on record for attacks on merchant ships in and around the Strait of Hormuz, and oil is now washing onto the beaches of the United Arab Emirates.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Chouest Reaches Deal to Buy Canadian Offshore Firm Horizon Maritime",
+   "link": "https://maritime-executive.com/article/chouest-reaches-deal-to-buy-canadian-offshore-firm-horizon-maritime",
+   "published": "2026-10-26T23:02:16+00:00",
+   "summary": "The Louisiana-based offshore services company Chouest Group has reached a deal to buy Canadian operator Horizon Maritime, provider of OSV services to ...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Injured Master and Officer Evacuated During North Sea Storm",
+   "link": "https://maritime-executive.com/article/injured-master-and-officer-evacuated-during-north-sea-storm",
+   "published": "2026-10-26T22:40:14+00:00",
+   "summary": "The Dutch and German rescue agencies are reporting they responded to a Mayday call from a heavy-lift vessel operating in the North Sea during last wee...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Baltic Dry Bulk Freight Index Falls To Near One-Week Low",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
+   "published": "2026-10-26T22:00:59+00:00",
+   "summary": "The Baltic Exchange’s main sea freight index dropped on Monday, pressured by declining rates across the capesize and panamax vessel segments. The Baltic index, which measures shipping rates for capesize, panamax and supramax vessels, fell 32 points, or 1.23%, to 2,628 points. This marked the index’s lowest level in nearly a week. The capesize index ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping: The Car Shipping Trade Is in Full Effect",
+   "link": "https://www.hellenicshippingnews.com/shipping-the-car-shipping-trade-is-in-full-effect/",
+   "published": "2026-10-26T22:00:59+00:00",
+   "summary": "The car carrier business is rapidly growing with China, once again, at the center of this. In its latest weekly report, shipbroker Intermodal said that “China’s rapidly expanding automotive exports have emerged as a key driver of the Pure Car and Truck Carrier (PCTC) market in 2026, supporting vessel utilisation and elevated charter earnings. According ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seafarer happiness slips as crews camaraderie props up failing shore-side support",
+   "link": "https://www.hellenicshippingnews.com/seafarer-happiness-slips-as-crews-camaraderie-props-up-failing-shore-side-support/",
+   "published": "2026-10-26T22:00:58+00:00",
+   "summary": "Seafarer happiness has fallen for a third consecutive quarter, according to the latest Seafarers Happiness Index (SHI), published by The Mission to Seafarers with Inmarsat and Idwal. The Q3 2026 score of 6.81/10 is down from 6.87 in Q2 and 7.26 at the end of 2025. Six of the ten measures fell. Those linked to ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iran Threatens the Hormuz Internet Cables: Four Gulf States Have No Subsea Route That Avoids the Strait",
+   "link": "https://www.hellenicshippingnews.com/iran-threatens-the-hormuz-internet-cables-four-gulf-states-have-no-subsea-route-that-avoids-the-strait/",
+   "published": "2026-10-26T22:00:57+00:00",
+   "summary": "Iran Named the Cables Before Naming the Targets On October 19, IRGC spokesman Hossein Mohebbi told a ceremony in Tehran that seven major internet cables run beneath the Strait of Hormuz, and that new targets and new weapons would be unveiled. He added that this time the response would be much harsher. The statement did ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bunker Quality Alerts Prompt CΜΤ Concern Over Engine Damage And Repair Costs",
+   "link": "https://www.hellenicshippingnews.com/bunker-quality-alerts-prompt-c%ce%bc%cf%84-concern-over-engine-damage-and-repair-costs/",
+   "published": "2026-10-26T22:00:57+00:00",
+   "summary": "Shipowners and operators need to maintain close checks on fuel quality following a series of off-specification alerts at major bunkering ports, advises German testing specialist CM Technologies (CMT), warning that contaminated or unstable fuels can result in costly engine damage and vessel downtime. The advisory follows reports of fuel quality problems at Antwerp, Rotterdam, Houston, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Stena Acquires Color Line, Joining Two of Europe’s Largest Ferry Companies",
+   "link": "https://maritime-executive.com/article/stena-acquires-color-line-joining-two-of-europe-s-largest-ferry-companies",
+   "published": "2026-10-26T21:52:05+00:00",
+   "summary": "Stena, which is already one of the largest ferry operators in Europe, is moving to expand its presence in Scandinavia with the acquisition of Norway’s...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Indonesia Busts Mongolian-Flagged Tanker for Ketamine Smuggling",
+   "link": "https://maritime-executive.com/article/indonesia-busts-mongolian-flagged-tanker-for-ketamine-smuggling",
+   "published": "2026-10-26T21:23:05+00:00",
+   "summary": "Authorities in Indonesia have discovered an abundant quantity of ketamine aboard a tanker in the Strait of Malacca, prompting an investigation into it...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "SAT-JAM: Ships must learn to navigate without GPS",
+   "link": "https://splash247.com/sat-jam-ships-must-learn-to-navigate-without-gps/",
+   "published": "2026-10-26T21:07:00+00:00",
+   "summary": "A researcher in Denmark who has developed a new system for tracking satellite navigation interference from space has a stark warning for the shipping industry in today’s Maritime CEO interview: GPS can no longer be considered a dependable means of navigation. Kian Bostani Nezhad, a PhD researcher at the Technical University of Denmark (DTU), believes …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "World’s Largest Battery-Electric Ship Begins Commercial Service in South America",
+   "link": "https://gcaptain.com/worlds-largest-battery-electric-ship-begins-commercial-service-in-south-america/",
+   "published": "2026-10-26T20:59:57+00:00",
+   "summary": "The world’s largest battery-electric ship has officially entered commercial service, marking a major milestone for the maritime industry and the growing use of electric propulsion in large passenger vessels. The...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Robert Allan Announces New Ship-Handling/Fire-Fighting 2 Tug Design",
+   "link": "https://www.marinelink.com/news/robert-allan-announces-new-543912",
+   "published": "2026-10-26T20:31:10+00:00",
+   "summary": "Robert Allan Ltd. announced the award to design a new RAmparts 3800 Ship-Handling/Fire-Fighting 2 (FiFi 2) tug for Ningbo Port. The vessel will be constructed by Jiangsu Zhenjiang Shipyard (Group) Co., Ltd.Robert Allan Ltd. has built long term relationship with Ningbo Port since 2004…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping cuts training when it needs it most",
+   "link": "https://splash247.com/shipping-cuts-training-when-it-needs-it-most/",
+   "published": "2026-10-26T20:19:00+00:00",
+   "summary": "Irene Rosberg, who runs the Blue MBA at Copenhagen Business School, returns to Splash today. When business conditions become difficult, training is often one of the easiest budgets to cut. In shipping, that is becoming an increasingly dangerous habit. The industry is asking its people to understand decarbonisation, artificial intelligence, cyber risk, increasingly complex regulation …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Tanker Disabled in Strait of Hormuz Attack, Another Vessel Reported on Fire in Persian Gulf",
+   "link": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
+   "published": "2026-10-26T18:46:03+00:00",
+   "summary": "Two new maritime security warnings issued Monday point to continued dangers for commercial shipping in the Middle East, with one tanker confirmed disabled by a projectile in the Strait of...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hormuz Chaos Sparks Legal Showdown Over Global Tanker Pricing",
+   "link": "https://gcaptain.com/hormuz-chaos-sparks-legal-showdown-over-global-tanker-pricing/",
+   "published": "2026-10-26T18:30:47+00:00",
+   "summary": "Commodity trader Mercuria Energy Group accused the Baltic Exchange of continuing to publish the world’s benchmark oil tanker rate, despite distortions caused by the Iran war, because it feared losing business to a competitor.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore Yards Chase Profit From Europe’s Offshore Wind Push",
+   "link": "https://gcaptain.com/singapore-yards-chase-profit-from-europes-offshore-wind-push/",
+   "published": "2026-10-26T18:22:16+00:00",
+   "summary": "At a shipyard in northern Singapore, a yellow platform towers over a maze of scaffolding and cranes. Resembling a 15-story building, the piece will be shipped halfway around the world to Europe to be installed into an offshore wind farm.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Saildrone Selected for Baltic Sea Maritime Domain Mission with Swedish Armed Forces",
+   "link": "https://www.marinelink.com/news/saildrone-selected-baltic-sea-maritime-543911",
+   "published": "2026-10-26T17:52:29+00:00",
+   "summary": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent maritime domain awareness across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea.Under the agreement, Saildrone will deploy…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Middle East Officials Meet Discuss Deescalation Amidst Continued Houthi Attacks",
+   "link": "https://www.marinelink.com/news/middle-east-officials-meet-discuss-543910",
+   "published": "2026-10-26T17:45:50+00:00",
+   "summary": "Top officials from Saudi Arabia, Turkey and Pakistan met Iranian officials in Tehran on Monday in a bid to de-escalate the Middle East conflict, as Yemen's Houthis launched new attacks on Saudi Arabia and Egypt approved defence support for the…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Oil Prices Fall Amidst Hopes of Easing US-Iran Hostilities",
+   "link": "https://www.marinelink.com/news/oil-prices-fall-amidst-hopes-easing-543907",
+   "published": "2026-10-26T17:36:16+00:00",
+   "summary": "Oil prices fell $2 a barrel on Monday amid hopes of easing hostilities between the United States and Iran, but persistent attacks on key producer Saudi Arabia kept investors wary and prices near six-month highs.Brent crude futures were down $2.03, or 1.7%, at $114.70 at 10:37 a.m.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "How Trump’s Energy Dominance Turned Into Hubris",
+   "link": "https://gcaptain.com/how-trumps-energy-dominance-turned-into-hubris/",
+   "published": "2026-10-26T16:36:05+00:00",
+   "summary": "When Donald Trump returned to the White House in 2025, “energy dominance” was the bedrock of his economic and foreign policy plans. But an unpopular war with Iran and soaring household fuel costs have now made energy policy a major liability for the US president heading into next month’s midterm elections.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Late reports of Hormuz attacks as Iran blacklist expands",
+   "link": "",
+   "published": "2026-10-26T16:12:32+00:00",
+   "summary": "Reports of a vessel on fire off Iraq as UKMTO issues late warning of 23 October tanker strike off Oman.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Trinidad & Tobago and Venezuela looking to ramp up energy cooperation",
+   "link": "https://ship.energy/information/trinidad-tobago-and-venezuela-looking-to-ramp-up-energy-cooperation/",
+   "published": "2026-10-26T16:10:57+00:00",
+   "summary": "The Energy Chambers of Venezuela and Trinidad & Tobago have signed a letter of intent (LOI) to boost their cooperation and look at ways to ‘integrate their hydrocarbon sectors’. The LoI was signed by Álvaro Pérez Díaz, President of the Venezuelan Petroleum Chamber (La Cámara Petrolera de Venezuela (CPV), and Dr. Priya Marajh, President and CEO of The Energy Chamber of Trinidad and Tobago, at the Venezuela Internation",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Florida’s Global Marine Management completes MGO bunker line modification aboard operational cruise ship in Australia",
+   "link": "https://ship.energy/information/floridas-global-marine-management-completes-mgo-bunker-line-modification-aboard-operational-cruise-ship-in-australia/",
+   "published": "2026-10-26T14:48:49+00:00",
+   "summary": "Fort Lauderdale-based Global Marine Management (GMM) has recently completed an MGO bunker line modification project on a cruise ship while the vessel remained in service in Australia. Speaking to ship.energy, GMM Project Manager Sandro Duarte explained that the vessel’s previous arrangement used a common bunkering connection for marine gas oil (MGO) and fuel oil (FO). This required the shared sections of the system t",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "SEFE, Ksi Lisims LNG seal long-term LNG supply deal",
+   "link": "https://lngprime.com/americas/sefe-ksi-lisims-lng-seal-long-term-lng-supply-deal/198999/",
+   "published": "2026-10-26T14:10:19+00:00",
+   "summary": "German gas and LNG importer Securing Energy for Europe (SEFE) has signed a long-term LNG sale and purchase agreement with Ksi Lisims LNG for volumes from the latter’s planned export project in Canada.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
   {
    "title": "Converting PSVs for Expedition Cruising Creates Compelling Business Model",
    "link": "https://maritime-executive.com/article/converting-psvs-for-expedition-cruising-creates-compelling-business-model",

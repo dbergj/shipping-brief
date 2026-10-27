@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-26T13:56:04+00:00",
- "tone": "4 of 5 tracked prices rose and 1 fell. Biggest mover: VLSFO Singapore +2.7% to 963.00 USD/t.",
+ "generated_at": "2026-10-27T06:05:49+00:00",
+ "tone": "0 of 1 tracked prices rose and 1 fell. Biggest mover: Baltic Dry Index -1.2% to 2,628.00 points.",
  "metrics": [
   {
    "id": "brent",
@@ -15,7 +15,7 @@
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "yahoo:BZ=F",
    "stale": true,
-   "age_days": 4.95
+   "age_days": 5.63
   },
   {
    "id": "wti",
@@ -30,7 +30,7 @@
    "as_of": "2026-10-26T13:40:21+00:00",
    "source": "yahoo:CL=F",
    "stale": true,
-   "age_days": 0.01
+   "age_days": 0.68
   },
   {
    "id": "ttf",
@@ -105,7 +105,7 @@
    "as_of": "2026-10-21T14:28:59+00:00",
    "source": "yahoo:RB=F",
    "stale": true,
-   "age_days": 4.98
+   "age_days": 5.65
   },
   {
    "id": "bdry",
@@ -150,7 +150,7 @@
    "source": "Baltic Exchange via Hellenic Shipping News",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2628-down-32-points/",
    "stale": false,
-   "age_days": 0.04
+   "age_days": 0.71
   },
   {
    "id": "vlsfo_sing",
@@ -160,11 +160,11 @@
    "blurb": "Price of the main low-sulphur marine fuel at the world's biggest bunker port.",
    "kpi": true,
    "value": 963.0,
-   "change": 26.0,
+   "change": null,
    "as_of": "2026-10-26T13:55:38+00:00",
    "source": "shipandbunker.com",
-   "stale": false,
-   "age_days": 0.0
+   "stale": true,
+   "age_days": 0.67
   },
   {
    "id": "vlsfo_rott",
@@ -174,11 +174,11 @@
    "blurb": "The same fuel in Europe's biggest bunker port.",
    "kpi": false,
    "value": 766.0,
-   "change": 3.0,
+   "change": null,
    "as_of": "2026-10-26T13:55:38+00:00",
    "source": "shipandbunker.com",
-   "stale": false,
-   "age_days": 0.0
+   "stale": true,
+   "age_days": 0.67
   },
   {
    "id": "vlsfo_fuj",
@@ -188,11 +188,11 @@
    "blurb": "The Middle East bunker hub, where most VLCC voyages refuel.",
    "kpi": false,
    "value": 981.0,
-   "change": 12.0,
+   "change": null,
    "as_of": "2026-10-26T13:55:38+00:00",
    "source": "shipandbunker.com",
-   "stale": false,
-   "age_days": 0.0
+   "stale": true,
+   "age_days": 0.67
   },
   {
    "id": "vlsfo_hou",
@@ -202,11 +202,11 @@
    "blurb": "The US Gulf bunker price.",
    "kpi": false,
    "value": 817.0,
-   "change": 11.5,
+   "change": null,
    "as_of": "2026-10-26T13:55:38+00:00",
    "source": "shipandbunker.com",
-   "stale": false,
-   "age_days": 0.0
+   "stale": true,
+   "age_days": 0.67
   },
   {
    "id": "refining_margin",
@@ -238,7 +238,7 @@
    "as_of": "2026-10-21T15:04:52+00:00",
    "source": "derived: brent − wti",
    "stale": true,
-   "age_days": 4.95,
+   "age_days": 5.63,
    "derived_from": [
     "brent",
     "wti"
@@ -394,6 +394,32 @@
  "news": {
   "company": [
    {
+    "title": "KCC: Third Quarter 2026   Solid Q3, record Q4 outlook",
+    "link": "https://newsweb.oslobors.no/message/684866",
+    "published": "2026-10-27T06:01:10+00:00",
+    "source": "Oslo Børs",
+    "ticker": "KCC",
+    "company": "Klaveness Combination Carriers ASA",
+    "category": "Half-year report",
+    "kind": "company",
+    "routine": false,
+    "rank": 1,
+    "nordic": true
+   },
+   {
+    "title": "KCC: Key information relating to dividend for third quarter 2026",
+    "link": "https://newsweb.oslobors.no/message/684865",
+    "published": "2026-10-27T06:01:02+00:00",
+    "source": "Oslo Børs",
+    "ticker": "KCC",
+    "company": "Klaveness Combination Carriers ASA",
+    "category": "Regulated information",
+    "kind": "company",
+    "routine": false,
+    "rank": 2,
+    "nordic": true
+   },
+   {
     "title": "International Seaways entered a material agreement",
     "summary": "",
     "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/tm2628139d1_8k.htm",
@@ -545,22 +571,130 @@
   ],
   "market": [
    {
-    "title": "Converting PSVs for Expedition Cruising Creates Compelling Business Model",
-    "link": "https://maritime-executive.com/article/converting-psvs-for-expedition-cruising-creates-compelling-business-model",
-    "published": "2026-10-26T13:44:45+00:00",
-    "summary": "Architect and yacht designer Stefano Pastrovich has developed a novel concept that he believes can create a compelling business model and entry for bo...",
+    "title": "New study pours cold water on nuclear shipping economics",
+    "link": "https://splash247.com/new-study-pours-cold-water-on-nuclear-shipping-economics/",
+    "published": "2026-10-27T06:01:33+00:00",
+    "summary": "The commercial case for nuclear-powered shipping remains highly uncertain, with new research suggesting the technology could become competitive by 2040, but only with dramatic reductions in reactor costs and effective global carbon regulation. A study published today by University College London’s Energy Institute examines the total cost of ownership of nuclear-powered containerships, comparing them with …",
+    "source": "Splash247",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "UCL Energy’s Dr Tristan Smith says supporters of nuclear propulsion should back IMO Net Zero Framework",
+    "link": "https://ship.energy/information/ucl-energys-dr-tristan-smith-says-supporters-of-nuclear-propulsion-should-back-imo-net-zero-framework/",
+    "published": "2026-10-27T01:01:00+00:00",
+    "summary": "Dr Tristan Smith, Professor of Energy and Transport, UCL Shipping and Oceans Research Group, has argued that ‘anyone backing [nuclear] reactor programmes should want a stringent international GHG policy and credible global framework’, with his remarks coming as his research group publishes new research on the total cost of ownership for nuclear powered ships. The report ‘Nuclear Reactors for Merchant Shipping: A Tota",
+    "source": "Bunkerspot",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "DP World Joins Efforts to Develop Trade Through Canada’s Port of Churchill",
+    "link": "https://maritime-executive.com/article/dp-world-joins-efforts-to-develop-trade-through-canada-s-port-of-churchill",
+    "published": "2026-10-26T23:57:09+00:00",
+    "summary": "DP World has entered into a new partnership with the operators of Canada’s northern Port of Churchill, along with CentrePort Canada, which operates Ca...",
     "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "CM Technologies Raises Alarm Over Recent Shipping Fuel Quality Concerns",
-    "link": "https://www.marinelink.com/news/cm-technologies-raises-alarm-recent-543899",
-    "published": "2026-10-26T13:35:29+00:00",
-    "summary": "German testing specialist CM Technologies (CMT) advises that shipowners and operators need to maintain close checks on fuel quality following a series of off-specification alerts at major bunkering ports and warns that contaminated or unstable…",
+    "title": "As Attacks Mount, Shipping Faces an Uncomfortable Question: Are Safety Rules Fit for War?",
+    "link": "https://gcaptain.com/as-attacks-mount-shipping-faces-an-uncomfortable-question-are-safety-rules-fit-for-war/",
+    "published": "2026-10-26T23:43:42+00:00",
+    "summary": "October has become the worst month on record for attacks on merchant ships in and around the Strait of Hormuz, and oil is now washing onto the beaches of the United Arab Emirates.",
+    "source": "gCaptain",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Baltic Dry Bulk Freight Index Falls To Near One-Week Low",
+    "link": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
+    "published": "2026-10-26T22:00:59+00:00",
+    "summary": "The Baltic Exchange’s main sea freight index dropped on Monday, pressured by declining rates across the capesize and panamax vessel segments. The Baltic index, which measures shipping rates for capesize, panamax and supramax vessels, fell 32 points, or 1.23%, to 2,628 points. This marked the index’s lowest level in nearly a week. The capesize index ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Robert Allan Announces New Ship-Handling/Fire-Fighting 2 Tug Design",
+    "link": "https://www.marinelink.com/news/robert-allan-announces-new-543912",
+    "published": "2026-10-26T20:31:10+00:00",
+    "summary": "Robert Allan Ltd. announced the award to design a new RAmparts 3800 Ship-Handling/Fire-Fighting 2 (FiFi 2) tug for Ningbo Port. The vessel will be constructed by Jiangsu Zhenjiang Shipyard (Group) Co., Ltd.Robert Allan Ltd. has built long term relationship with Ningbo Port since 2004…",
     "source": "MarineLink",
     "kind": "market",
     "nordic": false
+   },
+   {
+    "title": "Late reports of Hormuz attacks as Iran blacklist expands",
+    "link": "",
+    "published": "2026-10-26T16:12:32+00:00",
+    "summary": "Reports of a vessel on fire off Iraq as UKMTO issues late warning of 23 October tanker strike off Oman.",
+    "source": "Seatrade Maritime",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "SEFE, Ksi Lisims LNG seal long-term LNG supply deal",
+    "link": "https://lngprime.com/americas/sefe-ksi-lisims-lng-seal-long-term-lng-supply-deal/198999/",
+    "published": "2026-10-26T14:10:19+00:00",
+    "summary": "German gas and LNG importer Securing Energy for Europe (SEFE) has signed a long-term LNG sale and purchase agreement with Ksi Lisims LNG for volumes from the latter’s planned export project in Canada.",
+    "source": "LNG Prime",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Japanese shipping giants join forces for ammonia-fuelled car carrier quartet",
+    "link": "https://splash247.com/japanese-shipping-giants-join-forces-for-ammonia-fuelled-car-carrier-quartet/",
+    "published": "2026-10-27T05:56:59+00:00",
+    "summary": "Seven Japanese companies have joined forces to build four ammonia-fuelled car carriers and establish an integrated bunkering network, in one of the most ambitious commercial shipping projects yet involving the alternative fuel. Nippon Yusen Kaisha (NYK) and Kawasaki Kisen Kaisha (K Line) will each operate two vessels, scheduled for delivery in 2030, with Japanese shipbuilders …",
+    "source": "Splash247",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Trinidad & Tobago and Venezuela looking to ramp up energy cooperation",
+    "link": "https://ship.energy/information/trinidad-tobago-and-venezuela-looking-to-ramp-up-energy-cooperation/",
+    "published": "2026-10-26T16:10:57+00:00",
+    "summary": "The Energy Chambers of Venezuela and Trinidad & Tobago have signed a letter of intent (LOI) to boost their cooperation and look at ways to ‘integrate their hydrocarbon sectors’. The LoI was signed by Álvaro Pérez Díaz, President of the Venezuelan Petroleum Chamber (La Cámara Petrolera de Venezuela (CPV), and Dr. Priya Marajh, President and CEO of The Energy Chamber of Trinidad and Tobago, at the Venezuela Internation",
+    "source": "Bunkerspot",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Chouest Reaches Deal to Buy Canadian Offshore Firm Horizon Maritime",
+    "link": "https://maritime-executive.com/article/chouest-reaches-deal-to-buy-canadian-offshore-firm-horizon-maritime",
+    "published": "2026-10-26T23:02:16+00:00",
+    "summary": "The Louisiana-based offshore services company Chouest Group has reached a deal to buy Canadian operator Horizon Maritime, provider of OSV services to ...",
+    "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "World’s Largest Battery-Electric Ship Begins Commercial Service in South America",
+    "link": "https://gcaptain.com/worlds-largest-battery-electric-ship-begins-commercial-service-in-south-america/",
+    "published": "2026-10-26T20:59:57+00:00",
+    "summary": "The world’s largest battery-electric ship has officially entered commercial service, marking a major milestone for the maritime industry and the growing use of electric propulsion in large passenger vessels. The...",
+    "source": "gCaptain",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Shipping: The Car Shipping Trade Is in Full Effect",
+    "link": "https://www.hellenicshippingnews.com/shipping-the-car-shipping-trade-is-in-full-effect/",
+    "published": "2026-10-26T22:00:59+00:00",
+    "summary": "The car carrier business is rapidly growing with China, once again, at the center of this. In its latest weekly report, shipbroker Intermodal said that “China’s rapidly expanding automotive exports have emerged as a key driver of the Pure Car and Truck Carrier (PCTC) market in 2026, supporting vessel utilisation and elevated charter earnings. According ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Saildrone Selected for Baltic Sea Maritime Domain Mission with Swedish Armed Forces",
+    "link": "https://www.marinelink.com/news/saildrone-selected-baltic-sea-maritime-543911",
+    "published": "2026-10-26T17:52:29+00:00",
+    "summary": "Saildrone announced a year-long mission with the Swedish Armed Forces to deliver persistent maritime domain awareness across Sweden’s territorial waters and exclusive economic zone in the Baltic Sea.Under the agreement, Saildrone will deploy…",
+    "source": "MarineLink",
+    "kind": "market",
+    "nordic": true
    },
    {
     "title": "Seafarers’ strong bonds conceal cracks in industry support",
@@ -572,19 +706,91 @@
     "nordic": false
    },
    {
-    "title": "Baltic Dry Index falls to 2628 down 32 points",
-    "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2628-down-32-points/",
-    "published": "2026-10-26T13:00:05+00:00",
-    "summary": "Today, Monday, October 26 2026, the Baltic Dry Index decreased by 32 points, reaching 2628 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
+    "title": "Singapore eyes third LNG import terminal",
+    "link": "https://lngprime.com/asia/singapore-eyes-third-lng-import-terminal/198995/",
+    "published": "2026-10-26T10:13:32+00:00",
+    "summary": "Singapore is considering developing a third liquefied natural gas (LNG) terminal as part of its plans to strengthen energy security, according to Singapore's energy minister Tan See Leng.",
+    "source": "LNG Prime",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "SAT-JAM: Ships must learn to navigate without GPS",
+    "link": "https://splash247.com/sat-jam-ships-must-learn-to-navigate-without-gps/",
+    "published": "2026-10-26T21:07:00+00:00",
+    "summary": "A researcher in Denmark who has developed a new system for tracking satellite navigation interference from space has a stark warning for the shipping industry in today’s Maritime CEO interview: GPS can no longer be considered a dependable means of navigation. Kian Bostani Nezhad, a PhD researcher at the Technical University of Denmark (DTU), believes …",
+    "source": "Splash247",
+    "kind": "market",
+    "nordic": true
+   },
+   {
+    "title": "Florida’s Global Marine Management completes MGO bunker line modification aboard operational cruise ship in Australia",
+    "link": "https://ship.energy/information/floridas-global-marine-management-completes-mgo-bunker-line-modification-aboard-operational-cruise-ship-in-australia/",
+    "published": "2026-10-26T14:48:49+00:00",
+    "summary": "Fort Lauderdale-based Global Marine Management (GMM) has recently completed an MGO bunker line modification project on a cruise ship while the vessel remained in service in Australia. Speaking to ship.energy, GMM Project Manager Sandro Duarte explained that the vessel’s previous arrangement used a common bunkering connection for marine gas oil (MGO) and fuel oil (FO). This required the shared sections of the system t",
+    "source": "Bunkerspot",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Injured Master and Officer Evacuated During North Sea Storm",
+    "link": "https://maritime-executive.com/article/injured-master-and-officer-evacuated-during-north-sea-storm",
+    "published": "2026-10-26T22:40:14+00:00",
+    "summary": "The Dutch and German rescue agencies are reporting they responded to a Mayday call from a heavy-lift vessel operating in the North Sea during last wee...",
+    "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": true
+   },
+   {
+    "title": "Tanker Disabled in Strait of Hormuz Attack, Another Vessel Reported on Fire in Persian Gulf",
+    "link": "https://gcaptain.com/tanker-disabled-in-strait-of-hormuz-attack-another-vessel-reported-on-fire-in-persian-gulf/",
+    "published": "2026-10-26T18:46:03+00:00",
+    "summary": "Two new maritime security warnings issued Monday point to continued dangers for commercial shipping in the Middle East, with one tanker confirmed disabled by a projectile in the Strait of...",
+    "source": "gCaptain",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Seafarer happiness slips as crews camaraderie props up failing shore-side support",
+    "link": "https://www.hellenicshippingnews.com/seafarer-happiness-slips-as-crews-camaraderie-props-up-failing-shore-side-support/",
+    "published": "2026-10-26T22:00:58+00:00",
+    "summary": "Seafarer happiness has fallen for a third consecutive quarter, according to the latest Seafarers Happiness Index (SHI), published by The Mission to Seafarers with Inmarsat and Idwal. The Q3 2026 score of 6.81/10 is down from 6.87 in Q2 and 7.26 at the end of 2025. Six of the ten measures fell. Those linked to ...",
     "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Odfjell cashes in on chemical tanker pair in $62m-plus deal",
-    "link": "https://splash247.com/odfjell-cashes-in-on-chemical-tanker-pair-in-62m-plus-deal/",
-    "published": "2026-10-26T12:47:00+00:00",
-    "summary": "Norwegian chemical tanker owner Odfjell has reportedly sold two 2011-built vessels for more than $62m as it continues reshaping its fleet. Shipbrokers identified the 46,098 dwt Bow Elm and 46,047 dwt Bow Lind as having been sold together, with the deal agreed on a surveys-passed basis. Both vessels were built at South Korea’s SLS Shipbuilding …",
+    "title": "Middle East Officials Meet Discuss Deescalation Amidst Continued Houthi Attacks",
+    "link": "https://www.marinelink.com/news/middle-east-officials-meet-discuss-543910",
+    "published": "2026-10-26T17:45:50+00:00",
+    "summary": "Top officials from Saudi Arabia, Turkey and Pakistan met Iranian officials in Tehran on Monday in a bid to de-escalate the Middle East conflict, as Yemen's Houthis launched new attacks on Saudi Arabia and Egypt approved defence support for the…",
+    "source": "MarineLink",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Saudi maritime and logistics leaders call for united push to turn investment into lasting trade advantage",
+    "link": "",
+    "published": "2026-10-26T12:13:42+00:00",
+    "summary": "As Saudi Maritime and Logistics Congress closes in Jeddah, industry leaders call for stronger partnerships, connected transport networks and investment in the next generation of maritime leaders",
+    "source": "Seatrade Maritime",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "GasLog Partners to redeliver LNG carrier after repairs",
+    "link": "https://lngprime.com/asia/gaslog-partners-to-redeliver-lng-carrier-after-repairs/198948/",
+    "published": "2026-10-26T05:22:00+00:00",
+    "summary": "GasLog Partners, part of Greek LNG carrier owner GasLog, will redeliver the 2013-built LNG carrier GasLog Shanghai, damaged in an incident in the Strait of Hormuz in August, to its owners after the vessel completes repairs at a yard in Singapore.",
+    "source": "LNG Prime",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Shipping cuts training when it needs it most",
+    "link": "https://splash247.com/shipping-cuts-training-when-it-needs-it-most/",
+    "published": "2026-10-26T20:19:00+00:00",
+    "summary": "Irene Rosberg, who runs the Blue MBA at Copenhagen Business School, returns to Splash today. When business conditions become difficult, training is often one of the easiest budgets to cut. In shipping, that is becoming an increasingly dangerous habit. The industry is asking its people to understand decarbonisation, artificial intelligence, cyber risk, increasingly complex regulation …",
     "source": "Splash247",
     "kind": "market",
     "nordic": true
@@ -599,109 +805,37 @@
     "nordic": false
    },
    {
-    "title": "Oil Spill Off UAE Widens, Satellite Images Show, Prompting More Beach Closures",
-    "link": "https://gcaptain.com/oil-spill-off-uae-widens-satellite-images-show-prompting-more-beach-closures/",
-    "published": "2026-10-26T10:44:53+00:00",
-    "summary": "An oil spill from a damaged tanker off the coast of the United Arab Emirates has widened, satellite images showed, triggering more beach closures and raising environmental concerns.",
+    "title": "Stena Acquires Color Line, Joining Two of Europe’s Largest Ferry Companies",
+    "link": "https://maritime-executive.com/article/stena-acquires-color-line-joining-two-of-europe-s-largest-ferry-companies",
+    "published": "2026-10-26T21:52:05+00:00",
+    "summary": "Stena, which is already one of the largest ferry operators in Europe, is moving to expand its presence in Scandinavia with the acquisition of Norway’s...",
+    "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": true
+   },
+   {
+    "title": "Hormuz Chaos Sparks Legal Showdown Over Global Tanker Pricing",
+    "link": "https://gcaptain.com/hormuz-chaos-sparks-legal-showdown-over-global-tanker-pricing/",
+    "published": "2026-10-26T18:30:47+00:00",
+    "summary": "Commodity trader Mercuria Energy Group accused the Baltic Exchange of continuing to publish the world’s benchmark oil tanker rate, despite distortions caused by the Iran war, because it feared losing business to a competitor.",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Singapore eyes third LNG import terminal",
-    "link": "https://lngprime.com/asia/singapore-eyes-third-lng-import-terminal/198995/",
-    "published": "2026-10-26T10:13:32+00:00",
-    "summary": "Singapore is considering developing a third liquefied natural gas (LNG) terminal as part of its plans to strengthen energy security, according to Singapore's energy minister Tan See Leng.",
-    "source": "LNG Prime",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Scenic is Poised to Expand Its Discovery Yachts to Warm-Weather Cruising",
-    "link": "https://maritime-executive.com/article/scenic-is-poised-to-expand-its-discovery-yachts-to-warm-weather-cruising",
-    "published": "2026-10-26T13:43:45+00:00",
-    "summary": "Scenic Group, which got its start 40 years ago offering escorted land tours, is moving to expand its unique brand of all-inclusive luxury cruising to...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Stena AB to Acquire Shipping Company Color Line",
-    "link": "https://www.marinelink.com/news/stena-ab-acquire-shipping-company-color-543898",
-    "published": "2026-10-26T13:30:21+00:00",
-    "summary": "The Swedish industrial Group Stena AB, owner of ferry operator Stena Line, has entered into an agreement to acquire the Norwegian shipping company Color Line, subject to regulatory approval. The transaction will bring together two companies…",
-    "source": "MarineLink",
-    "kind": "market",
-    "nordic": true
-   },
-   {
-    "title": "Saudi maritime and logistics leaders call for united push to turn investment into lasting trade advantage",
-    "link": "",
-    "published": "2026-10-26T12:13:42+00:00",
-    "summary": "As Saudi Maritime and Logistics Congress closes in Jeddah, industry leaders call for stronger partnerships, connected transport networks and investment in the next generation of maritime leaders",
-    "source": "Seatrade Maritime",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "LNG Shipping Market Recovering",
-    "link": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
-    "published": "2026-10-26T11:00:59+00:00",
-    "summary": "LNG The LNG market showed some signs of recovery this week, with increased fixing activity absorbing some of the available tonnage across both basins. Despite this, competition for cargoes remains high and charterers continue to hold negotiating leverage, limiting the extent of upward movement in spot rates. On the BLNG1 Australia–Japan route, rates increased by ...",
+    "title": "Iran Threatens the Hormuz Internet Cables: Four Gulf States Have No Subsea Route That Avoids the Strait",
+    "link": "https://www.hellenicshippingnews.com/iran-threatens-the-hormuz-internet-cables-four-gulf-states-have-no-subsea-route-that-avoids-the-strait/",
+    "published": "2026-10-26T22:00:57+00:00",
+    "summary": "Iran Named the Cables Before Naming the Targets On October 19, IRGC spokesman Hossein Mohebbi told a ceremony in Tehran that seven major internet cables run beneath the Strait of Hormuz, and that new targets and new weapons would be unveiled. He added that this time the response would be much harsher. The statement did ...",
     "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Transocean expands newbuild programme with tanker duo",
-    "link": "https://splash247.com/transocean-expands-newbuild-programme-with-tanker-duo/",
-    "published": "2026-10-26T12:08:00+00:00",
-    "summary": "Monaco-based Transocean Maritime Agencies has ordered two 50,000 dwt chemical and product tankers at China’s Guangzhou Shipyard International (GSI), adding another vessel type to its expanding newbuilding programme. The CSSC-controlled yard recently signed the contract, marking its first order from a Monaco-based shipowner. Financial terms, delivery dates and propulsion specifications have not been disclosed. Transoc",
-    "source": "Splash247",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Baleària floats out its first fully electric fast ferry",
-    "link": "https://ship.energy/energy/balearia-floats-out-its-first-fully-electric-fast-ferry/",
-    "published": "2026-10-26T11:33:36+00:00",
-    "summary": "Spanish ferry company Baleària has announced that its first fully electric fast ferry has been floated out at Armon Shipyards in Gijón and will join its fleet in summer 2027 to operate on the route between the ports of Tarifa and Tangier City. A second catamaran is also under construction and will join the Baleària fleet after the summer next year. The fast ferry that has just left the dry dock is the fifth vessel bu",
-    "source": "Bunkerspot",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Dubai’s DP World in Talks on Alliance With Northern Canada Port",
-    "link": "https://gcaptain.com/dubais-dp-world-in-talks-on-alliance-with-northern-canada-port/",
-    "published": "2026-10-26T10:41:05+00:00",
-    "summary": "Dubai’s DP World Ltd. is set to unveil a deal backing potential development of Canada’s port of Churchill, a northern outpost that Prime Minister Mark Carney aims to expand for exports to Europe and other markets.",
-    "source": "gCaptain",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "GasLog Partners to redeliver LNG carrier after repairs",
-    "link": "https://lngprime.com/asia/gaslog-partners-to-redeliver-lng-carrier-after-repairs/198948/",
-    "published": "2026-10-26T05:22:00+00:00",
-    "summary": "GasLog Partners, part of Greek LNG carrier owner GasLog, will redeliver the 2013-built LNG carrier GasLog Shanghai, damaged in an incident in the Strait of Hormuz in August, to its owners after the vessel completes repairs at a yard in Singapore.",
-    "source": "LNG Prime",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Port of Tampa Bay Proceeding with New Terminal to Meet Growth Demands",
-    "link": "https://maritime-executive.com/article/port-of-tampa-bay-proceeding-with-new-terminal-to-meet-growth-demands",
-    "published": "2026-10-26T13:12:43+00:00",
-    "summary": "As the global cruising population continues to grow, Port Tampa Bay has carved out its niche in the cruise world as Florida’s only Gulf Coast cruise h...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "DP World Converts Ghost Nets Into Sunglasses",
-    "link": "https://www.marinelink.com/news/dp-world-converts-ghost-nets-sunglasses-543897",
-    "published": "2026-10-26T13:25:19+00:00",
-    "summary": "DP World is working with Deniz Yaşamını Koruma Derneği (Türkiye’s Marine Life Conservation Society) to remove ghost nets from the Sea of Marmara and give the recovered material a second life. Ghost nets can take up to 200 years to degrade, and left under the waves…",
+    "title": "Oil Prices Fall Amidst Hopes of Easing US-Iran Hostilities",
+    "link": "https://www.marinelink.com/news/oil-prices-fall-amidst-hopes-easing-543907",
+    "published": "2026-10-26T17:36:16+00:00",
+    "summary": "Oil prices fell $2 a barrel on Monday amid hopes of easing hostilities between the United States and Iran, but persistent attacks on key producer Saudi Arabia kept investors wary and prices near six-month highs.Brent crude futures were down $2.03, or 1.7%, at $114.70 at 10:37 a.m.",
     "source": "MarineLink",
     "kind": "market",
     "nordic": false
@@ -716,42 +850,6 @@
     "nordic": false
    },
    {
-    "title": "USTR proposes extending port fee suspension on China-linked ships to January",
-    "link": "https://www.hellenicshippingnews.com/ustr-proposes-extending-port-fee-suspension-on-china-linked-ships-to-january/",
-    "published": "2026-10-26T11:00:57+00:00",
-    "summary": "The US Trade Representative proposed extending the suspension of port fees on Chinese-linked ships for an additional two months, delaying higher shipping costs for US metals and coal exporters, according to a Federal Register public inspection document posted late last week. USTR had suspended a fee targeting China’s maritime, logistics and shipping sectors for one ...",
-    "source": "Hellenic Shipping News",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Transworld gets green light for $43m boxship deal",
-    "link": "https://splash247.com/transworld-gets-green-light-for-43m-boxship-deal/",
-    "published": "2026-10-26T12:00:00+00:00",
-    "summary": "India’s Transworld Shipping Lines has secured shareholder approval for the $42.78m acquisition of two containerships from another company within its controlling shareholder’s group, clearing a key hurdle in its ongoing fleet restructuring. The Navi Mumbai-based listed owner disclosed in a filing that shareholders had backed the purchase of the 2006-built OEL Surya and OEL Varun …",
-    "source": "Splash247",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "CMA CGM vessels set for regular bioethanol bunkering at Port of Santos",
-    "link": "https://ship.energy/information/cma-cgm-vessels-set-for-regular-bioethanol-bunkering-at-port-of-santos/",
-    "published": "2026-10-26T11:23:49+00:00",
-    "summary": "A group of partners led by CMA CGM, Copersucar, Bunker One and the Santos Port Authority have announced the ‘start of regular bioethanol bunkering operations’ at the Port of Santos in Brazil after a second successful bioethanol bunkering of a CMA CGM vessel last week (19 October). In a statement issued on 23 October, the partners said the 13,000 TEU container ship CMA CGM IRON was bunkered with bioethanol at the port",
-    "source": "Bunkerspot",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Russia Says It Hit Two Cargo Vessels And Ukrainian Logistics Hubs",
-    "link": "https://gcaptain.com/russia-says-it-hit-two-cargo-vessels-and-ukrainian-logistics-hubs/",
-    "published": "2026-10-25T20:21:48+00:00",
-    "summary": "MOSCOW, Oct 25 (Reuters) – The Russian Defence Ministry said on Sunday that its drones had struck a cargo vessel bound for the Black Sea port of Chornomorsk in an overnight attack and another...",
-    "source": "gCaptain",
-    "kind": "market",
-    "nordic": false
-   },
-   {
     "title": "Egypt remained top destination for US LNG shipments in August",
     "link": "https://lngprime.com/americas/egypt-remained-top-destination-for-us-lng-shipments-in-august/198915/",
     "published": "2026-10-26T05:20:00+00:00",
@@ -761,19 +859,55 @@
     "nordic": false
    },
    {
-    "title": "Port of San Diego Highlights Its Advantages for Cruises",
-    "link": "https://maritime-executive.com/article/port-of-san-diego-highlights-its-advantages-for-cruises",
-    "published": "2026-10-26T13:12:04+00:00",
-    "summary": "A city of convenience. A destination of multiple attractions. An attractive venue for a postcard shot. That’s how San Diego, California, distinguishes...",
+    "title": "Odfjell cashes in on chemical tanker pair in $62m-plus deal",
+    "link": "https://splash247.com/odfjell-cashes-in-on-chemical-tanker-pair-in-62m-plus-deal/",
+    "published": "2026-10-26T12:47:00+00:00",
+    "summary": "Norwegian chemical tanker owner Odfjell has reportedly sold two 2011-built vessels for more than $62m as it continues reshaping its fleet. Shipbrokers identified the 46,098 dwt Bow Elm and 46,047 dwt Bow Lind as having been sold together, with the deal agreed on a surveys-passed basis. Both vessels were built at South Korea’s SLS Shipbuilding …",
+    "source": "Splash247",
+    "kind": "market",
+    "nordic": true
+   },
+   {
+    "title": "Baleària floats out its first fully electric fast ferry",
+    "link": "https://ship.energy/energy/balearia-floats-out-its-first-fully-electric-fast-ferry/",
+    "published": "2026-10-26T11:33:36+00:00",
+    "summary": "Spanish ferry company Baleària has announced that its first fully electric fast ferry has been floated out at Armon Shipyards in Gijón and will join its fleet in summer 2027 to operate on the route between the ports of Tarifa and Tangier City. A second catamaran is also under construction and will join the Baleària fleet after the summer next year. The fast ferry that has just left the dry dock is the fifth vessel bu",
+    "source": "Bunkerspot",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Indonesia Busts Mongolian-Flagged Tanker for Ketamine Smuggling",
+    "link": "https://maritime-executive.com/article/indonesia-busts-mongolian-flagged-tanker-for-ketamine-smuggling",
+    "published": "2026-10-26T21:23:05+00:00",
+    "summary": "Authorities in Indonesia have discovered an abundant quantity of ketamine aboard a tanker in the Strait of Malacca, prompting an investigation into it...",
     "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Chouest Group Acquires Canada's Horizon Maritime",
-    "link": "https://www.marinelink.com/news/chouest-group-acquires-canadas-horizon-543896",
-    "published": "2026-10-26T13:23:51+00:00",
-    "summary": "The Chouest Group and the founders of Horizon Maritime Services have announced a strategic partnership that includes the acquisition of the Canadian offshore and marine services company from CFFI and its lender, HPS.The transaction expands the Louisiana-based Chouest Group's presence in Canada…",
+    "title": "Singapore Yards Chase Profit From Europe’s Offshore Wind Push",
+    "link": "https://gcaptain.com/singapore-yards-chase-profit-from-europes-offshore-wind-push/",
+    "published": "2026-10-26T18:22:16+00:00",
+    "summary": "At a shipyard in northern Singapore, a yellow platform towers over a maze of scaffolding and cranes. Resembling a 15-story building, the piece will be shipped halfway around the world to Europe to be installed into an offshore wind farm.",
+    "source": "gCaptain",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Bunker Quality Alerts Prompt CΜΤ Concern Over Engine Damage And Repair Costs",
+    "link": "https://www.hellenicshippingnews.com/bunker-quality-alerts-prompt-c%ce%bc%cf%84-concern-over-engine-damage-and-repair-costs/",
+    "published": "2026-10-26T22:00:57+00:00",
+    "summary": "Shipowners and operators need to maintain close checks on fuel quality following a series of off-specification alerts at major bunkering ports, advises German testing specialist CM Technologies (CMT), warning that contaminated or unstable fuels can result in costly engine damage and vessel downtime. The advisory follows reports of fuel quality problems at Antwerp, Rotterdam, Houston, ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "CM Technologies Raises Alarm Over Recent Shipping Fuel Quality Concerns",
+    "link": "https://www.marinelink.com/news/cm-technologies-raises-alarm-recent-543899",
+    "published": "2026-10-26T13:35:29+00:00",
+    "summary": "German testing specialist CM Technologies (CMT) advises that shipowners and operators need to maintain close checks on fuel quality following a series of off-specification alerts at major bunkering ports and warns that contaminated or unstable…",
     "source": "MarineLink",
     "kind": "market",
     "nordic": false
@@ -788,118 +922,10 @@
     "nordic": false
    },
    {
-    "title": "From Dark Voyages to Defensible Claims: How Marine Insurers Are Closing the Evidence Gap",
-    "link": "https://www.hellenicshippingnews.com/from-dark-voyages-to-defensible-claims-how-marine-insurers-are-closing-the-evidence-gap/",
-    "published": "2026-10-26T11:00:55+00:00",
-    "summary": "Claims teams in marine insurance own two things: the loss investigation and the pay-or-reject decision. In the pre-2022 environment, both were largely a matter of establishing what happened, verifying that the loss fell within the policy’s coverage, and processing accordingly. AIS records, cargo documentation, and standard loss adjustment supported the investigation without requiring extensive forensic ...",
-    "source": "Hellenic Shipping News",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Bahri turns to homegrown yard for $451m VLCC trio",
-    "link": "https://splash247.com/bahri-turns-to-homegrown-yard-for-451m-vlcc-trio/",
-    "published": "2026-10-26T11:30:00+00:00",
-    "summary": "Saudi shipping giant Bahri has ordered three very large crude carriers at International Maritime Industries (IMI), committing SAR1.692bn ($451m) to expand its tanker fleet and support shipbuilding at home. The 320,000 dwt vessels will be built at IMI’s Ras Al Khair facility on Saudi Arabia’s eastern coast, with deliveries scheduled between 2029 and 2030. The …",
-    "source": "Splash247",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Japan’s KEYS Azalea completes 100th LNG bunkering operation",
-    "link": "https://ship.energy/information/japans-keys-azalea-completes-100th-lng-bunkering-operation/",
-    "published": "2026-10-26T11:20:14+00:00",
-    "summary": "KEYS Azalea, the LNG bunkering vessel owned and operated by KEYS Bunkering West Japan Ltd, made its 100th LNG bunker delivery last week. The bunkering vessel, which made its first ship-to-ship LNG bunkering operation in western Japan in April 2024, passed the milestone on Wednesday (21 October) with a delivery to NYK Line’s bulk carrier SG Dawn. NYK Line and Kyushu Electric Power each have a 40% stake in KEYS Bunkeri",
-    "source": "Bunkerspot",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Sri Lanka Rescues 40 Iranian Sailors",
-    "link": "https://gcaptain.com/sri-lanka-rescues-40-iranian-sailors/",
-    "published": "2026-10-25T17:56:45+00:00",
-    "summary": "By Uditha Jayasinghe COLOMBO, Oct 25 (Reuters) – Sri Lanka coordinated the rescue of 40 Iranian sailors from multiple commercial ships in international waters off the coast of the country and supported...",
-    "source": "gCaptain",
-    "kind": "market",
-    "nordic": false
-   },
-   {
     "title": "Summit’s Bangladesh FSRU terminal in 300th STS LNG op",
     "link": "https://lngprime.com/asia/summits-bangladesh-fsru-terminal-in-300th-sts-lng-op/198968/",
     "published": "2026-10-26T05:19:00+00:00",
     "summary": "Summit’s FSRU-based liquefied natural gas (LNG) import terminal in Bangladesh has completed the 300th ship-to-ship (STS) operation since its launch in 2019.",
-    "source": "LNG Prime",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Chevron Pulls Out From Financing Study for Guyana’s Deepwater Port",
-    "link": "https://maritime-executive.com/article/chevron-pulls-out-from-financing-study-for-guyana-s-deepwater-port",
-    "published": "2026-10-26T03:49:07+00:00",
-    "summary": "Chevron has reportedly opted out in funding preliminary studies for Guyana’s planned Berbice deepwater port. Hess Corporation - acquired by Chevron la...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Black Sea Shipping Faces Insurance Squeeze as Constanta Port Stays Resilient",
-    "link": "https://www.marinelink.com/news/black-sea-shipping-faces-insurance-543895",
-    "published": "2026-10-26T13:10:24+00:00",
-    "summary": "Shipping through Romania's Black Sea port of Constanta was stable and grain exports had increased by end-September, the port authority said, despite a spike in marine insurance premiums driven by increased attacks on cargo vessels.In September…",
-    "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "ATPI and LEDGID join forces on digital crew travel solutions",
-    "link": "",
-    "published": "2026-10-26T08:11:24+00:00",
-    "summary": "Travel specialist and digital identity startup plan to put seafarers' flights and papers in one app",
-    "source": "Seatrade Maritime",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Bahri and IMI Sign SAR 1.692 Billion Contract for Three Newbuild VLCCs",
-    "link": "https://www.hellenicshippingnews.com/bahri-and-imi-sign-sar-1-692-billion-contract-for-three-newbuild-vlccs/",
-    "published": "2026-10-26T11:00:53+00:00",
-    "summary": "Bahri, a global leader in transportation and logistics, and International Maritime Industries (IMI), the largest integrated maritime facility in the MENA region, have signed a contract for the construction of three Very Large Crude Carriers (VLCCs) at IMI’s facility in Saudi Arabia, in conjunction with the Saudi Maritime & Logistics Congress. Under the agreement, valued ...",
-    "source": "Hellenic Shipping News",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Panagiotidis moves another LPG carrier in $18m fleet reshuffle",
-    "link": "https://splash247.com/panagiotidis-moves-another-lpg-carrier-in-18m-fleet-reshuffle/",
-    "published": "2026-10-26T11:00:00+00:00",
-    "summary": "Greek shipowner Petros Panagiotidis is continuing to rearrange his LPG fleet across Nasdaq-listed companies, with AI OKTO agreeing to sell the 2015-built Dream Arrax to sister company Robin Energy for $18m. The latest transaction involves the 5,000 cu m gas carrier moving between two companies controlled by Panagiotidis, who serves as chairman and chief executive …",
-    "source": "Splash247",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "FKAB-designed gas carrier bunkers ammonia-fuelled bulker, Mineral Europa",
-    "link": "https://ship.energy/energy/fkab-designed-gas-carrier-bunkers-ammonia-fuelled-bulker-mineral-europa/",
-    "published": "2026-10-21T14:47:07+00:00",
-    "summary": "The Shenghang Yongle, a liquefied gas carrier originally designed by Sweden-based FKAB Marine Design, has completed what is said to be the world’s first commercial ship-to-ship bunkering operation using green ammonia. As previously reported by ship.energy, the Mineral Europa – billed as ‘the world’s first ammonia-powered dry bulk vessel’ – began its maiden voyage to Australia earlier this month, having successfully c",
-    "source": "Bunkerspot",
-    "kind": "market",
-    "nordic": true
-   },
-   {
-    "title": "Borr Drilling Rig Sinks Off Gabon, One Person Dead And Four Missing",
-    "link": "https://gcaptain.com/borr-drilling-rig-sinks-off-gabon-one-person-dead-and-four-missing/",
-    "published": "2026-10-25T15:07:34+00:00",
-    "summary": "By Gnaneshwar Rajan and Colleen Goko Oct 25 (Reuters) – Borr Drilling’s BORR.N Prospector 5 drilling rig sank late on Saturday off the coast of Mayumba, Gabon, killing one worker and leaving four others...",
-    "source": "gCaptain",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Glenfarne’s Texas LNG seeks DOE extension",
-    "link": "https://lngprime.com/americas/glenfarnes-texas-lng-seeks-doe-extension/198741/",
-    "published": "2026-10-21T10:40:36+00:00",
-    "summary": "US energy firm Glenfarne is seeking an extension from the US Department of Energy to extend the non-FTA export start deadline for its planned 4 mtpa Texas LNG export terminal in the port of Brownsville.",
     "source": "LNG Prime",
     "kind": "market",
     "nordic": false
@@ -908,7 +934,8 @@
  },
  "diagnostics": {
   "errors": [
-   "yahoo: no quotes returned for any of 9 symbols"
+   "yahoo: no quotes returned for any of 9 symbols",
+   "bunkers: Ship & Bunker page parsed to zero ports (layout may have changed)"
   ],
   "hints": [
    {
@@ -920,7 +947,7 @@
     "fix": "These are exchange-licensed assessments. They are listed so you know they exist and what they mean, the same way the paid Baltic routes are — not because something is broken."
    }
   ],
-  "metrics_fresh": 5,
+  "metrics_fresh": 1,
   "metrics_total": 16,
   "rates_active": 0,
   "rates_total": 12
