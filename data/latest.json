@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27T21:32:22+00:00",
- "tone": "5 of 6 tracked prices rose and 1 fell. Biggest mover: VLSFO Houston +3.1% to 843.00 USD/t.",
+ "generated_at": "2026-10-28T06:14:32+00:00",
+ "tone": "1 of 5 tracked prices rose and 4 fell. Biggest mover: VLSFO Rotterdam -1.0% to 764.00 USD/t.",
  "metrics": [
   {
    "id": "brent",
@@ -10,12 +10,12 @@
    "blurb": "The global benchmark price for crude oil. Most oil cargoes price off it.",
    "kpi": true,
    "fallback": "FRED_API_KEY or EIA_API_KEY",
-   "value": 109.19,
-   "change": null,
-   "as_of": "2026-10-21T15:04:52+00:00",
-   "source": "yahoo:BZ=F",
+   "value": 115.22,
+   "change": -3.6,
+   "as_of": "2026-10-20T00:00:00+00:00",
+   "source": "EIA (official)",
    "stale": true,
-   "age_days": 6.27
+   "age_days": 8.26
   },
   {
    "id": "wti",
@@ -25,12 +25,12 @@
    "blurb": "The US crude benchmark. Its gap to Brent drives US export volumes.",
    "kpi": true,
    "fallback": "FRED_API_KEY or EIA_API_KEY",
-   "value": 100.2,
-   "change": 0.73,
-   "as_of": "2026-10-27T20:59:48+00:00",
-   "source": "yahoo:CL=F",
-   "stale": false,
-   "age_days": 0.02
+   "value": 107.89,
+   "change": -2.12,
+   "as_of": "2026-10-20T00:00:00+00:00",
+   "source": "EIA (official)",
+   "stale": true,
+   "age_days": 8.26
   },
   {
    "id": "ttf",
@@ -55,12 +55,12 @@
    "blurb": "The US benchmark gas price, set in Louisiana.",
    "kpi": true,
    "fallback": "FRED_API_KEY or EIA_API_KEY",
-   "value": null,
-   "change": null,
-   "as_of": null,
-   "source": null,
+   "value": 3.1,
+   "change": -0.18,
+   "as_of": "2026-10-20T00:00:00+00:00",
+   "source": "EIA (official)",
    "stale": true,
-   "age_days": null
+   "age_days": 8.26
   },
   {
    "id": "coal_api2",
@@ -105,7 +105,7 @@
    "as_of": "2026-10-21T14:28:59+00:00",
    "source": "yahoo:RB=F",
    "stale": true,
-   "age_days": 6.29
+   "age_days": 6.66
   },
   {
    "id": "bdry",
@@ -150,7 +150,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
    "stale": false,
-   "age_days": 0.98
+   "age_days": 1.34
   },
   {
    "id": "bpi",
@@ -159,13 +159,13 @@
    "group": "rates",
    "blurb": "The Panamax component. Coal and grain rather than iron ore, so it follows harvests and power demand more than steel.",
    "kpi": false,
-   "value": 2075.0,
+   "value": 2021.0,
    "change": null,
-   "as_of": "2026-10-26T22:00:59+00:00",
+   "as_of": "2026-10-27T22:00:53+00:00",
    "source": "Baltic Exchange via Reuters/Hellenic",
-   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
+   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-1-week-low/",
    "stale": false,
-   "age_days": 0.98
+   "age_days": 0.34
   },
   {
    "id": "bsi",
@@ -174,13 +174,13 @@
    "group": "rates",
    "blurb": "The Supramax component. These ships have their own cranes and serve smaller ports, so it reflects broad trade rather than one commodity.",
    "kpi": false,
-   "value": 1887.0,
+   "value": 1883.0,
    "change": null,
-   "as_of": "2026-10-23T21:00:57+00:00",
+   "as_of": "2026-10-27T22:00:53+00:00",
    "source": "Baltic Exchange via Reuters/Hellenic",
-   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-4-day-winning-run-2/",
+   "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-1-week-low/",
    "stale": false,
-   "age_days": 4.02
+   "age_days": 0.34
   },
   {
    "id": "bdi",
@@ -195,7 +195,7 @@
    "source": "Baltic Exchange via Hellenic Shipping News",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2603-down-25-points/",
    "stale": false,
-   "age_days": 0.36
+   "age_days": 0.72
   },
   {
    "id": "vlsfo_sing",
@@ -204,9 +204,9 @@
    "group": "bunkers",
    "blurb": "Price of the main low-sulphur marine fuel at the world's biggest bunker port.",
    "kpi": true,
-   "value": 980.0,
-   "change": 17.0,
-   "as_of": "2026-10-27T21:30:57+00:00",
+   "value": 990.0,
+   "change": 10.0,
+   "as_of": "2026-10-28T06:12:25+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -218,9 +218,9 @@
    "group": "bunkers",
    "blurb": "The same fuel in Europe's biggest bunker port.",
    "kpi": false,
-   "value": 772.0,
-   "change": 6.0,
-   "as_of": "2026-10-27T21:30:57+00:00",
+   "value": 764.0,
+   "change": -8.0,
+   "as_of": "2026-10-28T06:12:25+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -232,9 +232,9 @@
    "group": "bunkers",
    "blurb": "The Middle East bunker hub, where most VLCC voyages refuel.",
    "kpi": false,
-   "value": 989.5,
-   "change": 8.5,
-   "as_of": "2026-10-27T21:30:57+00:00",
+   "value": 987.0,
+   "change": -2.5,
+   "as_of": "2026-10-28T06:12:25+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -246,9 +246,9 @@
    "group": "bunkers",
    "blurb": "The US Gulf bunker price.",
    "kpi": false,
-   "value": 843.0,
-   "change": 26.0,
-   "as_of": "2026-10-27T21:30:57+00:00",
+   "value": 835.5,
+   "change": -7.5,
+   "as_of": "2026-10-28T06:12:25+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "age_days": 0.0
@@ -278,12 +278,12 @@
    "group": "energy",
    "blurb": "How much more Brent costs than WTI. A wide gap makes exporting US crude profitable, which means more long-haul cargoes and stronger tanker demand.",
    "kpi": false,
-   "value": 8.99,
+   "value": 7.33,
    "change": null,
-   "as_of": "2026-10-21T15:04:52+00:00",
+   "as_of": "2026-10-20T00:00:00+00:00",
    "source": "derived: brent − wti",
    "stale": true,
-   "age_days": 6.27,
+   "age_days": 8.26,
    "derived_from": [
     "brent",
     "wti"
@@ -303,7 +303,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "age_days": 1.98,
+   "age_days": 2.34,
    "stale": false
   },
   {
@@ -318,7 +318,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "age_days": 1.98,
+   "age_days": 2.34,
    "stale": false
   },
   {
@@ -333,7 +333,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "age_days": 1.98,
+   "age_days": 2.34,
    "stale": false
   },
   {
@@ -348,7 +348,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "age_days": 1.98,
+   "age_days": 2.34,
    "stale": false
   },
   {
@@ -363,7 +363,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "age_days": 1.98,
+   "age_days": 2.34,
    "stale": false
   },
   {
@@ -378,7 +378,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "age_days": 1.98,
+   "age_days": 2.34,
    "stale": false
   },
   {
@@ -393,7 +393,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-bulk-freight-index-falls-to-near-one-week-low/",
-   "age_days": 0.98,
+   "age_days": 1.34,
    "stale": false
   },
   {
@@ -447,7 +447,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
-   "age_days": 1.44,
+   "age_days": 1.8,
    "stale": false
   },
   {
@@ -462,7 +462,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
-   "age_days": 1.44,
+   "age_days": 1.8,
    "stale": false
   },
   {
@@ -477,7 +477,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
-   "age_days": 1.44,
+   "age_days": 1.8,
    "stale": false
   },
   {
@@ -492,7 +492,7 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-recovering/",
-   "age_days": 1.44,
+   "age_days": 1.8,
    "stale": false
   }
  ],
@@ -509,6 +509,19 @@
     "kind": "company",
     "routine": false,
     "rank": 1,
+    "nordic": true
+   },
+   {
+    "title": "Wallenius Wilhelmsen extends fleet renewal program",
+    "link": "https://newsweb.oslobors.no/message/684950",
+    "published": "2026-10-28T06:00:00+00:00",
+    "source": "Oslo Børs",
+    "ticker": "WAWI",
+    "company": "Wallenius Wilhelmsen ASA",
+    "category": "Press release",
+    "kind": "company",
+    "routine": false,
+    "rank": 2,
     "nordic": true
    },
    {
@@ -689,19 +702,28 @@
   ],
   "market": [
    {
-    "title": "An Imperiled UK Fishing Fleet Could Be Used for Defense",
-    "link": "https://maritime-executive.com/article/an-imperiled-uk-fishing-fleet-could-be-used-for-defense",
-    "published": "2026-10-27T21:04:10+00:00",
-    "summary": "British waters may be full of Russian trawlers looking for anything but fish, and more interested in cables and pipelines. But the United Kingdom’s ow...",
+    "title": "European Prosecutors Issue Indictments in Fraud Involving EU-Funded Tugs",
+    "link": "https://maritime-executive.com/article/european-prosecutors-issue-indictments-in-fraud-involving-eu-funded-tugs",
+    "published": "2026-10-28T00:51:09+00:00",
+    "summary": "The European Public Prosecutor’s Office (EPPO), the independent public prosecution office of the European Union, filed an indictment in Romania in a s...",
     "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026",
-    "link": "https://gcaptain.com/russia-says-northern-sea-route-transit-cargo-to-nearly-double-in-2026/",
-    "published": "2026-10-27T20:14:56+00:00",
-    "summary": "Russia expects cargo transits along the Northern Sea Route (NSR) to more than double in 2026, marking a substantial increase in Arctic shipping despite Western sanctions, although volumes remain far below Moscow’s original ambitions for the route.",
+    "title": "VLCC transits climb at Hormuz; steady at Bab al-Mandab for second day",
+    "link": "https://www.hellenicshippingnews.com/vlcc-transits-climb-at-hormuz-steady-at-bab-al-mandab-for-second-day/",
+    "published": "2026-10-27T22:00:59+00:00",
+    "summary": "The Strait of Hormuz had six VLCC transits on Oct. 25, the most since Oct. 17, while the Bab al-Mandab Strait recorded one VLCC on both Oct. 24 and Oct. 25, S&P Global Commodities at Sea said in an Oct. 26 report. Hormuz traffic in total was steady at 17 ships on Oct. 24 and ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "NTSB Calls for New Rules for Uncrewed Vessels After Lake Erie Collision",
+    "link": "https://gcaptain.com/ntsb-calls-for-new-rules-for-uncrewed-vessels-after-lake-erie-collision/",
+    "published": "2026-10-27T21:38:20+00:00",
+    "summary": "Investigation finds NOAA research vessel was difficult to detect and lacked proper monitoring, exposing gaps in U.S. maritime safety regulations. The National Transportation Safety Board (NTSB) is calling on the...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
@@ -712,15 +734,6 @@
     "published": "2026-10-27T18:44:51+00:00",
     "summary": "ESAB has introduced the Rogue ET 230iP AC/DC TIG/Stick welder. The Rogue combines AC/DC TIG welding capabilities with controls that make it easier for welders of all skill levels to optimize arc performance and weld quality. Featuring ESAB’s 5-in.",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Baleària floats out its first fully electric fast ferry, which will connect Tarifa and Tangier from summer 2027",
-    "link": "https://www.hellenicshippingnews.com/balearia-floats-out-its-first-fully-electric-fast-ferry-which-will-connect-tarifa-and-tangier-from-summer-2027/",
-    "published": "2026-10-27T18:00:59+00:00",
-    "summary": "Baleària has floated out its first fully electric fast ferry at Armon Shipyards in Gijón. The vessel will connect Tarifa and Tangier from summer 2027. The second vessel, currently under construction, will join the fleet after the summer. Both catamarans will serve the first green corridor between Spain and Morocco, with an exclusively electric power ...",
-    "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
    },
@@ -761,19 +774,28 @@
     "nordic": false
    },
    {
-    "title": "Hanwha Transitions Ownership of Philly Shipyard as It Seeks Defense Work",
-    "link": "https://maritime-executive.com/article/hanwha-transitions-ownership-of-philly-shipyard-as-it-seeks-defense-work",
-    "published": "2026-10-27T20:38:00+00:00",
-    "summary": "Hanwha Group is reorganizing the ownership and management of the Philly Shipyard, which it acquired nearly two years ago, as it continues to seek U.S....",
+    "title": "MARAD Awards $498M in Port Grants as AAPA Calls for New Appropriations",
+    "link": "https://maritime-executive.com/article/marad-awards-498m-in-port-grants-as-aapa-calls-for-new-appropriations",
+    "published": "2026-10-28T00:23:37+00:00",
+    "summary": "The Maritime Administration (MARAD) announced the recipients of its annual Port Infrastructure Development Program (PIDP). While it is highlighted tha...",
     "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Trump Administration Awards $498 Million for U.S. Port Upgrades, Below Recent Funding Levels",
-    "link": "https://gcaptain.com/trump-administration-awards-498-million-for-u-s-port-upgrades-below-recent-funding-levels/",
-    "published": "2026-10-27T19:35:58+00:00",
-    "summary": "The Trump administration announced $498 million in federal grants Tuesday to modernize U.S. ports, funding 35 projects across 19 states ranging from aging dock replacements and cargo-handling equipment to fuel...",
+    "title": "Russian Diesel Returns: A New Atlantic Trade Dynamic",
+    "link": "https://www.hellenicshippingnews.com/russian-diesel-returns-a-new-atlantic-trade-dynamic/",
+    "published": "2026-10-27T22:00:59+00:00",
+    "summary": "A new market development for tankers could be shaping up, after the latest agreement between US and Russia, regarding diesel exports across the Atlantic. In its latest weekly report, shipbroker Xclusiv said that “the latest developments in US–Russian energy relations could mark another turning point for the product tanker market, as Washington’s decision to temporarily ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026",
+    "link": "https://gcaptain.com/russia-says-northern-sea-route-transit-cargo-to-nearly-double-in-2026/",
+    "published": "2026-10-27T20:14:56+00:00",
+    "summary": "Russia expects cargo transits along the Northern Sea Route (NSR) to more than double in 2026, marking a substantial increase in Arctic shipping despite Western sanctions, although volumes remain far below Moscow’s original ambitions for the route.",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
@@ -786,15 +808,6 @@
     "source": "MarineLink",
     "kind": "market",
     "nordic": false
-   },
-   {
-    "title": "Klaveness Combination Carriers ASA: Solid Q3, record Q4 outlook",
-    "link": "https://www.hellenicshippingnews.com/klaveness-combination-carriers-asa-solid-q3-record-q4-outlook/",
-    "published": "2026-10-27T18:00:57+00:00",
-    "summary": "Klaveness Combination Carriers ASA (“KCC”) delivered one of its strongest quarters in its history in Q3 2026, reporting EBITDA of USD 40.4 million and Profit after tax of USD 23.6 million. CEO Engebret Dahm commented: “KCC delivered another solid quarter, supported by strong markets, improved trading efficiency and a higher number of earning days following ...",
-    "source": "Hellenic Shipping News",
-    "kind": "market",
-    "nordic": true
    },
    {
     "title": "Iran’s Hormuz authority to take 'legal action' against Sinokor fleet",
@@ -833,19 +846,28 @@
     "nordic": false
    },
    {
-    "title": "NTSB Calls for Better Regulation of USV Navigational Safety",
-    "link": "https://maritime-executive.com/article/ntsb-calls-for-better-regulation-of-usv-navigational-safety",
-    "published": "2026-10-27T19:53:39+00:00",
-    "summary": "Following an inquiry into a 2024 collision, the National Transportation Safety Board has recommended changes to the manner in which small unmanned ves...",
+    "title": "Norway's Research Council Funds Nuclear-Propulsion R&D",
+    "link": "https://maritime-executive.com/article/norway-s-research-council-funds-nuclear-propulsion-r-d",
+    "published": "2026-10-27T23:47:08+00:00",
+    "summary": "A Norwegian research funding institute has decided to provide early-stage support to a nuclear propulsion startup featuring some of the best-known nam...",
     "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": true
+   },
+   {
+    "title": "Maritime industry advances harmonisation of digital emissions reporting",
+    "link": "https://www.hellenicshippingnews.com/maritime-industry-advances-harmonisation-of-digital-emissions-reporting/",
+    "published": "2026-10-27T22:00:58+00:00",
+    "summary": "The Tripartite Joint Industry Working Group (JIWG) has released two new frameworks that can help improve the exchange of operations and emissions data across the maritime industry. The JIWG, chaired by BIMCO, was established under the Tripartite, a forum bringing together shipowners and operators, shipbuilders, and classification societies. As part of its work to develop ...",
+    "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Villa Vie Odyssey’s ‘Endless’ World Cruise Comes to a Halt in Cambodia as Fuel Costs Soar",
-    "link": "https://gcaptain.com/villa-vie-odysseys-endless-world-cruise-comes-to-a-halt-in-cambodia-as-fuel-costs-soar/",
-    "published": "2026-10-27T19:24:42+00:00",
-    "summary": "Villa Vie Residences has suspended operations of its residential cruise ship Villa Vie Odyssey in Cambodia, forcing residents to disembark as soaring fuel costs push the company toward financial restructuring....",
+    "title": "Trump Administration Awards $498 Million for U.S. Port Upgrades, Below Recent Funding Levels",
+    "link": "https://gcaptain.com/trump-administration-awards-498-million-for-u-s-port-upgrades-below-recent-funding-levels/",
+    "published": "2026-10-27T19:35:58+00:00",
+    "summary": "The Trump administration announced $498 million in federal grants Tuesday to modernize U.S. ports, funding 35 projects across 19 states ranging from aging dock replacements and cargo-handling equipment to fuel...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
@@ -858,15 +880,6 @@
     "source": "MarineLink",
     "kind": "market",
     "nordic": false
-   },
-   {
-    "title": "Utkilen takes delivery of second LNG-capable tanker",
-    "link": "https://www.hellenicshippingnews.com/utkilen-takes-delivery-of-second-lng-capable-tanker/",
-    "published": "2026-10-27T18:00:55+00:00",
-    "summary": "Norwegian shipping company Utkilen has taken delivery of M/T Listraum, the second of four LNG-capable tankers under construction at Icdas Shipyard in Türkiye. The 7,500-dwt vessel features an LNG-capable engine. It is also equipped with battery systems and shore power connections. The first vessel, M/T Havstraum, was delivered in January this year. Utkilen has not ...",
-    "source": "Hellenic Shipping News",
-    "kind": "market",
-    "nordic": true
    },
    {
     "title": "Japan targets world-first ammonia shipping fuel supply chain by 2030",
@@ -905,19 +918,28 @@
     "nordic": false
    },
    {
-    "title": "Passengers Told to Disembark as Villa Vie Residences Suspends Operations",
-    "link": "https://maritime-executive.com/article/passengers-told-to-disembark-as-villa-vie-residences-suspends-operations",
-    "published": "2026-10-27T18:55:38+00:00",
-    "summary": "After passing the two-year mark at the beginning of the month, Villa Vie Residences has now informed all the passengers on the “endless cruise” to dis...",
+    "title": "Japanese Integrate Ammonia System with Car Carriers, Supply and Bunkering",
+    "link": "https://maritime-executive.com/article/japanese-integrate-ammonia-system-with-car-carriers-supply-and-bunkering",
+    "published": "2026-10-27T23:12:10+00:00",
+    "summary": "A partnership of Japanese companies plans to develop the first integrated system for the use of ammonia as a marine fuel. The system aligns the develo...",
     "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "New RAmparts 3800 Ship-Handling/Fire-Fighting 2 Tug Design for Ningbo Port",
-    "link": "https://gcaptain.com/new-ramparts-3800-ship-handling-fire-fighting-2-tug-design-for-ningbo-port/",
-    "published": "2026-10-27T16:54:10+00:00",
-    "summary": "Robert Allan Ltd. is pleased to announce the award to design a new RAmparts 3800 Ship-Handling/Fire-Fighting 2 (FiFi 2) tug for Ningbo Port. The vessel will be constructed by Jiangsu Zhenjiang Shipyard...",
+    "title": "IUMI’s annual Stats Report highlights modest market development amid continued soft conditions across all main business lines",
+    "link": "https://www.hellenicshippingnews.com/iumis-annual-stats-report-highlights-modest-market-development-amid-continued-soft-conditions-across-all-main-business-lines/",
+    "published": "2026-10-27T22:00:57+00:00",
+    "summary": "The International Union of Marine Insurance (IUMI) has, today, released its 2026 analysis of the global marine insurance market – the IUMI “Stats Report”. This annual document reports on the state of the marine insurance sector within the framework of the global economy, trade and shipping. Data is collected from a wide range of national ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Villa Vie Odyssey’s ‘Endless’ World Cruise Comes to a Halt in Cambodia as Fuel Costs Soar",
+    "link": "https://gcaptain.com/villa-vie-odysseys-endless-world-cruise-comes-to-a-halt-in-cambodia-as-fuel-costs-soar/",
+    "published": "2026-10-27T19:24:42+00:00",
+    "summary": "Villa Vie Residences has suspended operations of its residential cruise ship Villa Vie Odyssey in Cambodia, forcing residents to disembark as soaring fuel costs push the company toward financial restructuring....",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
@@ -928,15 +950,6 @@
     "published": "2026-10-27T16:54:47+00:00",
     "summary": "Oil futures fell on Tuesday as attention turned to Middle East peace talks, though prices remain near multi-month highs as the Houthi-Saudi Arabia conflict rages and the potential for fresh US-Israeli attacks hangs over the market.Brent crude futures were down $1.00…",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Alfa Laval posts record orders as data centre and shipping demand drives growth",
-    "link": "https://www.hellenicshippingnews.com/alfa-laval-posts-record-orders-as-data-centre-and-shipping-demand-drives-growth/",
-    "published": "2026-10-27T18:00:53+00:00",
-    "summary": "Alfa Laval AB reported record order intake in the third quarter on Tuesday, supported by strong demand from data centres, shipbuilding and biofuels, although the company expects activity to ease somewhat in the final three months of the year. Order intake rose 36% year on year to SEK 23.23 billion, while net sales increased 8% ...",
-    "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
    },
@@ -977,19 +990,28 @@
     "nordic": false
    },
    {
-    "title": "Bottom Trawlers Do Huge Amounts of Damage to Life on Undersea Mountains",
-    "link": "https://maritime-executive.com/article/bottom-trawlers-do-huge-amounts-of-damage-to-life-on-undersea-mountains",
-    "published": "2026-10-27T18:36:43+00:00",
-    "summary": "Tens of thousands of underwater mountains dot the ocean floor around the world. A few break the surface, such as the Hawaiian island chain. The rest a...",
+    "title": "French Frigate Downed Red Sea Missile Approaching Belgian Minehunter",
+    "link": "https://maritime-executive.com/article/french-frigate-downed-red-sea-missile-approaching-belgian-mine-hunter",
+    "published": "2026-10-27T21:54:47+00:00",
+    "summary": "A French frigate, part of the force assigned to patrol the Red Sea region, recently downed a missile that was approaching a Belgian minehunter. Accord...",
     "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Oil Tanker Tycoon’s WhatsApp Messages Drive Big Market Moves",
-    "link": "https://gcaptain.com/oil-tanker-tycoons-whatsapp-messages-drive-big-market-moves/",
-    "published": "2026-10-27T16:49:34+00:00",
-    "summary": "The messages from the world’s biggest supertanker owner often begin with pleasantries: “Dear Ladies and Gentlemen.” Within minutes, the WhatsApps are the talk of the oil-tanker industry, a multibillion-dollar corner of the energy market that’s been plunged into chaos by the Iran war this year, and where word of mouth is the main way information spreads.",
+    "title": "Baltic Dry Index Falls to 1-Week Low",
+    "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-1-week-low/",
+    "published": "2026-10-27T22:00:53+00:00",
+    "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, declined for a third session on Tuesday, falling roughly 1% to its lowest since October 20 at 2,603 points. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, was also down for a third day, ...",
+    "source": "Hellenic Shipping News",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "New RAmparts 3800 Ship-Handling/Fire-Fighting 2 Tug Design for Ningbo Port",
+    "link": "https://gcaptain.com/new-ramparts-3800-ship-handling-fire-fighting-2-tug-design-for-ningbo-port/",
+    "published": "2026-10-27T16:54:10+00:00",
+    "summary": "Robert Allan Ltd. is pleased to announce the award to design a new RAmparts 3800 Ship-Handling/Fire-Fighting 2 (FiFi 2) tug for Ningbo Port. The vessel will be constructed by Jiangsu Zhenjiang Shipyard...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
@@ -1000,15 +1022,6 @@
     "published": "2026-10-26T13:35:29+00:00",
     "summary": "German testing specialist CM Technologies (CMT) advises that shipowners and operators need to maintain close checks on fuel quality following a series of off-specification alerts at major bunkering ports and warns that contaminated or unstable…",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Breakwave Dry Bulk Shipping Report 10.27.2026",
-    "link": "https://www.hellenicshippingnews.com/breakwave-dry-bulk-shipping-report-10-27-2026/",
-    "published": "2026-10-27T18:00:52+00:00",
-    "summary": "Capesize Spot Index Stabilizes but Risk Remain Abound – The recent correction in Capesize spot rates appears to have established Source: Breakwave Advisors",
-    "source": "Hellenic Shipping News",
     "kind": "market",
     "nordic": false
    },
@@ -1051,32 +1064,242 @@
   ]
  },
  "diagnostics": {
-  "errors": [],
+  "errors": [
+   "yahoo: no quotes returned for any of 9 symbols"
+  ],
   "hints": [
-   {
-    "problem": "Henry Hub gas could not be fetched.",
-    "fix": "Yahoo Finance refuses requests from servers, so the scheduled run cannot reach it. Add a free FRED_API_KEY (or EIA_API_KEY) as a repository secret and these come from an official source instead. Key: https://fredaccount.stlouisfed.org/apikey"
-   },
    {
     "problem": "5 prices have no free source at all.",
     "fix": "These are exchange-licensed assessments. They are listed so you know they exist and what they mean, the same way the paid Baltic routes are — not because something is broken."
    }
   ],
-  "metrics_fresh": 9,
+  "metrics_fresh": 8,
   "metrics_total": 19,
   "rates_active": 11,
   "rates_total": 14
  },
- "brief": null,
- "storylines": [],
+ "brief": {
+  "text": "The loudest item in today's data is security in the Gulf: the Houthis say they hit Saudi Arabia's Ras Tanura oil refinery, the kingdom's biggest, with a ballistic missile, and also claim attacks on Saudi military aircraft. Ras Tanura is a loading point that appears directly in our freight data — the VLGC route BLPG1 runs Ras Tanura to Chiba. Separately, Iran's Hormuz authority (PGSA) says it will take legal action from 1 November against Sinokor vessels it claims have broken its Strait of Hormuz transit rules. For anyone fixing ships, that is two fresh sources of risk around the same chokepoint, and it sits alongside a tanker market whose reported earnings are extraordinary: VLCC TD3C (a very large crude carrier, Arabian Gulf to China) shows a TCE — time charter equivalent, the daily earnings a voyage converts to — of 1,287,851 USD/day, Suezmax TD20 at 406,769 and Aframax TD7 at 481,500. LR2 AG–Japan is 313,200 and VLGC BLPG1 242,380. We have no prior-day comparison for these, so the data does not show how much of that is new.\n\nOn prices, almost all the energy benchmarks are stale: Brent at 115.22, WTI at 107.89, Henry Hub at 3.10 and the Brent–WTI spread at 7.33 are carried from an earlier day and are not today's levels. TTF gas, API2 coal, gasoil and the diesel crack have no data. What did move today: the Baltic Dry Index, which tracks dry bulk freight, fell 25 points to 2,603 (-1.0%), with Capesize (the largest bulkers, typically iron ore and coal) index at 3,726 and the Capesize 5TC at 30,292 USD/day. Bunkers split — VLSFO Singapore up 10 to 990 USD/t while Rotterdam fell 8 to 764 and Houston fell 7.50 to 835.50. The data here does not show why that split occurred.\n\nRunning stories begin today. QatarEnergy has extended force majeure on supplies to Italy's Adriatic LNG terminal until end-December, per Edison. Xclusiv reports a US–Russia agreement could bring Russian diesel back across the Atlantic. Russia expects Northern Sea Route transit cargo to nearly double in 2026.\n\nWatch two things: whether Hormuz VLCC transit counts keep climbing — S&P reported six on Oct 25, the most since Oct 17 — and whether the PGSA action against Sinokor actually starts on 1 November.",
+  "storylines": [
+   {
+    "id": "gulf-chokepoint-security",
+    "title": "Houthi strikes and Hormuz transit friction",
+    "status": "active",
+    "what": "The Houthis claim a ballistic missile strike on Saudi Arabia's Ras Tanura refinery, the kingdom's largest, plus attacks on Saudi military aircraft. Separately S&P data shows six VLCC transits of Hormuz on Oct 25, the most since Oct 17, and one VLCC at Bab al-Mandab on each of Oct 24 and 25.",
+    "why_it_matters": "Ras Tanura is a loading point for crude and LPG routes including the Baltic VLGC run to Chiba; attacks near loadports and chokepoints affect war-risk cost, routing and transit volumes.",
+    "latest": "Houthis said Tuesday they hit Ras Tanura with a ballistic missile; Hormuz VLCC transits climbed while Bab al-Mandab was steady for a second day.",
+    "watch": [
+     "vlcc_tce",
+     "vlgc_baltic",
+     "suezmax_tce",
+     "brent"
+    ],
+    "sources": [
+     "Houthi Missile Strikes Saudi Oil Refinery",
+     "VLCC transits climb at Hormuz; steady at Bab al-Mandab for second day"
+    ],
+    "first_seen": "2026-10-28",
+    "last_update": "2026-10-28",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "iran-hormuz-sinokor",
+    "title": "Iran threatens legal action over Hormuz transit rules",
+    "status": "active",
+    "what": "Iran's Hormuz authority, the PGSA, says it will take legal action from 1 November against Sinokor vessels, claiming they have committed the most violations of its Strait of Hormuz transit rules.",
+    "why_it_matters": "Enforcement action against a named operator at Hormuz raises the compliance and detention risk attached to a chokepoint that carries the AG-to-China VLCC trade.",
+    "latest": "PGSA set 1 November as the start date for action.",
+    "watch": [
+     "vlcc_tce",
+     "lr2_tce",
+     "vlgc_baltic"
+    ],
+    "sources": [
+     "Iran’s Hormuz authority to take 'legal action' against Sinokor fleet"
+    ],
+    "first_seen": "2026-10-28",
+    "last_update": "2026-10-28",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "qatarenergy-force-majeure",
+    "title": "QatarEnergy force majeure on Adriatic LNG",
+    "status": "active",
+    "what": "Edison, a unit of EDF, says it received a new force majeure notification from QatarEnergy affecting LNG cargoes scheduled for delivery at Italy's Adriatic LNG terminal until the end of December.",
+    "why_it_matters": "Cancelled or delayed Qatari cargoes change LNG carrier employment and voyage patterns into Europe, which is part of what the BLNG2 US Gulf to Continent route reflects.",
+    "latest": "Force majeure extended until end-December.",
+    "watch": [
+     "lng_blng1",
+     "lng_blng2",
+     "lng_blng3",
+     "ttf"
+    ],
+    "sources": [
+     "Edison: QatarEnergy extends force majeure until end of December"
+    ],
+    "first_seen": "2026-10-28",
+    "last_update": "2026-10-28",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "russian-diesel-atlantic",
+    "title": "Possible return of Russian diesel across the Atlantic",
+    "status": "watch",
+    "what": "Shipbroker Xclusiv reports that a recent US-Russia agreement on diesel exports across the Atlantic could create a new trade dynamic for tankers.",
+    "why_it_matters": "A restored Atlantic diesel flow would reshape clean product tonne-mile demand on routes such as MR Rotterdam-New York and US Gulf-UKC.",
+    "latest": null,
+    "watch": [
+     "mr_tc2_tce",
+     "mr_tc14_tce",
+     "gasoil"
+    ],
+    "sources": [
+     "Russian Diesel Returns: A New Atlantic Trade Dynamic"
+    ],
+    "first_seen": "2026-10-28",
+    "last_update": "2026-10-28",
+    "days_running": 1,
+    "days_since_update": 0
+   },
+   {
+    "id": "northern-sea-route-growth",
+    "title": "Russia forecasts Northern Sea Route transit growth",
+    "status": "watch",
+    "what": "Russia expects cargo transits on the Northern Sea Route to more than double in 2026 despite Western sanctions, though volumes remain far below Moscow's original targets.",
+    "why_it_matters": "Arctic transits shorten some Asia-Europe voyages and shift tonne-mile demand, and they sit awkwardly with sanctions compliance for owners and charterers.",
+    "latest": null,
+    "watch": [
+     "bdi",
+     "cape_5tc"
+    ],
+    "sources": [
+     "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026"
+    ],
+    "first_seen": "2026-10-28",
+    "last_update": "2026-10-28",
+    "days_running": 1,
+    "days_since_update": 0
+   }
+  ],
+  "model": "claude-opus-5",
+  "written_at": "2026-10-28T06:14:32+00:00",
+  "cost_usd": 0.0975
+ },
+ "storylines": [
+  {
+   "id": "gulf-chokepoint-security",
+   "title": "Houthi strikes and Hormuz transit friction",
+   "status": "active",
+   "what": "The Houthis claim a ballistic missile strike on Saudi Arabia's Ras Tanura refinery, the kingdom's largest, plus attacks on Saudi military aircraft. Separately S&P data shows six VLCC transits of Hormuz on Oct 25, the most since Oct 17, and one VLCC at Bab al-Mandab on each of Oct 24 and 25.",
+   "why_it_matters": "Ras Tanura is a loading point for crude and LPG routes including the Baltic VLGC run to Chiba; attacks near loadports and chokepoints affect war-risk cost, routing and transit volumes.",
+   "latest": "Houthis said Tuesday they hit Ras Tanura with a ballistic missile; Hormuz VLCC transits climbed while Bab al-Mandab was steady for a second day.",
+   "watch": [
+    "vlcc_tce",
+    "vlgc_baltic",
+    "suezmax_tce",
+    "brent"
+   ],
+   "sources": [
+    "Houthi Missile Strikes Saudi Oil Refinery",
+    "VLCC transits climb at Hormuz; steady at Bab al-Mandab for second day"
+   ],
+   "first_seen": "2026-10-28",
+   "last_update": "2026-10-28",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "iran-hormuz-sinokor",
+   "title": "Iran threatens legal action over Hormuz transit rules",
+   "status": "active",
+   "what": "Iran's Hormuz authority, the PGSA, says it will take legal action from 1 November against Sinokor vessels, claiming they have committed the most violations of its Strait of Hormuz transit rules.",
+   "why_it_matters": "Enforcement action against a named operator at Hormuz raises the compliance and detention risk attached to a chokepoint that carries the AG-to-China VLCC trade.",
+   "latest": "PGSA set 1 November as the start date for action.",
+   "watch": [
+    "vlcc_tce",
+    "lr2_tce",
+    "vlgc_baltic"
+   ],
+   "sources": [
+    "Iran’s Hormuz authority to take 'legal action' against Sinokor fleet"
+   ],
+   "first_seen": "2026-10-28",
+   "last_update": "2026-10-28",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "qatarenergy-force-majeure",
+   "title": "QatarEnergy force majeure on Adriatic LNG",
+   "status": "active",
+   "what": "Edison, a unit of EDF, says it received a new force majeure notification from QatarEnergy affecting LNG cargoes scheduled for delivery at Italy's Adriatic LNG terminal until the end of December.",
+   "why_it_matters": "Cancelled or delayed Qatari cargoes change LNG carrier employment and voyage patterns into Europe, which is part of what the BLNG2 US Gulf to Continent route reflects.",
+   "latest": "Force majeure extended until end-December.",
+   "watch": [
+    "lng_blng1",
+    "lng_blng2",
+    "lng_blng3",
+    "ttf"
+   ],
+   "sources": [
+    "Edison: QatarEnergy extends force majeure until end of December"
+   ],
+   "first_seen": "2026-10-28",
+   "last_update": "2026-10-28",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "russian-diesel-atlantic",
+   "title": "Possible return of Russian diesel across the Atlantic",
+   "status": "watch",
+   "what": "Shipbroker Xclusiv reports that a recent US-Russia agreement on diesel exports across the Atlantic could create a new trade dynamic for tankers.",
+   "why_it_matters": "A restored Atlantic diesel flow would reshape clean product tonne-mile demand on routes such as MR Rotterdam-New York and US Gulf-UKC.",
+   "latest": null,
+   "watch": [
+    "mr_tc2_tce",
+    "mr_tc14_tce",
+    "gasoil"
+   ],
+   "sources": [
+    "Russian Diesel Returns: A New Atlantic Trade Dynamic"
+   ],
+   "first_seen": "2026-10-28",
+   "last_update": "2026-10-28",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "northern-sea-route-growth",
+   "title": "Russia forecasts Northern Sea Route transit growth",
+   "status": "watch",
+   "what": "Russia expects cargo transits on the Northern Sea Route to more than double in 2026 despite Western sanctions, though volumes remain far below Moscow's original targets.",
+   "why_it_matters": "Arctic transits shorten some Asia-Europe voyages and shift tonne-mile demand, and they sit awkwardly with sanctions compliance for owners and charterers.",
+   "latest": null,
+   "watch": [
+    "bdi",
+    "cape_5tc"
+   ],
+   "sources": [
+    "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026"
+   ],
+   "first_seen": "2026-10-28",
+   "last_update": "2026-10-28",
+   "days_running": 1,
+   "days_since_update": 0
+  }
+ ],
  "storylines_closed": [],
  "brief_spend": {
-  "runs": 1,
-  "total_usd": 0.0898,
+  "runs": 2,
+  "total_usd": 0.1873,
   "model": "claude-opus-5",
-  "last_run": "2026-10-27",
+  "last_run": "2026-10-28",
   "first_run": "2026-10-27",
-  "avg_usd": 0.0898,
-  "projected_monthly_usd": 2.69
+  "avg_usd": 0.0936,
+  "projected_monthly_usd": 2.81
  }
 }

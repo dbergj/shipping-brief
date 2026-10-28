@@ -14,6 +14,19 @@
    "nordic": true
   },
   {
+   "title": "Wallenius Wilhelmsen extends fleet renewal program",
+   "link": "https://newsweb.oslobors.no/message/684950",
+   "published": "2026-10-28T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "WAWI",
+   "company": "Wallenius Wilhelmsen ASA",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Wallenius Wilhelmsen: Invitation to Q3 2026 results presentation",
    "link": "https://newsweb.oslobors.no/message/684881",
    "published": "2026-10-27T07:30:00+00:00",
@@ -190,6 +203,105 @@
   }
  ],
  "market": [
+  {
+   "title": "European Prosecutors Issue Indictments in Fraud Involving EU-Funded Tugs",
+   "link": "https://maritime-executive.com/article/european-prosecutors-issue-indictments-in-fraud-involving-eu-funded-tugs",
+   "published": "2026-10-28T00:51:09+00:00",
+   "summary": "The European Public Prosecutor’s Office (EPPO), the independent public prosecution office of the European Union, filed an indictment in Romania in a s...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MARAD Awards $498M in Port Grants as AAPA Calls for New Appropriations",
+   "link": "https://maritime-executive.com/article/marad-awards-498m-in-port-grants-as-aapa-calls-for-new-appropriations",
+   "published": "2026-10-28T00:23:37+00:00",
+   "summary": "The Maritime Administration (MARAD) announced the recipients of its annual Port Infrastructure Development Program (PIDP). While it is highlighted tha...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Norway's Research Council Funds Nuclear-Propulsion R&D",
+   "link": "https://maritime-executive.com/article/norway-s-research-council-funds-nuclear-propulsion-r-d",
+   "published": "2026-10-27T23:47:08+00:00",
+   "summary": "A Norwegian research funding institute has decided to provide early-stage support to a nuclear propulsion startup featuring some of the best-known nam...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Japanese Integrate Ammonia System with Car Carriers, Supply and Bunkering",
+   "link": "https://maritime-executive.com/article/japanese-integrate-ammonia-system-with-car-carriers-supply-and-bunkering",
+   "published": "2026-10-27T23:12:10+00:00",
+   "summary": "A partnership of Japanese companies plans to develop the first integrated system for the use of ammonia as a marine fuel. The system aligns the develo...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VLCC transits climb at Hormuz; steady at Bab al-Mandab for second day",
+   "link": "https://www.hellenicshippingnews.com/vlcc-transits-climb-at-hormuz-steady-at-bab-al-mandab-for-second-day/",
+   "published": "2026-10-27T22:00:59+00:00",
+   "summary": "The Strait of Hormuz had six VLCC transits on Oct. 25, the most since Oct. 17, while the Bab al-Mandab Strait recorded one VLCC on both Oct. 24 and Oct. 25, S&P Global Commodities at Sea said in an Oct. 26 report. Hormuz traffic in total was steady at 17 ships on Oct. 24 and ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russian Diesel Returns: A New Atlantic Trade Dynamic",
+   "link": "https://www.hellenicshippingnews.com/russian-diesel-returns-a-new-atlantic-trade-dynamic/",
+   "published": "2026-10-27T22:00:59+00:00",
+   "summary": "A new market development for tankers could be shaping up, after the latest agreement between US and Russia, regarding diesel exports across the Atlantic. In its latest weekly report, shipbroker Xclusiv said that “the latest developments in US–Russian energy relations could mark another turning point for the product tanker market, as Washington’s decision to temporarily ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maritime industry advances harmonisation of digital emissions reporting",
+   "link": "https://www.hellenicshippingnews.com/maritime-industry-advances-harmonisation-of-digital-emissions-reporting/",
+   "published": "2026-10-27T22:00:58+00:00",
+   "summary": "The Tripartite Joint Industry Working Group (JIWG) has released two new frameworks that can help improve the exchange of operations and emissions data across the maritime industry. The JIWG, chaired by BIMCO, was established under the Tripartite, a forum bringing together shipowners and operators, shipbuilders, and classification societies. As part of its work to develop ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IUMI’s annual Stats Report highlights modest market development amid continued soft conditions across all main business lines",
+   "link": "https://www.hellenicshippingnews.com/iumis-annual-stats-report-highlights-modest-market-development-amid-continued-soft-conditions-across-all-main-business-lines/",
+   "published": "2026-10-27T22:00:57+00:00",
+   "summary": "The International Union of Marine Insurance (IUMI) has, today, released its 2026 analysis of the global marine insurance market – the IUMI “Stats Report”. This annual document reports on the state of the marine insurance sector within the framework of the global economy, trade and shipping. Data is collected from a wide range of national ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Falls to 1-Week Low",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-1-week-low/",
+   "published": "2026-10-27T22:00:53+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, declined for a third session on Tuesday, falling roughly 1% to its lowest since October 20 at 2,603 points. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, was also down for a third day, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "French Frigate Downed Red Sea Missile Approaching Belgian Minehunter",
+   "link": "https://maritime-executive.com/article/french-frigate-downed-red-sea-missile-approaching-belgian-mine-hunter",
+   "published": "2026-10-27T21:54:47+00:00",
+   "summary": "A French frigate, part of the force assigned to patrol the Red Sea region, recently downed a missile that was approaching a Belgian minehunter. Accord...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NTSB Calls for New Rules for Uncrewed Vessels After Lake Erie Collision",
+   "link": "https://gcaptain.com/ntsb-calls-for-new-rules-for-uncrewed-vessels-after-lake-erie-collision/",
+   "published": "2026-10-27T21:38:20+00:00",
+   "summary": "Investigation finds NOAA research vessel was difficult to detect and lacked proper monitoring, exposing gaps in U.S. maritime safety regulations. The National Transportation Safety Board (NTSB) is calling on the...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
   {
    "title": "An Imperiled UK Fishing Fleet Could Be Used for Defense",
    "link": "https://maritime-executive.com/article/an-imperiled-uk-fishing-fleet-could-be-used-for-defense",
