@@ -1,472 +1,1355 @@
 {
-  "_note": "Curated plain-English shipping glossary. Terms are matched against headlines in the browser and turned into clickable buttons. 'short' is the one-line definition shown first; 'why' explains why the term matters, which is the part that actually teaches.",
-  "terms": [
-    {"term":"TCE","aliases":["time charter equivalent"],"segment":"all",
-     "short":"A ship's daily earnings after voyage costs.",
-     "long":"Freight revenue minus voyage costs (fuel, port fees, canal tolls), divided by the number of days the voyage took. It converts a $/tonne cargo rate into a $/day figure.",
-     "why":"This is the number that decides whether an owner makes money. A headline freight rate alone doesn't tell you, because on a voyage charter the owner pays for the fuel.",
-     "see_also":["voyage charter","bunkers","spot rate","time charter"]},
-
-    {"term":"spot rate","aliases":["spot market","spot"],"segment":"all",
-     "short":"The price to hire a ship for one single voyage, right now.",
-     "long":"Agreed voyage by voyage at whatever the market will bear today, rather than fixed in advance.",
-     "why":"Spot rates swing violently — they can triple in weeks. Owners with lots of spot exposure make spectacular profits in a strong market and lose money in a weak one.",
-     "see_also":["time charter","TCE","voyage charter"]},
-
-    {"term":"time charter","aliases":["TC","period charter"],"segment":"all",
-     "short":"Renting out a ship by the day for months or years.",
-     "long":"The charterer pays a fixed daily hire rate and takes on the fuel and port costs; the owner provides and crews the ship.",
-     "why":"It trades upside for certainty. A company on long time charters has predictable earnings; one on spot has a lottery ticket. Knowing the mix tells you how risky a shipping share is.",
-     "see_also":["spot rate","TCE","charterer"]},
-
-    {"term":"voyage charter","aliases":[],"segment":"all",
-     "short":"Hiring a ship to move one cargo from A to B for a price per tonne.",
-     "long":"The owner keeps control of the ship and pays the voyage costs, including fuel.",
-     "why":"Because the owner pays for fuel here, a rise in bunker prices eats directly into their earnings even if the freight rate hasn't changed.",
-     "see_also":["TCE","bunkers","spot rate"]},
-
-    {"term":"bunkers","aliases":["bunker fuel","bunkering","bunker price"],"segment":"all",
-     "short":"Fuel for ships, and the act of refuelling.",
-     "long":"Mostly VLSFO today, with MGO for stricter emission zones and older IFO380 for ships fitted with scrubbers.",
-     "why":"Fuel is the biggest single voyage cost. It's the main reason a freight rate and an owner's actual profit move differently.",
-     "see_also":["VLSFO","MGO","IFO380","scrubber","TCE"]},
-
-    {"term":"VLSFO","aliases":["very low sulphur fuel oil"],"segment":"all",
-     "short":"The standard marine fuel since 2020, max 0.5% sulphur.",
-     "long":"Introduced to meet the IMO 2020 sulphur cap. It is the benchmark bunker grade at most ports.",
-     "why":"Its price is the single most useful cost number in shipping. Watch the gap to high-sulphur fuel: a wide gap makes scrubbers pay off.",
-     "see_also":["bunkers","IMO 2020","scrubber","IFO380"]},
-
-    {"term":"MGO","aliases":["marine gas oil","marine gasoil"],"segment":"all",
-     "short":"A cleaner, pricier distillate marine fuel.",
-     "long":"Used in emission control areas and by smaller vessels. Chemically closer to diesel than to residual fuel oil.",
-     "why":"It always costs more than VLSFO, so voyages through strict emission zones cost more to run.",
-     "see_also":["VLSFO","ECA","bunkers"]},
-
-    {"term":"IFO380","aliases":["HSFO","high sulphur fuel oil"],"segment":"all",
-     "short":"Cheap, high-sulphur residual fuel oil.",
-     "long":"Only legal to burn if the ship has a scrubber fitted to clean its exhaust.",
-     "why":"The discount to VLSFO is what repays the cost of installing a scrubber. A narrow spread makes scrubbers a bad investment.",
-     "see_also":["scrubber","VLSFO","bunkers"]},
-
-    {"term":"scrubber","aliases":["exhaust gas cleaning system"],"segment":"all",
-     "short":"Equipment that cleans sulphur from a ship's exhaust.",
-     "long":"Lets a ship legally burn cheap high-sulphur fuel instead of pricier compliant fuel.",
-     "why":"A scrubber-fitted ship earns more when the HSFO–VLSFO spread is wide. It's a bet on that spread staying wide enough to repay the installation.",
-     "see_also":["IFO380","VLSFO","IMO 2020"]},
-
-    {"term":"tonne-mile","aliases":["tonne miles","ton-mile","tonne-mile demand"],"segment":"all",
-     "short":"One tonne of cargo moved one mile — demand measured by distance, not just volume.",
-     "long":"Multiplies cargo volume by how far it travels.",
-     "why":"The concept that explains most freight rate surprises. If the same oil travels further — say Europe buying from the US Gulf instead of Russia — tonne-miles rise and rates rise, even with zero extra oil produced.",
-     "see_also":["ballast","fleet utilisation","sanctions"]},
-
-    {"term":"ballast","aliases":["ballast leg","ballasting"],"segment":"all",
-     "short":"Sailing empty to reach the next cargo.",
-     "long":"The ship carries seawater for stability instead of cargo.",
-     "why":"Ballast days earn nothing but still burn fuel, so they drag down TCE. Trade patterns with long ballast legs need higher headline rates to be worth doing.",
-     "see_also":["TCE","tonne-mile","triangulation"]},
-
-    {"term":"deadweight","aliases":["dwt","deadweight tonnage"],"segment":"all",
-     "short":"How much weight a ship can carry, in tonnes.",
-     "long":"Includes cargo plus fuel, stores, crew and water.",
-     "why":"The standard measure of ship size, and the basis for every vessel class name you'll meet — a Capesize is simply a bulker of roughly 180,000 dwt.",
-     "see_also":["Capesize","VLCC","Panamax"]},
-
-    {"term":"VLCC","aliases":["very large crude carrier"],"segment":"tanker",
-     "short":"The biggest standard crude oil tanker, about 2 million barrels.",
-     "long":"Roughly 300,000 dwt. Used on long-haul routes, typically Arabian Gulf to Asia.",
-     "why":"The workhorse of long-distance oil trade and the most closely watched tanker class. Too big for the Panama Canal and most ports, so it serves deepwater terminals.",
-     "see_also":["Suezmax","Aframax","TD3C","deadweight"]},
-
-    {"term":"Suezmax","aliases":[],"segment":"tanker",
-     "short":"A crude tanker sized to transit the Suez Canal fully laden, about 1 million barrels.",
-     "long":"Roughly 150,000 dwt.",
-     "why":"The flexible middle of the crude fleet. West Africa to Europe is its classic trade, and it gains whenever shorter-haul crude routes grow.",
-     "see_also":["VLCC","Aframax","Suez Canal"]},
-
-    {"term":"Aframax","aliases":[],"segment":"tanker",
-     "short":"A mid-size crude tanker of roughly 110,000 dwt, about 600,000 barrels.",
-     "long":"Named after the Average Freight Rate Assessment scale. The LR2 is the same hull carrying clean products.",
-     "why":"Serves shorter regional routes like the North Sea and Mediterranean, so it reacts to regional supply shifts faster than VLCCs.",
-     "see_also":["LR2","Suezmax","clean products"]},
-
-    {"term":"LR2","aliases":["long range 2"],"segment":"tanker",
-     "short":"A large product tanker, same size as an Aframax but carrying refined products.",
-     "long":"Around 110,000 dwt with coated tanks so it can carry clean cargoes.",
-     "why":"Can switch between crude and clean trades depending on which pays better, which links the two markets together.",
-     "see_also":["Aframax","clean products","MR"]},
-
-    {"term":"MR","aliases":["medium range","MR tanker"],"segment":"tanker",
-     "short":"The standard refined-product tanker, roughly 50,000 dwt.",
-     "long":"Carries gasoline, diesel and jet fuel on regional and transatlantic routes.",
-     "why":"The most numerous product tanker class. Its rates track refinery margins and where refineries are being built or closed.",
-     "see_also":["clean products","LR2","refining margin"]},
-
-    {"term":"clean products","aliases":["clean tanker","CPP","refined products"],"segment":"tanker",
-     "short":"Refined fuels like gasoline, diesel and jet fuel.",
-     "long":"Carried in coated or stainless tanks to avoid contamination.",
-     "why":"Clean tanker demand depends on where fuel is refined versus consumed. New refineries far from demand centres mean longer voyages and stronger rates.",
-     "see_also":["dirty tanker","MR","refining margin"]},
-
-    {"term":"dirty tanker","aliases":["dirty"],"segment":"tanker",
-     "short":"A tanker carrying crude oil or heavy fuel oil.",
-     "long":"The cargo leaves residue, so switching such a ship to clean cargoes needs expensive tank cleaning.",
-     "why":"The clean/dirty split is the basic division of the tanker market, and the two can move in opposite directions.",
-     "see_also":["clean products","VLCC","BDTI"]},
-
-    {"term":"TD3C","aliases":[],"segment":"tanker",
-     "short":"The benchmark VLCC route: Arabian Gulf to China.",
-     "long":"A Baltic Exchange assessed route for 270,000 tonnes of crude.",
-     "why":"The single most quoted tanker rate in the world. When people say 'VLCC earnings', they usually mean this.",
-     "see_also":["VLCC","TCE","Baltic Exchange"]},
-
-    {"term":"Capesize","aliases":["Cape"],"segment":"dry",
-     "short":"The largest common dry bulk carrier, about 180,000 dwt.",
-     "long":"Too big for the Suez and Panama canals, so historically it sailed around the Cape of Good Hope.",
-     "why":"Carries mainly iron ore and coal, so its rates are effectively a bet on Chinese steel production.",
-     "see_also":["iron ore","BCI","Panamax","deadweight"]},
-
-    {"term":"Panamax","aliases":["Kamsarmax"],"segment":"dry",
-     "short":"A bulker sized to fit the Panama Canal, around 80,000 dwt.",
-     "long":"Kamsarmax is a slightly larger modern variant at about 82,000 dwt.",
-     "why":"Carries coal and grain. More exposed to agricultural seasons and harvest timing than Capesizes are.",
-     "see_also":["Capesize","Supramax","grain season"]},
-
-    {"term":"Supramax","aliases":["Ultramax","Handymax"],"segment":"dry",
-     "short":"A mid-size bulker of roughly 58,000 dwt with its own cranes.",
-     "long":"Being geared, it can load and discharge at ports without shore cranes.",
-     "why":"The most flexible bulker class. It serves minor bulks and poorer ports, so its rates reflect broad global trade rather than one commodity.",
-     "see_also":["Handysize","geared","minor bulks"]},
-
-    {"term":"Handysize","aliases":["Handy"],"segment":"dry",
-     "short":"The smallest Baltic-assessed bulker, about 38,000 dwt.",
-     "long":"Geared, and able to enter small and shallow ports.",
-     "why":"Carries minor bulks like cement, steel and fertiliser. Often the steadiest dry bulk segment because it's less tied to iron ore.",
-     "see_also":["Supramax","minor bulks","geared"]},
-
-    {"term":"BDI","aliases":["Baltic Dry Index"],"segment":"dry",
-     "short":"The headline index of dry bulk freight rates.",
-     "long":"A weighted average of Capesize, Panamax, Supramax and Handysize earnings, published daily by the Baltic Exchange.",
-     "why":"Widely treated as a barometer of world trade. Treat that carefully — it's driven as much by how many ships exist as by how much cargo there is.",
-     "see_also":["Baltic Exchange","Capesize","BCI","fleet utilisation"]},
-
-    {"term":"BCI","aliases":["Baltic Capesize Index"],"segment":"dry",
-     "short":"The Capesize component of the Baltic Dry Index.",
-     "long":"Tracks earnings across the main iron ore and coal routes.",
-     "why":"The most volatile sub-index, and the main reason the BDI jumps around.",
-     "see_also":["BDI","Capesize","iron ore"]},
-
-    {"term":"BDTI","aliases":["Baltic Dirty Tanker Index"],"segment":"tanker",
-     "short":"The benchmark index for crude oil tanker rates.",
-     "long":"Covers the main dirty tanker routes.",
-     "why":"The tanker equivalent of the BDI, and the standard reference for crude freight.",
-     "see_also":["BCTI","dirty tanker","Baltic Exchange"]},
-
-    {"term":"BCTI","aliases":["Baltic Clean Tanker Index"],"segment":"tanker",
-     "short":"The benchmark index for refined product tanker rates.",
-     "long":"Covers the main clean product routes.",
-     "why":"Moves with refinery output and fuel trade patterns, often independently of crude tanker rates.",
-     "see_also":["BDTI","clean products","MR"]},
-
-    {"term":"Baltic Exchange","aliases":["Baltic"],"segment":"all",
-     "short":"The London body that publishes the benchmark freight indices.",
-     "long":"Assesses rates daily from a panel of shipbrokers.",
-     "why":"Its numbers settle real freight derivative contracts, which is why the full data is a paid product.",
-     "see_also":["BDI","FFA","BDTI"]},
-
-    {"term":"FFA","aliases":["forward freight agreement"],"segment":"all",
-     "short":"A financial contract betting on future freight rates.",
-     "long":"Cash-settled against a Baltic index rather than involving an actual ship.",
-     "why":"FFA prices show what the market expects next, so they often move before physical rates do.",
-     "see_also":["Baltic Exchange","BDI","hedging"]},
-
-    {"term":"contango","aliases":[],"segment":"energy",
-     "short":"When oil for later delivery costs more than oil today.",
-     "long":"The opposite is backwardation, where prompt oil is dearer.",
-     "why":"Steep contango makes it profitable to buy oil, store it and sell it forward — sometimes in chartered tankers. That removes ships from the trading fleet and lifts rates.",
-     "see_also":["floating storage","backwardation","Brent"]},
-
-    {"term":"backwardation","aliases":[],"segment":"energy",
-     "short":"When oil for immediate delivery costs more than oil later.",
-     "long":"Signals a tight prompt market.",
-     "why":"Discourages storage, so stored oil gets released and floating storage unwinds — returning ships to the fleet and softening rates.",
-     "see_also":["contango","floating storage"]},
-
-    {"term":"floating storage","aliases":[],"segment":"tanker",
-     "short":"Using tankers as floating warehouses for oil.",
-     "long":"Cargo sits aboard at anchor instead of discharging.",
-     "why":"It takes ships out of the trading fleet without scrapping them, which can tighten the market sharply. Watch it whenever oil is in contango.",
-     "see_also":["contango","fleet utilisation","VLCC"]},
-
-    {"term":"Brent","aliases":["Brent crude"],"segment":"energy",
-     "short":"The global benchmark price for crude oil.",
-     "long":"Based on North Sea crude; most internationally traded oil prices off it.",
-     "why":"Sets the cost of the fuel ships burn and influences how much oil moves and where. Note that high oil prices are not automatically good for tankers — what matters is volume and distance.",
-     "see_also":["WTI","bunkers","contango"]},
-
-    {"term":"WTI","aliases":["West Texas Intermediate"],"segment":"energy",
-     "short":"The US benchmark crude price.",
-     "long":"Priced at Cushing, Oklahoma.",
-     "why":"The Brent–WTI gap decides whether US crude exports are profitable. A wide gap means more long-haul cargoes out of the US Gulf, which is good for tankers.",
-     "see_also":["Brent","tonne-mile","arbitrage"]},
-
-    {"term":"TTF","aliases":["Dutch TTF","Title Transfer Facility"],"segment":"gas",
-     "short":"Europe's benchmark natural gas price.",
-     "long":"A virtual trading hub in the Netherlands, quoted in euros per megawatt-hour.",
-     "why":"The TTF–JKM gap decides whether LNG cargoes sail to Europe or Asia. That choice changes voyage distances and therefore LNG shipping demand.",
-     "see_also":["JKM","Henry Hub","LNG"]},
-
-    {"term":"JKM","aliases":["Japan Korea Marker"],"segment":"gas",
-     "short":"The benchmark LNG price for North East Asia.",
-     "long":"Assessed in dollars per million British thermal units.",
-     "why":"When JKM trades well above TTF, cargoes head to Asia on longer voyages, lifting tonne-mile demand for LNG carriers.",
-     "see_also":["TTF","LNG","tonne-mile"]},
-
-    {"term":"Henry Hub","aliases":[],"segment":"gas",
-     "short":"The US benchmark natural gas price.",
-     "long":"A pipeline hub in Louisiana, priced in dollars per million British thermal units.",
-     "why":"Cheap Henry Hub gas relative to TTF and JKM is what makes US LNG exports profitable — and US exports are the long-haul cargoes that LNG shipping depends on.",
-     "see_also":["TTF","JKM","LNG"]},
-
-    {"term":"LNG","aliases":["liquefied natural gas"],"segment":"gas",
-     "short":"Natural gas chilled to liquid so it can be shipped.",
-     "long":"Cooled to about minus 162°C, shrinking it roughly 600 times.",
-     "why":"Liquefaction lets gas trade between continents instead of being stuck to pipelines, which created the whole LNG shipping market.",
-     "see_also":["JKM","TTF","LPG"]},
-
-    {"term":"LPG","aliases":["liquefied petroleum gas"],"segment":"gas",
-     "short":"Propane and butane, shipped as a liquid under pressure.",
-     "long":"A by-product of gas processing and oil refining.",
-     "why":"Mostly a US-to-Asia trade carried by VLGCs. Its rates follow US export volumes and the propane price gap between regions.",
-     "see_also":["VLGC","LNG"]},
-
-    {"term":"VLGC","aliases":["very large gas carrier"],"segment":"gas",
-     "short":"The largest standard LPG carrier, around 84,000 cubic metres.",
-     "long":"The workhorse of long-haul LPG trade.",
-     "why":"Its earnings hinge on US Gulf to Asia volumes and on Panama Canal transit delays, which can add weeks to a voyage.",
-     "see_also":["LPG","Panama Canal"]},
-
-    {"term":"iron ore","aliases":[],"segment":"dry",
-     "short":"The main raw material for steel, and the biggest dry bulk cargo.",
-     "long":"Shipped mostly from Australia and Brazil to China.",
-     "why":"Brazil is far further from China than Australia, so a shift in sourcing between them changes tonne-mile demand and Capesize rates without changing total volume.",
-     "see_also":["Capesize","tonne-mile","BCI"]},
-
-    {"term":"newbuild","aliases":["newbuilding","orderbook"],"segment":"all",
-     "short":"A ship on order at a shipyard but not yet delivered.",
-     "long":"The orderbook is the total on order, usually quoted as a percentage of the existing fleet.",
-     "why":"The best early warning in shipping. A large orderbook means a wave of supply in two to three years, which caps future rates however strong demand looks today.",
-     "see_also":["scrapping","fleet utilisation","deadweight"]},
-
-    {"term":"scrapping","aliases":["demolition","recycling"],"segment":"all",
-     "short":"Selling an old ship to be broken up for steel.",
-     "long":"Mostly done in India, Bangladesh, Pakistan and Turkey.",
-     "why":"The only way the fleet shrinks. Heavy scrapping in a weak market is what eventually sets up the next upturn.",
-     "see_also":["newbuild","fleet utilisation"]},
-
-    {"term":"fleet utilisation","aliases":["utilisation","utilization"],"segment":"all",
-     "short":"How much of the fleet is actually employed.",
-     "long":"Effective supply after allowing for ships idle, in dock, storing cargo or sailing slowly.",
-     "why":"Freight rates are wildly non-linear in utilisation. Near full employment, a 1% change in supply can double or halve rates — which is why shipping is so volatile.",
-     "see_also":["newbuild","floating storage","congestion"]},
-
-    {"term":"congestion","aliases":["port congestion"],"segment":"all",
-     "short":"Ships queueing to load or discharge.",
-     "long":"Waiting time at anchor outside a port.",
-     "why":"Congestion soaks up ships without any extra cargo moving, tightening effective supply. It acts just like a fleet reduction while it lasts.",
-     "see_also":["fleet utilisation","demurrage"]},
-
-    {"term":"demurrage","aliases":[],"segment":"all",
-     "short":"A penalty the charterer pays when loading or discharging runs late.",
-     "long":"Charged per day beyond the agreed laytime.",
-     "why":"In congested markets demurrage can become a serious part of an owner's income.",
-     "see_also":["laytime","congestion","charterer"]},
-
-    {"term":"laytime","aliases":[],"segment":"all",
-     "short":"The time allowed for loading and unloading cargo.",
-     "long":"Agreed in the charter contract.",
-     "why":"The line between normal operations and demurrage charges.",
-     "see_also":["demurrage","voyage charter"]},
-
-    {"term":"charterer","aliases":[],"segment":"all",
-     "short":"Whoever hires the ship.",
-     "long":"Often an oil major, commodity trader, miner or retailer.",
-     "why":"Charterers sit on the other side of every freight negotiation. Who they are tells you a lot about a trade's reliability.",
-     "see_also":["time charter","voyage charter","owner"]},
-
-    {"term":"owner","aliases":["shipowner"],"segment":"all",
-     "short":"Whoever owns the vessel and earns the freight.",
-     "long":"May operate the ship themselves or hand it to a manager or pool.",
-     "why":"Listed shipping companies are mostly owners, so their earnings are freight income minus ship costs.",
-     "see_also":["charterer","pool","OPEX"]},
-
-    {"term":"pool","aliases":["tanker pool","commercial pool"],"segment":"all",
-     "short":"Several owners putting ships into one fleet and sharing the earnings.",
-     "long":"A pool manager markets the ships jointly and distributes revenue by an agreed formula.",
-     "why":"Gives small owners the scale and route coverage of a large fleet, and smooths out individual voyage luck.",
-     "see_also":["owner","triangulation","TCE"]},
-
-    {"term":"triangulation","aliases":[],"segment":"all",
-     "short":"Linking voyages so a ship carries cargo on more legs.",
-     "long":"Planning routes that avoid sailing empty between cargoes.",
-     "why":"Cuts ballast days, which directly raises TCE. Good operators earn more than rivals on identical ships this way.",
-     "see_also":["ballast","TCE","pool"]},
-
-    {"term":"OPEX","aliases":["operating expenses"],"segment":"all",
-     "short":"The daily cost of running a ship, excluding fuel.",
-     "long":"Crew, insurance, stores, repairs and management.",
-     "why":"The breakeven floor. Comparing OPEX against TCE tells you whether an owner is making or losing money each day.",
-     "see_also":["TCE","cash breakeven","owner"]},
-
-    {"term":"cash breakeven","aliases":["breakeven"],"segment":"all",
-     "short":"The daily rate an owner must earn to cover all cash costs.",
-     "long":"OPEX plus debt service, drydocking and overheads.",
-     "why":"The single most useful figure for judging a shipping share. Below it the company burns cash; well above it, profits compound fast.",
-     "see_also":["OPEX","TCE","NAV"]},
-
-    {"term":"NAV","aliases":["net asset value"],"segment":"all",
-     "short":"What a shipping company's ships are worth, minus its debt.",
-     "long":"Based on broker valuations of each vessel.",
-     "why":"Shipping shares often trade at a discount or premium to NAV. It's the standard yardstick for whether a share looks cheap.",
-     "see_also":["cash breakeven","asset play","owner"]},
-
-    {"term":"asset play","aliases":[],"segment":"all",
-     "short":"Buying ships cheap in a downturn to sell dear in an upturn.",
-     "long":"Profiting from the change in vessel values rather than from freight income.",
-     "why":"Ship values swing even more than rates, so timing the cycle has historically made more money in shipping than operating well.",
-     "see_also":["NAV","newbuild","scrapping"]},
-
-    {"term":"drydock","aliases":["drydocking","special survey"],"segment":"all",
-     "short":"Taking a ship out of the water for inspection and repair.",
-     "long":"Required by class rules, usually every two and a half to five years.",
-     "why":"Costs money and removes the ship from earning for weeks. A heavy drydocking schedule dents a quarter's results.",
-     "see_also":["OPEX","class society"]},
-
-    {"term":"class society","aliases":["classification society"],"segment":"all",
-     "short":"A body that certifies a ship is built and maintained to standard.",
-     "long":"DNV, Lloyd's Register and ABS are among the largest.",
-     "why":"No class certificate means no insurance and no cargo. Class rules effectively set the maintenance calendar.",
-     "see_also":["drydock","P&I club"]},
-
-    {"term":"P&I club","aliases":["protection and indemnity"],"segment":"all",
-     "short":"A mutual insurer covering an owner's third-party liabilities.",
-     "long":"Owned by its shipowner members.",
-     "why":"Loss of P&I cover effectively stops a ship trading, which is why insurance is central to how sanctions are enforced.",
-     "see_also":["sanctions","class society"]},
-
-    {"term":"sanctions","aliases":["sanctioned","price cap"],"segment":"all",
-     "short":"Legal restrictions on trading with certain countries or cargoes.",
-     "long":"In shipping these commonly work through insurance and financing rather than direct bans.",
-     "why":"Sanctions rarely reduce how much oil moves; they reroute it. Longer reroutes raise tonne-miles, which is why sanctions have often *helped* tanker rates.",
-     "see_also":["dark fleet","tonne-mile","P&I club"]},
-
-    {"term":"dark fleet","aliases":["shadow fleet","grey fleet"],"segment":"tanker",
-     "short":"Ageing tankers moving sanctioned oil outside mainstream insurance.",
-     "long":"Typically older ships with opaque ownership that disable tracking signals.",
-     "why":"It splits the tanker market in two. Removing these old ships from the mainstream fleet tightens compliant tonnage and supports rates for everyone else.",
-     "see_also":["sanctions","AIS","scrapping"]},
-
-    {"term":"AIS","aliases":["automatic identification system"],"segment":"all",
-     "short":"A transponder broadcasting a ship's identity and position.",
-     "long":"Required for safety and the basis of public ship-tracking sites.",
-     "why":"Makes shipping unusually transparent — you can watch cargo flows in near real time. Ships going dark is itself a signal.",
-     "see_also":["dark fleet","sanctions"]},
-
-    {"term":"IMO","aliases":["International Maritime Organization"],"segment":"all",
-     "short":"The UN agency that regulates shipping.",
-     "long":"Sets global rules on safety, pollution and emissions.",
-     "why":"Its rule changes reshape economics overnight. IMO 2020 rewrote the fuel market; carbon rules are doing the same to speed and fleet renewal.",
-     "see_also":["IMO 2020","CII","EEXI","ECA"]},
-
-    {"term":"IMO 2020","aliases":["sulphur cap"],"segment":"all",
-     "short":"The 2020 rule capping marine fuel sulphur at 0.5%.",
-     "long":"Ships had to switch to VLSFO, fit a scrubber, or use alternative fuels.",
-     "why":"The textbook example of regulation reshaping a market: it created the VLSFO benchmark and the scrubber investment case.",
-     "see_also":["VLSFO","scrubber","IMO"]},
-
-    {"term":"CII","aliases":["carbon intensity indicator"],"segment":"all",
-     "short":"An annual efficiency rating for each ship, A to E.",
-     "long":"Measures carbon emitted per tonne-mile; poor ratings require a corrective plan.",
-     "why":"Pushes owners to slow down, since slower steaming cuts emissions. Slower ships means less effective fleet capacity, which supports rates.",
-     "see_also":["EEXI","slow steaming","IMO"]},
-
-    {"term":"EEXI","aliases":["energy efficiency existing ship index"],"segment":"all",
-     "short":"A one-off design-efficiency standard for existing ships.",
-     "long":"Often met by capping engine power.",
-     "why":"Power limits lower top speed across much of the fleet, quietly reducing supply.",
-     "see_also":["CII","slow steaming","IMO"]},
-
-    {"term":"slow steaming","aliases":[],"segment":"all",
-     "short":"Deliberately sailing slower to burn less fuel.",
-     "long":"Fuel use rises roughly with the cube of speed, so small speed cuts save a lot.",
-     "why":"The fleet's shock absorber. In weak markets owners slow down, which soaks up surplus capacity; in strong markets they speed up and add supply.",
-     "see_also":["fleet utilisation","CII","bunkers"]},
-
-    {"term":"ECA","aliases":["emission control area"],"segment":"all",
-     "short":"A sea region with stricter fuel and emission rules.",
-     "long":"Includes the North Sea, Baltic and North American coasts.",
-     "why":"Ships must burn cleaner, costlier fuel inside them, so voyages through ECAs cost more.",
-     "see_also":["MGO","IMO","scrubber"]},
-
-    {"term":"EU ETS","aliases":["emissions trading system"],"segment":"all",
-     "short":"The EU system making shipping pay for its carbon emissions.",
-     "long":"Operators surrender allowances for voyages touching the EU.",
-     "why":"Turns carbon into a direct voyage cost, changing which routes and ships are economic.",
-     "see_also":["CII","IMO","ECA"]},
-
-    {"term":"Suez Canal","aliases":[],"segment":"all",
-     "short":"The Egyptian canal linking the Mediterranean and Red Sea.",
-     "long":"Saves thousands of miles between Asia and Europe.",
-     "why":"When ships avoid it — as during Red Sea attacks — voyages lengthen dramatically. Tonne-miles jump and rates rise even with unchanged cargo volumes.",
-     "see_also":["tonne-mile","Suezmax","Cape of Good Hope"]},
-
-    {"term":"Panama Canal","aliases":[],"segment":"all",
-     "short":"The canal linking the Atlantic and Pacific.",
-     "long":"Transit slots are limited and auctioned when capacity is short.",
-     "why":"Drought has cut transits in recent years, hitting LPG and container routes hardest and forcing long detours.",
-     "see_also":["VLGC","tonne-mile","Suez Canal"]},
-
-    {"term":"Cape of Good Hope","aliases":[],"segment":"all",
-     "short":"The route around southern Africa, used when Suez is avoided.",
-     "long":"Adds roughly 10 to 14 days on an Asia–Europe voyage.",
-     "why":"The main alternative to Suez, and the clearest real-world example of rerouting creating freight demand out of thin air.",
-     "see_also":["Suez Canal","tonne-mile","Capesize"]},
-
-    {"term":"refining margin","aliases":["crack spread","crack"],"segment":"energy",
-     "short":"The profit from turning crude oil into refined products.",
-     "long":"The price gap between products and the crude they came from.",
-     "why":"Fat margins make refineries run hard, producing more cargo for product tankers. It's the best leading indicator for clean tanker demand.",
-     "see_also":["clean products","MR","Brent"]},
-
-    {"term":"arbitrage","aliases":["arb"],"segment":"energy",
-     "short":"Profiting from the same commodity costing different amounts in different places.",
-     "long":"Open when the price gap exceeds the cost of shipping it.",
-     "why":"Arbitrage is what actually puts cargo on ships. When an arb opens, freight demand follows within weeks.",
-     "see_also":["WTI","TTF","JKM","tonne-mile"]},
-
-    {"term":"minor bulks","aliases":[],"segment":"dry",
-     "short":"Dry cargoes other than iron ore, coal and grain.",
-     "long":"Cement, fertiliser, steel products, bauxite, salt and sugar.",
-     "why":"Spread across many commodities and ports, so minor bulk demand is steadier than the major bulks.",
-     "see_also":["Supramax","Handysize","geared"]},
-
-    {"term":"geared","aliases":["gearless"],"segment":"dry",
-     "short":"A ship with its own cargo cranes.",
-     "long":"Gearless ships depend on shore equipment.",
-     "why":"Gear lets smaller bulkers serve underdeveloped ports, which is exactly why they trade differently from Capesizes.",
-     "see_also":["Supramax","Handysize","minor bulks"]},
-
-    {"term":"grain season","aliases":[],"segment":"dry",
-     "short":"The harvest periods that drive seasonal grain shipments.",
-     "long":"North American exports peak late in the year; South American exports peak in spring.",
-     "why":"One of the few genuinely predictable patterns in shipping, and the main seasonal driver of Panamax rates.",
-     "see_also":["Panamax","minor bulks"]},
-
-    {"term":"hedging","aliases":[],"segment":"all",
-     "short":"Using financial contracts to lock in a future price.",
-     "long":"Owners and charterers use FFAs for freight and swaps for fuel.",
-     "why":"Explains why a company's reported earnings can diverge from spot rates — they may have fixed much of it in advance.",
-     "see_also":["FFA","bunkers","time charter"]}
-  ]
+ "_note": "Curated plain-English shipping glossary. Terms are matched against headlines in the browser and turned into clickable buttons. 'short' is the one-line definition shown first; 'why' explains why the term matters, which is the part that actually teaches.",
+ "terms": [
+  {
+   "term": "TCE",
+   "aliases": [
+    "time charter equivalent"
+   ],
+   "segment": "all",
+   "short": "A ship's daily earnings after voyage costs.",
+   "long": "Freight revenue minus voyage costs (fuel, port fees, canal tolls), divided by the number of days the voyage took. It converts a $/tonne cargo rate into a $/day figure.",
+   "why": "This is the number that decides whether an owner makes money. A headline freight rate alone doesn't tell you, because on a voyage charter the owner pays for the fuel.",
+   "see_also": [
+    "voyage charter",
+    "bunkers",
+    "spot rate",
+    "time charter"
+   ]
+  },
+  {
+   "term": "spot rate",
+   "aliases": [
+    "spot market",
+    "spot"
+   ],
+   "segment": "all",
+   "short": "The price to hire a ship for one single voyage, right now.",
+   "long": "Agreed voyage by voyage at whatever the market will bear today, rather than fixed in advance.",
+   "why": "Spot rates swing violently — they can triple in weeks. Owners with lots of spot exposure make spectacular profits in a strong market and lose money in a weak one.",
+   "see_also": [
+    "time charter",
+    "TCE",
+    "voyage charter"
+   ]
+  },
+  {
+   "term": "time charter",
+   "aliases": [
+    "TC",
+    "period charter"
+   ],
+   "segment": "all",
+   "short": "Renting out a ship by the day for months or years.",
+   "long": "The charterer pays a fixed daily hire rate and takes on the fuel and port costs; the owner provides and crews the ship.",
+   "why": "It trades upside for certainty. A company on long time charters has predictable earnings; one on spot has a lottery ticket. Knowing the mix tells you how risky a shipping share is.",
+   "see_also": [
+    "spot rate",
+    "TCE",
+    "charterer"
+   ]
+  },
+  {
+   "term": "voyage charter",
+   "aliases": [],
+   "segment": "all",
+   "short": "Hiring a ship to move one cargo from A to B for a price per tonne.",
+   "long": "The owner keeps control of the ship and pays the voyage costs, including fuel.",
+   "why": "Because the owner pays for fuel here, a rise in bunker prices eats directly into their earnings even if the freight rate hasn't changed.",
+   "see_also": [
+    "TCE",
+    "bunkers",
+    "spot rate"
+   ]
+  },
+  {
+   "term": "bunkers",
+   "aliases": [
+    "bunker fuel",
+    "bunkering",
+    "bunker price"
+   ],
+   "segment": "all",
+   "short": "Fuel for ships, and the act of refuelling.",
+   "long": "Mostly VLSFO today, with MGO for stricter emission zones and older IFO380 for ships fitted with scrubbers.",
+   "why": "Fuel is the biggest single voyage cost. It's the main reason a freight rate and an owner's actual profit move differently.",
+   "see_also": [
+    "VLSFO",
+    "MGO",
+    "IFO380",
+    "scrubber",
+    "TCE"
+   ]
+  },
+  {
+   "term": "VLSFO",
+   "aliases": [
+    "very low sulphur fuel oil"
+   ],
+   "segment": "all",
+   "short": "The standard marine fuel since 2020, max 0.5% sulphur.",
+   "long": "Introduced to meet the IMO 2020 sulphur cap. It is the benchmark bunker grade at most ports.",
+   "why": "Its price is the single most useful cost number in shipping. Watch the gap to high-sulphur fuel: a wide gap makes scrubbers pay off.",
+   "see_also": [
+    "bunkers",
+    "IMO 2020",
+    "scrubber",
+    "IFO380"
+   ]
+  },
+  {
+   "term": "MGO",
+   "aliases": [
+    "marine gas oil",
+    "marine gasoil"
+   ],
+   "segment": "all",
+   "short": "A cleaner, pricier distillate marine fuel.",
+   "long": "Used in emission control areas and by smaller vessels. Chemically closer to diesel than to residual fuel oil.",
+   "why": "It always costs more than VLSFO, so voyages through strict emission zones cost more to run.",
+   "see_also": [
+    "VLSFO",
+    "ECA",
+    "bunkers"
+   ]
+  },
+  {
+   "term": "IFO380",
+   "aliases": [
+    "HSFO",
+    "high sulphur fuel oil"
+   ],
+   "segment": "all",
+   "short": "Cheap, high-sulphur residual fuel oil.",
+   "long": "Only legal to burn if the ship has a scrubber fitted to clean its exhaust.",
+   "why": "The discount to VLSFO is what repays the cost of installing a scrubber. A narrow spread makes scrubbers a bad investment.",
+   "see_also": [
+    "scrubber",
+    "VLSFO",
+    "bunkers"
+   ]
+  },
+  {
+   "term": "scrubber",
+   "aliases": [
+    "exhaust gas cleaning system"
+   ],
+   "segment": "all",
+   "short": "Equipment that cleans sulphur from a ship's exhaust.",
+   "long": "Lets a ship legally burn cheap high-sulphur fuel instead of pricier compliant fuel.",
+   "why": "A scrubber-fitted ship earns more when the HSFO–VLSFO spread is wide. It's a bet on that spread staying wide enough to repay the installation.",
+   "see_also": [
+    "IFO380",
+    "VLSFO",
+    "IMO 2020"
+   ]
+  },
+  {
+   "term": "tonne-mile",
+   "aliases": [
+    "tonne miles",
+    "ton-mile",
+    "tonne-mile demand"
+   ],
+   "segment": "all",
+   "short": "One tonne of cargo moved one mile — demand measured by distance, not just volume.",
+   "long": "Multiplies cargo volume by how far it travels.",
+   "why": "The concept that explains most freight rate surprises. If the same oil travels further — say Europe buying from the US Gulf instead of Russia — tonne-miles rise and rates rise, even with zero extra oil produced.",
+   "see_also": [
+    "ballast",
+    "fleet utilisation",
+    "sanctions"
+   ]
+  },
+  {
+   "term": "ballast",
+   "aliases": [
+    "ballast leg",
+    "ballasting"
+   ],
+   "segment": "all",
+   "short": "Sailing empty to reach the next cargo.",
+   "long": "The ship carries seawater for stability instead of cargo.",
+   "why": "Ballast days earn nothing but still burn fuel, so they drag down TCE. Trade patterns with long ballast legs need higher headline rates to be worth doing.",
+   "see_also": [
+    "TCE",
+    "tonne-mile",
+    "triangulation"
+   ]
+  },
+  {
+   "term": "deadweight",
+   "aliases": [
+    "dwt",
+    "deadweight tonnage"
+   ],
+   "segment": "all",
+   "short": "How much weight a ship can carry, in tonnes.",
+   "long": "Includes cargo plus fuel, stores, crew and water.",
+   "why": "The standard measure of ship size, and the basis for every vessel class name you'll meet — a Capesize is simply a bulker of roughly 180,000 dwt.",
+   "see_also": [
+    "Capesize",
+    "VLCC",
+    "Panamax"
+   ]
+  },
+  {
+   "term": "VLCC",
+   "aliases": [
+    "very large crude carrier"
+   ],
+   "segment": "tanker",
+   "short": "The biggest standard crude oil tanker, about 2 million barrels.",
+   "long": "Roughly 300,000 dwt. Used on long-haul routes, typically Arabian Gulf to Asia.",
+   "why": "The workhorse of long-distance oil trade and the most closely watched tanker class. Too big for the Panama Canal and most ports, so it serves deepwater terminals.",
+   "see_also": [
+    "Suezmax",
+    "Aframax",
+    "TD3C",
+    "deadweight"
+   ]
+  },
+  {
+   "term": "Suezmax",
+   "aliases": [],
+   "segment": "tanker",
+   "short": "A crude tanker sized to transit the Suez Canal fully laden, about 1 million barrels.",
+   "long": "Roughly 150,000 dwt.",
+   "why": "The flexible middle of the crude fleet. West Africa to Europe is its classic trade, and it gains whenever shorter-haul crude routes grow.",
+   "see_also": [
+    "VLCC",
+    "Aframax",
+    "Suez Canal"
+   ]
+  },
+  {
+   "term": "Aframax",
+   "aliases": [],
+   "segment": "tanker",
+   "short": "A mid-size crude tanker of roughly 110,000 dwt, about 600,000 barrels.",
+   "long": "Named after the Average Freight Rate Assessment scale. The LR2 is the same hull carrying clean products.",
+   "why": "Serves shorter regional routes like the North Sea and Mediterranean, so it reacts to regional supply shifts faster than VLCCs.",
+   "see_also": [
+    "LR2",
+    "Suezmax",
+    "clean products"
+   ]
+  },
+  {
+   "term": "LR2",
+   "aliases": [
+    "long range 2"
+   ],
+   "segment": "tanker",
+   "short": "A large product tanker, same size as an Aframax but carrying refined products.",
+   "long": "Around 110,000 dwt with coated tanks so it can carry clean cargoes.",
+   "why": "Can switch between crude and clean trades depending on which pays better, which links the two markets together.",
+   "see_also": [
+    "Aframax",
+    "clean products",
+    "MR"
+   ]
+  },
+  {
+   "term": "MR",
+   "aliases": [
+    "medium range",
+    "MR tanker"
+   ],
+   "segment": "tanker",
+   "short": "The standard refined-product tanker, roughly 50,000 dwt.",
+   "long": "Carries gasoline, diesel and jet fuel on regional and transatlantic routes.",
+   "why": "The most numerous product tanker class. Its rates track refinery margins and where refineries are being built or closed.",
+   "see_also": [
+    "clean products",
+    "LR2",
+    "refining margin"
+   ]
+  },
+  {
+   "term": "clean products",
+   "aliases": [
+    "clean tanker",
+    "CPP",
+    "refined products"
+   ],
+   "segment": "tanker",
+   "short": "Refined fuels like gasoline, diesel and jet fuel.",
+   "long": "Carried in coated or stainless tanks to avoid contamination.",
+   "why": "Clean tanker demand depends on where fuel is refined versus consumed. New refineries far from demand centres mean longer voyages and stronger rates.",
+   "see_also": [
+    "dirty tanker",
+    "MR",
+    "refining margin"
+   ]
+  },
+  {
+   "term": "dirty tanker",
+   "aliases": [
+    "dirty"
+   ],
+   "segment": "tanker",
+   "short": "A tanker carrying crude oil or heavy fuel oil.",
+   "long": "The cargo leaves residue, so switching such a ship to clean cargoes needs expensive tank cleaning.",
+   "why": "The clean/dirty split is the basic division of the tanker market, and the two can move in opposite directions.",
+   "see_also": [
+    "clean products",
+    "VLCC",
+    "BDTI"
+   ]
+  },
+  {
+   "term": "TD3C",
+   "aliases": [],
+   "segment": "tanker",
+   "short": "The benchmark VLCC route: Arabian Gulf to China.",
+   "long": "A Baltic Exchange assessed route for 270,000 tonnes of crude.",
+   "why": "The single most quoted tanker rate in the world. When people say 'VLCC earnings', they usually mean this.",
+   "see_also": [
+    "VLCC",
+    "TCE",
+    "Baltic Exchange"
+   ]
+  },
+  {
+   "term": "Capesize",
+   "aliases": [
+    "Cape"
+   ],
+   "segment": "dry",
+   "short": "The largest common dry bulk carrier, about 180,000 dwt.",
+   "long": "Too big for the Suez and Panama canals, so historically it sailed around the Cape of Good Hope.",
+   "why": "Carries mainly iron ore and coal, so its rates are effectively a bet on Chinese steel production.",
+   "see_also": [
+    "iron ore",
+    "BCI",
+    "Panamax",
+    "deadweight"
+   ]
+  },
+  {
+   "term": "Panamax",
+   "aliases": [
+    "Kamsarmax"
+   ],
+   "segment": "dry",
+   "short": "A bulker sized to fit the Panama Canal, around 80,000 dwt.",
+   "long": "Kamsarmax is a slightly larger modern variant at about 82,000 dwt.",
+   "why": "Carries coal and grain. More exposed to agricultural seasons and harvest timing than Capesizes are.",
+   "see_also": [
+    "Capesize",
+    "Supramax",
+    "grain season"
+   ]
+  },
+  {
+   "term": "Supramax",
+   "aliases": [
+    "Ultramax",
+    "Handymax"
+   ],
+   "segment": "dry",
+   "short": "A mid-size bulker of roughly 58,000 dwt with its own cranes.",
+   "long": "Being geared, it can load and discharge at ports without shore cranes.",
+   "why": "The most flexible bulker class. It serves minor bulks and poorer ports, so its rates reflect broad global trade rather than one commodity.",
+   "see_also": [
+    "Handysize",
+    "geared",
+    "minor bulks"
+   ]
+  },
+  {
+   "term": "Handysize",
+   "aliases": [
+    "Handy"
+   ],
+   "segment": "dry",
+   "short": "The smallest Baltic-assessed bulker, about 38,000 dwt.",
+   "long": "Geared, and able to enter small and shallow ports.",
+   "why": "Carries minor bulks like cement, steel and fertiliser. Often the steadiest dry bulk segment because it's less tied to iron ore.",
+   "see_also": [
+    "Supramax",
+    "minor bulks",
+    "geared"
+   ]
+  },
+  {
+   "term": "BDI",
+   "aliases": [
+    "Baltic Dry Index"
+   ],
+   "segment": "dry",
+   "short": "The headline index of dry bulk freight rates.",
+   "long": "A weighted average of Capesize, Panamax, Supramax and Handysize earnings, published daily by the Baltic Exchange.",
+   "why": "Widely treated as a barometer of world trade. Treat that carefully — it's driven as much by how many ships exist as by how much cargo there is.",
+   "see_also": [
+    "Baltic Exchange",
+    "Capesize",
+    "BCI",
+    "fleet utilisation"
+   ]
+  },
+  {
+   "term": "BCI",
+   "aliases": [
+    "Baltic Capesize Index"
+   ],
+   "segment": "dry",
+   "short": "The Capesize component of the Baltic Dry Index.",
+   "long": "Tracks earnings across the main iron ore and coal routes.",
+   "why": "The most volatile sub-index, and the main reason the BDI jumps around.",
+   "see_also": [
+    "BDI",
+    "Capesize",
+    "iron ore"
+   ]
+  },
+  {
+   "term": "BDTI",
+   "aliases": [
+    "Baltic Dirty Tanker Index"
+   ],
+   "segment": "tanker",
+   "short": "The benchmark index for crude oil tanker rates.",
+   "long": "Covers the main dirty tanker routes.",
+   "why": "The tanker equivalent of the BDI, and the standard reference for crude freight.",
+   "see_also": [
+    "BCTI",
+    "dirty tanker",
+    "Baltic Exchange"
+   ]
+  },
+  {
+   "term": "BCTI",
+   "aliases": [
+    "Baltic Clean Tanker Index"
+   ],
+   "segment": "tanker",
+   "short": "The benchmark index for refined product tanker rates.",
+   "long": "Covers the main clean product routes.",
+   "why": "Moves with refinery output and fuel trade patterns, often independently of crude tanker rates.",
+   "see_also": [
+    "BDTI",
+    "clean products",
+    "MR"
+   ]
+  },
+  {
+   "term": "Baltic Exchange",
+   "aliases": [
+    "Baltic"
+   ],
+   "segment": "all",
+   "short": "The London body that publishes the benchmark freight indices.",
+   "long": "Assesses rates daily from a panel of shipbrokers.",
+   "why": "Its numbers settle real freight derivative contracts, which is why the full data is a paid product.",
+   "see_also": [
+    "BDI",
+    "FFA",
+    "BDTI"
+   ]
+  },
+  {
+   "term": "FFA",
+   "aliases": [
+    "forward freight agreement"
+   ],
+   "segment": "all",
+   "short": "A financial contract betting on future freight rates.",
+   "long": "Cash-settled against a Baltic index rather than involving an actual ship.",
+   "why": "FFA prices show what the market expects next, so they often move before physical rates do.",
+   "see_also": [
+    "Baltic Exchange",
+    "BDI",
+    "hedging"
+   ]
+  },
+  {
+   "term": "contango",
+   "aliases": [],
+   "segment": "energy",
+   "short": "When oil for later delivery costs more than oil today.",
+   "long": "The opposite is backwardation, where prompt oil is dearer.",
+   "why": "Steep contango makes it profitable to buy oil, store it and sell it forward — sometimes in chartered tankers. That removes ships from the trading fleet and lifts rates.",
+   "see_also": [
+    "floating storage",
+    "backwardation",
+    "Brent"
+   ]
+  },
+  {
+   "term": "backwardation",
+   "aliases": [],
+   "segment": "energy",
+   "short": "When oil for immediate delivery costs more than oil later.",
+   "long": "Signals a tight prompt market.",
+   "why": "Discourages storage, so stored oil gets released and floating storage unwinds — returning ships to the fleet and softening rates.",
+   "see_also": [
+    "contango",
+    "floating storage"
+   ]
+  },
+  {
+   "term": "floating storage",
+   "aliases": [],
+   "segment": "tanker",
+   "short": "Using tankers as floating warehouses for oil.",
+   "long": "Cargo sits aboard at anchor instead of discharging.",
+   "why": "It takes ships out of the trading fleet without scrapping them, which can tighten the market sharply. Watch it whenever oil is in contango.",
+   "see_also": [
+    "contango",
+    "fleet utilisation",
+    "VLCC"
+   ]
+  },
+  {
+   "term": "Brent",
+   "aliases": [
+    "Brent crude"
+   ],
+   "segment": "energy",
+   "short": "The global benchmark price for crude oil.",
+   "long": "Based on North Sea crude; most internationally traded oil prices off it.",
+   "why": "Sets the cost of the fuel ships burn and influences how much oil moves and where. Note that high oil prices are not automatically good for tankers — what matters is volume and distance.",
+   "see_also": [
+    "WTI",
+    "bunkers",
+    "contango"
+   ]
+  },
+  {
+   "term": "WTI",
+   "aliases": [
+    "West Texas Intermediate"
+   ],
+   "segment": "energy",
+   "short": "The US benchmark crude price.",
+   "long": "Priced at Cushing, Oklahoma.",
+   "why": "The Brent–WTI gap decides whether US crude exports are profitable. A wide gap means more long-haul cargoes out of the US Gulf, which is good for tankers.",
+   "see_also": [
+    "Brent",
+    "tonne-mile",
+    "arbitrage"
+   ]
+  },
+  {
+   "term": "TTF",
+   "aliases": [
+    "Dutch TTF",
+    "Title Transfer Facility"
+   ],
+   "segment": "gas",
+   "short": "Europe's benchmark natural gas price.",
+   "long": "A virtual trading hub in the Netherlands, quoted in euros per megawatt-hour.",
+   "why": "The TTF–JKM gap decides whether LNG cargoes sail to Europe or Asia. That choice changes voyage distances and therefore LNG shipping demand.",
+   "see_also": [
+    "JKM",
+    "Henry Hub",
+    "LNG"
+   ]
+  },
+  {
+   "term": "JKM",
+   "aliases": [
+    "Japan Korea Marker"
+   ],
+   "segment": "gas",
+   "short": "The benchmark LNG price for North East Asia.",
+   "long": "Assessed in dollars per million British thermal units.",
+   "why": "When JKM trades well above TTF, cargoes head to Asia on longer voyages, lifting tonne-mile demand for LNG carriers.",
+   "see_also": [
+    "TTF",
+    "LNG",
+    "tonne-mile"
+   ]
+  },
+  {
+   "term": "Henry Hub",
+   "aliases": [],
+   "segment": "gas",
+   "short": "The US benchmark natural gas price.",
+   "long": "A pipeline hub in Louisiana, priced in dollars per million British thermal units.",
+   "why": "Cheap Henry Hub gas relative to TTF and JKM is what makes US LNG exports profitable — and US exports are the long-haul cargoes that LNG shipping depends on.",
+   "see_also": [
+    "TTF",
+    "JKM",
+    "LNG"
+   ]
+  },
+  {
+   "term": "LNG",
+   "aliases": [
+    "liquefied natural gas"
+   ],
+   "segment": "gas",
+   "short": "Natural gas chilled to liquid so it can be shipped.",
+   "long": "Cooled to about minus 162°C, shrinking it roughly 600 times.",
+   "why": "Liquefaction lets gas trade between continents instead of being stuck to pipelines, which created the whole LNG shipping market.",
+   "see_also": [
+    "JKM",
+    "TTF",
+    "LPG"
+   ]
+  },
+  {
+   "term": "LPG",
+   "aliases": [
+    "liquefied petroleum gas"
+   ],
+   "segment": "gas",
+   "short": "Propane and butane, shipped as a liquid under pressure.",
+   "long": "A by-product of gas processing and oil refining.",
+   "why": "Mostly a US-to-Asia trade carried by VLGCs. Its rates follow US export volumes and the propane price gap between regions.",
+   "see_also": [
+    "VLGC",
+    "LNG"
+   ]
+  },
+  {
+   "term": "VLGC",
+   "aliases": [
+    "very large gas carrier"
+   ],
+   "segment": "gas",
+   "short": "The largest standard LPG carrier, around 84,000 cubic metres.",
+   "long": "The workhorse of long-haul LPG trade.",
+   "why": "Its earnings hinge on US Gulf to Asia volumes and on Panama Canal transit delays, which can add weeks to a voyage.",
+   "see_also": [
+    "LPG",
+    "Panama Canal"
+   ]
+  },
+  {
+   "term": "iron ore",
+   "aliases": [],
+   "segment": "dry",
+   "short": "The main raw material for steel, and the biggest dry bulk cargo.",
+   "long": "Shipped mostly from Australia and Brazil to China.",
+   "why": "Brazil is far further from China than Australia, so a shift in sourcing between them changes tonne-mile demand and Capesize rates without changing total volume.",
+   "see_also": [
+    "Capesize",
+    "tonne-mile",
+    "BCI"
+   ]
+  },
+  {
+   "term": "newbuild",
+   "aliases": [
+    "newbuilding",
+    "orderbook"
+   ],
+   "segment": "all",
+   "short": "A ship on order at a shipyard but not yet delivered.",
+   "long": "The orderbook is the total on order, usually quoted as a percentage of the existing fleet.",
+   "why": "The best early warning in shipping. A large orderbook means a wave of supply in two to three years, which caps future rates however strong demand looks today.",
+   "see_also": [
+    "scrapping",
+    "fleet utilisation",
+    "deadweight"
+   ]
+  },
+  {
+   "term": "scrapping",
+   "aliases": [
+    "demolition",
+    "recycling"
+   ],
+   "segment": "all",
+   "short": "Selling an old ship to be broken up for steel.",
+   "long": "Mostly done in India, Bangladesh, Pakistan and Turkey.",
+   "why": "The only way the fleet shrinks. Heavy scrapping in a weak market is what eventually sets up the next upturn.",
+   "see_also": [
+    "newbuild",
+    "fleet utilisation"
+   ]
+  },
+  {
+   "term": "fleet utilisation",
+   "aliases": [
+    "utilisation",
+    "utilization"
+   ],
+   "segment": "all",
+   "short": "How much of the fleet is actually employed.",
+   "long": "Effective supply after allowing for ships idle, in dock, storing cargo or sailing slowly.",
+   "why": "Freight rates are wildly non-linear in utilisation. Near full employment, a 1% change in supply can double or halve rates — which is why shipping is so volatile.",
+   "see_also": [
+    "newbuild",
+    "floating storage",
+    "congestion"
+   ]
+  },
+  {
+   "term": "congestion",
+   "aliases": [
+    "port congestion"
+   ],
+   "segment": "all",
+   "short": "Ships queueing to load or discharge.",
+   "long": "Waiting time at anchor outside a port.",
+   "why": "Congestion soaks up ships without any extra cargo moving, tightening effective supply. It acts just like a fleet reduction while it lasts.",
+   "see_also": [
+    "fleet utilisation",
+    "demurrage"
+   ]
+  },
+  {
+   "term": "demurrage",
+   "aliases": [],
+   "segment": "all",
+   "short": "A penalty the charterer pays when loading or discharging runs late.",
+   "long": "Charged per day beyond the agreed laytime.",
+   "why": "In congested markets demurrage can become a serious part of an owner's income.",
+   "see_also": [
+    "laytime",
+    "congestion",
+    "charterer"
+   ]
+  },
+  {
+   "term": "laytime",
+   "aliases": [],
+   "segment": "all",
+   "short": "The time allowed for loading and unloading cargo.",
+   "long": "Agreed in the charter contract.",
+   "why": "The line between normal operations and demurrage charges.",
+   "see_also": [
+    "demurrage",
+    "voyage charter"
+   ]
+  },
+  {
+   "term": "charterer",
+   "aliases": [],
+   "segment": "all",
+   "short": "Whoever hires the ship.",
+   "long": "Often an oil major, commodity trader, miner or retailer.",
+   "why": "Charterers sit on the other side of every freight negotiation. Who they are tells you a lot about a trade's reliability.",
+   "see_also": [
+    "time charter",
+    "voyage charter",
+    "owner"
+   ]
+  },
+  {
+   "term": "owner",
+   "aliases": [
+    "shipowner"
+   ],
+   "segment": "all",
+   "short": "Whoever owns the vessel and earns the freight.",
+   "long": "May operate the ship themselves or hand it to a manager or pool.",
+   "why": "Listed shipping companies are mostly owners, so their earnings are freight income minus ship costs.",
+   "see_also": [
+    "charterer",
+    "pool",
+    "OPEX"
+   ]
+  },
+  {
+   "term": "pool",
+   "aliases": [
+    "tanker pool",
+    "commercial pool"
+   ],
+   "segment": "all",
+   "short": "Several owners putting ships into one fleet and sharing the earnings.",
+   "long": "A pool manager markets the ships jointly and distributes revenue by an agreed formula.",
+   "why": "Gives small owners the scale and route coverage of a large fleet, and smooths out individual voyage luck.",
+   "see_also": [
+    "owner",
+    "triangulation",
+    "TCE"
+   ]
+  },
+  {
+   "term": "triangulation",
+   "aliases": [],
+   "segment": "all",
+   "short": "Linking voyages so a ship carries cargo on more legs.",
+   "long": "Planning routes that avoid sailing empty between cargoes.",
+   "why": "Cuts ballast days, which directly raises TCE. Good operators earn more than rivals on identical ships this way.",
+   "see_also": [
+    "ballast",
+    "TCE",
+    "pool"
+   ]
+  },
+  {
+   "term": "OPEX",
+   "aliases": [
+    "operating expenses"
+   ],
+   "segment": "all",
+   "short": "The daily cost of running a ship, excluding fuel.",
+   "long": "Crew, insurance, stores, repairs and management.",
+   "why": "The breakeven floor. Comparing OPEX against TCE tells you whether an owner is making or losing money each day.",
+   "see_also": [
+    "TCE",
+    "cash breakeven",
+    "owner"
+   ]
+  },
+  {
+   "term": "cash breakeven",
+   "aliases": [
+    "breakeven"
+   ],
+   "segment": "all",
+   "short": "The daily rate an owner must earn to cover all cash costs.",
+   "long": "OPEX plus debt service, drydocking and overheads.",
+   "why": "The single most useful figure for judging a shipping share. Below it the company burns cash; well above it, profits compound fast.",
+   "see_also": [
+    "OPEX",
+    "TCE",
+    "NAV"
+   ]
+  },
+  {
+   "term": "NAV",
+   "aliases": [
+    "net asset value"
+   ],
+   "segment": "all",
+   "short": "What a shipping company's ships are worth, minus its debt.",
+   "long": "Based on broker valuations of each vessel.",
+   "why": "Shipping shares often trade at a discount or premium to NAV. It's the standard yardstick for whether a share looks cheap.",
+   "see_also": [
+    "cash breakeven",
+    "asset play",
+    "owner"
+   ]
+  },
+  {
+   "term": "asset play",
+   "aliases": [],
+   "segment": "all",
+   "short": "Buying ships cheap in a downturn to sell dear in an upturn.",
+   "long": "Profiting from the change in vessel values rather than from freight income.",
+   "why": "Ship values swing even more than rates, so timing the cycle has historically made more money in shipping than operating well.",
+   "see_also": [
+    "NAV",
+    "newbuild",
+    "scrapping"
+   ]
+  },
+  {
+   "term": "drydock",
+   "aliases": [
+    "drydocking",
+    "special survey"
+   ],
+   "segment": "all",
+   "short": "Taking a ship out of the water for inspection and repair.",
+   "long": "Required by class rules, usually every two and a half to five years.",
+   "why": "Costs money and removes the ship from earning for weeks. A heavy drydocking schedule dents a quarter's results.",
+   "see_also": [
+    "OPEX",
+    "class society"
+   ]
+  },
+  {
+   "term": "class society",
+   "aliases": [
+    "classification society"
+   ],
+   "segment": "all",
+   "short": "A body that certifies a ship is built and maintained to standard.",
+   "long": "DNV, Lloyd's Register and ABS are among the largest.",
+   "why": "No class certificate means no insurance and no cargo. Class rules effectively set the maintenance calendar.",
+   "see_also": [
+    "drydock",
+    "P&I club"
+   ]
+  },
+  {
+   "term": "P&I club",
+   "aliases": [
+    "protection and indemnity"
+   ],
+   "segment": "all",
+   "short": "A mutual insurer covering an owner's third-party liabilities.",
+   "long": "Owned by its shipowner members.",
+   "why": "Loss of P&I cover effectively stops a ship trading, which is why insurance is central to how sanctions are enforced.",
+   "see_also": [
+    "sanctions",
+    "class society"
+   ]
+  },
+  {
+   "term": "sanctions",
+   "aliases": [
+    "sanctioned",
+    "price cap"
+   ],
+   "segment": "all",
+   "short": "Legal restrictions on trading with certain countries or cargoes.",
+   "long": "In shipping these commonly work through insurance and financing rather than direct bans.",
+   "why": "Sanctions rarely reduce how much oil moves; they reroute it. Longer reroutes raise tonne-miles, which is why sanctions have often *helped* tanker rates.",
+   "see_also": [
+    "dark fleet",
+    "tonne-mile",
+    "P&I club"
+   ]
+  },
+  {
+   "term": "dark fleet",
+   "aliases": [
+    "shadow fleet",
+    "grey fleet"
+   ],
+   "segment": "tanker",
+   "short": "Ageing tankers moving sanctioned oil outside mainstream insurance.",
+   "long": "Typically older ships with opaque ownership that disable tracking signals.",
+   "why": "It splits the tanker market in two. Removing these old ships from the mainstream fleet tightens compliant tonnage and supports rates for everyone else.",
+   "see_also": [
+    "sanctions",
+    "AIS",
+    "scrapping"
+   ]
+  },
+  {
+   "term": "AIS",
+   "aliases": [
+    "automatic identification system"
+   ],
+   "segment": "all",
+   "short": "A transponder broadcasting a ship's identity and position.",
+   "long": "Required for safety and the basis of public ship-tracking sites.",
+   "why": "Makes shipping unusually transparent — you can watch cargo flows in near real time. Ships going dark is itself a signal.",
+   "see_also": [
+    "dark fleet",
+    "sanctions"
+   ]
+  },
+  {
+   "term": "IMO",
+   "aliases": [
+    "International Maritime Organization"
+   ],
+   "segment": "all",
+   "short": "The UN agency that regulates shipping.",
+   "long": "Sets global rules on safety, pollution and emissions.",
+   "why": "Its rule changes reshape economics overnight. IMO 2020 rewrote the fuel market; carbon rules are doing the same to speed and fleet renewal.",
+   "see_also": [
+    "IMO 2020",
+    "CII",
+    "EEXI",
+    "ECA"
+   ]
+  },
+  {
+   "term": "IMO 2020",
+   "aliases": [
+    "sulphur cap"
+   ],
+   "segment": "all",
+   "short": "The 2020 rule capping marine fuel sulphur at 0.5%.",
+   "long": "Ships had to switch to VLSFO, fit a scrubber, or use alternative fuels.",
+   "why": "The textbook example of regulation reshaping a market: it created the VLSFO benchmark and the scrubber investment case.",
+   "see_also": [
+    "VLSFO",
+    "scrubber",
+    "IMO"
+   ]
+  },
+  {
+   "term": "CII",
+   "aliases": [
+    "carbon intensity indicator"
+   ],
+   "segment": "all",
+   "short": "An annual efficiency rating for each ship, A to E.",
+   "long": "Measures carbon emitted per tonne-mile; poor ratings require a corrective plan.",
+   "why": "Pushes owners to slow down, since slower steaming cuts emissions. Slower ships means less effective fleet capacity, which supports rates.",
+   "see_also": [
+    "EEXI",
+    "slow steaming",
+    "IMO"
+   ]
+  },
+  {
+   "term": "EEXI",
+   "aliases": [
+    "energy efficiency existing ship index"
+   ],
+   "segment": "all",
+   "short": "A one-off design-efficiency standard for existing ships.",
+   "long": "Often met by capping engine power.",
+   "why": "Power limits lower top speed across much of the fleet, quietly reducing supply.",
+   "see_also": [
+    "CII",
+    "slow steaming",
+    "IMO"
+   ]
+  },
+  {
+   "term": "slow steaming",
+   "aliases": [],
+   "segment": "all",
+   "short": "Deliberately sailing slower to burn less fuel.",
+   "long": "Fuel use rises roughly with the cube of speed, so small speed cuts save a lot.",
+   "why": "The fleet's shock absorber. In weak markets owners slow down, which soaks up surplus capacity; in strong markets they speed up and add supply.",
+   "see_also": [
+    "fleet utilisation",
+    "CII",
+    "bunkers"
+   ]
+  },
+  {
+   "term": "ECA",
+   "aliases": [
+    "emission control area"
+   ],
+   "segment": "all",
+   "short": "A sea region with stricter fuel and emission rules.",
+   "long": "Includes the North Sea, Baltic and North American coasts.",
+   "why": "Ships must burn cleaner, costlier fuel inside them, so voyages through ECAs cost more.",
+   "see_also": [
+    "MGO",
+    "IMO",
+    "scrubber"
+   ]
+  },
+  {
+   "term": "EU ETS",
+   "aliases": [
+    "emissions trading system"
+   ],
+   "segment": "all",
+   "short": "The EU system making shipping pay for its carbon emissions.",
+   "long": "Operators surrender allowances for voyages touching the EU.",
+   "why": "Turns carbon into a direct voyage cost, changing which routes and ships are economic.",
+   "see_also": [
+    "CII",
+    "IMO",
+    "ECA"
+   ]
+  },
+  {
+   "term": "Suez Canal",
+   "aliases": [],
+   "segment": "all",
+   "short": "The Egyptian canal linking the Mediterranean and Red Sea.",
+   "long": "Saves thousands of miles between Asia and Europe.",
+   "why": "When ships avoid it — as during Red Sea attacks — voyages lengthen dramatically. Tonne-miles jump and rates rise even with unchanged cargo volumes.",
+   "see_also": [
+    "tonne-mile",
+    "Suezmax",
+    "Cape of Good Hope"
+   ]
+  },
+  {
+   "term": "Panama Canal",
+   "aliases": [],
+   "segment": "all",
+   "short": "The canal linking the Atlantic and Pacific.",
+   "long": "Transit slots are limited and auctioned when capacity is short.",
+   "why": "Drought has cut transits in recent years, hitting LPG and container routes hardest and forcing long detours.",
+   "see_also": [
+    "VLGC",
+    "tonne-mile",
+    "Suez Canal"
+   ]
+  },
+  {
+   "term": "Cape of Good Hope",
+   "aliases": [],
+   "segment": "all",
+   "short": "The route around southern Africa, used when Suez is avoided.",
+   "long": "Adds roughly 10 to 14 days on an Asia–Europe voyage.",
+   "why": "The main alternative to Suez, and the clearest real-world example of rerouting creating freight demand out of thin air.",
+   "see_also": [
+    "Suez Canal",
+    "tonne-mile",
+    "Capesize"
+   ]
+  },
+  {
+   "term": "refining margin",
+   "aliases": [
+    "crack spread",
+    "crack"
+   ],
+   "segment": "energy",
+   "short": "The profit from turning crude oil into refined products.",
+   "long": "The price gap between products and the crude they came from.",
+   "why": "Fat margins make refineries run hard, producing more cargo for product tankers. It's the best leading indicator for clean tanker demand.",
+   "see_also": [
+    "clean products",
+    "MR",
+    "Brent"
+   ]
+  },
+  {
+   "term": "arbitrage",
+   "aliases": [
+    "arb"
+   ],
+   "segment": "energy",
+   "short": "Profiting from the same commodity costing different amounts in different places.",
+   "long": "Open when the price gap exceeds the cost of shipping it.",
+   "why": "Arbitrage is what actually puts cargo on ships. When an arb opens, freight demand follows within weeks.",
+   "see_also": [
+    "WTI",
+    "TTF",
+    "JKM",
+    "tonne-mile"
+   ]
+  },
+  {
+   "term": "minor bulks",
+   "aliases": [],
+   "segment": "dry",
+   "short": "Dry cargoes other than iron ore, coal and grain.",
+   "long": "Cement, fertiliser, steel products, bauxite, salt and sugar.",
+   "why": "Spread across many commodities and ports, so minor bulk demand is steadier than the major bulks.",
+   "see_also": [
+    "Supramax",
+    "Handysize",
+    "geared"
+   ]
+  },
+  {
+   "term": "geared",
+   "aliases": [
+    "gearless"
+   ],
+   "segment": "dry",
+   "short": "A ship with its own cargo cranes.",
+   "long": "Gearless ships depend on shore equipment.",
+   "why": "Gear lets smaller bulkers serve underdeveloped ports, which is exactly why they trade differently from Capesizes.",
+   "see_also": [
+    "Supramax",
+    "Handysize",
+    "minor bulks"
+   ]
+  },
+  {
+   "term": "grain season",
+   "aliases": [],
+   "segment": "dry",
+   "short": "The harvest periods that drive seasonal grain shipments.",
+   "long": "North American exports peak late in the year; South American exports peak in spring.",
+   "why": "One of the few genuinely predictable patterns in shipping, and the main seasonal driver of Panamax rates.",
+   "see_also": [
+    "Panamax",
+    "minor bulks"
+   ]
+  },
+  {
+   "term": "hedging",
+   "aliases": [],
+   "segment": "all",
+   "short": "Using financial contracts to lock in a future price.",
+   "long": "Owners and charterers use FFAs for freight and swaps for fuel.",
+   "why": "Explains why a company's reported earnings can diverge from spot rates — they may have fixed much of it in advance.",
+   "see_also": [
+    "FFA",
+    "bunkers",
+    "time charter"
+   ]
+  },
+  {
+   "term": "Worldscale",
+   "aliases": [
+    "WS",
+    "worldscale points"
+   ],
+   "segment": "tanker",
+   "short": "The percentage scale tanker voyages are priced on.",
+   "long": "Every tanker route has a published reference rate called Worldscale 100, or 'flat rate', recalculated each January. A fixture at WS150 means 150% of that reference; WS50 means half of it.",
+   "why": "It lets one number compare routes of completely different lengths. But a Worldscale figure on its own tells you nothing about profit — you must convert it to TCE, daily earnings after fuel and port costs, before you know whether an owner is making money.",
+   "see_also": [
+    "TCE",
+    "flat rate",
+    "voyage charter",
+    "VLCC"
+   ]
+  },
+  {
+   "term": "flat rate",
+   "aliases": [
+    "WS100",
+    "Worldscale 100"
+   ],
+   "segment": "tanker",
+   "short": "The reference price that Worldscale 100 represents on a given route.",
+   "long": "Published annually by the Worldscale Association, based on a standard vessel, standard speed and the previous year's fuel prices and port costs.",
+   "why": "Because it resets every January, the same WS number can mean different money in different years. Comparing WS across years without checking the flat rate is a classic beginner's mistake.",
+   "see_also": [
+    "Worldscale",
+    "TCE",
+    "bunkers"
+   ]
+  },
+  {
+   "term": "round-trip TCE",
+   "aliases": [
+    "round voyage TCE",
+    "round-trip",
+    "round voyage"
+   ],
+   "segment": "all",
+   "short": "Daily earnings over a full there-and-back voyage, including the empty return.",
+   "long": "Calculated over the laden leg plus the ballast leg home, so the unpaid return journey is counted against the earnings.",
+   "why": "This is the honest version of a rate. A route can look excellent on the laden leg and still be poor business once you include sailing back empty to reposition for the next cargo.",
+   "see_also": [
+    "TCE",
+    "ballast",
+    "triangulation",
+    "Worldscale"
+   ]
+  },
+  {
+   "term": "time charter basket",
+   "aliases": [
+    "5TC",
+    "4TC",
+    "10TC",
+    "7TC",
+    "TC average"
+   ],
+   "segment": "dry",
+   "short": "An average of several routes, used as one headline earnings figure per vessel size.",
+   "long": "The Capesize 5TC averages five routes, the Panamax 4TC four, the Supramax 10TC ten and the Handysize 7TC seven. Each is expressed as dollars per day.",
+   "why": "A single route can swing on one cargo. The basket smooths that out, which is why owners quote '5TC' when they describe what their Capesizes are earning.",
+   "see_also": [
+    "Capesize",
+    "Panamax",
+    "Supramax",
+    "TCE",
+    "BDI"
+   ]
+  },
+  {
+   "term": "MEG",
+   "aliases": [
+    "Middle East Gulf",
+    "Arabian Gulf",
+    "AG",
+    "Persian Gulf"
+   ],
+   "segment": "all",
+   "short": "The Middle East Gulf — the world's largest crude loading region.",
+   "long": "Terminals including Ras Tanura in Saudi Arabia, Kharg Island in Iran and Basrah in Iraq. Written AG or MEG depending on the broker.",
+   "why": "Most long-haul crude voyages start here, so anything affecting Gulf loadings or the Strait of Hormuz transit moves tanker rates worldwide.",
+   "see_also": [
+    "VLCC",
+    "TD3C",
+    "Strait of Hormuz",
+    "tonne-mile"
+   ]
+  },
+  {
+   "term": "Strait of Hormuz",
+   "aliases": [
+    "Hormuz"
+   ],
+   "segment": "all",
+   "short": "The narrow sea passage every Gulf cargo must transit.",
+   "long": "Between Oman and Iran, it is the only sea route out of the Middle East Gulf. Roughly a fifth of the world's oil passes through it.",
+   "why": "There is no alternative route for most Gulf crude. Any threat to the strait affects insurance, routing and rates immediately, which is why brokers watch it constantly.",
+   "see_also": [
+    "MEG",
+    "VLCC",
+    "sanctions",
+    "P&I club"
+   ]
+  },
+  {
+   "term": "UK Continent",
+   "aliases": [
+    "UKC",
+    "ARA",
+    "Amsterdam-Rotterdam-Antwerp",
+    "UK-Continent"
+   ],
+   "segment": "all",
+   "short": "Northwest Europe's refining and trading hub.",
+   "long": "ARA means Amsterdam, Rotterdam and Antwerp; UKC stretches from Le Havre up to Hamburg.",
+   "why": "Europe's main discharge region for crude and the main loading region for product exports, so a very large share of Atlantic tanker routes begins or ends here.",
+   "see_also": [
+    "clean products",
+    "refining margin",
+    "MR"
+   ]
+  },
+  {
+   "term": "Newcastlemax",
+   "aliases": [],
+   "segment": "dry",
+   "short": "The largest bulker that can enter the port of Newcastle, Australia — about 210,000 dwt.",
+   "long": "Slightly larger than a standard Capesize and used on the same iron ore and coal trades.",
+   "why": "Modern Newcastlemaxes burn less fuel per tonne carried than older Capesizes, so they out-earn them on the same route.",
+   "see_also": [
+    "Capesize",
+    "deadweight",
+    "iron ore"
+   ]
+  },
+  {
+   "term": "laden",
+   "aliases": [
+    "laden leg",
+    "laden voyage"
+   ],
+   "segment": "all",
+   "short": "Sailing with cargo aboard — the paid part of a voyage.",
+   "long": "The opposite of ballast, when the ship sails empty.",
+   "why": "Only laden days earn freight, but the owner pays for fuel and crew on every day. The ratio of laden to ballast days is what separates a good voyage from a bad one.",
+   "see_also": [
+    "ballast",
+    "round-trip TCE",
+    "TCE"
+   ]
+  },
+  {
+   "term": "basis",
+   "aliases": [],
+   "segment": "all",
+   "short": "The specific assumption a quoted rate is calculated on.",
+   "long": "When a report says a TCE is quoted 'basis Hound Point to Wilhelmshaven', those are the exact ports assumed.",
+   "why": "Two quotes for the same vessel class can differ simply because they assume different ports or speeds. Always check the basis before comparing.",
+   "see_also": [
+    "round-trip TCE",
+    "Worldscale",
+    "TCE"
+   ]
+  },
+  {
+   "term": "BPI",
+   "aliases": [
+    "Baltic Panamax Index"
+   ],
+   "segment": "dry",
+   "short": "The Panamax component of the Baltic Dry Index.",
+   "long": "Tracks earnings for bulkers of roughly 82,000 dwt across four benchmark routes.",
+   "why": "Panamaxes carry coal and grain rather than iron ore, so this sub-index follows harvests and power demand while the Capesize index follows Chinese steel. When the two diverge, that tells you which part of the economy is moving.",
+   "see_also": [
+    "Panamax",
+    "BDI",
+    "BCI",
+    "grain season",
+    "time charter basket"
+   ]
+  },
+  {
+   "term": "BSI",
+   "aliases": [
+    "Baltic Supramax Index"
+   ],
+   "segment": "dry",
+   "short": "The Supramax component of the Baltic Dry Index.",
+   "long": "Tracks earnings for geared bulkers of roughly 58,000 dwt across ten routes.",
+   "why": "Supramaxes carry minor bulks to many ports rather than one commodity to a few, so this is the steadiest sub-index and the best read on broad global trade.",
+   "see_also": [
+    "Supramax",
+    "BDI",
+    "minor bulks",
+    "geared",
+    "time charter basket"
+   ]
+  }
+ ]
 }

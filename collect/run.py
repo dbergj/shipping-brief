@@ -30,6 +30,7 @@ import registry as reg  # noqa: E402
 from bdi import fetch_bdi  # noqa: E402
 from bunkers import fetch_all_grades  # noqa: E402
 from dry_rates import fetch_dry_rates  # noqa: E402
+from gas_prices import fetch_gas_prices  # noqa: E402
 from route_rates import fetch_route_rates  # noqa: E402
 from eia import fetch_eia  # noqa: E402
 from fred import fetch_fred  # noqa: E402
@@ -150,6 +151,12 @@ def collect_metrics(previous):
     except Exception as exc:  # noqa: BLE001
         note_error("route_rates", exc)
 
+    gas = {}
+    try:
+        gas = fetch_gas_prices(log=log)
+    except Exception as exc:  # noqa: BLE001
+        note_error("gas_prices", exc)
+
     bdi = None
     try:
         bdi = fetch_bdi(log=log)
@@ -175,6 +182,12 @@ def collect_metrics(previous):
             e = eia_values[spec["id"]]
             fresh = {"value": e["value"], "change": e.get("change"),
                      "as_of": e["as_of"], "source": "EIA (official)"}
+
+        if spec["id"] in gas and fresh is None:
+            g = gas[spec["id"]]
+            fresh = {"value": g["value"], "change": None, "as_of": g["as_of"],
+                     "source": "Daily European gas report",
+                     "source_url": g.get("source_url")}
 
         if spec["source"] == "dry_rates" and spec["id"] in dry and fresh is None:
             d = dry[spec["id"]]
@@ -204,6 +217,9 @@ def collect_metrics(previous):
         if fresh:
             row.update(fresh)
             row["stale"] = False
+            # The source answered this run. Whether its newest observation is a
+            # few days old is a property of the source, not a failure here.
+            row["refreshed"] = True
         else:
             old = prev_by_id.get(spec["id"])
             if old and old.get("value") is not None:
@@ -211,16 +227,27 @@ def collect_metrics(previous):
                 row.update({"value": old["value"], "change": None,
                             "as_of": old.get("as_of"), "source": old.get("source")})
                 row["stale"] = True
+                row["refreshed"] = False
                 log(f"  carried forward {spec['id']} from {old.get('as_of')}")
             else:
                 row.update({"value": None, "change": None, "as_of": None, "source": None})
                 row["stale"] = True
+                row["refreshed"] = False
 
         age = age_days(row.get("as_of"))
         row["_spec_max_age"] = spec.get("max_age_days", 4)
         row["age_days"] = round(age, 2) if age is not None else None
-        if age is not None and age > spec.get("max_age_days", 4):
-            row["stale"] = True
+        # "Stale" means this run could not refresh the figure. "Lagged" means it
+        # did, and the source's newest published observation is simply older
+        # than today — EIA spot series run several days behind, and calling that
+        # stale told the reader a fetch had failed when it had not.
+        limit = spec.get("max_age_days", 4)
+        if age is not None and age > limit:
+            if row.get("refreshed"):
+                row["lagged"] = True
+                row["stale"] = False
+            else:
+                row["stale"] = True
         row.pop("_spec_max_age", None)
         out.append(row)
 

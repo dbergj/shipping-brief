@@ -87,10 +87,8 @@ FALLBACK_NOTES = {
     "brent":     {"fallback": "FRED_API_KEY or EIA_API_KEY"},
     "wti":       {"fallback": "FRED_API_KEY or EIA_API_KEY"},
     "henry_hub": {"fallback": "FRED_API_KEY or EIA_API_KEY"},
-    "ttf": {"no_free_source":
-            "Dutch TTF is licensed by ICE and no free provider publishes it. "
-            "Henry Hub is the closest free gas benchmark; the TTF–JKM spread is "
-            "what actually steers LNG cargoes."},
+    # TTF now comes from the daily gas report's prose; see sources/gas_prices.py.
+    "ttf": {"fallback": "read from the daily European gas report"},
     "coal_api2": {"no_free_source":
             "API2 coal is an Argus/McCloskey assessment and is not published free."},
     "gasoil": {"no_free_source":

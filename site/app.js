@@ -5,8 +5,9 @@
    text become buttons that open an explanation. It runs over text nodes only, so
    it can never damage existing markup or nest a button inside a button. */
 
-const state = { data: null, glossary: [], companies: [], links: [], byTerm: new Map(),
-                byTicker: new Map(), byMetric: new Map(), termRe: null };
+const state = { data: null, glossary: [], companies: [], links: [], routes: [],
+                byTerm: new Map(), byTicker: new Map(), byMetric: new Map(),
+                byRoute: new Map(), byRouteCode: new Map(), termRe: null };
 
 const $  = (s, r = document) => r.querySelector(s);
 const el = (tag, cls, text) => {
@@ -99,12 +100,29 @@ function buildTermIndex() {
     }
   }
 
+  // Route codes are industry shorthand — TD3C, BLNG1 — and meaningless to a
+  // newcomer, so they are matched anywhere they appear: the brief, headlines
+  // and the rate table all link to the same explainer.
+  for (const rt of state.routes || []) {
+    state.byRoute.set(rt.id, rt);
+    state.byRouteCode.set(rt.code.toLowerCase(), rt);
+    entries.push({ text: rt.code, kind: "route", key: rt.id, exactCase: false });
+    for (const alias of rt.aliases || []) {
+      entries.push({ text: alias, kind: "route", key: rt.id });
+    }
+  }
+
   state.matchIndex = new Map();
   for (const e of entries) {
     const k = e.text.toLowerCase();
     // A glossary term wins over a company of the same name — "VLCC" should
     // explain the vessel class, and the company card is reachable from it.
-    if (!state.matchIndex.has(k) || e.kind === "term") state.matchIndex.set(k, e);
+    // A route code is the most specific thing a string can be, so it wins;
+    // otherwise a glossary term beats a company of the same name.
+    const existing = state.matchIndex.get(k);
+    if (!existing || e.kind === "route" || (e.kind === "term" && existing.kind === "company")) {
+      state.matchIndex.set(k, e);
+    }
   }
 
   // Longest first, so "Baltic Dry Index" wins over "Baltic Exchange" fragments,
@@ -147,9 +165,14 @@ function linkify(root) {
       seen.add(entry.key);
       frag = frag || document.createDocumentFragment();
       if (m.index > last) frag.appendChild(document.createTextNode(src.slice(last, m.index)));
-      const b = el("button", entry.kind === "company" ? "term is-co" : "term", m[0]);
+      const cls = entry.kind === "company" ? "term is-co"
+                : entry.kind === "route" ? "term is-route" : "term";
+      const b = el("button", cls, m[0]);
       b.type = "button";
-      if (entry.kind === "company") {
+      if (entry.kind === "route") {
+        b.dataset.route = entry.key;
+        b.setAttribute("aria-label", `${m[0]} — what this shipping route means`);
+      } else if (entry.kind === "company") {
         b.dataset.company = entry.key;
         b.setAttribute("aria-label", `${m[0]} — about this company`);
       } else {
@@ -200,10 +223,11 @@ function hidePop() {
 }
 
 document.addEventListener("click", (e) => {
-  const t = e.target.closest(".term, .chip, .kpi, .co-card");
+  const t = e.target.closest(".term, .chip, .kpi, .co-card, .route-link");
   if (t) {
     e.preventDefault();
-    if (t.dataset.term) showTerm(t.dataset.term, t);
+    if (t.dataset.route) showRoute(t.dataset.route, t);
+    else if (t.dataset.term) showTerm(t.dataset.term, t);
     else if (t.dataset.company) showCompany(t.dataset.company, t);
     else if (t.dataset.metric) showMetric(t.dataset.metric, t);
     return;
@@ -296,7 +320,84 @@ function showCompany(name, anchor) {
   });
 }
 
+function showRoute(id, anchor) {
+  const rt = state.byRoute.get(id);
+  if (!rt) return;
+  const all = (state.data.metrics || []).concat(state.data.rates || []);
+  const row = all.find(m => m.id === id);
+
+  openPop(anchor, (p) => {
+    p.classList.add("pop-route");
+    const h = el("h4", null, rt.code);
+    h.id = "popTitle";
+    p.appendChild(h);
+    p.appendChild(el("div", "kind", `${rt.segment} · ${rt.name}`));
+
+    // Today's figure first, since that is what the reader clicked from.
+    if (row && row.value != null) {
+      const big = el("div", "route-rate");
+      big.appendChild(el("span", "rv", fmt(row.value, row.unit)));
+      big.appendChild(el("span", "ru", " " + row.unit));
+      const when = row.as_of ? new Date(row.as_of).toLocaleDateString("en-GB",
+        { day: "numeric", month: "short" }) : null;
+      if (when) big.appendChild(el("span", "rw", ` · as at ${when}`));
+      p.appendChild(big);
+    } else if (row) {
+      p.appendChild(el("div", "route-rate none", "No figure in the latest report"));
+    }
+
+    const dl = el("dl");
+    const add = (k, v) => {
+      if (!v) return;
+      dl.appendChild(el("dt", null, k));
+      dl.appendChild(el("dd", null, v));
+    };
+    add("The ship", rt.vessel);
+    add("The cargo", rt.cargo);
+    add("The voyage", rt.voyage);
+    add("How the rate is quoted", rt.quoted);
+    add("Why this route is a benchmark", rt.why);
+    p.appendChild(dl);
+
+    if ((rt.moves || []).length) {
+      p.appendChild(el("div", "rel-label", "What moves it"));
+      const ul = el("ul", "route-moves");
+      for (const m of rt.moves) ul.appendChild(el("li", null, m));
+      p.appendChild(ul);
+    }
+    if (rt.watch) {
+      const w = el("div", "why");
+      w.appendChild(el("b", null, "Watch out: "));
+      w.appendChild(document.createTextNode(rt.watch));
+      p.appendChild(w);
+    }
+
+    relatedChips(p, "Terms to know",
+      (rt.terms || []).filter(t => state.byTerm.has(t.toLowerCase()))
+        .map(t => ({ label: t, term: state.byTerm.get(t.toLowerCase()).term })));
+    relatedChips(p, "Companies on this trade",
+      (rt.companies || []).filter(n => state.companies.some(c => c.name === n))
+        .map(n => ({ label: n, company: n })));
+
+    if (row && row.source) {
+      p.appendChild(el("div", "rel-label", "Source"));
+      const line = el("p", null, row.source + " ");
+      if (row.source_url) {
+        const a = el("a", null, "Read the report");
+        a.href = row.source_url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        line.appendChild(a);
+      }
+      p.appendChild(line);
+    }
+  });
+}
+
 function showMetric(id, anchor) {
+  // A rate row with a written explainer opens that instead of the bare metric.
+  if (state.byRoute.has(id)) return showRoute(id, anchor);
+
   const all = (state.data.metrics || []).concat(state.data.rates || []);
   const m = all.find(x => x.id === id);
   if (!m) return;
@@ -516,10 +617,12 @@ function table(caption, rows, opts = {}) {
     const inactive = r.status === "unavailable" || r.value == null;
     const tr = el("tr", inactive ? "inactive" : "");
     const td0 = el("td");
-    const btn = el("button", "term r-label", r.label);
+    const isRoute = state.byRoute.has(r.id);
+    const btn = el("button", "term r-label" + (isRoute ? " is-route" : ""), r.label);
     btn.type = "button";
-    btn.dataset.metric = r.id;
-    btn.setAttribute("aria-label", `${r.label} — details`);
+    if (isRoute) btn.dataset.route = r.id; else btn.dataset.metric = r.id;
+    btn.setAttribute("aria-label",
+      isRoute ? `${r.label} — what this route means` : `${r.label} — details`);
     td0.appendChild(btn);
     if (r.blurb) td0.appendChild(el("div", "r-blurb", r.blurb));
     if (inactive && r.why_unavailable) td0.appendChild(el("div", "r-why", r.why_unavailable));
@@ -757,16 +860,18 @@ function renderDiagnostics() {
 async function boot() {
   const bust = `?v=${Date.now()}`;
   try {
-    const [data, glossary, companies, links] = await Promise.all([
+    const [data, glossary, companies, links, routes] = await Promise.all([
       fetch("data/latest.json" + bust).then(r => r.json()),
       fetch("content/glossary.json").then(r => r.json()),
       fetch("content/companies.json").then(r => r.json()),
-      fetch("content/links.json").then(r => r.json())
+      fetch("content/links.json").then(r => r.json()),
+      fetch("content/routes.json").then(r => r.json())
     ]);
     state.data = data;
     state.glossary = glossary.terms;
     state.companies = companies.companies;
     state.links = links.links;
+    state.routes = routes.routes;
   } catch (err) {
     $("#tone").textContent =
       "Could not load the brief data. If you are opening this file directly, " +
