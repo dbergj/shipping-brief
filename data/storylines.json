@@ -1,4 +1,102 @@
 {
- "updated": "2026-10-28T08:30:55+00:00",
- "stories": []
+ "updated": "2026-10-29T06:16:15+00:00",
+ "stories": [
+  {
+   "id": "ras-tanura-strike",
+   "title": "Houthi strike damage at Ras Tanura",
+   "status": "active",
+   "what": "Satellite imagery has confirmed that a Houthi missile strike on the Saudi oil export hub of Ras Tanura hit a critical component of the complex.",
+   "why_it_matters": "Ras Tanura is a major crude loading point; damage there affects crude availability and risk premiums for tankers loading in the Arabian Gulf, and sits alongside today's exceptionally high VLCC earnings.",
+   "latest": "Damage confirmed via commercially-available satellite imaging.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "brent"
+   ],
+   "sources": [
+    "Strike Damage Confirmed at Giant Saudi Refinery Complex"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-10-29",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "iran-blockade-blacklist",
+   "title": "US Iran blockade warnings and vessel blacklist",
+   "status": "active",
+   "what": "US forces have reiterated blockade warnings to shipping, with the PGSA blacklist expanding to 125 vessels, alongside a piracy warning for the Gulf of Aden.",
+   "why_it_matters": "A growing blacklist shrinks the compliant tanker pool and raises war-risk and routing costs through Hormuz and Bab al-Mandab, which feeds directly into crude and product tanker earnings.",
+   "latest": "Blacklist reported at 125 vessels; Gulf of Aden piracy warning issued.",
+   "watch": [
+    "vlcc_tce",
+    "lr2_tce",
+    "mr_tc14_tce"
+   ],
+   "sources": [
+    "Gulf of Aden piracy warning as US issues Iran blockade update"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-10-29",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "chokepoint-transits",
+   "title": "Hormuz and Bab al-Mandab VLCC transits",
+   "status": "active",
+   "what": "Hormuz recorded six VLCC transits on Oct 25, the most since Oct 17, while Bab al-Mandab recorded one VLCC on each of Oct 24 and Oct 25.",
+   "why_it_matters": "Chokepoint transit counts are a direct read on whether crude tankers are routing through or around high-risk waters, which changes voyage lengths and tonne-mile demand.",
+   "latest": "Hormuz transits climbed; Bab al-Mandab steady for a second day.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce"
+   ],
+   "sources": [
+    "VLCC transits climb at Hormuz; steady at Bab al-Mandab for second day"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-10-29",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "russian-diesel-atlantic",
+   "title": "Russian diesel returning across the Atlantic",
+   "status": "active",
+   "what": "A reported US-Russia agreement on diesel exports across the Atlantic is said to be creating a new trade, while a US senator is demanding a tanker carrying Russian diesel to the US reverse course amid a legal fight.",
+   "why_it_matters": "A reopened Atlantic diesel route would reshape clean product tanker ton-miles and MR and LR employment patterns, but the legal challenge leaves delivery uncertain.",
+   "latest": "Senator Blumenthal demanded the tanker turn around, warning the owner that delivering the cargo would violate federal law.",
+   "watch": [
+    "mr_tc2_tce",
+    "mr_tc14_tce",
+    "lr2_tce"
+   ],
+   "sources": [
+    "Russian Diesel Returns: A New Atlantic Trade Dynamic",
+    "U.S. Senator Demands Russian Diesel Tanker Turn Around as Legal Fight Escalates"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-10-29",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "european-shortsea-consolidation",
+   "title": "Boluda to acquire Samskip",
+   "status": "watch",
+   "what": "Boluda Shipping has signed an agreement to acquire Samskip, intended to create a short-sea network linking Northern Europe, Iberia, the Canaries and West Africa.",
+   "why_it_matters": "Consolidation of European short-sea operators changes who controls regional feeder and container capacity and the trades it serves.",
+   "latest": "Acquisition announced 28 October; both companies framed it as building a comprehensive short-sea network.",
+   "watch": [],
+   "sources": [
+    "Boluda Shipping to Acquire Samskip, Expanding Europe’s Short-Sea Network",
+    "Boluda Shipping’s acquisition of Samskip aimed at strengthening its European short-sea network and building connections with West Africa"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-10-29",
+   "days_running": 1,
+   "days_since_update": 0
+  }
+ ]
 }

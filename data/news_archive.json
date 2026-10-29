@@ -14,6 +14,31 @@
    "nordic": true
   },
   {
+   "title": "Wallenius Wilhelmsen signs USD 1bn in contracts with leading equipment manufacturer",
+   "link": "https://newsweb.oslobors.no/message/685049",
+   "published": "2026-10-29T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "WAWI",
+   "company": "Wallenius Wilhelmsen ASA",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Scorpio Tankers Inc. Announces Financial Results for the Third Quarter of 2026 and An Increase to its Quarterly Dividend",
+   "summary": "MONACO--(GLOBE NEWSWIRE - October 28, 2026) - Scorpio Tankers Inc. (NYSE: STNG) (\"Scorpio Tankers\" or the \"Company\") today reported its results for the three and nine months ended September 30, 2026. The Company also announced that its board of directors (the \"Board of Directors\") has declared a quarterly cash dividend on its common shares of $0.75 per share.",
+   "link": "https://www.sec.gov/Archives/edgar/data/1483934/000162828026067899/stng6k-q32026epr.htm",
+   "published": "2026-10-28T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "STNG",
+   "company": "Scorpio Tankers",
+   "category": "6-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
    "title": "Wallenius Wilhelmsen extends fleet renewal program",
    "link": "https://newsweb.oslobors.no/message/684950",
    "published": "2026-10-28T06:00:00+00:00",
@@ -204,6 +229,312 @@
  ],
  "market": [
   {
+   "title": "Strike Damage Confirmed at Giant Saudi Refinery Complex",
+   "link": "https://maritime-executive.com/article/strike-damage-confirmed-at-giant-saudi-refinery-complex",
+   "published": "2026-10-29T03:25:35+00:00",
+   "summary": "Commercially-available satellite imaging reveals that the Houthi missile strike on the giant oil export hub of Ras Tanura hit a critical component of...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Nigeria: Building on a Decade of Port Reform",
+   "link": "https://maritime-executive.com/article/nigeria-building-on-a-decade-of-port-reform",
+   "published": "2026-10-28T23:42:40+00:00",
+   "summary": "A decade of sustained collaboration between government and the private sector has delivered tangible improvements in Nigeria’s ports. The next phase w...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Aarhus Tests Denmark’s First Shore Power for Containerships",
+   "link": "https://maritime-executive.com/article/aarhus-tests-denmark-s-first-shore-power-for-containerships",
+   "published": "2026-10-28T23:41:28+00:00",
+   "summary": "The Port of Aarhus in Denmark marked a milestone as it completed tests on the country’s first shore power for containerships with a trial docking. Off...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Galveston Port Director Rees Appointed TPA President",
+   "link": "https://maritime-executive.com/article/galveston-port-director-rees-appointed-tpa-president",
+   "published": "2026-10-28T23:38:05+00:00",
+   "summary": "[By: Port of GalvestonRodger Rees, Galveston Wharves port director and CEO, has been elected president of the Texas Ports Association (TPA) for a 2-ye...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ASRY Completes Construction & Delivery of Two Self-Propelled Bunker Vessels",
+   "link": "https://maritime-executive.com/article/asry-completes-construction-delivery-of-two-self-propelled-bunker-vessels",
+   "published": "2026-10-28T23:33:28+00:00",
+   "summary": "The Arab Shipbuilding and Repair Yard Company (ASRY) held an official ceremony to mark the successful completion, construction and delivery of two sel...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fraunhofer IFAM Establishes Validation Chain for Autonomous Systems in Offshore Wind",
+   "link": "https://www.marinelink.com/news/fraunhofer-ifam-establishes-validation-543983",
+   "published": "2026-10-28T21:01:33+00:00",
+   "summary": "With USD$9.87 million (8.85 million euros) in funding from the Federal Ministry for Economic Affairs and Energy (BMWE), Fraunhofer IFAM is establishing a new research infrastructure for wind energy. The FOKUS-Wind project will create Germany's…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Romanian Officials Indicted in €7 Million EU-Funded Tugboat Fraud",
+   "link": "https://gcaptain.com/romanian-officials-indicted-in-e7-million-eu-funded-tugboat-fraud/",
+   "published": "2026-10-28T20:28:35+00:00",
+   "summary": "Four Romanian public officials and two other defendants have been indicted over the alleged fraudulent procurement of two tugboats that were supposed to improve navigation on the Lower Danube River...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Los Angeles, Long Beach Ports Identify LNG and Methanol as Leading Alternative Marine Fuels",
+   "link": "https://gcaptain.com/los-angeles-long-beach-ports-identify-lng-and-methanol-as-leading-alternative-marine-fuels/",
+   "published": "2026-10-28T19:39:17+00:00",
+   "summary": "The ports of Los Angeles and Long Beach have identified liquefied natural gas (LNG) and methanol as the most viable alternative marine fuels for the near and medium term, with...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fincantieri, ITS Academy Udine Kick Off New Ship Mechatronics & Robotics Program",
+   "link": "https://www.marinelink.com/news/fincantieri-academy-udine-kick-off-new-543981",
+   "published": "2026-10-28T19:07:24+00:00",
+   "summary": "Fincantieri and ITS Academy Udine have officially launched the new “Mechatronics & Robotics – Smart Ship” program in Monfalcone, a technical training initiative jointly developed to train highly qualified professionals who will contribute to…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Boluda Shipping to Acquire Samskip, Expanding Europe’s Short-Sea Network",
+   "link": "https://www.marinelink.com/news/boluda-shipping-acquire-samskip-expanding-543977",
+   "published": "2026-10-28T18:59:45+00:00",
+   "summary": "Boluda Shipping and Samskip have signed an agreement under which Boluda Shipping will acquire Samskip. The acquisition will pave the way for Europe’s most comprehensive short-sea shipping network, connecting Northern Europe with the Iberian Peninsula…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Boluda Shipping’s acquisition of Samskip aimed at strengthening its European short-sea network and building connections with West Africa",
+   "link": "https://ship.energy/information/boluda-shippings-acquisition-of-samskip-aimed-at-strengthening-its-european-short-sea-network-and-building-connections-with-west-africa/",
+   "published": "2026-10-28T18:19:48+00:00",
+   "summary": "Boluda Shipping’s acquisition of Samskip, announced today (28 October), is seen by the two companies as an opportunity to create a comprehensive short-sea shipping network, connecting Northern Europe with the Iberian Peninsula, the Canary Islands and West Africa. The transaction is expected to close on 1 January 2027, subject to approval by the relevant authorities and fulfilment of the agreed closing conditions. Bol",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MARAD Approves Deepwater Port License for $8.2b LNG Project",
+   "link": "https://www.marinelink.com/news/marad-approves-deepwater-port-license-b-543976",
+   "published": "2026-10-28T17:37:12+00:00",
+   "summary": "The Maritime Administration has approved a deepwater port license application for the $8.2 billion ST LNG project, US Transportation Secretary Sean Duffy said on Wednesday.The project could further expand US liquefied natural gas export capacity.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Port of Valencia set to build second electrical substation",
+   "link": "https://ship.energy/technology/port-of-valencia-set-to-build-second-electrical-substation/",
+   "published": "2026-10-28T17:32:48+00:00",
+   "summary": "The Port Authority of Valencia (APV) has launched a tender for the construction of a new electrical substation which will double the Spanish port’s energy supply capacity. In a statement issued yesterday (27 October), APV said that new ST2 will share power capacity with the existing ST1 of between 40 and 90 megawatts (MW), depending on how they are supplied. The ST2 project, estimated to take 20 months , will involve",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Senator Demands Russian Diesel Tanker Turn Around as Legal Fight Escalates",
+   "link": "https://gcaptain.com/u-s-senator-demands-russian-diesel-tanker-turn-around-as-legal-fight-escalates/",
+   "published": "2026-10-28T17:29:33+00:00",
+   "summary": "U.S. Senator Richard Blumenthal (D-Conn.) is demanding that a tanker reportedly carrying Russian diesel to the United States reverse course, warning its owner that delivering the cargo would violate federal...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MARAD Approves $8.2 Billion Texas LNG Export Port in Record-Time Review",
+   "link": "https://gcaptain.com/marad-approves-8-2-billion-texas-lng-export-port-in-record-time-review/",
+   "published": "2026-10-28T17:24:40+00:00",
+   "summary": "The Trump administration has approved an $8.2 billion offshore liquefied natural gas export project off the Texas coast, marking a major milestone for its effort to speed up deepwater port...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russia Turns to Arctic WW2 Route to Export Grain",
+   "link": "https://gcaptain.com/russia-turns-to-arctic-ww2-route-to-export-grain/",
+   "published": "2026-10-28T16:32:21+00:00",
+   "summary": "Russia, the world's largest wheat exporter, has turned to an Arctic World War II shipping route to export grain for the first time as the conflict in Ukraine stalls Black Sea trade and officials warn of risks in the NATO-controlled Baltic Sea.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US Tells Ships to Avoid Unnecessary Transits Through Hormuz",
+   "link": "https://gcaptain.com/us-tells-ships-to-avoid-unnecessary-transits-through-hormuz/",
+   "published": "2026-10-28T16:27:19+00:00",
+   "summary": "(Bloomberg) — The US military said vessels that have no need to move between ports in the Gulf of Oman and the Strait of Hormuz should stay away, as tensions...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hydroniq Coolers delivers marine cooling system for Washington State hybrid ferry",
+   "link": "https://ship.energy/energy/hydroniq-coolers-delivers-marine-cooling-system-for-washington-state-hybrid-ferry/",
+   "published": "2026-10-28T15:08:12+00:00",
+   "summary": "Norway-based Hydroniq Coolers has announced the ‘early delivery’ of a marine cooling system that will be installed on board the first of Washington State Ferries’ new generation of hybrid-electric ferries that will be delivered in 2030. Hydroniq Coolers has delivered a complete, ready-to-install Rack cooler with multiple freshwater systems. The cooler reduces the temperature of the main engine and auxiliary systems u",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Gulf of Aden piracy warning as US issues Iran blockade update",
+   "link": "",
+   "published": "2026-10-28T14:07:11+00:00",
+   "summary": "US forces reiterate blockade warnings to shipping as PGSA blacklist expands to 125 vessels.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bahri profit leaps almost 900% in third quarter",
+   "link": "",
+   "published": "2026-10-28T13:52:33+00:00",
+   "summary": "Saudi owner reaps financial rewards of hot VLCC market despite four ship attacks and two seafarer fatalities in 2026.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Noble offloads idle drillship for $38m",
+   "link": "https://splash247.com/noble-offloads-idle-drillship-for-38m/",
+   "published": "2026-10-28T12:31:29+00:00",
+   "summary": "US offshore drilling contractor Noble Corporation has agreed to sell its 2013-built, sixth-generation drillship, Noble Globetrotter II, for $38m as it continues to dispose of underutilised drilling assets. The transaction is expected to close in the fourth quarter of 2026. Noble has not disclosed the buyer’s identity or the rig’s intended future use. However, chief executive Robert …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MOL announces delivery of Japan’s first coal carrier equipped with Wind Challenger wind-assisted propulsion",
+   "link": "https://ship.energy/information/mol-announces-delivery-of-japans-first-coal-carrier-equipped-with-wind-challenger-wind-assisted-propulsion/",
+   "published": "2026-10-28T11:50:53+00:00",
+   "summary": "Japan’s ‘first coal carrier equipped with a Wind Challenger hard sail wind-assisted propulsion system’ has entered into service, according to Mitsui O.S.K. Lines (MOL). In a statement issued today (28 October), MOL said the LNG dual-fuel coal carrier Maizuru Kazenomai has been built as a dedicated vessel for Kansai Electric Power Co., Inc. and will transport coal to the Maizuru Power Plant in Kyoto Prefecture, Japan.",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seatrade Maritime and DP World to host Inaugural Seatrade Maritime UAE Summit in Dubai",
+   "link": "",
+   "published": "2026-10-28T11:09:10+00:00",
+   "summary": "Summit to host the launch of the 2026 Leading Maritime Cities report by Menon Economics and DNV.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Wallenius Wilhelmsen adds up to $1.5bn in newbuild orders in China",
+   "link": "",
+   "published": "2026-10-28T10:46:16+00:00",
+   "summary": "Four firm dual-fuel PCTCs and options for eight more take Wallenius Wilhelmsen's renewal programme to 26 vessels",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Norway lines up full-scale test of marine nuclear propulsion system",
+   "link": "https://splash247.com/norway-lines-up-full-scale-test-of-marine-nuclear-propulsion-system/",
+   "published": "2026-10-28T10:30:00+00:00",
+   "summary": "A Norwegian-led consortium involving shipbuilder Vard and offshore vessel owner Island Offshore is preparing to build and test an integrated nuclear propulsion system, targeting its first vessel deployment in 2031 or 2032. The Marine Nuclear Propulsion System (MarNuPS) project, led by Emerald Nuclear Norway, will move from engineering studies to physical integration and testing, with …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Inpex wraps up Abadi LNG FEED work",
+   "link": "https://lngprime.com/asia/inpex-wraps-up-abadi-lng-feed-work/199077/",
+   "published": "2026-10-28T10:17:31+00:00",
+   "summary": "Japan's Inpex has completed the front-end engineering design (FEED) work for the Abadi LNG project in Indonesia, the company confirmed to LNG Prime on Wednesday.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Stade FSRU cooling down LNG tanks in Rotterdam ahead of November launch",
+   "link": "https://lngprime.com/europe/stade-fsru-cooling-down-lng-tanks-in-rotterdam-ahead-of-november-launch/199081/",
+   "published": "2026-10-28T10:16:25+00:00",
+   "summary": "The 2021-built 174,000-cbm FSRU Energos Force is in the Dutch port of Rotterdam to cool down its LNG tanks before operations begin in Germany’s Stade next month, state-owned LNG terminal operator DET told LNG Prime.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Jera, Petrobangla ink MoU to explore LNG cooperation",
+   "link": "https://lngprime.com/asia/jera-petrobangla-ink-mou-to-explore-lng-cooperation/199104/",
+   "published": "2026-10-28T10:10:11+00:00",
+   "summary": "Japan’s power firm and LNG trader, Jera, and Bangladesh Oil, Gas & Mineral Corporation (Petrobangla) have signed a non-binding memorandum of understanding (MoU) to explore potential cooperation in Bangladesh’s energy sector, including liquefied natural gas (LNG) supply.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "South Korean shipyard set for offshore wind makeover",
+   "link": "https://splash247.com/south-korean-shipyard-set-for-offshore-wind-makeover/",
+   "published": "2026-10-28T10:00:00+00:00",
+   "summary": "Four South Korean companies have signed an agreement to transform part of the Gunsan shipyard into an offshore wind manufacturing hub, with plans to produce large turbines, towers and offshore substations. HJ Heavy Industries, J-Ocean Heavy Industries, Myeongun Industrial Development and turbine manufacturer Unison signed a memorandum of understanding to develop the facility on South …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Woodside exits delayed Timor-Leste gas project",
+   "link": "https://splash247.com/woodside-exits-delayed-timor-leste-gas-project/",
+   "published": "2026-10-28T09:38:00+00:00",
+   "summary": "Australian energy major Woodside has agreed to sell its entire 33.44% stake in the long-delayed Greater Sunrise gas development to Timor-Leste’s state-owned energy company TIMOR GAP for up to $200m. The agreement could bring one of the region’s largest undeveloped offshore gas resources under full Timorese ownership, following a separate agreement for TIMOR GAP to …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wallenius Wilhelmsen orders LNG-powered vessels in China",
+   "link": "https://lngprime.com/asia/wallenius-wilhelmsen-orders-lng-powered-vessels-in-china/199083/",
+   "published": "2026-10-28T09:17:35+00:00",
+   "summary": "Norway-based shipping firm Wallenius Wilhelmsen has ordered four LNG dual-fuel RoRo vessels with options for more",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Will Trump extend Jones Act waivers beyond 15 November?",
+   "link": "",
+   "published": "2026-10-28T09:08:28+00:00",
+   "summary": "The US mid-term elections will be over when the latest round of Jones Act waivers expire leaving a question of further extensions",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Containership orderbook heads towards 16m teu",
+   "link": "https://splash247.com/containership-orderbook-heads-towards-16m-teu/",
+   "published": "2026-10-28T08:30:28+00:00",
+   "summary": "The containership industry’s extraordinary ordering spree is showing no signs of slowing, with the global orderbook now exceeding 15m teu and another wave of megamax contracts poised to push the total towards 16m teu before the end of the year. The latest figures from Alphaliner show that approximately 40 additional large containerships are expected to …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iran singles out Sinokor",
+   "link": "https://splash247.com/iran-singles-out-sinokor/",
+   "published": "2026-10-28T08:15:12+00:00",
+   "summary": "Iran has threatened South Korean tanker giant Sinokor, the world’s dominant VLCC owner, with sweeping action against its fleet from November 1, accusing the company of repeatedly violating Tehran’s restrictions on shipping through the Strait of Hormuz. Iran’s Persian Gulf Strait Authority (PGSA) has said Sinokor vessels have committed more transit violations than any other …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Sanctioned Russian tankers head for US carrying diesel",
    "link": "https://splash247.com/sanctioned-russian-tankers-head-for-us-carrying-diesel/",
    "published": "2026-10-28T08:06:53+00:00",
@@ -245,24 +576,6 @@
    "published": "2026-10-28T07:41:32+00:00",
    "summary": "Overseas operators stealing domestic freight forwarder license numbers triggers cross-agency scrutiny",
    "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Containership orderbook heads towards 16m teu",
-   "link": "https://splash247.com/containership-orderbook-heads-towards-16m-teu/",
-   "published": "2026-10-28T07:41:28+00:00",
-   "summary": "The containership industry’s extraordinary ordering spree is showing no signs of slowing, with the global orderbook now exceeding 15m teu and another wave of megamax contracts poised to push the total towards 16m teu before the end of the year. The latest figures from Alphaliner show that approximately 40 additional large containerships are expected to …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Iran singles out Sinokor",
-   "link": "https://splash247.com/iran-singles-out-sinokor/",
-   "published": "2026-10-28T07:37:12+00:00",
-   "summary": "Iran has threatened South Korean tanker giant Sinokor, the world’s dominant VLCC owner, with sweeping action against its fleet from November 1, accusing the company of repeatedly violating Tehran’s restrictions on shipping through the Strait of Hormuz. Iran’s Persian Gulf Strait Authority (PGSA) has said Sinokor vessels have committed more transit violations than any other …",
-   "source": "Splash247",
    "kind": "market",
    "nordic": false
   },
