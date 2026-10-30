@@ -1,0 +1,19 @@
+{
+ "date": "2026-10-30",
+ "values": {
+  "brent": 123.1,
+  "wti": 103.37,
+  "ttf": 96.29,
+  "henry_hub": 2.76,
+  "gasoline": 3.0535,
+  "bci": 3726.0,
+  "bpi": 1921.0,
+  "bsi": 1870.0,
+  "bdi": 2712,
+  "vlsfo_sing": 1002.0,
+  "vlsfo_rott": 778.0,
+  "vlsfo_fuj": 984.0,
+  "vlsfo_hou": 837.5,
+  "brent_wti_spread": 19.73
+ }
+}
