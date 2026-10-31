@@ -14,6 +14,18 @@
    "nordic": true
   },
   {
+   "title": "Dorian LPG Ltd. Declares Irregular Cash Dividend of $1.25 Per Share",
+   "summary": "STAMFORD, Conn., October 30, 2026 -- Dorian LPG Ltd. (NYSE: LPG) (the \"Company\" or \"Dorian LPG\"),",
+   "link": "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000049/lpg-20261030x8k.htm",
+   "published": "2026-10-30T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "LPG",
+   "company": "Dorian LPG",
+   "category": "8-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
    "title": "Wallenius Wilhelmsen signs USD 1bn in contracts with leading equipment manufacturer",
    "link": "https://newsweb.oslobors.no/message/685049",
    "published": "2026-10-29T06:00:00+00:00",
@@ -234,6 +246,357 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Damen Signs with Lithuanian Navy for Pollution Incident Response SAR Vessel",
+   "link": "https://maritime-executive.com/article/damen-signs-with-lithuanian-navy-for-pollution-incident-response-sar-vessel",
+   "published": "2026-10-31T01:54:36+00:00",
+   "summary": "Damen Shipyards Group has signed a contract with the Lithuanian Navy for a Pollution Incident Response and Search and Rescue (SAR) vessel based on the...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MacGregor to Retrofit PLC’s on 35 Vessels for Wallenius Wilhelmsen",
+   "link": "https://maritime-executive.com/article/macgregor-to-retrofit-plc-s-on-35-vessels-for-wallenius-wilhelmsen-2",
+   "published": "2026-10-31T01:18:28+00:00",
+   "summary": "MacGregor has received an order of PLC (Programmable Logic Controller) retrofit projects for 35 Pure Car and Truck Carrier (PCTC) vessels for Walleniu...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Dr. Fabian Kley Appointed Everllence CFO",
+   "link": "https://maritime-executive.com/article/dr-fabian-kley-appointed-everllence-cfo",
+   "published": "2026-10-31T00:49:09+00:00",
+   "summary": "Dr. Fabian Kley will assume responsibility for Finance, which he has already led operationally since March 2026 as an authorized representative of the...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fatigue and “Familiar” Work Blamed for Serious Crew Injuries",
+   "link": "https://maritime-executive.com/article/fatigue-and-familiar-work-blamed-for-serious-crew-injuries",
+   "published": "2026-10-30T23:05:10+00:00",
+   "summary": "Maritime investigators in New Zealand have revealed how a crew of a bulk carrier that was performing what was supposed to be a familiar task ended up...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dockworkers Worldwide Strike Against Militarization, Wages and More",
+   "link": "https://maritime-executive.com/article/dockworkers-worldwide-strike-against-militarization-wages-and-more",
+   "published": "2026-10-30T22:09:55+00:00",
+   "summary": "In what is being called the largest action of its kind, dockworkers around the world joined a strike call on Friday that was reportedly impacting as m...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ramble On: Who Pays the Freight?",
+   "link": "https://www.hellenicshippingnews.com/ramble-on-who-pays-the-freight/",
+   "published": "2026-10-30T22:00:59+00:00",
+   "summary": "In September we borrowed a Led Zeppelin title to describe China’s crude stockpile, a levee holding backthe import shortfall created by the closure of Hormuz. One month on, the wateris still falling, Gulf crude has rambled on around the Strait, and the questionis what it will cost to rebuild. China’s customs crudeimports were 9.03 mbpd ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Orders Leading Newbuilding Activity With Prices Expected to Remain High Throughout 2027",
+   "link": "https://www.hellenicshippingnews.com/tanker-orders-leading-newbuilding-activity-with-prices-expected-to-remain-high-throughout-2027/",
+   "published": "2026-10-30T22:00:59+00:00",
+   "summary": "Tanker ordering activity has been leading the latest surge of contracting, despite high prices, Banchero Costa said in a new research report focused on newbuilding. More specifically, the shipbroker noted that “the shipbuilding market has moved from an ordering boom into a delivery wave. The total orderbook for bulkcarriers, tankers, LNG and LPG carriers and ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Suezmax Tanker sales surge 35% amid high VLCC demand",
+   "link": "https://www.hellenicshippingnews.com/suezmax-tanker-sales-surge-35-amid-high-vlcc-demand/",
+   "published": "2026-10-30T22:00:58+00:00",
+   "summary": "A strong VLCC market this year is boosting Suezmax Tanker demand. Suezmax sales activity has picked up considerably in recent months, with sales so far this year up 35%, reaching 124 sales compared to 92 sales over the same period last year. Buyers have continued to transact even as values have climbed, pointing to strong ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Up for 3rd Day",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-up-for-3rd-day-5/",
+   "published": "2026-10-30T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, advanced for a third session on Friday, rising marginally by 0.1% to its highest since October 13 at 2,714 points. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, also increased for the third day, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China charts course for green corridors",
+   "link": "https://www.hellenicshippingnews.com/china-charts-course-for-green-corridors/",
+   "published": "2026-10-30T22:00:57+00:00",
+   "summary": "China is emerging as an influential player in the global green shipping corridor movement, leveraging its dominance in green fuel production, battery technology and maritime infrastructure to take a leading role in efforts to decarbonise international shipping. Yet despite holding advantages across much of the value chain, the country still faces significant challenges if it ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Strike Threat at Los Angeles, Long Beach Ports Delayed as Union and Employers Extend Talks",
+   "link": "https://gcaptain.com/strike-threat-at-los-angeles-long-beach-ports-delayed-as-union-and-employers-extend-talks/",
+   "published": "2026-10-30T19:12:06+00:00",
+   "summary": "A potential strike threatening operations at some of the busiest container terminals in the United States has been pushed back after the Pacific Maritime Association (PMA) and the International Longshore...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Chinese Stealth Drone Successfully Takes Off, Lands on Amphibious Assault Ship",
+   "link": "https://www.marinelink.com/news/chinese-stealth-drone-successfully-takes-544043",
+   "published": "2026-10-30T18:35:56+00:00",
+   "summary": "China's first carrier-based stealth reconnaissance and strike drone, the GJ-21, recently completed its first takeoff and landing on the Sichuan, the country's first Type 076 amphibious assault ship, state news agency Xinhua reported on Friday.The…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dockworkers Strike Continues Friday Against Arms Shipments",
+   "link": "https://www.marinelink.com/news/dockworkers-strike-continues-friday-544040",
+   "published": "2026-10-30T18:29:29+00:00",
+   "summary": "Dockworkers went on strike across Europe and beyond on Friday, disrupting shipping and ferries as they protested against the use of their ports for arms shipments and the number of seafarers killed in wars from the Gulf to the Black Sea.Strikers across 113 ports in 22 countries also called for pay r",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Oil Leak Stopped From Tanker Offshore UAE, Clean Up Efforts Continue",
+   "link": "https://www.marinelink.com/news/oil-leak-stopped-tanker-offshore-uae-544038",
+   "published": "2026-10-30T18:22:50+00:00",
+   "summary": "The United Arab Emirates said on Friday that an oil leak from the Gem No. 2 tanker had been stopped, with no new leakage detected, as cleanup operations continued along coastlines affected by the spill.The oil slick is concentrated off the northern…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "How MARAD Cut Years Off Deepwater Port Reviews Without Changing Environmental Standards",
+   "link": "https://gcaptain.com/how-marad-cut-years-off-deepwater-port-reviews-without-changing-environmental-standards/",
+   "published": "2026-10-30T17:36:50+00:00",
+   "summary": "As gCaptain reported earlier this week, the Maritime Administration (MARAD) announced its approval of the $8.2 billion Texas ST LNG export port application, a major development for U.S. energy production. But the announcement also highlighted another significant milestone: the fastest deepwater port license review in more than 20 years.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hanwha Philly Shipyard Wins $269 Million U.S. Navy Landing Ship Contract",
+   "link": "https://gcaptain.com/hanwha-philly-shipyard-wins-269-million-u-s-navy-landing-ship-contract/",
+   "published": "2026-10-30T16:46:58+00:00",
+   "summary": "Hanwha Philly Shipyard has secured a $269 million contract to build a Medium Landing Ship (LSM) for the U.S. Navy and Marine Corps, marking a major milestone in the South...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Grimaldi Warns U.S. Port Fees Could Force Ships Out of American Trades",
+   "link": "https://gcaptain.com/grimaldi-warns-u-s-port-fees-could-force-ships-out-of-american-trades/",
+   "published": "2026-10-30T16:18:17+00:00",
+   "summary": "Italian shipping giant Grimaldi Group is warning that reinstating U.S. port fees on foreign-built vehicle carriers could force it to redeploy vessels away from American trades, potentially disrupting shipping services...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "TOTE Services Selects Hanwha Defense USA for Medium Landing Ship Program",
+   "link": "https://www.marinelink.com/news/tote-services-selects-hanwha-defense-usa-544037",
+   "published": "2026-10-30T16:11:39+00:00",
+   "summary": "TOTE Services, LLC, a U.S. maritime services company specializing in vessel construction management and ship management, announced its first shipyard selection, Hanwha Defense USA (HDUS), for the Medium Landing Ship (LSM) program under TOTE…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Anti-War Protests Spread Across Global Ports as Dockworkers Target Arms Trade",
+   "link": "https://gcaptain.com/anti-war-protests-spread-across-global-ports-as-dockworkers-target-arms-trade/",
+   "published": "2026-10-30T16:02:58+00:00",
+   "summary": "Dockworkers across 113 ports in 22 countries staged coordinated strikes and protests Friday, disrupting cargo operations and ferry services as part of a global campaign opposing arms shipments to Israel...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Hit by Limpet Mines in Strait of Hormuz as New Threat to Shipping Emerges",
+   "link": "https://gcaptain.com/tanker-hit-by-limpet-mines-in-strait-of-hormuz-as-new-threat-to-shipping-emerges/",
+   "published": "2026-10-30T15:16:54+00:00",
+   "summary": "A tanker transiting the Strait of Hormuz was attacked by a small boat that attached two explosive devices to its hull, triggering an engine room fire and temporarily disabling the...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cellmate’s suicide attempt raises concern for seafarer Albokhari",
+   "link": "",
+   "published": "2026-10-30T13:50:05+00:00",
+   "summary": "The psychological trauma of being sentenced to 30 years in a Turkish jail has increased after Ali Albokhari witnessed a suicide attempt by his cellmate, who wanted to hang himself",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MARAD approves licence for ST LNG’s deepwater LNG port in Texas",
+   "link": "https://ship.energy/information/marad-approves-licence-for-st-lngs-deepwater-lng-port-in-texas/",
+   "published": "2026-10-30T12:59:40+00:00",
+   "summary": "U.S. Transportation Secretary Sean P. Duffy has announced that the Maritime Administration (MARAD) has approved a deepwater port licence application for ST LNG LLC’s $8.2 billion project that will be built 10 miles offshore from Matagorda, Texas. In a statement issued on Wednesday (28 October), the U.S. Department of Transportation (DOT) said that, at full capacity, the deepwater port will include 20 platforms, four ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ARACON: Humans will remain bunkering’s decision makers amid growing interest in AI’s role as a decision-support tool",
+   "link": "https://ship.energy/information/aracon-humans-will-remain-bunkerings-decision-makers-amid-growing-interest-in-ais-role-as-a-decision-support-tool/",
+   "published": "2026-10-30T12:03:07+00:00",
+   "summary": "There is growing interest in the role of AI and digital systems as decision-support tools in bunkering, but widespread adoption will take time and require more trust, amid consensus that commercial and operational decisions will remain in human hands. These sentiments were among the key takeaways from the ARACON session ‘A different mindset: stress-testing and reframing commercial and operational processes’, organise",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Repsol posts €5 billion net income for first nine months of 2026",
+   "link": "https://ship.energy/energy/repsol-posts-e5-billion-net-income-for-first-nine-months-of-2026/",
+   "published": "2026-10-30T11:58:07+00:00",
+   "summary": "Spain-headquartered energy group Repsol has reported a net income of €5.006 billion from January through September, including a positive inventory effect of €943 million resulting from the impact of higher crude oil prices on the book value of inventories. In a statement issued today (30 October), the company said that this compares with €1.177 billion in the same period last year, which was ‘affected by lower crude ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dr Fabian Kley appointed Everllence CFO",
+   "link": "https://ship.energy/information/dr-fabian-kley-appointed-everllence-cfo/",
+   "published": "2026-10-30T11:57:12+00:00",
+   "summary": "The Everllence Supervisory Board has named Dr Fabian Kley as a member of the company’s Executive Board and announced his appointment as Chief Financial Officer (CFO). Dr. Kley will assume responsibility for Finance, which he has already led operationally since March 2026 as Finance Director and an authorised representative of the Executive Board. Dr Kley has been with Everllence since 2019. After holding various lead",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Atlantic and Pacific LNG rates continue to rise",
+   "link": "https://lngprime.com/asia/atlantic-and-pacific-lng-rates-continue-to-rise/199268/",
+   "published": "2026-10-30T11:25:39+00:00",
+   "summary": "Atlantic and Pacific spot liquefied natural gas (LNG) shipping rates continued their upward trend this week, according to Spark Commodities.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russian LNG production up 15.2 percent in January-September",
+   "link": "https://lngprime.com/asia/russian-lng-production-up-15-2-percent-in-january-september/199311/",
+   "published": "2026-10-30T11:24:35+00:00",
+   "summary": "Russian liquefied natural gas (LNG) production rose 15.2 percent in January-September this year, according to the Russian statistics agency Rosstat.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Swedish owner Veritas books up to six chemical tankers in China",
+   "link": "https://splash247.com/swedish-owner-veritas-books-up-to-six-chemical-tankers-in-china/",
+   "published": "2026-10-30T10:30:00+00:00",
+   "summary": "Swedish shipowner Veritas Tankers has placed an order for up to six 13,000 dwt stainless steel chemical tankers at China’s Nantong Rainbow Offshore & Engineering Equipment, in a deal potentially worth $248m. The yard’s Shenzhen-listed parent, Jiangsu Rainbow Heavy Industries, confirmed the contract with an unnamed European owner in a stock exchange filing, putting the …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Marintec Innovation: Driving the Energy Transition",
+   "link": "",
+   "published": "2026-10-30T10:23:55+00:00",
+   "summary": "Industry leaders will gather in Shanghai in December to examine how digitalisation, alternative fuels and nuclear propulsion can shape shipping’s transition to net zero.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NextDecade progresses commissioning of first Rio Grande LNG train",
+   "link": "https://lngprime.com/americas/nextdecade-progresses-commissioning-of-first-rio-grande-lng-train/199287/",
+   "published": "2026-10-30T10:08:54+00:00",
+   "summary": "US LNG developer NextDecade is moving forward with commissioning activities at the first liquefaction train of its Rio Grande LNG terminal in Texas, and it continues to expect first gas into the LNG facility before year-end 2026.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Evalend drops newcastlemax option at Dajin Heavy",
+   "link": "https://splash247.com/evalend-drops-newcastlemax-option-at-dajin-heavy/",
+   "published": "2026-10-30T10:00:00+00:00",
+   "summary": "Greek shipowner Evalend Shipping has been linked to the decision not to exercise an option for a fourth 211,000 dwt newcastlemax bulker at China’s Dajin Heavy Industry, removing a potential CNY525m ($78m) vessel from the yard’s order pipeline. Dajin disclosed that the option under a three-plus-one shipbuilding agreement signed in July had expired and that …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China Merchants tanker arm targets Yangtze fleet renewal",
+   "link": "https://splash247.com/china-merchants-tanker-arm-targets-yangtze-fleet-renewal/",
+   "published": "2026-10-30T09:30:00+00:00",
+   "summary": "China Merchants-controlled Nanjing Tanker is planning to invest up to RMB191.72m ($28.7m) in ten 4,000 dwt crude oil barges as it moves to upgrade its fleet serving refineries along the Yangtze River. The Shanghai-listed owner has approved the investment through wholly owned subsidiary Nanjing Yangtze River Oil Transport Logistics, with Hunan Jinhang Shipbuilding selected to …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ICS elects first woman President in 115 history",
+   "link": "",
+   "published": "2026-10-30T08:56:05+00:00",
+   "summary": "Natalia Margioli takes the helm of the Institute of Chartered Shipbrokers, succeeding Punit Oza as Jeffrey Blum steps in as Vice President",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dockworkers unite across 113 ports in global anti-war protest",
+   "link": "https://splash247.com/dockworkers-unite-across-113-ports-in-global-anti-war-protest/",
+   "published": "2026-10-30T08:45:01+00:00",
+   "summary": "One of the largest coordinated port labour mobilisations in history is underway today, with more than 25 unions staging strikes and demonstrations at 113 ports across 22 countries and territories. The worldwide action, organised under the banner “Dockworkers do not work for war”, has expanded dramatically from a smaller mobilisation involving 20 ports across seven …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Oil majors count the cost of runaway tanker rates",
+   "link": "https://splash247.com/oil-majors-count-the-cost-of-runaway-tanker-rates/",
+   "published": "2026-10-30T08:26:28+00:00",
+   "summary": "Soaring tanker freight rates are taking an increasingly heavy toll on the world’s oil majors, with the latest quarterly results revealing billions of dollars in additional shipping-related liabilities, squeezed refining margins and losses on trading positions. Shell has disclosed a $5.4bn non-cash increase in its shipping lease liabilities during the third quarter, reflecting the extraordinary …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maritime CEO Forum: When to leave the party",
+   "link": "https://splash247.com/maritime-ceo-forum-when-to-leave-the-party/",
+   "published": "2026-10-30T08:07:29+00:00",
+   "summary": "Shipping investors are enjoying extraordinary returns but face increasingly difficult decisions over when to cash out, with industry leaders warning that geopolitical disruption is masking underlying market risks and encouraging potentially dangerous investment decisions. Speaking at the Money and Ships session of this week’s Maritime CEO Forum at the Yacht Club de Monaco, Christoph Toepfer, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Four things to watch in shipping and energy if Middle East conflict resumes",
+   "link": "",
+   "published": "2026-10-30T08:05:42+00:00",
+   "summary": "Crude oil flows have been recovering from the Middle East, however the story for LNG and product exports has been less positive",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China Merchants Nanjing Tanker expands fleet with 14 newbuilds",
+   "link": "",
+   "published": "2026-10-30T07:58:05+00:00",
+   "summary": "The dual newbuilding packages form a key component of its ongoing fleet renewal programme",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US weekly LNG exports rise to 37 shipments",
+   "link": "https://lngprime.com/americas/us-weekly-lng-exports-rise-to-37-shipments/199237/",
+   "published": "2026-10-30T07:19:13+00:00",
+   "summary": "US liquefied natural gas (LNG) plants sent 37 cargoes during the week ending October 21, up two cargoes from the previous week, according to the Energy Information Administration.",
+   "source": "LNG Prime",
    "kind": "market",
    "nordic": false
   },
