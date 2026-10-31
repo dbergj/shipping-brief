@@ -4,9 +4,16 @@ This is the one file to edit when adding or removing a number. `run.py` walks
 METRICS and asks the named adapter for each value, so nothing else needs to
 change.
 
-`max_age_days` is how old a value may be before the page marks it stale. It is
-per-metric because a daily oil price going two days without an update means
-something broke, whereas a hand-entered weekly rate is fine at six days old.
+`max_age_days` is how many TRADING SESSIONS old a value may be before the page
+flags it. Sessions, not calendar days: on a Monday morning the newest crude
+print is Friday's, which is one session old and perfectly current, while the
+same three-day gap on a Thursday means a day was missed. Counting calendar days
+treated those two identically and was why a four-day-old Brent print sat inside
+the tolerance and reached the brief unflagged.
+
+It is per-metric because a daily oil price going two sessions without an update
+means something broke, whereas a weekly Baltic route assessment is expected to
+be most of a week behind.
 """
 
 # --- Prices fetched from Yahoo's chart endpoint (verified working) -----------
@@ -16,65 +23,65 @@ something broke, whereas a hand-entered weekly rate is fine at six days old.
 METRICS = [
     # Energy — the KPI strip and the energy table
     dict(id="brent", label="Brent crude", unit="USD/bbl", group="energy",
-         source="yahoo", symbol="BZ=F", kpi=True, max_age_days=4, verified=True,
+         source="yahoo", symbol="BZ=F", kpi=True, max_age_days=1, verified=True,
          blurb="The global benchmark price for crude oil. Most oil cargoes price off it."),
     dict(id="wti", label="WTI crude", unit="USD/bbl", group="energy",
-         source="yahoo", symbol="CL=F", kpi=True, max_age_days=4, verified=True,
+         source="yahoo", symbol="CL=F", kpi=True, max_age_days=1, verified=True,
          blurb="The US crude benchmark. Its gap to Brent drives US export volumes."),
     dict(id="ttf", label="Dutch TTF gas", unit="EUR/MWh", group="gas",
-         source="yahoo", symbol="TTF=F", kpi=True, max_age_days=4, verified=True,
+         source="yahoo", symbol="TTF=F", kpi=True, max_age_days=1, verified=True,
          blurb="Europe's benchmark gas price, set in the Netherlands."),
     dict(id="henry_hub", label="Henry Hub gas", unit="USD/mmBtu", group="gas",
-         source="yahoo", symbol="NG=F", kpi=True, max_age_days=4, verified=True,
+         source="yahoo", symbol="NG=F", kpi=True, max_age_days=1, verified=True,
          blurb="The US benchmark gas price, set in Louisiana."),
     dict(id="coal_api2", label="Coal API2 (ARA)", unit="USD/t", group="energy",
-         source="yahoo", symbol="MTF=F", max_age_days=5, verified=True,
+         source="yahoo", symbol="MTF=F", max_age_days=2, verified=True,
          blurb="Price of coal delivered into northwest Europe. A dry bulk demand signal."),
     dict(id="gasoil", label="Heating oil / gasoil", unit="USD/gal", group="energy",
-         source="yahoo", symbol="HO=F", max_age_days=4, verified=True,
+         source="yahoo", symbol="HO=F", max_age_days=1, verified=True,
          blurb="A refined product price that tracks what bunker fuel costs."),
     dict(id="gasoline", label="RBOB gasoline", unit="USD/gal", group="energy",
-         source="yahoo", symbol="RB=F", max_age_days=4, verified=True,
+         source="yahoo", symbol="RB=F", max_age_days=1, verified=True,
          blurb="US gasoline price. Strong margins here pull product tankers west."),
 
     # Freight proxies — tradeable, daily, free. Not the real indices.
     dict(id="bdry", label="Dry bulk ETF (BDRY)", unit="USD", group="proxy",
-         source="yahoo", symbol="BDRY", max_age_days=4, verified=True,
+         source="yahoo", symbol="BDRY", max_age_days=2, verified=True,
          blurb="An ETF holding dry bulk freight futures. A rough daily read on bulker sentiment."),
     dict(id="bwet", label="Tanker ETF (BWET)", unit="USD", group="proxy",
-         source="yahoo", symbol="BWET", max_age_days=4, verified=True,
+         source="yahoo", symbol="BWET", max_age_days=2, verified=True,
          blurb="An ETF holding tanker freight futures. A rough daily read on tanker sentiment."),
 
     # Scraped / parsed sources
     # Baltic sub-indices, read out of the daily Reuters report rather than the
     # licensed feed. See collect/sources/dry_rates.py.
     dict(id="bci", label="Baltic Capesize Index", unit="points", group="rates",
-         source="dry_rates", max_age_days=5, verified=True,
+         source="dry_rates", max_age_days=2, verified=True,
          blurb="The Capesize component of the Baltic Dry Index. The most volatile part, "
                "and effectively a bet on Chinese steel production."),
     dict(id="bpi", label="Baltic Panamax Index", unit="points", group="rates",
-         source="dry_rates", max_age_days=5, verified=True,
+         source="dry_rates", max_age_days=2, verified=True,
          blurb="The Panamax component. Coal and grain rather than iron ore, so it "
                "follows harvests and power demand more than steel."),
     dict(id="bsi", label="Baltic Supramax Index", unit="points", group="rates",
-         source="dry_rates", max_age_days=5, verified=True,
+         source="dry_rates", max_age_days=2, verified=True,
          blurb="The Supramax component. These ships have their own cranes and serve "
                "smaller ports, so it reflects broad trade rather than one commodity."),
     dict(id="bdi", label="Baltic Dry Index", unit="points", group="rates",
-         source="bdi", kpi=True, max_age_days=4, verified=True,
+         source="bdi", kpi=True, max_age_days=2, verified=True,
          blurb="The Baltic Exchange's headline dry bulk freight index. Published late "
                "afternoon London time, so a morning brief shows the previous session."),
     dict(id="vlsfo_sing", label="VLSFO Singapore", unit="USD/t", group="bunkers",
-         source="bunkers", port="Singapore", kpi=True, max_age_days=4, verified=True,
+         source="bunkers", port="Singapore", kpi=True, max_age_days=1, verified=True,
          blurb="Price of the main low-sulphur marine fuel at the world's biggest bunker port."),
     dict(id="vlsfo_rott", label="VLSFO Rotterdam", unit="USD/t", group="bunkers",
-         source="bunkers", port="Rotterdam", max_age_days=4, verified=True,
+         source="bunkers", port="Rotterdam", max_age_days=1, verified=True,
          blurb="The same fuel in Europe's biggest bunker port."),
     dict(id="vlsfo_fuj", label="VLSFO Fujairah", unit="USD/t", group="bunkers",
-         source="bunkers", port="Fujairah", max_age_days=4, verified=True,
+         source="bunkers", port="Fujairah", max_age_days=1, verified=True,
          blurb="The Middle East bunker hub, where most VLCC voyages refuel."),
     dict(id="vlsfo_hou", label="VLSFO Houston", unit="USD/t", group="bunkers",
-         source="bunkers", port="Houston", max_age_days=4, verified=True,
+         source="bunkers", port="Houston", max_age_days=1, verified=True,
          blurb="The US Gulf bunker price."),
 ]
 
@@ -84,8 +91,12 @@ METRICS = [
 # that no free provider publishes at all, which the page explains rather than
 # showing as a permanent failure.
 FALLBACK_NOTES = {
-    "brent":     {"fallback": "FRED_API_KEY or EIA_API_KEY"},
-    "wti":       {"fallback": "FRED_API_KEY or EIA_API_KEY"},
+    # Brent and WTI come from the daily oil report's prose, which outranks EIA:
+    # EIA is official but publishes spot three to five days in arrears, and a
+    # morning brief needs the level the market last traded at. See
+    # sources/oil_prices.py. EIA and FRED remain behind it as fallbacks.
+    "brent":     {"fallback": "read from the daily oil report (EIA/FRED behind it)"},
+    "wti":       {"fallback": "read from the daily oil report (EIA/FRED behind it)"},
     "henry_hub": {"fallback": "FRED_API_KEY or EIA_API_KEY"},
     # TTF now comes from the daily gas report's prose; see sources/gas_prices.py.
     "ttf": {"fallback": "read from the daily European gas report"},
@@ -109,12 +120,12 @@ for _m in METRICS:
 # there is no extra source to break.
 DERIVED = [
     dict(id="refining_margin", label="Diesel crack vs Brent", unit="USD/bbl", group="energy",
-         kind="crack", inputs=["gasoil", "brent"], max_age_days=4,
+         kind="crack", inputs=["gasoil", "brent"], max_age_days=1,
          blurb="Roughly what a refinery makes turning a barrel of crude into diesel. "
                "Computed as the gasoil price converted to barrels minus Brent. Fat "
                "margins make refineries run hard, which creates product tanker cargo."),
     dict(id="brent_wti_spread", label="Brent–WTI spread", unit="USD/bbl", group="energy",
-         kind="spread", inputs=["brent", "wti"], max_age_days=4,
+         kind="spread", inputs=["brent", "wti"], max_age_days=1,
          blurb="How much more Brent costs than WTI. A wide gap makes exporting US crude "
                "profitable, which means more long-haul cargoes and stronger tanker demand."),
 ]

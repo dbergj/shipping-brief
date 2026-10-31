@@ -41,26 +41,51 @@ const deltaNode = (change, value, hasValue = true) => {
   return el("div", "k-delta " + cls, txt);
 };
 
-/* "Stale" means this run could not refresh the number, which is not the same
-   as the number being old — a value carried forward minutes ago is both fresh
-   and unrefreshed. Label the state, not just the clock. */
+/* Three different things can be true of a number, and they used to be shown as
+   one word. "Stale" means this run could not refresh it. "Lagged" means the
+   source answered and simply has nothing newer — EIA publishes crude spot days
+   in arrears. "Current" means the figure is within its market's cadence.
+
+   Only the first is a fault. Collapsing them is what let a Brent print from
+   four sessions earlier sit on the page with no indication of its age. */
 const staleLabel = (m) => {
   if (m.value == null) return "no data";
+  if (m.freshness === "lagged") return "not today";
   return "stale";
 };
 
 const staleTitle = (m) => {
   if (m.value == null) return "This number could not be fetched and has no previous value to fall back on.";
+  const when = m.as_of_label || (m.as_of ? new Date(m.as_of).toLocaleString("en-GB") : "an earlier run");
+  if (m.freshness === "lagged") {
+    return "This is the newest figure the source has published: " + when
+         + ". It is not today's price. " + sessionPhrase(m);
+  }
   return "Stale: today's update could not fetch this, so it is showing the last value, from "
-       + (m.as_of ? new Date(m.as_of).toLocaleString("en-GB") : "an earlier run") + ".";
+       + when + ".";
 };
 
-const ageText = (d) => {
-  if (d == null) return "no data yet";
-  if (d < 0.04) return "just now";
-  if (d < 1) return `${Math.round(d * 24)}h ago`;
-  return `${Math.round(d)}d ago`;
+const sessionPhrase = (m) => {
+  const n = m.age_sessions;
+  if (typeof n !== "number") return "";
+  if (n === 0) return "Observed during the current session.";
+  return n + " trading session" + (n === 1 ? "" : "s") + " behind.";
 };
+
+/* Every number on this page states the date it was observed. A figure without
+   one is indistinguishable from a live one, which is how a four-day-old crude
+   price got written up as a move that happened this morning. */
+const asOfText = (m) => {
+  if (m.value == null) return "";
+  if (!m.as_of_label) return "date unknown";
+  return (m.observed_today ? "today, " : "as at ") + m.as_of_label;
+};
+
+/* A change figure is only meaningful against a stated baseline. Where the
+   collector had to derive one from an earlier snapshot, say which day that was
+   — otherwise a three-session move reads as a one-day move. */
+const changeBasis = (m) =>
+  m.change != null && m.change_since_label ? " · vs " + m.change_since_label : "";
 
 const timeText = (iso) => {
   if (!iso) return "";
@@ -333,15 +358,35 @@ function showRoute(id, anchor) {
     p.appendChild(h);
     p.appendChild(el("div", "kind", `${rt.segment} · ${rt.name}`));
 
-    // Today's figure first, since that is what the reader clicked from.
+    // The latest figure first, since that is what the reader clicked from —
+    // with the date it was struck and how far behind that is. "as at 25 Oct"
+    // alone does not tell a newcomer whether that is normal for this route
+    // (for a weekly Baltic assessment it is) or a missed update.
     if (row && row.value != null) {
       const big = el("div", "route-rate");
       big.appendChild(el("span", "rv", fmt(row.value, row.unit)));
       big.appendChild(el("span", "ru", " " + row.unit));
-      const when = row.as_of ? new Date(row.as_of).toLocaleDateString("en-GB",
-        { day: "numeric", month: "short" }) : null;
-      if (when) big.appendChild(el("span", "rw", ` · as at ${when}`));
+      big.appendChild(el("span", "rw", " · " + asOfText(row)));
       p.appendChild(big);
+      // Say why a figure is days old, not just that it is. The free source for
+      // tanker and gas TCEs is the weekly Baltic commentary, published Sundays,
+      // so a five-session-old assessment is the newest that exists rather than
+      // a missed update — and a newcomer has no way to know that.
+      const cadence = row.cadence === "weekly"
+        ? " This route is assessed weekly, so this is the newest published figure; "
+          + "the next one lands on Sunday."
+        : row.cadence === "daily"
+          ? " This route is assessed every business day."
+          : "";
+      const note = el("div", "route-when", sessionPhrase(row) + cadence
+        + (row.freshness === "lagged"
+            ? " The source has published nothing newer — this is not today's figure."
+            : "")
+        + (row.freshness === "stale"
+            ? " This morning's collection could not refresh it, so it is the last"
+              + " value we held."
+            : ""));
+      if (note.textContent.trim()) p.appendChild(note);
     } else if (row) {
       p.appendChild(el("div", "route-rate none", "No figure in the latest report"));
     }
@@ -407,7 +452,8 @@ function showMetric(id, anchor) {
     h.id = "popTitle";
     p.appendChild(h);
     p.appendChild(el("div", "kind",
-      m.value == null ? "no data" : `${fmt(m.value, m.unit)} ${m.unit} · ${ageText(m.age_days)}`));
+      m.value == null ? "no data"
+        : `${fmt(m.value, m.unit)} ${m.unit} · ${asOfText(m)}`));
     if (m.blurb) p.appendChild(el("p", "lead", m.blurb));
     if (m.status === "unavailable" && m.why_unavailable) {
       p.appendChild(el("div", "why", m.why_unavailable));
@@ -513,13 +559,17 @@ function renderKpis() {
 
 function kpiTile(m) {
   {
-    const card = el("button", "kpi" + (m.stale ? " is-stale" : ""));
+    const card = el("button", "kpi" + (m.stale ? " is-stale" : "")
+                             + (m.freshness === "lagged" ? " is-lagged" : ""));
     card.type = "button";
     card.dataset.metric = m.id;
     const lab = el("div", "k-label");
     lab.appendChild(el("span", "t", m.label));
-    if (m.stale) {
-      const b = el("span", "badge stale", staleLabel(m));
+    // A missing value needs a badge too. It no longer arrives flagged "stale",
+    // because a number that was never fetched is not a carried-forward one.
+    if (m.value == null || m.stale || m.freshness === "lagged") {
+      const b = el("span", "badge " + (m.value == null || m.stale ? "stale" : "lagged"),
+                   staleLabel(m));
       b.title = staleTitle(m);
       lab.appendChild(b);
     }
@@ -529,6 +579,13 @@ function kpiTile(m) {
     val.appendChild(el("span", "k-unit", m.unit));
     card.appendChild(val);
     card.appendChild(deltaNode(m.change, m.value, m.value != null));
+    if (m.value != null) {
+      const a = el("div", "k-asof", asOfText(m) + changeBasis(m));
+      a.title = "Observed " + (m.as_of_label || "unknown") + ". "
+              + sessionPhrase(m)
+              + (m.collected_at ? " Collected " + new Date(m.collected_at).toLocaleString("en-GB") + "." : "");
+      card.appendChild(a);
+    }
     if (m.value == null && m.no_free_source) {
       card.appendChild(el("div", "k-note", "no free source"));
     } else if (m.value == null && m.fallback) {
@@ -606,7 +663,7 @@ function table(caption, rows, opts = {}) {
   t.appendChild(el("caption", null, caption));
   const thead = el("thead");
   const hr = el("tr");
-  for (const [label, cls] of [["", ""], ["Latest", "num"], ["Change", "num"], ["Updated", "num"]]) {
+  for (const [label, cls] of [["", ""], ["Latest", "num"], ["Change", "num"], ["Observed", "num"]]) {
     hr.appendChild(el("th", cls, label || opts.firstCol || "Route / vessel"));
   }
   thead.appendChild(hr);
@@ -644,12 +701,21 @@ function table(caption, rows, opts = {}) {
 
     const u = el("td", "num");
     if (inactive && r.status === "unavailable") u.appendChild(el("span", "badge", "inactive"));
-    else if (r.stale) {
-      const b = el("span", "badge stale", staleLabel(r));
-      b.title = staleTitle(r);
-      u.appendChild(b);
+    // A row with no number at all still has to say so. Leaving the cell blank
+    // reads as "nothing to report" rather than "this never arrived".
+    else if (r.value == null) u.appendChild(el("span", "badge", "no data"));
+    else {
+      // The observation date always shows; a badge is added only when the
+      // figure is older than its route's publication cadence allows.
+      const d = el("span", "asof", asOfText(r) + changeBasis(r));
+      d.title = "Observed " + (r.as_of_label || "unknown") + ". " + sessionPhrase(r);
+      u.appendChild(d);
+      if (r.stale || r.freshness === "lagged") {
+        const b = el("span", "badge " + (r.stale ? "stale" : "lagged"), staleLabel(r));
+        b.title = staleTitle(r);
+        u.appendChild(b);
+      }
     }
-    else u.textContent = ageText(r.age_days);
     tr.appendChild(u);
 
     tb.appendChild(tr);

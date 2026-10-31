@@ -116,15 +116,39 @@ becomes available, the row switches on by itself.
 The free daily freight signals that *do* work — the Baltic Dry Index headline, and
 the dry bulk and tanker freight ETFs — are in the table below them.
 
-### Stale and no data
+### Dates, and what the tags mean
 
-Every number carries its own source and timestamp.
+**Every number on the page states the date it was observed**, printed under the figure.
+That date is part of the fact, not decoration. A price is today's only if it says so.
 
-- **stale** — this morning's update couldn't reach that source, so you're seeing the
-  last good value. Hover it to see when it's from.
+Two dates are recorded for every figure:
+
+- **observed** (`as_of`) — when the market actually printed it
+- **collected** (`collected_at`) — when the morning run fetched it
+
+They are usually different, and conflating them is a real hazard: on 31 October the
+brief reported Brent at $123.10 "down 3.9%" when that figure was four sessions old and
+crude had since moved to about $117. The number was correct; presenting it as this
+morning's was not.
+
+Age is counted in **trading sessions**, not calendar days. On a Monday the newest crude
+print is Friday's — one session old and perfectly current. The same three-day gap
+mid-week means a day was missed. Counting calendar days treated those identically.
+
+- **(no tag)** — the figure is within its market's normal publication cadence.
+- **not today** — the source answered and has published nothing newer than the stated
+  date. Not a fault: EIA publishes crude spot several days in arrears, and Baltic route
+  assessments are weekly. The date beside it tells you how far back it reaches.
+- **stale** — this *is* a fault: this morning's update couldn't reach that source at
+  all, so you're seeing the last good value.
 - **no data** — there's no earlier value to fall back on either.
 
 Nothing is ever estimated or invented to fill a gap. A missing number stays missing.
+
+The written brief is held to the same rule: it is told, per figure, which date it was
+observed on and whether that is today, and it is forbidden from saying a non-today
+figure rose, fell or reacted "today", or from tying it causally to a headline from a
+different day.
 
 ---
 

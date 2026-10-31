@@ -32,6 +32,7 @@ from bunkers import fetch_all_grades  # noqa: E402
 from dry_rates import fetch_dry_rates  # noqa: E402
 from gas_prices import fetch_gas_prices  # noqa: E402
 from route_rates import fetch_route_rates  # noqa: E402
+from oil_prices import fetch_oil_prices  # noqa: E402
 from eia import fetch_eia  # noqa: E402
 from fred import fetch_fred  # noqa: E402
 from news_oslo import fetch_oslo, resolve_issuers  # noqa: E402
@@ -93,11 +94,124 @@ def age_days(iso):
 
 
 # --------------------------------------------------------------------------- #
+# Dating and freshness
+# --------------------------------------------------------------------------- #
+#
+# Every published number carries two dates, and they answer different questions:
+#
+#   as_of        — when the market printed this figure
+#   collected_at — when this run fetched it
+#
+# They are usually different, and conflating them is exactly what let a
+# four-day-old Brent print of $123.10 be narrated as a move that had happened
+# that morning. Nothing reaches the page or the brief without both.
+
+FRESH_CURRENT = "current"   # newest observation is within this row's cadence
+FRESH_LAGGED = "lagged"     # source answered; it publishes in arrears
+FRESH_STALE = "stale"       # this run could not refresh it; value carried forward
+FRESH_UNKNOWN = "unknown"   # no value, or no date on the value
+
+
+def age_sessions(as_of_iso, collected_at_iso):
+    """Trading sessions between an observation and now — weekends excluded.
+
+    A Monday-morning brief quoting Friday's close is one session behind, which
+    is exactly right; measured in calendar days it looks three days late and
+    would be flagged every Monday. Conversely a three-day gap mid-week really
+    does mean a day was missed. Public holidays are not modelled — the cost of
+    that is an occasional "lagged" badge on a day the market was shut, which
+    errs toward telling the reader a number is old rather than hiding it.
+    """
+    observed = _parse_iso(as_of_iso)
+    now = _parse_iso(collected_at_iso)
+    if observed is None or now is None:
+        return None
+    start, end = observed.date(), now.date()
+    if end <= start:
+        return 0
+    sessions, day = 0, start
+    for _ in range((end - start).days):
+        day += dt.timedelta(days=1)
+        if day.weekday() < 5:
+            sessions += 1
+    return sessions
+
+
+def _parse_iso(iso):
+    if not iso:
+        return None
+    try:
+        then = dt.datetime.fromisoformat(iso)
+    except (TypeError, ValueError):
+        return None
+    return then.replace(tzinfo=dt.timezone.utc) if then.tzinfo is None else then
+
+
+def as_of_label(iso):
+    """"Fri 30 Oct 09:45 GMT", or "Fri 30 Oct" when the source gives no clock.
+
+    Midnight is treated as "no clock" rather than as 00:00, because a daily
+    series dated 2026-10-27T00:00:00Z is an end-of-day figure, not one struck
+    at midnight, and printing a time there would invent a precision the source
+    never claimed.
+    """
+    then = _parse_iso(iso)
+    if then is None:
+        return None
+    stamp = then.strftime("%a %d %b")
+    if (then.hour, then.minute) != (0, 0):
+        stamp += then.strftime(" %H:%M GMT")
+    return stamp
+
+
+def stamp_dates(row, *, max_age_days, collected_at, refreshed=None):
+    """Attach age, a human observation date, and a freshness verdict to a row.
+
+    This is the only place any of those four fields is set, so the page, the
+    brief and the logs cannot disagree about how current a figure is.
+    """
+    if refreshed is None:
+        refreshed = bool(row.get("refreshed", row.get("value") is not None))
+    row["collected_at"] = collected_at
+    row["as_of_label"] = as_of_label(row.get("as_of"))
+    row["max_sessions"] = max_age_days
+
+    age = age_days(row.get("as_of"))
+    row["age_days"] = round(age, 2) if age is not None else None
+    sessions = age_sessions(row.get("as_of"), collected_at)
+    row["age_sessions"] = sessions
+
+    today = _parse_iso(collected_at)
+    observed = _parse_iso(row.get("as_of"))
+    row["observed_today"] = bool(
+        today and observed and observed.date() == today.date())
+
+    if row.get("value") is None or sessions is None:
+        row["freshness"] = FRESH_UNKNOWN
+    elif not refreshed:
+        row["freshness"] = FRESH_STALE
+    elif sessions > max_age_days:
+        row["freshness"] = FRESH_LAGGED
+    else:
+        row["freshness"] = FRESH_CURRENT
+
+    # Kept for the existing page and brief code, derived from the one verdict
+    # above so the two can never drift apart.
+    row["stale"] = row["freshness"] == FRESH_STALE
+    row["lagged"] = row["freshness"] == FRESH_LAGGED
+    return row
+
+
+# --------------------------------------------------------------------------- #
 # Prices
 # --------------------------------------------------------------------------- #
-def collect_metrics(previous):
+def collect_metrics(previous, collected_at=None):
     """Return the metric list, carrying forward anything we could not refresh."""
     prev_by_id = {m["id"]: m for m in previous.get("metrics", [])}
+    # One timestamp for the whole snapshot: if prices and rates each stamped
+    # their own, two rows collected seconds apart could land on different
+    # calendar days at midnight and disagree about what "today" means.
+    collected_at = collected_at or now_iso()
 
     quotes = {}
     yahoo_symbols = [m["symbol"] for m in reg.METRICS if m["source"] == "yahoo"]
@@ -157,6 +271,15 @@ def collect_metrics(previous):
     except Exception as exc:  # noqa: BLE001
         note_error("gas_prices", exc)
 
+    # Brent and WTI from the daily oil report. This outranks EIA because EIA
+    # publishes spot in arrears: a morning brief needs the level the market
+    # last traded at, timestamped, not a correct figure from four days ago.
+    oil = {}
+    try:
+        oil = fetch_oil_prices(log=log)
+    except Exception as exc:  # noqa: BLE001
+        note_error("oil_prices", exc)
+
     bdi = None
     try:
         bdi = fetch_bdi(log=log)
@@ -178,6 +301,12 @@ def collect_metrics(previous):
             if b:
                 fresh = {"value": b["value"], "change": b.get("change"),
                          "as_of": b["as_of"], "source": "shipandbunker.com"}
+        if fresh is None and spec["id"] in oil:
+            o = oil[spec["id"]]
+            fresh = {"value": o["value"], "change": None, "as_of": o["as_of"],
+                     "source": "ICE/NYMEX front-month via daily oil report",
+                     "source_url": o.get("source_url")}
+
         if fresh is None and spec["id"] in eia_values:
             e = eia_values[spec["id"]]
             fresh = {"value": e["value"], "change": e.get("change"),
@@ -215,6 +344,25 @@ def collect_metrics(previous):
                 row[k] = spec[k]
 
         if fresh:
+            # The prose sources quote a level but no change, which left the
+            # brief saying "change unknown" for crude — the one thing a morning
+            # brief most needs. Derive it against the last stored observation,
+            # but only when that observation is from a genuinely earlier moment,
+            # so a re-read of the same figure never shows a move of zero as if
+            # the market had been flat.
+            # Only against the SAME source. EIA quotes Brent *spot* while the
+            # oil report quotes front-month *futures*; differencing one against
+            # the other produces a move of several dollars that no market made.
+            # A missing change is honest, a fabricated one is not.
+            old_row = prev_by_id.get(spec["id"])
+            if (fresh.get("change") is None and old_row
+                    and isinstance(old_row.get("value"), (int, float))
+                    and old_row.get("source") == fresh.get("source")
+                    and old_row.get("as_of") and fresh.get("as_of")
+                    and old_row["as_of"] < fresh["as_of"]):
+                fresh["change"] = round(fresh["value"] - old_row["value"], 4)
+                fresh["change_since"] = old_row["as_of"]
+                fresh["change_since_label"] = as_of_label(old_row["as_of"])
             row.update(fresh)
             row["stale"] = False
             # The source answered this run. Whether its newest observation is a
@@ -234,32 +382,21 @@ def collect_metrics(previous):
                 row["stale"] = True
                 row["refreshed"] = False
 
-        age = age_days(row.get("as_of"))
-        row["_spec_max_age"] = spec.get("max_age_days", 4)
-        row["age_days"] = round(age, 2) if age is not None else None
-        # "Stale" means this run could not refresh the figure. "Lagged" means it
-        # did, and the source's newest published observation is simply older
-        # than today — EIA spot series run several days behind, and calling that
-        # stale told the reader a fetch had failed when it had not.
-        limit = spec.get("max_age_days", 4)
-        if age is not None and age > limit:
-            if row.get("refreshed"):
-                row["lagged"] = True
-                row["stale"] = False
-            else:
-                row["stale"] = True
-        row.pop("_spec_max_age", None)
+        stamp_dates(row, max_age_days=spec.get("max_age_days", 4),
+                    collected_at=collected_at, refreshed=row.get("refreshed"))
         out.append(row)
 
-    out.extend(derive_metrics(out))
+    out.extend(derive_metrics(out, collected_at))
     return out, dry
 
 
-def derive_metrics(metrics):
+def derive_metrics(metrics, collected_at):
     """Metrics computed from other metrics — no extra source to fail.
 
-    A derived value is only as fresh as its stalest input, so staleness
-    propagates rather than quietly presenting old arithmetic as current.
+    A derived value is only as fresh as its stalest input, so both the
+    observation date and the freshness verdict propagate rather than quietly
+    presenting old arithmetic as current. The as_of taken is the OLDER of the
+    two inputs: a spread is only as of the moment both legs were last priced.
     """
     by_id = {m["id"]: m for m in metrics}
     rows = []
@@ -278,20 +415,26 @@ def derive_metrics(metrics):
                 value = product["value"] * reg.GALLONS_PER_BARREL - crude["value"]
             else:
                 value = inputs[0]["value"] - inputs[1]["value"]
-            ages = [i["age_days"] for i in inputs if i.get("age_days") is not None]
             row.update({
                 "value": round(value, 2),
                 "as_of": min((i["as_of"] for i in inputs if i.get("as_of")), default=None),
                 "source": "derived: " + " − ".join(spec["inputs"]),
-                "stale": any(i["stale"] for i in inputs),
-                "age_days": round(max(ages), 2) if ages else None,
             })
-            log(f"  derived: {spec['id']} = {row['value']} {spec['unit']}"
-                + (" (stale inputs)" if row["stale"] else ""))
+            # A derived row is never fresher than its worst input, so it
+            # inherits that verdict instead of being re-judged on its own age.
+            worst = max(inputs, key=lambda i: i.get("age_days") or 0)
+            stamp_dates(row, max_age_days=worst.get("max_sessions", 1),
+                        collected_at=collected_at,
+                        refreshed=all(not i.get("stale") for i in inputs))
+            row["derived_freshness_from"] = worst["id"]
+            log(f"  derived: {spec['id']} = {row['value']} {spec['unit']} "
+                f"({row['freshness']}, as at {row['as_of_label']})")
         else:
             missing = [s for s, i in zip(spec["inputs"], inputs)
                        if not (i and isinstance(i.get("value"), (int, float)))]
             log(f"  derived: {spec['id']} unavailable — needs {', '.join(missing)}")
+            stamp_dates(row, max_age_days=4, collected_at=collected_at,
+                        refreshed=False)
         rows.append(row)
     return rows
 
@@ -299,7 +442,7 @@ def derive_metrics(metrics):
 # --------------------------------------------------------------------------- #
 # Freight routes that need a paid Baltic subscription
 # --------------------------------------------------------------------------- #
-def collect_rates(dry=None):
+def collect_rates(dry=None, collected_at=None):
     """Build the rate table. Rows with no number render as inactive.
 
     Official Baltic route assessments cost GBP 3,420/yr, so these are inactive
@@ -310,6 +453,7 @@ def collect_rates(dry=None):
     manual = load_json(MANUAL, {})
     values = manual.get("rates", {}) if isinstance(manual, dict) else {}
     dry = dry or {}
+    collected_at = collected_at or now_iso()
 
     rows = []
     for spec in reg.MANUAL_RATES:
@@ -327,19 +471,27 @@ def collect_rates(dry=None):
                                "commentary.",
         }
         # A figure quoted in the daily Reuters report beats a hand-entered one.
+        # A weekly route assessment is expected to be up to a week behind, so
+        # judging it against the daily limit would mark the whole tanker table
+        # lagged every day but publication day.
+        limit = 2 if cadence == "daily" else 9
+
         if spec["id"] in dry:
             d = dry[spec["id"]]
-            age = age_days(d.get("as_of"))
-            limit = 4 if cadence == "daily" else 10
             row.update({"value": d["value"], "status": "ok", "as_of": d["as_of"],
                         "source": "Baltic Exchange via Reuters/Hellenic",
-                        "source_url": d.get("source_url"),
-                        "age_days": round(age, 2) if age is not None else None,
-                        "stale": bool(age is not None and age > limit)})
+                        "source_url": d.get("source_url")})
             row.pop("why_unavailable", None)
         elif isinstance(raw, (int, float)):
+            # A hand-entered rate used to carry no date at all, which made it
+            # indistinguishable from a figure collected this morning.
             row.update({"value": raw, "status": "ok",
+                        "as_of": manual.get("as_of"),
                         "source": manual.get("source", "manual entry")})
+            row.pop("why_unavailable", None)
+
+        stamp_dates(row, max_age_days=limit, collected_at=collected_at,
+                    refreshed=row["value"] is not None)
         rows.append(row)
 
     live = sum(1 for r in rows if r["status"] == "ok")
@@ -550,9 +702,23 @@ def merge_storylines(previous, updated, today, log):
 
 
 def market_tone(metrics):
-    """A one-line summary built from arithmetic, not a language model."""
-    moved = [m for m in metrics if m.get("change") not in (None, 0) and not m["stale"]]
+    """A one-line summary built from arithmetic, not a language model.
+
+    Only CURRENT rows count. A lagged row often still carries a change figure —
+    EIA supplies one — and counting it would report a move from several
+    sessions ago as though it happened this morning, which is the same error
+    the written brief was making.
+    """
+    moved = [m for m in metrics
+             if m.get("change") not in (None, 0)
+             and m.get("freshness") == FRESH_CURRENT]
     if not moved:
+        dated = [m for m in metrics
+                 if m.get("value") is not None and m.get("as_of_label")]
+        if dated:
+            newest = max(dated, key=lambda m: m.get("as_of") or "")
+            return ("No price has refreshed with a move yet today. The newest "
+                    f"figure is {newest['label']} as at {newest['as_of_label']}.")
         return "No fresh moves to report yet today."
     up = [m for m in moved if m["change"] > 0]
     down = [m for m in moved if m["change"] < 0]
@@ -560,7 +726,8 @@ def market_tone(metrics):
     pct = (biggest["change"] / biggest["value"] * 100) if biggest["value"] else 0
     return (f"{len(up)} of {len(moved)} tracked prices rose and {len(down)} fell. "
             f"Biggest mover: {biggest['label']} {pct:+.1f}% to "
-            f"{biggest['value']:,.2f} {biggest['unit']}.")
+            f"{biggest['value']:,.2f} {biggest['unit']} "
+            f"(as at {biggest.get('as_of_label') or 'an unknown date'}).")
 
 
 def main():
@@ -573,10 +740,11 @@ def main():
     log(f"shipping-brief collector — {now_iso()}")
     previous = load_json(LATEST, {})
 
+    snapshot_time = now_iso()
     log("prices:")
-    metrics, dry = collect_metrics(previous)
+    metrics, dry = collect_metrics(previous, collected_at=snapshot_time)
     log("rates:")
-    rates = collect_rates(dry)
+    rates = collect_rates(dry, collected_at=snapshot_time)
     log("news:")
     company, market = collect_news()
     archive = merge_archive(company, market)
@@ -588,7 +756,7 @@ def main():
         f"{len({i.get('source') for i in market_items})} sources, {nordic_n} Nordic")
 
     snapshot = {
-        "generated_at": now_iso(),
+        "generated_at": snapshot_time,
         "tone": market_tone(metrics),
         "metrics": metrics,
         "rates": rates,
@@ -596,8 +764,18 @@ def main():
         "diagnostics": {
             "errors": errors,
             "hints": setup_hints(metrics),
-            "metrics_fresh": sum(1 for m in metrics if not m["stale"]),
+            # Counted on the freshness verdict, not on "not stale": a row with
+            # no value at all is not stale (nothing was carried forward) and
+            # must not be tallied as a healthy one.
+            "metrics_fresh": sum(1 for m in metrics
+                                 if m.get("freshness") == FRESH_CURRENT),
             "metrics_total": len(metrics),
+            # How many figures are genuinely today's — the number the brief's
+            # dating rules hinge on, recorded so a bad day is visible later.
+            "observed_today": sum(1 for r in list(metrics) + list(rates)
+                                  if r.get("observed_today")),
+            "priced_rows": sum(1 for r in list(metrics) + list(rates)
+                               if r.get("value") is not None),
             "rates_active": sum(1 for r in rates if r["status"] == "ok"),
             "rates_total": len(rates),
         },
@@ -624,13 +802,19 @@ def main():
         log(f"  brief: ${spend['total_usd']:.3f} over {spend['runs']} runs "
             f"(~${spend['projected_monthly_usd']:.2f}/month at this rate)")
 
+    # The summary prints the observation date for every row, because "ok" next
+    # to an age of 3.8 days is how a lagged figure passed for a live one.
     print()
-    print(f"{'metric':<16} {'value':>12}  {'chg':>9}  {'age':>6}  state")
-    for m in metrics:
-        val = f"{m['value']:,.2f}" if isinstance(m["value"], (int, float)) else "—"
-        chg = f"{m['change']:+,.2f}" if isinstance(m["change"], (int, float)) else "—"
-        age = f"{m['age_days']:.1f}d" if m["age_days"] is not None else "—"
-        print(f"{m['id']:<16} {val:>12}  {chg:>9}  {age:>6}  {'STALE' if m['stale'] else 'ok'}")
+    print(f"{'metric':<16} {'value':>12}  {'chg':>9}  {'observed':<18} {'sess':>4}  state")
+    for row in list(metrics) + [r for r in rates if r.get("value") is not None]:
+        val = f"{row['value']:,.2f}" if isinstance(row.get("value"), (int, float)) else "—"
+        chg = f"{row['change']:+,.2f}" if isinstance(row.get("change"), (int, float)) else "—"
+        when = row.get("as_of_label") or "—"
+        sess = row.get("age_sessions")
+        sess = str(sess) if isinstance(sess, int) else "—"
+        state = {"current": "ok", "lagged": "LAGGED", "stale": "STALE"}.get(
+            row.get("freshness"), "—")
+        print(f"{row['id']:<16} {val:>12}  {chg:>9}  {when:<18} {sess:>4}  {state}")
     print(f"\ntone: {snapshot['tone']}")
     if snapshot.get("brief"):
         print("\nwritten brief:")
