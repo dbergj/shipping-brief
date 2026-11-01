@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-31T06:13:30+00:00",
+ "updated": "2026-11-01T06:17:42+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Direct attacks on ships in Hormuz",
    "status": "active",
-   "what": "A tanker caught fire in the Strait of Hormuz after explosives were attached to its hull, reported as a new method of attack against commercial shipping, with multiple incidents reported. Gulf oil producers are said to be assembling nearly 230 tankers to keep crude moving through the strait amid owner reluctance.",
-   "why_it_matters": "Limpet-style attacks on hulls raise war-risk premiums and crew-safety objections for ships transiting Hormuz, shrinking the pool of owners willing to lift Arabian Gulf cargoes and feeding into already extreme VLCC and Suezmax earnings.",
-   "latest": "No new incident reported today; commentary refers to Gulf crude having 'rambled on around the Stra[it]' following 'the closure of Hormuz'.",
+   "what": "Tankers have been attacked in and around the Strait of Hormuz, including explosives attached to a hull, and strikes on commercial vessels continue amid threats of renewed US action against Iran.",
+   "why_it_matters": "Attacks on hulls raise war-risk premiums and crew-safety objections for Hormuz transits, shrinking the pool of owners willing to lift Arabian Gulf cargoes and supporting crude tanker earnings.",
+   "latest": "gCaptain reported on 31 October that the strikes are inflicting economic pain on both sides as renewed attacks are threatened; trade press also describes Gulf crude moving around the strait.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -15,20 +15,21 @@
     "brent"
    ],
    "sources": [
+    "Shipping Strikes In Hormuz Leave Both Sides With Economic Pain",
     "Ramble On: Who Pays the Freight?"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-10-31",
-   "days_running": 2,
+   "last_update": "2026-11-01",
+   "days_running": 3,
    "days_since_update": 0
   },
   {
    "id": "black-sea-attacks",
    "title": "Drone attacks on shipping in the western Black Sea",
-   "status": "active",
-   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, the latest in a series of strikes in the western Black Sea this month that have raised concerns about a widening conflict.",
-   "why_it_matters": "Attacks on ships and port infrastructure in the Black Sea threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
-   "latest": "No new Black Sea incident in today's data; European dockworkers struck partly over 'the number of seafarers killed in wars from the Gulf to the Black Sea'.",
+   "status": "watch",
+   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, the latest in a series of strikes in the western Black Sea this month.",
+   "why_it_matters": "Attacks on ships and port infrastructure threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
+   "latest": null,
    "watch": [
     "bdi",
     "bpi",
@@ -39,36 +40,16 @@
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 2,
-   "days_since_update": 0
-  },
-  {
-   "id": "iran-blockade-blacklist",
-   "title": "US Iran blockade warnings and vessel blacklist",
-   "status": "watch",
-   "what": "US forces have reiterated blockade warnings to shipping, with the PGSA blacklist expanding to 125 vessels, alongside a piracy warning for the Gulf of Aden.",
-   "why_it_matters": "A growing blacklist shrinks the compliant tanker pool and raises war-risk and routing costs through Hormuz and Bab al-Mandab, which feeds directly into crude and product tanker earnings.",
-   "latest": null,
-   "watch": [
-    "vlcc_tce",
-    "lr2_tce",
-    "mr_tc14_tce"
-   ],
-   "sources": [
-    "Ramble On: Who Pays the Freight?"
-   ],
-   "first_seen": "2026-10-29",
-   "last_update": "2026-10-29",
    "days_running": 3,
-   "days_since_update": 2
+   "days_since_update": 1
   },
   {
    "id": "chokepoint-transits",
    "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
    "status": "active",
-   "what": "Hormuz recorded six VLCC transits on Oct 25, the most since Oct 17, while Bab al-Mandab recorded one VLCC on each of Oct 24 and Oct 25. Vessel waiting remains elevated across the Arabian Gulf and Gulf of Oman, with 265 dry bulk vessels waiting as of 28 October and Fujairah holding 28% of them.",
-   "why_it_matters": "Transit counts and waiting times are a direct read on whether ships are routing through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
-   "latest": "No new transit counts today; VLCC TD3C TCE stands at 1,287,851 USD/day and Suezmax TD20 at 406,769 USD/day.",
+   "what": "Hormuz recorded six VLCC transits on Oct 25, the most since Oct 17, with one VLCC through Bab al-Mandab on each of Oct 24 and Oct 25. Vessel waiting remains elevated across the Arabian Gulf, with 265 dry bulk vessels waiting as of 28 October and Fujairah holding 28% of them.",
+   "why_it_matters": "Transit counts and waiting times show whether ships route through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
+   "latest": "Trade press notes Gulf crude continuing to move around the strait as China's stockpile cushion draws down.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -78,46 +59,65 @@
     "Ramble On: Who Pays the Freight?"
    ],
    "first_seen": "2026-10-29",
-   "last_update": "2026-10-31",
-   "days_running": 3,
+   "last_update": "2026-11-01",
+   "days_running": 4,
    "days_since_update": 0
   },
   {
    "id": "russian-diesel-atlantic",
-   "title": "Russian diesel returning across the Atlantic",
-   "status": "watch",
-   "what": "A reported US-Russia agreement on supplying extra diesel to the US market is said to be creating a new trade, but it has run into political opposition, with pushback reported to be gaining traction among US energy importers.",
-   "why_it_matters": "A reopened Atlantic diesel route would reshape clean product tanker ton-miles and MR and LR employment patterns, but political and legal resistance leaves the trade uncertain.",
-   "latest": null,
+   "title": "Russian diesel flows and export restrictions",
+   "status": "active",
+   "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia's government has extended a general ban on most diesel exports until the end of January, with some volumes still allowed to flow.",
+   "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment patterns.",
+   "latest": "Russia extended its diesel export ban through January, reported 31 October.",
    "watch": [
     "mr_tc2_tce",
     "mr_tc14_tce",
     "lr2_tce"
    ],
    "sources": [
-    "Russian LNG production up 15.2 percent in January-September"
+    "Russia Extends Ban On Most Diesel Exports Through January"
    ],
    "first_seen": "2026-10-29",
-   "last_update": "2026-10-30",
-   "days_running": 3,
-   "days_since_update": 1
+   "last_update": "2026-11-01",
+   "days_running": 4,
+   "days_since_update": 0
   },
   {
    "id": "port-labour-disruption",
    "title": "Port labour disruption in the US and Europe",
    "status": "active",
-   "what": "A strike threatening major US container terminals at Los Angeles and Long Beach has been postponed while the Pacific Maritime Association and the ILWU extend talks, while dockworkers struck across Europe and beyond on Friday in protest at arms shipments through their ports.",
-   "why_it_matters": "Simultaneous labour action at container and ferry berths disrupts berthing schedules and cargo flows, and an unresolved US West Coast dispute leaves a large share of US import capacity exposed to future stoppages.",
-   "latest": "New story: US West Coast strike delayed as talks extend; European dockworker strike continued Friday, disrupting shipping and ferries.",
+   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond on Friday over arms shipments through their ports.",
+   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
+   "latest": "The LA-Long Beach dispute now centres on 250 security workers with a 4 November deadline extension.",
    "watch": [
     "bdi"
    ],
    "sources": [
-    "Strike Threat at Los Angeles, Long Beach Ports Delayed as Union and Employers Extend Talks",
+    "Impending strike threatens LA-LB ports container flow",
     "Dockworkers Strike Continues Friday Against Arms Shipments"
    ],
    "first_seen": "2026-10-31",
-   "last_update": "2026-10-31",
+   "last_update": "2026-11-01",
+   "days_running": 2,
+   "days_since_update": 0
+  },
+  {
+   "id": "taiwan-china-shipping-harassment",
+   "title": "Chinese patrols off Taiwan's east coast",
+   "status": "active",
+   "what": "Taiwan's Coast Guard says China's Coast Guard is harassing shipping with a patrol off Taiwan's east coast and asserting what Taipei calls a fictional jurisdiction, and has sent its own ships in response.",
+   "why_it_matters": "Interference with commercial traffic near a major East Asian routing corridor can affect transit decisions, insurance and schedules for ships serving North Asia.",
+   "latest": "Taiwan publicly accused China's Coast Guard of harassing shipping on 1 November.",
+   "watch": [
+    "bdi",
+    "bpi"
+   ],
+   "sources": [
+    "Taiwan Says China Harassing Shipping With East Coast Patrol"
+   ],
+   "first_seen": "2026-11-01",
+   "last_update": "2026-11-01",
    "days_running": 1,
    "days_since_update": 0
   }
