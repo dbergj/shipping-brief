@@ -194,7 +194,7 @@ What the dashboard does instead:
 ## How it works
 
 ```
-.github/workflows/brief.yml   the 05:30 UTC alarm clock
+.github/workflows/brief.yml   the two alarm clocks: 05:30 and 13:00 UTC
 collect/run.py                fetches everything, writes a snapshot, commits it
 collect/registry.py           the one file listing every metric and source
 collect/sources/              one small adapter per source
@@ -218,6 +218,31 @@ Design rules that keep it from breaking:
 - **The commit history is the database.** Each run saves a dated snapshot, so the
   historical record builds itself with no database to run.
 
+### Two runs a day
+
+| When | What it does | Cost |
+|---|---|---|
+| **05:30 UTC** (06:30/07:30 Norway) | Collects everything, then writes the brief. | a few cents |
+| **13:00 UTC** (14:00/15:00 Norway) | Refreshes the numbers only. | nothing |
+
+The midday pass exists because of when the sources publish. The daily oil report
+goes out at 11:00 and 22:00 UTC, so at 05:30 the newest one available is
+yesterday's — the morning brief necessarily quotes the previous session's close,
+which is normal for a morning brief and is labelled with its date. The midday run
+picks up the same-day 11:00 report, so by early afternoon the prices on the page
+are genuinely today's.
+
+It cannot cost anything. The `--no-brief` flag skips the model call, the API key is
+withheld from that run entirely, and the Anthropic SDK is therefore never even
+installed — three independent reasons it can't spend money.
+
+The brief itself is **written once, in the morning**, and the midday run carries it
+forward untouched rather than paying to rewrite the same morning. That is why the
+brief now carries the time it was written: it is a document from a moment, not a
+caption on whatever the numbers currently say. Where a figure on the page is newer
+than the brief's timestamp, the figure is right — and the brief names the date of
+every number it quotes, so the two can be told apart.
+
 ### Running it yourself
 
 ```bash
@@ -229,7 +254,7 @@ python3 -m http.server 8777        # then open http://localhost:8777
 Set `SHIPDASH_CACHE_MIN=30` while editing the page to cache responses and avoid
 hammering sources that rate-limit.
 
-The scheduled job commits to `data/` every morning, so pull before you edit:
+The scheduled job commits to `data/` twice a day, so pull before you edit:
 
 ```bash
 git pull --rebase

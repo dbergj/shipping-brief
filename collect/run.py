@@ -733,6 +733,9 @@ def market_tone(metrics):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print findings, write nothing")
+    ap.add_argument("--no-brief", action="store_true",
+                    help="refresh the numbers only; carry the existing brief forward "
+                         "without calling the model (no API cost)")
     ap.add_argument("--show-prompt", action="store_true",
                     help="print the written brief's prompt instead of calling the API")
     args = ap.parse_args()
@@ -783,21 +786,45 @@ def main():
 
     log("brief:")
     today = dt.date.today().isoformat()
-    previous_stories = load_storylines()
-    written = brief_mod.generate(snapshot, company_items, market_items,
-                                 storylines=previous_stories,
-                                 log=log, dry_run=args.show_prompt)
-    snapshot["brief"] = written
 
-    stories = merge_storylines(
-        previous_stories,
-        written.get("storylines") if written else None,
-        today, log)
-    snapshot["storylines"] = [s for s in stories if s["status"] != "closed"]
-    snapshot["storylines_closed"] = [s for s in stories if s["status"] == "closed"][:4]
+    if args.no_brief:
+        # The midday run refreshes prices only. The brief is a document written
+        # at a point in time, not a caption on whatever the numbers currently
+        # say, so it is carried forward verbatim with its own written_at and the
+        # page states that time. Calling the model again here would cost money
+        # to rewrite the same morning from barely-changed data.
+        #
+        # Storylines are carried forward untouched rather than re-merged. The
+        # merge is date-based and so would be harmless, but re-running it would
+        # log a spurious "no usable update returned" every afternoon.
+        snapshot["brief"] = previous.get("brief")
+        snapshot["storylines"] = previous.get("storylines", [])
+        snapshot["storylines_closed"] = previous.get("storylines_closed", [])
+        stories = load_storylines()
+        spend = load_json(SPEND, {})
+        snapshot["brief_spend"] = spend if isinstance(spend, dict) else {}
+        carried = snapshot["brief"] or {}
+        log("  --no-brief: data-only refresh, no model call, no cost")
+        if carried.get("written_at"):
+            log(f"  carrying forward the brief written {carried['written_at']}")
+        else:
+            log("  no existing brief to carry forward; the page will show none")
+    else:
+        previous_stories = load_storylines()
+        written = brief_mod.generate(snapshot, company_items, market_items,
+                                     storylines=previous_stories,
+                                     log=log, dry_run=args.show_prompt)
+        snapshot["brief"] = written
 
-    spend = record_spend(written, today)
-    snapshot["brief_spend"] = spend
+        stories = merge_storylines(
+            previous_stories,
+            written.get("storylines") if written else None,
+            today, log)
+        snapshot["storylines"] = [s for s in stories if s["status"] != "closed"]
+        snapshot["storylines_closed"] = [s for s in stories if s["status"] == "closed"][:4]
+
+        spend = record_spend(written, today)
+        snapshot["brief_spend"] = spend
     if spend.get("runs"):
         log(f"  brief: ${spend['total_usd']:.3f} over {spend['runs']} runs "
             f"(~${spend['projected_monthly_usd']:.2f}/month at this rate)")
@@ -833,17 +860,27 @@ def main():
         HISTORY.mkdir(parents=True, exist_ok=True)
         LATEST.write_text(json.dumps(snapshot, indent=1, ensure_ascii=False), encoding="utf-8")
         ARCHIVE.write_text(json.dumps(archive, indent=1, ensure_ascii=False), encoding="utf-8")
-        SPEND.write_text(json.dumps(spend, indent=1), encoding="utf-8")
-        STORYLINES.write_text(json.dumps(
-            {"updated": now_iso(), "stories": stories}, indent=1, ensure_ascii=False),
-            encoding="utf-8")
-        # History keeps only the numbers, which is all the sparklines need.
+        # A data-only run changed neither of these. Rewriting the storyline file
+        # would still stamp a new `updated` time into it, which is a diff, which
+        # is a commit — an afternoon of noise in the history for no change.
+        if not args.no_brief:
+            SPEND.write_text(json.dumps(spend, indent=1), encoding="utf-8")
+            STORYLINES.write_text(json.dumps(
+                {"updated": now_iso(), "stories": stories}, indent=1, ensure_ascii=False),
+                encoding="utf-8")
+        # History keeps only the numbers, which is all the sparklines need. The
+        # midday run overwrites the morning's entry for the same day on purpose:
+        # one row per day, and the later figures are the better ones.
         day = dt.date.today().isoformat()
         (HISTORY / f"{day}.json").write_text(json.dumps({
             "date": day,
             "values": {m["id"]: m["value"] for m in metrics if m["value"] is not None},
         }, indent=1), encoding="utf-8")
-        print(f"\nwrote {LATEST.relative_to(ROOT)}, {ARCHIVE.relative_to(ROOT)}, history/{day}.json")
+        wrote = [str(LATEST.relative_to(ROOT)), str(ARCHIVE.relative_to(ROOT)),
+                 f"history/{day}.json"]
+        if not args.no_brief:
+            wrote += [str(SPEND.relative_to(ROOT)), str(STORYLINES.relative_to(ROOT))]
+        print("\nwrote " + ", ".join(wrote))
 
     if errors:
         print(f"\n{len(errors)} adapter(s) failed:")

@@ -797,11 +797,32 @@ function renderBrief() {
   host.innerHTML = "";
 
   const head = el("div", "brief-head");
-  head.appendChild(el("span", "brief-label", "Today's brief"));
+  // Normally this is today's brief. But the midday run carries forward whatever
+  // brief exists, so if a morning run ever fails or is skipped the text on the
+  // page is from an earlier day — and calling that "Today's brief" would be the
+  // same lie as an undated price.
+  const sameDay = b.written_at && state.data.generated_at &&
+    b.written_at.slice(0, 10) === state.data.generated_at.slice(0, 10);
+  head.appendChild(el("span", "brief-label",
+    (!b.written_at || sameDay) ? "Today's brief" : "Latest brief"));
   const tag = el("span", "tag ai", "AI-written");
   tag.title = `Written by ${b.model} from only the data on this page. ` +
               "Everything else on the dashboard is collected directly from its source.";
   head.appendChild(tag);
+  // The brief is written once, in the morning. The numbers refresh again at
+  // midday, so without this timestamp the prose would read as a caption on
+  // figures that have since moved — the same confusion as an undated price.
+  if (b.written_at) {
+    const w = new Date(b.written_at);
+    if (!isNaN(w)) {
+      const t = el("span", "brief-when", "written " + w.toLocaleString("en-GB", {
+        weekday: "short", day: "numeric", month: "short",
+        hour: "2-digit", minute: "2-digit", timeZone: "UTC" }) + " GMT");
+      t.title = "The brief is written once each morning. Prices above refresh "
+              + "again at midday, so a figure there can be newer than this text.";
+      head.appendChild(t);
+    }
+  }
   host.appendChild(head);
 
   for (const para of b.text.split(/\n{2,}/)) {
@@ -810,8 +831,9 @@ function renderBrief() {
   const foot = el("div", "brief-foot");
   foot.appendChild(document.createTextNode(
     "Written from the numbers and headlines on this page only — it has no other " +
-    "sources and is told to say so when the data does not explain a move. Check it " +
-    "against the figures below."));
+    "sources and is told to say so when the data does not explain a move. It names " +
+    "the date of every figure it quotes. Prices refresh again at midday, so where " +
+    "a number above is newer than the time stamped on this brief, trust the number."));
   const sp = state.data.brief_spend;
   if (sp && sp.runs) {
     foot.appendChild(el("span", "spend",

@@ -1,13 +1,34 @@
 name: Morning brief
 
-# Runs every morning and commits that day's data. 05:30 UTC is 06:30 or 07:30 in
-# Norway depending on daylight saving — GitHub cron is always UTC.
-# Note: scheduled runs on GitHub can be delayed at busy times, so the brief may
-# land a little later than the exact minute below.
+# Two runs a day, both committing data back to the repo.
+#
+#   05:30 UTC — the full morning run: collect everything, then write the brief.
+#   13:00 UTC — data only: refresh the numbers, carry the morning's brief
+#               forward untouched, and make no model call at all.
+#
+# The second run exists because the daily oil report publishes at 11:00 and
+# 22:00 UTC. At 05:30 the newest one available is yesterday's, so the morning
+# brief necessarily quotes the previous session. The midday pass picks up the
+# same-day 11:00 report, which means the prices on the page are today's by
+# early afternoon. It costs nothing: no Anthropic SDK is installed and no key
+# is passed, so there is no way for it to spend money even by accident.
+#
+# 05:30 UTC is 06:30 or 07:30 in Norway depending on daylight saving — GitHub
+# cron is always UTC. Scheduled runs can also be delayed at busy times, so
+# either pass may land a little after the exact minute below.
 on:
   schedule:
     - cron: "30 5 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:        # lets you run it by hand from the Actions tab
+    inputs:
+      mode:
+        description: "What to run"
+        type: choice
+        default: full
+        options:
+          - full        # collect data and write the brief (costs a few cents)
+          - data-only   # refresh the numbers only, no model call, no cost
 
 permissions:
   contents: write           # needed to commit the snapshot back to the repo
@@ -29,7 +50,21 @@ jobs:
       EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
       FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
       SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # One switch, expressed as "is this the full morning run?" and negated.
+      # The paid run is matched EXPLICITLY — the 05:30 cron, or a manual run
+      # that asked for `full` — so anything else, including a third schedule
+      # added later, falls through to the free mode rather than quietly buying
+      # a brief.
+      DATA_ONLY: ${{ !(github.event.schedule == '30 5 * * *' || inputs.mode == 'full') }}
+      # The key reaches only the full run, so a data-only pass cannot spend
+      # anything even if DATA_ONLY were wrong.
+      #
+      # Note the operand order. GitHub's `a && b || c` is not a ternary: it
+      # yields `b` only when `b` is itself truthy. Writing
+      # `is_data_only && '' || secrets.ANTHROPIC_API_KEY` therefore ALWAYS
+      # yields the secret, because '' is falsy and falls through to the `||`.
+      # The secret has to sit in the middle slot for the guard to hold.
+      ANTHROPIC_API_KEY: ${{ (github.event.schedule == '30 5 * * *' || inputs.mode == 'full') && secrets.ANTHROPIC_API_KEY || '' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -38,9 +73,12 @@ jobs:
           python-version: "3.12"
 
       # The data collection itself uses only the standard library. The single
-      # dependency is the Anthropic SDK, used once a day to write the brief —
-      # and the run still succeeds without it.
-      # Skipped entirely when no key is configured.
+      # dependency is the Anthropic SDK, used by the morning run to write the
+      # brief — and the run still succeeds without it.
+      #
+      # Skipped when no key is configured, which is also what makes the midday
+      # pass free: that run has ANTHROPIC_API_KEY set to the empty string above,
+      # so the SDK is never installed and there is nothing to call.
       - name: Install the Anthropic SDK (only used for the written brief)
         if: ${{ env.ANTHROPIC_API_KEY != '' }}
         run: pip install --quiet anthropic
@@ -52,7 +90,13 @@ jobs:
         shell: bash
         run: |
           set +e
-          python3 collect/run.py 2>&1 | tee /tmp/collect.log
+          if [ "$DATA_ONLY" = "true" ]; then
+            echo "Data-only refresh: no brief will be written and no model called."
+            BRIEF_FLAG=--no-brief
+          else
+            BRIEF_FLAG=
+          fi
+          python3 collect/run.py $BRIEF_FLAG 2>&1 | tee /tmp/collect.log
           # ${PIPESTATUS[0]} is the collector's own status; plain $? here would
           # report tee's, which is always 0.
           echo "COLLECT_EXIT=${PIPESTATUS[0]}" >> "$GITHUB_ENV"
@@ -66,8 +110,16 @@ jobs:
           if git diff --staged --quiet; then
             echo "No data changed; nothing to commit."
           else
-            git commit -m "Brief for $(date -u +%Y-%m-%d)"
-            git push
+            if [ "$DATA_ONLY" = "true" ]; then
+              MSG="Midday data refresh for $(date -u +%Y-%m-%d)"
+            else
+              MSG="Brief for $(date -u +%Y-%m-%d)"
+            fi
+            # The morning run can be slow enough that the midday one starts
+            # while its commit is still unpushed, and a push to a moved branch
+            # is rejected. Rebase onto whatever landed and try once more.
+            git commit -m "$MSG"
+            git push || { git pull --rebase --autostash && git push; }
           fi
 
       - name: Report source failures
