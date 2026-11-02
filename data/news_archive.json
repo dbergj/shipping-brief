@@ -14,6 +14,19 @@
    "nordic": true
   },
   {
+   "title": "Wallenius Wilhelmsen signs major agreement with Asian auto manufacturer worth USD 700m",
+   "link": "https://newsweb.oslobors.no/message/685271",
+   "published": "2026-11-02T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "WAWI",
+   "company": "Wallenius Wilhelmsen ASA",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Dorian LPG Ltd. Declares Irregular Cash Dividend of $1.25 Per Share",
    "summary": "STAMFORD, Conn., October 30, 2026 -- Dorian LPG Ltd. (NYSE: LPG) (the \"Company\" or \"Dorian LPG\"),",
    "link": "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000049/lpg-20261030x8k.htm",
@@ -187,6 +200,19 @@
    "rank": 2
   },
   {
+   "title": "KCC: Ex dividend USD 0.36 today",
+   "link": "https://newsweb.oslobors.no/message/685278",
+   "published": "2026-11-02T06:00:05+00:00",
+   "source": "Oslo Børs",
+   "ticker": "KCC",
+   "company": "Klaveness Combination Carriers ASA",
+   "category": "Ex Date",
+   "kind": "company",
+   "routine": false,
+   "rank": 4,
+   "nordic": true
+  },
+  {
    "title": "Notification of Substantial Shareholding Disclosure - Arrowstreet Capital",
    "link": "https://newsweb.oslobors.no/message/684824",
    "published": "2026-10-26T13:41:50+00:00",
@@ -246,6 +272,186 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Technip Energies ready to hand over first NFE LNG train to QatarEnergy",
+   "link": "https://lngprime.com/lng-terminals/technip-energies-ready-to-hand-over-first-nfe-lng-train-to-qatarenergy/199346/",
+   "published": "2026-11-02T05:22:00+00:00",
+   "summary": "French LNG engineer Technip Energies is ready to hand over the first train of the North Field East LNG project in Qatar to state-owned LNG giant QatarEnergy, while the second train has already started commissioning, according to Technip Energies CEO Arnaud Pieton.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "TotalEnergies expects strong LNG trading results in Q4",
+   "link": "https://lngprime.com/europe/totalenergies-expects-strong-lng-trading-results-in-q4/199340/",
+   "published": "2026-11-02T05:20:00+00:00",
+   "summary": "French energy giant TotalEnergies expects strong liquefied natural gas (LNG) trading results in the fourth quarter, with Europe attracting more LNG volumes and the Dutch TTF currently above $30 per MMBtu, according to CEO Patrick Pouyanne.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Top 5 news of the week October 26-November 1",
+   "link": "https://lngprime.com/americas/top-5-news-of-the-week-october-26-november-1/199327/",
+   "published": "2026-11-02T05:16:00+00:00",
+   "summary": "LNG Prime brings you the five most popular news stories on our platform during the week of October 26-November 1, 2026.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker hit off Saudi and offshore tug struck in Hormuz",
+   "link": "",
+   "published": "2026-11-02T04:24:10+00:00",
+   "summary": "Iran continued its attacks on shipping at the beginning of November with two incidents on the first day of the month",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Pirates Hijack Iranian Fishing Vessel off Somalia",
+   "link": "https://maritime-executive.com/article/pirates-hijack-iranian-fishing-vessel-off-somalia",
+   "published": "2026-11-02T03:39:54+00:00",
+   "summary": "Pirates have hijacked an Iranian fishing vessel at a position off the northeastern coast of Somalia, according to EUNAVFOR's Maritime Security Centre...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "General cargo ship in unresolved abandonment case found sinking off Cyprus",
+   "link": "https://splash247.com/general-cargo-ship-in-unresolved-abandonment-case-found-sinking-off-cyprus/",
+   "published": "2026-11-02T03:00:00+00:00",
+   "summary": "The Tanzanian-flagged general cargo ship AS Dream, which remains listed in the ILO/IMO seafarer abandonment database, has been involved in a sinking incident off Cyprus, with all 10 crew members rescued. Cyprus’s Joint Rescue Coordination Centre received an alert at 20:15 on Friday after the vessel was reported sinking approximately 90 nautical miles west of …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
+   "link": "https://gcaptain.com/pakistan-lng-cargo-attacked-near-hormuz-had-iranian-approval/",
+   "published": "2026-11-02T02:57:24+00:00",
+   "summary": "By Stephen Stapczynski Nov 1, 2026 (Bloomberg) –Pakistan negotiated with Iran to secure safe passage for liquefied natural gas carrier Al Mayeda before the ship was attacked near the Strait of...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Falklands: Argentina's New Legal Dispute Over the Sea Lion Oil Project",
+   "link": "https://maritime-executive.com/article/falklands-argentina-s-new-legal-dispute-over-the-sea-lion-oil-project",
+   "published": "2026-11-02T02:26:18+00:00",
+   "summary": "The longstanding Argentina-United Kingdom Falkland Islands dispute is back in the global headlines. The UK endorsement of the offshore “Sea Lion” proj...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Returning to Suez, Iran blacklists Sinokor - Maritime in Minutes Oct in review",
+   "link": "",
+   "published": "2026-11-02T02:10:38+00:00",
+   "summary": "A round-up of the top maritime and shipping stories in October on the Seatrade Maritime Podcast",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russia Advances New LNG Supply Pivot to Africa",
+   "link": "https://maritime-executive.com/article/russia-advances-new-lng-supply-pivot-to-africa",
+   "published": "2026-11-02T00:47:11+00:00",
+   "summary": "As part of a wider scheme to diversify its LNG market, Russia is targeting Africa for gas exports, projecting rising demand for energy on the continen...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Op-Ed: Hormuz Crisis Has Parallels to the Suez Crisis of 1956",
+   "link": "https://maritime-executive.com/article/op-ed-in-the-hormuz-crisis-parallels-to-the-suez-crisis-of-1956",
+   "published": "2026-11-01T23:41:28+00:00",
+   "summary": "Months after the US and Israel launched Operation Epic Fury against Iran, the Strait of Hormuz remains largely closed. The UK chose not to get directl...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Offshore Tug Hit in Latest Attack in Strait of Hormuz",
+   "link": "https://maritime-executive.com/article/offshore-tug-hit-in-latest-attack-in-strait-of-hormuz",
+   "published": "2026-11-01T22:48:41+00:00",
+   "summary": "On Sunday evening, an Emirati-owned offshore tug was hit by a projectile in the Strait of Hormuz, somewhere northwest of the Musandam Peninsula. Secur...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LR Tankers: Freight Squeezes Naphtha Arb",
+   "link": "https://www.hellenicshippingnews.com/lr-tankers-freight-squeezes-naphtha-arb/",
+   "published": "2026-11-01T22:00:59+00:00",
+   "summary": "A shift has been underway in the naphtha market as a result of the war in the Middle East. In its latest weekly report, shipbroker Gibson said that “the war in the Middle East has upended Asia’s naphtha market. With the Gulf normally supplying over half of Asia’s imports, the March halt at Hormuz forced ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Asia-US container rates mixed as capacity tightens, import demand slows; tanker rates mostly higher",
+   "link": "https://www.hellenicshippingnews.com/asia-us-container-rates-mixed-as-capacity-tightens-import-demand-slows-tanker-rates-mostly-higher/",
+   "published": "2026-11-01T22:00:58+00:00",
+   "summary": "Rates for shipping containers from east Asia and China to the US were mixed this week as capacity on the trade lane is expected to tighten slightly and import demand is expected to ease. Rates to the West Coast are between $7,515-8,365/FEU (40-foot equivalent unit) while rates to the East Coast are between $9,600-11,500/FEU, remaining ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dry Bulk Shipping: Capesize Market Rebounding",
+   "link": "https://www.hellenicshippingnews.com/dry-bulk-shipping-capesize-market-rebounding/",
+   "published": "2026-11-01T22:00:58+00:00",
+   "summary": "Capesize The market gathered momentum through the week, with improving sentiment and stronger fixing activity across both basins driving a broad-based recovery. The Pacific initially remained relatively subdued, with C5 fixtures holding around the high $13s to $14 as miners maintained a measured approach. However, increased competition for tonnage saw rates push through the $14 ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Can carriers avoid overcapacity in 2027?",
+   "link": "https://www.hellenicshippingnews.com/can-carriers-avoid-overcapacity-in-2027/",
+   "published": "2026-11-01T22:00:57+00:00",
+   "summary": "Earlier this week, Drewry hosted one of its regular webinars examining the outlook for the container shipping market and the forces shaping the supply-demand balance in 2027. We also polled attendees on two questions: how they expect the market to evolve next year, and which factors will ultimately determine whether it tips into overcapacity. The ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VLCC Market Is Bottoming Out",
+   "link": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
+   "published": "2026-11-01T22:00:56+00:00",
+   "summary": "Clean LR2 The TC1 75kt MEG/Japan index shed 99 points this week to WS1003, with the corresponding Baltic round-trip TCE falling by $33,200 to $288,700/day. For the TC20 90kt MEG/UK-Continent run, the index edged up by $43,800 to $21.86 million, corresponding to $342,700/day on Baltic round trip. The TC15 80kt Mediterranean/East index dropped by $830,000 ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EU Retreats From Arctic Oil Ban Language In Strategy Draft",
+   "link": "https://gcaptain.com/eu-retreats-from-arctic-oil-ban-language-in-strategy-draft/",
+   "published": "2026-11-01T16:15:09+00:00",
+   "summary": "By Heidi Taksdal Skjeseth and Alberto Nardelli Oct 19, 2026 (Bloomberg) –The European Union looks to be relaxing its opposition to oil and gas production in polar areas, while still calling...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Venture Global Begins Supplying Plaquemines Customers Under Long-Term LNG Contracts",
+   "link": "https://gcaptain.com/venture-global-begins-supplying-plaquemines-customers-under-long-term-lng-contracts/",
+   "published": "2026-11-01T15:27:41+00:00",
+   "summary": "By Curtis Williams HOUSTON, Nov 1 (Reuters) – Energy major Shell SHEL.L was the first customer to receive LNG under a long-term sales contract from Venture Global’s VG.N Plaquemines export plant in Louisiana, after it completed Phase 1 commissioning...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Nakilat says no one injured after LNG carrier attack",
+   "link": "https://lngprime.com/vessels/nakilat-says-no-one-injured-after-lng-carrier-attack/199316/",
+   "published": "2026-11-01T09:09:15+00:00",
+   "summary": "Qatari LNG shipping giant Nakilat said that no one was injured after its 266,000-cbm Q-Max LNG carrier Al Mayeda was hit by \"unidentified objects\" while transiting the Arabian Gulf on Friday evening.",
+   "source": "LNG Prime",
    "kind": "market",
    "nordic": false
   },

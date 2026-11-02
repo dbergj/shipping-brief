@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-01T06:17:42+00:00",
+ "updated": "2026-11-02T06:33:23+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Direct attacks on ships in Hormuz",
    "status": "active",
-   "what": "Tankers have been attacked in and around the Strait of Hormuz, including explosives attached to a hull, and strikes on commercial vessels continue amid threats of renewed US action against Iran.",
-   "why_it_matters": "Attacks on hulls raise war-risk premiums and crew-safety objections for Hormuz transits, shrinking the pool of owners willing to lift Arabian Gulf cargoes and supporting crude tanker earnings.",
-   "latest": "gCaptain reported on 31 October that the strikes are inflicting economic pain on both sides as renewed attacks are threatened; trade press also describes Gulf crude moving around the strait.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continued into November, with a tanker hit off Saudi Arabia and an offshore tug struck in Hormuz on 1 November, and an LNG carrier attacked near the Strait.",
+   "why_it_matters": "Strikes on hulls raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
+   "latest": "Two further incidents reported on 1 November; the attacked LNG carrier Al Mayeda had reportedly secured Iranian approval for safe passage, and Gibson says the war has upended Asia's naphtha market and squeezed LR freight.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -15,12 +15,13 @@
     "brent"
    ],
    "sources": [
-    "Shipping Strikes In Hormuz Leave Both Sides With Economic Pain",
-    "Ramble On: Who Pays the Freight?"
+    "Tanker hit off Saudi and offshore tug struck in Hormuz",
+    "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
+    "LR Tankers: Freight Squeezes Naphtha Arb"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-01",
-   "days_running": 3,
+   "last_update": "2026-11-02",
+   "days_running": 4,
    "days_since_update": 0
   },
   {
@@ -40,48 +41,48 @@
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 3,
-   "days_since_update": 1
+   "days_running": 4,
+   "days_since_update": 2
   },
   {
    "id": "chokepoint-transits",
    "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
-   "status": "active",
+   "status": "watch",
    "what": "Hormuz recorded six VLCC transits on Oct 25, the most since Oct 17, with one VLCC through Bab al-Mandab on each of Oct 24 and Oct 25. Vessel waiting remains elevated across the Arabian Gulf, with 265 dry bulk vessels waiting as of 28 October and Fujairah holding 28% of them.",
    "why_it_matters": "Transit counts and waiting times show whether ships route through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
-   "latest": "Trade press notes Gulf crude continuing to move around the strait as China's stockpile cushion draws down.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "bdi"
    ],
    "sources": [
-    "Ramble On: Who Pays the Freight?"
+    "Returning to Suez, Iran blacklists Sinokor - Maritime in Minutes Oct in review"
    ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 4,
-   "days_since_update": 0
+   "days_running": 5,
+   "days_since_update": 1
   },
   {
    "id": "russian-diesel-atlantic",
    "title": "Russian diesel flows and export restrictions",
-   "status": "active",
+   "status": "watch",
    "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia's government has extended a general ban on most diesel exports until the end of January, with some volumes still allowed to flow.",
    "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment patterns.",
-   "latest": "Russia extended its diesel export ban through January, reported 31 October.",
+   "latest": null,
    "watch": [
     "mr_tc2_tce",
     "mr_tc14_tce",
     "lr2_tce"
    ],
    "sources": [
-    "Russia Extends Ban On Most Diesel Exports Through January"
+    "Russia Advances New LNG Supply Pivot to Africa"
    ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 4,
-   "days_since_update": 0
+   "days_running": 5,
+   "days_since_update": 1
   },
   {
    "id": "port-labour-disruption",
@@ -89,37 +90,36 @@
    "status": "active",
    "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond on Friday over arms shipments through their ports.",
    "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
-   "latest": "The LA-Long Beach dispute now centres on 250 security workers with a 4 November deadline extension.",
+   "latest": null,
    "watch": [
     "bdi"
    ],
    "sources": [
-    "Impending strike threatens LA-LB ports container flow",
     "Dockworkers Strike Continues Friday Against Arms Shipments"
    ],
    "first_seen": "2026-10-31",
    "last_update": "2026-11-01",
-   "days_running": 2,
-   "days_since_update": 0
+   "days_running": 3,
+   "days_since_update": 1
   },
   {
    "id": "taiwan-china-shipping-harassment",
    "title": "Chinese patrols off Taiwan's east coast",
-   "status": "active",
+   "status": "watch",
    "what": "Taiwan's Coast Guard says China's Coast Guard is harassing shipping with a patrol off Taiwan's east coast and asserting what Taipei calls a fictional jurisdiction, and has sent its own ships in response.",
    "why_it_matters": "Interference with commercial traffic near a major East Asian routing corridor can affect transit decisions, insurance and schedules for ships serving North Asia.",
-   "latest": "Taiwan publicly accused China's Coast Guard of harassing shipping on 1 November.",
+   "latest": null,
    "watch": [
     "bdi",
     "bpi"
    ],
    "sources": [
-    "Taiwan Says China Harassing Shipping With East Coast Patrol"
+    "Chinese Stealth Drone Successfully Takes Off, Lands on Amphibious Assault Ship"
    ],
    "first_seen": "2026-11-01",
    "last_update": "2026-11-01",
-   "days_running": 1,
-   "days_since_update": 0
+   "days_running": 2,
+   "days_since_update": 1
   }
  ]
 }
