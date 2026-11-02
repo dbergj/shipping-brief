@@ -14,6 +14,19 @@
    "nordic": true
   },
   {
+   "title": "Volare Shipping Ltd.: Stabilisation notice",
+   "link": "https://newsweb.oslobors.no/message/685296",
+   "published": "2026-11-02T07:00:19+00:00",
+   "source": "Oslo Børs",
+   "ticker": "VLCC",
+   "company": "Volare Shipping Ltd.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Wallenius Wilhelmsen signs major agreement with Asian auto manufacturer worth USD 700m",
    "link": "https://newsweb.oslobors.no/message/685271",
    "published": "2026-11-02T06:00:00+00:00",
@@ -213,6 +226,19 @@
    "nordic": true
   },
   {
+   "title": "Shareholder Disclosure Notification",
+   "link": "https://newsweb.oslobors.no/message/685378",
+   "published": "2026-11-02T13:44:01+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
+   "nordic": true
+  },
+  {
    "title": "Notification of Substantial Shareholding Disclosure - Arrowstreet Capital",
    "link": "https://newsweb.oslobors.no/message/684824",
    "published": "2026-10-26T13:41:50+00:00",
@@ -276,6 +302,249 @@
    "nordic": false
   },
   {
+   "title": "SCHOTTEL Unveils New Thruster for Submarines and Underwater Vehicles",
+   "link": "https://www.marinelink.com/news/schottel-unveils-new-thruster-submarines-544069",
+   "published": "2026-11-02T13:27:55+00:00",
+   "summary": "German propulsion specialist SCHOTTEL has introduced a new submersible auxiliary thruster designed to improve maneuverability and positioning accuracy for crewed and uncrewed underwater vehicles, including submarines.The SCHOTTEL PumpJet Submersible…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index falls to 2648 down 66 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2648-down-66-points/",
+   "published": "2026-11-02T13:00:44+00:00",
+   "summary": "Today, Monday, Novenber 2 2026, the Baltic Dry Index decreased by 66 points, reaching 2648 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "OMV Petrom chief to exit as Neptun Deep nears first gas",
+   "link": "https://splash247.com/omv-petrom-chief-to-exit-as-neptun-deep-nears-first-gas/",
+   "published": "2026-11-02T13:00:00+00:00",
+   "summary": "Romanian oil and gas producer OMV Petrom is preparing for a leadership change as chief executive Christina Verchere has announced she will not seek another term, with her departure set to occur around the planned startup of the company’s flagship Neptun Deep gas development in the Black Sea. Verchere, who has led the company since …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Nakilat Names Nine New Gas Carriers in South Korea",
+   "link": "https://www.marinelink.com/news/nakilat-names-nine-new-gas-carriers-south-544067",
+   "published": "2026-11-02T12:34:18+00:00",
+   "summary": "Qatar Gas Transport Company (Nakilat) has named nine new gas carriers at three South Korean shipyards, marking progress in its fleet expansion programs aimed at increasing LNG transportation capacity and diversifying into LPG/ammonia shipping.The naming ceremonies…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EU awards funding for ‘Scotland’s first mainland Small Hydrogen Valley’",
+   "link": "https://ship.energy/energy/eu-awards-funding-for-scotlands-first-mainland-small-hydrogen-valley/",
+   "published": "2026-11-02T12:21:19+00:00",
+   "summary": "A partnership in the North-East of Scotland has been awarded €9 million of European Union funding to create a Small Hydrogen Valley in the region to speed up the transition to cleaner energy. The project – titled TH₂ISTLE – brings together an international consortium of 28 partners ranging from universities to industry leaders and economic development agencies who are holding a kick-off meeting today (2 November) at ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Oceanity bags Petrobras charter for oil spill response vessel",
+   "link": "https://splash247.com/oceanity-bags-petrobras-charter-for-oil-spill-response-vessel/",
+   "published": "2026-11-02T12:00:00+00:00",
+   "summary": "Offshore vessel operator Oceanity, formerly known as CMM Offshore, has secured a four-year charter contract with Brazilian state-controlled oil major Petrobras for its fast oil spill response vessel CMM Purity. Oceanity subsidiary, CMM Offshore Brasil, signed the contract, which covers deploying the specialised vessel to support Petrobras’ offshore operations. The financial terms, commencement date, and …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "PortXchange Expands Emissions Platform with Forecasting, AI Tools",
+   "link": "https://www.marinelink.com/news/portxchange-expands-emissions-platform-544064",
+   "published": "2026-11-02T11:57:19+00:00",
+   "summary": "Dutch maritime technology company PortXchange is expanding its EmissionInsider platform with emissions forecasting, scenario modelling and AI-assisted decarbonization planning tools to help ports assess the environmental impact of their operations…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DNV’s Insight: 53 New Orders for Alternative-Fueled Vessels in October",
+   "link": "https://www.marinelink.com/news/dnvs-insight-new-orders-alternativefueled-544063",
+   "published": "2026-11-02T11:49:18+00:00",
+   "summary": "October maintained the strong pace of contracting for alternative-fueled vessels observed since the summer, with 53 new orders recorded during the month, according to DNV’s Alternative Fuels Insight (AFI) platform.LNG accounted for 30 of October’s orders.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Norway hands out $430m for floating offshore wind projects",
+   "link": "https://splash247.com/norway-hands-out-430m-for-floating-offshore-wind-projects/",
+   "published": "2026-11-02T11:30:00+00:00",
+   "summary": "Norway’s state-backed Enova has awarded NOK3.94bn ($430m) in funding to two floating offshore wind projects to install four next-generation turbines off Karmøy. Fortius Offshore Wind and Fram Wind Solutions have been selected to receive support for projects at the METCentre offshore wind demonstration facility in Rogaland. The awards follow a competitive funding process that attracted …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "StormGeo acquires Portchain to accelerate Just-in-Time voyage optimisation at scale",
+   "link": "https://ship.energy/information/stormgeo-acquires-portchain-to-accelerate-just-in-time-voyage-optimisation-at-scale/",
+   "published": "2026-11-02T11:28:28+00:00",
+   "summary": "StormGeo’s acquisition of software provider Portchain adds port call coordination to StormGeo’s Voyage Intelligence platform. The acquisition by StormGeo, Alfa Laval’s digital arm for weather intelligence, voyage optimisation and fleet performance, was closed on 30 October. Portchain Connect supports digital alignment of vessel schedules and cargo volumes, while Portchain Quay supports berth, crane and workforce plan",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Southeast Asian facility to focus on methane emissions monitoring technologies",
+   "link": "https://ship.energy/energy/southeast-asian-facility-to-focus-on-methane-emissions-monitoring-technologies/",
+   "published": "2026-11-02T11:25:58+00:00",
+   "summary": "France-headquartered TotalEnergies has signed a collaboration agreement with Malaysia’s Petronas, the Japan Organization for Metals and Energy Security (JOGMEC) and JGC Corporation to support the development of the Southeast Asia Methane Emissions Technology Evaluation Center (SEA METEC). Led by Petronas and based in Malaysia, SEA METEC will focus on evaluating methane emissions measurement and monitoring technologie",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DP World launches new China Africa Link service",
+   "link": "https://ship.energy/information/dp-world-launches-new-china-africa-link-service/",
+   "published": "2026-11-02T11:23:57+00:00",
+   "summary": "DP World’s Shipping Solutions AMEA business will be launching a new weekly service called the China Africa Link towards the end of this month which it says will ‘strengthen maritime connectivity between China and the growing markets of East and Southern Africa’. The service will operate the following port rotation: Shanghai (China) – Ningbo (China) – Nansha (China) – Port Klang Westport (Malaysia) – Dar es Salaam (Ta",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cosco Shipping Ports sees steady volume growth in Q3",
+   "link": "",
+   "published": "2026-11-02T11:06:31+00:00",
+   "summary": "The Chinese port operator has maintained revenue growth amid global trade disruption",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LNG Shipping Market Gaining Ground",
+   "link": "https://www.hellenicshippingnews.com/lng-shipping-market-gaining-ground/",
+   "published": "2026-11-02T11:00:59+00:00",
+   "summary": "The LNG market strengthened this week, with increased fixing activity helping to reduce some of the available tonnage in both basins. The Atlantic market firmed following a number of fixtures and a slight drawdown in the position list, although further cargo requirements will be needed to maintain the momentum. On the BLNG1 Australia–Japan route, rates ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iran offers 48-hour Hormuz reopening plan as Trump signals progress in talks",
+   "link": "https://www.hellenicshippingnews.com/iran-offers-48-hour-hormuz-reopening-plan-as-trump-signals-progress-in-talks/",
+   "published": "2026-11-02T11:00:57+00:00",
+   "summary": "Iran has proposed reopening the Strait of Hormuz within two days if Washington meets its conditions, offering a breakthrough in talks to end the war as both sides warn that renewed fighting could spread regionally. Iranian Foreign Minister Abbas Araghchi said Qatari mediators had helped shorten Tehran’s seven-day reopening proposal. Under the revised sequence, the ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Vale freight, fuel hedges cushion impact of rising shipping costs",
+   "link": "https://www.hellenicshippingnews.com/vale-freight-fuel-hedges-cushion-impact-of-rising-shipping-costs/",
+   "published": "2026-11-02T11:00:55+00:00",
+   "summary": "Brazilian miner Vale SA’s freight and fuel hedging strategies have protected the company from the worst impacts of higher shipping costs facing iron ore producers, CEO Gustavo Pimenta said. About 75% of Vale’s shipping needs are covered by long-term contracts at fixed prices over the next few years, while the remaining needs will be managed ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "The cost of almost: what trade at its full potential really means",
+   "link": "https://www.hellenicshippingnews.com/the-cost-of-almost-what-trade-at-its-full-potential-really-means/",
+   "published": "2026-11-02T11:00:53+00:00",
+   "summary": "At any given moment, thousands of vessels are at sea. Each voyage is shaped by a series of decisions: speed, route, fuel, vessel performance, timing and execution. There is rarely one obviously right choice. A slower vessel may burn less fuel but arrive too late to capture the value of the cargo. A faster voyage ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LS Cable & System lines up Korean offshore wind installation deal",
+   "link": "https://splash247.com/ls-cable-system-lines-up-korean-offshore-wind-installation-deal/",
+   "published": "2026-11-02T11:00:00+00:00",
+   "summary": "South Korea’s LS Cable & System and its subsidiary, LS Marine Solution, have signed a capacity reservation agreement with Taean Wind Power for subsea cable supply and installation work on the 504MW Taean offshore wind project. The two companies are currently carrying out engineering and preliminary surveys to determine cable specifications and the final offshore …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Panama Canal restores previous booking criteria",
+   "link": "",
+   "published": "2026-11-02T10:52:47+00:00",
+   "summary": "The Panama Canal updates reallocation criteria and eligibility for its net zero programme",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wallenius Wilhelmsen adds $700m Asian carmaker deal to contract haul",
+   "link": "https://splash247.com/wallenius-wilhelmsen-adds-700m-asian-carmaker-deal-to-contract-haul/",
+   "published": "2026-11-02T10:46:00+00:00",
+   "summary": "Norwegian car carrier giant Wallenius Wilhelmsen has secured a three-year shipping contract worth around $700m with a major Asian automaker, taking its newly announced contract wins to more than $1.7bn in the space of five days. The Oslo-listed group did not identify the customer but said the agreement builds on an existing relationship. Freight rates …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "JP Morgan doubles down on VLCCs with fresh Hanwha deal",
+   "link": "https://splash247.com/jp-morgan-doubles-down-on-vlccs-with-fresh-hanwha-deal/",
+   "published": "2026-11-02T10:30:00+00:00",
+   "summary": "US banking giant JP Morgan has signed up for another two VLCC newbuildings at South Korea’s Hanwha Ocean, lifting its growing crude tanker orderbook to 12 vessels across yards in China and South Korea. Shipbuilding sources have tied the latest deal to the Wall Street lender’s maritime investment arm after Hanwha disclosed a KRW356.8bn ($267m) …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ExxonMobil boosts Rovuma LNG stake",
+   "link": "https://lngprime.com/americas/exxonmobil-boosts-rovuma-lng-stake/199397/",
+   "published": "2026-11-02T10:29:07+00:00",
+   "summary": "US energy giant ExxonMobil has increased its stake in the planned Rovuma LNG project in Mozambique through a deal with Italy's Eni, while the company still targets a final investment decision by the end of this year, according to ExxonMobil CEO Darren Woods.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "What is Iran’s aim with accelerated attacks on shipping?",
+   "link": "",
+   "published": "2026-11-02T10:07:43+00:00",
+   "summary": "Iran attacked at least 34 commercial vessels in Hormuz and the Gulf during October, the highest monthly number since the war started",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DNV says 30 LNG-powered vessels booked in October",
+   "link": "https://lngprime.com/asia/dnv-says-30-lng-powered-vessels-booked-in-october/199399/",
+   "published": "2026-11-02T09:51:38+00:00",
+   "summary": "Classification society DNV said on Monday that LNG remains the dominant fuel choice for alternative-fueled vessel orders, with 30 new orders for LNG dual-fuel vessels in October.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Espirito Santo Express fire – most cargo severely damaged or destroyed",
+   "link": "",
+   "published": "2026-11-02T08:35:43+00:00",
+   "summary": "The container ship’s owners Seaspan say the blaze is under control but will take a considerable to time to bring to a port of refuge",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Metlen, Shell seal LNG supply deal",
+   "link": "https://lngprime.com/contracts-and-tenders/metlen-shell-seal-lng-supply-deal/199391/",
+   "published": "2026-11-02T08:31:31+00:00",
+   "summary": "Greece’s Metlen Energy & Metals has signed a binding five-year deal to buy liquefied natural gas (LNG) from a unit of UK-based LNG giant Shell.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Blackstone-led group buys LNG Canada stake from Mitsubishi",
+   "link": "https://lngprime.com/asia/blackstone-led-group-buys-lng-canada-stake-from-mitsubishi/199379/",
+   "published": "2026-11-02T08:15:42+00:00",
+   "summary": "A group led by US-based private equity firm Blackstone has agreed to invest $3.1 billion to acquire a 49.9 percent non-controlling interest in a Mitsubishi subsidiary that holds an interest in the Shell-led LNG Canada project.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Technip Energies ready to hand over first NFE LNG train to QatarEnergy",
    "link": "https://lngprime.com/lng-terminals/technip-energies-ready-to-hand-over-first-nfe-lng-train-to-qatarenergy/199346/",
    "published": "2026-11-02T05:22:00+00:00",
@@ -312,10 +581,37 @@
    "nordic": false
   },
   {
+   "title": "Saudi Forces Launch Airstrike on Port of Ras Isa, Yemen",
+   "link": "https://maritime-executive.com/article/saudi-forces-launch-airstrike-on-port-of-ras-isa-yemen",
+   "published": "2026-11-02T04:15:00+00:00",
+   "summary": "Yemen's Houthi rebels have reported a Saudi airstrike on the port at Ras Isa, a petroleum product terminal located northwest of Hodeidah and a repeat...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russian Navy May Modernize Only One of its Giant \"Battlecruisers\"",
+   "link": "https://maritime-executive.com/article/russian-navy-may-modernize-only-one-of-its-giant-battlecruisers",
+   "published": "2026-11-02T03:55:24+00:00",
+   "summary": "The Russian Navy's nuclear-powered cruiser Pyotr Velikiy may be headed into retirement soon, according to Russian state outlet TASS. The aging ship is...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Pirates Hijack Iranian Fishing Vessel off Somalia",
    "link": "https://maritime-executive.com/article/pirates-hijack-iranian-fishing-vessel-off-somalia",
    "published": "2026-11-02T03:39:54+00:00",
    "summary": "Pirates have hijacked an Iranian fishing vessel at a position off the northeastern coast of Somalia, according to EUNAVFOR's Maritime Security Centre...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "WHOI Research Vessel Neil Armstrong Makes Rare Great Lakes Voyage",
+   "link": "https://maritime-executive.com/article/whoi-research-vessel-neil-armstrong-makes-rare-great-lakes-voyage",
+   "published": "2026-11-02T03:30:41+00:00",
+   "summary": "The oceanographic research vessel Neil Armstrong has set sail on an unusual science mission that will take it through the Great Lakes for the first ti...",
    "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
