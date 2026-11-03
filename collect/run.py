@@ -32,6 +32,7 @@ from bunkers import fetch_all_grades  # noqa: E402
 from dry_rates import fetch_dry_rates  # noqa: E402
 from gas_prices import fetch_gas_prices  # noqa: E402
 from route_rates import fetch_route_rates  # noqa: E402
+from cnbc import EXPECT as CNBC_SYMBOLS, fetch_cnbc  # noqa: E402
 from oil_prices import fetch_oil_prices  # noqa: E402
 from eia import fetch_eia  # noqa: E402
 from fred import fetch_fred  # noqa: E402
@@ -213,8 +214,21 @@ def collect_metrics(previous, collected_at=None):
     # calendar days at midnight and disagree about what "today" means.
     collected_at = collected_at or now_iso()
 
+    # CNBC first. It is keyless, carries an exchange timestamp to the second,
+    # supplies its own change figure, and states which instrument it priced so
+    # the mapping can be asserted. Everything below it is a fallback now.
+    cnbc_values = {}
+    try:
+        cnbc_values = fetch_cnbc(list(CNBC_SYMBOLS), log=log)
+        log(f"  cnbc: {len(cnbc_values)}/{len(CNBC_SYMBOLS)} symbols")
+    except Exception as exc:  # noqa: BLE001 - adapter must never kill the run
+        note_error("cnbc", exc)
+
     quotes = {}
-    yahoo_symbols = [m["symbol"] for m in reg.METRICS if m["source"] == "yahoo"]
+    yahoo_symbols = [m["symbol"] for m in reg.METRICS
+                     if m["source"] == "yahoo" and m["id"] not in cnbc_values]
+    if not yahoo_symbols:
+        log("  yahoo: not needed, CNBC covered every symbol")
     if yahoo_symbols:
         try:
             quotes = fetch_quotes(yahoo_symbols, log=log)
@@ -223,13 +237,19 @@ def collect_metrics(previous, collected_at=None):
         # fetch_quotes returns partial results rather than raising, so a total
         # wipeout (a rate-limited IP, say) would otherwise pass silently.
         if not quotes:
-            note_error("yahoo", f"no quotes returned for any of {len(yahoo_symbols)} symbols")
+            # Only worth flagging for symbols CNBC could not supply; Yahoo
+            # 429s constantly and is no longer the source of record.
+            log(f"  yahoo: none of the {len(yahoo_symbols)} remaining symbols "
+                f"returned (it rate-limits CI runners)")
         elif len(quotes) < len(yahoo_symbols):
             log(f"  yahoo: partial — {len(quotes)}/{len(yahoo_symbols)} symbols")
 
     # Official fallback for the core three, used only where Yahoo came back empty.
     yahoo_by_id = {m["id"]: quotes.get(m.get("symbol")) for m in reg.METRICS}
-    need_fallback = [mid for mid, q in yahoo_by_id.items() if not q]
+    # Anything CNBC already supplied is settled; asking EIA for it would spend
+    # requests to fetch a worse, older answer we would then discard.
+    need_fallback = [mid for mid, q in yahoo_by_id.items()
+                     if not q and mid not in cnbc_values]
     eia_values = {}
     if need_fallback:
         try:
@@ -271,14 +291,18 @@ def collect_metrics(previous, collected_at=None):
     except Exception as exc:  # noqa: BLE001
         note_error("gas_prices", exc)
 
-    # Brent and WTI from the daily oil report. This outranks EIA because EIA
-    # publishes spot in arrears: a morning brief needs the level the market
-    # last traded at, timestamped, not a correct figure from four days ago.
+    # Brent and WTI from the daily oil report, as a fallback behind CNBC and
+    # ahead of EIA. Skipped entirely when CNBC already has both: the report is
+    # only syndicated some days, so attempting it needlessly logs a failure
+    # for a source we did not need.
     oil = {}
-    try:
-        oil = fetch_oil_prices(log=log)
-    except Exception as exc:  # noqa: BLE001
-        note_error("oil_prices", exc)
+    if not {"brent", "wti"} <= set(cnbc_values):
+        try:
+            oil = fetch_oil_prices(log=log)
+        except Exception as exc:  # noqa: BLE001
+            note_error("oil_prices", exc)
+    else:
+        log("  oil_prices: not needed, CNBC supplied Brent and WTI live")
 
     bdi = None
     try:
@@ -291,7 +315,13 @@ def collect_metrics(previous, collected_at=None):
     out = []
     for spec in reg.METRICS:
         fresh = None
-        if spec["source"] == "yahoo":
+        if spec["id"] in cnbc_values:
+            c = cnbc_values[spec["id"]]
+            fresh = {"value": c["value"], "change": c.get("change"),
+                     "as_of": c["as_of"], "source": c["source"],
+                     "instrument": c.get("instrument")}
+
+        if fresh is None and spec["source"] == "yahoo":
             q = quotes.get(spec["symbol"])
             if q:
                 fresh = {"value": q["value"], "change": q.get("change"),
@@ -317,6 +347,11 @@ def collect_metrics(previous, collected_at=None):
             fresh = {"value": g["value"], "change": None, "as_of": g["as_of"],
                      "source": "Daily European gas report",
                      "source_url": g.get("source_url")}
+            # The report sometimes hedges ("a little under EUR95/MWh"). Carry
+            # that through so the page can show "≈95" rather than "95.00",
+            # which would claim a precision the source never gave.
+            if g.get("approximate"):
+                fresh["approximate"] = True
 
         if spec["source"] == "dry_rates" and spec["id"] in dry and fresh is None:
             d = dry[spec["id"]]
@@ -597,23 +632,42 @@ def setup_hints(metrics):
     import os
 
     hints = []
-    needs_key = [m for m in metrics
-                 if m.get("value") is None and m.get("fallback")]
+    missing = [m for m in metrics if m.get("value") is None]
+
+    # Only the three metrics EIA and FRED actually publish are worth suggesting
+    # a key for. The old version offered a FRED key for anything blank, which
+    # after CNBC became the primary source was simply wrong advice: the one
+    # remaining gap is coal, and no key fixes it.
+    KEY_COVERS = {"brent", "wti", "henry_hub"}
+    key_would_help = [m for m in missing if m["id"] in KEY_COVERS]
     have_key = os.environ.get("FRED_API_KEY") or os.environ.get("EIA_API_KEY")
-    if needs_key and not have_key:
-        names = ", ".join(m["label"] for m in needs_key)
+    if key_would_help and not have_key:
+        names = ", ".join(m["label"] for m in key_would_help)
         hints.append({
-            "problem": f"{names} could not be fetched.",
-            "fix": "Yahoo Finance refuses requests from servers, so the scheduled run "
-                   "cannot reach it. Add a free FRED_API_KEY (or EIA_API_KEY) as a "
-                   "repository secret and these come from an official source instead. "
+            "problem": f"{names} could not be fetched from any live source.",
+            "fix": "CNBC's quote service is the primary source and did not answer this "
+                   "run. Add a free FRED_API_KEY (or EIA_API_KEY) as a repository "
+                   "secret so there is an official fallback — it publishes a few days "
+                   "in arrears, which the page labels, but it is better than a gap. "
                    "Key: https://fredaccount.stlouisfed.org/apikey",
         })
 
-    unavailable = [m for m in metrics if m.get("value") is None and m.get("no_free_source")]
-    if unavailable:
+    undated = [m for m in missing
+               if m["id"] not in KEY_COVERS and m.get("fallback")]
+    if undated:
+        names = ", ".join(m["label"] for m in undated)
         hints.append({
-            "problem": f"{len(unavailable)} prices have no free source at all.",
+            "problem": f"{names} is listed but carries no number today.",
+            "fix": "Nothing is broken and nothing you can add will fix it. The quote "
+                   "service lists this contract but returns it with no exchange "
+                   "timestamp, and an undated price is the one thing this dashboard "
+                   "will not publish. The row fills itself if that ever changes.",
+        })
+
+    no_source = [m for m in missing if m.get("no_free_source")]
+    if no_source:
+        hints.append({
+            "problem": f"{len(no_source)} prices have no free source at all.",
             "fix": "These are exchange-licensed assessments. They are listed so you know "
                    "they exist and what they mean, the same way the paid Baltic routes "
                    "are — not because something is broken.",

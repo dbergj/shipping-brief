@@ -575,6 +575,14 @@ function kpiTile(m) {
     }
     card.appendChild(lab);
     const val = el("div", "k-value");
+    // "≈" where the source hedged the figure. Printing a hedged number as a
+    // clean decimal invents precision the report did not claim.
+    if (m.approximate) {
+      const ap = el("span", "k-approx", "≈");
+      ap.title = "The source quoted this approximately (for example \u201ca little "
+               + "under EUR95/MWh\u201d), so it is accurate to about a euro, not to the cent.";
+      val.appendChild(ap);
+    }
     val.appendChild(document.createTextNode(fmt(m.value, m.unit)));
     val.appendChild(el("span", "k-unit", m.unit));
     card.appendChild(val);

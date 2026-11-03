@@ -156,7 +156,9 @@ different day.
 
 | What | Source | Cost |
 |---|---|---|
-| Brent, WTI, gas, coal, product prices | Yahoo Finance, then EIA, then FRED | free |
+| Brent, WTI, Henry Hub, products, freight ETFs | CNBC quote service (live, timestamped) | free |
+| — if CNBC is down | Yahoo Finance, then the daily oil report's prose, then EIA, then FRED | free |
+| Dutch TTF gas | the daily European gas commentary, read as prose | free |
 | Written morning brief | Claude API (optional) | ~$1-2/month |
 | Bunker fuel prices | Ship & Bunker | free |
 | Baltic Dry Index (headline only) | Hellenic Shipping News | free |
@@ -164,6 +166,23 @@ different day.
 | US company filings (6-K, 8-K) | SEC EDGAR | free |
 | Trade press headlines | gCaptain, Splash247, Hellenic, Maritime Executive, Seatrade, MarineLink, LNG Prime, Bunkerspot | free |
 | Baltic sub-indices, per-route TCE | Baltic Exchange | £3,420/yr — not used |
+
+### Why Brent is a futures price, not a "spot" price
+
+The dashboard shows **ICE Brent front-month futures** — the January 2027 contract
+at the moment — and that is deliberate.
+
+What newspapers print as "the Brent price" is this number. It is what trades,
+what moves intraday, and what a broker means when they say Brent. The thing
+properly called *Brent spot* (EIA's "Europe Brent Spot Price FOB", or Platts
+Dated Brent) is a statistical assessment of physical cargo deals, compiled and
+published **three to five days after the fact**. It is authoritative for
+historical analysis and useless for a morning brief: on 3 November the newest EIA
+observation was 27 October, and it said $123.10 while Brent was trading at
+$105.85.
+
+So: futures for the live number, with the exchange's own timestamp on it. EIA
+stays in the chain underneath as a fallback, clearly labelled when it is used.
 
 ### Why there is no TradeWinds
 

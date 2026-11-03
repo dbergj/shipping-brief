@@ -293,6 +293,13 @@ td .asof { display: block; white-space: nowrap; }
 td .asof + .badge { margin-top: 4px; }
 .kpi.is-lagged .k-value { color: var(--text-secondary); }
 
+/* The approximation marker sits tight against the figure and stays quieter
+   than it, so it reads as a qualifier rather than part of the number. */
+.k-approx {
+  font-size: .62em; color: var(--text-muted); font-weight: 500;
+  margin-right: 1px; vertical-align: baseline;
+}
+
 /* ---------- tables ---------- */
 .tablewrap {
   overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius);

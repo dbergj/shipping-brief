@@ -91,25 +91,27 @@ METRICS = [
 # that no free provider publishes at all, which the page explains rather than
 # showing as a permanent failure.
 FALLBACK_NOTES = {
-    # Brent and WTI come from the daily oil report's prose, which outranks EIA:
-    # EIA is official but publishes spot three to five days in arrears, and a
-    # morning brief needs the level the market last traded at. See
-    # sources/oil_prices.py. EIA and FRED remain behind it as fallbacks.
-    "brent":     {"fallback": "read from the daily oil report (EIA/FRED behind it)"},
-    "wti":       {"fallback": "read from the daily oil report (EIA/FRED behind it)"},
-    "henry_hub": {"fallback": "FRED_API_KEY or EIA_API_KEY"},
-    # TTF now comes from the daily gas report's prose; see sources/gas_prices.py.
+    # The order of attempt for every exchange-traded price is now:
+    #   CNBC (keyless, live, timestamped)  ->  Yahoo  ->  daily-report prose
+    #   ->  EIA  ->  FRED
+    # CNBC leads because it is the only one of the five that is both current
+    # and reliably reachable from a CI runner. See sources/cnbc.py.
+    "brent":     {"fallback": "CNBC live quote, then the daily oil report, then EIA/FRED"},
+    "wti":       {"fallback": "CNBC live quote, then the daily oil report, then EIA/FRED"},
+    "henry_hub": {"fallback": "CNBC live quote, then EIA/FRED"},
+    # No TTF symbol exists on CNBC — checked ten candidates — so this one still
+    # depends on the daily gas report's prose; see sources/gas_prices.py.
     "ttf": {"fallback": "read from the daily European gas report"},
-    "coal_api2": {"no_free_source":
-            "API2 coal is an Argus/McCloskey assessment and is not published free."},
-    "gasoil": {"no_free_source":
-            "Refined product futures are exchange-licensed; no free daily source."},
-    "gasoline": {"no_free_source":
-            "Refined product futures are exchange-licensed; no free daily source."},
-    "bdry": {"no_free_source":
-            "ETF quotes need an equity data provider; none is free from a server."},
-    "bwet": {"no_free_source":
-            "ETF quotes need an equity data provider; none is free from a server."},
+    # CNBC does list ICE API2 Rotterdam Coal, but returns it with no exchange
+    # timestamp at all, and a number without an observation date is exactly
+    # what this dashboard refuses to publish. The row fills itself the day
+    # CNBC starts stamping it.
+    "coal_api2": {"fallback":
+            "CNBC lists ICE API2 but returns it undated; nothing else free publishes it."},
+    "gasoil": {"fallback": "CNBC live quote (ULSD heating oil front-month)"},
+    "gasoline": {"fallback": "CNBC live quote (RBOB front-month)"},
+    "bdry": {"fallback": "CNBC live quote"},
+    "bwet": {"fallback": "CNBC live quote"},
 }
 
 for _m in METRICS:
