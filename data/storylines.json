@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T06:33:23+00:00",
+ "updated": "2026-11-03T06:28:38+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
@@ -7,22 +7,18 @@
    "status": "active",
    "what": "Attacks on commercial shipping in and around the Strait of Hormuz continued into November, with a tanker hit off Saudi Arabia and an offshore tug struck in Hormuz on 1 November, and an LNG carrier attacked near the Strait.",
    "why_it_matters": "Strikes on hulls raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-   "latest": "Two further incidents reported on 1 November; the attacked LNG carrier Al Mayeda had reportedly secured Iranian approval for safe passage, and Gibson says the war has upended Asia's naphtha market and squeezed LR freight.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "lr2_tce",
     "brent"
    ],
-   "sources": [
-    "Tanker hit off Saudi and offshore tug struck in Hormuz",
-    "Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval",
-    "LR Tankers: Freight Squeezes Naphtha Arb"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-02",
-   "days_running": 4,
-   "days_since_update": 0
+   "days_running": 5,
+   "days_since_update": 1
   },
   {
    "id": "black-sea-attacks",
@@ -36,13 +32,11 @@
     "bpi",
     "bsi"
    ],
-   "sources": [
-    "Dockworkers Strike Continues Friday Against Arms Shipments"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 4,
-   "days_since_update": 2
+   "days_running": 5,
+   "days_since_update": 3
   },
   {
    "id": "chokepoint-transits",
@@ -56,13 +50,11 @@
     "suezmax_tce",
     "bdi"
    ],
-   "sources": [
-    "Returning to Suez, Iran blacklists Sinokor - Maritime in Minutes Oct in review"
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 5,
-   "days_since_update": 1
+   "days_running": 6,
+   "days_since_update": 2
   },
   {
    "id": "russian-diesel-atlantic",
@@ -76,13 +68,11 @@
     "mr_tc14_tce",
     "lr2_tce"
    ],
-   "sources": [
-    "Russia Advances New LNG Supply Pivot to Africa"
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 5,
-   "days_since_update": 1
+   "days_running": 6,
+   "days_since_update": 2
   },
   {
    "id": "port-labour-disruption",
@@ -94,13 +84,11 @@
    "watch": [
     "bdi"
    ],
-   "sources": [
-    "Dockworkers Strike Continues Friday Against Arms Shipments"
-   ],
+   "sources": [],
    "first_seen": "2026-10-31",
    "last_update": "2026-11-01",
-   "days_running": 3,
-   "days_since_update": 1
+   "days_running": 4,
+   "days_since_update": 2
   },
   {
    "id": "taiwan-china-shipping-harassment",
@@ -113,13 +101,11 @@
     "bdi",
     "bpi"
    ],
-   "sources": [
-    "Chinese Stealth Drone Successfully Takes Off, Lands on Amphibious Assault Ship"
-   ],
+   "sources": [],
    "first_seen": "2026-11-01",
    "last_update": "2026-11-01",
-   "days_running": 2,
-   "days_since_update": 1
+   "days_running": 3,
+   "days_since_update": 2
   }
  ]
 }
