@@ -1,30 +1,53 @@
 {
- "updated": "2026-11-03T06:28:38+00:00",
+ "updated": "2026-11-04T06:31:33+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Direct attacks on ships in Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continued into November, with a tanker hit off Saudi Arabia and an offshore tug struck in Hormuz on 1 November, and an LNG carrier attacked near the Strait.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, including a VLCC whose engine room was struck in Omani waters, reported as the fifth confirmed attack in the first three days of the month.",
    "why_it_matters": "Strikes on hulls raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-   "latest": null,
+   "latest": "A VLCC engine room was struck in Omani waters, the fifth confirmed attack in the first three days of November; separate reporting describes a US-Iran standoff with Trump threatening renewed attacks against Iran.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "lr2_tce",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "VLCC engine room struck in latest Hormuz attack",
+    "Hormuz Standoff Leaves Both Sides With Economic Pain"
+   ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-02",
-   "days_running": 5,
-   "days_since_update": 1
+   "last_update": "2026-11-04",
+   "days_running": 6,
+   "days_since_update": 0
+  },
+  {
+   "id": "chokepoint-transits",
+   "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
+   "status": "active",
+   "what": "Strait of Hormuz traffic rose in October to its highest monthly level since July, supported by stronger dry bulk and LNG movements even as VLCC traffic declined. Red Sea traffic also rose. Vessel waiting remains elevated across the Arabian Gulf.",
+   "why_it_matters": "Transit counts and waiting times show whether ships route through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
+   "latest": "October Hormuz crossings hit a three-month high despite the attacks, with dry bulk and LNG up but VLCC traffic down; Red Sea traffic also increased.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "bdi"
+   ],
+   "sources": [
+    "Hormuz Oct crossings at 3-month high despite attacks, Red Sea traffic also rises"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-11-04",
+   "days_running": 7,
+   "days_since_update": 0
   },
   {
    "id": "black-sea-attacks",
    "title": "Drone attacks on shipping in the western Black Sea",
    "status": "watch",
-   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, the latest in a series of strikes in the western Black Sea this month.",
+   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, the latest in a series of strikes in the western Black Sea.",
    "why_it_matters": "Attacks on ships and port infrastructure threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
    "latest": null,
    "watch": [
@@ -35,32 +58,14 @@
    "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 5,
-   "days_since_update": 3
-  },
-  {
-   "id": "chokepoint-transits",
-   "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
-   "status": "watch",
-   "what": "Hormuz recorded six VLCC transits on Oct 25, the most since Oct 17, with one VLCC through Bab al-Mandab on each of Oct 24 and Oct 25. Vessel waiting remains elevated across the Arabian Gulf, with 265 dry bulk vessels waiting as of 28 October and Fujairah holding 28% of them.",
-   "why_it_matters": "Transit counts and waiting times show whether ships route through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
-   "latest": null,
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "bdi"
-   ],
-   "sources": [],
-   "first_seen": "2026-10-29",
-   "last_update": "2026-11-01",
    "days_running": 6,
-   "days_since_update": 2
+   "days_since_update": 4
   },
   {
    "id": "russian-diesel-atlantic",
    "title": "Russian diesel flows and export restrictions",
    "status": "watch",
-   "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia's government has extended a general ban on most diesel exports until the end of January, with some volumes still allowed to flow.",
+   "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia has extended a general ban on most diesel exports until the end of January, with some volumes still allowed to flow.",
    "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment patterns.",
    "latest": null,
    "watch": [
@@ -71,14 +76,14 @@
    "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 6,
-   "days_since_update": 2
+   "days_running": 7,
+   "days_since_update": 3
   },
   {
    "id": "port-labour-disruption",
    "title": "Port labour disruption in the US and Europe",
-   "status": "active",
-   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond on Friday over arms shipments through their ports.",
+   "status": "watch",
+   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond over arms shipments through their ports.",
    "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
    "latest": null,
    "watch": [
@@ -87,8 +92,8 @@
    "sources": [],
    "first_seen": "2026-10-31",
    "last_update": "2026-11-01",
-   "days_running": 4,
-   "days_since_update": 2
+   "days_running": 5,
+   "days_since_update": 3
   },
   {
    "id": "taiwan-china-shipping-harassment",
@@ -104,8 +109,8 @@
    "sources": [],
    "first_seen": "2026-11-01",
    "last_update": "2026-11-01",
-   "days_running": 3,
-   "days_since_update": 2
+   "days_running": 4,
+   "days_since_update": 3
   }
  ]
 }

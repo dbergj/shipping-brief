@@ -14,6 +14,19 @@
    "nordic": true
   },
   {
+   "title": "Wallenius Wilhelmsen delivers solid results in Q3",
+   "link": "https://newsweb.oslobors.no/message/685534",
+   "published": "2026-11-04T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "WAWI",
+   "company": "Wallenius Wilhelmsen ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "International Seaways sold unregistered equity",
    "summary": "",
    "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926121663/tm2628788d1_8k.htm",
@@ -347,6 +360,240 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Elengy assessing demand for Fos Cavaou small-scale LNG loading services",
+   "link": "https://lngprime.com/europe/elengy-assessing-demand-for-fos-cavaou-small-scale-lng-loading-services/199484/",
+   "published": "2026-11-04T05:16:00+00:00",
+   "summary": "French LNG terminal operator Elengy, a subsidiary of Engie’s NaTran, has launched a call for expressions of interest (CEI) to assess future market demand for small-scale LNG carrier loading services at the Fos Cavaou terminal.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cruise-Industry Tech Could Detect Man-Overboard Events on U.S. Navy Ships",
+   "link": "https://maritime-executive.com/article/cruise-industry-tech-could-detect-man-overboard-events-on-u-s-navy-ships",
+   "published": "2026-11-04T04:14:10+00:00",
+   "summary": "Man-overboard incidents are a tragic occurrence, especially as all too many of the events are self-initiated. To maximize the chances of recovering cr...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VLCC engine room struck in latest Hormuz attack",
+   "link": "",
+   "published": "2026-11-04T03:35:39+00:00",
+   "summary": "The incident in Omani waters is the fifth confirmed attack in the first three days of November",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Vermont Eyes Nova Scotia's Offshore Wind Resources",
+   "link": "https://maritime-executive.com/article/vermont-eyes-nova-scotia-s-offshore-wind-resources",
+   "published": "2026-11-04T03:17:20+00:00",
+   "summary": "Landlocked Vermont wants access to offshore wind power to diversify its grid supply, but the odds of procuring it from the U.S. Eastern Seaboard are l...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk wants to keep managing former Hutchison port in Panama",
+   "link": "",
+   "published": "2026-11-04T01:36:44+00:00",
+   "summary": "APM Terminals took over interim management of the Port of Balboa following the termination of Hutchison’s contract",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Australia Bans Bulker After Finding Falsified Crew Work Records",
+   "link": "https://maritime-executive.com/article/australia-bans-bulker-after-finding-falsified-crew-work-records",
+   "published": "2026-11-04T01:04:49+00:00",
+   "summary": "The Australian Maritime Safety Authority (AMSA) is highlighting a newly issued 90-day ban on a bulker as part of AMSA’s compliance priority on crewing...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Residential Cruise Ship Seized and Departs for Singapore",
+   "link": "https://maritime-executive.com/article/residential-cruise-ship-seized-and-departs-for-singapore",
+   "published": "2026-11-04T01:02:48+00:00",
+   "summary": "Just days after the residential cruise ship Villa Vie's Odyssey ordered passengers to disembark in Cambodia, reports indicate that the ship has been s...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fortescue's First \"Green\" Bulker Bunkers Ammonia at Port Hedland",
+   "link": "https://maritime-executive.com/article/fortescue-s-first-green-bulker-bunkers-ammonia-at-port-hedland",
+   "published": "2026-11-04T00:49:08+00:00",
+   "summary": "A Capesize ore carrier has fueled up with green ammonia at Port Hedland, Australia, in a first for the Australian market and for mining giant Fortescu...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Coast Guard Detains MSC Cruise Ship in Miami",
+   "link": "https://gcaptain.com/u-s-coast-guard-detains-msc-cruise-ship-in-miami/",
+   "published": "2026-11-03T22:39:08+00:00",
+   "summary": "The U.S. Coast Guard has detained the cruise ship MSC Poesia at PortMiami, forcing MSC Cruises to cancel an 11-night Caribbean voyage after the vessel remained in port for two...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hormuz Oct crossings at 3-month high despite attacks, Red Sea traffic also rises",
+   "link": "https://www.hellenicshippingnews.com/hormuz-oct-crossings-at-3-month-high-despite-attacks-red-sea-traffic-also-rises/",
+   "published": "2026-11-03T22:00:59+00:00",
+   "summary": "Strait of Hormuz shipping traffic rose to its highest monthly level since July in October, supported by stronger dry-bulk and LNG movements despite a decline in VLCC traffic and mounting regional threats, S&P Global Commodities at Sea(opens in a new tab) data showed Nov. 2. The rise came amid an “increasingly volatile” operating environment at ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker S&P: A Tale of Two Marketsccording to Signal Ocean data, global seaborne refined product",
+   "link": "https://www.hellenicshippingnews.com/tanker-sp-a-tale-of-two-markets/",
+   "published": "2026-11-03T22:00:59+00:00",
+   "summary": "Ship owners are diverging when it comes to their demand for second tanker ships. In its latest weekly report, shipbroker Xclusiv said that “the tanker Sale & Purchase market during September and October 2026 reveals an interesting divergence between vessels offered for sale and those actually changing hands, highlighting differences in investment appetite across vessel ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Alternative fuels need infrastructure: Why gas bunker vessels matter",
+   "link": "https://www.hellenicshippingnews.com/alternative-fuels-need-infrastructure-why-gas-bunker-vessels-matter/",
+   "published": "2026-11-03T22:00:58+00:00",
+   "summary": "As shipping’s fuel landscape becomes more diverse, attention is increasingly turning to the infrastructure needed to supply alternative fuels safely, reliably, and at scale. DNV’s latest white paper explores the growing role of gas bunker vessels, technical matters to be aware of, and the challenges and opportunities associated with supporting LNG today while preparing for ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Baltic Dry Index at Over 2-Week Low",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-at-over-2-week-low-2/",
+   "published": "2026-11-03T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, eased for the second straight session on Tuesday, dropping 2.2% to its lowest since October 19 at 2,590 points. All vessel segments moved lower, with the downturn particularly pronounced among larger vessels. The capesize index, which typically transports 150,000-ton ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Panamax vessels lose out in Q3 as shifting grain trade boosts smaller bulk carriers",
+   "link": "https://www.hellenicshippingnews.com/panamax-vessels-lose-out-in-q3-as-shifting-grain-trade-boosts-smaller-bulk-carriers/",
+   "published": "2026-11-03T22:00:57+00:00",
+   "summary": "Panamax bulk carriers have emerged as the principal losers from changing global grain trade patterns, while smaller Supramax and Handysize vessels have benefited from the redistribution of wheat and corn shipments, according to new research from international shipbroker IFCHOR GALBRAITHS (IG). The analysis reveals that Panamax wheat and corn shipping demand fell by 27.65 billion ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Moxie Media Launches Connect Event at 2026 International WorkBoat Show",
+   "link": "https://www.marinelink.com/news/moxie-media-launches-connect-event-544128",
+   "published": "2026-11-03T19:42:02+00:00",
+   "summary": "Moxie Media will host its first dedicated user event, Moxie Connect: User Conference 2026, a complimentary event open to all maritime professionals, on Wednesday, December 2, at the Ernest N. Morial Convention Center in New Orleans, alongside the International WorkBoat Show.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Longer Navy Deployments Demand More Than Tough Sailors",
+   "link": "https://gcaptain.com/longer-navy-deployments-demand-more-than-tough-sailors/",
+   "published": "2026-11-03T17:56:29+00:00",
+   "summary": "By Chris Servello (OpEd) Ten and eleven month Navy deployments may become the norm for the next couple of years. That’s the message Chief of Naval Operations Admiral Daryl Caudle and Master Chief...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Venezuelan Oil Exports Remain Stable Despite Stagnant Production, High Freight Rates",
+   "link": "https://www.marinelink.com/news/venezuelan-oil-exports-remain-stable-544126",
+   "published": "2026-11-03T17:55:31+00:00",
+   "summary": "Venezuela's oil exports were little changed at 1.08 million barrels per day in October as stagnant crude production and high freight rates continued to curb demand for many South American grades, according to shipping data seen by Reuters on…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Oil Services Industry Face Cost Pressures Amidst Iran Crisis",
+   "link": "https://www.marinelink.com/news/oil-services-industry-face-cost-pressures-544125",
+   "published": "2026-11-03T17:53:44+00:00",
+   "summary": "The Iran conflict is causing the oil services industry to increase its cost assessment for projects due to rising shipment, fuel and security costs, which are affecting its Middle Eastern contract performance, executives said at a conference in Abu Dhabi on Tuesday.The Iran war…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Euronaval 2026 Meets Amidst Global Maritime Defense Threats",
+   "link": "https://www.marinelink.com/news/euronaval-meets-amidst-global-maritime-544123",
+   "published": "2026-11-03T17:51:26+00:00",
+   "summary": "Shipbuilders, missile makers and drone manufacturers showcased their wares at an arms fair starting near Paris on Tuesday, as European governments, doubting the United States as a defence ally and alarmed by Russian aggression, rush to bolster navies.The increasing use of drones at sea…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hormuz Standoff Leaves Both Sides With Economic Pain",
+   "link": "https://gcaptain.com/hormuz-standoff-leaves-both-sides-with-economic-pain/",
+   "published": "2026-11-03T17:47:08+00:00",
+   "summary": "As US President Donald Trump threatens renewed attacks against Iran, Tehran’s intermittent strikes on commercial vessels have left the two sides locked in a painful economic standoff.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Qatar’s US LNG Bet Signals a New Energy Order",
+   "link": "https://gcaptain.com/qatars-us-lng-bet-signals-a-new-energy-order/",
+   "published": "2026-11-03T17:42:05+00:00",
+   "summary": "Turning to your biggest rival is rarely a sign of confidence. Yet Qatar's decision to sign long-term contracts for US supplies suggests the world's second-largest LNG exporter is increasingly concerned that instability in the Gulf could undermine its ambitious expansion plans.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Indian seafarer killed in Hormuz Dhow strike",
+   "link": "",
+   "published": "2026-11-03T17:10:37+00:00",
+   "summary": "Omani Royal Navy rescues surviving crew after strike on outbound vessel off Oman",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New Jersey Governor Warns Ports Against Handling Russian Diesel",
+   "link": "https://gcaptain.com/new-jersey-governor-warns-ports-against-handling-russian-diesel/",
+   "published": "2026-11-03T17:03:13+00:00",
+   "summary": "New Jersey Governor Mikie Sherrill is warning port and terminal operators not to accept Russian diesel shipments heading toward the U.S. East Coast, arguing that the Trump administration’s authorization of...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Damen wins KNVTS Ship of the Year Award with CSOV Windcat Rotterdam",
+   "link": "https://gcaptain.com/damen-wins-knvts-ship-of-the-year-award-with-csov-windcat-rotterdam/",
+   "published": "2026-11-03T16:52:46+00:00",
+   "summary": "Damen Shipyards Group and Windcat are pleased to announce that Commissioning Service Operations Vessel (CSOV) Windcat Rotterdam has received the KNVTS Ship of the Year Award. The award was presented at the Maritime Awards Gala...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Last chance to have your say on Ireland’s oil spill contingency plans",
+   "link": "https://ship.energy/information/last-chance-to-have-your-say-on-irelands-oil-spill-contingency-plans/",
+   "published": "2026-11-03T16:01:39+00:00",
+   "summary": "A public consultation on Ireland’s National Maritime Oil and HNS Spill Contingency Plan will be closing at 5 pm tomorrow (4 November). Known as the National Contingency Plan (NCP), the document was first published in 2020 and sets out a national framework for preparedness, response, recovery and interagency coordination relating to maritime casualties and marine pollution incidents along the Irish coasts and at sea w",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fratelli Cosulich Marine Energy opens Tokyo office",
+   "link": "https://ship.energy/information/fratelli-cosulich-marine-energy-opens-tokyo-office/",
+   "published": "2026-11-03T14:42:47+00:00",
+   "summary": "Following its recent expansion into South Korea, the Fratelli Cosulich Group has further extended its marine energy network with the opening of a new office in Tokyo, Japan. ‘Japan is one of the world’s most important shipowning markets, and having a direct presence in Tokyo is a significant opportunity for us,’ said Timothy Cosulich, CEO of Marine Energy at Fratelli Cosulich Group. ‘Building relationships locally ma",
+   "source": "Bunkerspot",
    "kind": "market",
    "nordic": false
   },
