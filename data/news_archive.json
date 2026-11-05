@@ -27,6 +27,18 @@
    "nordic": true
   },
   {
+   "title": "GENCO SHIPPING & TRADING LIMITED ANNOUNCES",
+   "summary": "New York, New York, November 4, 2026 – Genco Shipping & Trading Limited (NYSE:GNK) (“Genco” or the “Company”), the largest U.S. headquartered drybulk shipowner",
+   "link": "https://www.sec.gov/Archives/edgar/data/1326200/000114036126041978/ef20084815_8k.htm",
+   "published": "2026-11-04T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "GNK",
+   "company": "Genco Shipping",
+   "category": "8-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
    "title": "Wallenius Wilhelmsen Q3 2026 presentation",
    "link": "https://newsweb.oslobors.no/message/685571",
    "published": "2026-11-04T08:38:04+00:00",
@@ -399,6 +411,231 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Latest US sanctions target dark fleet false-flag network",
+   "link": "",
+   "published": "2026-11-05T05:20:19+00:00",
+   "summary": "The sanctions focus on a network that provided fraudulent maritime services to Iranian shadow fleet vessels",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Transpacific emerges as liner shipping’s golden trade",
+   "link": "https://splash247.com/transpacific-emerges-as-liner-shippings-golden-trade/",
+   "published": "2026-11-05T04:31:00+00:00",
+   "summary": "The transpacific has become the most lucrative major container shipping trade in the world, with carriers generating five times more spot revenue per nautical mile on the Shanghai–Los Angeles route than on shipments to North Europe via the Cape of Good Hope. New analysis from Alphaliner shows that the extraordinary strength of the US trade …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "How will the ‘blue tsunami’ impact Trump administration policies?",
+   "link": "",
+   "published": "2026-11-05T02:57:31+00:00",
+   "summary": "Shipping and energy analysts assess the impact of the US midterm election results going forward on the war in Iran, sanctions, and energy related policies",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "First Flight II LPD Heads Out on Builder's Trials",
+   "link": "https://maritime-executive.com/article/first-flight-ii-lpd-heads-out-on-builder-s-trials",
+   "published": "2026-11-05T01:56:36+00:00",
+   "summary": "Ingalls Shipbuilding has completed builder's trials for the future USS Harrisburg (LPD 30), the first of the Flight II San Antonio-class amphibious tr...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Lobbying Over Jones Act Waiver Heats Up As Renewal Approaches",
+   "link": "https://maritime-executive.com/article/lobbying-over-long-jones-act-waiver-heats-up-as-renewal-approaches",
+   "published": "2026-11-05T00:48:54+00:00",
+   "summary": "With Democrats back in control of the House and the Senate, American shipping stakeholders will have a new set of leaders to petition on the issues th...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Design Basis Agreement Reached for 150-Passenger NYC Hydrogen Ferry",
+   "link": "https://maritime-executive.com/article/design-basis-agreement-reached-for-150-passenger-nyc-hydrogen-ferry",
+   "published": "2026-11-04T23:43:57+00:00",
+   "summary": "A Design Basis Agreement (DBA) was secured by Incat Crowther in partnership with SWITCH Maritime from the United States Coast Guard for a proposed 150...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Saildrone Wins Court Challenge to USN’s New Procurement Evaluation Program",
+   "link": "https://maritime-executive.com/article/saildrone-wins-court-challenge-to-usn-s-new-procurement-evaluation-program",
+   "published": "2026-11-04T23:08:27+00:00",
+   "summary": "Saildrone, a manufacturer of unmanned surface vehicles, prevailed in court after it challenged the U.S. Navy’s new procurement evaluation program tout...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US Sanctions False-Flag Network Run from India Used for Iranian Shipping",
+   "link": "https://maritime-executive.com/article/us-sanctions-false-flag-network-run-from-india-used-for-iranian-shipping",
+   "published": "2026-11-04T22:15:27+00:00",
+   "summary": "Continuing its efforts to shut down all the avenues supporting Iran’s shadow fleet, the U.S. Treasury announced new sanctions targeting a network that...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Propspeed Joins RightShip’s Zero Harm Innovation Partners Program to Support More Efficient and Sustainable Vessel Operations",
+   "link": "https://gcaptain.com/propspeed-joins-rightships-zero-harm-innovation-partners-program-to-support-more-efficient-and-sustainable-vessel-operations/",
+   "published": "2026-11-04T22:15:18+00:00",
+   "summary": "Improving vessel energy efficiency is an important part of the maritime industry’s efforts to reduce fuel consumption and greenhouse gas emissions. While hull performance often receives significant attention, the condition...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Coast Guard Looks to Commercial Icebreakers to Keep Northeast Ports Open This Winter",
+   "link": "https://gcaptain.com/coast-guard-looks-to-commercial-icebreakers-to-keep-northeast-ports-open-this-winter/",
+   "published": "2026-11-04T22:05:03+00:00",
+   "summary": "The U.S. Coast Guard is exploring the use of commercial icebreaking vessels to help keep Northeast ports and waterways open this winter, as the service prepares for another season of...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tubarão Gains, Ponta da Madeira Retreats: Brazil’s Iron Ore Freight Outlook",
+   "link": "https://www.hellenicshippingnews.com/tubarao-gains-ponta-da-madeira-retreats-brazils-iron-ore-freight-outlook/",
+   "published": "2026-11-04T22:00:59+00:00",
+   "summary": "Brazilian iron ore exports have diverged across major loading systems in 2026. Tubarão has recorded stronger China-bound shipments, while Ponta da Madeira (PDM) has declined amid weaker output at Vale’s Northern System. The difference matters for freight, but cargo growth alone does not establish additional spot Capesize demand: vessel size, contractual coverage and the timing ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ship Recycling Retains Its Stable Prospects",
+   "link": "https://www.hellenicshippingnews.com/ship-recycling-retains-its-stable-prospects/",
+   "published": "2026-11-04T22:00:59+00:00",
+   "summary": "The ship recycling market has remained stable over the past week. In its latest weekly report, Best Oasis (www.best-oasis.com), a leading cash buyer of ships, said that “the Indian ship recycling market remained relatively quiet during the week, with limited trading activity amid the festive period. Market participants are closely monitoring developments in the European ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NAPA on why wind-assisted ships need proof of savings, not just a contract",
+   "link": "https://www.hellenicshippingnews.com/napa-on-why-wind-assisted-ships-need-proof-of-savings-not-just-a-contract/",
+   "published": "2026-11-04T22:00:58+00:00",
+   "summary": "BIMCO recently adopted its Energy Saving Device Retrofit Addendum in Autumn 2026, giving owners and charterers a contractual framework to agree how the cost, time and fuel savings of a retrofit are shared during a time charter. For wind-assisted propulsion systems (WAPS), it targets the obstacle most often cited for slow uptake: the owner usually ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Rebounds",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-rebounds-3/",
+   "published": "2026-11-04T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, jumped by 4% to 2,694 points on Wednesday, halting a two-day losing streak, supported by the larger vessels. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, also snapped a two-day losing streak, soaring by ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "BIMCO: Coal shipments to India drop 7%, but limited recovery may lie ahead",
+   "link": "https://www.hellenicshippingnews.com/bimco-coal-shipments-to-india-drop-7-but-limited-recovery-may-lie-ahead/",
+   "published": "2026-11-04T22:00:57+00:00",
+   "summary": "“Between January and October, coal shipments to India dropped 7% y/y due to the increased cost of imports. Thermal coal demand has remained strong, particularly from the power sector, but domestic mining has not kept pace, forcing power plants to draw down inventories. In contrast, coking coal demand growth has eased following a decline in ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ESG Selected to Build USS Philadelphia Structural Units",
+   "link": "https://www.marinelink.com/news/esg-selected-build-uss-philadelphia-544155",
+   "published": "2026-11-04T20:08:49+00:00",
+   "summary": "Eastern Shipbuilding Group, Inc. (ESG) has been selected by HII’s Ingalls Shipbuilding division to construct key structural modular units for the U.S. Navy’s future USS Philadelphia (LPD 32), a San Antonio-class Amphibious Transport Dock.Under the contract…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Somali Pirates Hijack Iranian Dhow, Marking Fourth Off Somalia in 2026",
+   "link": "https://www.marinelink.com/news/somali-pirates-hijack-iranian-dhow-544154",
+   "published": "2026-11-04T20:03:29+00:00",
+   "summary": "On October 29, 2026, a Somali Pirate Action Group of 12 armed pirates hijacked the Iranian fishing dhow AZINI approximately 185 nautical miles east of Bandarbeyla, Puntland. The vessel’s crew reportedly included 21 Iranian fishermen and two Somali security guards.On November 2…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "One of Three Russian Tankers Remains On Course for the US",
+   "link": "https://www.marinelink.com/news/one-three-russian-tankers-remains-course-544153",
+   "published": "2026-11-04T19:59:38+00:00",
+   "summary": "Only one of the three reported tankers that were sailing to the U.S. with Russian diesel appears to be still heading for the Atlantic coast.The issuing of General License 135 on October 9, which temporarily allows Russian diesel to be imported to the U.S.…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Targets Fraudulent Ship Registries Used by Iran’s Shadow Fleet",
+   "link": "https://gcaptain.com/u-s-targets-fraudulent-ship-registries-used-by-irans-shadow-fleet/",
+   "published": "2026-11-04T19:27:44+00:00",
+   "summary": "The United States on Wednesday sanctioned a network of individuals and companies accused of operating fraudulent ship registries that helped Iran’s shadow fleet evade sanctions, while issuing a new warning...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Vance Blames His Own Administration’s Iran War for Republican Defeat",
+   "link": "https://gcaptain.com/vance-blames-his-own-administrations-iran-war-for-republican-defeat/",
+   "published": "2026-11-04T18:53:44+00:00",
+   "summary": "Vice President JD Vance on Wednesday blamed Republicans’ midterm election losses on the Trump administration’s eight-month war with Iran, which has driven up global energy prices and left commercial shipping...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Visible Crude Loadings Halt, Iran’s Empty Tankers Remain Idle Since September",
+   "link": "https://www.marinelink.com/news/visible-crude-loadings-halt-irans-empty-544152",
+   "published": "2026-11-04T17:56:53+00:00",
+   "summary": "No Iran-affiliated tanker still transmitting AIS in the Middle East Gulf has shown a draft change indicative of loading since September 17. Before then, MIOC detected only seven AIS-transmitting tankers loading almost 6 million barrels between July 27 and September 17…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "$100 Million Tanker Dispute Raises Stakes in Mercuria’s Baltic Exchange Lawsuit",
+   "link": "https://gcaptain.com/100-million-tanker-dispute-raises-stakes-in-mercurias-baltic-exchange-lawsuit/",
+   "published": "2026-11-04T17:55:25+00:00",
+   "summary": "As lawyers for Mercuria Energy Group presented the commodity giant’s case against the Baltic Exchange this week, a group of smartly dressed Norwegian businessmen listened intently to the arguments from the back of a packed London courtroom.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "LR launches supply chain disruption advisory service",
+   "link": "",
+   "published": "2026-11-04T17:52:27+00:00",
+   "summary": "Lloyd’s Register (LR) Advisory to help governments and logistics companies improve trade resilience, protect cargo flows, and respond to disruption.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maritime Industry Urges Trump to Let Jones Act Waiver Expire November 15",
+   "link": "https://gcaptain.com/maritime-industry-urges-trump-to-let-jones-act-waiver-expire-november-15/",
+   "published": "2026-11-04T17:34:58+00:00",
+   "summary": "The American Maritime Partnership (AMP) is urging President Donald Trump to allow the emergency Jones Act waiver to expire on November 15, warning that nearly eight months of exemptions have...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Pupuk Indonesia looking to turn Batam into an ammonia bunkering hub",
+   "link": "https://ship.energy/energy/pupuk-indonesia-looking-to-turn-batam-into-an-ammonia-bunkering-hub/",
+   "published": "2026-11-04T15:50:10+00:00",
+   "summary": "The state-owned petrochemical and fertiliser company Pupuk Indonesia is looking to turn Batam into a hub for producing ammonia from natural gas and using it for domestic industry, export and ‘as a future marine fuel’. According to a statement issued on PRNewsire and HKBusinesswire today (4 November), the company is planning to use gas supplies from the Natuna region and Grissik, as Indonesia’s gas supply contract wit",
+   "source": "Bunkerspot",
    "kind": "market",
    "nordic": false
   },
