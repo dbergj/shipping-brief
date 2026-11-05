@@ -14,6 +14,43 @@
    "nordic": true
   },
   {
+   "title": "York, NY – November 5, 2026–",
+   "summary": "or “INSW”), one of the largest tanker companies worldwide providing energy transportation services for crude oil and petroleum",
+   "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926123058/tm2629068d1_8k.htm",
+   "published": "2026-11-05T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "INSW",
+   "company": "International Seaways",
+   "category": "8-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
+   "title": "Dorian LPG Ltd. Announces Second Quarter Fiscal Year 2027 Financial Results",
+   "summary": "Stamford, CT –November 5, 2026 – Dorian LPG Ltd. (NYSE: LPG) (the “Company,” “Dorian LPG,” “we,” “us,” and “our”), a leading owner and operator of modern very large gas carriers (“VLGCs”), today reported its financial results for the three months ended September 30, 2026.",
+   "link": "https://www.sec.gov/Archives/edgar/data/1596993/000159699326000055/lpg-20261105x8k.htm",
+   "published": "2026-11-05T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "LPG",
+   "company": "Dorian LPG",
+   "category": "8-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
+   "title": "Performance Shipping Inc. announced Annual General Meeting of Shareholders results",
+   "link": "https://newsweb.oslobors.no/message/685735",
+   "published": "2026-11-05T10:57:16+00:00",
+   "source": "Oslo Børs",
+   "ticker": "PSHIP",
+   "company": "Performance Shipping Inc.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Navios Maritime Partners L.P. Reports Financial Results for the Third Quarter and Nine Months Ended September 30, 2026",
    "link": "https://newsweb.oslobors.no/message/685583",
    "published": "2026-11-04T12:14:04+00:00",
@@ -339,6 +376,19 @@
    "nordic": true
   },
   {
+   "title": "The Goldman Sachs Group, Inc. Disclosure in HIMALAYA SHIPPING LTD",
+   "link": "https://newsweb.oslobors.no/message/685706",
+   "published": "2026-11-05T07:13:34+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
+   "nordic": true
+  },
+  {
    "title": "Shareholder Disclosure Notification",
    "link": "https://newsweb.oslobors.no/message/685378",
    "published": "2026-11-02T13:44:01+00:00",
@@ -415,6 +465,267 @@
    "nordic": false
   },
   {
+   "title": "IMO Council supports second term for Secretary-General Arsenio Dominguez",
+   "link": "https://ship.energy/information/imo-council-supports-second-term-for-secretary-general-arsenio-dominguez/",
+   "published": "2026-11-05T14:03:11+00:00",
+   "summary": "The IMO Council has decided to extend the mandate of Secretary-General Arsenio Dominguez for a second four-year term, from 1 January 2028 to 31 December 2031, and this is now subject to approval by the IMO Assembly in 2027. The Council’s decision was taken yesterday (4 November) during its 138th session in London. Dominguez thanked the Council and members of the International Maritime Organization (IMO) for their con",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk sees 37% rise in Q3 2026 bunker costs linked to global fuel supply disruption",
+   "link": "https://ship.energy/energy/maersk-sees-37-rise-in-q3-2026-bunker-costs-linked-to-global-fuel-supply-disruption/",
+   "published": "2026-11-05T13:52:11+00:00",
+   "summary": "Maersk experienced a significant hike in its Q3 bunker bill caused by a 49% increase in average bunker prices over the period, however this cost rise was offset to some degree by a 6.3% drop in bunker consumption, supported by a partial return to vessel transits through the Suez Canal. In Q3, Maersk paid $2.1 billion for its marine fuel, a $565 million increase from the $1.5 billion paid in Q3 2025. For the first nin",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Vard Kicks Off Construction of UPO Atlantic CSOV",
+   "link": "https://www.marinelink.com/news/vard-kicks-off-construction-upo-atlantic-544170",
+   "published": "2026-11-05T13:48:16+00:00",
+   "summary": "Vard has started construction of the UPO Atlantic commissioning service operation vessel (CSOV) for U-Ming Purus Offshore (UPO), following a steel-cutting ceremony at its Vard Vung Tau shipyard in Vietnam.The ceremony, held on November 2, marked the first construction milestone for the vessel…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "StormGeo and China Classification Society collaborate on digital emissions verification",
+   "link": "https://ship.energy/information/stormgeo-and-china-classification-society-collaborate-on-digital-emissions-verification/",
+   "published": "2026-11-05T13:41:33+00:00",
+   "summary": "Maritime technology company StormGeo is working with the China Classification Society (CCS) to accelerate digital emissions verification in China. StormGeo, which is part of Alfa Laval’s Ocean Division, currently supports around 700 vessels on GHG emissions and vessel performance in the Chinese market and the company is looking to expand its business operations in the country. Espen Martinsen, Chief Commercial Office",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Baltic Dry Index climbs to 2740 up 46 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2740-up-46-points/",
+   "published": "2026-11-05T13:00:29+00:00",
+   "summary": "Today, Thursday, November 5 2026, the Baltic Dry Index climbed 46 points, 2740 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Woodside to cut more than 500 jobs in $400m savings drive",
+   "link": "https://splash247.com/woodside-to-cut-more-than-500-jobs-in-400m-savings-drive/",
+   "published": "2026-11-05T13:00:00+00:00",
+   "summary": "Australian energy giant Woodside is planning to cut more than 500 jobs worldwide as part of a restructuring programme aimed at delivering $400m in annual cost savings from 2028. The workforce reduction, equivalent to more than 10% of the company’s employees at the end of 2025, forms part of a broader effort to streamline operations, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tech Talk: Wearable Robot for Industrial Workers",
+   "link": "https://www.marinelink.com/news/tech-talk-wearable-robot-industrial-544167",
+   "published": "2026-11-05T12:17:47+00:00",
+   "summary": "A South Korean robotics company is commercializing a lightweight wearable robot designed to reduce physical strain on workers performing repetitive lifting and other demanding tasks, with potential applications in shipbuilding, manufacturing…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Deutsche Windtechnik lands maintenance deal at Germany’s first offshore wind farm",
+   "link": "https://splash247.com/deutsche-windtechnik-lands-maintenance-deal-at-germanys-first-offshore-wind-farm/",
+   "published": "2026-11-05T12:00:00+00:00",
+   "summary": "German offshore wind services specialist Deutsche Windtechnik has secured a comprehensive maintenance contract from Ocean Breeze Energy covering all 12 turbines at the Alpha Ventus offshore wind farm in the North Sea. The contract will begin in January 2027 and covers turbine servicing, maintenance, troubleshooting and associated technical support. From September 2027, the scope will …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "As Höegh Autoliners Approaches 100, Leif O. Høegh Offers Insights",
+   "link": "https://www.marinelink.com/news/hegh-autoliners-approaches-leif-o-hegh-544166",
+   "published": "2026-11-05T11:55:22+00:00",
+   "summary": "With plans to celebrate his family’s 100 years in shipping in 2027, Leif O. Høegh, Chair, Höegh Autoliners, takes a moment to reflect on the company’s bold, ‘first mover’ legacy.In 1927, a young Norwegian entrepreneur named Leif Høegh ordered his first vessel, a tanker named Varg.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Aker Solutions bags engineering deal for Qatar oilfield redevelopment",
+   "link": "https://splash247.com/aker-solutions-bags-engineering-deal-for-qatar-oilfield-redevelopment/",
+   "published": "2026-11-05T11:45:00+00:00",
+   "summary": "Norwegian offshore engineering group Aker Solutions has received a letter of award from Vietnam’s PTSC Mechanical & Construction for work on QatarEnergy’s Maydan Mahzam oilfield redevelopment project. The contract covers detailed engineering for three major topsides, four jackets and modifications required to connect new facilities with existing offshore infrastructure. Aker Solutions describes the award as …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "HEA Energy snaps up Subsea7’s six-ship heavy transport business",
+   "link": "https://splash247.com/hea-energy-snaps-up-subsea7s-six-ship-heavy-transport-business/",
+   "published": "2026-11-05T11:25:54+00:00",
+   "summary": "Abu Dhabi-based HEA Energy has struck a deal to acquire Subsea7’s heavy transportation business, adding a six-vessel operation to its growing offshore fleet. The transaction will see Subsea7’s offshore renewables arm Seaway7 divest a business comprising five owned and one chartered open-deck semi-submersible heavy transport vessels. The fleet includes Seaway Eagle, Seaway Falcon, Seaway Hawk, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Finland jails captain and crew member over Baltic cable sabotage",
+   "link": "https://splash247.com/finland-jails-captain-and-crew-member-over-baltic-cable-sabotage/",
+   "published": "2026-11-05T11:14:58+00:00",
+   "summary": "A Finnish court has sentenced the captain and a crew member of the general cargo ship Fitburg to prison for deliberately damaging two subsea telecommunications cables in the Gulf of Finland on New Year’s Eve last year. Helsinki District Court handed Russian captain Andrei Maksimenko a three-and-a-half-year prison sentence, while Azerbaijani bosun Vusal Majidov received …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Seacon snaps up fresh tanker in $19.6m deal",
+   "link": "https://splash247.com/seacon-snaps-up-fresh-tanker-in-19-6m-deal/",
+   "published": "2026-11-05T11:10:00+00:00",
+   "summary": "Hong Kong-listed Seacon Shipping has struck a $19.6m deal for a newly built oil and chemical tanker, adding to its fleet amid reports of a four-vessel MR tanker disposal. The Qingdao-based owner’s Singapore subsidiary has agreed to acquire the 4,981 gt Jia Yue Ming Zhu, which was built in October this year and will be …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iran’s Empty Tankers Sit Idle as Visible Crude Loadings Stop",
+   "link": "https://www.hellenicshippingnews.com/irans-empty-tankers-sit-idle-as-visible-crude-loadings-stop/",
+   "published": "2026-11-05T11:00:59+00:00",
+   "summary": "Six Weeks Without a Visible Loading No Iran-affiliated tanker still transmitting AIS in the Middle East Gulf has shown a draft change indicative of loading since September 17. Before then, MIOC detected only seven AIS-transmitting tankers loading almost 6 million barrels between July 27 and September 17, a pace of around 113,000 barrels per day. ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "BIMCO: Tripartite 2026 focuses on practical steps towards the next generation of ships",
+   "link": "https://www.hellenicshippingnews.com/bimco-tripartite-2026-focuses-on-practical-steps-towards-the-next-generation-of-ships/",
+   "published": "2026-11-05T11:00:57+00:00",
+   "summary": "Regulatory clarity, decarbonisation and digitalisation were central to discussions as more than 85 representatives of shipbuilders, shipowners and classification societies, together with invited observers, met in Tokyo on 28–29 October for Tripartite 2026. BIMCO was this year’s organising association. The annual summit examined how the industry can develop safe, secure and environmentally sustainable ships amid ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "What Trump’s midterm elections defeat could mean for the IMO shipping climate negotiations",
+   "link": "https://www.hellenicshippingnews.com/what-trumps-midterm-elections-defeat-could-mean-for-the-imo-shipping-climate-negotiations/",
+   "published": "2026-11-05T11:00:55+00:00",
+   "summary": "The Democratic victory in the US midterm elections on Tuesday, Nov 3, taking control of both the House and the Senate, could have important indirect implications for the US stance and behaviour at the International Maritime Organization (IMO). Experts say the results are part of a broader shift back toward climate action, following Lula’s re-election ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk converts market opportunities into significantly higher earnings and raises full-year guidance",
+   "link": "https://www.hellenicshippingnews.com/maersk-converts-market-opportunities-into-significantly-higher-earnings-and-raises-full-year-guidance/",
+   "published": "2026-11-05T11:00:53+00:00",
+   "summary": "Against a backdrop of resilient trade flows and congestion-driven capacity constraints, Maersk’s strong commercial and operational execution drove revenue growth and significantly higher earnings, while helping customers navigate continued supply chain disruption. Executive Summary Full-year guidance raised to an underlying EBITDA of USD 14.0-14.5bn (previously USD 10.5-12.5bn) and an underlying EBIT of USD 8.0-8.5bn",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Vopak moving forward with permitting process for Australian LNG import project",
+   "link": "https://lngprime.com/australia-and-oceania/vopak-moving-forward-with-permitting-process-for-australian-lng-import-project/199599/",
+   "published": "2026-11-05T10:21:08+00:00",
+   "summary": "Dutch independent storage tank firm Vopak is moving forward with the permitting process for its planned FSRU-based LNG import facility in Australia’s Victoria state, according to CEO Dick Richelle.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "PIL orders seven methanol-ready boxships",
+   "link": "https://ship.energy/energy/pil-orders-seven-methanol-ready-boxships/",
+   "published": "2026-11-05T10:00:14+00:00",
+   "summary": "Singapore-headquartered Pacific International Lines (PIL) has placed an order for seven methanol-ready containerships. The 1,400 TEU (twenty-foot equivalent unit), 172-metre-long vessels will be built at Huanghai Shipbuilding in China, PIL said in a statement issued today (5 November). PIL highlighted that, in addition to their methanol-ready capability, the vessels will incorporate energy-saving features including p",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Panama teams up with Pole Star Global for registry sanctions compliance",
+   "link": "",
+   "published": "2026-11-05T09:58:15+00:00",
+   "summary": "Pole Star Global is working with the Panama Maritime Authority to improve sanctions compliance by the Panama Ship Registry",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Peru LNG sent five shipments in October",
+   "link": "https://lngprime.com/americas/peru-lng-sent-five-shipments-in-october/199589/",
+   "published": "2026-11-05T09:49:13+00:00",
+   "summary": "Peru LNG’s liquefaction plant at Pampa Melchorita shipped five liquefied natural gas cargoes in October, one cargo more compared to the previous month, according to shipment data by state-owned Perupetro.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Panama Canal to Name Terminal Bidders as Expansion Plans Advance",
+   "link": "https://www.marinelink.com/news/panama-canal-name-terminal-bidders-544160",
+   "published": "2026-11-05T09:44:48+00:00",
+   "summary": "The Panama Canal expects to announce the pre-qualified bidders for a project to build and operate two new container terminals by the end of this year, Administrator Ilya Espino said on Wednesday, advancing a tender process linked to one of the…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Nautical Institute UAE Branch puts seafarer welfare centre stage at Marine Ball 2026",
+   "link": "",
+   "published": "2026-11-05T09:22:34+00:00",
+   "summary": "Capt Zarir Irani discusses how the UAE Nautical Institute's annual charity gala blends networking with an enduring commitment to seafarer mental health support.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk Slides as Upgraded Guidance Is Lower Than Anticipated",
+   "link": "https://gcaptain.com/maersk-slides-as-upgraded-guidance-is-lower-than-anticipated/",
+   "published": "2026-11-05T09:21:38+00:00",
+   "summary": "AP Moller-Maersk A/S shares slumped after a guidance upgrade and third-quarter earnings from the world’s second-largest shipping line fell short of analyst estimates.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Excelerate seals Bahamas LNG deal",
+   "link": "https://lngprime.com/americas/excelerate-seals-bahamas-lng-deal/199574/",
+   "published": "2026-11-05T09:17:21+00:00",
+   "summary": "US FSRU player Excelerate has signed an 11-year LNG supply agreement with AxDo, a joint venture between Axpo and Bahamas-based energy and maritime logistics company Domicisle LNG, supporting development of the Bahamas LNG hub.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wartsila scores Delfin LNG gig",
+   "link": "https://lngprime.com/asia/wartsila-scores-delfin-lng-gig/199584/",
+   "published": "2026-11-05T09:16:58+00:00",
+   "summary": "Finnish tech firm Wartsila has secured an order to supply the engines and thrusters for Delfin Midstream’s first 4.4 mtpa floating liquefied natural gas (FLNG) unit, which will be installed offshore Louisiana.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "When safety becomes culture: Inside the Tristar Safety at Sea Conference",
+   "link": "",
+   "published": "2026-11-05T09:12:04+00:00",
+   "summary": "A look at how the Tristar Safety at Sea Conference puts seafarer welfare at its heart",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CIMC and Oman Investment Authority establish cooperation",
+   "link": "",
+   "published": "2026-11-05T08:44:49+00:00",
+   "summary": "Partnership targets port logistics, green energy and localised industrial development",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk ups full year forecast as ocean drives Q3 profits",
+   "link": "",
+   "published": "2026-11-05T07:48:03+00:00",
+   "summary": "AP Moller Maersk has added up to $4bn to its full year earnings driven by container shipping",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
    "title": "Latest US sanctions target dark fleet false-flag network",
    "link": "",
    "published": "2026-11-05T05:20:19+00:00",
@@ -429,6 +740,51 @@
    "published": "2026-11-05T04:31:00+00:00",
    "summary": "The transpacific has become the most lucrative major container shipping trade in the world, with carriers generating five times more spot revenue per nautical mile on the Shanghai–Los Angeles route than on shipments to North Europe via the Cape of Good Hope. New analysis from Alphaliner shows that the extraordinary strength of the US trade …",
    "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Spain's Long-Awaited New Sub Torpedoes a Target Ship in Live-Fire Test",
+   "link": "https://maritime-executive.com/article/spain-s-long-awaited-new-sub-torpedoes-a-target-ship-in-live-fire-test",
+   "published": "2026-11-05T03:53:38+00:00",
+   "summary": "The Spanish Navy's long-delayed attack sub S-81 sank a decommissioned patrol vessel with a single torpedo strike in a recent exercise, the service ann...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Australian Authorities Bust Shipment of Meth Dissolved in Coconut Water",
+   "link": "https://maritime-executive.com/article/australian-authorities-bust-shipment-of-meth-dissolved-in-coconut-water",
+   "published": "2026-11-05T03:11:18+00:00",
+   "summary": "Australian authorities have charged a Vietnamese national with drug smuggling in connection with a consignment of coconut water that tested positive f...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Long Beach Gets World's First Hydrofoiling Electric Pilot Boat",
+   "link": "https://maritime-executive.com/article/long-beach-gets-world-s-first-hydrofoiling-electric-pilot-boat",
+   "published": "2026-11-05T03:09:34+00:00",
+   "summary": "The Belfast-based electric boatbuilder Artemis Technologies has sold a specially-adapted version of its hydrofoiling electric speedboat to Jacobsen Pi...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IRClass Academy and PIP Makassar Strengthen Executive Maritime Capability",
+   "link": "https://maritime-executive.com/article/irclass-academy-and-pip-makassar-strengthen-executive-maritime-capability-through-impdp-2026",
+   "published": "2026-11-05T03:08:00+00:00",
+   "summary": "Indian Register of Shipping (IRS), through its professional training and development arm IRClass Academy, has further strengthened its engagement in m...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wärtsilä Dual-Fuel Engine Selected for Delfin Project",
+   "link": "https://maritime-executive.com/article/waertsilae-dual-fuel-engine-and-propulsion-solution-selected-for-delfin-midstream-s-pioneering-project",
+   "published": "2026-11-05T03:07:00+00:00",
+   "summary": "Wärtsilä Corporation has secured an order to supply the engines and thrusters for the first Floating Liquefied Natural Gas (FLNG) vessels being built...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
