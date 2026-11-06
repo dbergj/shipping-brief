@@ -27,6 +27,19 @@
    "nordic": true
   },
   {
+   "title": "FRO - Notice of Annual General Meeting 2026",
+   "link": "https://newsweb.oslobors.no/message/685852",
+   "published": "2026-11-06T07:00:26+00:00",
+   "source": "Oslo Børs",
+   "ticker": "FRO",
+   "company": "Frontline plc",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "CAPITAL TANKERS CORP. ANNOUNCES A TIME CHARTER FOR THE DUAL FUEL SUEZMAX TANKER M/T AMOR",
    "link": "https://newsweb.oslobors.no/message/685839",
    "published": "2026-11-06T06:00:05+00:00",
@@ -388,18 +401,6 @@
    "rank": 2
   },
   {
-   "title": "Scorpio Tankers filed a 6-K (periodic report)",
-   "summary": "",
-   "link": "https://www.sec.gov/Archives/edgar/data/1483934/000162828026065357/stng6k-10072026.htm",
-   "published": "2026-10-07T12:00:00+00:00",
-   "source": "SEC EDGAR",
-   "ticker": "STNG",
-   "company": "Scorpio Tankers",
-   "category": "6-K",
-   "kind": "company",
-   "rank": 2
-  },
-  {
    "title": "Volare Shipping Ltd.: New share capital registered",
    "link": "https://newsweb.oslobors.no/message/685604",
    "published": "2026-11-04T13:16:30+00:00",
@@ -511,6 +512,285 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list",
+   "link": "https://ship.energy/information/aracon-25-of-the-internationally-trading-crude-oil-fleet-now-sits-on-the-dark-list/",
+   "published": "2026-11-06T13:56:18+00:00",
+   "summary": "The dark fleet has tripled in size since 2022 and, as Windward’s Senior Maritime Intelligence Analyst Michelle Wiese Bockmann told delegates at ARACON 26, ‘Russia’s shadow fleet has evolved into a parallel fleet – it’s not a shadow fleet anymore.’ Speakers in the first session of the conference in Rotterdam covered global marine fuel market trends, European pricing dynamics in the context of a geopolitically volatile",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index climbs to 2805 up 65 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2805-up-65-points/",
+   "published": "2026-11-06T13:00:57+00:00",
+   "summary": "Today, Friday, November 6 2026, the Baltic Dry Index climbed 65 points, 2805 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CM Energy to Supply Cable Lay Equipment for Asso.subsea Vessel",
+   "link": "https://www.marinelink.com/news/cm-energy-supply-cable-lay-equipment-544202",
+   "published": "2026-11-06T13:00:50+00:00",
+   "summary": "CM Energy is progressing work on an integrated cable-handling and marine equipment package for a new Asso.subsea vessel, expanding its involvement in the European offshore wind market.The contract covers specialist cable-handling equipment and associated marine systems for the vessel…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Alfa Laval in $600m Navtor acquisition",
+   "link": "",
+   "published": "2026-11-06T12:53:19+00:00",
+   "summary": "Equipment group buys maritime software specialist in all-cash deal to boost digital fleet solutions offering.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DenAr takes on Turkey’s first offshore wind seabed survey campaign",
+   "link": "https://splash247.com/denar-takes-on-turkeys-first-offshore-wind-seabed-survey-campaign/",
+   "published": "2026-11-06T12:00:00+00:00",
+   "summary": "Turkish marine survey specialist DenAr Ocean Engineering Services has been selected by the country’s Ministry of Energy and Natural Resources to carry out geophysical and geotechnical seabed investigations for Turkey’s first offshore wind development programme. The NCS-01 project covers two areas in the Sea of Marmara and forms part of the government initiative to prepare …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sawgrass LNG & Power undertakes LNG bunker delivery in Fort Lauderdale",
+   "link": "https://ship.energy/energy/sawgrass-lng-power-undertakes-lng-bunker-delivery-in-fort-lauderdale/",
+   "published": "2026-11-06T11:45:52+00:00",
+   "summary": "On 3 November, Sawgrass LNG & Power, in collaboration with Gas and Heat SpA and REV LNG, refuelled a cruise ship at Fort Lauderdale with approximately 320 cubic metres of LNG. The supply operation involved eight LNG trucks and an LNG4Speed skid owned by REV LNG. The LNG was sourced from Sawgrass LNG & Power’s Miami facility. As previously reported by ship.energy, earlier this year Sawgrass LNG & Power undertook the f",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. OFAC targets fraudulent ship registries’ support for Iranian regime",
+   "link": "https://ship.energy/information/u-s-ofac-targets-fraudulent-ship-registries-support-for-iranian-regime/",
+   "published": "2026-11-06T11:18:26+00:00",
+   "summary": "The U.S. Treasury Department’s Office of Foreign Assets Control (OFAC) has sanctioned a network of companies that are alleged to be selling fraudulent flags to the Iranian regime’s shadow fleet. The action forms part of Operation Economic Outcast, which is the Trump Administration’s campaign to cut off revenue to the regime in Iran. A statement issued by OFAC notes that for over 10 years, India-based Suniel Kumar Sha",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Khalid Hashim set to pass the baton at Precious Shipping",
+   "link": "https://splash247.com/khalid-hashim-set-to-pass-the-baton-at-precious-shipping/",
+   "published": "2026-11-06T11:02:21+00:00",
+   "summary": "Thailand’s Precious Shipping is preparing a change at the top, with longtime managing director Khalid Moinuddin Hashim moving to executive vice chairman and finance chief Gautam Khurana taking over the running of the Bangkok-listed dry bulk owner. The company’s board approved the leadership reshuffle, with both appointments taking effect on January 1, 2027, according to …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO launches survey on Maritime Single Windows",
+   "link": "https://www.hellenicshippingnews.com/imo-launches-survey-on-maritime-single-windows/",
+   "published": "2026-11-06T11:00:59+00:00",
+   "summary": "The IMO has launched a survey with the view to gathering information on the level of implementation and use of Maritime Single Window (MSW) systems to better understand the impact of MSW implementation on the administrative workload of maritime stakeholders and users. Maritime Single Windows (MSW) are a means of reducing a ship’s reporting burden ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping crews caught in the crossfire of the Hormuz conflict",
+   "link": "https://www.hellenicshippingnews.com/shipping-crews-caught-in-the-crossfire-of-the-hormuz-conflict/",
+   "published": "2026-11-06T11:00:57+00:00",
+   "summary": "Appalling conditions, unpaid wages and the constant threat of attack: Thousands of sailors are stranded in the Strait of Hormuz as the US-Iran conflict disrupts shipping routes and experts warn of risks to global trade. The Strait of Hormuz, one of the world’s most important shipping routes, has become a dangerous war zone due to ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "India should create 10-year vessel procurement pipeline: EY-FICCI report",
+   "link": "https://www.hellenicshippingnews.com/india-should-create-10-year-vessel-procurement-pipeline-ey-ficci-report/",
+   "published": "2026-11-06T11:00:55+00:00",
+   "summary": "India can accelerate the industrial scale-up of its shipbuilding and ship-repair sector by creating a 10-year vessel procurement pipeline that will provide long-term demand visibility, a report by consulting firm EY and industry chamber FICCI said. The report, titled “Optimising India’s Shipbuilding and Ship Repair Capacity: Roadmap for Industrial Scale-up”, recommended considering a national maritime ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MMI Daily Iron Ore Index Report November 6 2026",
+   "link": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-november-6-2026/",
+   "published": "2026-11-06T11:00:53+00:00",
+   "summary": "Iron ore prices diverged across domestic and seaborne markets today. DCE most-traded closed at 687.5 yuan/mt, down 0.51%. The 61% and 65% port indices each lost 2 yuan, the 58% held steady, and all eight spot products declined. The seaborne 61% and 65% composite indices rose to USD 91.95 and 107.95/dmt, while all 12 brands ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Subsea7 Strikes Deal to Sell Seaway7 Heavy Transport Unit to HEA Energy",
+   "link": "https://www.marinelink.com/news/subsea-strikes-deal-sell-seaway-heavy-544198",
+   "published": "2026-11-06T10:49:41+00:00",
+   "summary": "Subsea7 has agreed to sell its Seaway7 heavy transportation business, comprising six semi-submersible vessels, to HEA Energy in a transaction linked to its proposed merger with Saipem.The sale covers six open-deck semi-submersible heavy transportation vessels…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Naming ceremony held for TotalEnergies’ next LNG bunker vessel",
+   "link": "https://ship.energy/energy/lng/naming-ceremony-held-for-totalenergies-next-lng-bunker-vessel/",
+   "published": "2026-11-06T10:44:39+00:00",
+   "summary": "A naming ceremony for the 18,600 cubic metre bunker vessel, Monte Shams, was held on 3 November at the Hudong-Zhonghua shipyard in China. The vessel is owned by the Spanish company Ibaizabal and will be chartered by TotalEnergies for LNG bunkering operations at the Port of Sohar in Oman. The French energy major is an 80% shareholder in a joint venture with OQPC called Marsa LNG LLC. The company is developing a one mi",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Atlantic and Pacific LNG rates rise for third week",
+   "link": "https://lngprime.com/americas/atlantic-and-pacific-lng-rates-rise-for-third-week/199626/",
+   "published": "2026-11-06T10:27:58+00:00",
+   "summary": "Atlantic and Pacific spot liquefied natural gas (LNG) shipping rates rose for the third consecutive week, according to Spark Commodities.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EnerMech picks up Chevron pipeline work off Equatorial Guinea",
+   "link": "https://splash247.com/enermech-picks-up-chevron-pipeline-work-off-equatorial-guinea/",
+   "published": "2026-11-06T10:00:00+00:00",
+   "summary": "UK-headquartered oilfield services specialist EnerMech has secured a contract from Chevron for pipeline pre-commissioning services on the Aseng gas development offshore Equatorial Guinea. The contract covers preparation of approximately 19 km of rigid production flowline connecting the Aseng field to existing offshore infrastructure. EnerMech will provide pre-operational engineering, project management, and specialis",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Alfa Laval makes $700m NAVTOR bet",
+   "link": "https://splash247.com/alfa-laval-makes-700m-navtor-bet/",
+   "published": "2026-11-06T09:27:35+00:00",
+   "summary": "Swedish industrial group Alfa Laval has struck a $700m all-cash deal to acquire Norwegian maritime software specialist NAVTOR, significantly expanding a digital shipping portfolio that already includes StormGeo and Portchain. The Stockholm-listed group has entered into a definitive agreement to buy NAVTOR for SEK6.85bn ($700m), with completion expected during the first quarter of 2027 subject …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Alfa Laval to Buy NAVTOR for $700M in Maritime Digital Expansion",
+   "link": "https://www.marinelink.com/news/alfa-laval-buy-navtor-m-maritime-digital-544194",
+   "published": "2026-11-06T09:22:47+00:00",
+   "summary": "Alfa Laval has entered into a definitive agreement to acquire Norwegian maritime software company NAVTOR for $700 million in cash, expanding its digital fleet solutions business through one of its most significant transactions to date.The acquisition…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Indian ship recycling breakthrough hits Brussels roadblock",
+   "link": "https://splash247.com/indian-ship-recycling-breakthrough-hits-brussels-roadblock/",
+   "published": "2026-11-06T09:20:01+00:00",
+   "summary": "A European Parliament committee has voted against allowing two Indian shipbreaking yards onto the EU’s approved recycling list, dealing a setback to shipowners pushing for greater access to South Asian dismantling capacity. The Parliament’s environment committee backed an objection this week to the European Commission’s proposal to approve Shree Ram Vessel Scrap and YSI Recyclers, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Venergy doubles VLCC order at Hengli",
+   "link": "https://splash247.com/venergy-doubles-vlcc-order-at-hengli/",
+   "published": "2026-11-06T09:19:00+00:00",
+   "summary": "Greek shipowner Vyron Vasileiadis has firmed up another two VLCCs at China’s Hengli Heavy Industries, doubling Venergy Maritime’s debut supertanker order to four vessels. The Piraeus-based company exercised the options attached to its October contract for two firm 306,000 dwt crude carriers, with all four vessels scheduled for delivery in 2029. The move brings Venergy’s …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz",
+   "link": "",
+   "published": "2026-11-06T09:06:55+00:00",
+   "summary": "Iran widens both geographic area of attacks and types of vessels targeted",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "PV Gas seeks new spot LNG shipment",
+   "link": "https://lngprime.com/asia/pv-gas-seeks-new-spot-lng-shipment/199644/",
+   "published": "2026-11-06T08:27:06+00:00",
+   "summary": "Petrovietnam Gas, a unit of state-owned Petrovietnam, is seeking another spot LNG cargo for delivery to the Thi Vai LNG import terminal.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CBP rule puts US customs brokers on the hook for import fraud",
+   "link": "",
+   "published": "2026-11-06T07:32:46+00:00",
+   "summary": "Agency cites $1 billion in unpaid duty backlog as catalyst for sweeping new import restrictions",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Centrica, Tourmaline expand long-term gas deal",
+   "link": "https://lngprime.com/europe/centrica-tourmaline-expand-long-term-gas-deal/199619/",
+   "published": "2026-11-06T07:18:41+00:00",
+   "summary": "Canada’s largest natural gas producer Tourmaline has expanded its long-term natural gas supply deal with UK-based energy firm Centrica.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Adnoc, Gujarat Energy seal long-term LNG SPA",
+   "link": "https://lngprime.com/asia/adnoc-gujarat-energy-seal-long-term-lng-spa/199614/",
+   "published": "2026-11-06T07:01:03+00:00",
+   "summary": "UAE’s Adnoc has entered into a long-term liquefied natural gas (LNG) sales and purchase agreement with India's Gujarat Energy.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "PIL books seven methanol-ready boxships at Huanghai Shipbuilding",
+   "link": "",
+   "published": "2026-11-06T06:54:46+00:00",
+   "summary": "The container vessel newbuildings are to boost the carrier’s Intra-Asia and feeder service capacity",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Lithium-ion fires now a full-blown supply chain risk",
+   "link": "",
+   "published": "2026-11-06T06:28:12+00:00",
+   "summary": "Risks relating to lithium-ion battery fires are a mounting concern across the freight business but for shipowners and operators, the results have sometimes proved fatal",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Israeli Cruise Ship Receives False Bomb Threat Over VHF",
+   "link": "https://maritime-executive.com/article/israeli-cruise-ship-receives-false-bomb-threat-over-vhf",
+   "published": "2026-11-06T04:46:11+00:00",
+   "summary": "The Israeli-owned cruise ship Crown Iris sometimes encounters confrontation when it calls in Greece, a product of differing views on the circumstances...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Kongsberg Maritime Unveils New Logo and Tagline",
+   "link": "https://maritime-executive.com/article/kongsberg-maritime-unveils-new-logo-and-tagline-2",
+   "published": "2026-11-06T04:12:00+00:00",
+   "summary": "Kongsberg Maritime has unveiled its new logo and tagline, ‘Beyond begins here’. This is the company’s first independent visual identity following its...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Markey Machine Announces Ownership Transition and New Leadership",
+   "link": "https://maritime-executive.com/article/markey-machine-announces-ownership-transition-and-new-leadership",
+   "published": "2026-11-06T04:10:00+00:00",
+   "summary": "Markey Machine, a Seattle-based manufacturer of marine winches and deck machinery, has completed an ownership and leadership transition, positioning t...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Australia Fields The Largest National Delegation At Interferry",
+   "link": "https://maritime-executive.com/article/australia-fields-the-largest-national-delegation-at-interferry-s-50th-anniversary-conference-in-bangkok",
+   "published": "2026-11-06T04:07:00+00:00",
+   "summary": "Australia sent more delegates than any other country to Interferry2026, the 50th Annual Interferry Conference, with 65 Australians attending the globa...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
