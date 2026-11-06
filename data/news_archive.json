@@ -1,6 +1,19 @@
 {
  "company": [
   {
+   "title": "STST: Invitation to Q3 2026 Earnings Call",
+   "link": "https://newsweb.oslobors.no/message/685836",
+   "published": "2026-11-06T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "STST",
+   "company": "Stainless Tankers ASA",
+   "category": "Half-year report",
+   "kind": "company",
+   "routine": false,
+   "rank": 1,
+   "nordic": true
+  },
+  {
    "title": "KCC: Third Quarter 2026   Solid Q3, record Q4 outlook",
    "link": "https://newsweb.oslobors.no/message/684866",
    "published": "2026-10-27T06:01:10+00:00",
@@ -11,6 +24,19 @@
    "kind": "company",
    "routine": false,
    "rank": 1,
+   "nordic": true
+  },
+  {
+   "title": "CAPITAL TANKERS CORP. ANNOUNCES A TIME CHARTER FOR THE DUAL FUEL SUEZMAX TANKER M/T AMOR",
+   "link": "https://newsweb.oslobors.no/message/685839",
+   "published": "2026-11-06T06:00:05+00:00",
+   "source": "Oslo Børs",
+   "ticker": "CAPT",
+   "company": "Capital Tankers Corp.",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
    "nordic": true
   },
   {
@@ -33,6 +59,30 @@
    "source": "SEC EDGAR",
    "ticker": "LPG",
    "company": "Dorian LPG",
+   "category": "8-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
+   "title": "All things identity. AI-Embedded Identity Intelligence Built from the Ground Up for the AI Era November 2026 ® © 2026 Red Violet, Inc. All Rights Reserved. Exhibit 99.1",
+   "summary": "DISCLAIMERS This presentation contains \"forward-looking statements,\" as that term is defined under the Private Securities Litigation Reform Act of 1995 (“PSLRA”), which statements may be identified by words such as \"expects,\" \"plans,\" \"projects,\" \"will,\" \"may,\" \"anticipate,\" \"believes,\" \"should,\" \"intends,\" \"estimates,\" \"targets,\" \"goals,\" \"outlook,\" and other words of similar meaning. Such forwar",
+   "link": "https://www.sec.gov/Archives/edgar/data/1720116/000119312526449999/rdvt-20261104.htm",
+   "published": "2026-11-05T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "FLNG",
+   "company": "Flex LNG",
+   "category": "8-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
+   "title": "red violet Reports Third Quarter 2026 Financial Results",
+   "summary": "Revenue Increases 20% to a Record $27.8 Million Producing a Record $12.7 Million in Cash Flow from Operations",
+   "link": "https://www.sec.gov/Archives/edgar/data/1720116/000119312526449969/rdvt-20261104.htm",
+   "published": "2026-11-05T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "FLNG",
+   "company": "Flex LNG",
    "category": "8-K",
    "kind": "company",
    "rank": 2
@@ -463,6 +513,276 @@
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
+  },
+  {
+   "title": "U.S. State Department Expands Sanctions on Cuban Shipping",
+   "link": "https://maritime-executive.com/article/u-s-state-department-expands-sanctions-on-cuban-shipping",
+   "published": "2026-11-06T03:10:48+00:00",
+   "summary": "The Trump administration has sanctioned five ships and two people for allegedly serving Cuba's oil shipping network, and has rolled out broad sectoral...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "South Korea Plans to Deploy Naval Assets Closer to Hormuz",
+   "link": "https://maritime-executive.com/article/south-korea-plans-to-deploy-naval-assets-closer-to-hormuz",
+   "published": "2026-11-06T02:50:47+00:00",
+   "summary": "South Korea's government wants to deploy naval assets somewhat closer to the Strait of Hormuz, eight months after the start of the U.S.-Iran conflict....",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Second term for Arsenio Dominguez backed by IMO Council",
+   "link": "",
+   "published": "2026-11-06T02:09:16+00:00",
+   "summary": "The second term is subject to approval by the IMO Assembly next year",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Suez Canal Authority Tows Sanctioned Russian Tanker to Safety",
+   "link": "https://maritime-executive.com/article/suez-canal-authority-tows-sanctioned-russian-tanker-to-safety",
+   "published": "2026-11-06T01:47:13+00:00",
+   "summary": "The Suez Canal Authority is highlighting its broad salvage capabilities available to shipping beyond the canal, including regional waters around Egypt...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "India’s Adani Agrees to Buy Europe’s 2nd-Largest Liquid Storage Operator",
+   "link": "https://maritime-executive.com/article/india-s-adani-agrees-to-buy-europe-s-2nd-largest-liquid-storage-operator",
+   "published": "2026-11-06T01:11:07+00:00",
+   "summary": "Adani Ports and Special Economic Zone Limited (APSEZ) agreed to acquire Netherlands-headquartered Evos B.V. from Igneo Infrastructure Partners in a de...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Upbeat Outlook from Maersk Fails to Win Over Investors",
+   "link": "https://maritime-executive.com/article/upbeat-outlook-from-maersk-fails-to-win-over-investors",
+   "published": "2026-11-06T00:40:21+00:00",
+   "summary": "Maersk, which has long been considered a bellwether for the industry as the largest publicly traded company in the sector, issued a very positive upda...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Ammonia-Powered Bulk Carrier Takes on Green Fuel in Australian First",
+   "link": "https://gcaptain.com/ammonia-powered-bulk-carrier-takes-on-green-fuel-in-australian-first/",
+   "published": "2026-11-05T22:49:48+00:00",
+   "summary": "Australia has completed its first green ammonia bunkering operation involving an ammonia-powered bulk carrier, marking another step toward bringing alternative fuels into commercial shipping. The operation took place earlier this...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Finnish Court Jails Cargo Ship Captain, Crew Member for Baltic Sea Cable Sabotage",
+   "link": "https://gcaptain.com/finnish-court-jails-cargo-ship-captain-crew-member-for-baltic-sea-cable-sabotage/",
+   "published": "2026-11-05T22:44:20+00:00",
+   "summary": "A Finnish court on Thursday jailed the Russian captain and an Azerbaijani crew member of the cargo ship Fitburg for aggravated sabotage over damage to two subsea telecommunications cables in the Gulf of Finland last year.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Seven Shadow Fleet Tankers Spoof AIS to Hide Novorossiysk Voyages",
+   "link": "https://www.hellenicshippingnews.com/seven-shadow-fleet-tankers-spoof-ais-to-hide-novorossiysk-voyages/",
+   "published": "2026-11-05T22:00:59+00:00",
+   "summary": "Sanctioned Tankers Fake Their Positions Near the Bosphorus A cluster of seven sanctioned Russian tankers were found to have routinely and deliberately manipulated AIS over the past 90 days to falsely claim they were drifting off the Black Sea close to the Bosphorus entrance. The tankers were instead identified by Windward clandestinely sailing for the ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Newbuilding Orders Piling Up",
+   "link": "https://www.hellenicshippingnews.com/newbuilding-orders-piling-up/",
+   "published": "2026-11-05T22:00:59+00:00",
+   "summary": "The newbuilding market has remained very elevated over the past week, as owners have kept securing more orders. In its latest weekly report, shipbroker Banchero Costa said that “newbuilding activity remained exceptionally strong this week, with a total of 51 vessels ordered across a broad spectrum of sectors including bulk carriers, containers, tankers and car ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Inmarsat Maritime Safety Data Hub to help shipping weather the storm",
+   "link": "https://www.hellenicshippingnews.com/inmarsat-maritime-safety-data-hub-to-help-shipping-weather-the-storm/",
+   "published": "2026-11-05T22:00:58+00:00",
+   "summary": "Deep-sea shipping is an inherently hazardous enterprise and the many operational risks faced by vessels, cargo, and crew will likely never be eliminated entirely. Nevertheless, data can play a significant role in minimising the frequency and severity of incidents at sea. As the maritime threat landscape continues to evolve, so too must the quality of ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Dorian LPG Ltd. Reports Record Earnings on Strong Market Conditions and Ship Resale Profits",
+   "link": "https://www.hellenicshippingnews.com/dorian-lpg-ltd-reports-record-earnings-on-strong-market-conditions-and-ship-resale-profits/",
+   "published": "2026-11-05T22:00:57+00:00",
+   "summary": "Dorian LPG Ltd., a leading owner and operator of modern very large gas carriers (“VLGCs”), reported its financial results for the three months ended September 30, 2026. Key Recent Developments • Declared an irregular cash dividend totaling approximately $53.7 million, or $1.25 per share, to be paid on or about November 24, 2026 to all ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Xeneta Summit: Analysts forecast ocean freight spot rates to fall 30% in 2027 as Red Sea return sees capacity flooding back",
+   "link": "https://www.hellenicshippingnews.com/xeneta-summit-analysts-forecast-ocean-freight-spot-rates-to-fall-30-in-2027-as-red-sea-return-sees-capacity-flooding-back/",
+   "published": "2026-11-05T22:00:57+00:00",
+   "summary": "Global ocean container shipping spot rates are forecast to fall 30% in 2027, according to the Xeneta Ocean Outlook Report unveiled today by Chief Analyst Peter Sand to more than 800 industry leaders from the world’s largest shippers and logistics service providers gathered at the annual Xeneta Summit in Munich. Xeneta – the leading neutral ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Arc Begins Battery-Electric Conversion of Long Beach Harbor Tug",
+   "link": "https://www.marinelink.com/news/arc-begins-batteryelectric-conversion-544186",
+   "published": "2026-11-05T21:31:11+00:00",
+   "summary": "Arc, a marine technology company, has begun engineering the battery-electric conversion of Harbor Sentinel, a 50-foot harbor tug owned and operated by Pacific Maritime Group (PMG). Supported by funding from the Port of Long Beach through its Technology Advancement Program (TAP) and SWIFT Program…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MARAD Approves $1 Billion Offshore Crude Oil Export Port Off Louisiana",
+   "link": "https://gcaptain.com/marad-approves-1-billion-offshore-crude-oil-export-port-off-louisiana/",
+   "published": "2026-11-05T21:10:53+00:00",
+   "summary": "The Trump administration has approved a $1 billion offshore crude oil export project off the coast of Louisiana, clearing a major regulatory hurdle for a facility designed to load some...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ørsted’s Revolution Wind Reaches Full Operations After Trump Administration Shutdowns",
+   "link": "https://gcaptain.com/orsteds-revolution-wind-reaches-full-operations-after-trump-administration-shutdowns/",
+   "published": "2026-11-05T19:52:12+00:00",
+   "summary": "Danish offshore wind developer Ørsted has completed its 704-megawatt Revolution Wind project off the U.S. East Coast, marking a major milestone for a development that faced repeated shutdown orders from...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "General Dynamics Mission Systems Awarded $15m MEDUSA Contract Modification",
+   "link": "https://www.marinelink.com/news/general-dynamics-mission-systems-awarded-544189",
+   "published": "2026-11-05T19:19:14+00:00",
+   "summary": "General Dynamics Mission Systems announced it was awarded a $15 million contract modification to exercise options under a previously awarded contract for the Mining Expendable Delivery Unmanned Submarine Asset (MEDUSA).Building on the prototype…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Katsa Expands Capacity With New Assembly Plant",
+   "link": "https://www.marinelink.com/news/katsa-expands-capacity-new-assembly-plant-544188",
+   "published": "2026-11-05T19:14:58+00:00",
+   "summary": "Twin Disc, Inc. subsidiary Katsa announced that it is expanding its capacity with a 54,000-square-foot gearbox assembly facility and warehouse in Pirkkala, Finland, in response to a double-digit percentage year-over-year increase in demand.The new plant…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "US-sanctioned ships dropped from Iran's PGSA blacklist",
+   "link": "",
+   "published": "2026-11-05T19:07:23+00:00",
+   "summary": "LPG carriers removed from PGSA non-compliance list as UKMTO reports Hormuz tanker strike.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CM Energy Contributes to ASSO Cable Lay Project",
+   "link": "https://www.marinelink.com/news/cm-energy-contributes-asso-cable-lay-544187",
+   "published": "2026-11-05T19:04:17+00:00",
+   "summary": "CM Energy is strengthening its engagement in the European offshore wind market through an ongoing integrated cable-lay installation for ASSO Subsea, an international subsea contractor that specializes in submarine cable installation, protection…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "War Comes to NATO’s Black Sea Coast, and Shipping Starts Saying No",
+   "link": "https://gcaptain.com/war-comes-to-natos-black-sea-coast-and-shipping-starts-saying-no/",
+   "published": "2026-11-05T18:53:29+00:00",
+   "summary": "Maritime experts warn that the westward spread of attacks between Russia and Ukraine, toward NATO coastlines, is now having commercial consequences.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dominguez gets nod for second term at IMO helm",
+   "link": "https://splash247.com/dominguez-gets-nod-for-second-term-at-imo-helm/",
+   "published": "2026-11-05T18:17:58+00:00",
+   "summary": "Arsenio Dominguez is set to remain at the helm of the International Maritime Organization (IMO) until the end of 2031 after the UN shipping agency’s Council backed his appointment for another four-year term. The 40-member Council endorsed the Panamanian’s extension during its 138th session in London, with the decision still requiring formal approval from the …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Brazilian builds boat from rubbish to collect more rubbish",
+   "link": "https://splash247.com/brazilian-builds-boat-from-rubbish-to-collect-more-rubbish/",
+   "published": "2026-11-05T17:17:00+00:00",
+   "summary": "A former Brazilian ocean canoeing champion has taken recycling to a floating extreme, constructing a boat from 230 discarded plastic containers so he can collect even more rubbish from the sea. Marcos Arnhold spent two months building the unusual craft in Guaratuba, southern Brazil, using 125 two-litre plastic bottles, 105 five-litre disinfectant containers and a …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO Backs Dominguez for Second Term Amid Shipping Attacks and Climate Deadlock",
+   "link": "https://gcaptain.com/imo-backs-dominguez-for-second-term-amid-shipping-attacks-and-climate-deadlock/",
+   "published": "2026-11-05T16:56:28+00:00",
+   "summary": "The International Maritime Organization (IMO) Council has backed Secretary-General Arsenio Dominguez for a second four-year term, extending its support for his leadership despite the organization’s failure to adopt its landmark...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Container rates to plummet in 2027",
+   "link": "",
+   "published": "2026-11-05T16:32:43+00:00",
+   "summary": "Freight intelligence platform Xeneta forecasts that the flood of capacity being delivered and returning to the shorter Red Sea route will cause rates to crash.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Stillstrom builds vessel mounted connection system for offshore wind charging",
+   "link": "https://ship.energy/technology/stillstrom-builds-vessel-mounted-connection-system-for-offshore-wind-charging/",
+   "published": "2026-11-05T16:30:53+00:00",
+   "summary": "Stillstrom by Maersk has announced it has completed the build and factory acceptance testing of its proprietary Vessel Container Unit (VCU) which it describes as ‘the world’s first connection solution that lets a service operation vessel (SOV) charge its batteries directly from an offshore wind farm.’ The milestone was witnessed by classification society DNV, Stillstrom said in a statement issued earlier this week. T",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Excelerate and AxDo Bahamas ink 11-year LNG supply agreement",
+   "link": "https://ship.energy/energy/excelerate-and-axdo-bahamas-ink-11-year-lng-supply-agreement/",
+   "published": "2026-11-05T16:26:00+00:00",
+   "summary": "U.S.-based LNG and power infrastructure company Excelerate Energy and AxDo Bahamas – a joint venture between Axpo and Domicisle LNG established last month to conduct small-scale LNG and bunkering operations in the Bahamas region – have today (5 November) announced an 11-year LNG supply agreement. Under the agreement, which provides for deliveries of up to 16 trillion British thermal units (TBtu) of LNG a year, AxDo w",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Biodiesel favoured over MGO as Iran war and RED III reframe FuelEU compliance strategies – ARACON",
+   "link": "https://ship.energy/information/biodiesel-favoured-over-mgo-as-iran-war-and-red-iii-reframe-fueleu-compliance-strategies-aracon/",
+   "published": "2026-11-05T16:18:05+00:00",
+   "summary": "The surge in conventional bunker prices triggered by the Iran war and compounded by the implementation of RED III in the Netherlands has ‘completely turned around’ FuelEU Maritime bunkering strategies, with owners and operators favouring biodiesel over MGO to reduce compliance costs. The discussion Rules-based order: how regulation is impacting – and complicating – the business of bunkering,hosted at the ARACON confe",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MARAD cutting red tape in deepwater port licensing overhaul",
+   "link": "",
+   "published": "2026-11-05T15:36:37+00:00",
+   "summary": "US agency aims to eliminate bureaucratic bottlenecks for multi-billion-dollar offshore energy projects.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore-Norway launch joint research grant call to advance greener shipping",
+   "link": "https://ship.energy/energy/singapore-norway-launch-joint-research-grant-call-to-advance-greener-shipping/",
+   "published": "2026-11-05T14:16:35+00:00",
+   "summary": "The Maritime and Port Authority of Singapore (MPA), the Research Council of Norway (RCN) and the Singapore Maritime Institute (SMI) have launched a joint research grant call to develop solutions to support the decarbonisation of international shipping. Announced today (5 November), the grant call builds on the MPA-RCN Memorandum of Understanding signed in April 2024 on maritime research, development, education and tr",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
   },
   {
    "title": "IMO Council supports second term for Secretary-General Arsenio Dominguez",

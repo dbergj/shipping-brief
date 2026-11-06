@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-05T06:33:05+00:00",
+ "updated": "2026-11-06T06:32:16+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Direct attacks on ships in Hormuz",
-   "status": "watch",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, including a VLCC whose engine room was struck in Omani waters, reported as the fifth confirmed attack in the first three days of the month.",
+   "status": "active",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, including a VLCC whose engine room was struck in Omani waters. Today UKMTO is reported to have logged a further tanker strike.",
    "why_it_matters": "Strikes on hulls raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-   "latest": null,
+   "latest": "A Hormuz tanker strike reported by UKMTO, and South Korea said it wants to deploy naval assets closer to the strait.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -15,18 +15,19 @@
     "brent"
    ],
    "sources": [
-    "How will the 'blue tsunami' impact Trump administration policies?"
+    "US-sanctioned ships dropped from Iran's PGSA blacklist",
+    "South Korea Plans to Deploy Naval Assets Closer to Hormuz"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-04",
-   "days_running": 7,
-   "days_since_update": 1
+   "last_update": "2026-11-06",
+   "days_running": 8,
+   "days_since_update": 0
   },
   {
    "id": "chokepoint-transits",
    "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
    "status": "watch",
-   "what": "Strait of Hormuz traffic rose in October to its highest monthly level since July, supported by stronger dry bulk and LNG movements even as VLCC traffic declined. Red Sea traffic also rose. Vessel waiting remains elevated across the Arabian Gulf.",
+   "what": "Strait of Hormuz traffic rose in October to its highest monthly level since July, supported by dry bulk and LNG movements even as VLCC traffic declined. Red Sea traffic also rose and Arabian Gulf waiting remains elevated.",
    "why_it_matters": "Transit counts and waiting times show whether ships route through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
    "latest": null,
    "watch": [
@@ -34,32 +35,31 @@
     "suezmax_tce",
     "bdi"
    ],
-   "sources": [
-    "LR Advisory launches Supply Chain Resilience service"
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-04",
-   "days_running": 8,
-   "days_since_update": 1
+   "days_running": 9,
+   "days_since_update": 2
   },
   {
-   "id": "iran-shadow-fleet-sanctions",
-   "title": "US sanctions on Iran shadow-fleet registries",
+   "id": "shadow-fleet-sanctions",
+   "title": "Sanctions and evasion in the shadow fleet",
    "status": "active",
-   "what": "The United States sanctioned a network of individuals and companies accused of running fraudulent ship registries and false-flag services for Iranian shadow fleet vessels, alongside a new warning to the industry.",
-   "why_it_matters": "Flag and registry fraud sanctions force charterers, insurers and class societies to re-check documentation, and can push sanctioned tonnage out of mainstream trades, tightening compliant tanker supply.",
-   "latest": "Sanctions announced Wednesday targeting fraudulent registries serving Iran's shadow fleet.",
+   "what": "The US sanctioned a network running fraudulent ship registries and false-flag services for Iranian shadow fleet vessels, and today expanded sanctions to five ships and two people tied to Cuba's oil shipping network. Separately, seven sanctioned Russian tankers were found manipulating AIS to disguise Novorossiysk voyages.",
+   "why_it_matters": "Registry fraud and AIS spoofing force charterers, insurers and class societies to re-verify documentation and positions, and can push sanctioned tonnage out of mainstream trades, tightening compliant tanker supply.",
+   "latest": "US State Department sanctioned five ships and two people over Cuban oil shipping; seven sanctioned tankers reported spoofing AIS near the Bosphorus; US-sanctioned LPG carriers removed from Iran's PGSA non-compliance list.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "brent"
    ],
    "sources": [
-    "Latest US sanctions target dark fleet false-flag network",
-    "U.S. Targets Fraudulent Ship Registries Used by Iran's Shadow Fleet"
+    "U.S. State Department Expands Sanctions on Cuban Shipping",
+    "Seven Shadow Fleet Tankers Spoof AIS to Hide Novorossiysk Voyages",
+    "US-sanctioned ships dropped from Iran's PGSA blacklist"
    ],
-   "first_seen": "2026-11-05",
-   "last_update": "2026-11-05",
+   "first_seen": "2026-11-06",
+   "last_update": "2026-11-06",
    "days_running": 1,
    "days_since_update": 0
   },
@@ -75,13 +75,11 @@
     "bpi",
     "bsi"
    ],
-   "sources": [
-    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 7,
-   "days_since_update": 5
+   "days_running": 8,
+   "days_since_update": 6
   },
   {
    "id": "russian-diesel-atlantic",
@@ -96,31 +94,27 @@
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [
-    "How will the 'blue tsunami' impact Trump administration policies?"
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 8,
-   "days_since_update": 4
+   "days_running": 9,
+   "days_since_update": 5
   },
   {
    "id": "port-labour-disruption",
    "title": "Port labour disruption in the US and Europe",
    "status": "watch",
-   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond over arms shipments through their ports.",
+   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond over arms shipments.",
    "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
    "latest": null,
    "watch": [
     "bdi"
    ],
-   "sources": [
-    "Transpacific emerges as liner shipping's golden trade"
-   ],
+   "sources": [],
    "first_seen": "2026-10-31",
    "last_update": "2026-11-01",
-   "days_running": 6,
-   "days_since_update": 4
+   "days_running": 7,
+   "days_since_update": 5
   }
  ]
 }
