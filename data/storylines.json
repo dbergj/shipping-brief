@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-06T06:32:16+00:00",
+ "updated": "2026-11-07T06:21:21+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Direct attacks on ships in Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, including a VLCC whose engine room was struck in Omani waters. Today UKMTO is reported to have logged a further tanker strike.",
-   "why_it_matters": "Strikes on hulls raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-   "latest": "A Hormuz tanker strike reported by UKMTO, and South Korea said it wants to deploy naval assets closer to the strait.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November. Today a seafarer was killed in a Gulf tanker attack and a VLCC was struck in Hormuz, with Iran reported to be widening both the geographic area of attacks and the vessel types targeted.",
+   "why_it_matters": "Crew fatalities and hull strikes raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
+   "latest": "First reported seafarer fatality in a Gulf tanker attack, plus a VLCC struck in Hormuz and a reported widening of targeting.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -15,12 +15,11 @@
     "brent"
    ],
    "sources": [
-    "US-sanctioned ships dropped from Iran's PGSA blacklist",
-    "South Korea Plans to Deploy Naval Assets Closer to Hormuz"
+    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-06",
-   "days_running": 8,
+   "last_update": "2026-11-07",
+   "days_running": 9,
    "days_since_update": 0
   },
   {
@@ -35,32 +34,33 @@
     "suezmax_tce",
     "bdi"
    ],
-   "sources": [],
+   "sources": [
+    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz"
+   ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-04",
-   "days_running": 9,
-   "days_since_update": 2
+   "days_running": 10,
+   "days_since_update": 3
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
    "status": "active",
-   "what": "The US sanctioned a network running fraudulent ship registries and false-flag services for Iranian shadow fleet vessels, and today expanded sanctions to five ships and two people tied to Cuba's oil shipping network. Separately, seven sanctioned Russian tankers were found manipulating AIS to disguise Novorossiysk voyages.",
-   "why_it_matters": "Registry fraud and AIS spoofing force charterers, insurers and class societies to re-verify documentation and positions, and can push sanctioned tonnage out of mainstream trades, tightening compliant tanker supply.",
-   "latest": "US State Department sanctioned five ships and two people over Cuban oil shipping; seven sanctioned tankers reported spoofing AIS near the Bosphorus; US-sanctioned LPG carriers removed from Iran's PGSA non-compliance list.",
+   "what": "The US has expanded sanctions on Cuba's maritime and energy sectors, identifying five Cuban-flagged vessels as blocked property and opening the door to sanctions on foreign companies dealing with them, following earlier action against Iranian false-flag registry networks. Analysts now say a quarter of the internationally trading crude fleet sits on the dark list.",
+   "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, and push tonnage out of mainstream trades, tightening compliant tanker supply.",
+   "latest": "US sanctions on five Cuban-flagged vessels; ARACON told the dark fleet has tripled since 2022 and covers 25% of the trading crude fleet.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "brent"
    ],
    "sources": [
-    "U.S. State Department Expands Sanctions on Cuban Shipping",
-    "Seven Shadow Fleet Tankers Spoof AIS to Hide Novorossiysk Voyages",
-    "US-sanctioned ships dropped from Iran's PGSA blacklist"
+    "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
    ],
    "first_seen": "2026-11-06",
-   "last_update": "2026-11-06",
-   "days_running": 1,
+   "last_update": "2026-11-07",
+   "days_running": 2,
    "days_since_update": 0
   },
   {
@@ -75,11 +75,13 @@
     "bpi",
     "bsi"
    ],
-   "sources": [],
+   "sources": [
+    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
+   ],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 8,
-   "days_since_update": 6
+   "days_running": 9,
+   "days_since_update": 7
   },
   {
    "id": "russian-diesel-atlantic",
@@ -94,11 +96,13 @@
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [],
+   "sources": [
+    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+   ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 9,
-   "days_since_update": 5
+   "days_running": 10,
+   "days_since_update": 6
   },
   {
    "id": "port-labour-disruption",
@@ -110,11 +114,13 @@
    "watch": [
     "bdi"
    ],
-   "sources": [],
+   "sources": [
+    "Adani Ports Makes Major Push Into Europe With $2.9 Billion Evos Acquisition"
+   ],
    "first_seen": "2026-10-31",
    "last_update": "2026-11-01",
-   "days_running": 7,
-   "days_since_update": 5
+   "days_running": 8,
+   "days_since_update": 6
   }
  ]
 }
