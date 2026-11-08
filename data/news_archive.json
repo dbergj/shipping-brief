@@ -389,18 +389,6 @@
    "rank": 2
   },
   {
-   "title": "STAR BULK CARRIERS CORP. ANNOUNCES RENEWAL OF EXISTING ATM EQUITY OFFERING PROGRAMS",
-   "summary": "- Star Bulk Carriers Corp. (the \"Company\" or “Star Bulk”) (Nasdaq & Euronext Athens: SBLK) today announced the renewal of its existing",
-   "link": "https://www.sec.gov/Archives/edgar/data/1386716/000114036126039287/ef20083535_form6k.htm",
-   "published": "2026-10-09T12:00:00+00:00",
-   "source": "SEC EDGAR",
-   "ticker": "SBLK",
-   "company": "Star Bulk Carriers",
-   "category": "6-K",
-   "kind": "company",
-   "rank": 2
-  },
-  {
    "title": "Volare Shipping Ltd.: New share capital registered",
    "link": "https://newsweb.oslobors.no/message/685604",
    "published": "2026-11-04T13:16:30+00:00",
@@ -511,6 +499,15 @@
    "link": "",
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman",
+   "link": "",
+   "published": "2026-11-08T10:17:51+00:00",
+   "summary": "Iran and the US traded strikes on commercial vessels in and around the Strait of Hormuz over the weekend.",
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
