@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-07T06:21:21+00:00",
+ "updated": "2026-11-08T06:22:29+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
-   "title": "Direct attacks on ships in Hormuz",
+   "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November. Today a seafarer was killed in a Gulf tanker attack and a VLCC was struck in Hormuz, with Iran reported to be widening both the geographic area of attacks and the vessel types targeted.",
-   "why_it_matters": "Crew fatalities and hull strikes raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-   "latest": "First reported seafarer fatality in a Gulf tanker attack, plus a VLCC struck in Hormuz and a reported widening of targeting.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a seafarer killed in a Gulf tanker attack and a VLCC struck. Separately, US forces fired on and disabled a commercial vessel in the Gulf of Oman on Saturday as it tried to breach the US blockade of Iranian ports.",
+   "why_it_matters": "Crew fatalities, hull strikes and armed blockade enforcement raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting tanker earnings.",
+   "latest": "US Central Command says an American military aircraft disabled a cargo vessel in the Gulf of Oman on Saturday, the first such action in a month; trade press reports soaring tanker rates are deepening discounts on heavy crude grades.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -15,10 +15,51 @@
     "brent"
    ],
    "sources": [
-    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz"
+    "US Forces Disable First Cargo Ship in a Month Sailing from Iranian Port",
+    "US Military Says It Disabled Cargo Vessel In Gulf Of Oman",
+    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz",
+    "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-07",
+   "last_update": "2026-11-08",
+   "days_running": 10,
+   "days_since_update": 0
+  },
+  {
+   "id": "shadow-fleet-sanctions",
+   "title": "Sanctions and evasion in the shadow fleet",
+   "status": "active",
+   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts now describe the dark fleet as a parallel fleet that has tripled in size since 2022.",
+   "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
+   "latest": "ARACON 26 delegates were told that 25% of the internationally trading crude oil fleet now sits on the dark list.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "brent"
+   ],
+   "sources": [
+    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+   ],
+   "first_seen": "2026-11-06",
+   "last_update": "2026-11-08",
+   "days_running": 3,
+   "days_since_update": 0
+  },
+  {
+   "id": "port-labour-disruption",
+   "title": "Port labour disruption in the US and Europe",
+   "status": "active",
+   "what": "A contract standoff involving about 250 security workers threatens operations across Los Angeles and Long Beach terminals, while dockworkers have struck across Europe and beyond over arms shipments.",
+   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
+   "latest": "The union agreed to continue negotiations for two more weeks, deferring the strike threat again without resolving it.",
+   "watch": [
+    "bdi"
+   ],
+   "sources": [
+    "LA Port Strike Threat Deferred Again As Labor Talks Drag On"
+   ],
+   "first_seen": "2026-10-31",
+   "last_update": "2026-11-08",
    "days_running": 9,
    "days_since_update": 0
   },
@@ -39,29 +80,8 @@
    ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-04",
-   "days_running": 10,
-   "days_since_update": 3
-  },
-  {
-   "id": "shadow-fleet-sanctions",
-   "title": "Sanctions and evasion in the shadow fleet",
-   "status": "active",
-   "what": "The US has expanded sanctions on Cuba's maritime and energy sectors, identifying five Cuban-flagged vessels as blocked property and opening the door to sanctions on foreign companies dealing with them, following earlier action against Iranian false-flag registry networks. Analysts now say a quarter of the internationally trading crude fleet sits on the dark list.",
-   "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, and push tonnage out of mainstream trades, tightening compliant tanker supply.",
-   "latest": "US sanctions on five Cuban-flagged vessels; ARACON told the dark fleet has tripled since 2022 and covers 25% of the trading crude fleet.",
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "brent"
-   ],
-   "sources": [
-    "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
-    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
-   ],
-   "first_seen": "2026-11-06",
-   "last_update": "2026-11-07",
-   "days_running": 2,
-   "days_since_update": 0
+   "days_running": 11,
+   "days_since_update": 4
   },
   {
    "id": "black-sea-attacks",
@@ -80,8 +100,8 @@
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 9,
-   "days_since_update": 7
+   "days_running": 10,
+   "days_since_update": 8
   },
   {
    "id": "russian-diesel-atlantic",
@@ -97,30 +117,12 @@
     "refining_margin"
    ],
    "sources": [
-    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+    "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
    ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 10,
-   "days_since_update": 6
-  },
-  {
-   "id": "port-labour-disruption",
-   "title": "Port labour disruption in the US and Europe",
-   "status": "watch",
-   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond over arms shipments.",
-   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
-   "latest": null,
-   "watch": [
-    "bdi"
-   ],
-   "sources": [
-    "Adani Ports Makes Major Push Into Europe With $2.9 Billion Evos Acquisition"
-   ],
-   "first_seen": "2026-10-31",
-   "last_update": "2026-11-01",
-   "days_running": 8,
-   "days_since_update": 6
+   "days_running": 11,
+   "days_since_update": 7
   }
  ]
 }

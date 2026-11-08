@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T13:40:48+00:00",
+ "generated_at": "2026-11-08T06:19:24+00:00",
  "tone": "9 of 11 tracked prices rose and 2 fell. Biggest mover: Baltic Dry Index +2.3% to 2,805.00 points (as at Fri 06 Nov 13:00 GMT).",
  "metrics": [
   {
@@ -12,17 +12,17 @@
    "fallback": "CNBC live quote, then the daily oil report, then EIA/FRED",
    "value": 98.32,
    "change": null,
-   "as_of": "2026-11-07T05:00:00+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "ICE Brent Crude (Jan'27) via CNBC",
    "instrument": "ICE Brent Crude (Jan'27)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 05:00 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
-   "age_days": 0.36,
+   "age_days": 1.26,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -36,17 +36,17 @@
    "fallback": "CNBC live quote, then the daily oil report, then EIA/FRED",
    "value": 90.34,
    "change": -0.18,
-   "as_of": "2026-11-07T23:13:32+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "WTI Crude (Dec'26) via CNBC",
    "instrument": "WTI Crude (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 23:13 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.26,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -65,10 +65,10 @@
    "source_url": "https://www.hellenicshippingnews.com/european-gas-tumbles-to-seal-worst-week-since-2025-snaps-five-week-rally/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Fri 06 Nov 22:00 GMT",
    "max_sessions": 1,
-   "age_days": 0.65,
+   "age_days": 1.35,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -84,17 +84,17 @@
    "fallback": "CNBC live quote, then EIA/FRED",
    "value": 3.003,
    "change": 0.056,
-   "as_of": "2026-11-07T23:13:32+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "Natural Gas (Dec'26) via CNBC",
    "instrument": "Natural Gas (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 23:13 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.26,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -112,10 +112,10 @@
    "source": "ICE API2 Rotterdam Coal via CNBC",
    "stale": true,
    "refreshed": false,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Fri 06 Nov 13:38 GMT",
    "max_sessions": 2,
-   "age_days": 1.0,
+   "age_days": 1.7,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "stale",
@@ -131,17 +131,17 @@
    "fallback": "CNBC live quote (ULSD heating oil front-month)",
    "value": 4.343,
    "change": -0.0089,
-   "as_of": "2026-11-07T23:12:58+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "ULSD Heating Oil (Dec'26) via CNBC",
    "instrument": "ULSD Heating Oil (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 23:12 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.26,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -155,17 +155,17 @@
    "fallback": "CNBC live quote (RBOB front-month)",
    "value": 2.7678,
    "change": 0.0044,
-   "as_of": "2026-11-07T23:13:19+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "RBOB Gas (Dec'26) via CNBC",
    "instrument": "RBOB Gas (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 23:13 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.26,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -184,10 +184,10 @@
    "instrument": "Breakwave Dry Bulk Shipping ETF",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Fri 06 Nov",
    "max_sessions": 2,
-   "age_days": 1.57,
+   "age_days": 2.26,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -208,10 +208,10 @@
    "instrument": "Breakwave Tanker Shipping ETF",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Fri 06 Nov",
    "max_sessions": 2,
-   "age_days": 1.57,
+   "age_days": 2.26,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -231,10 +231,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-rebounds-3/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Wed 04 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 2.65,
+   "age_days": 3.35,
    "age_sessions": 2,
    "observed_today": false,
    "freshness": "current",
@@ -254,10 +254,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-at-over-2-week-low-2/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Tue 03 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 3.65,
+   "age_days": 4.35,
    "age_sessions": 3,
    "observed_today": false,
    "freshness": "lagged",
@@ -277,10 +277,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-rebounds-3/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Wed 04 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 2.65,
+   "age_days": 3.35,
    "age_sessions": 2,
    "observed_today": false,
    "freshness": "current",
@@ -300,10 +300,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2805-up-65-points/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Fri 06 Nov 13:00 GMT",
    "max_sessions": 2,
-   "age_days": 1.03,
+   "age_days": 1.72,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -318,12 +318,12 @@
    "kpi": true,
    "value": 854.0,
    "change": 4.5,
-   "as_of": "2026-11-07T13:41:21+00:00",
+   "as_of": "2026-11-08T06:19:58+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 13:41 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sun 08 Nov 06:19 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -340,12 +340,12 @@
    "kpi": false,
    "value": 739.5,
    "change": 7.5,
-   "as_of": "2026-11-07T13:41:21+00:00",
+   "as_of": "2026-11-08T06:19:58+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 13:41 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sun 08 Nov 06:19 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -362,12 +362,12 @@
    "kpi": false,
    "value": 865.0,
    "change": 13.5,
-   "as_of": "2026-11-07T13:41:21+00:00",
+   "as_of": "2026-11-08T06:19:58+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 13:41 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sun 08 Nov 06:19 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -384,12 +384,12 @@
    "kpi": false,
    "value": 770.5,
    "change": 16.5,
-   "as_of": "2026-11-07T13:41:21+00:00",
+   "as_of": "2026-11-08T06:19:58+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 13:41 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sun 08 Nov 06:19 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -406,22 +406,22 @@
    "kpi": false,
    "value": 84.09,
    "change": null,
-   "as_of": "2026-11-07T05:00:00+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "derived: gasoil − brent",
    "stale": false,
-   "age_days": 0.36,
+   "age_days": 1.26,
    "derived_from": [
     "gasoil",
     "brent"
    ],
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 05:00 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false,
-   "derived_freshness_from": "brent"
+   "derived_freshness_from": "gasoil"
   },
   {
    "id": "brent_wti_spread",
@@ -432,19 +432,19 @@
    "kpi": false,
    "value": 7.98,
    "change": null,
-   "as_of": "2026-11-07T05:00:00+00:00",
+   "as_of": "2026-11-07T00:00:00+00:00",
    "source": "derived: brent − wti",
    "stale": false,
-   "age_days": 0.36,
+   "age_days": 1.26,
    "derived_from": [
     "brent",
     "wti"
    ],
-   "collected_at": "2026-11-07T13:40:48+00:00",
-   "as_of_label": "Sat 07 Nov 05:00 GMT",
+   "collected_at": "2026-11-08T06:19:24+00:00",
+   "as_of_label": "Sat 07 Nov",
    "max_sessions": 1,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false,
    "derived_freshness_from": "brent"
@@ -463,10 +463,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Sun 01 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -485,10 +485,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tanker-market-giving-up-past-gains/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Sun 25 Oct 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 12.65,
+   "age_days": 13.35,
    "age_sessions": 10,
    "observed_today": false,
    "freshness": "lagged",
@@ -507,10 +507,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Sun 01 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -529,10 +529,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Sun 01 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -551,10 +551,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Sun 01 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -573,10 +573,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Sun 01 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -595,7 +595,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -617,7 +617,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -639,7 +639,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -661,7 +661,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -683,10 +683,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-gaining-ground/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Mon 02 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -705,10 +705,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-gaining-ground/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Mon 02 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -727,10 +727,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-gaining-ground/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Mon 02 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -749,10 +749,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-gaining-ground/",
-   "collected_at": "2026-11-07T13:40:48+00:00",
+   "collected_at": "2026-11-08T06:19:24+00:00",
    "as_of_label": "Mon 02 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -1278,11 +1278,20 @@
     "nordic": false
    },
    {
-    "title": "Royal Navy Conducts First Drone Tests from HMS Queen Elizabeth",
-    "link": "https://maritime-executive.com/article/royal-navy-conducts-first-drone-tests-from-hms-queen-elizabeth",
-    "published": "2026-11-07T00:40:09+00:00",
-    "summary": "The UK’s Royal Navy revealed it conducted its first launches of unnamed strike drones from the deck of HMS Queen Elizabeth last month. It called the t...",
+    "title": "US Forces Disable First Cargo Ship in a Month Sailing from Iranian Port",
+    "link": "https://maritime-executive.com/article/us-forces-disable-first-cargo-ship-in-a-month-sailing-from-iranian-port",
+    "published": "2026-11-07T23:15:35+00:00",
+    "summary": "For the first time in a month, U.S. Forces on Saturday fired on and disabled a cargo ship attempting to breach the blockade of Iranian ports. U.S. Cen...",
     "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "US Military Says It Disabled Cargo Vessel In Gulf Of Oman",
+    "link": "https://gcaptain.com/us-military-says-it-disabled-cargo-vessel-in-gulf-of-oman/",
+    "published": "2026-11-07T22:04:32+00:00",
+    "summary": "Nov 7 (Reuters) – An American military aircraft fired on and disabled a commercial vessel that tried to break the US blockade of Iran on Saturday, US Central Command said. The St....",
+    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1301,15 +1310,6 @@
     "published": "2026-11-06T20:06:44+00:00",
     "summary": "MEYER WERFT is establishing the organizational and legal framework for the successful development of its offshore converter business. To this end, all activities in this new business segment of the Group will be consolidated in the coming weeks into a separate company, NEPTUN Offshore GmbH & Co. KG.",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Adani Ports Makes Major Push Into Europe With $2.9 Billion Evos Acquisition",
-    "link": "https://gcaptain.com/adani-ports-makes-major-push-into-europe-with-2-9-billion-evos-acquisition/",
-    "published": "2026-11-06T18:43:25+00:00",
-    "summary": "India’s Adani Ports and Special Economic Zone (APSEZ) has agreed to acquire Netherlands-based liquid storage operator Evos B.V. in a €2.56 billion ($2.88 billion) deal that will give the company...",
-    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1350,11 +1350,20 @@
     "nordic": false
    },
    {
-    "title": "Lawsuit Seeks to Stop Planned Sinking of S.S. United States",
-    "link": "https://maritime-executive.com/article/lawsuit-seeks-to-stop-planned-sinking-of-s-s-united-states",
-    "published": "2026-11-06T23:56:15+00:00",
-    "summary": "A complaint filed in U.S. Federal Court is seeking to stop the planned sinking of the famed ocean liner S.S. United States, currently scheduled for ne...",
+    "title": "RINA & Petrobras €11M Contract for Subsea Engineering & Decommissioning",
+    "link": "https://maritime-executive.com/article/rina-petrobras-11m-contract-for-subsea-engineering-decommissioning",
+    "published": "2026-11-07T18:52:01+00:00",
+    "summary": "RINA, the global inspection, certification and consulting engineering multinational group, has signed a three-year €11 million contract with Petrobras...",
     "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "LA Port Strike Threat Deferred Again As Labor Talks Drag On",
+    "link": "https://gcaptain.com/la-port-strike-threat-deferred-again-as-labor-talks-drag-on/",
+    "published": "2026-11-07T13:57:29+00:00",
+    "summary": "By Laura Curtis Nov 7, 2026 (Bloomberg) –The union representing about 250 security workers at the US’s busiest ports agreed to continue negotiations on a new labor contract for two more...",
+    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1373,15 +1382,6 @@
     "published": "2026-11-06T18:15:07+00:00",
     "summary": "ShipIn Systems, a provider of AI-powered maritime risk intelligence, announced the appointment of Kunal Pathak as Vice President of Strategic Partnerships. In this role, Mr Pathak will lead the company's engagement with marine insurers, P&I clubs, charterers, and other industry stakeholders.",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
-    "link": "https://gcaptain.com/u-s-targets-cubas-oil-tanker-fleet-in-new-sanctions-crackdown/",
-    "published": "2026-11-06T17:11:47+00:00",
-    "summary": "The Trump administration has expanded sanctions targeting Cuba’s maritime and energy sectors, identifying five Cuban-flagged vessels as blocked property and opening the door to further sanctions against foreign companies operating...",
-    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1422,11 +1422,20 @@
     "nordic": false
    },
    {
-    "title": "IMO Council Discusses Key Issues and Backs Second Term for Dominguez",
-    "link": "https://maritime-executive.com/article/imo-council-discusses-key-issues-and-backs-second-term-for-dominguez",
-    "published": "2026-11-06T23:54:04+00:00",
-    "summary": "The International Maritime Organization conducted its annual business meeting in London this week at a time when the industry faces key challenges ran...",
+    "title": "Everllence and Babcock Sign MoU to Support Future Arrowhead 140 Programme",
+    "link": "https://maritime-executive.com/article/everllence-and-babcock-sign-mou-to-support-future-arrowhead-140-programme",
+    "published": "2026-11-07T18:44:36+00:00",
+    "summary": "Everllence and Babcock International Group (Babcock), the defence company, have signed a Memorandum of Understanding (MoU) to explore a strategic par...",
     "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen",
+    "link": "https://gcaptain.com/soaring-freight-rates-give-us-refiners-edge-as-crude-discounts-widen/",
+    "published": "2026-11-07T13:36:17+00:00",
+    "summary": "By Vallari Srivastava and Sumit Saha Nov 6 (Reuters) – The Iran conflict has sent tanker rates soaring, forcing sellers to deepen discounts on heavy crude grades and giving US Gulf Coast...",
+    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1445,15 +1454,6 @@
     "published": "2026-11-06T17:43:47+00:00",
     "summary": "Atlas Copco Gas and Process has reached two milestones this autumn by expanding its production operations in South Korea and North America. Atlas Copco Gas and Process Korea in Busan, South Korea has opened a new facility that will provide greater…",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards",
-    "link": "https://gcaptain.com/eu-lawmakers-push-back-against-approval-of-indian-ship-recycling-yards/",
-    "published": "2026-11-06T17:03:56+00:00",
-    "summary": "A European Parliament committee has voted to oppose the approval of two Indian ship recycling yards, dealing a setback to shipping industry efforts to expand access to South Asia’s shipbreaking...",
-    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1494,13 +1494,22 @@
     "nordic": false
    },
    {
-    "title": "Norway Awards $44M in Grants to Advance Battery-Powered Ships",
-    "link": "https://maritime-executive.com/article/norway-awards-44m-in-grants-to-advance-battery-powered-ships",
-    "published": "2026-11-06T22:34:42+00:00",
-    "summary": "The Norwegian government is continuing its efforts to support the transition of shipping to green technology, reporting on November 5 that it will awa...",
+    "title": "Markey Machine Announces Ownership Transition and New Leadership",
+    "link": "https://maritime-executive.com/article/markey-machine-announces-ownership-transition-and-new-leadership",
+    "published": "2026-11-07T18:10:00+00:00",
+    "summary": "Markey Machine, a Seattle-based manufacturer of marine winches and deck machinery, has completed an ownership and leadership transition, positioning t...",
     "source": "Maritime Executive",
     "kind": "market",
-    "nordic": true
+    "nordic": false
+   },
+   {
+    "title": "Adani Ports Makes Major Push Into Europe With $2.9 Billion Evos Acquisition",
+    "link": "https://gcaptain.com/adani-ports-makes-major-push-into-europe-with-2-9-billion-evos-acquisition/",
+    "published": "2026-11-06T18:43:25+00:00",
+    "summary": "India’s Adani Ports and Special Economic Zone (APSEZ) has agreed to acquire Netherlands-based liquid storage operator Evos B.V. in a €2.56 billion ($2.88 billion) deal that will give the company...",
+    "source": "gCaptain",
+    "kind": "market",
+    "nordic": false
    },
    {
     "title": "Tired of manual, repetitive work that leaves too little time to do business and create value?",
@@ -1517,15 +1526,6 @@
     "published": "2026-11-06T15:47:04+00:00",
     "summary": "One seafarer was killed in an explosion believed to have been caused by a missile attack on an oil products tanker in the Gulf on Thursday, the ship's manager said on Friday.The Marshall Islands-flagged tanker MT Velos Sapphire was sailing unladen towards Bahrain when it was hit…",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "China Adopts Law on Antarctic Activities and Environmental Protection",
-    "link": "https://gcaptain.com/china-adopts-law-on-antarctic-activities-and-environmental-protection/",
-    "published": "2026-11-06T16:45:53+00:00",
-    "summary": "Beijing has approved a law to improve China's Antarctic research and strengthen regulation of its exploration activities, the official Xinhua news agency reported on Friday.",
-    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1566,11 +1566,20 @@
     "nordic": false
    },
    {
-    "title": "China Delivers Its Second Large Domestically Built Cruise Ship",
-    "link": "https://maritime-executive.com/article/china-delivers-its-second-large-domestically-built-cruise-ship",
-    "published": "2026-11-06T21:32:40+00:00",
-    "summary": "China celebrated the official delivery of its second domestically built large cruise ship, the Adora Flower City. It is being highlighted as a milesto...",
+    "title": "Royal Navy Conducts First Drone Tests from HMS Queen Elizabeth",
+    "link": "https://maritime-executive.com/article/royal-navy-conducts-first-drone-tests-from-hms-queen-elizabeth",
+    "published": "2026-11-07T00:40:09+00:00",
+    "summary": "The UK’s Royal Navy revealed it conducted its first launches of unnamed strike drones from the deck of HMS Queen Elizabeth last month. It called the t...",
     "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+    "link": "https://gcaptain.com/u-s-targets-cubas-oil-tanker-fleet-in-new-sanctions-crackdown/",
+    "published": "2026-11-06T17:11:47+00:00",
+    "summary": "The Trump administration has expanded sanctions targeting Cuba’s maritime and energy sectors, identifying five Cuban-flagged vessels as blocked property and opening the door to further sanctions against foreign companies operating...",
+    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1589,15 +1598,6 @@
     "published": "2026-11-06T13:00:50+00:00",
     "summary": "CM Energy is progressing work on an integrated cable-handling and marine equipment package for a new Asso.subsea vessel, expanding its involvement in the European offshore wind market.The contract covers specialist cable-handling equipment and associated marine systems for the vessel…",
     "source": "MarineLink",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Seafarer Killed in Suspected Missile Attack on Tanker in Gulf",
-    "link": "https://gcaptain.com/seafarer-killed-in-suspected-missile-attack-on-tanker-in-gulf/",
-    "published": "2026-11-06T16:32:47+00:00",
-    "summary": "One seafarer was killed in an explosion believed to have been caused by a missile attack on an oil products tanker in the Gulf on Thursday, the ship's manager said on Friday.",
-    "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
@@ -1637,21 +1637,21 @@
   "hints": [],
   "metrics_fresh": 17,
   "metrics_total": 19,
-  "observed_today": 11,
+  "observed_today": 4,
   "priced_rows": 29,
   "rates_active": 10,
   "rates_total": 14
  },
  "brief": {
-  "text": "The most important item in today's data is not a price but a headline: Seatrade Maritime reports a seafarer fatality in a Gulf tanker attack and a VLCC — a Very Large Crude Carrier, the biggest standard crude tanker, around two million barrels — struck in the Strait of Hormuz, with Iran said to be widening both the area of attacks and the types of vessel targeted. For anyone fixing ships, that is a war-risk and crew-safety question before it is a rate question: owners may decline Arabian Gulf business, and insurers reprice it.\n\nOn today's figures, Brent crude is $98.32 a barrel, down 12 cents (-0.1%), and WTI is $90.34, down 18 cents (-0.2%), with the Brent–WTI spread at $7.98. Bunkers — the fuel ships burn — rose at all four hubs today: VLSFO (very low sulphur fuel oil) is $865.00 a tonne in Fujairah, up $13.50 (+1.6%), $854.00 in Singapore (+$4.50), $770.50 in Houston, up $16.50 (+2.2%), and $739.50 in Rotterdam (+$7.50). Bunkers rising while crude eases is not explained by anything in this data. The diesel crack against Brent is $84.09 today. No freight benchmark has refreshed: the Baltic Dry Index stood at 2,805 points on Friday 6 November, up 65 (+2.4%), the Baltic Capesize Index — Capesizes are the largest dry bulk ships, typically iron ore and coal — was 4,097 on Wednesday 4 November, and the VLCC TD3C Gulf-to-China TCE, the daily earnings a voyage leaves an owner after voyage costs, was $1,345,710 a day on Sunday 1 November.\n\nRunning stories: Hormuz attacks developed today with the reported fatality and VLCC strike. Sanctions on the shadow fleet also moved — gCaptain reports the US blocking five Cuban-flagged vessels — and ARACON heard that a quarter of the internationally trading crude fleet now sits on the dark list. Black Sea drone attacks, US and European port labour, Russian diesel export curbs and chokepoint transit counts had no fresh news today and are unchanged. LNG Prime reports Atlantic and Pacific spot LNG rates rose for a third week.\n\nWatch two things. First, whether Baltic tanker and dry assessments refresh after the weekend, since nothing has printed since Friday at best. Second, whether further Hormuz incidents are reported, given today's widening of targets.",
+  "text": "The only figures that refreshed this morning are bunker prices — the fuel ships burn — and they are up at all four main hubs. VLSFO (very low sulphur fuel oil, the standard 0.5% sulphur marine fuel) is 854.00 USD/t in Singapore, up 0.5%; 739.50 USD/t in Rotterdam, up 1.0%; 865.00 USD/t in Fujairah, up 1.6%; and 770.50 USD/t in Houston, up 2.2%. For anyone fixing a voyage today, that matters directly: bunkers are the largest voyage cost, so a rise squeezes the TCE (time charter equivalent, the daily earnings a voyage leaves an owner after voyage costs) unless freight rises with it. No crude, index or freight benchmark has refreshed since Friday or earlier, so today's picture is a fuel-cost picture only.\n\nOn other prices, you must read the dates. Brent crude was 98.32 USD/bbl on Saturday 7 November and WTI 90.34 USD/bbl, down 0.2%. The Baltic Dry Index — the main dry bulk freight benchmark — stood at 2,805 points on Friday 6 November, up 65 points or 2.4%; the Capesize index (Capesize being the largest dry bulk ships, roughly 180,000 dwt, mostly iron ore and coal) was 4,097 on Wednesday 4 November. VLCC earnings on the Gulf-to-China route were 1,345,710 USD/day on Sunday 1 November. None of these moved today, and the data here does not show why today's bunkers rose; one possible factor is firm crude on Saturday, but that is a different session and I cannot link them.\n\nRunning stories developed in two places. US forces disabled a cargo vessel in the Gulf of Oman on Saturday, the first in a month to be fired on while trying to breach the blockade of Iranian ports, which keeps the Hormuz security story live alongside Friday's reported seafarer fatality and VLCC strike. The Los Angeles and Long Beach security workers' dispute was deferred again as talks continue, so still unresolved. The dark fleet story was reinforced by a conference report that 25% of the internationally trading crude fleet now sits on the dark list. Black Sea drone attacks and Russian diesel export limits had no news today and are unchanged.\n\nWatch two things: whether Monday's Baltic indices confirm Friday's BDI gain, and whether tanker rates respond to the Gulf of Oman incident, given reports that soaring rates are already widening heavy crude discounts.",
   "storylines": [
    {
     "id": "hormuz-vessel-attacks",
-    "title": "Direct attacks on ships in Hormuz",
+    "title": "Attacks and blockade enforcement around Hormuz",
     "status": "active",
-    "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November. Today a seafarer was killed in a Gulf tanker attack and a VLCC was struck in Hormuz, with Iran reported to be widening both the geographic area of attacks and the vessel types targeted.",
-    "why_it_matters": "Crew fatalities and hull strikes raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-    "latest": "First reported seafarer fatality in a Gulf tanker attack, plus a VLCC struck in Hormuz and a reported widening of targeting.",
+    "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a seafarer killed in a Gulf tanker attack and a VLCC struck. Separately, US forces fired on and disabled a commercial vessel in the Gulf of Oman on Saturday as it tried to breach the US blockade of Iranian ports.",
+    "why_it_matters": "Crew fatalities, hull strikes and armed blockade enforcement raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting tanker earnings.",
+    "latest": "US Central Command says an American military aircraft disabled a cargo vessel in the Gulf of Oman on Saturday, the first such action in a month; trade press reports soaring tanker rates are deepening discounts on heavy crude grades.",
     "watch": [
      "vlcc_tce",
      "suezmax_tce",
@@ -1659,10 +1659,51 @@
      "brent"
     ],
     "sources": [
-     "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz"
+     "US Forces Disable First Cargo Ship in a Month Sailing from Iranian Port",
+     "US Military Says It Disabled Cargo Vessel In Gulf Of Oman",
+     "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz",
+     "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
     ],
     "first_seen": "2026-10-30",
-    "last_update": "2026-11-07",
+    "last_update": "2026-11-08",
+    "days_running": 10,
+    "days_since_update": 0
+   },
+   {
+    "id": "shadow-fleet-sanctions",
+    "title": "Sanctions and evasion in the shadow fleet",
+    "status": "active",
+    "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts now describe the dark fleet as a parallel fleet that has tripled in size since 2022.",
+    "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
+    "latest": "ARACON 26 delegates were told that 25% of the internationally trading crude oil fleet now sits on the dark list.",
+    "watch": [
+     "vlcc_tce",
+     "suezmax_tce",
+     "brent"
+    ],
+    "sources": [
+     "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+    ],
+    "first_seen": "2026-11-06",
+    "last_update": "2026-11-08",
+    "days_running": 3,
+    "days_since_update": 0
+   },
+   {
+    "id": "port-labour-disruption",
+    "title": "Port labour disruption in the US and Europe",
+    "status": "active",
+    "what": "A contract standoff involving about 250 security workers threatens operations across Los Angeles and Long Beach terminals, while dockworkers have struck across Europe and beyond over arms shipments.",
+    "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
+    "latest": "The union agreed to continue negotiations for two more weeks, deferring the strike threat again without resolving it.",
+    "watch": [
+     "bdi"
+    ],
+    "sources": [
+     "LA Port Strike Threat Deferred Again As Labor Talks Drag On"
+    ],
+    "first_seen": "2026-10-31",
+    "last_update": "2026-11-08",
     "days_running": 9,
     "days_since_update": 0
    },
@@ -1683,29 +1724,8 @@
     ],
     "first_seen": "2026-10-29",
     "last_update": "2026-11-04",
-    "days_running": 10,
-    "days_since_update": 3
-   },
-   {
-    "id": "shadow-fleet-sanctions",
-    "title": "Sanctions and evasion in the shadow fleet",
-    "status": "active",
-    "what": "The US has expanded sanctions on Cuba's maritime and energy sectors, identifying five Cuban-flagged vessels as blocked property and opening the door to sanctions on foreign companies dealing with them, following earlier action against Iranian false-flag registry networks. Analysts now say a quarter of the internationally trading crude fleet sits on the dark list.",
-    "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, and push tonnage out of mainstream trades, tightening compliant tanker supply.",
-    "latest": "US sanctions on five Cuban-flagged vessels; ARACON told the dark fleet has tripled since 2022 and covers 25% of the trading crude fleet.",
-    "watch": [
-     "vlcc_tce",
-     "suezmax_tce",
-     "brent"
-    ],
-    "sources": [
-     "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
-     "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
-    ],
-    "first_seen": "2026-11-06",
-    "last_update": "2026-11-07",
-    "days_running": 2,
-    "days_since_update": 0
+    "days_running": 11,
+    "days_since_update": 4
    },
    {
     "id": "black-sea-attacks",
@@ -1724,8 +1744,8 @@
     ],
     "first_seen": "2026-10-30",
     "last_update": "2026-10-31",
-    "days_running": 9,
-    "days_since_update": 7
+    "days_running": 10,
+    "days_since_update": 8
    },
    {
     "id": "russian-diesel-atlantic",
@@ -1741,44 +1761,26 @@
      "refining_margin"
     ],
     "sources": [
-     "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+     "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
     ],
     "first_seen": "2026-10-29",
     "last_update": "2026-11-01",
-    "days_running": 10,
-    "days_since_update": 6
-   },
-   {
-    "id": "port-labour-disruption",
-    "title": "Port labour disruption in the US and Europe",
-    "status": "watch",
-    "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond over arms shipments.",
-    "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
-    "latest": null,
-    "watch": [
-     "bdi"
-    ],
-    "sources": [
-     "Adani Ports Makes Major Push Into Europe With $2.9 Billion Evos Acquisition"
-    ],
-    "first_seen": "2026-10-31",
-    "last_update": "2026-11-01",
-    "days_running": 8,
-    "days_since_update": 6
+    "days_running": 11,
+    "days_since_update": 7
    }
   ],
   "model": "claude-opus-5",
-  "written_at": "2026-11-07T06:18:19+00:00",
-  "cost_usd": 0.1291
+  "written_at": "2026-11-08T06:19:24+00:00",
+  "cost_usd": 0.1241
  },
  "storylines": [
   {
    "id": "hormuz-vessel-attacks",
-   "title": "Direct attacks on ships in Hormuz",
+   "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November. Today a seafarer was killed in a Gulf tanker attack and a VLCC was struck in Hormuz, with Iran reported to be widening both the geographic area of attacks and the vessel types targeted.",
-   "why_it_matters": "Crew fatalities and hull strikes raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting crude and product tanker earnings.",
-   "latest": "First reported seafarer fatality in a Gulf tanker attack, plus a VLCC struck in Hormuz and a reported widening of targeting.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a seafarer killed in a Gulf tanker attack and a VLCC struck. Separately, US forces fired on and disabled a commercial vessel in the Gulf of Oman on Saturday as it tried to breach the US blockade of Iranian ports.",
+   "why_it_matters": "Crew fatalities, hull strikes and armed blockade enforcement raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting tanker earnings.",
+   "latest": "US Central Command says an American military aircraft disabled a cargo vessel in the Gulf of Oman on Saturday, the first such action in a month; trade press reports soaring tanker rates are deepening discounts on heavy crude grades.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -1786,10 +1788,51 @@
     "brent"
    ],
    "sources": [
-    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz"
+    "US Forces Disable First Cargo Ship in a Month Sailing from Iranian Port",
+    "US Military Says It Disabled Cargo Vessel In Gulf Of Oman",
+    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz",
+    "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-07",
+   "last_update": "2026-11-08",
+   "days_running": 10,
+   "days_since_update": 0
+  },
+  {
+   "id": "shadow-fleet-sanctions",
+   "title": "Sanctions and evasion in the shadow fleet",
+   "status": "active",
+   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts now describe the dark fleet as a parallel fleet that has tripled in size since 2022.",
+   "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
+   "latest": "ARACON 26 delegates were told that 25% of the internationally trading crude oil fleet now sits on the dark list.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "brent"
+   ],
+   "sources": [
+    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+   ],
+   "first_seen": "2026-11-06",
+   "last_update": "2026-11-08",
+   "days_running": 3,
+   "days_since_update": 0
+  },
+  {
+   "id": "port-labour-disruption",
+   "title": "Port labour disruption in the US and Europe",
+   "status": "active",
+   "what": "A contract standoff involving about 250 security workers threatens operations across Los Angeles and Long Beach terminals, while dockworkers have struck across Europe and beyond over arms shipments.",
+   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
+   "latest": "The union agreed to continue negotiations for two more weeks, deferring the strike threat again without resolving it.",
+   "watch": [
+    "bdi"
+   ],
+   "sources": [
+    "LA Port Strike Threat Deferred Again As Labor Talks Drag On"
+   ],
+   "first_seen": "2026-10-31",
+   "last_update": "2026-11-08",
    "days_running": 9,
    "days_since_update": 0
   },
@@ -1810,29 +1853,8 @@
    ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-04",
-   "days_running": 10,
-   "days_since_update": 3
-  },
-  {
-   "id": "shadow-fleet-sanctions",
-   "title": "Sanctions and evasion in the shadow fleet",
-   "status": "active",
-   "what": "The US has expanded sanctions on Cuba's maritime and energy sectors, identifying five Cuban-flagged vessels as blocked property and opening the door to sanctions on foreign companies dealing with them, following earlier action against Iranian false-flag registry networks. Analysts now say a quarter of the internationally trading crude fleet sits on the dark list.",
-   "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, and push tonnage out of mainstream trades, tightening compliant tanker supply.",
-   "latest": "US sanctions on five Cuban-flagged vessels; ARACON told the dark fleet has tripled since 2022 and covers 25% of the trading crude fleet.",
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "brent"
-   ],
-   "sources": [
-    "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
-    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
-   ],
-   "first_seen": "2026-11-06",
-   "last_update": "2026-11-07",
-   "days_running": 2,
-   "days_since_update": 0
+   "days_running": 11,
+   "days_since_update": 4
   },
   {
    "id": "black-sea-attacks",
@@ -1851,8 +1873,8 @@
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-10-31",
-   "days_running": 9,
-   "days_since_update": 7
+   "days_running": 10,
+   "days_since_update": 8
   },
   {
    "id": "russian-diesel-atlantic",
@@ -1868,40 +1890,22 @@
     "refining_margin"
    ],
    "sources": [
-    "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
+    "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
    ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 10,
-   "days_since_update": 6
-  },
-  {
-   "id": "port-labour-disruption",
-   "title": "Port labour disruption in the US and Europe",
-   "status": "watch",
-   "what": "A contract standoff involving 250 security workers threatens to freeze operations across Los Angeles and Long Beach terminals after a 4 November deadline extension, while dockworkers struck across Europe and beyond over arms shipments.",
-   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
-   "latest": null,
-   "watch": [
-    "bdi"
-   ],
-   "sources": [
-    "Adani Ports Makes Major Push Into Europe With $2.9 Billion Evos Acquisition"
-   ],
-   "first_seen": "2026-10-31",
-   "last_update": "2026-11-01",
-   "days_running": 8,
-   "days_since_update": 6
+   "days_running": 11,
+   "days_since_update": 7
   }
  ],
  "storylines_closed": [],
  "brief_spend": {
-  "runs": 12,
-  "total_usd": 1.388,
+  "runs": 13,
+  "total_usd": 1.5121,
   "model": "claude-opus-5",
-  "last_run": "2026-11-07",
+  "last_run": "2026-11-08",
   "first_run": "2026-10-27",
-  "avg_usd": 0.1157,
-  "projected_monthly_usd": 3.47
+  "avg_usd": 0.1163,
+  "projected_monthly_usd": 3.49
  }
 }
