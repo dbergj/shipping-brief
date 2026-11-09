@@ -1,24 +1,24 @@
 {
  "date": "2026-11-09",
  "values": {
-  "brent": 96.68,
-  "wti": 89.79,
+  "brent": 93.51,
+  "wti": 86.67,
   "ttf": 87.4,
-  "henry_hub": 3.033,
-  "coal_api2": 136.5,
-  "gasoil": 4.3213,
-  "gasoline": 2.7565,
+  "henry_hub": 3.14,
+  "coal_api2": 133.8,
+  "gasoil": 4.2435,
+  "gasoline": 2.6892,
   "bdry": 13.24,
   "bwet": 676.5,
   "bci": 4097.0,
   "bpi": 1866.0,
   "bsi": 1835.0,
-  "bdi": 2805,
+  "bdi": 2854,
   "vlsfo_sing": 854.0,
   "vlsfo_rott": 739.5,
   "vlsfo_fuj": 865.0,
   "vlsfo_hou": 770.5,
-  "refining_margin": 84.81,
-  "brent_wti_spread": 6.89
+  "refining_margin": 84.72,
+  "brent_wti_spread": 6.84
  }
 }
