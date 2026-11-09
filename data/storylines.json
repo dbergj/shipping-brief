@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-08T06:22:29+00:00",
+ "updated": "2026-11-09T06:35:53+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a seafarer killed in a Gulf tanker attack and a VLCC struck. Separately, US forces fired on and disabled a commercial vessel in the Gulf of Oman on Saturday as it tried to breach the US blockade of Iranian ports.",
-   "why_it_matters": "Crew fatalities, hull strikes and armed blockade enforcement raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting tanker earnings.",
-   "latest": "US Central Command says an American military aircraft disabled a cargo vessel in the Gulf of Oman on Saturday, the first such action in a month; trade press reports soaring tanker rates are deepening discounts on heavy crude grades.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November. Over the weekend crew abandoned a tanker in Hormuz, US forces struck a bulker in the Gulf of Oman, Iranian media attributed blasts in southern Iran to Iranian military activity, and Houthi forces hit Saudi Aramco's headquarters building.",
+   "why_it_matters": "Hull strikes, crew abandonment and armed enforcement raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and supporting tanker earnings.",
+   "latest": "Seatrade reports crew abandoned a tanker in Hormuz and the US struck a bulker in the Gulf of Oman; Iran and the US both reported shipping hit; Houthi forces struck Saudi Aramco's headquarters building.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -15,23 +15,22 @@
     "brent"
    ],
    "sources": [
-    "US Forces Disable First Cargo Ship in a Month Sailing from Iranian Port",
-    "US Military Says It Disabled Cargo Vessel In Gulf Of Oman",
-    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz",
-    "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
+    "Crew abandon tanker in Hormuz, US strikes bulker in Gulf of Oman",
+    "Iran Suggests Blasts Are Not US Attacks As Both Sides Report Ships Hit",
+    "Houthi Forces Hit Saudi Aramco's Headquarters Building"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-08",
-   "days_running": 10,
+   "last_update": "2026-11-09",
+   "days_running": 11,
    "days_since_update": 0
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
    "status": "active",
-   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts now describe the dark fleet as a parallel fleet that has tripled in size since 2022.",
+   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts describe the dark fleet as a parallel fleet that has tripled in size since 2022.",
    "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
-   "latest": "ARACON 26 delegates were told that 25% of the internationally trading crude oil fleet now sits on the dark list.",
+   "latest": "ARACON heard that 25% of the internationally trading crude oil fleet now sits on the dark list.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -41,67 +40,66 @@
     "ARACON: 25% of the internationally-trading crude oil fleet now sits on the dark list"
    ],
    "first_seen": "2026-11-06",
-   "last_update": "2026-11-08",
-   "days_running": 3,
+   "last_update": "2026-11-09",
+   "days_running": 4,
    "days_since_update": 0
-  },
-  {
-   "id": "port-labour-disruption",
-   "title": "Port labour disruption in the US and Europe",
-   "status": "active",
-   "what": "A contract standoff involving about 250 security workers threatens operations across Los Angeles and Long Beach terminals, while dockworkers have struck across Europe and beyond over arms shipments.",
-   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
-   "latest": "The union agreed to continue negotiations for two more weeks, deferring the strike threat again without resolving it.",
-   "watch": [
-    "bdi"
-   ],
-   "sources": [
-    "LA Port Strike Threat Deferred Again As Labor Talks Drag On"
-   ],
-   "first_seen": "2026-10-31",
-   "last_update": "2026-11-08",
-   "days_running": 9,
-   "days_since_update": 0
-  },
-  {
-   "id": "chokepoint-transits",
-   "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
-   "status": "watch",
-   "what": "Strait of Hormuz traffic rose in October to its highest monthly level since July, supported by dry bulk and LNG movements even as VLCC traffic declined. Red Sea traffic also rose and Arabian Gulf waiting remains elevated.",
-   "why_it_matters": "Transit counts and waiting times show whether ships route through or around high-risk waters, changing voyage lengths, tonne-mile demand and effective fleet supply.",
-   "latest": null,
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "bdi"
-   ],
-   "sources": [
-    "Seafarer fatality in Gulf tanker attack, VLCC struck in Hormuz"
-   ],
-   "first_seen": "2026-10-29",
-   "last_update": "2026-11-04",
-   "days_running": 11,
-   "days_since_update": 4
   },
   {
    "id": "black-sea-attacks",
-   "title": "Drone attacks on shipping in the western Black Sea",
-   "status": "watch",
-   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, the latest in a series of strikes in the western Black Sea.",
-   "why_it_matters": "Attacks on ships and port infrastructure threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
-   "latest": null,
+   "title": "Attacks on shipping in the Black Sea",
+   "status": "active",
+   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, and Russia says its forces hit three cargo vessels it claims were carrying military goods for Ukraine, along with two electricity substations.",
+   "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
+   "latest": "Russia said overnight strikes hit three cargo vessels and two electricity substations.",
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
    "sources": [
-    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
+    "Russia Says It Hit Three Cargo Ships In Black Sea"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-10-31",
+   "last_update": "2026-11-09",
+   "days_running": 11,
+   "days_since_update": 0
+  },
+  {
+   "id": "chokepoint-transits",
+   "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
+   "status": "active",
+   "what": "Hormuz traffic rose in October to its highest monthly level since July, supported by dry bulk and LNG even as VLCC traffic declined, with Red Sea traffic up and Arabian Gulf waiting elevated. Iraq now says it has reached understandings with the US to export oil through Hormuz via a lane near Oman.",
+   "why_it_matters": "Transit counts, routing lanes and waiting times determine voyage lengths, tonne-mile demand and effective fleet supply.",
+   "latest": "Iraq's foreign minister said Baghdad has understandings with Washington allowing Iraqi oil exports through Hormuz via a shipping lane near Oman.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "bdi",
+    "brent"
+   ],
+   "sources": [
+    "Iraq Has Reached Understandings With US To Allow Oil Exports Through Hormuz"
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-11-09",
+   "days_running": 12,
+   "days_since_update": 0
+  },
+  {
+   "id": "port-labour-disruption",
+   "title": "Port labour disruption in the US and Europe",
+   "status": "watch",
+   "what": "A contract standoff involving about 250 security workers threatens operations across Los Angeles and Long Beach terminals, while dockworkers have struck across Europe and beyond over arms shipments.",
+   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
+   "latest": null,
+   "watch": [
+    "bdi"
+   ],
+   "sources": [],
+   "first_seen": "2026-10-31",
+   "last_update": "2026-11-08",
    "days_running": 10,
-   "days_since_update": 8
+   "days_since_update": 1
   },
   {
    "id": "russian-diesel-atlantic",
@@ -116,13 +114,11 @@
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [
-    "Soaring Freight Rates Give US Refiners Edge As Crude Discounts Widen"
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-01",
-   "days_running": 11,
-   "days_since_update": 7
+   "days_running": 12,
+   "days_since_update": 8
   }
  ]
 }
