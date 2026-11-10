@@ -27,6 +27,31 @@
    "nordic": true
   },
   {
+   "title": "BW LPG Limited   Q3 2026 Financial Report Release and Earnings Presentation on 24 November 2026",
+   "link": "https://newsweb.oslobors.no/message/686064",
+   "published": "2026-11-10T06:00:06+00:00",
+   "source": "Oslo Børs",
+   "ticker": "BWLPG",
+   "company": "BW LPG Limited",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "$300 million and 25% of value adjusted total assets",
+   "summary": "",
+   "link": "https://www.sec.gov/Archives/edgar/data/1331284/000114036126042813/ef20080524_6k.htm",
+   "published": "2026-11-09T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "DHT",
+   "company": "DHT Holdings",
+   "category": "6-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
    "title": "FRO - Notice of Annual General Meeting 2026",
    "link": "https://newsweb.oslobors.no/message/685852",
    "published": "2026-11-06T07:00:26+00:00",
@@ -500,6 +525,285 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "The dirty secret of shipping’s clean hull ambitions",
+   "link": "https://splash247.com/the-dirty-secret-of-shippings-clean-hull-ambitions/",
+   "published": "2026-11-10T06:18:04+00:00",
+   "summary": "Hull fouling drives up fuel bills and emissions, yet ports increasingly restrict the very cleaning operations needed to tackle it. The missing piece is a global network of places where ships can safely get cleaned. Alex Byelyavtsev explains. A dirty hull burns more fuel. Cleaning reduces resistance and emissions. Cleaning can also release organisms, coating …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Poseidon Principles broadens industry engagement with new council",
+   "link": "https://splash247.com/poseidon-principles-broadens-industry-engagement-with-new-council/",
+   "published": "2026-11-10T06:16:41+00:00",
+   "summary": "The Poseidon Principles has assembled an advisory council drawn from across the shipping industry, appointing Watson Farley & Williams managing partner Lindsey Keeble as its chair. The 16-member council includes Navios boss Angeliki Frangou, Seaspan chairman Bing Chen, Pacific Basin CEO Martin Fruergaard, Höegh Autoliners chief Andreas Enger and GasLog CFO Achilleas Tasioulas. Other prominent …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "South Korea clears Sinar Mas takeover of Hyundai LNG Shipping",
+   "link": "https://splash247.com/south-korea-clears-sinar-mas-takeover-of-hyundai-lng-shipping/",
+   "published": "2026-11-10T06:15:04+00:00",
+   "summary": "South Korea has given conditional approval for the sale of Hyundai LNG Shipping to Indonesia’s Sinar Mas Group, removing the final regulatory hurdle in a deal that has been held up for months by national energy security concerns. The Ministry of Trade, Industry and Energy has completed a foreign investment security review, approving the transaction …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Best Oasis becomes second cash buyer to secure US sanctions clearance",
+   "link": "https://splash247.com/best-oasis-becomes-second-cash-buyer-to-secure-us-sanctions-clearance/",
+   "published": "2026-11-10T06:13:59+00:00",
+   "summary": "Dubai-based ship recycling cash buyer Best Oasis has secured authorisation from the US Treasury’s Office of Foreign Assets Control (OFAC) to negotiate deals involving sanctioned vessels, becoming the second company after GMS to receive such approval. The development opens another potential route for removing ageing ships from the sanctioned fleet, which has expanded rapidly as …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Famed Ocean Liner SS United States to be Sunk on Veterans Day",
+   "link": "https://maritime-executive.com/article/famed-ocean-liner-ss-united-states-to-be-sunk-on-veterans-day",
+   "published": "2026-11-10T02:01:00+00:00",
+   "summary": "On Monday, the storied ocean liner SS United States departed Mobile, Alabama for her final journey to an artificial reef site off the coast of Florida...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Saudi Arabia Confirms Strike on East-West Pipeline",
+   "link": "https://maritime-executive.com/article/saudi-arabia-confirms-strike-on-east-west-pipeline",
+   "published": "2026-11-10T01:39:13+00:00",
+   "summary": "Saudi Arabia's energy ministry has confirmed another strike on the East-West Pipeline, which carries crude from the production hubs of the Arabian Gul...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Boluda Continues Growth with Acquisition of Dutch Offshore Towage Operation",
+   "link": "https://maritime-executive.com/article/boluda-continues-growth-with-acquisition-of-dutch-offshore-towage-operation",
+   "published": "2026-11-10T01:36:48+00:00",
+   "summary": "Spain’s Boluda Corporación Marítima reported that it is making another acquisition to further expand its offshore towage capabilities, Boluda Towage....",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tristar challenges industry to protect crews facing conflict and isolation",
+   "link": "",
+   "published": "2026-11-10T01:09:11+00:00",
+   "summary": "Safety at Sea conference highlights seafarer mental health action, visible leadership, and onboard cohesion.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MSC Cruise Ship Ordered Back to Texas with Report of Suspected Homicide",
+   "link": "https://maritime-executive.com/article/msc-cruise-ship-ordered-back-to-texas-with-report-of-suspected-homicide",
+   "published": "2026-11-10T01:01:06+00:00",
+   "summary": "Florida-based MSC Cruises confirmed that its cruise ship MSC Seascape had been ordered to briefly return to its homeport late on Sunday night after re...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Meyer Launches Dedicated Offshore Business Separate from Shipyard",
+   "link": "https://maritime-executive.com/article/meyer-launches-dedicated-offshore-business-separate-from-shipyard",
+   "published": "2026-11-10T01:00:32+00:00",
+   "summary": "Germany’s Meyer Group, best known as the builder of cruise ships, is moving to strengthen its position in the offshore converter business as it sees g...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Coast Guard Airlifts Four Oil Tanker Crew Members After Suspected Food Poisoning",
+   "link": "https://gcaptain.com/coast-guard-airlifts-four-oil-tanker-crew-members-after-suspected-food-poisoning/",
+   "published": "2026-11-09T22:06:37+00:00",
+   "summary": "The U.S. Coast Guard evacuated four crew members from a Cyprus-flagged oil tanker off Puerto Rico on Sunday after they reportedly fell ill with suspected food poisoning. An MH-60T Jayhawk...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Advances for 4th Day",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-advances-for-4th-day/",
+   "published": "2026-11-09T22:00:59+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, was up for a fourth session on Monday, rising by 1.8% to its highest since October 9 at 2,854 points. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, also advanced for fourth day, up ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dry Bulk Shipping: Thermal Coal Market Heating Up",
+   "link": "https://www.hellenicshippingnews.com/dry-bulk-shipping-thermal-coal-market-heating-up/",
+   "published": "2026-11-09T22:00:59+00:00",
+   "summary": "Demand for thermal coal is growing once more, with shipping standing to benefit. In its latest weekly report, shipbroker Intermodal said that “with the winter heating season underway, the thermal coal market is benefiting from strengthening demand, as elevated natural gas prices reinforce coal’s cost competitiveness in power generation. Qatari LNG volumes remain sharply reduced, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China’s 2026 Thermal Coal Imports: 295 Mt Hinges on Winter Restocking",
+   "link": "https://www.hellenicshippingnews.com/chinas-2026-thermal-coal-imports-295-mt-hinges-on-winter-restocking/",
+   "published": "2026-11-09T22:00:58+00:00",
+   "summary": "We retain a range of 285–310 million tonnes (Mt) for China’s 2026 seaborne thermal coal imports, with 295 Mt as our conditional central case. Extending October’s arrival pace gives 288.96 Mt. Winter restocking could close the 6.04 Mt gap. As at 2 November, the procurement evidence had yet to establish that extra volume. By 30 ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Somali Piracy Resurgence: Understanding The Risk To Commercial Shipping",
+   "link": "https://www.hellenicshippingnews.com/somali-piracy-resurgence-understanding-the-risk-to-commercial-shipping/",
+   "published": "2026-11-09T22:00:57+00:00",
+   "summary": "In the Gulf of Aden, Bab el-Mandeb Strait, and Somali Basin, piracy has reemerged as a significant threat to commercial shipping. After a lull in piracy from 2012 to 2024, when incidents were limited to zero or a couple per year, piracy has begun to increase since 2024. This rise has accelerated further so far ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Listening is not enough to protect seafarers’ mental health",
+   "link": "https://www.hellenicshippingnews.com/listening-is-not-enough-to-protect-seafarers-mental-health/",
+   "published": "2026-11-09T22:00:57+00:00",
+   "summary": "The maritime industry has become much better at asking seafarers how they feel. The harder question is whether it is prepared to act on what they say. Surveys, welfare reports and personal testimony have brought mental health out of the margins of maritime debate, but listening has value only when seafarers’ lived experiences lead to ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ADNOC Drilling Awarded Two Offshore Jack-Up Rig Contracts",
+   "link": "https://www.marinelink.com/news/adnoc-drilling-awarded-two-offshore-544246",
+   "published": "2026-11-09T21:25:13+00:00",
+   "summary": "ADNOC Drilling Company PJSC announced that Kuwait Petroleum Corporation Higher Procurement Committee (KPCHPC) has approved the award to ADNOC Drilling of two separate contracts for Rig 1 and Rig 2 under Tender No. RFP-2151011 for Kuwait Oil Company (KOC)…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "“Welcome to a Dying Industry”: Inside Rik van Hemmen’s Maritime Journey",
+   "link": "https://www.marinelink.com/news/welcome-a-dying-industry-inside-rik-van-544245",
+   "published": "2026-11-09T20:59:14+00:00",
+   "summary": "From a Dutch maritime family to America's Cup yacht design and the president of Martin & Ottaway, a 150-year-old engineering firm, Rik van Hemmen has walked a unique path through the maritime industry. van Hemmen recently visited with Maritime Matters: The MarineLink Podcast…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Splash Crew launches to put seafarers at the heart of maritime news",
+   "link": "https://splash247.com/splash-crew-launches-to-put-seafarers-at-the-heart-of-maritime-news/",
+   "published": "2026-11-09T20:00:00+00:00",
+   "summary": "Splash Maritime Group has unveiled Splash Crew, its latest specialist news platform, with the ambition of becoming essential daily reading for seafarers, crewing professionals, shipmanagers, regulators and maritime technology companies worldwide. The new publication builds on Splash’s longstanding commitment to championing seafarers and examining the human side of an industry responsible for moving global trade. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Coast Guard Wraps Up Seasonal Great Lakes USV Evaluation",
+   "link": "https://www.marinelink.com/news/coast-guard-wraps-seasonal-great-lakes-544244",
+   "published": "2026-11-09T19:45:39+00:00",
+   "summary": "The U.S. Coast Guard is concluding its scheduled 2026 seasonal evaluation of six Saildrone Voyager Unmanned Surface Vehicles (USVs) on the Great Lakes this week ahead of forecasted winter icing conditions. Following the completion of this seasonal evaluation…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "G7 Launches Global Port Security Network to Combat Drug Trafficking",
+   "link": "https://gcaptain.com/g7-launches-global-port-security-network-to-combat-drug-trafficking/",
+   "published": "2026-11-09T19:43:47+00:00",
+   "summary": "France on Monday laurched a new G7-backed network linking major seaports, customs authorities and international organizations in an effort to crack down on drug trafficking through global maritime supply chains....",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Gulf Markets Rise on Hopes of Avoiding Future Iran Strikes",
+   "link": "https://www.marinelink.com/news/gulf-markets-rise-hopes-avoiding-future-544243",
+   "published": "2026-11-09T18:45:27+00:00",
+   "summary": "Gulf bourses closed mostly higher on Monday as US President Donald Trump's signal that fresh Iran strikes are unlikely, provided talks continue, lifted sentiment across the region after an eight-month conflict.Trump's remarks came despite reports…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO Warns of Mounting Human Toll as Attacks on Commercial Shipping Continue",
+   "link": "https://gcaptain.com/imo-warns-of-mounting-human-toll-as-attacks-on-commercial-shipping-continue/",
+   "published": "2026-11-09T18:06:22+00:00",
+   "summary": "The International Maritime Organization (IMO) is calling for stronger protections for merchant ships and their crews as continued attacks in the Middle East, Red Sea and Black Sea put seafarers...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EC launches initiative to connect biomethane suppliers and buyers",
+   "link": "https://ship.energy/information/ec-launches-initiative-to-connect-biomethane-suppliers-and-buyers/",
+   "published": "2026-11-09T17:45:07+00:00",
+   "summary": "The European Commission (EC) is launching a first matching round under its Biomethane Mechanism with the aim of scaling up biomethane production by bringing together potential buyers and suppliers from across Europe. Through the matching process, potential buyers can submit their biomethane demand, and suppliers can register their interest in fulfilling that demand. After this, participants who have a match will rece",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Container Imports Hit 2026 High in September as Extended Peak Season Winds Down",
+   "link": "https://gcaptain.com/u-s-container-imports-hit-2026-high-in-september-as-extended-peak-season-winds-down/",
+   "published": "2026-11-09T17:44:04+00:00",
+   "summary": "U.S. container imports reached their highest level of the year in September, capping an unusually long peak shipping season that has kept major ports busy since the spring despite tariffs,...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "METF: The energy transition requires a shift in mindset, not just fuels",
+   "link": "https://ship.energy/policy/metf-the-energy-transition-requires-a-shift-in-mindset-not-just-fuels/",
+   "published": "2026-11-09T17:21:09+00:00",
+   "summary": "Dr Thomas Beard, Clean Energy & Future Fuels Growth Lead at BMT and a speaker at the Marine Energy Transition Forum (METF) that ship.energy will be hosting in London on Wednesday (11 November), has urged the industry to understand that: ‘The shift to future fuels isn’t simply changing what goes into a vessel’s tanks. It is challenging decades of assumptions about how bunkering works, who provides it and where it take",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Höegh Autoliners to install BYD battery tech on ‘greenest and most fuel-efficient car carrier ever built’",
+   "link": "https://ship.energy/energy/hoegh-autoliners-to-install-byd-battery-tech-on-greenest-and-most-fuel-efficient-car-carrier-ever-built/",
+   "published": "2026-11-09T16:55:21+00:00",
+   "summary": "Höegh Autoliners’ Chief Operations Officer Sebjørn Dahl says that the ammonia-powered Aurora No. 12 will be ‘the greenest and most fuel-efficient car carrier ever built’ when it comes out of China Merchants Heavy Industry’s Jiangsu shipyard in May 2028. In a LinkedIn post issued today (9 November), Dahl said that, in support of this goal, Höegh Autoliners and BYD have signed a strategic and technical cooperation agre",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China Extends US Trade Truce by Two Months",
+   "link": "https://gcaptain.com/china-extends-us-trade-truce-by-two-months/",
+   "published": "2026-11-09T16:39:23+00:00",
+   "summary": "China on Monday effectively extended its trade truce with the US by two months, after announcing it would continue to suspend certain trade measures.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "SS United States Set for Final Voyage Ahead of Historic Sinking Off Florida",
+   "link": "https://gcaptain.com/ss-united-states-set-for-final-voyage-ahead-of-historic-sinking-off-florida/",
+   "published": "2026-11-09T16:01:21+00:00",
+   "summary": "The historic SS United States, once the fastest ocean liner in the world, is scheduled to leave Mobile, Alabama, on Monday for its final voyage before being intentionally sunk off...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMarEST ‘industry snapshot’ identifies key challenges and opportunities for decarbonisation",
+   "link": "https://ship.energy/information/imarest-industry-snapshot-identifies-key-challenges-and-opportunities-for-decarbonisation/",
+   "published": "2026-11-09T15:58:43+00:00",
+   "summary": "Alternative fuel production, availability and bunkering infrastructure are among the key issues and uncertainties the maritime industry must overcome to achieve the goals of the IMO’s 2023 Greenhouse Gas Strategy, according to the results of an ‘industry snapshot’ published today (9 November) by the Institute of Marine Engineering, Science and Technology (IMarEST). IMarEST, which has consultative status at the IMO, c",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "COSCO unveils massive supertanker fleet push",
+   "link": "https://splash247.com/cosco-unveils-massive-supertanker-fleet-push/",
+   "published": "2026-11-09T14:53:56+00:00",
+   "summary": "Chinese tanker giant COSCO Shipping Energy Transportation has unveiled a sweeping fleet expansion involving 24 VLCC newbuildings, signing contracts worth RMB9.48bn ($1.42bn) for ten supertankers and lining up another 14 through long-term bareboat charters. The Shanghai- and Hong Kong-listed owner disclosed the deals on November 9, with its wholly owned subsidiary Hainan Cosco Shipping Energy …",
+   "source": "Splash247",
    "kind": "market",
    "nordic": false
   },
