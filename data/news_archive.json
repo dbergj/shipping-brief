@@ -27,6 +27,32 @@
    "nordic": true
   },
   {
+   "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/686100",
+   "published": "2026-11-10T11:32:26+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Himalaya Shipping Ltd. (HSHP) Invitation to Third Quarter 2026 Conference Call",
+   "link": "https://newsweb.oslobors.no/message/686099",
+   "published": "2026-11-10T11:30:04+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "BW LPG Limited   Q3 2026 Financial Report Release and Earnings Presentation on 24 November 2026",
    "link": "https://newsweb.oslobors.no/message/686064",
    "published": "2026-11-10T06:00:06+00:00",
@@ -529,6 +555,258 @@
    "nordic": false
   },
   {
+   "title": "DHT books 68% of VLCC Q4 spot days at a staggering $579,900 average",
+   "link": "",
+   "published": "2026-11-10T13:45:51+00:00",
+   "summary": "The VLCC owner’s third quarter profit eclipsed its earnings for the whole of 2025 and Q4 looks even better",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index climbs to 2862 up 8 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2862-up-8-points/",
+   "published": "2026-11-10T13:00:49+00:00",
+   "summary": "Today, Tuesday, November 10 2026, the Baltic Dry Index climbed 8 points, 2862 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Golar's New FLNG Unit to Feature Techouse Fuel-Saving Systems",
+   "link": "https://www.marinelink.com/news/golars-new-flng-unit-feature-techouse-544259",
+   "published": "2026-11-10T12:09:58+00:00",
+   "summary": "Techouse has secured a contract from Black & Veatch to supply heat recovery steam generation (HRSG) modules for Golar LNG's fourth floating liquefied natural gas (FLNG) project, with the system expected to reduce fuel consumption by 20-25% compared…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UK offshore supply chain looks overseas for growth",
+   "link": "https://splash247.com/uk-offshore-supply-chain-looks-overseas-for-growth/",
+   "published": "2026-11-10T12:00:00+00:00",
+   "summary": "The UK’s offshore energy supply chain is increasingly looking overseas for new business as uncertainty surrounding domestic projects threatens investment, jobs and specialist engineering capacity, according to a new industry report. Offshore Energies UK (OEUK) found that just 35% of 60 companies surveyed were confident about their UK business prospects over the next 12 months. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maritime Electrification Breakthrough Goal initiative launched at COP 31",
+   "link": "https://ship.energy/energy/maritime-electrification-breakthrough-goal-initiative-launched-at-cop-31/",
+   "published": "2026-11-10T11:56:30+00:00",
+   "summary": "The Environmental Defense Fund (EDF) and RMI have announced the Maritime Electrification Breakthrough Goal initiative today (10 November) at COP 31 in Antalya, Türkiye, with the objective of increasing electricity’s share of shipping’s final energy demand to at least 20% by 2035. A paper explaining the aims of the project highlights that a significant share of maritime energy demand could be electrified in the near t",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "AIQ, Quartermaster Join Forces on AI-Powered Offshore Security",
+   "link": "https://www.marinelink.com/news/aiq-quartermaster-join-forces-aipowered-544257",
+   "published": "2026-11-10T11:52:28+00:00",
+   "summary": "Abu Dhabi-based industrial AI company AIQ and US maritime intelligence firm Quartermaster have signed a strategic collaboration agreement to explore AI-enabled maritime safety and security solutions for offshore energy operations.The agreement…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Frontier Fuels charters dedicated B100 bunker barge",
+   "link": "https://ship.energy/energy/frontier-fuels-charters-dedicated-b100-bunker-barge/",
+   "published": "2026-11-10T11:42:05+00:00",
+   "summary": "Germany-based marine biofuel supplier, Frontier Fuels, has announced it recently chartered a dedicated B100 bunker barge for deliveries on the Elbe. The 1,200 metric tonnes (mt) capacity vessel, Lina, can supply B100 biofuel in Hamburg, Stade, Kiel, Brunsbüttel and Cuxhaven. In an email sent to ship.energy this morning (10 November), Frontier Fuels Managing Director and Head of Operations, Luc Siebinga, said that the",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Asyad and MOL sell ageing LR2 for $63m",
+   "link": "https://splash247.com/asyad-and-mol-sell-ageing-lr2-for-63m/",
+   "published": "2026-11-10T11:42:00+00:00",
+   "summary": "Oman’s Asyad Shipping and Japanese shipping giant Mitsui OSK Lines (MOL) have agreed to sell their jointly owned LR2 product tanker, extending the Omani owner’s campaign to cash in on ageing tonnage. The Muscat-listed company disclosed that the 2009-built Haima, held through a 50:50 joint venture with MOL, has been sold for OMR24.3m ($63.2m). The …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Venture Global’s Q3 revenue reaches $4.76 billion, net income jumps",
+   "link": "https://lngprime.com/americas/venture-globals-q3-revenue-reaches-4-76-billion-net-income-jumps/199782/",
+   "published": "2026-11-10T11:33:17+00:00",
+   "summary": "US LNG exporter Venture Global reported revenue of $4.76 billion in the third quarter of this year, a 43 percent rise from the year before, while its net income rose more than five times to $2.55 billion.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "BV redesigns VeriSTAR Green with OVD integration",
+   "link": "https://ship.energy/information/bv-redesigns-veristar-green-with-ovd-integration/",
+   "published": "2026-11-10T11:28:52+00:00",
+   "summary": "Bureau Veritas Marine & Offshore (BV) says that its newly-redesigned VeriSTAR Green platform for maritime emissions compliance and reporting now incorporates the Operational Vessel Data (OVD) standard. OVD is an industry framework increasingly adopted across the maritime sector to support the consistent exchange of emissions and operational data. In a statement issued yesterday (9 November), BV said that the integrat",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Inside MIM: How maritime marketers are finding their voice",
+   "link": "",
+   "published": "2026-11-10T11:13:38+00:00",
+   "summary": "Andy Ford & Kae-Ley Brann, discuss building MIM's maritime marketing community, AI use, mentorship, and growth plans for marketers",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Successful ship-to-ship bunkering of green ammonia in China",
+   "link": "",
+   "published": "2026-11-10T11:03:51+00:00",
+   "summary": "The successful transfer of the 1,000-tonne bunker stem by Jiangsu Andefu Energy Development paves the way for wider adoption of green ammonia as a marine fuel",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Norway’s IMO proposal: will more flexibility create a functioning surplus market?",
+   "link": "https://www.hellenicshippingnews.com/norways-imo-proposal-will-more-flexibility-create-a-functioning-surplus-market/",
+   "published": "2026-11-10T11:00:59+00:00",
+   "summary": "Norway has proposed a substantial redesign of the IMO Net-Zero Framework, combining additional Surplus Units for zero- and near-zero fuels, five-year banking and broader use of surplus across both compliance tiers. The package offers a credible compromise, but its success depends on a difficult question: can the same surplus market deliver affordable compliance while providing ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Hormuz, global shocks open door for Latin America as reliable supplier – APLA",
+   "link": "https://www.hellenicshippingnews.com/hormuz-global-shocks-open-door-for-latin-america-as-reliable-supplier-apla/",
+   "published": "2026-11-10T11:00:57+00:00",
+   "summary": "Latin America should use the disruption in the Strait of Hormuz and other global shocks to present itself as a reliable, peaceful supplier of energy and petrochemicals and to build regional supply chains, the head of the region’s petrochemical and chemical association said. Manuel Diaz, director general of the Latin American Petrochemical and Chemical Association ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fuel Switch Snapshot: Gas fuels slip under LSMGO for diesel SS engines",
+   "link": "https://www.hellenicshippingnews.com/fuel-switch-snapshot-gas-fuels-slip-under-lsmgo-for-diesel-ss-engines/",
+   "published": "2026-11-10T11:00:55+00:00",
+   "summary": "LNG burnt in diesel slow speed (diesel SS) engines has flipped from a $94/mt premium over LSMGO in Rotterdam to a $78/mt discount, as Rotterdam’s LNG prices have fallen by $200-201/mt depending on engine type, while LSMGO has dipped by $28/mt. Liquefied biomethane (LBM) has swung the same way for diesel SS engines, from a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LNG shipping stocks: Post-election selloff",
+   "link": "https://www.hellenicshippingnews.com/lng-shipping-stocks-post-election-selloff/",
+   "published": "2026-11-10T11:00:53+00:00",
+   "summary": "The UP World LNG Shipping Index fell 9.35 points (4.07%) to close at 220.05, caught in a broad risk-off week — the S&P 500 had its worst week since the April 2025 crash, down 2.68%. The decline was near-universal: breadth was just 3:18, the median fell 6%, and the weighted index (wUPI) dropped 5.5%. Two ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Energean taps Njord Survey for North Sea decom work",
+   "link": "https://splash247.com/energean-taps-njord-survey-for-north-sea-decom-work/",
+   "published": "2026-11-10T11:00:00+00:00",
+   "summary": "Swedish marine survey specialist Njord Survey has secured a contract from Energean to undertake post-decommissioning seabed surveys at three gas fields in the southern North Sea. The contract covers Wenlock, Garrow, and Kilmar, where survey work will assess the seabed following the removal of platforms and associated subsea infrastructure. Njord will carry out geophysical and …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Yangzijiang secured orders for 18 LNG-powered containerships",
+   "link": "https://lngprime.com/asia/yangzijiang-secured-orders-for-18-lng-powered-containerships/199774/",
+   "published": "2026-11-10T10:59:49+00:00",
+   "summary": "Chinese private shipyard Yangzijiang Shipbuilding has secured orders for 18 LNG dual-fuel containerships and one LNG bunkering vessel so far this year.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk boxship knocks down crane at Yantian",
+   "link": "https://splash247.com/maersk-boxship-knocks-down-crane-at-yantian/",
+   "published": "2026-11-10T10:53:46+00:00",
+   "summary": "A Maersk-operated containership has brought down a ship-to-shore crane at China’s Yantian port after striking the structure while berthing. The incident involved the 366-m-long, 15,516 teu Maersk Cincinnati, which hit the crane at berth 12 of the Shenzhen terminal at around noon local time on November 9. Images and videos shared across Chinese social media …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "UCL team develops open-access tool to show country-level trade cost impact of NZF policy options",
+   "link": "https://ship.energy/information/ucl-team-develops-open-access-tool-to-show-country-level-trade-cost-impact-of-nzf-policy-options/",
+   "published": "2026-11-10T10:53:38+00:00",
+   "summary": "Researchers at the UCL Shipping and Oceans Research Group have launched the Net Zero Framework (NZF) Impact Tracker which looks at the potential changes in maritime transport costs and the price of traded goods for 136 coastal countries and compares these changes against the costs of climate change anticipated by 2050. The countries covered by the tracker include 26 Least Developed Countries and 36 Small Island Devel",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MSC’s car carrier arm adds four newbuilds in China",
+   "link": "https://splash247.com/mscs-car-carrier-arm-adds-four-newbuilds-in-china/",
+   "published": "2026-11-10T10:50:00+00:00",
+   "summary": "MSC-controlled Global Car Carriers (GCC) has expanded its newbuilding programme to 26 LNG dual-fuel car carriers, adding four more 8,600 ceu vessels at Chinese yards as the Oslo-based owner presses ahead with one of the sector’s largest fleet renewal drives. The former Gram Car Carriers has listed two additional ships at Zhoushan Changhong International Shipyard, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Pangaea chairman Richard du Moulin calls time after 12 years",
+   "link": "https://splash247.com/pangaea-chairman-richard-du-moulin-calls-time-after-12-years/",
+   "published": "2026-11-10T10:35:00+00:00",
+   "summary": "Pangaea Logistics Solutions chairman Richard du Moulin is retiring at the end of the year, bringing to a close more than a decade on the board of the Nasdaq-listed dry bulk shipping and logistics group. The Newport-based company disclosed in a regulatory filing that du Moulin had notified the board of his decision to retire, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "What the Democratic midterm sweep means for global shipping and trade",
+   "link": "",
+   "published": "2026-11-10T10:18:36+00:00",
+   "summary": "A blue wave may have swept the US congress, but an orange pen could still wield a lot of power",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tidewater Q3 Revenue Rises 5.3% as Offshore Vessel Day Rates Strengthen",
+   "link": "https://www.marinelink.com/news/tidewater-q-revenue-rises-offshore-vessel-544254",
+   "published": "2026-11-10T09:47:00+00:00",
+   "summary": "Tidewater Inc. reported third-quarter 2026 revenue of $360.4 million, up 5.3% sequentially, as improving offshore support vessel (OSV) day rates and utilization supported earnings growth. The company also completed a $500 million acquisition in Brazil and issued an optimistic outlook for 2027…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Oil Prices Slide as Trump Signals Pause in Iran Strikes",
+   "link": "https://www.marinelink.com/news/oil-prices-slide-trump-signals-pause-iran-544249",
+   "published": "2026-11-10T09:20:02+00:00",
+   "summary": "Oil prices fell on Tuesday, extending losses from the previous session after US President Donald Trump downplayed the need for additional military action against Iran \"at this point,\" easing fears of sustained supply disruptions from the Middle…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China’s gas imports up in October",
+   "link": "https://lngprime.com/asia/chinas-gas-imports-up-in-october/199751/",
+   "published": "2026-11-10T09:03:46+00:00",
+   "summary": "China’s natural gas imports, including pipeline gas and LNG, rose in October compared with the same month in 2025, according to customs data.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "South Korea’s Posco International completes second Gwangyang LNG terminal",
+   "link": "https://lngprime.com/asia/south-koreas-posco-international-completes-second-gwangyang-lng-terminal/199738/",
+   "published": "2026-11-10T08:00:20+00:00",
+   "summary": "South Korea’s Posco International, a unit of steel giant Posco, has completed construction of the second Gwangyang liquefied natural gas (LNG) import terminal, while the company plans to further expand capacity.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US facing countdown on Chinese maritime fees",
+   "link": "",
+   "published": "2026-11-10T07:06:53+00:00",
+   "summary": "New political landscape adds pressure on USTR to cancel tariffs after January deadline",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "The dirty secret of shipping’s clean hull ambitions",
    "link": "https://splash247.com/the-dirty-secret-of-shippings-clean-hull-ambitions/",
    "published": "2026-11-10T06:18:04+00:00",
@@ -561,6 +839,15 @@
    "published": "2026-11-10T06:13:59+00:00",
    "summary": "Dubai-based ship recycling cash buyer Best Oasis has secured authorisation from the US Treasury’s Office of Foreign Assets Control (OFAC) to negotiate deals involving sanctioned vessels, becoming the second company after GMS to receive such approval. The development opens another potential route for removing ageing ships from the sanctioned fleet, which has expanded rapidly as …",
    "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EU Puts Funding Into New Maritime Security Center for the Western Black Sea",
+   "link": "https://maritime-executive.com/article/eu-puts-funding-into-new-maritime-security-center-for-the-western-black-sea",
+   "published": "2026-11-10T04:05:00+00:00",
+   "summary": "The European Union plans to invest EUR50 million to build a joint Romanian-Bulgarian maritime security hub for the Black Sea region. The plan responds...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
