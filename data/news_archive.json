@@ -1,6 +1,32 @@
 {
  "company": [
   {
+   "title": "Volare Shipping Ltd.: Acquisition of VLCC newbuild",
+   "link": "https://newsweb.oslobors.no/message/686202",
+   "published": "2026-11-11T09:44:28+00:00",
+   "source": "Oslo Børs",
+   "ticker": "VLCC",
+   "company": "Volare Shipping Ltd.",
+   "category": "Inside information",
+   "kind": "company",
+   "routine": false,
+   "rank": 0,
+   "nordic": true
+  },
+  {
+   "title": "Himalaya Shipping Ltd. (HSHP) Announces its Preliminary Results for the Three and Nine Months Ended September 30, 2026",
+   "link": "https://newsweb.oslobors.no/message/686195",
+   "published": "2026-11-11T07:55:03+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Half-year report",
+   "kind": "company",
+   "routine": false,
+   "rank": 1,
+   "nordic": true
+  },
+  {
    "title": "STST: Invitation to Q3 2026 Earnings Call",
    "link": "https://newsweb.oslobors.no/message/685836",
    "published": "2026-11-06T06:00:00+00:00",
@@ -24,6 +50,19 @@
    "kind": "company",
    "routine": false,
    "rank": 1,
+   "nordic": true
+  },
+  {
+   "title": "HAFNIA'S Q3 2026 FINANCIAL RESULTS PRESENTATION TO BE HELD ON 18 NOVEMBER 2026",
+   "link": "https://newsweb.oslobors.no/message/686176",
+   "published": "2026-11-11T06:35:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAFNI",
+   "company": "Hafnia Limited",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
    "nordic": true
   },
   {
@@ -480,6 +519,19 @@
   },
   {
    "title": "The Goldman Sachs Group, Inc. Disclosure in HIMALAYA SHIPPING LTD",
+   "link": "https://newsweb.oslobors.no/message/686187",
+   "published": "2026-11-11T07:04:30+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
+   "nordic": true
+  },
+  {
+   "title": "The Goldman Sachs Group, Inc. Disclosure in HIMALAYA SHIPPING LTD",
    "link": "https://newsweb.oslobors.no/message/685706",
    "published": "2026-11-05T07:13:34+00:00",
    "source": "Oslo Børs",
@@ -568,6 +620,240 @@
    "nordic": false
   },
   {
+   "title": "How Next-Gen Hybrid and Electric Transmissions Power Modern Marine Fleets",
+   "link": "https://maritime-executive.com/article/how-next-gen-hybrid-and-electric-transmissions-power-modern-marine-fleets",
+   "published": "2026-11-11T13:09:21+00:00",
+   "summary": "Whether navigating calm coastal waterways, managing demanding commercial towing operations, or responding to critical offshore emergencies, modern mar...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index climbs to 2959 up 97 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-2959-up-97-points/",
+   "published": "2026-11-11T13:00:20+00:00",
+   "summary": "Today, Wednesday, November 11 2026, the Baltic Dry Index climbed 97 points, 2959 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Volare Shipping Acquires VLCC Newbuild for $210m",
+   "link": "https://www.marinelink.com/news/volare-shipping-acquires-vlcc-newbuild-544294",
+   "published": "2026-11-11T12:59:23+00:00",
+   "summary": "Volare Shipping Ltd. acquired a modern, high-specification newbuild tanker, entering an agreement to acquire a scrubber-fitted eco VLCC from an affiliate of Trafigura Maritime Logistics (“TML”), the Company’s indirect majority shareholder, for a purchase price of US$210 million. The vessel, M.T.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Operator Furetank Nabs International Award",
+   "link": "https://www.marinelink.com/news/tanker-operator-furetank-nabs-544293",
+   "published": "2026-11-11T12:49:13+00:00",
+   "summary": "Swedish tanker operator Furetank has been named a regional winner of the EY Entrepreneur Of The Year 2026 awards, receiving the Best International Growth distinction for combining fleet expansion, technological innovation and environmental performance.The…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Weekly tanker and dry bulk time charter rates - 11 November",
+   "link": "",
+   "published": "2026-11-11T12:47:46+00:00",
+   "summary": "Dry bulk and tanker shipping time charter rates",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Balaena, Kongsberg Team Up to Bring Arctic Hunter USV to Royal Navy",
+   "link": "https://www.marinelink.com/news/balaena-kongsberg-team-bring-arctic-544292",
+   "published": "2026-11-11T12:41:18+00:00",
+   "summary": "British shipbuilding group Balaena and Norway's Kongsberg Maritime have signed a memorandum of understanding (MoU) to advance the Arctic Hunter uncrewed surface vessel (USV), a proposed solution for the Royal Navy's emerging Type 92 anti-submarine warfare requirement.The agreement…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Physical AI in Shipbuilding: Fincantieri Partners with Poste Italiane, TIM",
+   "link": "https://www.marinelink.com/news/physical-ai-shipbuilding-fincantieri-544291",
+   "published": "2026-11-11T12:37:46+00:00",
+   "summary": "New industrial AI initiative targets shipyard automation, robotics and preservation of technical expertise across Fincantieri's global shipbuilding operations.Italian shipbuilding group Fincantieri has announced a strategic partnership with…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Alpha Trading acquires Trieste Coastal Storage Terminal",
+   "link": "https://ship.energy/energy/alpha-trading-acquires-trieste-coastal-storage-terminal/",
+   "published": "2026-11-11T11:24:29+00:00",
+   "summary": "Bunker supplier Alpha Trading has announced it has acquired the Trieste Coastal Storage Terminal from the Tosto Group. In a social media post yesterday (10 November), Genoa-based Alpha Trading said the acquisition is part of its growth and investment strategy, aimed at strengthening its position as a physical supplier of conventional and advanced sustainable energy products in key Mediterranean ports. ‘As confirmed b",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "FEET becomes first fund to adopt the Singapore-Asia Taxonomy for Sustainable Finance",
+   "link": "https://ship.energy/policy/feet-becomes-first-fund-to-adopt-the-singapore-asia-taxonomy-for-sustainable-finance/",
+   "published": "2026-11-11T11:24:01+00:00",
+   "summary": "The Fund for Energy Efficiency Technologies (FEET) has become the first fund to adopt the second edition of the Singapore-Asia Taxonomy for Sustainable Finance (SAT) to guide investment decisions. As previously reported by ship.energy, launched in November 2025, the FEET is said to be the world’s first fund to link verified fuel and regulatory savings from energy efficiency technologies (EET) installed on vessels to ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Kogas reports lower gas sales in October",
+   "link": "https://lngprime.com/asia/kogas-reports-lower-gas-sales-in-october/199867/",
+   "published": "2026-11-11T11:07:59+00:00",
+   "summary": "South Korean LNG importer Kogas said its gas sales decreased by 13.5 percent in October compared to last year.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New insight brief offers reflections on what is needed from shipping’s regulatory enforcement mechanism",
+   "link": "https://www.hellenicshippingnews.com/new-insight-brief-offers-reflections-on-what-is-needed-from-shippings-regulatory-enforcement-mechanism/",
+   "published": "2026-11-11T11:00:59+00:00",
+   "summary": "In the run-up to the 23rd Intersessional Working Group (ISWG 23) and 85th Marine Environment Protection Committee (MEPC 85), member states of the International Maritime Organization (IMO) have been meeting informally to find a potential pathway for agreeing and adopting a robust set of policy measures capable of delivering on the IMO’s 2023 Greenhouse Gas ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New open-access tool shows IMO delegations what the NZF policy options could mean for trade costs in their country",
+   "link": "https://www.hellenicshippingnews.com/new-open-access-tool-shows-imo-delegations-what-the-nzf-policy-options-could-mean-for-trade-costs-in-their-country/",
+   "published": "2026-11-11T11:00:57+00:00",
+   "summary": "Delegations preparing for the IMO’s Marine Environment Protection Committee (MEPC 85, 30 November to 4 December 2026) have had to weigh the Net Zero Framework (NZF) without country-level impact data for many of the economies most exposed to both shipping costs and climate change. For many low income countries and especially Least Developed Countries and ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sea Robbery Incidents in the Straits of Malacca and Singapore",
+   "link": "https://www.hellenicshippingnews.com/sea-robbery-incidents-in-the-straits-of-malacca-and-singapore-2/",
+   "published": "2026-11-11T11:00:55+00:00",
+   "summary": "Following a significant decline in incidents over the past ten months, there has been a recent spike in reported sea robbery incidents onboard ships while underway in the Singapore Strait. In view of this development, the ReCAAP ISC is issuing this alert to the maritime community and warns of the possibility of further incidents. Three ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "South Korea conditionally approves Hyundai LNG Shipping sale to Sinar Mas",
+   "link": "https://www.hellenicshippingnews.com/south-korea-conditionally-approves-hyundai-lng-shipping-sale-to-sinar-mas/",
+   "published": "2026-11-11T11:00:53+00:00",
+   "summary": "The overseas sale of Hyundai LNG Shipping, delayed amid a national energy security debate, is expected to go through. The Ministry of Trade, Industry and Energy has completed the final hurdle—the foreign investment security review—and approved the sale with national security conditions attached, according to officials. With that, the seller, the IMM Private Equity (PE)·IMM ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UK taps Ocean Infinity for subsea security push",
+   "link": "https://splash247.com/uk-taps-ocean-infinity-for-subsea-security-push/",
+   "published": "2026-11-11T11:00:00+00:00",
+   "summary": "UK-based marine robotics specialist Ocean Infinity has been selected as the Royal Navy’s commercial mission partner for a new underwater surveillance programme backed by an initial £90m ($120m) investment. The company will work with the Royal Navy to develop Atlantic Net, a network of autonomous maritime systems, underwater sensors and artificial intelligence designed to monitor …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Monjasa bolsters operations with five-tanker acquisition",
+   "link": "https://ship.energy/energy/monjasa-bolsters-operations-with-five-tanker-acquisition/",
+   "published": "2026-11-11T10:27:28+00:00",
+   "summary": "Monjasa has announced the addition of five sister tankers to its fleet, marking the company’s largest ever tonnage acquisition. In a statement sent to ship.energy this morning (11 November), the Denmark-based bunker company said the move is set to strengthen its activities in West Africa and provide greater flexibility across its global marine fuels supply operations. The deal comprises five 16,621 DWT product tanker",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Sustainability challenge for ports and terminals – who will pay?",
+   "link": "",
+   "published": "2026-11-11T10:25:16+00:00",
+   "summary": "Electrification of equipment is a key pathway to decarbonise port operations but sourcing green energy is not always straightforward",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Monjasa seals biggest-ever fleet deal with five-tanker swoop",
+   "link": "https://splash247.com/monjasa-seals-biggest-ever-fleet-deal-with-five-tanker-swoop/",
+   "published": "2026-11-11T10:02:32+00:00",
+   "summary": "Danish bunker supplier and shipowner Monjasa has acquired five sister product tankers from Germany’s Bernhard Schulte in its largest-ever fleet deal, strengthening its marine fuels operations in West Africa. The Fredericia-based group has picked up five 2010- and 2011-built tankers of around 16,500 dwt each. The purchase price has not been disclosed. Four vessels, renamed …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Elemental Energies wins offshore CCS deal from Harbour Energy",
+   "link": "https://splash247.com/elemental-energies-wins-offshore-ccs-deal-from-harbour-energy/",
+   "published": "2026-11-11T10:00:00+00:00",
+   "summary": "Aberdeen-based well engineering specialist Elemental Energies has secured a two-year contract from Harbour Energy to support the expansion of the Viking carbon capture and storage (CCS) project in the UK southern North Sea. The contract covers integrated subsurface, geomechanics and well engineering studies for the Viking East and Viking West storage sites. The work will …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UK government must recognise shore power electricity as marine fuel, says Port Director of Portsmouth International Port",
+   "link": "https://ship.energy/policy/uk-government-must-recognise-shore-power-electricity-as-marine-fuel-says-port-director-of-portsmouth-international-port/",
+   "published": "2026-11-11T09:57:00+00:00",
+   "summary": "The UK government should treat electricity supplied to vessels hooking up to shore power as zero-rated for Value Added Tax (VAT) to help support the uptake of cold ironing, the Port Director of Portsmouth International Port, Mike Sellers, has told ship.energy. Speaking on the sidelines of the GreenPort Congress in Portsmouth last month, Sellers said the government should recognise shore power as a marine fuel, which ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hartnoll’s Eastway makes $320m tanker comeback",
+   "link": "https://splash247.com/hartnolls-eastway-makes-320m-tanker-comeback/",
+   "published": "2026-11-11T09:56:00+00:00",
+   "summary": "Eastway, the shipowning and shipmanagement arm of the Tim Hartnoll-controlled X-Press Feeders/Sea Consortium group, is returning to the tanker market, ordering four suezmax newbuildings in China in a deal worth an estimated $320m. According to Alphaliner, Eastway has contracted Penglai Zhongbai Jinglu Ship Industry to build four 157,000 dwt tankers, with deliveries scheduled for 2029 …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Flex inks sale and leaseback deal for LNG carrier",
+   "link": "https://lngprime.com/asia/flex-inks-sale-and-leaseback-deal-for-lng-carrier/199832/",
+   "published": "2026-11-11T09:07:56+00:00",
+   "summary": "Norwegian LNG carrier owner Flex LNG has signed a sale and leaseback agreement with an Asian-based lease provider for its 2018-built LNG carrier Flex Enterprise.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Spanish LNG imports down in October",
+   "link": "https://lngprime.com/europe/spanish-lng-imports-down-in-october/199840/",
+   "published": "2026-11-11T09:05:42+00:00",
+   "summary": "Spanish liquefied natural gas (LNG) imports fell in October compared with the same month the previous year, with the US supplying most of the volumes, according to a preliminary monthly report by LNG terminal operator Enagas.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Gulf to supply LNG to PetroChina International",
+   "link": "https://lngprime.com/asia/gulf-to-supply-lng-to-petrochina-international/199825/",
+   "published": "2026-11-11T08:43:07+00:00",
+   "summary": "Thailand's Gulf Development has signed an LNG sale and purchase agreement with a unit of PetroChina International.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Coal’s new world order takes shape",
+   "link": "https://splash247.com/coals-new-world-order-takes-shape/",
+   "published": "2026-11-11T07:46:31+00:00",
+   "summary": "Coal’s changing trade map is creating winners and losers across dry bulk shipping in 2026, with Indonesian exports retreating, southern African shipments setting records and Asian import demand increasingly fractured. Clarksons Research forecasts seaborne coal trade will edge up just 1% this year to 1.343bn tonnes. Beneath that modest increase, Indonesian exports are projected to …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ukrainian drones strike major Russian Baltic export port",
+   "link": "https://splash247.com/ukrainian-drones-strike-major-russian-baltic-export-port/",
+   "published": "2026-11-11T07:02:35+00:00",
+   "summary": "Ukraine has launched a major drone attack on Russia’s Baltic port of Ust-Luga, setting fire to port infrastructure, injuring three workers and disrupting power supplies. Leningrad region governor Alexander Drozdenko confirmed early Wednesday that several drones had struck the port area, triggering a fire and an emergency shutdown of a transformer substation. Three port workers …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Cosco Shipping Energy unveils massive VLCC expansion",
    "link": "",
    "published": "2026-11-11T05:44:44+00:00",
@@ -582,6 +868,24 @@
    "published": "2026-11-11T05:34:00+00:00",
    "summary": "Spanish towage company continues its shopping spree as it expands worldwide",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Video: Ukrainian Strike Causes Major Fire at Russian Oil Port of Ust-Luga",
+   "link": "https://maritime-executive.com/article/video-ukrainian-strike-causes-major-fire-at-russian-oil-port-of-ust-luga",
+   "published": "2026-11-11T04:45:00+00:00",
+   "summary": "Russian officials have confirmed a major drone strike on the Baltic oil port of Ust-Luga, west of St. Petersburg. It has been hit many times by Ukrain...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Analysis: China's Naval Drills Suggest Preparation to Isolate Taiwan",
+   "link": "https://maritime-executive.com/article/analysis-china-s-naval-drills-suggest-preparation-to-isolate-taiwan",
+   "published": "2026-11-11T04:44:00+00:00",
+   "summary": "The massive Chinese naval exercises around the South China Sea, East China Sea and Philippine Sea last week were structured to prepare for an area den...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
