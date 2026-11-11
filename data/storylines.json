@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-10T06:28:25+00:00",
+ "updated": "2026-11-11T06:30:03+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping and energy infrastructure in and around the Strait of Hormuz have continued into November, including crew abandoning a tanker, a US strike on a bulker in the Gulf of Oman, and a Houthi hit on Saudi Aramco's headquarters. Saudi Arabia has now confirmed another strike on the East-West Pipeline.",
-   "why_it_matters": "Hull strikes, crew abandonment and infrastructure damage raise war-risk premiums and crew-safety objections for Arabian Gulf liftings, shrinking the pool of willing owners and potentially pushing pipeline barrels back onto ships.",
-   "latest": "Saudi Arabia's energy ministry confirmed another strike on the East-West Pipeline, and the IMO publicly called for stronger protection of merchant ships and crews amid continued attacks.",
+   "what": "Attacks on commercial shipping and energy infrastructure in and around the Strait of Hormuz have continued into November, including crew abandoning a tanker, a US strike on a bulker in the Gulf of Oman, a Houthi hit on Saudi Aramco's headquarters and a strike on the East-West Pipeline. Adnoc has now confirmed a strike on one of its tankers inside UAE territorial waters.",
+   "why_it_matters": "Hull strikes and crew-safety objections raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners, while damaged pipelines can push barrels back onto ships.",
+   "latest": "Adnoc confirmed another attack on one of its tankers in UAE waters, described as the latest on the 'Hormuz shuttle' route.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,51 +16,52 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Saudi Arabia Confirms Strike on East-West Pipeline",
-    "IMO Warns of Mounting Human Toll as Attacks on Commercial Shipping Continue"
+    "Adnoc Confirms Strike on Tanker in UAE's Territorial Waters"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-10",
-   "days_running": 12,
+   "last_update": "2026-11-11",
+   "days_running": 13,
    "days_since_update": 0
   },
   {
    "id": "black-sea-attacks",
    "title": "Attacks on shipping in the Black Sea",
-   "status": "active",
+   "status": "watch",
    "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, and Russia says its forces hit three cargo vessels it claims carried military goods for Ukraine, plus two electricity substations.",
    "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
-   "latest": "No Black Sea-specific news today; the IMO's warning on attacks in the Black Sea restates the risk rather than adding developments.",
+   "latest": null,
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
    "sources": [
-    "IMO Warns of Mounting Human Toll as Attacks on Commercial Shipping Continue"
+    "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings"
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-10",
-   "days_running": 12,
-   "days_since_update": 0
+   "days_running": 13,
+   "days_since_update": 1
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
    "status": "watch",
-   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts describe the dark fleet as a parallel fleet that has tripled in size since 2022.",
-   "why_it_matters": "Registry fraud, AIS spoofing and blocked-property designations force charterers, insurers and class societies to re-verify documentation and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
-   "latest": null,
+   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts describe the dark fleet as a parallel fleet that has tripled in size since 2022. Russian crude exports on G7 tankers fell in October as Greek operators chose better-paying trades.",
+   "why_it_matters": "Registry fraud, AIS spoofing and designations force charterers and insurers to re-verify documents and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
+   "latest": "Trade press reports Russian crude exports on G7 tankers fell sharply in October as Greek operators steered away from Black Sea conflicts for stronger earnings elsewhere.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings"
+   ],
    "first_seen": "2026-11-06",
-   "last_update": "2026-11-09",
-   "days_running": 5,
-   "days_since_update": 1
+   "last_update": "2026-11-11",
+   "days_running": 6,
+   "days_since_update": 0
   },
   {
    "id": "chokepoint-transits",
@@ -75,46 +76,54 @@
     "bdi",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Adnoc Confirms Strike on Tanker in UAE's Territorial Waters"
+   ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-09",
-   "days_running": 13,
-   "days_since_update": 1
-  },
-  {
-   "id": "port-labour-disruption",
-   "title": "Port labour disruption in the US and Europe",
-   "status": "watch",
-   "what": "A contract standoff involving about 250 security workers threatens operations across Los Angeles and Long Beach terminals, while dockworkers have struck across Europe and beyond over arms shipments.",
-   "why_it_matters": "Labour action at container and ferry berths disrupts berthing schedules and cargo flows, and the unresolved US West Coast dispute leaves a large share of US import capacity exposed to stoppage.",
-   "latest": null,
-   "watch": [
-    "bdi"
-   ],
-   "sources": [],
-   "first_seen": "2026-10-31",
-   "last_update": "2026-11-08",
-   "days_running": 11,
+   "days_running": 14,
    "days_since_update": 2
   },
   {
    "id": "russian-diesel-atlantic",
    "title": "Russian diesel flows and export restrictions",
-   "status": "watch",
-   "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia has extended a general ban on most diesel exports until the end of January, with some volumes still allowed to flow.",
+   "status": "active",
+   "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia has extended a general ban on most diesel exports until the end of January. A Greek-owned tanker believed to carry Russian diesel has paused its voyage off the US East Coast.",
    "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment patterns.",
-   "latest": null,
+   "latest": "A tanker linked to the diesel waiver paused off the US East Coast awaiting orders, with the US energy chief saying the cargo would eventually arrive.",
    "watch": [
     "mr_tc2_tce",
     "mr_tc14_tce",
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [],
+   "sources": [
+    "Tanker Linked to Trump's Russian Diesel Waiver Pauses off U.S. East Coast",
+    "Russian Diesel Tanker Awaits Orders Off U.S. Coast Amid Import Ban Dispute"
+   ],
    "first_seen": "2026-10-29",
-   "last_update": "2026-11-01",
-   "days_running": 13,
-   "days_since_update": 9
+   "last_update": "2026-11-11",
+   "days_running": 14,
+   "days_since_update": 0
+  },
+  {
+   "id": "china-ship-port-fees",
+   "title": "US port fees on Chinese-built and Chinese-operated ships",
+   "status": "active",
+   "what": "The US administration has formally extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue.",
+   "why_it_matters": "The fees, if reinstated, would change the cost of deploying Chinese-built tonnage into US trades and affect chartering preferences across sectors.",
+   "latest": "The two-month extension of the suspension was formalised today.",
+   "watch": [
+    "bdi",
+    "bdry"
+   ],
+   "sources": [
+    "U.S. Formalizes Two-Month Extension of China Ship Port Fee Suspension"
+   ],
+   "first_seen": "2026-11-11",
+   "last_update": "2026-11-11",
+   "days_running": 1,
+   "days_since_update": 0
   }
  ]
 }
