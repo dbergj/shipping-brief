@@ -66,6 +66,19 @@
    "nordic": true
   },
   {
+   "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/686403",
+   "published": "2026-11-12T13:38:03+00:00",
+   "source": "Oslo Børs",
+   "ticker": "STST",
+   "company": "Stainless Tankers ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Stainless Tankers - Key information relating to cash dividend",
    "link": "https://newsweb.oslobors.no/message/686275",
    "published": "2026-11-12T06:01:00+00:00",
@@ -506,18 +519,6 @@
    "rank": 2
   },
   {
-   "title": "DHT Holdings, Inc. today provides the following business update",
-   "summary": "",
-   "link": "https://www.sec.gov/Archives/edgar/data/1331284/000095015726001092/form6-k.htm",
-   "published": "2026-10-13T12:00:00+00:00",
-   "source": "SEC EDGAR",
-   "ticker": "DHT",
-   "company": "DHT Holdings",
-   "category": "6-K",
-   "kind": "company",
-   "rank": 2
-  },
-  {
    "title": "Volare Shipping Ltd.: New share capital registered",
    "link": "https://newsweb.oslobors.no/message/685604",
    "published": "2026-11-04T13:16:30+00:00",
@@ -541,6 +542,19 @@
    "kind": "company",
    "routine": false,
    "rank": 4,
+   "nordic": true
+  },
+  {
+   "title": "The Goldman Sachs Group, Inc. Disclosure in HIMALAYA SHIPPING LTD - COB 10th November 2026",
+   "link": "https://newsweb.oslobors.no/message/686295",
+   "published": "2026-11-12T07:09:27+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
    "nordic": true
   },
   {
@@ -642,6 +656,267 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US Ethanol Could Fuel Methanol-Ready Ships, Study Finds",
+   "link": "https://www.marinelink.com/news/us-ethanol-fuel-methanolready-ships-study-544324",
+   "published": "2026-11-12T13:49:23+00:00",
+   "summary": "Ethanol could be used to fuel a growing fleet of methanol-capable ships with limited modifications to existing dual-fuel engines and bunkering infrastructure, offering an alternative as supplies of low-emission methanol remain constrained, according to a new industry study.The study…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore Seeks LNG Floating Storage Operators to Expand Bunkering Ops",
+   "link": "https://www.marinelink.com/news/singapore-seeks-lng-floating-storage-544323",
+   "published": "2026-11-12T13:36:57+00:00",
+   "summary": "The Maritime and Port Authority of Singapore (MPA) has opened applications for licenses to operate up to two liquefied natural gas (LNG) floating storage units (FSUs) in Singapore anchorages, aiming to expand LNG bunkering capacity and strengthen…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index climbs to 3020 up 61 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-3020-up-61-points/",
+   "published": "2026-11-12T13:00:41+00:00",
+   "summary": "Today, Thursday, November 12 2026, the Baltic Dry Index climbed 61 points, 3020 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Petrobras to take full ownership of Brazilian fuel distributor Logum",
+   "link": "https://ship.energy/energy/petrobras-to-take-full-ownership-of-brazilian-fuel-distributor-logum/",
+   "published": "2026-11-12T12:51:25+00:00",
+   "summary": "In a move which it says will support its ambitions in the ethanol market, Petrobras has agreed to take its ownership of Logum Logística up from its current 30% to 100% by acquiring the stakes held by Raízen Energia S.A. (30%), Copersucar S.A. (30%) and Uniduto Logística S.A. (10%). In a statement issued today (12 November), Petrobras said that Logum is focused on ‘the transportation, handling and storage of ethanol, ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "TFG Marine completes first VLSFO delivery in Venezuela",
+   "link": "https://ship.energy/energy/tfg-marine-completes-first-vlsfo-delivery-in-venezuela/",
+   "published": "2026-11-12T12:47:41+00:00",
+   "summary": "After the announcement earlier this month of its move into the Venezuelan physical supply market, TFG Marine has completed its first very low sulphur fuel oil (VLSFO) delivery, with the refuelling of the Silver Valerie product tanker by the Great Baru bunker barge. The operation off the Venezuelan coast was carried out in co-operation with local distributor Impordiesel, TFG Marine said in a social media post. Supply ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "HMM Q3 profit soars 405%",
+   "link": "",
+   "published": "2026-11-12T12:33:01+00:00",
+   "summary": "Container shipping drives sharp rise in profits for Korean shipping firm",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US ethanol industry eyes growing marine fuel market",
+   "link": "https://splash247.com/us-ethanol-industry-eyes-growing-marine-fuel-market/",
+   "published": "2026-11-12T12:30:00+00:00",
+   "summary": "Ethanol could emerge as an alternative marine fuel for the growing fleet of methanol-capable ships, with existing engines and bunkering infrastructure requiring only limited modifications, according to a new industry study. The report, Marine Ethanol: Unlocking the US Opportunity, published by the Maritime Ethanol & Methanol Alliance (MEMA), says the fuel could support more than …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Port of Long Beach posts year-on-year emissions cuts in 2025 inventory",
+   "link": "https://ship.energy/information/port-of-long-beach-posts-year-on-year-emissions-cuts-in-2025-inventory/",
+   "published": "2026-11-12T12:23:26+00:00",
+   "summary": "The Port of Long Beach achieved a year-on-year reduction in air pollution and greenhouse gas (GHG) emissions in 2025, according to its latest Air Emissions Inventory report. However, GHG emissions, measured as carbon dioxide equivalent (CO2e), remained 8% above 2017 levels, amid a 31% increase in cargo volumes over the same period. In a statement issued this week (11 November) alongside the inventory, the port attrib",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ship Breaking: Dry Bulk Scrapping Falls 18-year Low",
+   "link": "https://www.marinelink.com/news/ship-breaking-dry-bulk-scrapping-falls-544321",
+   "published": "2026-11-12T12:14:55+00:00",
+   "summary": "\"Between January and October 2026, dry bulk ship recycling fell 36% y/y to 3m DWT, its lowest level in 18 years. Only 70 ships were recycled, primarily smaller ships in the handysize and supramax segments, as strong freight rates have extended the operational lives of older ships…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Chinese shipbuilder wins AHTS order from South American owner",
+   "link": "https://splash247.com/chinese-shipbuilder-wins-ahts-order-from-south-american-owner/",
+   "published": "2026-11-12T12:00:00+00:00",
+   "summary": "Chinese shipbuilder Rainbow Offshore Engineering (ROC), part of Shenzhen-listed Jiangsu Rainbow Heavy Industries, has secured a contract to build an anchor-handling tug supply (AHTS) vessel for an undisclosed South American owner. The vessel will measure 71.95 metres long and 17.2 metres wide, with a bollard pull of 110 tonnes. Designed for deepwater anchor-handling and towing …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Port of Gothenburg edging closer to large-scale biogas bunkering",
+   "link": "https://ship.energy/energy/port-of-gothenburg-edging-closer-to-large-scale-biogas-bunkering/",
+   "published": "2026-11-12T11:48:21+00:00",
+   "summary": "The Port of Gothenburg has announced the installation of a storage tank that will enable large-scale biogas bunkering. As previously reported by ship.energy, construction on the plant, which is being built and owned by Nordion Energi, got underway earlier this year. The 500 cubic metre (cbm)-capacity storage tank arrived at the Port of Gothenburg by vessel. Weighing close to 140 tonnes, it will be able to store up to",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Seatrade Maritime UAE launches 2027 edition with focus on the issues shaping regional shipping and trade",
+   "link": "",
+   "published": "2026-11-12T11:43:49+00:00",
+   "summary": "Seatrade Maritime UAE will be held at the Dubai World Trade Centre again, drawing leaders to discuss ports, trade, decarbonization and digital shipping advances ahead of May meetings.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Marine Platforms plans full takeover of former Technip pipelay vessel",
+   "link": "https://splash247.com/marine-platforms-plans-full-takeover-of-former-technip-pipelay-vessel/",
+   "published": "2026-11-12T11:38:00+00:00",
+   "summary": "Nigerian offshore services contractor Marine Platforms is moving towards full ownership of the pipelay and heavy-lift construction vessel Zhong Fei Huan Qiu 1200, formerly known as Global 1200. The company acquired a 51% interest in the vessel in 2025, with Chinese offshore engineering group DS Global retaining the remaining 49%. Marine Platforms now expects to …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sealartec Wins USCG Contract to Test Autonomous LARS",
+   "link": "https://www.marinelink.com/news/sealartec-wins-uscg-contract-test-544317",
+   "published": "2026-11-12T11:35:20+00:00",
+   "summary": "Technology previously demonstrated aboard the U.S. Navy's Stiletto test platform will advance to operational evaluation aboard a Legend-class National Security Cutter.Israel-based maritime technology company Sealartec has secured a U.S. Coast…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fuelling the future: How early adopters are making methanol shipping work",
+   "link": "",
+   "published": "2026-11-12T11:21:19+00:00",
+   "summary": "Methanol dual-fuel vessels are already on the water but how will this translate to widespread safe and reliable adoption?",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EU’s Russian Arctic LNG Bill Hits €8.7 Billion as Yamal Faces Shipping Challenge Come January",
+   "link": "https://gcaptain.com/eus-russian-arctic-lng-bill-hits-e8-7-billion-as-yamal-faces-shipping-challenge-come-january/",
+   "published": "2026-11-12T11:16:36+00:00",
+   "summary": "The European Union paid an estimated €8.7 billion for liquefied natural gas from Russia’s Yamal project in the first 10 months of 2026, exceeding the estimated total for all of 2025, as the countdown to a ban on Russian LNG imports enters its final weeks.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Financing the maritime energy transition",
+   "link": "https://www.hellenicshippingnews.com/financing-the-maritime-energy-transition/",
+   "published": "2026-11-12T11:00:59+00:00",
+   "summary": "The maritime energy transition will require support for human capacity development across developing States, including SIDS and LDCS, as well as investment in scalable and bankable projects that will support the move to zero emission shipping by or around 20250, in line with IMO’s GHG Strategy. During an IMO Future Fuels and Technology Project session ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CII forecast showing a D? How to improve your rating before year-end",
+   "link": "https://www.hellenicshippingnews.com/cii-forecast-showing-a-d-how-to-improve-your-rating-before-year-end/",
+   "published": "2026-11-12T11:00:57+00:00",
+   "summary": "The CII grade for a year is calculated from that year’s verified data. That is why the grade cannot be managed after the year ends, and also why a D forecast in the middle of the year is a decision point and not a verdict. Every voyage still to be sailed adds to the result. ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Pacific Environment Welcomes Ulsan Port’s Commercial e-Ammonia Bunkering Milestone",
+   "link": "https://www.hellenicshippingnews.com/pacific-environment-welcomes-ulsan-ports-commercial-e-ammonia-bunkering-milestone/",
+   "published": "2026-11-12T11:00:55+00:00",
+   "summary": "On October 25–26, Ulsan Port Authority (UPA), together with Lotte Fine Chemical, HD Hyundai Heavy Industries, Shinheungsa, and Eastern Pacific Shipping (EPS), supplied 800 tonnes of renewable energy-based e-ammonia to Terra Clove, a newly launched 93,000 m3 Very Large Ammonia Carrier (VLAC) at Ulsan Port. The fuel was supplied through a Port-to-Ship (PTS) bunkering system ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Monjasa adds five sister tankers in major fleet renewal deal",
+   "link": "https://www.hellenicshippingnews.com/monjasa-adds-five-sister-tankers-in-major-fleet-renewal-deal/",
+   "published": "2026-11-12T11:00:53+00:00",
+   "summary": "Global oil and shipping group, Monjasa is adding five sister tankers to its fleet in the company’s largestever tonnage acquisition, strengthening its activities in West Africa and providing greater flexibility across its global marine fuels supply operations. The deal comprises five 16,621-dwt product tankers from German shipowner Bernhard Schulte, as part of the ongoing fleet ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "TGS lands seismic contract offshore Namibia",
+   "link": "https://splash247.com/tgs-lands-seismic-contract-offshore-namibia/",
+   "published": "2026-11-12T10:00:00+00:00",
+   "summary": "Oslo-listed seismic specialist TGS has secured an ocean bottom node contract offshore Namibia from an undisclosed repeat customer. A deepwater crew is scheduled to mobilise in the fourth quarter of 2026, with the survey expected to last approximately 120 days, keeping the crew employed into the second quarter of next year. “We are very pleased …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Trump’s ‘Maritime Golden Age’ plans set to survive midterm losses",
+   "link": "",
+   "published": "2026-11-12T09:59:40+00:00",
+   "summary": "Anticipated Jones Act oversight, NDAA inclusion keep hopes alive for domestic shipping resurgence",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Yangzijiang Shipbuilding beats annual order target",
+   "link": "",
+   "published": "2026-11-12T09:47:17+00:00",
+   "summary": "The Singapore-listed shipbuilder secured $6.98 billion of fresh contracts year-to-date",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Inpex seals first Abadi LNG SPAs",
+   "link": "https://lngprime.com/asia/inpex-seals-first-abadi-lng-spas/199891/",
+   "published": "2026-11-12T09:20:50+00:00",
+   "summary": "Japan's Inpex has signed the first liquefied natural gas (LNG) sales and purchase agreements for the planned Abadi LNG project in Indonesia, a spokesman for Inpex confirmed to LNG Prime on Thursday.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore launches licensing round for LNG FSUs",
+   "link": "https://lngprime.com/asia/singapore-launches-licensing-round-for-lng-fsus/199911/",
+   "published": "2026-11-12T09:19:35+00:00",
+   "summary": "The Maritime and Port Authority of Singapore (MPA) has opened applications for licenses to operate up to two liquefied natural gas (LNG) floating storage units (FSUs) in Singapore anchorages.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Brazilian soybean exports smash records",
+   "link": "https://splash247.com/brazilian-soybean-exports-smash-records/",
+   "published": "2026-11-12T09:11:32+00:00",
+   "summary": "Brazilian soybean exports have smashed all previous records, with shipments during the first ten months of 2026 already exceeding the whole of last year’s total, providing a significant boost to dry bulk shipping demand, primarily panamaxes and supramaxes. New analysis from Ursa Shipbrokers shows seaborne soybean exports reached 108.4m tonnes between January and October, an …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Why shipowners might be better off sharing profits than taking on debt",
+   "link": "https://splash247.com/why-shipowners-might-be-better-off-sharing-profits-than-taking-on-debt/",
+   "published": "2026-11-12T08:03:00+00:00",
+   "summary": "Traditional loans demand repayments regardless of freight markets. Earnings-sharing structures offer a different proposition: investors participate in a vessel’s fortunes while owners retain control. Captain Vikas Pandey from Shipfinex explains. Ship finance looks healthy on paper. Petrofin Research estimates that the top 40 shipping banks grew their portfolios by 6% in 2025 to $300.6bn, and …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maran Tankers adds another LNG-powered newbuild to its fleet",
+   "link": "https://lngprime.com/asia/maran-tankers-adds-another-lng-powered-newbuild-to-its-fleet/199885/",
+   "published": "2026-11-12T07:33:22+00:00",
+   "summary": "Maran Tankers Management, the oil tanker unit of Greece’s Angelicoussis Shipping Group, has taken delivery of another LNG dual-fuel Suezmax oil tanker in China.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Inpex reports stable Ichthys LNG production",
+   "link": "https://lngprime.com/asia/inpex-reports-stable-ichthys-lng-production/199889/",
+   "published": "2026-11-12T07:25:54+00:00",
+   "summary": "Japan's Inpex said Thursday that production at its Ichthys liquefied natural gas (LNG) export plant in Australia has remained stable since the beginning of 2026.",
+   "source": "LNG Prime",
    "kind": "market",
    "nordic": false
   },
