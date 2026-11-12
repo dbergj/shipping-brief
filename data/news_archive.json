@@ -14,6 +14,19 @@
    "nordic": true
   },
   {
+   "title": "Stainless Tankers announces financial results for the three months ended September 30, 2026",
+   "link": "https://newsweb.oslobors.no/message/686261",
+   "published": "2026-11-12T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "STST",
+   "company": "Stainless Tankers ASA",
+   "category": "Half-year report",
+   "kind": "company",
+   "routine": false,
+   "rank": 1,
+   "nordic": true
+  },
+  {
    "title": "Himalaya Shipping Ltd. (HSHP) Announces its Preliminary Results for the Three and Nine Months Ended September 30, 2026",
    "link": "https://newsweb.oslobors.no/message/686195",
    "published": "2026-11-11T07:55:03+00:00",
@@ -50,6 +63,19 @@
    "kind": "company",
    "routine": false,
    "rank": 1,
+   "nordic": true
+  },
+  {
+   "title": "Stainless Tankers - Key information relating to cash dividend",
+   "link": "https://newsweb.oslobors.no/message/686275",
+   "published": "2026-11-12T06:01:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "STST",
+   "company": "Stainless Tankers ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
    "nordic": true
   },
   {
@@ -615,6 +641,267 @@
    "link": "",
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Teekay Tankers doubles down on newbuilds with four-ship deal",
+   "link": "https://splash247.com/teekay-tankers-doubles-down-on-newbuilds-with-four-ship-deal/",
+   "published": "2026-11-12T06:30:52+00:00",
+   "summary": "US-listed Teekay Tankers has ordered four more newbuildings in China and South Korea, lifting its tanker construction programme to six ships worth $525.9m. The Kenneth Hvid-led owner has booked two aframax/LR2 tankers at an unnamed Chinese yard and two suezmaxes at a South Korean shipbuilder, with all four vessels scheduled for delivery in 2030. The …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping’s $95bn fossil fuel bonfire",
+   "link": "https://splash247.com/shippings-95bn-fossil-fuel-bonfire/",
+   "published": "2026-11-12T06:29:28+00:00",
+   "summary": "The shipping industry has spent an estimated $95bn more on fuel since the Hormuz crisis began. That money could have financed wind propulsion across much of the world’s merchant fleet, slashing emissions and reducing exposure to future energy shocks. Gavin Allwright, secretary-general of the International Windship Association (IWSA), writes for Splash today. The maritime shipping …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bunker prices plunge 20%",
+   "link": "https://splash247.com/bunker-prices-plunge-20/",
+   "published": "2026-11-12T06:27:04+00:00",
+   "summary": "Bunker prices have plunged by as much as 20% in less than two weeks as hopes of an easing of the Iran conflict send oil markets tumbling, offering shipowners some relief from what is still expected to be the most expensive year for marine fuel on record. Singapore very low sulphur fuel oil (VLSFO) was …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore Strait robbery spike sparks fresh security warning",
+   "link": "https://splash247.com/singapore-strait-robbery-spike-sparks-fresh-security-warning/",
+   "published": "2026-11-12T06:24:58+00:00",
+   "summary": "A sudden resurgence in robberies aboard merchant ships in the Singapore Strait has prompted regional maritime security authorities to issue an urgent warning, with three vessels boarded in nine days and one seafarer injured. The ReCAAP Information Sharing Centre issued an incident alert yesterday following attacks on two bulk carriers and a tanker between November …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz",
+   "link": "",
+   "published": "2026-11-12T03:14:44+00:00",
+   "summary": "Iran continues daily attacks on commercial shipping in the Strait of Hormuz with at least Sinokor vessels struck since July",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MSC Cruises Makes History in Miami with Record 4 Ships Sailing this Winter",
+   "link": "https://maritime-executive.com/article/msc-cruises-makes-history-in-miami-with-record-4-ships-sailing-this-winter",
+   "published": "2026-11-12T02:26:54+00:00",
+   "summary": "MSC Cruises is celebrating four ships sailing from the MSC Miami Cruise Terminal this winter, marking a new record for the cruise line’s operations at...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Everllence Two-Stroke Dual-Fuel Technology Selected for Tanker Project",
+   "link": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
+   "published": "2026-11-12T02:22:44+00:00",
+   "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO Calls for All Parties in Hormuz Crisis to Respect Seafarer Safety",
+   "link": "https://maritime-executive.com/article/imo-calls-for-all-parties-in-hormuz-crisis-to-respect-seafarer-safety",
+   "published": "2026-11-12T02:06:00+00:00",
+   "summary": "The U.S.-Iran conflict has claimed the lives of at least 25 seafarers since February, and Iran's attacks on foreign-flag shipping continue nearly ever...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Industry Giant Boluda Towage Expands in Australia",
+   "link": "https://maritime-executive.com/article/industry-giant-boluda-towage-expands-in-australia",
+   "published": "2026-11-12T02:05:18+00:00",
+   "summary": "Top global tug operator Boluda Towage has added another Australian port to its network after winning a 10-year contract to provide towage at the Port...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Philippines Gets New U.S.-Built USVs to Patrol South China Sea",
+   "link": "https://maritime-executive.com/article/philippines-gets-new-u-s-built-usvs-to-patrol-south-china-sea",
+   "published": "2026-11-12T01:40:59+00:00",
+   "summary": "The Philippine Marine Corps has received two US-made unmanned surface vessels (USVs), adding to the autonomous fleet the Armed Forces of the Philippin...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US Treasury may allow purchase of sanctioned tankers on case basis",
+   "link": "https://www.hellenicshippingnews.com/us-treasury-may-allow-purchase-of-sanctioned-tankers-on-case-basis/",
+   "published": "2026-11-11T22:00:59+00:00",
+   "summary": "The US Treasury Department may allow companies to buy sanctioned shipping vessels and return them to legitimate shipping on a case-by-case basis, according to a government source and a person with knowledge of the matter. “Treasury may consider proposals from legitimate shipping actors to purchase and restore shadow fleet vessels to the licit shipping industry ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Demand Rising in the Ship Recycling Markets",
+   "link": "https://www.hellenicshippingnews.com/demand-rising-in-the-ship-recycling-markets/",
+   "published": "2026-11-11T22:00:59+00:00",
+   "summary": "The ship recycling market has been seeing increased demand for ships. In its latest weekly report, Best Oasis (www.best-oasis.com), a leading cash buyer of ships, said that “the Indian ship recycling market remains firm during the week, with buyers showing strong interest in acquiring suitable vessels for recycling. Local steel markets have softened, although the ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tankers In High Demand During October",
+   "link": "https://www.hellenicshippingnews.com/tankers-in-high-demand-during-october/",
+   "published": "2026-11-11T22:00:58+00:00",
+   "summary": "October’s secondhand market showed a clear shift towards tankers, despite little change in overall activity. A total of 168 vessels changed hands, unchanged year on year and 2% above September. Tanker sales rose 61% to 82 vessels, while dry bulk sales fell 30.5% to 57. Tankers accounted for 49% of all transactions, compared with 34% ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Up for 6th Day",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-up-for-6th-day/",
+   "published": "2026-11-11T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, rose by 3.4% to its highest since October 8 at 2,959 points, extending gains for the sixth consecutive session. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, climbed by 5.5% to a peak since ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping puts AI readiness to the test with new maturity benchmark",
+   "link": "https://www.hellenicshippingnews.com/shipping-puts-ai-readiness-to-the-test-with-new-maturity-benchmark/",
+   "published": "2026-11-11T22:00:57+00:00",
+   "summary": "Lloyd’s Register (LR) has expanded its Digital Maturity Index (DMI) benchmarking tool with a new AI maturity assessment, helping shipowners and operators evaluate their readiness for artificial intelligence as adoption accelerates across the maritime industry. Unveiled at Smart Maritime Network Singapore 2026, the enhanced DMI process introduces AI readiness benchmarking and sector-specific digital use cases ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Geneva Dry: Belships’ Ivar Hansson Myklebust on China’s changing commodities role",
+   "link": "https://splash247.com/geneva-dry-belships-ivar-hansson-myklebust-on-chinas-changing-commodities-role/",
+   "published": "2026-11-11T20:12:00+00:00",
+   "summary": "Ivar Hansson Myklebust, chair and CEO of Norway’s Belships, believes the shipping industry continues to underestimate the growth potential of developing economies. Ahead of his appearance at Geneva Dry 2027, he discusses China’s changing trading patterns, fleet supply and the opportunities emerging across minor bulks. A changing China, resilient emerging economies and a relatively predictable …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Russian Diesel Tanker Makes U-Turn After Heading to U.S.",
+   "link": "https://gcaptain.com/russian-diesel-tanker-makes-u-turn-after-heading-to-u-s/",
+   "published": "2026-11-11T19:52:09+00:00",
+   "summary": "(Bloomberg) — A tanker carrying Russian diesel that had briefly signaled the US made a U-turn about 400 nautical miles off New York, compounding uncertainty over deliveries to the North American market....",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Ethanol Could Fuel Growing Fleet of Methanol-Capable Ships, Study Finds",
+   "link": "https://gcaptain.com/u-s-ethanol-could-fuel-growing-fleet-of-methanol-capable-ships-study-finds/",
+   "published": "2026-11-11T19:05:27+00:00",
+   "summary": "A new study says the United States has enough spare ethanol production capacity to supply a meaningful share of the global marine fuel market, offering shipowners another fuel option as...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russian Diesel Faces U.S. Buyer Resistance Despite Trump Sanctions Waiver",
+   "link": "https://gcaptain.com/russian-diesel-faces-u-s-buyer-resistance-despite-trump-sanctions-waiver/",
+   "published": "2026-11-11T18:40:24+00:00",
+   "summary": "US companies are unlikely to import Russian diesel as a tanker full of the fuel idles off the US Eastern Seaboard, experts said, despite President Donald Trump's temporary waiver of some sanctions on Moscow's fuel exports.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "OPEC+ Oil Production Rises in October, Nearing Pre-Iran War Rates",
+   "link": "https://www.marinelink.com/news/opec-oil-production-rises-october-nearing-544306",
+   "published": "2026-11-11T18:28:58+00:00",
+   "summary": "OPEC+ crude oil production jumped in October, led by a sharp increase in output from Saudi Arabia despite continued disruption to shipments through the Strait of Hormuz caused by the Iran war.The OPEC+ group, which includes the Organization…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "COSCO SHIPPING Development Orders 16 VLCCs",
+   "link": "https://www.marinelink.com/news/cosco-shipping-development-orders-vlccs-544304",
+   "published": "2026-11-11T18:25:44+00:00",
+   "summary": "Shanghai-based COSCO SHIPPING Development said on Wednesday it had ordered 16 very large crude carriers (VLCCs) worth 13.43 billion yuan ($2.01 billion) from China State Shipbuilding Group.A VLCC is a class of massive oil tanker with a deadweight tonnage (DWT) typically ranging from 200,000 metric t",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iran Forbids Nuclear Material to Exit the Country, Oil Prices Rise 1%",
+   "link": "https://www.marinelink.com/news/iran-forbids-nuclear-material-exit-544302",
+   "published": "2026-11-11T18:13:13+00:00",
+   "summary": "Oil prices rose about 1% on Wednesday after dropping to two-month lows in the previous session, after Iran's security chief said Tehran would not allow any enriched nuclear material to leave the country.Washington has said nuclear matters must…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hopes for Peace Continue Despite Ongoing Maritime Security Threats in the Middle East",
+   "link": "https://www.marinelink.com/news/hopes-peace-continue-despite-ongoing-544301",
+   "published": "2026-11-11T18:11:37+00:00",
+   "summary": "In the Strait of Hormuz, tankers are still ablaze, oil spills are washing ashore and drones and missiles strike infrastructure across the region, despite expectations of a de-escalation reflected in falling oil prices.The United Kingdom Maritime Trade…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation",
+   "link": "https://gcaptain.com/tankers-continue-to-burn-in-the-middle-east-despite-hopes-for-de-escalation/",
+   "published": "2026-11-11T17:20:22+00:00",
+   "summary": "Despite market bets on a de-escalation in the Iran war, new evidence has emerged in recent days of strikes on tankers in the Strait of Hormuz and on energy infrastructure in the Middle East.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk hit by fresh cyber breach",
+   "link": "https://splash247.com/maersk-hit-by-fresh-cyber-breach/",
+   "published": "2026-11-11T16:41:12+00:00",
+   "summary": "Danish shipping giant AP Moller-Maersk has confirmed another cybersecurity breach after hackers gained access to an older IT system and extracted data, nearly a decade after the devastating NotPetya attack that cost the company up to $300m. The Copenhagen-headquartered group said on Wednesday that the incident involved a local legacy system inherited through a previous …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "IMO Chief Calls for Strict Enforcement of SOLAS Rules in Strait of Hormuz",
+   "link": "https://gcaptain.com/imo-chief-calls-for-strict-enforcement-of-solas-rules-in-strait-of-hormuz/",
+   "published": "2026-11-11T16:37:16+00:00",
+   "summary": "International Maritime Organization (IMO) Secretary-General Arsenio Dominguez has called on governments to step up enforcement of international maritime regulations in the Strait of Hormuz, warning that unsafe shipping practices are...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Panama Canal Raises Daily Transit Capacity as Water Conditions Improve",
+   "link": "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve/",
+   "published": "2026-11-11T16:30:18+00:00",
+   "summary": "The Panama Canal is increasing its daily transit capacity to 34 vessels and restoring the maximum allowable draft at its Neopanamax locks to 50 feet, easing restrictions as improved water...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Construction begins on shore power facilities at ROG’s Waalhaven ship repair yard",
+   "link": "https://ship.energy/technology/onshore-power/construction-begins-on-shore-power-facilities-at-rogs-waalhaven-ship-repair-yard/",
+   "published": "2026-11-11T14:48:51+00:00",
+   "summary": "Rotterdam Shore Power (RSP) – the joint venture between the Port of Rotterdam and Eneco – has announced that construction of shore power facilities at ROG Ship Repair & Rotterdam Offshore Group has begun. ‘Together with our construction partners, NOS Energy Solutions AS and Forteck, the project team commenced the first works for the shore power installation at ROG’s ship repair yard in the Waalhaven,’ ROS said in a s",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Crew member injured in Singapore Strait ship robbery",
+   "link": "",
+   "published": "2026-11-11T14:03:08+00:00",
+   "summary": "Three vessels have been hit by sea robberies in the first 10 days of November and the industry warned of more possible incidents",
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false

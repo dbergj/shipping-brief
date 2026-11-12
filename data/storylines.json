@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-11T06:30:03+00:00",
+ "updated": "2026-11-12T06:34:14+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping and energy infrastructure in and around the Strait of Hormuz have continued into November, including crew abandoning a tanker, a US strike on a bulker in the Gulf of Oman, a Houthi hit on Saudi Aramco's headquarters and a strike on the East-West Pipeline. Adnoc has now confirmed a strike on one of its tankers inside UAE territorial waters.",
-   "why_it_matters": "Hull strikes and crew-safety objections raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners, while damaged pipelines can push barrels back onto ships.",
-   "latest": "Adnoc confirmed another attack on one of its tankers in UAE waters, described as the latest on the 'Hormuz shuttle' route.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured amid what trade press describes as near-daily Iranian attacks on foreign-flag shipping. The IMO has called on all parties to respect seafarer safety, citing at least 25 seafarer deaths since February.",
+   "why_it_matters": "Hull strikes and crew-safety objections raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners, and the crisis is linked to an estimated $95bn of extra industry fuel spend.",
+   "latest": "Four injured on a Sinokor VLCC as multiple tankers were attacked in Hormuz; IMO issued a seafarer safety appeal; a report says bunker prices have fallen up to 20% in under two weeks on hopes of an easing of the conflict.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,12 +16,98 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Adnoc Confirms Strike on Tanker in UAE's Territorial Waters"
+    "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz",
+    "IMO Calls for All Parties in Hormuz Crisis to Respect Seafarer Safety",
+    "Bunker prices plunge 20%",
+    "Shipping’s $95bn fossil fuel bonfire"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-11",
-   "days_running": 13,
+   "last_update": "2026-11-12",
+   "days_running": 14,
    "days_since_update": 0
+  },
+  {
+   "id": "shadow-fleet-sanctions",
+   "title": "Sanctions and evasion in the shadow fleet",
+   "status": "active",
+   "what": "US sanctions have expanded across Cuban maritime entities and Iranian false-flag registry networks, while the dark fleet is described as a parallel fleet that has tripled since 2022. The US Treasury may now allow companies to buy sanctioned vessels and return them to legitimate trade on a case-by-case basis.",
+   "why_it_matters": "Registry fraud and designations force charterers and insurers to re-verify documents and positions; a licensing route back to legitimate trade could return tonnage to the compliant fleet.",
+   "latest": "Report that the US Treasury may permit purchases of sanctioned tankers on a case-by-case basis.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "brent"
+   ],
+   "sources": [
+    "US Treasury may allow purchase of sanctioned tankers on case basis"
+   ],
+   "first_seen": "2026-11-06",
+   "last_update": "2026-11-12",
+   "days_running": 7,
+   "days_since_update": 0
+  },
+  {
+   "id": "russian-diesel-atlantic",
+   "title": "Russian diesel flows and export restrictions",
+   "status": "active",
+   "what": "A reported US-Russia arrangement on extra diesel for the US market has met political opposition, while Russia has extended a ban on most diesel exports to end-January. A tanker carrying Russian diesel that had signalled the US has now turned around off the US East Coast.",
+   "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment.",
+   "latest": "The tanker made a U-turn about 400 nautical miles off New York, compounding uncertainty over North American deliveries.",
+   "watch": [
+    "mr_tc2_tce",
+    "mr_tc14_tce",
+    "lr2_tce",
+    "refining_margin"
+   ],
+   "sources": [
+    "Russian Diesel Tanker Makes U-Turn After Heading to U.S."
+   ],
+   "first_seen": "2026-10-29",
+   "last_update": "2026-11-12",
+   "days_running": 15,
+   "days_since_update": 0
+  },
+  {
+   "id": "tanker-newbuild-orders",
+   "title": "Wave of tanker newbuilding orders",
+   "status": "active",
+   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn) from China State Shipbuilding Group, and Teekay Tankers has ordered four more newbuildings in China and South Korea, lifting its programme to six ships worth $525.9m.",
+   "why_it_matters": "Large orderbook additions change future crude and product tanker supply and shape secondhand values and recycling decisions.",
+   "latest": "COSCO's 16-VLCC order and Teekay's four-ship order reported today, alongside reports of rising ship recycling demand and a 61% jump in October tanker secondhand sales to 82 vessels.",
+   "watch": [
+    "vlcc_tce",
+    "suezmax_tce",
+    "bwet"
+   ],
+   "sources": [
+    "COSCO SHIPPING Development Orders 16 VLCCs",
+    "Teekay Tankers doubles down on newbuilds with four-ship deal",
+    "Tankers In High Demand During October",
+    "Demand Rising in the Ship Recycling Markets"
+   ],
+   "first_seen": "2026-11-12",
+   "last_update": "2026-11-12",
+   "days_running": 1,
+   "days_since_update": 0
+  },
+  {
+   "id": "china-ship-port-fees",
+   "title": "US port fees on Chinese-built and Chinese-operated ships",
+   "status": "watch",
+   "what": "The US administration has formally extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue.",
+   "why_it_matters": "The fees, if reinstated, would change the cost of deploying Chinese-built tonnage into US trades and affect chartering preferences across sectors.",
+   "latest": null,
+   "watch": [
+    "bdi",
+    "bdry"
+   ],
+   "sources": [
+    "COSCO SHIPPING Development Orders 16 VLCCs"
+   ],
+   "first_seen": "2026-11-11",
+   "last_update": "2026-11-11",
+   "days_running": 2,
+   "days_since_update": 1
   },
   {
    "id": "black-sea-attacks",
@@ -36,94 +122,12 @@
     "bsi"
    ],
    "sources": [
-    "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings"
+    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-10",
-   "days_running": 13,
-   "days_since_update": 1
-  },
-  {
-   "id": "shadow-fleet-sanctions",
-   "title": "Sanctions and evasion in the shadow fleet",
-   "status": "watch",
-   "what": "US sanctions have expanded across Cuban maritime and energy entities and Iranian false-flag registry networks, while analysts describe the dark fleet as a parallel fleet that has tripled in size since 2022. Russian crude exports on G7 tankers fell in October as Greek operators chose better-paying trades.",
-   "why_it_matters": "Registry fraud, AIS spoofing and designations force charterers and insurers to re-verify documents and positions, pushing tonnage out of mainstream trades and tightening compliant tanker supply.",
-   "latest": "Trade press reports Russian crude exports on G7 tankers fell sharply in October as Greek operators steered away from Black Sea conflicts for stronger earnings elsewhere.",
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "brent"
-   ],
-   "sources": [
-    "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings"
-   ],
-   "first_seen": "2026-11-06",
-   "last_update": "2026-11-11",
-   "days_running": 6,
-   "days_since_update": 0
-  },
-  {
-   "id": "chokepoint-transits",
-   "title": "Hormuz and Bab al-Mandab transits and Gulf congestion",
-   "status": "watch",
-   "what": "Hormuz traffic rose in October to its highest monthly level since July, supported by dry bulk and LNG even as VLCC traffic declined, with Red Sea traffic up and Arabian Gulf waiting elevated. Iraq says it has reached understandings with the US to export oil through Hormuz via a lane near Oman.",
-   "why_it_matters": "Transit counts, routing lanes and waiting times determine voyage lengths, tonne-mile demand and effective fleet supply.",
-   "latest": null,
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "bdi",
-    "brent"
-   ],
-   "sources": [
-    "Adnoc Confirms Strike on Tanker in UAE's Territorial Waters"
-   ],
-   "first_seen": "2026-10-29",
-   "last_update": "2026-11-09",
    "days_running": 14,
    "days_since_update": 2
-  },
-  {
-   "id": "russian-diesel-atlantic",
-   "title": "Russian diesel flows and export restrictions",
-   "status": "active",
-   "what": "A reported US-Russia agreement on supplying extra diesel to the US market has met political opposition, while Russia has extended a general ban on most diesel exports until the end of January. A Greek-owned tanker believed to carry Russian diesel has paused its voyage off the US East Coast.",
-   "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment patterns.",
-   "latest": "A tanker linked to the diesel waiver paused off the US East Coast awaiting orders, with the US energy chief saying the cargo would eventually arrive.",
-   "watch": [
-    "mr_tc2_tce",
-    "mr_tc14_tce",
-    "lr2_tce",
-    "refining_margin"
-   ],
-   "sources": [
-    "Tanker Linked to Trump's Russian Diesel Waiver Pauses off U.S. East Coast",
-    "Russian Diesel Tanker Awaits Orders Off U.S. Coast Amid Import Ban Dispute"
-   ],
-   "first_seen": "2026-10-29",
-   "last_update": "2026-11-11",
-   "days_running": 14,
-   "days_since_update": 0
-  },
-  {
-   "id": "china-ship-port-fees",
-   "title": "US port fees on Chinese-built and Chinese-operated ships",
-   "status": "active",
-   "what": "The US administration has formally extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue.",
-   "why_it_matters": "The fees, if reinstated, would change the cost of deploying Chinese-built tonnage into US trades and affect chartering preferences across sectors.",
-   "latest": "The two-month extension of the suspension was formalised today.",
-   "watch": [
-    "bdi",
-    "bdry"
-   ],
-   "sources": [
-    "U.S. Formalizes Two-Month Extension of China Ship Port Fee Suspension"
-   ],
-   "first_seen": "2026-11-11",
-   "last_update": "2026-11-11",
-   "days_running": 1,
-   "days_since_update": 0
   }
  ]
 }
