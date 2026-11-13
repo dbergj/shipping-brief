@@ -66,6 +66,58 @@
    "nordic": true
   },
   {
+   "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/686472",
+   "published": "2026-11-13T10:22:09+00:00",
+   "source": "Oslo Børs",
+   "ticker": "FRO",
+   "company": "Frontline plc",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "FRO - Invitation to Q3 2026 Results Conference Call and Webcast",
+   "link": "https://newsweb.oslobors.no/message/686471",
+   "published": "2026-11-13T10:21:16+00:00",
+   "source": "Oslo Børs",
+   "ticker": "FRO",
+   "company": "Frontline plc",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "BW LPG Limited announces sale of BW Mistral",
+   "link": "https://newsweb.oslobors.no/message/686449",
+   "published": "2026-11-13T07:15:05+00:00",
+   "source": "Oslo Børs",
+   "ticker": "BWLPG",
+   "company": "BW LPG Limited",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Wallenius Wilhelmsen ASA - Contemplated buy-back of bonds",
+   "link": "https://newsweb.oslobors.no/message/686445",
+   "published": "2026-11-13T07:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "WAWI",
+   "company": "Wallenius Wilhelmsen ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Höegh Autoliners ASA: Invitation to presentation of third quarter 2026 results",
    "link": "https://newsweb.oslobors.no/message/686440",
    "published": "2026-11-13T06:30:00+00:00",
@@ -685,6 +737,231 @@
    "nordic": false
   },
   {
+   "title": "Baltic Dry Index falls to 2980 down 40 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2980-down-40-points/",
+   "published": "2026-11-13T13:00:04+00:00",
+   "summary": "Today, Friday, November 13 2026, the Baltic Dry Index decreased by 58 points, reaching 2590 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Atlantic and Pacific LNG rates drop this week",
+   "link": "https://lngprime.com/americas/atlantic-and-pacific-lng-rates-drop-this-week/199961/",
+   "published": "2026-11-13T12:53:41+00:00",
+   "summary": "Atlantic and Pacific spot liquefied natural gas (LNG) shipping rates dropped this week, ending a three-week run of gains in both basins, according to Spark Commodities.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Danish duo teaming up on ‘green fuels for shipping’",
+   "link": "https://ship.energy/energy/danish-duo-teaming-up-on-green-fuels-for-shipping/",
+   "published": "2026-11-13T12:48:58+00:00",
+   "summary": "Denmark-based biofuel technology company Kvasir Technologies and refinery operator Crossbridge Energy have signed a Memorandum of Understanding (MoU) to assess the possibilities for co-processing Kvasir’s bio-oil at Crossbridge Energy’s refinery in Fredericia. In a statement issued yesterday (12 November), the companies said that their collaboration is focused on supporting ‘the development of green fuels for the shi",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Venture Global’s CP2 LNG seeks re-export approval",
+   "link": "https://lngprime.com/americas/venture-globals-cp2-lng-seeks-re-export-approval/199981/",
+   "published": "2026-11-13T12:44:23+00:00",
+   "summary": "US LNG exporter Venture Global is seeking approval from the US DOE to export previously imported LNG from its CP2 LNG project in Louisiana, as it nears the launch of the project's first phase.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore-Registered Bulk Carrier Strikes US Bridge, Disrupts Traffic",
+   "link": "https://www.marinelink.com/news/singaporeregistered-bulk-carrier-strikes-544348",
+   "published": "2026-11-13T12:36:29+00:00",
+   "summary": "The Singapore-registered bulk carrier STRATEGIC ALLIANCE has struck the Tacony-Palmyra Bridge over the Delaware River between Pennsylvania and New Jersey, forcing a temporary closure before vehicle traffic was partially restored.The incident occurred shortly after 1 p.m.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seapeak inks sale and leaseback deal for LNG carrier duo",
+   "link": "https://lngprime.com/americas/seapeak-inks-sale-and-leaseback-deal-for-lng-carrier-duo/199971/",
+   "published": "2026-11-13T12:05:51+00:00",
+   "summary": "Stonepeak’s Seapeak has signed a sale and leaseback deal for two liquefied natural gas (LNG) carriers that are currently being built at South Korea's Samsung Heavy Industries.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Pakistan LNG launches fresh spot LNG tender",
+   "link": "https://lngprime.com/asia/pakistan-lng-launches-fresh-spot-lng-tender/199975/",
+   "published": "2026-11-13T12:04:08+00:00",
+   "summary": "State-owned Pakistan LNG has released a new tender inviting firms to bid for two spot liquefied natural gas shipments after reportedly scrapping the previous tender due to high prices.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UK becomes first country to sanction Russia’s ten top oil producers",
+   "link": "https://ship.energy/information/uk-becomes-first-country-to-sanction-russias-ten-top-oil-producers/",
+   "published": "2026-11-13T11:36:47+00:00",
+   "summary": "In a new raft of measures against Russia announced yesterday (12 November), the UK Government has added Moscow-headquartered Slavneft to its sanctions list, making the UK the first country in the world to sanction all of Russia’s top ten oil producers. The new package of sanctions was rolled out as the UK Prime Minister Andy Burnham attended a European Political Community summit in Dublin to discuss the situation in ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seaway7 Starts Cable Installation at Ørsted’s Hornsea 3 Wind Farm",
+   "link": "https://www.marinelink.com/news/seaway-starts-cable-installation-rsteds-544346",
+   "published": "2026-11-13T11:17:28+00:00",
+   "summary": "Seaway7 has installed the first inter-array cable at Ørsted's 2.9 GW Hornsea 3 offshore wind farm in the UK North Sea, marking the start of a major cable installation campaign.The company will transport and install more than 536 kilometers of 66kV inter-array cables…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore Retains Maritime City “Crown”, as Piraeus Jumps Up the Ranks",
+   "link": "https://www.hellenicshippingnews.com/singapore-retains-maritime-city-crown-as-piraeus-jumps-up-the-ranks/",
+   "published": "2026-11-13T11:00:59+00:00",
+   "summary": "The maritime industry enters 2026 after another period of disruption and adjustment. Trade remains active, but the conditions supporting it have become more demanding. Geopolitical events are reshaping trade relationships and supply chains. Regional decarbonisation requirements are influencing operating costs and investment decisions, and uncertainty remains over the timing and final design of a global ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LAYUPMAN revision reaches key milestone in London",
+   "link": "https://www.hellenicshippingnews.com/layupman-revision-reaches-key-milestone-in-london/",
+   "published": "2026-11-13T11:00:57+00:00",
+   "summary": "After months of online drafting sessions, BIMCO’s LAYUPMAN revision subcommittee met in person at the London offices of the International Transport Intermediaries Club (ITIC) for two days of intensive discussions, bringing the revised agreement closer to completion. LAYUPMAN, BIMCO’s standard agreement for the laying up of ships, was published in 2011. The revision aims to ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IACS Publishes New Recommendation on Gas Dispersion Analysis (Rec.202)",
+   "link": "https://www.hellenicshippingnews.com/iacs-publishes-new-recommendation-on-gas-dispersion-analysis-rec-202/",
+   "published": "2026-11-13T11:00:55+00:00",
+   "summary": "IACS, the membership organisation for the world’s leading classification societies, has published a new Recommendation on gas dispersion analysis, marking a further significant contribution in its support of the safe decarbonisation of the maritime industry. The new guidance provides information on the best practices and requirements for carrying out gas dispersion analysis for Ships using ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MMI Daily Iron Ore Index Report November 13 2026",
+   "link": "https://www.hellenicshippingnews.com/mmi-daily-iron-ore-index-report-november-13-2026/",
+   "published": "2026-11-13T11:00:53+00:00",
+   "summary": "Iron ore showed selective price recovery today. The seaborne 61% and 65% indices rose to USD 90.35 and 106.70/dmt, all 12 brands gained, and the Domestic Ore Composite Index reached 800.72 yuan/mt. However, DCE most-traded closed at 669.5 yuan/mt, down 0.22% from the previous close; the 61% and 58% port indices each fell 1 yuan ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LNG-fuelled MV Glen Rosa sets off for sea trials",
+   "link": "https://ship.energy/energy/lng-fuelled-mv-glen-rosa-sets-off-for-sea-trials/",
+   "published": "2026-11-13T10:28:18+00:00",
+   "summary": "Ferguson Marine (Port Glasgow) has announced that it has commenced builder’s sea trials for the LNG-fuelled MV Glen Rosa. In a statement issued on Wednesday (11 November), the Scottish shipbuilder said the sea trials will put the 102-metre ferry through ‘rigorous dynamic testing’ on the Firth of Clyde. Shipyard specialists and industry partners will assess how the vessel handles, trial the propulsion and power genera",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "West African countries working to finalise regional agreement on maritime pollution preparedness",
+   "link": "https://ship.energy/information/west-african-countries-working-to-finalise-regional-agreement-on-maritime-pollution-preparedness/",
+   "published": "2026-11-13T10:22:39+00:00",
+   "summary": "The International Maritime Organization (IMO) has reported that six west African countries reached a technical validation for a draft Memorandum of Understanding (MoU) on dealing with marine pollution emergencies at a recent workshop in The Gambia – and they now anticipate that a finalised document will be signed off next year. The workshop, which was held in Banjul on 26-29 October, brought together representatives ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "From ocean liner to artificial reef: A warning for container shipping",
+   "link": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
+   "published": "2026-11-13T10:07:00+00:00",
+   "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics & Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "BW LPG scores another lucrative Avance VLGC flip",
+   "link": "https://splash247.com/bw-lpg-scores-another-lucrative-avance-vlgc-flip/",
+   "published": "2026-11-13T09:50:00+00:00",
+   "summary": "BW LPG has struck another lucrative vessel sale, offloading a VLGC acquired in John Fredriksen’s Avance Gas fleet deal less than two years ago for well over $100m. The New York- and Oslo-listed gas carrier giant has agreed to sell the 2015-built, 83,134 cu m BW Mistral, with the transaction expected to generate a net …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Oil Heads for Weekly Decline Despite Middle East Supply Threats",
+   "link": "https://www.marinelink.com/news/oil-heads-weekly-decline-despite-middle-544343",
+   "published": "2026-11-13T09:43:15+00:00",
+   "summary": "Oil prices edged up on Friday but were headed for a second weekly decline as the continued US focus on its blockade and economic pressure on Iran eased fears of renewed fighting in the Middle East, though shipping attacks remained a supply risk.Brent futures LCOc1 were up 53 cents…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cetus seals $200m share placement ahead of Oslo debut",
+   "link": "https://splash247.com/cetus-seals-200m-share-placement-ahead-of-oslo-debut/",
+   "published": "2026-11-13T09:42:00+00:00",
+   "summary": "Hong Kong-based dry bulk owner Cetus Maritime has successfully placed a NOK1.89bn ($200m) share offering, including an over-allotment, clearing a major hurdle ahead of its planned Oslo stock market debut next week. The Mark Young-led company said it had conditionally allocated 108.5m shares at NOK17.44 ($1.83) apiece, taking up the full $25m over-allotment on top …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "UK blacklists 11 ships in fresh Russia sanctions sweep",
+   "link": "https://splash247.com/uk-blacklists-11-ships-in-fresh-russia-sanctions-sweep/",
+   "published": "2026-11-13T09:35:00+00:00",
+   "summary": "Britain has slapped fresh sanctions on 11 ships linked to Russian energy exports, targeting five LNG carriers, five oil tankers and a floating storage unit in its latest effort to disrupt Moscow’s seaborne oil and gas trade. The measures also cover nine companies, including Russian oil producer Slavneft, Rosneft’s Vostok Oil project and several energy …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Deutsche Windtechnik picked for UK offshore wind maintenance job",
+   "link": "https://splash247.com/deutsche-windtechnik-picked-for-uk-offshore-wind-maintenance-job/",
+   "published": "2026-11-13T09:30:00+00:00",
+   "summary": "German offshore wind services specialist Deutsche Windtechnik has secured a five-year operations and maintenance contract covering two offshore wind farms in the UK. The agreement, awarded by asset manager XceCo, covers the Lynn and Inner Dowsing wind farms off Lincolnshire, which have a combined installed capacity of 194.4MW. The contract will begin on April 1, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Pyxis cashes in on ageing MR tanker in $37m deal",
+   "link": "https://splash247.com/pyxis-cashes-in-on-ageing-mr-tanker-in-37m-deal/",
+   "published": "2026-11-13T09:23:00+00:00",
+   "summary": "Greek shipowner Pyxis Tankers has agreed to sell its oldest product tanker for $37m, cashing in on firm asset values and cutting its MR fleet from three vessels to two. The Nasdaq-listed company, led by Eddie Valentis, has struck a deal with an undisclosed third-party buyer for the 2013-built, 46,652 dwt Pyxis Karteria, constructed at …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LA port 2nd highest monthly volume as Transpac peak season extends",
+   "link": "",
+   "published": "2026-11-13T08:25:09+00:00",
+   "summary": "Talk of front loading earlier in the year proved wrong and traditional goods driving volumes not AI data centre construction",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Chinese yards building capacity to meet container ship orders",
+   "link": "",
+   "published": "2026-11-13T06:52:24+00:00",
+   "summary": "China’s shipyards are expanding fast to meet the demand for new container vessels, with Dalian’s Hengli yard a surprise beneficiary of the boom",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cosco Shipping Development books 16 VLCC newbuilds",
+   "link": "",
+   "published": "2026-11-13T06:43:11+00:00",
+   "summary": "The crude carriers are for bareboat charter to Cosco Shipping Energy Transportation which has now lined up 40 VLCC newbuildings",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Gulf war leaves toxic legacy that could last decades",
    "link": "https://splash247.com/gulf-war-leaves-toxic-legacy-that-could-last-decades/",
    "published": "2026-11-13T06:24:39+00:00",
@@ -748,11 +1025,47 @@
    "nordic": false
   },
   {
+   "title": "Ferguson's Second Ferry Departs on Builder's Sea Trials",
+   "link": "https://maritime-executive.com/article/ferguson-s-second-ferry-departs-on-builder-s-sea-trials",
+   "published": "2026-11-13T04:51:44+00:00",
+   "summary": "Scottish shipbuilder Ferguson Marine is hoping to bring the construction of the ferry Glen Rosa to an end early next year. This follows the commenceme...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Monjasa adds five tankers from Bernhard Schulte in fleet renewal",
+   "link": "",
+   "published": "2026-11-13T04:25:34+00:00",
+   "summary": "The acquisition of five sister vessels is the largest in the bunker supplier's history",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "New report identifies Hong Kong’s place in world shipping",
    "link": "https://splash247.com/new-report-identifies-hong-kongs-place-in-world-shipping/",
    "published": "2026-11-13T04:20:00+00:00",
    "summary": "Hong Kong Maritime Week is about to kick off. To celebrate the occasion, Splash today publishes a 48-page magazine on the city’s maritime hub credentials. A ship can be ordered at a mainland Chinese yard, owned through a leasing company in Hong Kong, insured in London, crewed through a management operation in Asia and chartered …",
    "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Navy Removes Command Triad From Attack Sub After a Reported Grounding",
+   "link": "https://maritime-executive.com/article/u-s-navy-removes-command-triad-from-attack-sub-after-a-reported-grounding",
+   "published": "2026-11-13T03:22:55+00:00",
+   "summary": "Congress has just found out that the Navy removed all three of the top officers of the attack submarine USS South Dakota last month following a ground...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Grain Exports at Risk From Aging Barge Fleet and High Replacement Cost",
+   "link": "https://maritime-executive.com/article/u-s-grain-exports-at-risk-from-aging-barge-fleet-and-high-replacement-cost",
+   "published": "2026-11-13T03:05:56+00:00",
+   "summary": "The United States faces a squeeze on grain transportation over the next decade because its inland barge fleet is retiring vessels faster than it build...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
