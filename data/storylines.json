@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-12T06:34:14+00:00",
+ "updated": "2026-11-13T06:31:44+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured amid what trade press describes as near-daily Iranian attacks on foreign-flag shipping. The IMO has called on all parties to respect seafarer safety, citing at least 25 seafarer deaths since February.",
-   "why_it_matters": "Hull strikes and crew-safety objections raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners, and the crisis is linked to an estimated $95bn of extra industry fuel spend.",
-   "latest": "Four injured on a Sinokor VLCC as multiple tankers were attacked in Hormuz; IMO issued a seafarer safety appeal; a report says bunker prices have fallen up to 20% in under two weeks on hopes of an easing of the conflict.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Trade press reports continued disruption to shipping through the strait, and Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
+   "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; pollution on this scale adds a clean-up and port-state dimension for vessels trading the region.",
+   "latest": "Greenpeace mapped 540 possible oil spills with a cumulative slick footprint across the Gulf and Arabian Sea; press attributed Thursday's $1/bbl oil rise partly to continued Hormuz disruption.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,78 +16,70 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Four injured on Sinokor VLCC as multiple tankers attacked in Hormuz",
-    "IMO Calls for All Parties in Hormuz Crisis to Respect Seafarer Safety",
-    "Bunker prices plunge 20%",
-    "Shipping’s $95bn fossil fuel bonfire"
+    "Gulf war leaves toxic legacy that could last decades",
+    "Oil Prices Rise $1/Barrel As Disruptions Continue in Strait of Hormuz"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-12",
-   "days_running": 14,
+   "last_update": "2026-11-13",
+   "days_running": 15,
    "days_since_update": 0
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
-   "status": "active",
-   "what": "US sanctions have expanded across Cuban maritime entities and Iranian false-flag registry networks, while the dark fleet is described as a parallel fleet that has tripled since 2022. The US Treasury may now allow companies to buy sanctioned vessels and return them to legitimate trade on a case-by-case basis.",
+   "status": "watch",
+   "what": "US sanctions have expanded across Cuban maritime entities and Iranian false-flag registry networks, while the dark fleet is described as a parallel fleet that has tripled since 2022. The US Treasury may now allow companies to buy sanctioned vessels and return them to legitimate trade case by case.",
    "why_it_matters": "Registry fraud and designations force charterers and insurers to re-verify documents and positions; a licensing route back to legitimate trade could return tonnage to the compliant fleet.",
-   "latest": "Report that the US Treasury may permit purchases of sanctioned tankers on a case-by-case basis.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "brent"
    ],
-   "sources": [
-    "US Treasury may allow purchase of sanctioned tankers on case basis"
-   ],
+   "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-12",
-   "days_running": 7,
-   "days_since_update": 0
+   "days_running": 8,
+   "days_since_update": 1
   },
   {
    "id": "russian-diesel-atlantic",
    "title": "Russian diesel flows and export restrictions",
-   "status": "active",
-   "what": "A reported US-Russia arrangement on extra diesel for the US market has met political opposition, while Russia has extended a ban on most diesel exports to end-January. A tanker carrying Russian diesel that had signalled the US has now turned around off the US East Coast.",
+   "status": "watch",
+   "what": "A reported US-Russia arrangement on extra diesel for the US market has met political opposition, while Russia has extended a ban on most diesel exports to end-January. A tanker carrying Russian diesel that had signalled the US turned around off the US East Coast.",
    "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment.",
-   "latest": "The tanker made a U-turn about 400 nautical miles off New York, compounding uncertainty over North American deliveries.",
+   "latest": null,
    "watch": [
     "mr_tc2_tce",
     "mr_tc14_tce",
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [
-    "Russian Diesel Tanker Makes U-Turn After Heading to U.S."
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-12",
-   "days_running": 15,
-   "days_since_update": 0
+   "days_running": 16,
+   "days_since_update": 1
   },
   {
    "id": "tanker-newbuild-orders",
-   "title": "Wave of tanker newbuilding orders",
+   "title": "Wave of newbuilding orders",
    "status": "active",
-   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn) from China State Shipbuilding Group, and Teekay Tankers has ordered four more newbuildings in China and South Korea, lifting its programme to six ships worth $525.9m.",
-   "why_it_matters": "Large orderbook additions change future crude and product tanker supply and shape secondhand values and recycling decisions.",
-   "latest": "COSCO's 16-VLCC order and Teekay's four-ship order reported today, alongside reports of rising ship recycling demand and a 61% jump in October tanker secondhand sales to 82 vessels.",
+   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn), and Teekay Tankers has ordered four more newbuildings, lifting its programme to six ships worth $525.9m. Shipbroker Intermodal reports contracting activity remains elevated across both wet and dry sectors, and Volare Shipping has announced the acquisition of a VLCC newbuild.",
+   "why_it_matters": "Large orderbook additions change future crude, product and dry bulk supply and shape secondhand values and recycling decisions.",
+   "latest": "Volare Shipping announced a VLCC newbuild acquisition and trade press reported newbuilding contracting remains elevated in both wet and dry markets.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "bwet"
    ],
    "sources": [
-    "COSCO SHIPPING Development Orders 16 VLCCs",
-    "Teekay Tankers doubles down on newbuilds with four-ship deal",
-    "Tankers In High Demand During October",
-    "Demand Rising in the Ship Recycling Markets"
+    "Volare Shipping Ltd.: Acquisition of VLCC newbuild",
+    "Newbuilding Contracting Activity Remains Elevated"
    ],
    "first_seen": "2026-11-12",
-   "last_update": "2026-11-12",
-   "days_running": 1,
+   "last_update": "2026-11-13",
+   "days_running": 2,
    "days_since_update": 0
   },
   {
@@ -101,33 +93,31 @@
     "bdi",
     "bdry"
    ],
-   "sources": [
-    "COSCO SHIPPING Development Orders 16 VLCCs"
-   ],
+   "sources": [],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-11",
-   "days_running": 2,
-   "days_since_update": 1
+   "days_running": 3,
+   "days_since_update": 2
   },
   {
    "id": "black-sea-attacks",
-   "title": "Attacks on shipping in the Black Sea",
+   "title": "Attacks on shipping in the Black Sea and Baltic",
    "status": "watch",
-   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, and Russia says its forces hit three cargo vessels it claims carried military goods for Ukraine, plus two electricity substations.",
-   "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings from the region and add insurance and routing costs for any vessel calling there.",
-   "latest": null,
+   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, and Russia says its forces hit three cargo vessels it claims carried military goods for Ukraine. Finland's military said it detected a strike on a Russian warship in the Baltic Sea on Wednesday, while describing the regional security situation as stable.",
+   "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
+   "latest": "Finland detected a strike on a Russian warship in the Baltic Sea, with no confirmed casualties and the security situation described as stable.",
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
    "sources": [
-    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
+    "Finland Detects Strike on Baltic Sea Russian Warship"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-10",
-   "days_running": 14,
-   "days_since_update": 2
+   "last_update": "2026-11-13",
+   "days_running": 15,
+   "days_since_update": 0
   }
  ]
 }

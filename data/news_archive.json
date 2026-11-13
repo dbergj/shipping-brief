@@ -66,6 +66,19 @@
    "nordic": true
   },
   {
+   "title": "Höegh Autoliners ASA: Invitation to presentation of third quarter 2026 results",
+   "link": "https://newsweb.oslobors.no/message/686440",
+   "published": "2026-11-13T06:30:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAUTO",
+   "company": "Höegh Autoliners ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Financial calendar",
    "link": "https://newsweb.oslobors.no/message/686403",
    "published": "2026-11-12T13:38:03+00:00",
@@ -77,6 +90,18 @@
    "routine": false,
    "rank": 2,
    "nordic": true
+  },
+  {
+   "title": "Teekay Tankers filed a 6-K (periodic report)",
+   "summary": "",
+   "link": "https://www.sec.gov/Archives/edgar/data/1419945/000141994526000070/tnkq3-26erdocument.htm",
+   "published": "2026-11-12T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "TNK",
+   "company": "Teekay Tankers",
+   "category": "6-K",
+   "kind": "company",
+   "rank": 2
   },
   {
    "title": "Stainless Tankers - Key information relating to cash dividend",
@@ -658,6 +683,312 @@
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
+  },
+  {
+   "title": "Gulf war leaves toxic legacy that could last decades",
+   "link": "https://splash247.com/gulf-war-leaves-toxic-legacy-that-could-last-decades/",
+   "published": "2026-11-13T06:24:39+00:00",
+   "summary": "Greenpeace has identified 540 possible oil spills across the Gulf, Strait of Hormuz and Arabian Sea since the US-Iran war began on February 28 (see map below), with satellite imagery showing a cumulative slick footprint of approximately 20,000 sq km. Not all detections have been conclusively linked to attacks on shipping. The environmental consequences could …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wallenius SOL rebrands following ownership shake-up",
+   "link": "https://splash247.com/wallenius-sol-rebrands-following-ownership-shake-up/",
+   "published": "2026-11-13T06:05:19+00:00",
+   "summary": "Swedish shipping company Wallenius SOL has changed its name to Wallenius Link following the takeover of the business by Wallenius Lines earlier this year. The new identity took effect yesterday, November 12, reflecting the departure of former joint venture partner SOL Group. Wallenius Lines agreed in April to acquire SOL Group’s stake in the company, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Baltic Exchange and Mercuria await verdict in landmark tanker index trial",
+   "link": "https://splash247.com/baltic-exchange-and-mercuria-await-verdict-in-landmark-tanker-index-trial/",
+   "published": "2026-11-13T06:00:31+00:00",
+   "summary": "One of shipping’s most consequential legal battles has concluded in London, with the Baltic Exchange and commodities trader Mercuria awaiting a High Court ruling on whether the industry’s leading VLCC freight benchmark should have continued operating after war erupted in the Middle East. The three-week trial ended yesterday, with judgment expected to take several months. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore-flagged cargo ship strikes US bridge",
+   "link": "https://splash247.com/singapore-flagged-cargo-ship-strikes-us-bridge/",
+   "published": "2026-11-13T05:54:17+00:00",
+   "summary": "A Singapore-flagged cargoship has struck a bridge spanning the Delaware River between Philadelphia and New Jersey, forcing its closure and renewing concerns about the vulnerability of American bridges to vessel collisions. The 180 m Strategic Alliance, a handysize bulk carrier built in 2013, hit the Tacony-Palmyra Bridge at approximately 1.15pm local time on Thursday while …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sasol, ENH ink LNG terminal MoU",
+   "link": "https://lngprime.com/africa/sasol-enh-ink-lng-terminal-mou/199943/",
+   "published": "2026-11-13T05:16:00+00:00",
+   "summary": "South Africa’s petrochemicals firm Sasol and Mozambique's state-owned oil and gas company ENH signed a memorandum of understanding to assess the feasibility of an FSRU-based liquefied natural gas (LNG) terminal in southern Mozambique.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Chinese yard starts second FLNG conversion job for Golar",
+   "link": "https://lngprime.com/asia/chinese-yard-starts-second-flng-conversion-job-for-golar/199951/",
+   "published": "2026-11-13T05:14:00+00:00",
+   "summary": "China’s CIMC Raffles is about to start converting Golar LNG’s 177,427-cbm carrier, Grace Dahlia, into an MKII FLNG with a capacity of 3.5 mtpa following the arrival of the vessel at the yard.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sempra wraps up Sempra Infrastructure stake sale to KKR",
+   "link": "https://lngprime.com/contracts-and-tenders/sempra-wraps-up-sempra-infrastructure-stake-sale-to-kkr/199956/",
+   "published": "2026-11-13T05:13:39+00:00",
+   "summary": "Sempra has completed the sale of a 45 percent equity stake in US LNG exporter Sempra Infrastructure Partners to KKR and Canada Pension Plan Investment Board.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New report identifies Hong Kong’s place in world shipping",
+   "link": "https://splash247.com/new-report-identifies-hong-kongs-place-in-world-shipping/",
+   "published": "2026-11-13T04:20:00+00:00",
+   "summary": "Hong Kong Maritime Week is about to kick off. To celebrate the occasion, Splash today publishes a 48-page magazine on the city’s maritime hub credentials. A ship can be ordered at a mainland Chinese yard, owned through a leasing company in Hong Kong, insured in London, crewed through a management operation in Asia and chartered …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk’s cyber breach is a warning for every secondhand ship sale",
+   "link": "https://splash247.com/maersks-cyber-breach-is-a-warning-for-every-secondhand-ship-sale/",
+   "published": "2026-11-13T03:00:55+00:00",
+   "summary": "The door was a system that came with an acquisition. Every owner who buys a secondhand vessel takes the same risk on board, and few check for it at delivery. By Argyris Zafeiropoulos from Athens-based Resilience & Compliance Advisory. On November 11 Maersk confirmed that attackers had entered a local legacy system “inherited through a …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "The Second Edition of the Sustainable Maritime Transport Outlook",
+   "link": "https://maritime-executive.com/article/the-second-edition-of-the-sustainable-maritime-transport-outlook",
+   "published": "2026-11-13T02:50:51+00:00",
+   "summary": "Eni, a global energy company, Fincantieri, a global leader in the construction of high-complexity ships, and RINA, the global inspection, certificatio...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "India's Shipping Ministry Asks Public for Help on Cold-Case Fatal Accidents",
+   "link": "https://maritime-executive.com/article/india-s-shipping-ministry-asks-public-for-help-on-cold-case-fatal-accidents",
+   "published": "2026-11-13T02:26:00+00:00",
+   "summary": "India's Directorate General of Maritime Administration is looking for information about a long list of long-past fatality and missing-persons cases in...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Euroports Rauma Container Terminal has Joined the Portchain Connect Network",
+   "link": "https://maritime-executive.com/article/euroports-rauma-container-terminal-has-joined-the-portchain-connect-network",
+   "published": "2026-11-13T01:40:34+00:00",
+   "summary": "Portchain today announced Euroports’ container terminal in the Port of Rauma, will join the Portchain Connect network. Rauma terminal will use Portcha...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
+   "link": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
+   "published": "2026-11-13T01:30:10+00:00",
+   "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "More Than Muscle",
+   "link": "https://maritime-executive.com/article/more-than-muscle",
+   "published": "2026-11-13T01:07:00+00:00",
+   "summary": "Historically, the design and operation of lifting equipment was largely a matter of muscle. Whether lifting machinery onto a ship under construction o...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US ethanol readily available to fuel the world’s methanol-capable fleet",
+   "link": "https://www.hellenicshippingnews.com/us-ethanol-readily-available-to-fuel-the-worlds-methanol-capable-fleet/",
+   "published": "2026-11-12T22:00:59+00:00",
+   "summary": "Ethanol can use the dual-fuel engines and bunkering infrastructure built for methanol with limited modification. That gives shipowners a readily available fuel for a growing fleet at a time when supply of low-emission methanol remains constrained, according to a new study published today by the Maritime Ethanol & Methanol Alliance (MEMA), a platform of the ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Newbuilding Contracting Activity Remains Elevated",
+   "link": "https://www.hellenicshippingnews.com/newbuilding-contracting-activity-remains-elevated/",
+   "published": "2026-11-12T22:00:59+00:00",
+   "summary": "More newbuilding orders have continued to pour into global shipyards, as owners are looking to increase their exposure to both the wet and the dry bulk markets. In its latest weekly report, shipbroker Intermodal said that “on the dry side, A.E. Nomikos placed an order for an 82k dwt bulker at Oshima Shipbuilding for delivery ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LR2s Turn Dirty: A larger fleet, but fewer LR2s trading clean",
+   "link": "https://www.hellenicshippingnews.com/lr2s-turn-dirty-a-larger-fleet-but-fewer-lr2s-trading-clean/",
+   "published": "2026-11-12T22:00:58+00:00",
+   "summary": "Dirty Employment Gains Ground The LR2 market has undergone a marked change in vessel employment since the start of 2025. Signal Ocean data show that dirty employment accounted for 74.2% of the LR2 fleet on 30 October 2026, compared with 53.0% on 1 January 2025. The shift accelerated in 2026, reducing the number of LR2s ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Advances for 7th Day",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-advances-for-7th-day/",
+   "published": "2026-11-12T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, was up for a seventh straight session on Thursday, rising by 2.1% to its highest since October 5 at 3,020 points. Gains were broad-based across vessel segments, particularly the larger one. The capesize index, which typically transports 150,000-ton cargoes, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dry bulk ship recycling falls 36% to 18-year low",
+   "link": "https://www.hellenicshippingnews.com/dry-bulk-ship-recycling-falls-36-to-18-year-low/",
+   "published": "2026-11-12T22:00:57+00:00",
+   "summary": "“Between January and October 2026, dry bulk ship recycling fell 36% y/y to 3m DWT, its lowest level in 18 years. Only 70 ships were recycled, primarily smaller ships in the handysize and supramax segments, as strong freight rates have extended the operational lives of older ships,” says Filipe Gouveia, Shipping Analysis Manager at BIMCO. ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "SS United States Sits Upright on Gulf Seafloor After Historic Sinking",
+   "link": "https://gcaptain.com/ss-united-states-sits-upright-on-gulf-seafloor-after-historic-sinking/",
+   "published": "2026-11-12T21:29:10+00:00",
+   "summary": "The SS United States has settled upright on the floor of the Gulf of Mexico, completing its transformation from record-breaking ocean liner to the world’s largest artificial reef. Early sonar...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Port of Los Angeles Sets October Cargo Record as Strike Threat and Rail Delays Loom",
+   "link": "https://gcaptain.com/port-of-los-angeles-sets-october-cargo-record-as-strike-threat-and-rail-delays-loom/",
+   "published": "2026-11-12T19:58:00+00:00",
+   "summary": "By Lori-Ann LaRocco The Port of Los Angeles handled a record 1,026,872 twenty-foot equivalent units (TEUs) in October, marking its second-busiest month ever and extending the strongest five-month cargo run...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Saronic Awards $100 Million-Plus Contract for World’s Largest Shiplift at Texas Shipyard",
+   "link": "https://gcaptain.com/saronic-awards-100-million-plus-contract-for-worlds-largest-shiplift-at-texas-shipyard/",
+   "published": "2026-11-12T19:44:23+00:00",
+   "summary": "Saronic has awarded a contract worth more than $100 million to Norway’s Syncrolift to design and supply what the companies say will be the world’s largest shiplift at its planned...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Finland Detects Strike on Baltic Sea Russian Warship",
+   "link": "https://www.marinelink.com/news/finland-detects-strike-baltic-sea-russian-544336",
+   "published": "2026-11-12T18:41:07+00:00",
+   "summary": "Finland's military said on Thursday its forces had detected \"a strike\" on a Russian warship in the Baltic Sea a day earlier, but that the security situation in the area remained stable.It was not immediately clear if there were any casualties or what had caused the strike.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Oil Prices Rise $1/Barrel As Disruptions Continue in Strait of Hormuz",
+   "link": "https://www.marinelink.com/news/oil-prices-rise-barrel-disruptions-544335",
+   "published": "2026-11-12T18:40:30+00:00",
+   "summary": "Oil prices rose on Thursday by more than $1 a barrel, as continued disruptions to shipping through the Strait of Hormuz and broader geopolitical tensions offset pressure from rising crude output that had sent prices lower in early trade.Brent…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "White House to Extend Jones Act Shipping Waiver",
+   "link": "https://www.marinelink.com/news/white-house-extend-jones-act-shipping-544334",
+   "published": "2026-11-12T18:39:26+00:00",
+   "summary": "President Donald Trump's administration is set to extend a waiver to a US law in coming days allowing some foreign-flagged ships to transport oil and other commodities between US ports, four industry sources said on Thursday.The extension will…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Ablaze Off UAE as More Attacks Rattle Gulf Shipping",
+   "link": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+   "published": "2026-11-12T18:20:34+00:00",
+   "summary": "A projectile struck the engine room of the Liberia-flagged crude oil tanker Dominica Prosperity off the United Arab Emirates on Wednesday, forcing the evacuation of all 22 crew members as...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Master Boat Builders Finishes Fourth of Eight Tugboats for Maritime Partners",
+   "link": "https://www.marinelink.com/news/master-boat-builders-finishes-fourth-544339",
+   "published": "2026-11-12T18:17:34+00:00",
+   "summary": "Master Boat Builders, Inc. recently announced the successful launch of Intrepid, the fourth of eight tugboats being built for Maritime Partners, LLC. Constructed at Master Boat Builders’ shipyard in Coden, Alabama, Intrepid measures 88 feet…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wind-Powered Cargo Ship Neoliner Origin Cuts Fuel Consumption 70% in First Year",
+   "link": "https://gcaptain.com/wind-powered-cargo-ship-neoliner-origin-cuts-fuel-consumption-70-in-first-year/",
+   "published": "2026-11-12T17:23:36+00:00",
+   "summary": "French shipping company Neoline says its wind-powered cargo vessel Neoliner Origin has delivered fuel savings of up to 70% during its first year of commercial service, offering an early test...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seaspan signals interest in BC renewable gas project",
+   "link": "https://ship.energy/energy/seaspan-signals-interest-in-bc-renewable-gas-project/",
+   "published": "2026-11-12T17:23:16+00:00",
+   "summary": "Metro Renewable Gas Inc. (MRG) has announced that Seaspan Energy has provided a non-binding letter of interest in its waste-to-energy renewable natural gas project near Vancouver, British Columbia (BC). Under development with a potential site on or near the Delta Landfill, the project, which is designed around a true 50/50 Indigenous co-ownership model, would produce low-carbon renewable natural gas (RNG) locally for",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Finland Says it Detects Strike on Russian Warship in Baltic Sea",
+   "link": "https://gcaptain.com/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
+   "published": "2026-11-12T17:14:34+00:00",
+   "summary": "Finland's military said on Thursday its forces had detected \"a strike\" on a Russian warship in the Baltic Sea a day earlier, but that the security situation in the area remained stable.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Industry trio flag up deterioration in key maritime transition indicators",
+   "link": "https://ship.energy/information/industry-trio-flag-up-deterioration-in-key-maritime-transition-indicators/",
+   "published": "2026-11-12T16:36:19+00:00",
+   "summary": "In the second edition of their Sustainable Maritime Transport Outlook, the Italian trio Eni, Fincantieri and RINA have reported that ‘three of the four indicators shaping the transition’ have ‘deteriorated’ compared to last year. In a statement issued yesterday (11 November) to mark the publication of the updated Outlook, the trio said that the three pillars on which there had been some regression were: the regulator",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New study highlights potential for U.S. ethanol to power global methanol-powered fleet",
+   "link": "https://ship.energy/energy/new-study-highlights-potential-for-u-s-ethanol-to-power-global-methanol-powered-fleet/",
+   "published": "2026-11-12T15:54:53+00:00",
+   "summary": "A new study published by the Maritime Ethanol & Methanol Alliance (MEMA) has found that the United States is well-placed to meet the bunkering demand of methanol-powered vessels through its production of ethanol. According to the study, Marine Ethanol: Unlocking the US Opportunity, ethanol can use the dual-fuel engines and bunkering infrastructure built for methanol ‘with limited modification’. The MEMA study notes t",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk hit by ransomware cyber-attack",
+   "link": "",
+   "published": "2026-11-12T14:24:55+00:00",
+   "summary": "Danish carrier Maersk Line has confirmed that a breach of its security system has taken place via the legacy platform when the carrier acquired LF Logistics in 2022",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Singapore retains maritime city crown as Shanghai rises to second",
+   "link": "",
+   "published": "2026-11-12T14:05:25+00:00",
+   "summary": "Shanghai overtakes Rotterdam in DNV and Menon Economics' global maritime city rankings, while Abu Dhabi and Athens make gains.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
   },
   {
    "title": "US Ethanol Could Fuel Methanol-Ready Ships, Study Finds",
