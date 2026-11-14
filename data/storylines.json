@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-13T06:31:44+00:00",
+ "updated": "2026-11-14T06:23:01+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Trade press reports continued disruption to shipping through the strait, and Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
-   "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; pollution on this scale adds a clean-up and port-state dimension for vessels trading the region.",
-   "latest": "Greenpeace mapped 540 possible oil spills with a cumulative slick footprint across the Gulf and Arabian Sea; press attributed Thursday's $1/bbl oil rise partly to continued Hormuz disruption.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
+   "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; depressed transit volumes reshape crude and product ton-miles.",
+   "latest": "Reported today that global oil markets are starting to recover from the Iran war but Hormuz shipping remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,12 +16,11 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Gulf war leaves toxic legacy that could last decades",
-    "Oil Prices Rise $1/Barrel As Disruptions Continue in Strait of Hormuz"
+    "Gulf Oil Exports Recover as Hormuz Shipping Struggles"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-13",
-   "days_running": 15,
+   "last_update": "2026-11-14",
+   "days_running": 16,
    "days_since_update": 0
   },
   {
@@ -39,8 +38,8 @@
    "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-12",
-   "days_running": 8,
-   "days_since_update": 1
+   "days_running": 9,
+   "days_since_update": 2
   },
   {
    "id": "russian-diesel-atlantic",
@@ -58,16 +57,16 @@
    "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-12",
-   "days_running": 16,
-   "days_since_update": 1
+   "days_running": 17,
+   "days_since_update": 2
   },
   {
    "id": "tanker-newbuild-orders",
    "title": "Wave of newbuilding orders",
    "status": "active",
-   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn), and Teekay Tankers has ordered four more newbuildings, lifting its programme to six ships worth $525.9m. Shipbroker Intermodal reports contracting activity remains elevated across both wet and dry sectors, and Volare Shipping has announced the acquisition of a VLCC newbuild.",
+   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn), and Teekay Tankers has ordered four more newbuildings, lifting its programme to six ships worth $525.9m. Contracting activity is reported elevated across wet and dry sectors, and Chinese yards are expanding capacity for container ship orders.",
    "why_it_matters": "Large orderbook additions change future crude, product and dry bulk supply and shape secondhand values and recycling decisions.",
-   "latest": "Volare Shipping announced a VLCC newbuild acquisition and trade press reported newbuilding contracting remains elevated in both wet and dry markets.",
+   "latest": "Volare Shipping Ltd. filed an acquisition of a VLCC newbuild, and Chinese yards are reported to be building capacity to meet container ship orders.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -75,11 +74,11 @@
    ],
    "sources": [
     "Volare Shipping Ltd.: Acquisition of VLCC newbuild",
-    "Newbuilding Contracting Activity Remains Elevated"
+    "Chinese yards building capacity to meet container ship orders"
    ],
    "first_seen": "2026-11-12",
-   "last_update": "2026-11-13",
-   "days_running": 2,
+   "last_update": "2026-11-14",
+   "days_running": 3,
    "days_since_update": 0
   },
   {
@@ -96,8 +95,8 @@
    "sources": [],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-11",
-   "days_running": 3,
-   "days_since_update": 2
+   "days_running": 4,
+   "days_since_update": 3
   },
   {
    "id": "black-sea-attacks",
@@ -105,19 +104,17 @@
    "status": "watch",
    "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, and Russia says its forces hit three cargo vessels it claims carried military goods for Ukraine. Finland's military said it detected a strike on a Russian warship in the Baltic Sea on Wednesday, while describing the regional security situation as stable.",
    "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
-   "latest": "Finland detected a strike on a Russian warship in the Baltic Sea, with no confirmed casualties and the security situation described as stable.",
+   "latest": null,
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
-   "sources": [
-    "Finland Detects Strike on Baltic Sea Russian Warship"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-13",
-   "days_running": 15,
-   "days_since_update": 0
+   "days_running": 16,
+   "days_since_update": 1
   }
  ]
 }

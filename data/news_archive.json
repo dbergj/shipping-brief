@@ -66,6 +66,18 @@
    "nordic": true
   },
   {
+   "title": "Teekay Tankers filed a 6-K (periodic report)",
+   "summary": "",
+   "link": "https://www.sec.gov/Archives/edgar/data/1419945/000141994526000072/tnk6-kq3x26.htm",
+   "published": "2026-11-13T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "TNK",
+   "company": "Teekay Tankers",
+   "category": "6-K",
+   "kind": "company",
+   "rank": 2
+  },
+  {
    "title": "Financial calendar",
    "link": "https://newsweb.oslobors.no/message/686472",
    "published": "2026-11-13T10:22:09+00:00",
@@ -735,6 +747,204 @@
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
+  },
+  {
+   "title": "Bunker Industry Adapts in Year of Extraordinary Disruption",
+   "link": "https://maritime-executive.com/article/bunker-industry-adapts-in-year-of-extraordinary-disruption",
+   "published": "2026-11-14T02:39:30+00:00",
+   "summary": "The bunker industry has adapted to what many industry executives called a year of extraordinary disruption and challenges. While overcoming geopolitic...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Navy Retires the Venerable Peacoat From Service",
+   "link": "https://maritime-executive.com/article/u-s-navy-retires-the-venerable-peacoat-from-service",
+   "published": "2026-11-14T02:35:00+00:00",
+   "summary": "After well over 100 years of service afloat, the venerable peacoat is set to retire from the U.S. Navy's official uniform options. As part of a \"seaba...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans",
+   "link": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
+   "published": "2026-11-14T02:34:17+00:00",
+   "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Report: Coast Guard Investigates Possible \"Magic Pipe\" Case on MSC Poesia",
+   "link": "https://maritime-executive.com/article/report-coast-guard-investigates-possible-magic-pipe-case-on-msc-poesia",
+   "published": "2026-11-14T01:44:29+00:00",
+   "summary": "The U.S. Coast Guard has launched a criminal investigation into a possible case of \"magic pipe\" waste discharge aboard the cruise ship MSC Poesia, whi...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker sinks river cruise ship in New Orleans collision",
+   "link": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
+   "published": "2026-11-14T00:58:11+00:00",
+   "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines’ American Heritage, which …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker, Passenger Vessel Collide in New Orleans",
+   "link": "https://www.marinelink.com/news/tanker-passenger-vessel-collide-new-544358",
+   "published": "2026-11-14T00:21:39+00:00",
+   "summary": "A tanker ship collided on Friday, November 13, 2026 with an American Cruise Lines passenger ship that was docked in New Orleans on the Mississippi River, where rescue efforts were under way for multiple passengers in the water.US Department…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping sector backs an International Maritime Organization (IMO) climate deal, but not all of the details",
+   "link": "https://www.hellenicshippingnews.com/shipping-sector-backs-an-international-maritime-organization-imo-climate-deal-but-not-all-of-the-details/",
+   "published": "2026-11-13T22:00:59+00:00",
+   "summary": "New analysis from the global think tank InfluenceMap confirms, with detailed evidence, broad public support across the shipping and fuels sectors for a climate deal at the International Maritime Organization (IMO). However, differing advocacy positions on key components of the framework, including the carbon price, fuel standard, and rules for counting fuel emissions, threaten to ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Market Surged in October",
+   "link": "https://www.hellenicshippingnews.com/tanker-market-surged-in-october/",
+   "published": "2026-11-13T22:00:59+00:00",
+   "summary": "Dirty tanker spot freight rates surged in October, with record VLCC rates driving Suezmax and Aframax rates higher, OPEC said in its latest monthly report issued this week. The return of disrupted volumes, ongoing trade dislocations, export inefficiencies and longer voyages kept tanker availability constrained. VLCC rates stood at more than ten-times year-ago levels. On ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Resistance for shipping’s record rally",
+   "link": "https://www.hellenicshippingnews.com/resistance-for-shippings-record-rally/",
+   "published": "2026-11-13T22:00:58+00:00",
+   "summary": "Shipping markets are enjoying the strongest and longest earnings boom seen in more than two decades, yet asset buyers remain remarkably cautious about the industry’s longer-term prospects. According to Danish Ship Finance’s November Shipping Market Review, the disconnect between soaring earnings and more restrained vessel valuations reflects a widespread belief that current market conditions are ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "IMO may codify alternative net-zero bunker rules in 2027: US FMC",
+   "link": "https://www.hellenicshippingnews.com/imo-may-codify-alternative-net-zero-bunker-rules-in-2027-us-fmc-2/",
+   "published": "2026-11-13T22:00:57+00:00",
+   "summary": "The International Maritime Organization (IMO) may start forming consensus around an alternative Net-Zero Framework (NZF) in the coming weeks before hammering out its final text in 2027, US Federal Maritime Commission Chairman Laura DiBella said Nov. 11. The UN agency is due to hold meetings Nov. 23-Dec. 4 to discuss the framework, after member states ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Xeneta Schedule Reliability Scorecard – October 2026: Less than a quarter of global vessels arrive on-time and Gemini’s lead disappears on Asian trades",
+   "link": "https://www.hellenicshippingnews.com/xeneta-schedule-reliability-scorecard-october-2026-less-than-a-quarter-of-global-vessels-arrive-on-time-and-geminis-lead-disappears-on-asian-trades/",
+   "published": "2026-11-13T22:00:57+00:00",
+   "summary": "A note on methodology. Figures in this month’s edition use data pulled on 9 November and differ from our Outlook pulled on 26 October. Later October arrivals change some on-time figures by 1-2 percentage points. Global on-time arrivals are now at 24%, a lower reading than the 25% in late October. Far East to Europe ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Hits Riverboat on New Orleans Waterfront, Injuring 32 Passengers",
+   "link": "https://maritime-executive.com/article/tanker-hits-riverboat-on-new-orleans-waterfront-injuring-passengers",
+   "published": "2026-11-13T21:38:00+00:00",
+   "summary": "On Friday, an asphalt tanker struck a moored riverboat on the Mississippi on the downtown New Orleans waterfront, causing the passenger vessel to caps...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "White House Extends Jones Act Waiver Into 2027",
+   "link": "https://maritime-executive.com/article/white-house-extends-jones-act-waiver-into-2027",
+   "published": "2026-11-13T21:13:00+00:00",
+   "summary": "On Friday, President Donald Trump decided to extend the long-running waiver of the Jones Act to allow foreign-crewed tankers to keep carrying energy p...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
+   "link": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
+   "published": "2026-11-13T20:45:59+00:00",
+   "summary": "Update: ‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines riverboat American Heritage on the...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Nikkiso Delivers Dry Dock Overhaul for LNG Tanker",
+   "link": "https://www.marinelink.com/news/nikkiso-delivers-dry-dock-overhaul-lng-544354",
+   "published": "2026-11-13T19:38:58+00:00",
+   "summary": "Nikkiso Clean Energy & Industrial Gases Group (Nikkiso CE&IG) has successfully completed a dry-dock maintenance project for the LNG tanker Ekaputra 1, carrying out the overhaul of seven cryogenic pumps in only 10 days. The work was performed…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Gulf Oil Exports Recover as Hormuz Shipping Struggles",
+   "link": "https://gcaptain.com/gulf-oil-exports-recover-as-hormuz-shipping-struggles/",
+   "published": "2026-11-13T17:51:12+00:00",
+   "summary": "Global oil markets are beginning to recover from the Iran war, but shipping through the Strait of Hormuz remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels and...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CMA CGM Demonstrates Relative Resilience in a Volatile Q3",
+   "link": "https://www.marinelink.com/news/cma-cgm-demonstrates-relative-resilience-544352",
+   "published": "2026-11-13T17:46:08+00:00",
+   "summary": "The third quarter of 2026 took place in a volatile economic environment, with persistent tensions in the Middle East impacting international trade and global supply chains. In this context, both shipping and logistics activities were affected…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "World Oil Market is Returning to Surplus as Gulf Exports Recover",
+   "link": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
+   "published": "2026-11-13T17:37:39+00:00",
+   "summary": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency said on Friday, as Middle East exports recover faster than global oil demand despite continued attacks on shipping.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CMA CGM Net Profit More Than Triples to $2.32 Billion as Freight Rates Surge",
+   "link": "https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
+   "published": "2026-11-13T17:24:08+00:00",
+   "summary": "French shipping giant CMA CGM more than tripled its third-quarter net profit as higher container freight rates and strong cargo volumes boosted earnings amid ongoing disruptions to global shipping routes...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hapag-Lloyd Profit Surges as Freight Rates Rise, Red Sea Services Return",
+   "link": "https://gcaptain.com/hapag-lloyd-profit-surges-as-freight-rates-rise-red-sea-services-return/",
+   "published": "2026-11-13T17:09:56+00:00",
+   "summary": "German container shipping giant Hapag-Lloyd reported a sharp increase in third-quarter earnings as higher freight rates more than offset rising operating costs tied to the Middle East conflict and widespread...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "METF panellists say separate ‘envelopes’ required for fuels and technologies under SMAP proposals",
+   "link": "https://ship.energy/information/metf-panellists-say-separate-envelopes-required-for-fuels-and-technologies-under-smap-proposals/",
+   "published": "2026-11-13T15:18:01+00:00",
+   "summary": "Panellists at ship.energy’s Marine Energy Transition Forum have called on the European Commission (EC) to create separate ‘envelopes’ for sustainable maritime fuels and zero-emission propulsion technologies under the proposed Sustainable Maritime Alternative Propulsion (SMAP) mechanism, amid concerns current proposals could funnel cash into CAPEX-intensive projects. SMAP is a new maritime funding mechanism, proposed ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore Maintains Role Leading Maritime City in 2026",
+   "link": "https://www.marinelink.com/news/singapore-maintains-role-leading-maritime-544350",
+   "published": "2026-11-13T14:22:01+00:00",
+   "summary": "Singapore has retained its position as the world’s leading maritime city in the 2026 Leading Maritime Cities (LMC) report by DNV and Menon Economics for the seventh consecutive edition. Singapore also maintained its leading position in three of the five pillars* assessed in the report — Shipping…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
   },
   {
    "title": "Baltic Dry Index falls to 2980 down 40 points",
