@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-14T13:41:37+00:00",
- "tone": "7 of 11 tracked prices rose and 4 fell. Biggest mover: VLSFO Singapore +6.9% to 882.50 USD/t (as at Sat 14 Nov 13:42 GMT).",
+ "generated_at": "2026-11-15T06:21:59+00:00",
+ "tone": "6 of 10 tracked prices rose and 4 fell. Biggest mover: VLSFO Singapore +6.9% to 882.50 USD/t (as at Sun 15 Nov 06:22 GMT).",
  "metrics": [
   {
    "id": "brent",
@@ -12,17 +12,17 @@
    "fallback": "CNBC live quote, then the daily oil report, then EIA/FRED",
    "value": 95.84,
    "change": null,
-   "as_of": "2026-11-14T05:00:00+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "ICE Brent Crude (Jan'27) via CNBC",
    "instrument": "ICE Brent Crude (Jan'27)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 05:00 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
-   "age_days": 0.36,
+   "age_days": 1.27,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -36,17 +36,17 @@
    "fallback": "CNBC live quote, then the daily oil report, then EIA/FRED",
    "value": 88.92,
    "change": 0.18,
-   "as_of": "2026-11-14T23:13:44+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "WTI Crude (Dec'26) via CNBC",
    "instrument": "WTI Crude (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 23:13 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.27,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -65,10 +65,10 @@
    "source_url": "https://www.hellenicshippingnews.com/european-gas-prices-hit-1-month-lows-as-trump-pauses-iran-strikes/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Tue 10 Nov 22:00 GMT",
    "max_sessions": 1,
-   "age_days": 3.65,
+   "age_days": 4.35,
    "age_sessions": 3,
    "observed_today": false,
    "freshness": "lagged",
@@ -84,17 +84,17 @@
    "fallback": "CNBC live quote, then EIA/FRED",
    "value": 3.242,
    "change": -0.098,
-   "as_of": "2026-11-14T23:13:45+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "Natural Gas (Dec'26) via CNBC",
    "instrument": "Natural Gas (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 23:13 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.27,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -107,19 +107,18 @@
    "kpi": false,
    "fallback": "CNBC lists ICE API2 but returns it undated; nothing else free publishes it.",
    "value": 138.0,
-   "change": 0.6,
+   "change": null,
    "as_of": "2026-11-13T00:00:00+00:00",
    "source": "ICE API2 Rotterdam Coal via CNBC",
-   "instrument": "ICE API2 Rotterdam Coal",
-   "stale": false,
-   "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "stale": true,
+   "refreshed": false,
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov",
    "max_sessions": 2,
-   "age_days": 1.57,
+   "age_days": 2.27,
    "age_sessions": 0,
    "observed_today": false,
-   "freshness": "current",
+   "freshness": "stale",
    "lagged": false
   },
   {
@@ -132,17 +131,17 @@
    "fallback": "CNBC live quote (ULSD heating oil front-month)",
    "value": 4.3067,
    "change": 0.0202,
-   "as_of": "2026-11-14T23:13:14+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "ULSD Heating Oil (Dec'26) via CNBC",
    "instrument": "ULSD Heating Oil (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 23:13 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.27,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -156,17 +155,17 @@
    "fallback": "CNBC live quote (RBOB front-month)",
    "value": 2.633,
    "change": -0.0378,
-   "as_of": "2026-11-14T23:13:33+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "RBOB Gas (Dec'26) via CNBC",
    "instrument": "RBOB Gas (Dec'26)",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 23:13 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
-   "age_days": -0.4,
+   "age_days": 1.27,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false
   },
@@ -185,10 +184,10 @@
    "instrument": "Breakwave Dry Bulk Shipping ETF",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov",
    "max_sessions": 2,
-   "age_days": 1.57,
+   "age_days": 2.27,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -209,10 +208,10 @@
    "instrument": "Breakwave Tanker Shipping ETF",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov",
    "max_sessions": 2,
-   "age_days": 1.57,
+   "age_days": 2.27,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -232,10 +231,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 0.65,
+   "age_days": 1.35,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -255,10 +254,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 0.65,
+   "age_days": 1.35,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -278,10 +277,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 0.65,
+   "age_days": 1.35,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -301,10 +300,10 @@
    "source_url": "https://www.hellenicshippingnews.com/baltic-dry-index-snaps-7-day-winning-run/",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Fri 13 Nov 22:00 GMT",
    "max_sessions": 2,
-   "age_days": 0.65,
+   "age_days": 1.35,
    "age_sessions": 0,
    "observed_today": false,
    "freshness": "current",
@@ -319,12 +318,12 @@
    "kpi": true,
    "value": 882.5,
    "change": 60.5,
-   "as_of": "2026-11-14T13:42:02+00:00",
+   "as_of": "2026-11-15T06:22:32+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 13:42 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sun 15 Nov 06:22 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -341,12 +340,12 @@
    "kpi": false,
    "value": 743.5,
    "change": 26.0,
-   "as_of": "2026-11-14T13:42:02+00:00",
+   "as_of": "2026-11-15T06:22:32+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 13:42 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sun 15 Nov 06:22 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -363,12 +362,12 @@
    "kpi": false,
    "value": 856.5,
    "change": 34.0,
-   "as_of": "2026-11-14T13:42:02+00:00",
+   "as_of": "2026-11-15T06:22:32+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 13:42 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sun 15 Nov 06:22 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -385,12 +384,12 @@
    "kpi": false,
    "value": 737.0,
    "change": -2.0,
-   "as_of": "2026-11-14T13:42:02+00:00",
+   "as_of": "2026-11-15T06:22:32+00:00",
    "source": "shipandbunker.com",
    "stale": false,
    "refreshed": true,
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 13:42 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sun 15 Nov 06:22 GMT",
    "max_sessions": 1,
    "age_days": 0.0,
    "age_sessions": 0,
@@ -407,22 +406,22 @@
    "kpi": false,
    "value": 85.04,
    "change": null,
-   "as_of": "2026-11-14T05:00:00+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "derived: gasoil − brent",
    "stale": false,
-   "age_days": 0.36,
+   "age_days": 1.27,
    "derived_from": [
     "gasoil",
     "brent"
    ],
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 05:00 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false,
-   "derived_freshness_from": "brent"
+   "derived_freshness_from": "gasoil"
   },
   {
    "id": "brent_wti_spread",
@@ -433,19 +432,19 @@
    "kpi": false,
    "value": 6.92,
    "change": null,
-   "as_of": "2026-11-14T05:00:00+00:00",
+   "as_of": "2026-11-14T00:00:00+00:00",
    "source": "derived: brent − wti",
    "stale": false,
-   "age_days": 0.36,
+   "age_days": 1.27,
    "derived_from": [
     "brent",
     "wti"
    ],
-   "collected_at": "2026-11-14T13:41:37+00:00",
-   "as_of_label": "Sat 14 Nov 05:00 GMT",
+   "collected_at": "2026-11-15T06:21:59+00:00",
+   "as_of_label": "Sat 14 Nov",
    "max_sessions": 1,
    "age_sessions": 0,
-   "observed_today": true,
+   "observed_today": false,
    "freshness": "current",
    "lagged": false,
    "derived_freshness_from": "brent"
@@ -464,10 +463,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tankers-retreated-last-week/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Sun 08 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -486,10 +485,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tankers-retreated-last-week/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Sun 08 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -508,10 +507,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-market-is-bottoming-out/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Sun 01 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 12.65,
+   "age_days": 13.35,
    "age_sessions": 10,
    "observed_today": false,
    "freshness": "lagged",
@@ -530,10 +529,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tankers-retreated-last-week/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Sun 08 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -552,10 +551,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tankers-retreated-last-week/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Sun 08 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -574,10 +573,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/vlcc-tankers-retreated-last-week/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Sun 08 Nov 22:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.65,
+   "age_days": 6.35,
    "age_sessions": 5,
    "observed_today": false,
    "freshness": "current",
@@ -596,7 +595,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -618,7 +617,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -640,7 +639,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -662,7 +661,7 @@
    "source": null,
    "status": "unavailable",
    "why_unavailable": "Not quoted in the latest published market report. The Baltic assessment itself is a paid product; this row fills whenever the figure appears in the public commentary.",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": null,
    "max_sessions": 2,
    "age_days": null,
@@ -684,10 +683,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-posts-weekly-gains/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Mon 09 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -706,10 +705,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-posts-weekly-gains/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Mon 09 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -728,10 +727,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-posts-weekly-gains/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Mon 09 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -750,10 +749,10 @@
    "source": "Baltic Exchange via Reuters/Hellenic",
    "status": "ok",
    "source_url": "https://www.hellenicshippingnews.com/lng-shipping-market-posts-weekly-gains/",
-   "collected_at": "2026-11-14T13:41:37+00:00",
+   "collected_at": "2026-11-15T06:21:59+00:00",
    "as_of_label": "Mon 09 Nov 11:00 GMT",
    "max_sessions": 9,
-   "age_days": 5.11,
+   "age_days": 5.81,
    "age_sessions": 4,
    "observed_today": false,
    "freshness": "current",
@@ -1282,29 +1281,29 @@
     "nordic": false
    },
    {
-    "title": "Bulker Hits Bridge Near Philadelphia",
-    "link": "https://maritime-executive.com/article/bulker-hits-bridge-near-philadelphia",
-    "published": "2026-11-14T07:40:00+00:00",
-    "summary": "On Thursday, a foreign-flagged bulker hit a bridge on the Delaware River, forcing a rush-hour closure for inspections. On Thursday afternoon, the bulk...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans",
-    "link": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
-    "published": "2026-11-14T02:34:17+00:00",
-    "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,...",
+    "title": "South Africa’s Auto Industry Threatened By Worsening Port Delays",
+    "link": "https://gcaptain.com/south-africas-auto-industry-threatened-by-worsening-port-delays/",
+    "published": "2026-11-15T03:48:26+00:00",
+    "summary": "By Matthew Hill and Alexander Parker Nov 14, 2026 (Bloomberg) –Severe delays at South Africa’s biggest container terminal in the port city of Durban are threatening the nation’s auto industry, already under...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Tanker sinks river cruise ship in New Orleans collision",
-    "link": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
-    "published": "2026-11-14T00:58:11+00:00",
-    "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines’ American Heritage, which …",
+    "title": "US court orders arrest of tanker after New Orleans cruise ship collision",
+    "link": "https://splash247.com/us-court-orders-arrest-of-tanker-after-new-orleans-cruise-ship-collision/",
+    "published": "2026-11-15T01:06:11+00:00",
+    "summary": "A US federal court has authorised the arrest of the tanker Atlantic Asphalt after the Port of New Orleans launched legal action seeking more than $1m in damages following the collision that sank American Cruise Lines’ American Heritage. The Board of Commissioners of the Port of New Orleans filed the lawsuit in the Eastern District …",
     "source": "Splash247",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Everllence Two-Stroke Dual-Fuel Technology Selected for Tanker Project",
+    "link": "https://maritime-executive.com/article/everllence-two-stroke-dual-fuel-technology-selected-for-tanker-project",
+    "published": "2026-11-14T22:23:43+00:00",
+    "summary": "Everllence has received an order from Swan Defence and Heavy Industries Limited (SDHI), India’s largest shipbuilding and heavy engineering company, fo...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -1345,38 +1344,38 @@
     "nordic": false
    },
    {
-    "title": "LA port 2nd highest monthly volume as Transpac peak season extends",
+    "title": "Jones Act waiver gets another 90-day lifeline",
     "link": "",
-    "published": "2026-11-13T08:25:09+00:00",
-    "summary": "Talk of front loading earlier in the year proved wrong and traditional goods driving volumes not AI data centre construction",
+    "published": "2026-11-15T05:18:02+00:00",
+    "summary": "Intended as a short-term response to Iran war energy disruptions, the pause has now stretched past 230 days",
     "source": "Seatrade Maritime",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Wallem Group Appoints Apostolos Poulovassilis to Lead Greek Expansion",
-    "link": "https://maritime-executive.com/article/wallem-group-appoints-apostolos-poulovassilis-to-lead-greek-expansion",
-    "published": "2026-11-14T04:37:00+00:00",
-    "summary": "Wallem Group, a leading global maritime partner, is pleased to announce the appointment of Apostolos Poulovassilis as General Manager, Ship Management...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Tanker Strikes Docked Paddlewheeler on Mississippi River, Causing It to Capsize",
-    "link": "https://gcaptain.com/tanker-strikes-docked-paddlewheeler-on-mississippi-river-causing-it-to-capsize/",
-    "published": "2026-11-13T20:45:59+00:00",
-    "summary": "Update: ‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans A Marshall Islands-flagged asphalt tanker struck the docked American Cruise Lines riverboat American Heritage on the...",
+    "title": "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days",
+    "link": "https://gcaptain.com/trump-to-extend-shipping-waiver-for-oil-fertilizer-for-90-days/",
+    "published": "2026-11-14T22:08:51+00:00",
+    "summary": "By Jennifer A. Dlouhy Nov 14, 2026 (Bloomberg) –President Donald Trump is giving energy companies and traders more time to transport oil and other commodities around the US on foreign-flagged ships,...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "From ocean liner to artificial reef: A warning for container shipping",
-    "link": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
-    "published": "2026-11-13T10:07:00+00:00",
-    "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics & Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest …",
+    "title": "Tanker sinks river cruise ship in New Orleans collision",
+    "link": "https://splash247.com/tanker-sinks-river-cruise-ship-in-new-orleans-collision/",
+    "published": "2026-11-14T00:58:11+00:00",
+    "summary": "The 17,764 dwt bitumen tanker Atlantic Asphalt has struck and partially sunk a river cruise ship on the Mississippi River in New Orleans, leaving 32 people hospitalised and prompting a major emergency response. The collision occurred at approximately 12.30 pm local time on November 13, when the 2017-built tanker struck American Cruise Lines’ American Heritage, …",
     "source": "Splash247",
+    "kind": "market",
+    "nordic": false
+   },
+   {
+    "title": "Fairbanks Acquires Truflo Marine",
+    "link": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
+    "published": "2026-11-14T18:33:00+00:00",
+    "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -1417,40 +1416,40 @@
     "nordic": false
    },
    {
-    "title": "Chinese yards building capacity to meet container ship orders",
+    "title": "Los Angeles port chief confident amid ongoing strike threat",
     "link": "",
-    "published": "2026-11-13T06:52:24+00:00",
-    "summary": "China’s shipyards are expanding fast to meet the demand for new container vessels, with Dalian’s Hengli yard a surprise beneficiary of the boom",
+    "published": "2026-11-15T05:14:46+00:00",
+    "summary": "Executive Director Gene Seroka anticipates peaceful contract resolution as gateway logs fifth straight month of record container volume.",
     "source": "Seatrade Maritime",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "GHD Announces Port Engineering Contracts in Los Angeles and Savannah",
-    "link": "https://maritime-executive.com/article/ghd-announces-port-engineering-contracts-in-los-angeles-and-savannah",
-    "published": "2026-11-14T04:34:00+00:00",
-    "summary": "GHD has been selected as the design engineer for the new marine terminal at the SeaPoint Industrial Terminal Complex in Savannah, Georgia, partnering...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "Gulf Oil Exports Recover as Hormuz Shipping Struggles",
-    "link": "https://gcaptain.com/gulf-oil-exports-recover-as-hormuz-shipping-struggles/",
-    "published": "2026-11-13T17:51:12+00:00",
-    "summary": "Global oil markets are beginning to recover from the Iran war, but shipping through the Strait of Hormuz remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels and...",
+    "title": "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft",
+    "link": "https://gcaptain.com/msc-nears-deal-to-buy-majority-stake-in-german-shipyard-meyer-werft/",
+    "published": "2026-11-14T18:13:54+00:00",
+    "summary": "FRANKFURT, Nov 14 (Reuters) – The German government and regional state of Lower Saxony are nearing a deal that gives Geneva-based shipping group MSC the right to acquire about 80% of the shares in...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "BW LPG scores another lucrative Avance VLGC flip",
-    "link": "https://splash247.com/bw-lpg-scores-another-lucrative-avance-vlgc-flip/",
-    "published": "2026-11-13T09:50:00+00:00",
-    "summary": "BW LPG has struck another lucrative vessel sale, offloading a VLGC acquired in John Fredriksen’s Avance Gas fleet deal less than two years ago for well over $100m. The New York- and Oslo-listed gas carrier giant has agreed to sell the 2015-built, 83,134 cu m BW Mistral, with the transaction expected to generate a net …",
+    "title": "From ocean liner to artificial reef: A warning for container shipping",
+    "link": "https://splash247.com/from-ocean-liner-to-artificial-reef-a-warning-for-container-shipping/",
+    "published": "2026-11-13T10:07:00+00:00",
+    "summary": "Dr Raymon Krishnan, president of Singapore’s Logistics & Supply Chain Management Society, writes for Splash today, reflecting on one of this week’s most talked about stories in the mainstream press. On Wednesday, the 990-foot ocean liner SS United States was deliberately sunk off Destin, Florida, to become what is expected to be the world’s largest …",
     "source": "Splash247",
     "kind": "market",
-    "nordic": true
+    "nordic": false
+   },
+   {
+    "title": "The Second Edition of the Sustainable Maritime Transport Outlook",
+    "link": "https://maritime-executive.com/article/the-second-edition-of-the-sustainable-maritime-transport-outlook",
+    "published": "2026-11-14T16:50:51+00:00",
+    "summary": "Eni, a global energy company, Fincantieri, a global leader in the construction of high-complexity ships, and RINA, the global inspection, certificatio...",
+    "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
    },
    {
     "title": "CMA CGM Demonstrates Relative Resilience in a Volatile Q3",
@@ -1489,40 +1488,40 @@
     "nordic": false
    },
    {
-    "title": "Cosco Shipping Development books 16 VLCC newbuilds",
+    "title": "LA port 2nd highest monthly volume as Transpac peak season extends",
     "link": "",
-    "published": "2026-11-13T06:43:11+00:00",
-    "summary": "The crude carriers are for bareboat charter to Cosco Shipping Energy Transportation which has now lined up 40 VLCC newbuildings",
+    "published": "2026-11-13T08:25:09+00:00",
+    "summary": "Talk of front loading earlier in the year proved wrong and traditional goods driving volumes not AI data centre construction",
     "source": "Seatrade Maritime",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Fairbanks Acquires Truflo Marine",
-    "link": "https://maritime-executive.com/article/fairbanks-acquires-truflo-marine-expanding-australian-submarine-manufacturing-capabilities",
-    "published": "2026-11-14T04:33:00+00:00",
-    "summary": "Fairbanks Morse Defense recently announced the acquisition of Truflo Marine, marking a major expansion of its ability to support allied submarine prod...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "World Oil Market is Returning to Surplus as Gulf Exports Recover",
-    "link": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
-    "published": "2026-11-13T17:37:39+00:00",
-    "summary": "The world oil market will return to a surplus in the fourth quarter of this year, the International Energy Agency said on Friday, as Middle East exports recover faster than global oil demand despite continued attacks on shipping.",
+    "title": "Oil Tanker On Fire After Hitting Mine In Hormuz",
+    "link": "https://gcaptain.com/oil-tanker-on-fire-after-hitting-mine-in-hormuz/",
+    "published": "2026-11-14T14:41:03+00:00",
+    "summary": "Nov 14 (Reuters) – Iran’s navy said an oil tanker caught fire on Saturday morning after hitting a naval mine in the eastern Strait of Hormuz, Iranian state media reported. Reuters could not immediately...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Cetus seals $200m share placement ahead of Oslo debut",
-    "link": "https://splash247.com/cetus-seals-200m-share-placement-ahead-of-oslo-debut/",
-    "published": "2026-11-13T09:42:00+00:00",
-    "summary": "Hong Kong-based dry bulk owner Cetus Maritime has successfully placed a NOK1.89bn ($200m) share offering, including an over-allotment, clearing a major hurdle ahead of its planned Oslo stock market debut next week. The Mark Young-led company said it had conditionally allocated 108.5m shares at NOK17.44 ($1.83) apiece, taking up the full $25m over-allotment on top …",
+    "title": "BW LPG scores another lucrative Avance VLGC flip",
+    "link": "https://splash247.com/bw-lpg-scores-another-lucrative-avance-vlgc-flip/",
+    "published": "2026-11-13T09:50:00+00:00",
+    "summary": "BW LPG has struck another lucrative vessel sale, offloading a VLGC acquired in John Fredriksen’s Avance Gas fleet deal less than two years ago for well over $100m. The New York- and Oslo-listed gas carrier giant has agreed to sell the 2015-built, 83,134 cu m BW Mistral, with the transaction expected to generate a net …",
     "source": "Splash247",
     "kind": "market",
     "nordic": true
+   },
+   {
+    "title": "Korean Partnership's Carbon Capture Proposal Chosen as Basis for IMO Safety",
+    "link": "https://maritime-executive.com/article/korean-partnership-s-carbon-capture-proposal-chosen-as-basis-for-imo-safety",
+    "published": "2026-11-14T15:30:10+00:00",
+    "summary": "A leading Korean public-private partnership comprising 10 maritime organizations has reached a major milestone in the development of international saf...",
+    "source": "Maritime Executive",
+    "kind": "market",
+    "nordic": false
    },
    {
     "title": "Singapore Maintains Role Leading Maritime City in 2026",
@@ -1561,38 +1560,38 @@
     "nordic": false
    },
    {
-    "title": "Monjasa adds five tankers from Bernhard Schulte in fleet renewal",
+    "title": "Chinese yards building capacity to meet container ship orders",
     "link": "",
-    "published": "2026-11-13T04:25:34+00:00",
-    "summary": "The acquisition of five sister vessels is the largest in the bunker supplier's history",
+    "published": "2026-11-13T06:52:24+00:00",
+    "summary": "China’s shipyards are expanding fast to meet the demand for new container vessels, with Dalian’s Hengli yard a surprise beneficiary of the boom",
     "source": "Seatrade Maritime",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "Voith Appoints Mike Hevey In Dual Leadership Roles",
-    "link": "https://maritime-executive.com/article/voith-appoints-mike-hevey-in-dual-leadership-roles-to-lead-company-in-north-america",
-    "published": "2026-11-14T04:32:00+00:00",
-    "summary": "Voith is pleased to announce the appointment of Mike Hevey as President of Voith Turbo in North America and as Regional President, North America for t...",
-    "source": "Maritime Executive",
-    "kind": "market",
-    "nordic": false
-   },
-   {
-    "title": "CMA CGM Net Profit More Than Triples to $2.32 Billion as Freight Rates Surge",
-    "link": "https://gcaptain.com/cma-cgm-net-profit-more-than-triples-to-2-32-billion-as-freight-rates-surge/",
-    "published": "2026-11-13T17:24:08+00:00",
-    "summary": "French shipping giant CMA CGM more than tripled its third-quarter net profit as higher container freight rates and strong cargo volumes boosted earnings amid ongoing disruptions to global shipping routes...",
+    "title": "‘Miracle on the Mississippi’: All Accounted For After Tanker Capsizes Cruise Ship in New Orleans",
+    "link": "https://gcaptain.com/miracle-on-the-mississippi-all-accounted-for-after-tanker-capsizes-cruise-ship-in-new-orleans/",
+    "published": "2026-11-14T02:34:17+00:00",
+    "summary": "All passengers and crew aboard an American Cruise Lines riverboat survived after a Marshall Islands-flagged asphalt tanker struck the docked paddle-wheeler on the Mississippi River in New Orleans on Friday,...",
     "source": "gCaptain",
     "kind": "market",
     "nordic": false
    },
    {
-    "title": "UK blacklists 11 ships in fresh Russia sanctions sweep",
-    "link": "https://splash247.com/uk-blacklists-11-ships-in-fresh-russia-sanctions-sweep/",
-    "published": "2026-11-13T09:35:00+00:00",
-    "summary": "Britain has slapped fresh sanctions on 11 ships linked to Russian energy exports, targeting five LNG carriers, five oil tankers and a floating storage unit in its latest effort to disrupt Moscow’s seaborne oil and gas trade. The measures also cover nine companies, including Russian oil producer Slavneft, Rosneft’s Vostok Oil project and several energy …",
+    "title": "Cetus seals $200m share placement ahead of Oslo debut",
+    "link": "https://splash247.com/cetus-seals-200m-share-placement-ahead-of-oslo-debut/",
+    "published": "2026-11-13T09:42:00+00:00",
+    "summary": "Hong Kong-based dry bulk owner Cetus Maritime has successfully placed a NOK1.89bn ($200m) share offering, including an over-allotment, clearing a major hurdle ahead of its planned Oslo stock market debut next week. The Mark Young-led company said it had conditionally allocated 108.5m shares at NOK17.44 ($1.83) apiece, taking up the full $25m over-allotment on top …",
     "source": "Splash247",
+    "kind": "market",
+    "nordic": true
+   },
+   {
+    "title": "Bulker Hits Bridge Near Philadelphia",
+    "link": "https://maritime-executive.com/article/bulker-hits-bridge-near-philadelphia",
+    "published": "2026-11-14T07:40:00+00:00",
+    "summary": "On Thursday, a foreign-flagged bulker hit a bridge on the Delaware River, forcing a rush-hour closure for inspections. On Thursday afternoon, the bulk...",
+    "source": "Maritime Executive",
     "kind": "market",
     "nordic": false
    },
@@ -1639,15 +1638,15 @@
    "oslo: Oslo NewsWeb returned no messages"
   ],
   "hints": [],
-  "metrics_fresh": 18,
+  "metrics_fresh": 17,
   "metrics_total": 19,
-  "observed_today": 11,
+  "observed_today": 4,
   "priced_rows": 29,
   "rates_active": 10,
   "rates_total": 14
  },
  "brief": {
-  "text": "The clearest signal in today's data is in bunkers — the fuel ships burn. VLSFO (very low sulphur fuel oil, the main grade for most vessels) jumped in Asia and the Gulf today: Singapore at $882.50 a tonne, up $60.50 or 7.4%, Fujairah at $856.50, up $34.00 or 4.1%, and Rotterdam at $743.50, up $26.00 or 3.6%. Houston was the odd one out at $737.00, down $2.00. For anyone pricing a voyage, that widens the East–West fuel gap sharply and raises the cost of bunkering in Singapore or Fujairah versus the US Gulf. The data here does not show why the Asian and Gulf prices moved that much.\n\nIt is notable because crude went the other way: Brent was $95.84 today, down $1.04 or 1.1%, while WTI was $88.92, up $0.18, leaving a Brent–WTI spread of $6.92. Gasoil was $4.31 a gallon, up 0.5%, gasoline $2.63, down 1.4%, and Henry Hub gas $3.24, down 2.9%. No freight index has refreshed today. On Friday 13 November the Baltic Dry Index — the benchmark for bulk cargo freight — stood at 2,980 points, unchanged; the Capesize index (Capesize being the largest dry bulk ships, typically iron ore and coal) was 4,719, down 117 or 2.4%; Panamax was 2,118, up 1; Supramax 1,836, up 26. The tanker ETF BWET closed Friday at $618.68, up 6.3%. All tanker and gas TCEs — time charter equivalent, the daily earnings a voyage delivers to an owner — are five to ten sessions old and tell you nothing about today.\n\nRunning stories: Hormuz developed today, with a report that Gulf oil exports are recovering but vessel traffic through the strait remains roughly 65% below pre-conflict levels. The newbuilding wave added another datapoint — Volare Shipping filed an acquisition of a VLCC newbuild. Shadow-fleet sanctions, Russian diesel restrictions, US port fees on Chinese-built ships and Black Sea attacks had no news today and are unchanged. Separately, an asphalt tanker struck and sank a docked river cruise ship in New Orleans on Friday, with 32 hospitalised.\n\nWatch two things. First, whether Asian and Gulf VLSFO hold these levels or converge back toward Houston, since that directly changes voyage economics. Second, whether Monday's Baltic prints follow Friday's soft Capesize number or Friday's firmer tanker ETF move.",
+  "text": "The only prices that have refreshed this morning are bunker fuels — the fuel ships burn — and they have jumped in three of the four main ports. VLSFO (very low sulphur fuel oil, the standard compliant bunker grade) in Singapore is 882.50 USD/t, up 60.50 or 7.4%; Fujairah is 856.50, up 34.00 or 4.1%; Rotterdam is 743.50, up 26.00 or 3.6%. Houston is the outlier at 737.00, down 2.00 or 0.3%. For anyone fixing ships, bunkers are the largest single voyage cost, so an east-of-Suez move of this size directly compresses owners' earnings on any voyage already fixed at a set freight rate, and will push up voyage calculations on new business out of Singapore and the Arabian Gulf.\n\nNo benchmark crude or freight index has printed today, so nothing else can be called a move. Brent was 95.84 USD/bbl on Saturday 14 November and WTI 88.92, up 0.18 or 0.2% that session, with the Brent–WTI spread at 6.92. The Baltic Dry Index — the main dry bulk freight benchmark — stood at 2,980 points on Friday 13 November, with Capesize (the largest dry bulk ships, mainly iron ore and coal) at 4,719, Panamax 2,118 and Supramax 1,836. The tanker ETF BWET closed at 618.68 on Friday, up 6.3%, while the dry bulk ETF BDRY was 12.93, down 2.1%. Nothing in today's headlines explains the bunker spike; the data here does not show why it happened.\n\nRunning stories: the Hormuz attacks and Gulf spill reports are unchanged today, as is the shadow-fleet sanctions thread and the Russian diesel export ban. Black Sea and Baltic strikes had no fresh news. New today, the US Jones Act waiver for oil and fertilizer moves on foreign-flagged ships has been extended another 90 days, now past 230 days since it began as a response to Iran war energy disruptions. Also new, the bitumen tanker Atlantic Asphalt struck and partly sank a river cruise ship at New Orleans on 13 November; a US court has ordered the tanker's arrest over a claim exceeding $1m.\n\nWatch two things. First, whether the next crude and Baltic prints, when they come, sit with or against today's bunker jump — the data cannot yet tell you. Second, the New Orleans arrest, since vessel detentions on the Mississippi can slow traffic at a major US Gulf loading region.",
   "storylines": [
    {
     "id": "hormuz-vessel-attacks",
@@ -1655,7 +1654,7 @@
     "status": "active",
     "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
     "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; depressed transit volumes reshape crude and product ton-miles.",
-    "latest": "Reported today that global oil markets are starting to recover from the Iran war but Hormuz shipping remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels.",
+    "latest": null,
     "watch": [
      "vlcc_tce",
      "suezmax_tce",
@@ -1664,11 +1663,32 @@
      "vlsfo_fuj"
     ],
     "sources": [
-     "Gulf Oil Exports Recover as Hormuz Shipping Struggles"
+     "Tanker Market Surged in October"
     ],
     "first_seen": "2026-10-30",
     "last_update": "2026-11-14",
-    "days_running": 16,
+    "days_running": 17,
+    "days_since_update": 1
+   },
+   {
+    "id": "jones-act-waiver",
+    "title": "US Jones Act waiver extended again",
+    "status": "active",
+    "what": "President Trump is extending the waiver allowing energy companies and traders to move oil, fertilizer and other commodities between US ports on foreign-flagged ships for another 90 days. Intended as a short-term response to Iran war energy disruptions, the pause has now stretched past 230 days.",
+    "why_it_matters": "The waiver keeps foreign-flag tonnage eligible for US coastwise cargoes, affecting demand for US-flag ships and the employment of product tankers in domestic trades.",
+    "latest": "Waiver extended a further 90 days, now past 230 days in force.",
+    "watch": [
+     "mr_tc14_tce",
+     "mr_tc2_tce",
+     "refining_margin"
+    ],
+    "sources": [
+     "Jones Act waiver gets another 90-day lifeline",
+     "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days"
+    ],
+    "first_seen": "2026-11-15",
+    "last_update": "2026-11-15",
+    "days_running": 1,
     "days_since_update": 0
    },
    {
@@ -1683,11 +1703,13 @@
      "suezmax_tce",
      "brent"
     ],
-    "sources": [],
+    "sources": [
+     "Tanker Market Surged in October"
+    ],
     "first_seen": "2026-11-06",
     "last_update": "2026-11-12",
-    "days_running": 9,
-    "days_since_update": 2
+    "days_running": 10,
+    "days_since_update": 3
    },
    {
     "id": "russian-diesel-atlantic",
@@ -1702,32 +1724,13 @@
      "lr2_tce",
      "refining_margin"
     ],
-    "sources": [],
+    "sources": [
+     "Tanker Market Surged in October"
+    ],
     "first_seen": "2026-10-29",
     "last_update": "2026-11-12",
-    "days_running": 17,
-    "days_since_update": 2
-   },
-   {
-    "id": "tanker-newbuild-orders",
-    "title": "Wave of newbuilding orders",
-    "status": "active",
-    "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn), and Teekay Tankers has ordered four more newbuildings, lifting its programme to six ships worth $525.9m. Contracting activity is reported elevated across wet and dry sectors, and Chinese yards are expanding capacity for container ship orders.",
-    "why_it_matters": "Large orderbook additions change future crude, product and dry bulk supply and shape secondhand values and recycling decisions.",
-    "latest": "Volare Shipping Ltd. filed an acquisition of a VLCC newbuild, and Chinese yards are reported to be building capacity to meet container ship orders.",
-    "watch": [
-     "vlcc_tce",
-     "suezmax_tce",
-     "bwet"
-    ],
-    "sources": [
-     "Volare Shipping Ltd.: Acquisition of VLCC newbuild",
-     "Chinese yards building capacity to meet container ship orders"
-    ],
-    "first_seen": "2026-11-12",
-    "last_update": "2026-11-14",
-    "days_running": 3,
-    "days_since_update": 0
+    "days_running": 18,
+    "days_since_update": 3
    },
    {
     "id": "china-ship-port-fees",
@@ -1740,11 +1743,13 @@
      "bdi",
      "bdry"
     ],
-    "sources": [],
+    "sources": [
+     "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft"
+    ],
     "first_seen": "2026-11-11",
     "last_update": "2026-11-11",
-    "days_running": 4,
-    "days_since_update": 3
+    "days_running": 5,
+    "days_since_update": 4
    },
    {
     "id": "black-sea-attacks",
@@ -1758,16 +1763,18 @@
      "bpi",
      "bsi"
     ],
-    "sources": [],
+    "sources": [
+     "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
+    ],
     "first_seen": "2026-10-30",
     "last_update": "2026-11-13",
-    "days_running": 16,
-    "days_since_update": 1
+    "days_running": 17,
+    "days_since_update": 2
    }
   ],
   "model": "claude-opus-5",
-  "written_at": "2026-11-14T06:20:04+00:00",
-  "cost_usd": 0.127
+  "written_at": "2026-11-15T06:21:59+00:00",
+  "cost_usd": 0.1254
  },
  "storylines": [
   {
@@ -1776,7 +1783,7 @@
    "status": "active",
    "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
    "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; depressed transit volumes reshape crude and product ton-miles.",
-   "latest": "Reported today that global oil markets are starting to recover from the Iran war but Hormuz shipping remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -1785,11 +1792,32 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Gulf Oil Exports Recover as Hormuz Shipping Struggles"
+    "Tanker Market Surged in October"
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-14",
-   "days_running": 16,
+   "days_running": 17,
+   "days_since_update": 1
+  },
+  {
+   "id": "jones-act-waiver",
+   "title": "US Jones Act waiver extended again",
+   "status": "active",
+   "what": "President Trump is extending the waiver allowing energy companies and traders to move oil, fertilizer and other commodities between US ports on foreign-flagged ships for another 90 days. Intended as a short-term response to Iran war energy disruptions, the pause has now stretched past 230 days.",
+   "why_it_matters": "The waiver keeps foreign-flag tonnage eligible for US coastwise cargoes, affecting demand for US-flag ships and the employment of product tankers in domestic trades.",
+   "latest": "Waiver extended a further 90 days, now past 230 days in force.",
+   "watch": [
+    "mr_tc14_tce",
+    "mr_tc2_tce",
+    "refining_margin"
+   ],
+   "sources": [
+    "Jones Act waiver gets another 90-day lifeline",
+    "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days"
+   ],
+   "first_seen": "2026-11-15",
+   "last_update": "2026-11-15",
+   "days_running": 1,
    "days_since_update": 0
   },
   {
@@ -1804,11 +1832,13 @@
     "suezmax_tce",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Tanker Market Surged in October"
+   ],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-12",
-   "days_running": 9,
-   "days_since_update": 2
+   "days_running": 10,
+   "days_since_update": 3
   },
   {
    "id": "russian-diesel-atlantic",
@@ -1823,32 +1853,13 @@
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [],
+   "sources": [
+    "Tanker Market Surged in October"
+   ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-12",
-   "days_running": 17,
-   "days_since_update": 2
-  },
-  {
-   "id": "tanker-newbuild-orders",
-   "title": "Wave of newbuilding orders",
-   "status": "active",
-   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn), and Teekay Tankers has ordered four more newbuildings, lifting its programme to six ships worth $525.9m. Contracting activity is reported elevated across wet and dry sectors, and Chinese yards are expanding capacity for container ship orders.",
-   "why_it_matters": "Large orderbook additions change future crude, product and dry bulk supply and shape secondhand values and recycling decisions.",
-   "latest": "Volare Shipping Ltd. filed an acquisition of a VLCC newbuild, and Chinese yards are reported to be building capacity to meet container ship orders.",
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "bwet"
-   ],
-   "sources": [
-    "Volare Shipping Ltd.: Acquisition of VLCC newbuild",
-    "Chinese yards building capacity to meet container ship orders"
-   ],
-   "first_seen": "2026-11-12",
-   "last_update": "2026-11-14",
-   "days_running": 3,
-   "days_since_update": 0
+   "days_running": 18,
+   "days_since_update": 3
   },
   {
    "id": "china-ship-port-fees",
@@ -1861,11 +1872,13 @@
     "bdi",
     "bdry"
    ],
-   "sources": [],
+   "sources": [
+    "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft"
+   ],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-11",
-   "days_running": 4,
-   "days_since_update": 3
+   "days_running": 5,
+   "days_since_update": 4
   },
   {
    "id": "black-sea-attacks",
@@ -1879,21 +1892,23 @@
     "bpi",
     "bsi"
    ],
-   "sources": [],
+   "sources": [
+    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
+   ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-13",
-   "days_running": 16,
-   "days_since_update": 1
+   "days_running": 17,
+   "days_since_update": 2
   }
  ],
  "storylines_closed": [],
  "brief_spend": {
-  "runs": 19,
-  "total_usd": 2.29,
+  "runs": 20,
+  "total_usd": 2.4154,
   "model": "claude-opus-5",
-  "last_run": "2026-11-14",
+  "last_run": "2026-11-15",
   "first_run": "2026-10-27",
-  "avg_usd": 0.1205,
+  "avg_usd": 0.1208,
   "projected_monthly_usd": 3.62
  }
 }

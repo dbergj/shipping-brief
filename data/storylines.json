@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T06:23:01+00:00",
+ "updated": "2026-11-15T06:24:58+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
@@ -7,7 +7,7 @@
    "status": "active",
    "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
    "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; depressed transit volumes reshape crude and product ton-miles.",
-   "latest": "Reported today that global oil markets are starting to recover from the Iran war but Hormuz shipping remains severely disrupted, with vessel traffic roughly 65% below pre-conflict levels.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,11 +16,32 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Gulf Oil Exports Recover as Hormuz Shipping Struggles"
+    "Tanker Market Surged in October"
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-14",
-   "days_running": 16,
+   "days_running": 17,
+   "days_since_update": 1
+  },
+  {
+   "id": "jones-act-waiver",
+   "title": "US Jones Act waiver extended again",
+   "status": "active",
+   "what": "President Trump is extending the waiver allowing energy companies and traders to move oil, fertilizer and other commodities between US ports on foreign-flagged ships for another 90 days. Intended as a short-term response to Iran war energy disruptions, the pause has now stretched past 230 days.",
+   "why_it_matters": "The waiver keeps foreign-flag tonnage eligible for US coastwise cargoes, affecting demand for US-flag ships and the employment of product tankers in domestic trades.",
+   "latest": "Waiver extended a further 90 days, now past 230 days in force.",
+   "watch": [
+    "mr_tc14_tce",
+    "mr_tc2_tce",
+    "refining_margin"
+   ],
+   "sources": [
+    "Jones Act waiver gets another 90-day lifeline",
+    "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days"
+   ],
+   "first_seen": "2026-11-15",
+   "last_update": "2026-11-15",
+   "days_running": 1,
    "days_since_update": 0
   },
   {
@@ -35,11 +56,13 @@
     "suezmax_tce",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Tanker Market Surged in October"
+   ],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-12",
-   "days_running": 9,
-   "days_since_update": 2
+   "days_running": 10,
+   "days_since_update": 3
   },
   {
    "id": "russian-diesel-atlantic",
@@ -54,32 +77,13 @@
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [],
+   "sources": [
+    "Tanker Market Surged in October"
+   ],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-12",
-   "days_running": 17,
-   "days_since_update": 2
-  },
-  {
-   "id": "tanker-newbuild-orders",
-   "title": "Wave of newbuilding orders",
-   "status": "active",
-   "what": "COSCO Shipping Development has ordered 16 VLCCs worth 13.43 billion yuan ($2.01bn), and Teekay Tankers has ordered four more newbuildings, lifting its programme to six ships worth $525.9m. Contracting activity is reported elevated across wet and dry sectors, and Chinese yards are expanding capacity for container ship orders.",
-   "why_it_matters": "Large orderbook additions change future crude, product and dry bulk supply and shape secondhand values and recycling decisions.",
-   "latest": "Volare Shipping Ltd. filed an acquisition of a VLCC newbuild, and Chinese yards are reported to be building capacity to meet container ship orders.",
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "bwet"
-   ],
-   "sources": [
-    "Volare Shipping Ltd.: Acquisition of VLCC newbuild",
-    "Chinese yards building capacity to meet container ship orders"
-   ],
-   "first_seen": "2026-11-12",
-   "last_update": "2026-11-14",
-   "days_running": 3,
-   "days_since_update": 0
+   "days_running": 18,
+   "days_since_update": 3
   },
   {
    "id": "china-ship-port-fees",
@@ -92,11 +96,13 @@
     "bdi",
     "bdry"
    ],
-   "sources": [],
+   "sources": [
+    "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft"
+   ],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-11",
-   "days_running": 4,
-   "days_since_update": 3
+   "days_running": 5,
+   "days_since_update": 4
   },
   {
    "id": "black-sea-attacks",
@@ -110,11 +116,13 @@
     "bpi",
     "bsi"
    ],
-   "sources": [],
+   "sources": [
+    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
+   ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-13",
-   "days_running": 16,
-   "days_since_update": 1
+   "days_running": 17,
+   "days_since_update": 2
   }
  ]
 }
