@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-15T06:24:58+00:00",
+ "updated": "2026-11-16T07:10:10+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and blockade enforcement around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November, with a Sinokor VLCC struck and four crew injured. Greenpeace has identified 540 possible oil spills across the Gulf, Hormuz and Arabian Sea since the US-Iran war began on 28 February.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued into November. Today's trade press reports a tanker confirmed struck in the Gulf, with Iran claiming two tankers hit mines and a VLCC sunk.",
    "why_it_matters": "Hull strikes and crew-safety concerns raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners; depressed transit volumes reshape crude and product ton-miles.",
-   "latest": null,
+   "latest": "A tanker was confirmed struck in the Gulf and Iran claims a VLCC sinking and two tankers hit by mines. Separately, Fujairah VLSFO rose $34.00 (+4.1%) to $856.50/t today, though the data does not establish a link.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,33 +16,52 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Tanker Market Surged in October"
+    "Tanker confirmed struck in the Gulf, Iran claims VLCC sinking"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-14",
-   "days_running": 17,
-   "days_since_update": 1
+   "last_update": "2026-11-16",
+   "days_running": 18,
+   "days_since_update": 0
+  },
+  {
+   "id": "black-sea-attacks",
+   "title": "Attacks on shipping in the Black Sea and Baltic",
+   "status": "active",
+   "what": "Drone strikes on merchant ships in the Black Sea have intensified. Three commercial vessels were struck near Romania's Sulina anchorage, prompting Romanian fighter jets to scramble and protests from Bucharest, while a freighter damaged in an earlier Russian drone strike is drifting toward Bulgarian waters.",
+   "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region; proximity to NATO territory widens the risk area.",
+   "latest": "Three more ships hit by drones off Romania, fighter jets scrambled, and an abandoned damaged freighter drifting south toward Bulgaria.",
+   "watch": [
+    "bdi",
+    "bpi",
+    "bsi"
+   ],
+   "sources": [
+    "Black Sea drone attacks trigger Romanian fighter jet scramble",
+    "Three More Ships Hit by Drone Strikes off Coast of Romania",
+    "Abandoned Freighter Drifts Towards Bulgarian Waters"
+   ],
+   "first_seen": "2026-10-30",
+   "last_update": "2026-11-16",
+   "days_running": 18,
+   "days_since_update": 0
   },
   {
    "id": "jones-act-waiver",
    "title": "US Jones Act waiver extended again",
-   "status": "active",
-   "what": "President Trump is extending the waiver allowing energy companies and traders to move oil, fertilizer and other commodities between US ports on foreign-flagged ships for another 90 days. Intended as a short-term response to Iran war energy disruptions, the pause has now stretched past 230 days.",
+   "status": "watch",
+   "what": "President Trump is extending the waiver allowing energy companies and traders to move oil, fertilizer and other commodities between US ports on foreign-flagged ships for another 90 days. The pause has now stretched past 230 days.",
    "why_it_matters": "The waiver keeps foreign-flag tonnage eligible for US coastwise cargoes, affecting demand for US-flag ships and the employment of product tankers in domestic trades.",
-   "latest": "Waiver extended a further 90 days, now past 230 days in force.",
+   "latest": null,
    "watch": [
     "mr_tc14_tce",
     "mr_tc2_tce",
     "refining_margin"
    ],
-   "sources": [
-    "Jones Act waiver gets another 90-day lifeline",
-    "Trump To Extend Shipping Waiver For Oil, Fertilizer For 90 Days"
-   ],
+   "sources": [],
    "first_seen": "2026-11-15",
    "last_update": "2026-11-15",
-   "days_running": 1,
-   "days_since_update": 0
+   "days_running": 2,
+   "days_since_update": 1
   },
   {
    "id": "shadow-fleet-sanctions",
@@ -56,19 +75,17 @@
     "suezmax_tce",
     "brent"
    ],
-   "sources": [
-    "Tanker Market Surged in October"
-   ],
+   "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-12",
-   "days_running": 10,
-   "days_since_update": 3
+   "days_running": 11,
+   "days_since_update": 4
   },
   {
    "id": "russian-diesel-atlantic",
    "title": "Russian diesel flows and export restrictions",
    "status": "watch",
-   "what": "A reported US-Russia arrangement on extra diesel for the US market has met political opposition, while Russia has extended a ban on most diesel exports to end-January. A tanker carrying Russian diesel that had signalled the US turned around off the US East Coast.",
+   "what": "A reported US-Russia arrangement on extra diesel for the US market has met political opposition, while Russia has extended a ban on most diesel exports to end-January.",
    "why_it_matters": "Diesel export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment.",
    "latest": null,
    "watch": [
@@ -77,13 +94,11 @@
     "lr2_tce",
     "refining_margin"
    ],
-   "sources": [
-    "Tanker Market Surged in October"
-   ],
+   "sources": [],
    "first_seen": "2026-10-29",
    "last_update": "2026-11-12",
-   "days_running": 18,
-   "days_since_update": 3
+   "days_running": 19,
+   "days_since_update": 4
   },
   {
    "id": "china-ship-port-fees",
@@ -96,33 +111,11 @@
     "bdi",
     "bdry"
    ],
-   "sources": [
-    "MSC Nears Deal To Buy Majority Stake In German Shipyard Meyer Werft"
-   ],
+   "sources": [],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-11",
-   "days_running": 5,
-   "days_since_update": 4
-  },
-  {
-   "id": "black-sea-attacks",
-   "title": "Attacks on shipping in the Black Sea and Baltic",
-   "status": "watch",
-   "what": "A Greek container ship sank after being hit by naval drones off Bulgaria, and Russia says its forces hit three cargo vessels it claims carried military goods for Ukraine. Finland's military said it detected a strike on a Russian warship in the Baltic Sea on Wednesday, while describing the regional security situation as stable.",
-   "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
-   "latest": null,
-   "watch": [
-    "bdi",
-    "bpi",
-    "bsi"
-   ],
-   "sources": [
-    "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks"
-   ],
-   "first_seen": "2026-10-30",
-   "last_update": "2026-11-13",
-   "days_running": 17,
-   "days_since_update": 2
+   "days_running": 6,
+   "days_since_update": 5
   }
  ]
 }

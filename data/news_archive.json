@@ -66,6 +66,32 @@
    "nordic": true
   },
   {
+   "title": "Himalaya Shipping Ltd. (HSHP)   Conversions to fixed rate time charters for two vessels",
+   "link": "https://newsweb.oslobors.no/message/686541",
+   "published": "2026-11-16T07:00:08+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/686528",
+   "published": "2026-11-16T04:03:17+00:00",
+   "source": "Oslo Børs",
+   "ticker": "JIN",
+   "company": "Jinhui Shipping and Transport. Ltd",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Teekay Tankers filed a 6-K (periodic report)",
    "summary": "",
    "link": "https://www.sec.gov/Archives/edgar/data/1419945/000141994526000072/tnk6-kq3x26.htm",
@@ -596,6 +622,19 @@
    "rank": 2
   },
   {
+   "title": "Stainless Tankers - Ex. dividend of USD 0.135 per share today",
+   "link": "https://newsweb.oslobors.no/message/686530",
+   "published": "2026-11-16T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "STST",
+   "company": "Stainless Tankers ASA",
+   "category": "Ex Date",
+   "kind": "company",
+   "routine": false,
+   "rank": 4,
+   "nordic": true
+  },
+  {
    "title": "Volare Shipping Ltd.: New share capital registered",
    "link": "https://newsweb.oslobors.no/message/685604",
    "published": "2026-11-04T13:16:30+00:00",
@@ -733,6 +772,249 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Energos awards FSRU conversion gig to Hanwha Power",
+   "link": "https://lngprime.com/asia/energos-awards-fsru-conversion-gig-to-hanwha-power/200032/",
+   "published": "2026-11-16T07:00:22+00:00",
+   "summary": "US-based Energos Infrastructure, controlled by asset manager Apollo, has awarded a turnkey contract to Hanwha Power, part of South Korean conglomerate Hanwha, to convert an existing LNG carrier into a floating storage and regasification unit (FSRU).",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Samsung Heavy clinches LNG carrier order",
+   "link": "https://lngprime.com/asia/samsung-heavy-clinches-lng-carrier-order/200023/",
+   "published": "2026-11-16T06:43:06+00:00",
+   "summary": "South Korean shipbuilding giant Samsung Heavy Industries has secured an order to build one liquefied natural gas (LNG) carrier for approximately $257 million.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Black Sea drone attacks trigger Romanian fighter jet scramble",
+   "link": "https://splash247.com/black-sea-drone-attacks-trigger-romanian-fighter-jet-scramble/",
+   "published": "2026-11-16T06:35:27+00:00",
+   "summary": "Three commercial vessels have been struck by drones near Romania’s Black Sea coast, prompting the scrambling of fighter jets and fresh warnings from Bucharest as the maritime war between Russia and Ukraine moves increasingly close to NATO territory. Romanian prime minister Luca Niculescu confirmed on Sunday that three ships had been attacked near the Sulina …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Steering failure blamed for New Orleans tanker-cruise ship collision",
+   "link": "https://splash247.com/steering-failure-blamed-for-new-orleans-tanker-cruise-ship-collision/",
+   "published": "2026-11-16T06:23:57+00:00",
+   "summary": "A steering failure aboard the asphalt tanker Atlantic Asphalt has emerged as the likely cause of Friday’s collision with a river cruise ship in New Orleans, with US investigators revealing that the vessel lost steering control just two minutes before impact. The National Transportation Safety Board (NTSB) said preliminary analysis of the tanker’s voyage data …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Container peak season easing, port congestion ties up 10% of fleet",
+   "link": "",
+   "published": "2026-11-16T06:11:43+00:00",
+   "summary": "A return to Suez routings and fleet growth from newbuildings may not reduce freight rates across the globe says DHL Global Forwarding",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Woodfibre LNG gets $140 million from Canada to boost capacity",
+   "link": "https://lngprime.com/lng-terminals/woodfibre-lng-gets-140-million-from-canada-to-boost-capacity/200008/",
+   "published": "2026-11-16T05:18:00+00:00",
+   "summary": "Canada’s Woodfibre LNG, a joint venture of Pacific Energy and Enbridge, has received C$200 million from Canada to boost the capacity of its 2.1 mtpa LNG export facility under construction near Squamish in British Columbia.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Top 5 news of the week November 9-15",
+   "link": "https://lngprime.com/americas/top-5-news-of-the-week-november-9-15/199999/",
+   "published": "2026-11-16T05:14:00+00:00",
+   "summary": "LNG Prime brings you the five most popular news stories on our platform during the week of November 9-15, 2026.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Video: France's Navy Makes First Semisub Drug Bust in the Atlantic",
+   "link": "https://maritime-executive.com/article/video-france-s-navy-makes-first-semisub-drug-bust-in-the-atlantic",
+   "published": "2026-11-16T04:38:00+00:00",
+   "summary": "France's navy has intercepted a semisubmersible in the Atlantic and captured a commercial quantity of cocaine, a first for the sea service, according...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Three More Ships Hit by Drone Strikes off Coast of Romania",
+   "link": "https://maritime-executive.com/article/three-more-ships-hit-by-drone-strikes-off-coast-of-romania",
+   "published": "2026-11-16T03:47:00+00:00",
+   "summary": "Romania's government is protesting a new series of strikes on merchant shipping off the coast of Sulina, a busy anchorage area and a strategic waypoin...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker confirmed struck in the Gulf, Iran claims VLCC sinking",
+   "link": "",
+   "published": "2026-11-16T03:32:56+00:00",
+   "summary": "Iran continues to target commercial shipping in and around the Strait of Hormuz as it claims two tankers hit mines",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Abandoned Freighter Drifts Towards Bulgarian Waters",
+   "link": "https://maritime-executive.com/article/abandoned-freighter-drifts-towards-bulgarian-waters",
+   "published": "2026-11-16T03:31:58+00:00",
+   "summary": "A freighter damaged in a Russian drone strike two months ago is now drifting south along the Romanian coast at a swift pace, and is heading toward Bul...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Norway’s court invalidates approvals for three offshore developments",
+   "link": "https://splash247.com/norways-court-invalidates-approvals-for-three-offshore-developments/",
+   "published": "2026-11-16T02:40:00+00:00",
+   "summary": "Norway’s Supreme Court has ruled that government approvals for three major North Sea oil and gas developments are invalid because their environmental assessments failed to adequately account for greenhouse gas emissions. The ruling concerns Equinor’s Breidablikk field and Aker BP’s Tyrving and Yggdrasil developments, whose approval processes environmental organisations Greenpeace and Natur og Ungdom challenged …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Subsea 7 lands US Gulf deepwater contract",
+   "link": "https://splash247.com/subsea-7-lands-us-gulf-deepwater-contract/",
+   "published": "2026-11-16T02:30:00+00:00",
+   "summary": "Norwegian offshore engineering and construction specialist Subsea 7 has secured a contract worth between $50m and $150m from Kosmos Energy for the Tiberius development in the US Gulf. The deal covers the fabrication, transportation and installation of a 14 km steel catenary riser and wet-insulated flowline connecting the deepwater development to Occidental’s existing Lucius spar. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "DP World extends port concessions in Chile and the Philippines",
+   "link": "",
+   "published": "2026-11-16T02:16:45+00:00",
+   "summary": "Dubai-headquartered terminal operator renews concessions in Manila and San Antonio, Chile well ahead of expiration of existing contracts",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "BP plans eighth drilling rig for giant Caspian oilfield",
+   "link": "https://splash247.com/bp-plans-eighth-drilling-rig-for-giant-caspian-oilfield/",
+   "published": "2026-11-16T02:10:00+00:00",
+   "summary": "Supermajor BP plans to introduce an eighth drilling rig at the Azeri-Chirag-Gunashli (ACG) offshore oilfield complex in Azerbaijan to increase activity and sustain production from the mature development. Dan Sparkes, BP’s VP for subsurface activities in Azerbaijan, Georgia, and Turkey, disclosed the plan during an industry event organised by BP and state-owned SOCAR in Baku. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Can a US-Approved Sale Clean a Shadow Fleet Tanker?",
+   "link": "https://maritime-executive.com/article/us-approved-sale-shadow-fleet-tanker",
+   "published": "2026-11-16T01:35:00+00:00",
+   "summary": "On October 19, US Energy Secretary Chris Wright told an audience in New York that Washington would move some ships from \"the bad-guy fleet to the good...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "The Hardest Part of Maritime Regulation Begins After the Rule Is Written",
+   "link": "https://maritime-executive.com/article/hardest-part-maritime-regulation-after-the-rule",
+   "published": "2026-11-16T01:26:00+00:00",
+   "summary": "Maritime regulation is often discussed in terms of the rules themselves: what has been agreed, when it enters into force, and what ships, owners or op...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Steering Problem On Tanker Caused Collision In New Orleans",
+   "link": "https://gcaptain.com/steering-problem-on-tanker-caused-collision-in-new-orleans/",
+   "published": "2026-11-16T00:26:49+00:00",
+   "summary": "By Siddharth Cavale Nov 15 (Reuters) – The asphalt tanker vessel that struck a docked paddlewheel cruise boat in the Mississippi River at New Orleans last week experienced a steering problem in which its...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tankers: A Crude Correction, But Rates Remain Well Above Historical Levels",
+   "link": "https://www.hellenicshippingnews.com/tankers-a-crude-correction-but-rates-remain-well-above-historical-levels/",
+   "published": "2026-11-15T22:00:59+00:00",
+   "summary": "A combination of factors have forced the tanker market rates lower this past month, but they still remain quite elevated by historical standards. In its latest weekly report, shipbroker Gibson said that “crude tanker freight rates have taken a beating this month albeit from unprecedented highs, with key benchmarks dropping more than 50%. The rout ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO faces challenges in net-zero framework compliance without emissions cost",
+   "link": "https://www.hellenicshippingnews.com/imo-faces-challenges-in-net-zero-framework-compliance-without-emissions-cost/",
+   "published": "2026-11-15T22:00:58+00:00",
+   "summary": "Countries are struggling to design rules to make shipping companies comply with a new bunker regulation designed to reduce greenhouse gas emissions, a senior International Bunker Industry Association official said Nov. 12, as Washington leads opposition to financial punitive measures. International Maritime Organization member states, having failed to adopt the Net-Zero Framework as scheduled in ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dry Bulk Shipping: Capesizes Retain Positive Momentum",
+   "link": "https://www.hellenicshippingnews.com/dry-bulk-shipping-capesizes-retain-positive-momentum-2/",
+   "published": "2026-11-15T22:00:58+00:00",
+   "summary": "Capesize The Capesize market maintained a positive trajectory throughout the week, with the Pacific emerging as the clear driver of overall gains. Despite some midweek volatility, improving miner demand and increasingly competitive fixing levels saw C5 recover strongly, climbing from $13.80 on Monday to $15.20 by Thursday, before easing back to $14.50–$14.60 towards the end ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VLCC Deliveries Rise Fivefold as the Orderbook Builds",
+   "link": "https://www.hellenicshippingnews.com/vlcc-deliveries-rise-fivefold-as-the-orderbook-builds/",
+   "published": "2026-11-15T22:00:57+00:00",
+   "summary": "VLCC supply is starting to arrive. After a sharp rise in ordering, the first of the new tonnage is reaching the water, with deliveries already well ahead of last year. Using VesselsValue data, we look at what is on order, who is building it, and why owners keep ordering at near-record prices. VLCC deliveries have ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VLCCs Remained Under Pressure Last Week",
+   "link": "https://www.hellenicshippingnews.com/vlccs-remained-under-pressure-last-week/",
+   "published": "2026-11-15T22:00:56+00:00",
+   "summary": "Clean LR2 The TC1 75kt MEG/Japan index ultimately ticked up by 8 points this week to WS1016, while the corresponding Baltic round-trip TCE edged up by $3,061 to $298,000/day. For the TC20 90kt MEG/UK-Continent run, the index rose by $264,000 to $19.23 million, corresponding to $297,300/day on Baltic round trip. The TC15 80kt Mediterranean/East index ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Imported Goods Keep Surging Through Southern California Ports",
+   "link": "https://gcaptain.com/imported-goods-keep-surging-through-southern-california-ports/",
+   "published": "2026-11-15T21:19:58+00:00",
+   "summary": "By Laura Curtis Nov 15, 2026, (Bloomberg)–Import containers moving through the US’s busiest trade hub passed the one million mark for the second time in October, as some firms bring in...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hong Kong’s five-year clock",
+   "link": "https://splash247.com/hong-kongs-five-year-clock/",
+   "published": "2026-11-15T20:23:00+00:00",
+   "summary": "From tax reform and green bunkering to ship registration and a new partnership with Shanghai, the government in Hong Kong is pursuing an increasingly ambitious maritime strategy. The challenge is turning policy commitments into lasting commercial activity. The latest instalment from our new Hong Kong magazine, which is being distributed across the city’s maritime week. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Three Ships Struck By Drones In Black Sea Near Romanian Shipping Canal",
+   "link": "https://gcaptain.com/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal/",
+   "published": "2026-11-15T17:31:34+00:00",
+   "summary": "BUCHAREST, Nov 15 (Reuters) – Drones have struck three commercial ships in the Black Sea near Romania’s Sulina canal, Prime Minister Luca Niculescu said on Sunday, adding that his armed forces had scrambled fighter jets...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "American Heritage Captain, Crew and Tug Operators Hailed as Heroes After Mississippi River Capsizing",
+   "link": "https://gcaptain.com/american-heritage-captain-crew-and-tug-operators-hailed-as-heroes-after-mississippi-river-capsizing/",
+   "published": "2026-11-15T16:02:22+00:00",
+   "summary": "The captain and crew of the American Heritage, along with tugboat operators and first responders who rushed to the scene, are being hailed as heroes following Friday’s dramatic collision on...",
+   "source": "gCaptain",
    "kind": "market",
    "nordic": false
   },
