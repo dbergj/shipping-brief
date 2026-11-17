@@ -66,6 +66,19 @@
    "nordic": true
   },
   {
+   "title": "2020 Bulkers Ltd. (Euronext Oslo Børs  2020  and Euronext NOTC  2020T )   CFO Transition",
+   "link": "https://newsweb.oslobors.no/message/686655",
+   "published": "2026-11-17T07:00:08+00:00",
+   "source": "Oslo Børs",
+   "ticker": "2020",
+   "company": "2020 Bulkers Ltd.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Himalaya Shipping Ltd. (HSHP)   Conversions to fixed rate time charters for two vessels",
    "link": "https://newsweb.oslobors.no/message/686541",
    "published": "2026-11-16T07:00:08+00:00",
@@ -772,6 +785,267 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ethanol–biodiesel–diesel blends run reliably in pilot marine engine trial",
+   "link": "https://ship.energy/information/ethanol-biodiesel-diesel-blends-run-reliably-in-pilot-marine-engine-trial/",
+   "published": "2026-11-17T14:04:09+00:00",
+   "summary": "A Singapore pilot-scale trial of ethanol blends on a four-stroke marine diesel engine of harbour-craft size showed reliable operations, although the blends tested ‘are not yet a drop-in fuel under current rules’. This was one of the key findings published this week (16 November), alongside the executive summary to a new report, Feasibility Study on Adopting Ethanol as a Sustainable Marine Fuel for Ships in Singapore,",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Interferry2026: Global Ferry Leaders Convened in Bangkok for 50th Annual Conference",
+   "link": "https://www.marinelink.com/news/interferry-global-ferry-leaders-convened-544413",
+   "published": "2026-11-17T13:07:03+00:00",
+   "summary": "The global ferry industry convened on the banks of the Chao Phraya River in Bangkok, Thailand, for the 50th annual Interferry conference. Half a century after its founding, the trade association brought together executives from major ferry groups…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index falls to 2893 down 28 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-2893-down-28-points/",
+   "published": "2026-11-17T13:00:14+00:00",
+   "summary": "Today, Tuesday, November 17 2026, the Baltic Dry Index decreased by 28 points, reaching 2893 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Semco Maritime and PTSC bag Taiwan offshore wind deal",
+   "link": "https://splash247.com/semco-maritime-and-ptsc-bag-taiwan-offshore-wind-deal/",
+   "published": "2026-11-17T13:00:00+00:00",
+   "summary": "Denmark’s Semco Maritime and Vietnam’s PTSC Mechanical & Construction have secured an offshore substation contract for Copenhagen Infrastructure Partners’ (CIP) 600MW Fengmiao II offshore wind project in Taiwan. The agreement covers engineering, procurement, fabrication, and installation of the substation, which will form part of the wind farm’s electricity transmission infrastructure. Semco Maritime will handle engi",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Independent investigation refutes $250m X-Press Pearl bribery allegation",
+   "link": "",
+   "published": "2026-11-17T12:53:13+00:00",
+   "summary": "A Sigma7 report found no evidence of allegations that $250m was paid to influence the Sri Lankan authorities in relation to compensation claims",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Vietnam eyes more Russian LNG supplies",
+   "link": "https://lngprime.com/asia/vietnam-eyes-more-russian-lng-supplies/200110/",
+   "published": "2026-11-17T12:48:05+00:00",
+   "summary": "State-owned Petrovietnam is interested in buying liquefied natural gas (LNG) supplies from the Ust-Luga project in Russia's northwest Leningrad region.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Frontera plans Colombian LNG power plant",
+   "link": "https://lngprime.com/americas/frontera-plans-colombian-lng-power-plant/200128/",
+   "published": "2026-11-17T12:47:11+00:00",
+   "summary": "Canadian firm Frontera Energy is evaluating entry into power generation, anchored by its FSRU-based LNG import facility in Cartagena, Colombia, which is expected to start operations in 2027.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Neptune Robotics to Test AI Hull Cleaning on Louis Dreyfus Vessels",
+   "link": "https://www.marinelink.com/news/neptune-robotics-test-ai-hull-cleaning-544412",
+   "published": "2026-11-17T12:36:15+00:00",
+   "summary": "Louis Dreyfus Company (LDC) and Neptune Robotics have agreed to collaborate on robotic vessel hull cleaning trials in Singapore under an innovation program run by the Maritime and Port Authority of Singapore (MPA).The 18-month program will evaluate in-water hull inspection and cleaning technologies…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Incat Crowther to Design New Canadian Fast Response Workboat",
+   "link": "https://www.marinelink.com/news/incat-crowther-design-new-canadian-fast-544410",
+   "published": "2026-11-17T12:20:01+00:00",
+   "summary": "Incat Crowther has been selected by Canadian marine transportation company West Coast Launch to design a new fast response workboat and crew transfer vessel (CTV), with construction assigned to Canadian shipyard Bracewell Marine.The new 25.8-metre vessel will be based on the design of Aurora…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fincantieri's WASS, Bharat Dynamics Partner on Underwater Defense Systems in India",
+   "link": "https://www.marinelink.com/news/fincantieris-wass-bharat-dynamics-partner-544409",
+   "published": "2026-11-17T12:14:52+00:00",
+   "summary": "Fincantieri subsidiary WASS Submarine Systems and India's Bharat Dynamics Limited (BDL) have signed a Memorandum of Understanding (MoU) to explore industrial cooperation in heavyweight torpedoes and underwater countermeasure systems, supporting…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bangladesh seeks adviser for Matarbari LNG terminal",
+   "link": "https://lngprime.com/asia/bangladesh-seeks-adviser-for-matarbari-lng-terminal/200117/",
+   "published": "2026-11-17T12:04:34+00:00",
+   "summary": "Bangladesh is seeking to hire advisers or consultants for the planned onshore liquefied natural gas (LNG) import terminal at Matarbari, Cox’s",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "TechnipFMC extends charter of DOF CSV",
+   "link": "https://splash247.com/technipfmc-extends-charter-of-dof-csv/",
+   "published": "2026-11-17T12:00:00+00:00",
+   "summary": "Norwegian offshore vessel owner DOF has secured a new contract from TechnipFMC for its subsea construction vessel (CSV) Skandi Africa, extending a partnership that dates back more than a decade. DOF has classified the agreement as very large, valued at between $100m and $200m, and it will commence immediately after the vessel’s existing commitment. Built …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "LOTTE Fine Chemical and Höegh Autoliners sign MoU on green ammonia fuel supply",
+   "link": "https://ship.energy/information/lotte-fine-chemical-and-hoegh-autoliners-sign-mou-on-green-ammonia-fuel-supply/",
+   "published": "2026-11-17T11:37:09+00:00",
+   "summary": "South Korea’s LOTTE Fine Chemical and Höegh Autoliners have signed an agreement to work together on developing a fuel supply chain for the car carrier’s ammonia-powered vessels in tandem with bunkering infrastructure. Announcing the partnership on a social media post this week, LOTTE Fine Chemical said the two companies will initially focus on fuel supply and bunkering in South Korea but will also explore the opportu",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Univers and MMMCZCS teaming up on maritime AI",
+   "link": "https://ship.energy/technology/univers-and-mmmczcs-teaming-up-on-maritime-ai/",
+   "published": "2026-11-17T11:09:51+00:00",
+   "summary": "Singapore-based Univers has announced that it will be working with the Mærsk Mc-Kinney Møller Center for Zero Carbon Shipping (MMMCZCS) on the use of Artificial Intelligence (AI) to support ‘systemic maritime decarbonisation’. In a statement issued yesterday (16 November), Univers said that: ‘The collaboration will explore how AI can improve maritime operations, including through a Return on Intelligence framework fo",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CIMAC voices support for a global IMO Net Zero Framework",
+   "link": "https://ship.energy/energy/cimac-voices-support-for-a-global-imo-net-zero-framework/",
+   "published": "2026-11-17T11:08:41+00:00",
+   "summary": "Non-profit association CIMAC says that the International Maritime Organization’s (IMO) Net-Zero Framework ‘can create a credible long-term demand signal for zero- and near-zero-emission fuels’ but its Greenhouse Gas Strategy Group cautions that growing regulatory uncertainty could be a barrier to investment in shipping’s decarbonisation. In a statement issued yesterday (16 November), CIMAC noted that a globally align",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Melina Travlou: IMO Must Listen to the Shipping Industry and Pursue a Realistic, Globally Balanced Decarbonisation Framework",
+   "link": "https://www.hellenicshippingnews.com/melina-travlou-imo-must-listen-to-the-shipping-industry-and-pursue-a-realistic-globally-balanced-decarbonisation-framework/",
+   "published": "2026-11-17T11:00:59+00:00",
+   "summary": "Two months after the latest round of negotiations at the IMO on reducing greenhouse gas (GHG) emissions from international shipping ended without an outcome, and ahead of their critical resumption, there are no signs of any meaningful progress. During discussions in Europe, Greece, together with three other EU Member States, which collectively control 70% of ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO’s Marine Environment Protection Committee (MEPC 85) to discuss shipping emissions, pollution and other ocean issues",
+   "link": "https://www.hellenicshippingnews.com/imos-marine-environment-protection-committee-mepc-85-to-discuss-shipping-emissions-pollution-and-other-ocean-issues/",
+   "published": "2026-11-17T11:00:57+00:00",
+   "summary": "The Marine Environment Protection Committee (MEPC) of the International Maritime Organization (IMO) will meet for its 85th session at IMO Headquarters in London from 30 November to 3 December 2026. Secretary-General Dominguez will host a Q&A session for the media on 30 November (1.45pm to 2.30pm) – details below. MEPC is the main organ addressing ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ocean Climate Commitments Reveal How Countries Can Overcome Implementation Challenges",
+   "link": "https://www.hellenicshippingnews.com/ocean-climate-commitments-reveal-how-countries-can-overcome-implementation-challenges/",
+   "published": "2026-11-17T11:00:55+00:00",
+   "summary": "In recent months, the world has felt the consequences of inaction on climate change, with a super El Niño, amplified by warmer temperatures, wreaking havoc across the globe. If this wasn’t enough, the UN Environment Programme’s 2026 Emissions Gap Report found that current policies could lead to around 2.8 degrees C (5 degrees F) of ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bangladesh ship recyclers face rising costs as steel prices fall",
+   "link": "https://www.hellenicshippingnews.com/bangladesh-ship-recyclers-face-rising-costs-as-steel-prices-fall/",
+   "published": "2026-11-17T11:00:53+00:00",
+   "summary": "Bangladesh’s ship recyclers are paying more in local currency to acquire vessels while prices for recovered steel fall, putting pressure on returns, according to Wirana Shipping, a global specialist in ship recycling. Local steel plate prices declined by USD 6 per tonne and scrap prices fell by USD 8 per tonne during the reporting week. ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Allseas taps Aker Solutions for massive topside dismantling job",
+   "link": "https://splash247.com/allseas-taps-aker-solutions-for-massive-topside-dismantling-job/",
+   "published": "2026-11-17T11:00:00+00:00",
+   "summary": "Norwegian offshore engineering group Aker Solutions has received a letter of intent from Allseas to dismantle and recycle Equinor’s Statfjord A platform topside in the North Sea. The agreement covers preparatory work, reception, dismantling and recycling of the approximately 50,000-tonne structure at Aker Solutions’ Stord facility in western Norway. Classified as sizeable by Aker Solutions, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Apache keeps North Sea assets producing despite worker walkouts",
+   "link": "https://splash247.com/apache-keeps-north-sea-assets-producing-despite-worker-walkouts/",
+   "published": "2026-11-17T10:00:00+00:00",
+   "summary": "US energy company Apache said that production from its UK North Sea assets remains unaffected despite escalating industrial action involving around 170 offshore workers. Members of the Unite union staged a series of rolling strikes across seven Apache-operated installations over the weekend as part of an ongoing dispute concerning pay and working conditions. Workers on …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Has the time come for ethanol as a maritime fuel?",
+   "link": "",
+   "published": "2026-11-17T09:48:18+00:00",
+   "summary": "Ethanol is a low carbon fuel and with a ready distribution network the Global Centre for Green Fuels (GCGF) argues its time has come",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hong Kong launches first international green shipping corridor to Greece",
+   "link": "",
+   "published": "2026-11-17T08:48:51+00:00",
+   "summary": "Hong Kong signs green shipping corridor pact with Piraeus, alongside partner-port and green-fuel deals with Yangpu and Zhanjiang",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "African nations join forces to impose carbon charges on shipping",
+   "link": "https://splash247.com/african-nations-join-forces-to-impose-carbon-charges-on-shipping/",
+   "published": "2026-11-17T08:32:05+00:00",
+   "summary": "A growing group of African nations is pushing ahead with plans to introduce carbon charges on international shipping, raising the prospect of another regional emissions regime for shipowners already grappling with European environmental legislation. Guinea, Ivory Coast and Mauritania have signed an agreement at the COP31 climate summit in Antalya, Turkey, to develop a coordinated …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China emerges as dry bulk export powerhouse",
+   "link": "https://splash247.com/china-emerges-as-dry-bulk-export-powerhouse/",
+   "published": "2026-11-17T08:15:02+00:00",
+   "summary": "China’s transformation from the world’s dominant dry bulk importer into an increasingly significant exporter is gathering pace, with outbound cargo volumes more than doubling since 2020 and accounting for nearly two-thirds of global dry bulk shipment growth this year. New analysis from Ursa Shipbrokers, using Signal Ocean vessel-tracking data, shows Chinese dry bulk loadings reached …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wisdom Marine orders bulker pair at Tsuneishi Shipbuilding",
+   "link": "",
+   "published": "2026-11-17T08:09:18+00:00",
+   "summary": "Taiwanese owner books two bulk carrier newbuilds at up to $42 million each",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cheniere promotes Zach Davis to president and CFO",
+   "link": "https://lngprime.com/americas/cheniere-promotes-zach-davis-to-president-and-cfo/200100/",
+   "published": "2026-11-17T07:25:57+00:00",
+   "summary": "US LNG exporting giant Cheniere has promoted Zach Davis to president and chief financial officer, effective November 12.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "No relief yet for ship recyclers, EU rejects Indian yard pair",
+   "link": "",
+   "published": "2026-11-17T07:21:26+00:00",
+   "summary": "There’s still no sign of a recycling rebound as an EU vote rules out two Indian yards for European owners",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "On-and-Off Strikes Continue on Apache's North Sea Platforms",
+   "link": "https://maritime-executive.com/article/on-and-off-strikes-continue-on-apache-s-north-sea-platforms",
+   "published": "2026-11-17T04:58:00+00:00",
+   "summary": "Independent oil company Apache faces an intensifying strike organized by UK union Unite, which has already disrupted work on several North Sea platfor...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
