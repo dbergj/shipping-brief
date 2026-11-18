@@ -66,6 +66,45 @@
    "nordic": true
   },
   {
+   "title": "HAFNIA LIMITED: Key information relating to dividend for the third quarter 2026",
+   "link": "https://newsweb.oslobors.no/message/686775",
+   "published": "2026-11-18T06:32:10+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAFNI",
+   "company": "Hafnia Limited",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "HAFNIA FINANCIAL INFORMATION Q3 2026",
+   "link": "https://newsweb.oslobors.no/message/686774",
+   "published": "2026-11-18T06:30:43+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAFNI",
+   "company": "Hafnia Limited",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "MPC Container Ships ASA: Invitation to Q3 2026 Earnings Call",
+   "link": "https://newsweb.oslobors.no/message/686762",
+   "published": "2026-11-18T06:00:03+00:00",
+   "source": "Oslo Børs",
+   "ticker": "MPCC",
+   "company": "MPC Container Ships ASA",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "2020 Bulkers Ltd. (Euronext Oslo Børs  2020  and Euronext NOTC  2020T )   CFO Transition",
    "link": "https://newsweb.oslobors.no/message/686655",
    "published": "2026-11-17T07:00:08+00:00",
@@ -784,6 +823,204 @@
    "link": "",
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bar Cruise Port Concludes a Record-Breaking 2026 Cruise Season",
+   "link": "https://maritime-executive.com/article/bar-cruise-port-concludes-a-record-breaking-2026-cruise-season",
+   "published": "2026-11-18T03:19:00+00:00",
+   "summary": "Bar Cruise Port, part of the Global Ports Holding (GPH) network, the world's largest cruise port operator, has successfully concluded its 2026 cruise...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NYK unveils first vessel with ammonia fuelled main and auxiliary engines",
+   "link": "",
+   "published": "2026-11-18T02:54:42+00:00",
+   "summary": "The medium gas carrier newbuilding is equipped with engines domestically manufactured in Japan",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MS&D Conference & Expo and GSIS to Create a Joint Platform in 2027",
+   "link": "https://maritime-executive.com/article/msd-conference-expo-and-gsis-to-create-a-joint-platform-in-2027",
+   "published": "2026-11-18T02:17:00+00:00",
+   "summary": "The MS&D – International Conference & Expo on Maritime Security & Defence is continuing on its path as an annual format: On December 8 and 9, 2027, th...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Eastern Shipbuilding Awarded Contract for DDG 139 Structural Units",
+   "link": "https://maritime-executive.com/article/eastern-shipbuilding-awarded-contract-for-ddg-139-structural-units",
+   "published": "2026-11-18T02:16:00+00:00",
+   "summary": "Eastern Shipbuilding Group, Inc. (ESG) is pleased to announce it has been awarded a contract agreement with HII’s Ingalls Shipbuilding division to sup...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "The Nautical Institute Names Pilot Transfer Safety Competition Winner",
+   "link": "https://maritime-executive.com/article/the-nautical-institute-names-pilot-transfer-safety-competition-winner",
+   "published": "2026-11-18T02:16:00+00:00",
+   "summary": "Elliott Steinberg, a student at Wismar University of Applied Sciences in Germany, has won The Nautical Institute’s global student competition on pilot...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Egypt Thanks Crew for Saving Egyptian-Owned Ship and its Russian Cargo",
+   "link": "https://maritime-executive.com/article/egypt-thanks-crew-for-saving-egyptian-owned-ship-and-its-russian-cargo",
+   "published": "2026-11-18T00:26:00+00:00",
+   "summary": "Turkey's government has extended its thanks and praise to the crew of an Egyptian-owned bulker for their efforts to save their ship and its Russian ca...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "How to Reduce False Positives in Vessel Screening Without Missing Real Risk",
+   "link": "https://www.hellenicshippingnews.com/how-to-reduce-false-positives-in-vessel-screening-without-missing-real-risk/",
+   "published": "2026-11-17T22:00:59+00:00",
+   "summary": "Screening Alerts Are a Volume Problem Before They Are Anything Else Every compliance team that touches maritime trade runs vessels through a screening system before a transaction proceeds. The system checks the vessel against sanctions lists, looks at its recent movements, flags anything that resembles a risk indicator, and produces an alert. An alert is ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Newbuilding Activity Shows Signs of “Fatigue”",
+   "link": "https://www.hellenicshippingnews.com/newbuilding-activity-shows-signs-of-fatigue/",
+   "published": "2026-11-17T22:00:59+00:00",
+   "summary": "After weeks of growth, newbuilding activity has slowed down last week. In its latest weekly report, shipbroker Banchero Costa said that “newbuilding activity this week was somewhat more subdued, with 28 vessels reported across a broad range of sectors. Despite the lower number of contracts, activity remained well distributed, with notable orders in the bulk ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Gulf Earnings Give Way as VLCC Ballasters Build East of Suez",
+   "link": "https://www.hellenicshippingnews.com/gulf-earnings-give-way-as-vlcc-ballasters-build-east-of-suez/",
+   "published": "2026-11-17T22:00:58+00:00",
+   "summary": "In Week 46, freight weakness spread to Gulf routes, following a Week 45 correction that had primarily impacted the Atlantic (where Gulf VLCC earnings dropped under 5%). East of Suez, average ballast VLCC counts rose from 415 to 434 vessels, while laden VLCC counts fell from 341 to 321. Consequently, the ballast surplus expanded from ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Clean Shipping Alliance Disappointed on Greenland’s scrubber ban",
+   "link": "https://www.hellenicshippingnews.com/clean-shipping-alliance-disappointed-on-greenlands-scrubber-ban/",
+   "published": "2026-11-17T22:00:57+00:00",
+   "summary": "We are disappointed to see Greenland announce restrictions on exhaust gas cleaning systems (EGCS, or “scrubbers”), starting in 2027. Of course, protecting the Arctic’s sensitive marine environment is important, no question. What we haven’t yet understood, though, is what specific risk Greenland has identified from EGCS in its waters, and how that risk was assessed. ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Black Sea Grain Trade Shifts to the Baltic",
+   "link": "https://www.hellenicshippingnews.com/black-sea-grain-trade-shifts-to-the-baltic/",
+   "published": "2026-11-17T22:00:57+00:00",
+   "summary": "Ukraine and Russia are often called the breadbasket of the world because of their fertile soil and their key role in the global food supply chain. When the war in Ukraine broke out worries about Black Sea grain supply followed, yet grain exports from the region have remained largely intact. Recently, however, attacks on merchant ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Curtin Harbor Services Appoints Ralph Franjul as General Manager",
+   "link": "https://www.marinelink.com/news/curtin-harbor-services-appoints-ralph-544430",
+   "published": "2026-11-17T21:08:32+00:00",
+   "summary": "Ralph Franjul has been appointed as the General Manager of Curtin Harbor Services (CHS). As a newly formed zero-emission harbor towage company, CHS is building a fleet of eight battery-electric tugs to serve the California market at the Snow & Company shipyard in Seattle, Washington.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Coast Guard Icebreaker Returns From 133-Day Arctic Patrol Monitoring Chinese Research Vessels",
+   "link": "https://gcaptain.com/u-s-coast-guard-icebreaker-returns-from-133-day-arctic-patrol-monitoring-chinese-research-vessels/",
+   "published": "2026-11-17T20:44:35+00:00",
+   "summary": "The U.S. Coast Guard’s newest polar icebreaker, Storis (WAGB 21), has returned to Seattle following a 133-day Arctic deployment that included monitoring Chinese research vessels, conducting fisheries enforcement operations and...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz",
+   "link": "https://gcaptain.com/u-s-military-strikes-iranian-missile-site-near-strait-of-hormuz/",
+   "published": "2026-11-17T20:14:20+00:00",
+   "summary": "By Arsalan Shahla and Jen Judson (Bloomberg) — American warplanes hit an Iranian missile launch site on Qeshm Island in the Persian Gulf on Tuesday, a US military official said,...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Eastern Shipbuilding Group to Support Construction of Structural Units for US Navy Missile Destroyer",
+   "link": "https://www.marinelink.com/news/eastern-shipbuilding-group-support-544428",
+   "published": "2026-11-17T19:58:10+00:00",
+   "summary": "Eastern Shipbuilding Group, Inc. (ESG) announced it has been awarded a contract agreement with HII’s Ingalls Shipbuilding division to support the production of outfitted structural units for the U.S. Navy’s Flight III Arleigh Burke-class guided missile destroyer Telesforo Trinidad (DDG 139).",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Vestas CEO Calls For EU Crackdown on Chinese Software Used in Wind Sector",
+   "link": "https://www.marinelink.com/news/vestas-ceo-calls-eu-crackdown-chinese-544426",
+   "published": "2026-11-17T18:38:27+00:00",
+   "summary": "As the European Union weighs tougher cybersecurity rules, it should consider a ban on Chinese components and technology containing software in critical energy infrastructure, the CEO of Danish wind turbine maker Vestas told Reuters.\"When it comes to critical infrastructure…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Gulf Oil Flow at Risk From Lack of Empty Tankers, Tracker Says",
+   "link": "https://gcaptain.com/gulf-oil-flow-at-risk-from-lack-of-empty-tankers-tracker-says/",
+   "published": "2026-11-17T18:24:56+00:00",
+   "summary": "The number of empty tankers sailing to collect cargoes of Middle East crude is sliding, a trend that could jeopardize the recent revival in the region’s oil flows to global markets, according to Tankertrackers.com, a firm that monitors vessel movements.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NTSB Warned of Mississippi River Passenger Vessel Collision Risks Nearly 30 Years Ago",
+   "link": "https://gcaptain.com/ntsb-warned-of-mississippi-river-passenger-vessel-collision-risks-nearly-30-years-ago/",
+   "published": "2026-11-17T18:10:55+00:00",
+   "summary": "Nearly three decades before a tanker slammed into a docked river cruise ship in New Orleans, the National Transportation Safety Board warned that passenger vessels along the Mississippi River waterfront...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China Encourages AI, Exploration Cooperation With Chile",
+   "link": "https://www.marinelink.com/news/china-encourages-ai-exploration-544425",
+   "published": "2026-11-17T17:56:12+00:00",
+   "summary": "China and Chile should expand emerging cooperation in artificial intelligence, polar scientific expeditions and deep-sea exploration, Chinese President Xi Jinping told Chilean President Jose Antonio Kast on Tuesday, state media reported.Xi and…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Norway Backs Nuclear-Powered Offshore Vessel Project",
+   "link": "https://gcaptain.com/norway-backs-nuclear-powered-offshore-vessel-project/",
+   "published": "2026-11-17T16:29:00+00:00",
+   "summary": "Norway is moving a step closer to testing nuclear propulsion for commercial ships, with a consortium including shipbuilder VARD and offshore vessel operator Island Offshore securing NOK 20 million ($2...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Hanwha Test-Fires Palletized Missile Launcher from Ship Off Mississippi Coast",
+   "link": "https://gcaptain.com/hanwha-test-fires-palletized-missile-launcher-from-ship-off-mississippi-coast/",
+   "published": "2026-11-17T15:52:39+00:00",
+   "summary": "South Korea’s Hanwha Aerospace and its U.S. subsidiary have successfully test-fired a Chunmoo guided missile from a vessel off the Mississippi coast, marking another step toward deploying precision-strike weapons aboard...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seafarers injured as two vessels struck in Black Sea off Bulgaria",
+   "link": "",
+   "published": "2026-11-17T14:08:22+00:00",
+   "summary": "Two merchant vessels have sunk following reported drone attacks in the Black Sea, with several seafarers injured and 31 crew rescued.",
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
