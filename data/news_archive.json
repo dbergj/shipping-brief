@@ -66,6 +66,97 @@
    "nordic": true
   },
   {
+   "title": "Key information relating to the cash dividend to be paid by Golar LNG Limited (Ticker: GLNG)",
+   "link": "https://newsweb.oslobors.no/message/686815",
+   "published": "2026-11-18T12:01:36+00:00",
+   "source": "Oslo Børs",
+   "ticker": "GLNG",
+   "company": "Golar LNG Limited",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Golar LNG Limited Interim results for the period ended September 30, 2026",
+   "link": "https://newsweb.oslobors.no/message/686812",
+   "published": "2026-11-18T11:59:19+00:00",
+   "source": "Oslo Børs",
+   "ticker": "GLNG",
+   "company": "Golar LNG Limited",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Key information relating to the cash dividend to be paid by Golar LNG Limited (Ticker: GLNG)",
+   "link": "https://newsweb.oslobors.no/message/686811",
+   "published": "2026-11-18T11:57:51+00:00",
+   "source": "Oslo Børs",
+   "ticker": "GLNG",
+   "company": "Golar LNG Limited",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Euronext Oslo Børs - Received application for admission to trading as a transfer from Euronext Growth Oslo - Capital Tankers Corp.",
+   "link": "https://newsweb.oslobors.no/message/686807",
+   "published": "2026-11-18T10:25:33+00:00",
+   "source": "Oslo Børs",
+   "ticker": "CAPT",
+   "company": "Capital Tankers Corp.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Euronext Oslo Børs - Mottatt søknad om opptak til handel som overføring fra Euronext Growth Oslo - Capital Tankers Corp.",
+   "link": "https://newsweb.oslobors.no/message/686806",
+   "published": "2026-11-18T10:25:33+00:00",
+   "source": "Oslo Børs",
+   "ticker": "CAPT",
+   "company": "Capital Tankers Corp.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "ALNG ASA - Third quarter 2026 results",
+   "link": "https://newsweb.oslobors.no/message/686786",
+   "published": "2026-11-18T07:05:50+00:00",
+   "source": "Oslo Børs",
+   "ticker": "ALNG",
+   "company": "ALNG ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "ALNG ASA - Third quarter 2026 results",
+   "link": "https://newsweb.oslobors.no/message/686779",
+   "published": "2026-11-18T07:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "ALNG",
+   "company": "ALNG ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "HAFNIA LIMITED: Key information relating to dividend for the third quarter 2026",
    "link": "https://newsweb.oslobors.no/message/686775",
    "published": "2026-11-18T06:32:10+00:00",
@@ -662,18 +753,6 @@
    "rank": 2
   },
   {
-   "title": "Scorpio Tankers Inc. Announces that on October 28, 2026, the Company Plans to Issue Its Third Quarter 2026 Results and Have a Conference Call",
-   "summary": "MONACO, Oct. 19, 2026 (GLOBE NEWSWIRE) — Scorpio Tankers Inc. (NYSE: STNG) (“Scorpio Tankers,” or the “Company”) announced today that on Wednesday, October 28, 2026, the Company plans to issue its third quarter 2026 earnings press release in the morning (Eastern Daylight Time) and host a conference call at 8:00 AM Eastern Daylight Time and 1:00 PM Central European Time.",
-   "link": "https://www.sec.gov/Archives/edgar/data/1483934/000162828026066288/stng6k-10192026.htm",
-   "published": "2026-10-19T12:00:00+00:00",
-   "source": "SEC EDGAR",
-   "ticker": "STNG",
-   "company": "Scorpio Tankers",
-   "category": "6-K",
-   "kind": "company",
-   "rank": 2
-  },
-  {
    "title": "Stainless Tankers - Ex. dividend of USD 0.135 per share today",
    "link": "https://newsweb.oslobors.no/message/686530",
    "published": "2026-11-16T06:00:00+00:00",
@@ -710,6 +789,19 @@
    "kind": "company",
    "routine": false,
    "rank": 4,
+   "nordic": true
+  },
+  {
+   "title": "NOTIFICATION OF MAJOR HOLDINGS",
+   "link": "https://newsweb.oslobors.no/message/686853",
+   "published": "2026-11-18T13:16:16+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
    "nordic": true
   },
   {
@@ -824,6 +916,285 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Dr Grahaeme Henderson calls for 'zero suicides' in shipping",
+   "link": "",
+   "published": "2026-11-18T13:52:02+00:00",
+   "summary": "Addressing delegates in Dubai and seafarers worldwide, Henderson urges maritime leaders to adopt a new industry-wide framework to tackle mental health stigma at sea.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "One missing, 11 injured in attack on ADNOC tanker in Hormuz",
+   "link": "",
+   "published": "2026-11-18T12:31:38+00:00",
+   "summary": "An ADNOC product tanker Navig8 Messi has been attacked for the second time in four months in the Strait of Hormuz",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Crestal Group subsidiary looking to build up bunkering activities in Africa and North America",
+   "link": "https://ship.energy/energy/crestal-group-subsidiary-looking-to-build-up-bunkering-activities-in-africa-and-north-america/",
+   "published": "2026-11-18T12:23:24+00:00",
+   "summary": "The Nigeria-based diversified business group Crestal Group Ltd has informed ship.energy that it is looking to develop new physical bunker supply infrastructure in West Africa, while also focusing on petroleum trading activities in North America. In an email sent to ship.energy today (18 November), the company said that its Nigerian-based energy subsidiary, JuWonEnergies Ltd, West Africa, is focused on oil and gas tra",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Golar secures long-lead items for fifth FLNG",
+   "link": "https://lngprime.com/europe/golar-secures-long-lead-items-for-fifth-flng/200206/",
+   "published": "2026-11-18T12:01:10+00:00",
+   "summary": "Floating LNG player Golar LNG said it had reserved long-lead items for a potential fifth FLNG due to strong demand.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Neo Next+ snaps up EnQuest’s North Sea business in $960m deal",
+   "link": "https://splash247.com/neo-next-snaps-up-enquests-north-sea-business-in-960m-deal/",
+   "published": "2026-11-18T12:00:00+00:00",
+   "summary": "UK offshore producer Neo Next+ Energy has agreed to acquire EnQuest’s entire UK upstream oil and gas business in a deal worth up to $960m, further consolidating its position as the largest producer on the UK Continental Shelf. The transaction involves acquiring EnQuest Britain Limited for $840m in upfront cash, with a further $120m potentially …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Acta Marine marks completion of fourth methanol dual fuel CSOV",
+   "link": "https://ship.energy/energy/acta-marine-marks-completion-of-fourth-methanol-dual-fuel-csov/",
+   "published": "2026-11-18T11:56:53+00:00",
+   "summary": "Acta Marine has announced the delivery of Acta Aquarius, the fourth and final vessel in its series of next-generation Walk-to-Work (W2W) DP2 Construction Service Operation Vessels (CSOVs), built by Tersan Shipyard in Yalova, Turkey. The Acta Aquarius joins sister ships Acta Pegasus, Acta Hercules and Acta Gemini, and the delivery completes a key fleet expansion programme for Acta Marine. The vessels also feature batt",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DWE and BASF team up to accelerate deployment of modular methanol production facilities",
+   "link": "https://ship.energy/energy/dwe-and-basf-team-up-to-accelerate-deployment-of-modular-methanol-production-facilities/",
+   "published": "2026-11-18T11:46:43+00:00",
+   "summary": "DWE GmbH and BASF have announced a collaboration that they say will support sustainable methanol production By combining DWE’s Power-to-Liquid (PtL) process technology with BASF’s advanced SYNSPIRE methanol synthesis catalysts, the two companies aim to boost the growth of synthetic methanol as an alternative to fossil-based methanol. DWE has developed a standardised modular sustainable methanol synthesis concept. ‘Th",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Eiffage secures offshore converter platform contract in Germany",
+   "link": "https://splash247.com/eiffage-secures-offshore-converter-platform-contract-in-germany/",
+   "published": "2026-11-18T11:45:00+00:00",
+   "summary": "French construction group Eiffage has secured a contract to fabricate the jacket foundation for the LanWin beta offshore converter platform in the German North Sea. Dragados Offshore awarded the contract to Eiffage’s Belgian subsidiary, Smulders, as part of TenneT’s 2 GW LanWin2 offshore grid connection project. Smulders will manufacture the steel jacket at its production …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ExxonMobil’s Rovuma LNG gets OK from Mozambique",
+   "link": "https://lngprime.com/lng-terminals/exxonmobils-rovuma-lng-gets-ok-from-mozambique/200197/",
+   "published": "2026-11-18T11:44:55+00:00",
+   "summary": "The government of Mozambique has approved the amended plan of development for the ExxonMobil-led Rovuma LNG project.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Nine shipping industry member associations press IMO to reach consensus on Net Zero Framework",
+   "link": "https://ship.energy/information/nine-shipping-industry-member-associations-press-imo-to-reach-consensus-on-net-zero-framework/",
+   "published": "2026-11-18T11:38:23+00:00",
+   "summary": "Nine shipping industry member associations have released a joint statement ahead of the 85th Marine Environment Protection Committee (MEPC 85) meeting calling on International Maritime Organization (IMO) member states ‘to agree on a global framework of practical, effective and fit for purpose regulations to help decarbonise international shipping’. The joint statement issued today (18 November) by BIMCO, CLIA, IBIA, ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Offen firms up four-ship boxship comeback in China",
+   "link": "https://splash247.com/offen-firms-up-four-ship-boxship-comeback-in-china/",
+   "published": "2026-11-18T11:30:00+00:00",
+   "summary": "German tonnage provider Claus-Peter Offen has reportedly firmed up all four of its planned 7,000 teu containership newbuildings, ending a nearly two-decade absence from the ordering market. Shipbuilding sources say the Hamburg-based owner has committed to the full quartet after initially signing a letter of intent in September for two firm vessels and two options. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Chinese contractors land $238m in offshore wind installation deals",
+   "link": "https://splash247.com/chinese-contractors-land-238m-in-offshore-wind-installation-deals/",
+   "published": "2026-11-18T11:15:00+00:00",
+   "summary": "Three Chinese contractors have secured offshore wind construction and installation contracts worth a combined CNY1.58bn ($238m) for two projects being developed by Jiangsu Guoxin in the Yellow Sea. The awards cover the 506MW Dafeng H19 and 308MW Dongtai H4/H6 offshore wind developments in Jiangsu province. ZTT Offshore Engineering, a subsidiary of Zhongtian Technology Group, secured …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Euroseas Ltd. Reports Solid Third Quarter Results As Containership Market Continues Its Upward Climb",
+   "link": "https://www.hellenicshippingnews.com/euroseas-ltd-reports-solid-third-quarter-results-as-containership-market-continues-its-upward-climb/",
+   "published": "2026-11-18T11:00:59+00:00",
+   "summary": "Euroseas Ltd., an owner and operator of container carrier vessels and provider of seaborne transportation for containerized cargoes, announced today its results for the three and nine-month periods ended September 30, 2026. Third Quarter 2026 Financial Highlights: Total net revenues of $54.1 million. Net income attributable to controlling shareholders of $25.6 million or $3.67 and ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping Decarbonisation: IMarEST Calls for Regulatory Certainty and Investment Clarity Ahead of MEPC 85",
+   "link": "https://www.hellenicshippingnews.com/shipping-decarbonisation-imarest-calls-for-regulatory-certainty-and-investment-clarity-ahead-of-mepc-85/",
+   "published": "2026-11-18T11:00:57+00:00",
+   "summary": "As the IMO prepares for critical discussions on maritime decarbonisation, IMarEST is highlighting the need for evidence-based policymaking, regulatory certainty and investment incentives. Alasdair Wishart, director of technical and policy at the Institute of Marine engineering, Science and Technology (IMarEST) said: “Shipping is one of the few sectors that can tackle its emissions through a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NGOs Urge UN Shipping Body to Adopt Crucial Climate Agreement Before Year End",
+   "link": "https://www.hellenicshippingnews.com/ngos-urge-un-shipping-body-to-adopt-crucial-climate-agreement-before-year-end/",
+   "published": "2026-11-18T11:00:55+00:00",
+   "summary": "Ahead of an upcoming meeting of the International Maritime Organization’s (IMO) Marine Environment Protection Committee (MEPC 85, November 30-December 4), the Clean Shipping Coalition is calling on member states to back adoption of the Net-Zero Framework (NZF) – the UN shipping body’s proposed mechanism for reducing shipping emissions. Discussions on the NZF, which have taken ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ADNOC L&S Confirms Attack on One Of Its Vessels",
+   "link": "https://www.hellenicshippingnews.com/adnoc-ls-confirms-attack-on-one-of-its-vessels/",
+   "published": "2026-11-18T11:00:53+00:00",
+   "summary": "ADNOC L&S can confirm that one of its vessels was attacked while transiting the Strait of Hormuz on the evening of 17 November 2026. One crew member remains unaccounted for, with search and rescue operations ongoing in coordination with the relevant authorities. All other crew members have been safely evacuated from the vessel. Eleven sustained ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "How Global VE Trading Cut Routine Vessel Screening from 30 Minutes to Five",
+   "link": "https://www.hellenicshippingnews.com/how-global-ve-trading-cut-routine-vessel-screening-from-30-minutes-to-five/",
+   "published": "2026-11-18T11:00:51+00:00",
+   "summary": "Global VE Trading is a Malaysia-based floating storage and ship-to-ship (STS) service provider, serving some of the world’s largest oil companies and commodity traders. Operating in a highly regulated industry, Global VE Trading must meet its customers’ stringent compliance standards while protecting its own business from sanctions exposure. Reliable vessel screening is essential to maintaining ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping heavyweights warn against double carbon charges",
+   "link": "https://splash247.com/shipping-heavyweights-warn-against-double-carbon-charges/",
+   "published": "2026-11-18T11:00:00+00:00",
+   "summary": "Nine of the world’s leading shipping associations have joined forces to push governments towards a global emissions deal, warning that a patchwork of regional regulations risks leaving shipowners paying multiple times for the same carbon emissions. The joint intervention comes ahead of a crucial round of talks at the International Maritime Organization (IMO) later this …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DEME orders pair of autonomous offshore survey vessels",
+   "link": "https://splash247.com/deme-orders-pair-of-autonomous-offshore-survey-vessels/",
+   "published": "2026-11-18T10:45:00+00:00",
+   "summary": "Belgian marine contractor DEME has ordered two uncrewed offshore survey vessels from Dutch technology specialist DEMCON Unmanned Systems, expanding its capabilities in remote and autonomous offshore operations. The vessels will be based on DEMCON’s DUS OV platform, which incorporates a DNV type-approved design and technology intended to support certification for autonomous operations. The two units …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Guinea Leaps to Third-largest Iron Ore Exporter",
+   "link": "https://www.marinelink.com/news/guinea-leaps-thirdlargest-iron-ore-544432",
+   "published": "2026-11-18T10:28:09+00:00",
+   "summary": "\"In October 2026, Guinea became the world’s third-largest iron ore exporter, with exports surpassing 5m tonnes for the first time and accounting for 3% of global iron ore volumes. The country has gradually ramped up shipments following the start of mining operations at Simandou in December 2025.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Delfin LNG seeks new FERC extension",
+   "link": "https://lngprime.com/americas/delfin-lng-seeks-new-ferc-extension/200186/",
+   "published": "2026-11-18T10:22:52+00:00",
+   "summary": "US FLNG developer Delfin Midstream is seeking another extension from the US FERC for the onshore part of its floating LNG export project offshore Louisiana.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Industry calls for regulatory stability ahead of MEPC",
+   "link": "",
+   "published": "2026-11-18T09:27:21+00:00",
+   "summary": "Nine key industry bodies have called for governments to agree a way forward at the upcoming IMO Marine Environment Protection Committee (MEPC) meeting",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "USCG Icebreaker ‘Healy’ Suffered Catastrophic Engine Overspeed Failure, Procurement Records Reveal",
+   "link": "https://gcaptain.com/uscg-icebreaker-healy-suffered-catastrophic-engine-overspeed-failure-procurement-records-reveal/",
+   "published": "2026-11-18T09:27:17+00:00",
+   "summary": "The U.S. Coast Guard's largest icebreaker, USCGC Healy, suffered a catastrophic overspeed failure of one of its main propulsion diesel generators in July, triggering a fire in the generator room and requiring extensive repairs to electrical and fire-detection systems, and corrective maintenance affecting two additional engines, according to Coast Guard procurement documents.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Smaller Tankers Join Hormuz Shuttle Trade to Keep Oil Flowing",
+   "link": "https://gcaptain.com/smaller-tankers-join-hormuz-shuttle-trade-to-keep-oil-flowing/",
+   "published": "2026-11-18T09:11:23+00:00",
+   "summary": "Oil is increasingly moving through the Strait of Hormuz on smaller vessels, helping sustain exports as attacks on supertankers squeeze availability of the ships that typically dominate the trade.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Japan’s LNG imports drop 26.1 percent in October",
+   "link": "https://lngprime.com/asia/japans-lng-imports-drop-26-1-percent-in-october/200156/",
+   "published": "2026-11-18T09:09:40+00:00",
+   "summary": "Japan’s liquefied natural gas (LNG) imports fell 26.1 percent in October from the same month last year, according to provisional data released by the country’s Ministry of Finance.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UAE’s ADNOC L&S Says One Crew Member Missing After Attack on Its Vessel in Hormuz",
+   "link": "https://gcaptain.com/uaes-adnoc-ls-says-one-crew-member-missing-after-attack-on-its-vessel-in-hormuz/",
+   "published": "2026-11-18T09:04:07+00:00",
+   "summary": "The United Arab Emirates' ADNOC L&S said on Wednesday that one crew member was missing and 11 injured after one of its vessels was attacked in the Strait of Hormuz on Tuesday.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China Oilfield Services orders 59 offshore support vessels",
+   "link": "",
+   "published": "2026-11-18T08:21:51+00:00",
+   "summary": "",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Under fire in Hormuz: Iran’s escalating campaign against commercial shipping",
+   "link": "",
+   "published": "2026-11-18T07:52:57+00:00",
+   "summary": "Attacks on commercial shipping by Iran in the Strait of Hormuz have become a daily occurrence as the US blockade slowly strangles the Iranian economy",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "On-and-Off Strikes Continue on Apache's North Sea Platforms",
+   "link": "https://maritime-executive.com/article/on-and-off-strikes-continue-on-apache-s-north-sea-platforms",
+   "published": "2026-11-18T03:58:00+00:00",
+   "summary": "Independent oil company Apache faces an intensifying strike organized by UK union Unite, which has already disrupted work on several North Sea platfor...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Navy Secretary Hung Cao Gets Frosty Reception in Confirmation Hearing",
+   "link": "https://maritime-executive.com/article/navy-secretary-hung-cao-gets-frosty-reception-in-confirmation-hearing",
+   "published": "2026-11-18T03:47:51+00:00",
+   "summary": "Acting Navy Secretary Hung Cao is up for Senate confirmation to take the job on a permanent basis, and his first hearing portends a contentious relati...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Indian Coast Guard Saves a Bulker From Severe Flooding off Odisha",
+   "link": "https://maritime-executive.com/article/indian-coast-guard-saves-a-bulker-from-severe-flooding-off-odisha",
+   "published": "2026-11-18T03:46:52+00:00",
+   "summary": "On Tuesday, first responders from the Indian Coast Guard saved a Panamax bulker from severe engine room flooding off the coast of Paradip, with assist...",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
@@ -1274,15 +1645,6 @@
    "published": "2026-11-17T07:21:26+00:00",
    "summary": "There’s still no sign of a recycling rebound as an EU vote rules out two Indian yards for European owners",
    "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "On-and-Off Strikes Continue on Apache's North Sea Platforms",
-   "link": "https://maritime-executive.com/article/on-and-off-strikes-continue-on-apache-s-north-sea-platforms",
-   "published": "2026-11-17T04:58:00+00:00",
-   "summary": "Independent oil company Apache faces an intensifying strike organized by UK union Unite, which has already disrupted work on several North Sea platfor...",
-   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
