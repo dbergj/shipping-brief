@@ -66,6 +66,19 @@
    "nordic": true
   },
   {
+   "title": "Höegh Autoliners ASA: Third quarter results and distribution of dividends",
+   "link": "https://newsweb.oslobors.no/message/686882",
+   "published": "2026-11-19T06:30:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAUTO",
+   "company": "Höegh Autoliners ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Key information relating to the cash dividend to be paid by Golar LNG Limited (Ticker: GLNG)",
    "link": "https://newsweb.oslobors.no/message/686815",
    "published": "2026-11-18T12:01:36+00:00",
@@ -77,6 +90,18 @@
    "routine": false,
    "rank": 2,
    "nordic": true
+  },
+  {
+   "title": "BULK CARRIERS CORP. REPORTS NET PROFIT OF $141.9 MILLION FOR THE THIRD QUARTER OF 2026,",
+   "summary": "DECLARES QUARTERLY DIVIDEND OF $1.00 PER SHARE, THE HIGHEST SINCE THE THIRD QUARTER OF 2022",
+   "link": "https://www.sec.gov/Archives/edgar/data/1386716/000095015726001277/form6-k.htm",
+   "published": "2026-11-18T12:00:00+00:00",
+   "source": "SEC EDGAR",
+   "ticker": "SBLK",
+   "company": "Star Bulk Carriers",
+   "category": "6-K",
+   "kind": "company",
+   "rank": 2
   },
   {
    "title": "Golar LNG Limited Interim results for the period ended September 30, 2026",
@@ -920,6 +945,204 @@
    "nordic": false
   },
   {
+   "title": "US panel urges FMC probe into China’s PSC vessel detentions",
+   "link": "",
+   "published": "2026-11-19T05:57:21+00:00",
+   "summary": "Commission requests sanctions, IMO referrals, and federal investigation into Beijing’s targeted detentions of Panama-flagged ships",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Wreck of Australia's First Home-Built Warship Discovered",
+   "link": "https://maritime-executive.com/article/wreck-of-australias-first-home-built-navy-warship-discovered",
+   "published": "2026-11-19T04:17:00+00:00",
+   "summary": "Maritime archaeologists in Australia have discovered the wreck of a warship that is synonymous with the country’s naval history and one that boasts of...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LA-Long Beach port complex braces for strike",
+   "link": "",
+   "published": "2026-11-19T02:12:01+00:00",
+   "summary": "Employers warn of severe supply chain disruption if last-ditch talks fail at US West Coast gateway ports",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Newly Built Ferry Runs Into Rock Outcropping On Lake Victoria",
+   "link": "https://maritime-executive.com/article/newly-built-ferry-runs-into-rock-spires-on-lake-victoria",
+   "published": "2026-11-19T01:30:57+00:00",
+   "summary": "One of the largest passenger ferries on Lake Victoria has hit a rock outcropping, causing unspecified damage. At about 1030 hours on Wednesday morning...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Naval Blockade Now Covers Vessels That Load Iranian Cargo at Sea",
+   "link": "https://maritime-executive.com/article/u-s-naval-blockade-now-covers-vessels-that-load-iranian-cargo-at-sea",
+   "published": "2026-11-19T00:52:14+00:00",
+   "summary": "The U.S. Central Command-based Joint Maritime Information Center (JMIC) for Mideast shipping has released updated guidance for the U.S. blockade on Ir...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "The ITF Endorses a Global Seafarer Certification Network",
+   "link": "https://maritime-executive.com/article/the-itf-endorses-a-global-seafarer-certification-network",
+   "published": "2026-11-19T00:24:00+00:00",
+   "summary": "The International Transport Workers' Federation (ITF) has joined the ISF Verify platform developed by the International Chamber of Shipping and Lloyd'...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "PortMiami Sets Global Cruise Record Reaching 10.5 Million Passengers",
+   "link": "https://maritime-executive.com/article/portmiami-sets-global-cruise-record-reaching-10-5-million-passengers",
+   "published": "2026-11-19T00:04:47+00:00",
+   "summary": "PortMiami is celebrating what is being hailed as a landmark year for the cruise industry and its operations as the “Cruise Capital of the World.” The...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Coast Guard Awards Contracts for Coast Guard Academy Construction, Renovation",
+   "link": "https://www.marinelink.com/news/coast-guard-awards-contracts-coast-guard-544457",
+   "published": "2026-11-18T22:02:42+00:00",
+   "summary": "The U.S. Coast Guard awarded a $155 million contract to The Whiting-Turner Contracting Co., of Greenbelt, Maryland, to construct a new Science, Technology, Engineering and Mathematics facility at the U.S. Coast Guard Academy. The contract, awarded Nov.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Clean tankers freight slumps as Persian Gulf transits slow amid attacks",
+   "link": "https://www.hellenicshippingnews.com/clean-tankers-freight-slumps-as-persian-gulf-transits-slow-amid-attacks/",
+   "published": "2026-11-18T22:00:59+00:00",
+   "summary": "Medium Range, or MR, tanker freight across Asia-Pacific slumped Nov. 18, falling w125 on a benchmark route from the Middle East due to slower oil flows through the risky waters of the Strait of Hormuz, market participants said. “Cargo flows are limited; there are hardly any refined products coming out from the Persian Gulf. Several ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ship Recycling Markets Looking Stronger",
+   "link": "https://www.hellenicshippingnews.com/ship-recycling-markets-looking-stronger/",
+   "published": "2026-11-18T22:00:59+00:00",
+   "summary": "The ship recycling markets have regained momentum over the past week. In its latest weekly report, Best Oasis (www.best-oasis.com), a leading cash buyer of ships said that “the Indian ship recycling market has started to regain momentum following the five-day Diwali holiday break, with market activity gradually picking up.Local steel demand is expected to improve ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping industry urges governments to agree on global GHG regulations to provide regulatory certainty and incentivize maritime decarbonization",
+   "link": "https://www.hellenicshippingnews.com/shipping-industry-urges-governments-to-agree-on-global-ghg-regulations-to-provide-regulatory-certainty-and-incentivize-maritime-decarbonization/",
+   "published": "2026-11-18T22:00:58+00:00",
+   "summary": "In advance of the UN International Maritime Organization (IMO) Marine Environment Protection Committee (MEPC 85), which meets in London from 30 November to 4 December 2026, this statement is made jointly by BIMCO, CLIA, IBIA, ICS, INTERCARGO, INTERFERRY, INTERTANKO, IPTA and WSC representing the global commercial shipping fleet. The global shipping industry welcomes continuing efforts ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Recovers",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-recovers/",
+   "published": "2026-11-18T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, rose by 0.7% to 2,914 points on Wednesday, after a 1% decrease in the prior session. The main support came from larger vessel segments. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, went up ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Guinea climbs to third-largest iron ore exporter as shipments surpass 5m tonnes",
+   "link": "https://www.hellenicshippingnews.com/guinea-climbs-to-third-largest-iron-ore-exporter-as-shipments-surpass-5m-tonnes/",
+   "published": "2026-11-18T22:00:57+00:00",
+   "summary": "“In October 2026, Guinea became the world’s third-largest iron ore exporter, with exports surpassing 5m tonnes for the first time and accounting for 3% of global iron ore volumes. The country has gradually ramped up shipments following the start of mining operations at Simandou in December 2025. More than 22m tonnes have been shipped so ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Steer Acquires Mercator International",
+   "link": "https://www.marinelink.com/news/steer-acquires-mercator-international-544458",
+   "published": "2026-11-18T22:00:23+00:00",
+   "summary": "Steer has completed the acquisition of Mercator International, a specialist ports, maritime and freight consultancy, as it continues to expand its international advisory business.Headquartered in Kirkland, Washington, Mercator provides strategic…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping Industry Presses for Global IMO Climate Deal as Divisions Over Rules Persist",
+   "link": "https://gcaptain.com/shipping-industry-presses-for-global-imo-climate-deal-as-divisions-over-rules-persist/",
+   "published": "2026-11-18T21:32:01+00:00",
+   "summary": "Nine major shipping associations are urging governments to reach an agreement on global greenhouse gas regulations, warning that continued uncertainty threatens investment in cleaner ships and alternative fuels ahead of...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "TARA GAS Burning Off Oman as Another Tanker Attack Leaves 11 Injured",
+   "link": "https://gcaptain.com/tara-gas-burning-off-oman-as-another-tanker-attack-leaves-11-injured/",
+   "published": "2026-11-18T19:12:14+00:00",
+   "summary": "The LPG tanker TARA GAS remained on fire and adrift in the Strait of Hormuz on Wednesday, according to a new navigational warning, as independently verified video showed the vessel...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "China Oilfield Services Orders 59 Offshore Vessels in $1.6 Billion Shipbuilding Deal",
+   "link": "https://gcaptain.com/china-oilfield-services-orders-59-offshore-vessels-in-1-6-billion-shipbuilding-deal/",
+   "published": "2026-11-18T18:42:39+00:00",
+   "summary": "China Oilfield Services Limited (COSL) has signed contracts worth approximately $1.64 billion to build 59 offshore support vessels at three Chinese shipyards, marking a major investment in the country’s offshore...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Targets Ship-to-Ship Transfers in Expanded Iran Maritime Blockade",
+   "link": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/",
+   "published": "2026-11-18T18:38:45+00:00",
+   "summary": "The US military will treat ships that receive cargo at sea from vessels loaded in Iran as attempting to evade its blockade of Iranian ports and could take action against them, according to an advisory issued by US Central Command (CENTCOM) on Wednesday.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ukrainian Drone Attacks Halve Russian Oil Refining in November",
+   "link": "https://www.marinelink.com/news/ukrainian-drone-attacks-halve-russian-oil-544455",
+   "published": "2026-11-18T18:02:30+00:00",
+   "summary": "Ukrainian drone attacks have slashed Russian oil refineries' combined crude processing volumes by 45% since late October, according to estimates from two industry sources, as Kyiv ramps up strikes on energy infrastructure.Russia is already facing…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Gulf Stocks Lower as US-Iran Hostilities Escalate Further",
+   "link": "https://www.marinelink.com/news/gulf-stocks-lower-usiran-hostilities-544454",
+   "published": "2026-11-18T17:59:29+00:00",
+   "summary": "Most Gulf stocks closed lower on Wednesday following Iran's strike on Kuwait, the first since September, targeting US drone and missile sites and raising fears of further escalation after Washington hit Qeshm Island.Iran's army said it targeted US installations at Kuwait’s Ali Al Salem base…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "More U.S. LNG Cargoes Divert to Europe in Relief for Tight Market",
+   "link": "https://gcaptain.com/more-u-s-lng-cargoes-divert-to-europe-in-relief-for-tight-market/",
+   "published": "2026-11-18T17:58:30+00:00",
+   "summary": "More liquefied natural gas vessels have diverted toward Europe in recent days, bolstering supplies in a tight market and pressuring prices.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Houston Ship Pilot Faces Historic Manslaughter Charge After Fatal Collision",
+   "link": "https://gcaptain.com/houston-ship-pilot-faces-historic-manslaughter-charge-after-fatal-collision/",
+   "published": "2026-11-18T17:18:41+00:00",
+   "summary": "A Houston ship pilot has been indicted on a federal seaman’s manslaughter charge over a deadly 2024 collision in the Houston Ship Channel, in what federal officials describe as the...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Dr Grahaeme Henderson calls for 'zero suicides' in shipping",
    "link": "",
    "published": "2026-11-18T13:52:02+00:00",
@@ -1024,6 +1247,15 @@
    "published": "2026-11-18T11:15:00+00:00",
    "summary": "Three Chinese contractors have secured offshore wind construction and installation contracts worth a combined CNY1.58bn ($238m) for two projects being developed by Jiangsu Guoxin in the Yellow Sea. The awards cover the 506MW Dafeng H19 and 308MW Dongtai H4/H6 offshore wind developments in Jiangsu province. ZTT Offshore Engineering, a subsidiary of Zhongtian Technology Group, secured …",
    "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Middle East offshore market enters period of consolidation, not growth",
+   "link": "",
+   "published": "2026-11-18T11:12:49+00:00",
+   "summary": "Synergy Offshore CEO Fazel Fazelbhoy sees stronger prospects for vessel maintenance and quality second-hand tonnage than newbuildings.",
+   "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
   },

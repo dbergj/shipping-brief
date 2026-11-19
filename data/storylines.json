@@ -1,53 +1,77 @@
 {
- "updated": "2026-11-18T06:35:57+00:00",
+ "updated": "2026-11-19T06:31:15+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz have continued through November, with two tankers attacked on 16 November. US warplanes struck an Iranian missile launch site on Qeshm Island in the Persian Gulf on Tuesday.",
-   "why_it_matters": "Military escalation and hull strikes raise war-risk premiums for Arabian Gulf liftings and shrink the pool of willing owners, reshaping crude and product ton-miles.",
-   "latest": "US military strike on an Iranian missile site at Qeshm Island reported Tuesday; separately, Week 46 freight weakness has spread to Gulf VLCC routes with East of Suez ballasters rising from 415 to 434.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. The LPG tanker TARA GAS remained on fire and adrift off Oman after an attack that left 11 injured, and US guidance has widened a blockade to cover vessels loading Iranian cargo at sea.",
+   "why_it_matters": "Hull strikes and blockade guidance raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
+   "latest": "TARA GAS still burning and adrift with 11 injured; US blockade extended to vessels loading Iranian cargo at sea; clean tanker freight reported slumping as Gulf transits slow.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "lr2_tce",
+    "mr_tc14_tce",
     "brent",
     "vlsfo_fuj"
    ],
    "sources": [
-    "U.S. Military Strikes Iranian Missile Site Near Strait of Hormuz",
-    "Gulf Earnings Give Way as VLCC Ballasters Build East of Suez"
+    "TARA GAS Burning Off Oman as Another Tanker Attack Leaves 11 Injured",
+    "U.S. Naval Blockade Now Covers Vessels That Load Iranian Cargo at Sea",
+    "Clean tankers freight slumps as Persian Gulf transits slow amid attacks"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-18",
-   "days_running": 20,
+   "last_update": "2026-11-19",
+   "days_running": 21,
    "days_since_update": 0
   },
   {
    "id": "black-sea-attacks",
    "title": "Attacks on shipping in the Black Sea",
-   "status": "active",
-   "what": "Drone strikes on merchant ships in the Black Sea continue. Two merchant vessels have sunk off Bulgaria after reported drone attacks, with several seafarers injured and 31 crew rescued, following a wheat carrier capsizing earlier in the week.",
+   "status": "watch",
+   "what": "Drone strikes on merchant ships in the Black Sea have continued through November, with two vessels sunk off Bulgaria and crew injured following an earlier wheat carrier capsizing.",
    "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
-   "latest": "Two more merchant vessels sunk off Bulgaria, seafarers injured, 31 crew rescued.",
+   "latest": null,
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
    "sources": [
-    "Seafarers injured as two vessels struck in Black Sea off Bulgaria"
+    "Attacks on shipping in the Black Sea"
    ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-18",
-   "days_running": 20,
+   "days_running": 21,
+   "days_since_update": 1
+  },
+  {
+   "id": "russian-refining-and-diesel",
+   "title": "Russian refining damage and diesel export limits",
+   "status": "active",
+   "what": "Ukrainian drone attacks have cut Russian refineries' combined crude processing by 45% since late October, on top of a Russian ban on most diesel exports extended to end-January and contested reports of a US-Russia diesel arrangement.",
+   "why_it_matters": "Lost Russian refining and export restrictions reshape clean product ton-miles, pulling diesel from longer-haul sources and changing MR and LR employment and crude export balances.",
+   "latest": "MarineLink reports Russian crude processing down 45% since late October due to drone strikes.",
+   "watch": [
+    "mr_tc2_tce",
+    "mr_tc14_tce",
+    "lr2_tce",
+    "refining_margin",
+    "gasoil"
+   ],
+   "sources": [
+    "Ukrainian Drone Attacks Halve Russian Oil Refining in November"
+   ],
+   "first_seen": "2026-11-19",
+   "last_update": "2026-11-19",
+   "days_running": 1,
    "days_since_update": 0
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
-   "status": "active",
+   "status": "watch",
    "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations.",
    "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties, documents and vessel positions, and can strand tonnage outside compliant trade.",
    "latest": null,
@@ -57,72 +81,49 @@
     "brent"
    ],
    "sources": [
-    "How to Reduce False Positives in Vessel Screening Without Missing Real Risk"
+    "Sanctions and evasion in the shadow fleet"
    ],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-17",
-   "days_running": 13,
-   "days_since_update": 1
-  },
-  {
-   "id": "jones-act-waiver",
-   "title": "US Jones Act waiver extended again",
-   "status": "watch",
-   "what": "A waiver allowing commodities to move between US ports on foreign-flagged ships has been extended for another 90 days, with the pause now past 230 days.",
-   "why_it_matters": "It keeps foreign-flag tonnage eligible for US coastwise cargoes, affecting US-flag demand and product tanker employment in domestic trades.",
-   "latest": null,
-   "watch": [
-    "mr_tc14_tce",
-    "mr_tc2_tce",
-    "refining_margin"
-   ],
-   "sources": [
-    "Gulf Earnings Give Way as VLCC Ballasters Build East of Suez"
-   ],
-   "first_seen": "2026-11-15",
-   "last_update": "2026-11-15",
-   "days_running": 4,
-   "days_since_update": 3
-  },
-  {
-   "id": "russian-diesel-atlantic",
-   "title": "Russian diesel flows and export restrictions",
-   "status": "watch",
-   "what": "A reported US-Russia arrangement on extra diesel for the US market has met political opposition, while Russia has extended a ban on most diesel exports to end-January.",
-   "why_it_matters": "Export restrictions and any reopened Atlantic route reshape clean product tanker ton-miles and MR and LR employment.",
-   "latest": null,
-   "watch": [
-    "mr_tc2_tce",
-    "mr_tc14_tce",
-    "lr2_tce",
-    "refining_margin"
-   ],
-   "sources": [
-    "Vietnam eyes more Russian LNG supplies"
-   ],
-   "first_seen": "2026-10-29",
-   "last_update": "2026-11-12",
-   "days_running": 21,
-   "days_since_update": 6
+   "days_running": 14,
+   "days_since_update": 2
   },
   {
    "id": "china-ship-port-fees",
    "title": "US port fees on Chinese-built and Chinese-operated ships",
    "status": "watch",
-   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue.",
-   "why_it_matters": "If reinstated, the fees would change the cost of deploying Chinese-built tonnage into US trades and affect chartering preferences across sectors.",
-   "latest": null,
+   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue. Separately, a US panel is urging an FMC probe into Chinese port state control detentions of Panama-flagged ships.",
+   "why_it_matters": "Reinstated fees or retaliatory detentions would change the cost and risk of deploying particular tonnage into US and Chinese trades and affect chartering preferences across sectors.",
+   "latest": "US panel urges an FMC investigation, sanctions and IMO referrals over China's detentions of Panama-flagged ships.",
    "watch": [
     "bdi",
     "bdry"
    ],
    "sources": [
-    "Vestas CEO Calls For EU Crackdown on Chinese Software Used in Wind Sector"
+    "US panel urges FMC probe into China’s PSC vessel detentions"
    ],
    "first_seen": "2026-11-11",
-   "last_update": "2026-11-11",
-   "days_running": 8,
-   "days_since_update": 7
+   "last_update": "2026-11-19",
+   "days_running": 9,
+   "days_since_update": 0
+  },
+  {
+   "id": "la-long-beach-strike",
+   "title": "Strike threat at LA-Long Beach",
+   "status": "active",
+   "what": "The Los Angeles-Long Beach port complex is bracing for a strike, with employers warning of severe supply chain disruption if last-ditch talks fail.",
+   "why_it_matters": "A stoppage at the largest US West Coast gateway would disrupt container flows, berth availability and inland logistics, with knock-on congestion for vessels scheduled to call.",
+   "latest": "Seatrade reports employers warning of severe disruption if last-ditch talks fail.",
+   "watch": [
+    "bdry"
+   ],
+   "sources": [
+    "LA-Long Beach port complex braces for strike"
+   ],
+   "first_seen": "2026-11-19",
+   "last_update": "2026-11-19",
+   "days_running": 1,
+   "days_since_update": 0
   }
  ]
 }
