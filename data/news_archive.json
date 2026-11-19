@@ -66,6 +66,58 @@
    "nordic": true
   },
   {
+   "title": "Euronext Oslo Børs - Vedtak om opptak til handel - Capital Tankers Corp.",
+   "link": "https://newsweb.oslobors.no/message/686914",
+   "published": "2026-11-19T10:28:10+00:00",
+   "source": "Oslo Børs",
+   "ticker": "CAPT",
+   "company": "Capital Tankers Corp.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Euronext Oslo Børs - Decision on admission to trading - Capital Tankers Corp.",
+   "link": "https://newsweb.oslobors.no/message/686913",
+   "published": "2026-11-19T10:28:10+00:00",
+   "source": "Oslo Børs",
+   "ticker": "CAPT",
+   "company": "Capital Tankers Corp.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Navios Maritime Partners L.P. Q3 2026 Form 6-K",
+   "link": "https://newsweb.oslobors.no/message/686901",
+   "published": "2026-11-19T08:23:31+00:00",
+   "source": "Oslo Børs",
+   "ticker": "NMMP",
+   "company": "Navios Maritime Partners L.P.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Key information relating to the cash dividend to be paid by Höegh Autoliners ASA",
+   "link": "https://newsweb.oslobors.no/message/686885",
+   "published": "2026-11-19T06:35:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAUTO",
+   "company": "Höegh Autoliners ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Höegh Autoliners ASA: Third quarter results and distribution of dividends",
    "link": "https://newsweb.oslobors.no/message/686882",
    "published": "2026-11-19T06:30:00+00:00",
@@ -936,10 +988,253 @@
  ],
  "market": [
   {
+   "title": "Seatrade Maritime Crew Connect Global",
+   "link": "",
+   "published": "2027-10-16T02:00:00+00:00",
+   "summary": "",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "CMA Shipping",
+   "link": "",
+   "published": "2027-03-16T15:00:00+00:00",
+   "summary": "",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Webinar: Navigating the danger zone: How to protect your fleet from GPS attacks",
    "link": "",
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "FID taken on 76k-tonne green ammonia facility in India",
+   "link": "https://ship.energy/energy/fid-taken-on-76k-tonne-green-ammonia-facility-in-india/",
+   "published": "2026-11-19T14:09:45+00:00",
+   "summary": "ACME Group has announced it has completed a Final Investment Decision (FID) for its proposed 760,000 tonnes green ammonia project in Odisha, India. The project follows India-based ACME’s first 100,000 tonnes (phase 1) green ammonia project in Duqm, Oman, which is expected to be commissioned soon. ACME Group’s Green Ammonia facility in Odisha is expected to be commissioned by 2029. It will house a 2,200 tonnes per day",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "India Eases Vessel Age Restrictions to Strengthen Domestic Shipping",
+   "link": "https://www.marinelink.com/news/india-eases-vessel-age-restrictions-544468",
+   "published": "2026-11-19T13:19:30+00:00",
+   "summary": "India has relaxed rules allowing vessels more than 20 years old to be registered under its flag, according to a government order, potentially expanding its domestic shipping fleet and reducing reliance on foreign carriers.The new rules lay out conditions for 15- to 20-year-old oil tankers to join th",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Spain to prohibit scrubber wastewater discharge from July 2027",
+   "link": "https://ship.energy/policy/spain-to-prohibit-scrubber-wastewater-discharge-from-july-2027/",
+   "published": "2026-11-19T13:17:47+00:00",
+   "summary": "Spain’s Council of Ministers has approved a Royal Decree from the Ministry of Transport and Sustainable Mobility which will ban the discharge of wastewater from all types of scrubber systems – open, closed and hybrid – from 1 July next year. The ban will apply to all civilian vessels, regardless of flag, operating in inland maritime waters, port service areas, and anchorage and detention areas designated for maritime",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "COSL Places $1.64B Order for 59 Offshore Support Vessels",
+   "link": "https://www.marinelink.com/news/cosl-places-b-order-offshore-support-544467",
+   "published": "2026-11-19T13:05:07+00:00",
+   "summary": "China Oilfield Services Limited (COSL) has signed contracts worth $1.64 billion (RMB10.93 billion) for the construction of 59 offshore support vessels (OSVs), with deliveries scheduled between 2028 and 2030.The contracts, signed on November 14…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Damen Delivers Hybrid CSOV for Purus Offshore Wind Operations",
+   "link": "https://www.marinelink.com/news/damen-delivers-hybrid-csov-purus-offshore-544465",
+   "published": "2026-11-19T12:16:22+00:00",
+   "summary": "Damen Shipyards has delivered the 90-meter commissioning service operations vessel (CSOV) Purus Vortex to Purus, with the vessel heading to the Netherlands ahead of its deployment on an offshore wind project in the North Sea.The vessel is the first Damen-built CSOV to join the Purus fleet…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baker Hughes and McDermott score Ichthys LNG gig",
+   "link": "https://lngprime.com/americas/baker-hughes-and-mcdermott-score-ichthys-lng-gig/200292/",
+   "published": "2026-11-19T12:12:55+00:00",
+   "summary": "Japan's Inpex has awarded a contract to a consortium of US firms Baker Hughes and McDermot for the next phase of the Ichthys liquefied natural gas (LNG) development offshore Western Australia.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Torm hits back at Hafnia over rejected merger bids",
+   "link": "https://splash247.com/torm-hits-back-at-hafnia-over-rejected-merger-bids/",
+   "published": "2026-11-19T12:10:00+00:00",
+   "summary": "Danish product tanker giant Torm has hit back at Hafnia following its abandoned takeover pursuit, revealing that it rejected several merger proposals from its rival because they offered no meaningful premium and substantially undervalued the company. The Jacob Meldgaard-led owner broke its silence after BW Group-backed Hafnia announced plans to exit its near-20% stake, bringing …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Czech Republic nears US LNG supply deal",
+   "link": "https://lngprime.com/americas/czech-republic-nears-us-lng-supply-deal/200285/",
+   "published": "2026-11-19T12:04:27+00:00",
+   "summary": "The Czech Republic is finalizing a long-term deal to buy US liquefied natural gas (LNG) supplies, according to Czech Industry Minister Karel Havlicek.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seamec scores fresh Indian offshore installation award",
+   "link": "https://splash247.com/seamec-scores-fresh-indian-offshore-installation-award/",
+   "published": "2026-11-19T12:00:00+00:00",
+   "summary": "Indian offshore services provider Seamec has secured a letter of award worth approximately $10.77m from the Indian subsidiary of PACC Offshore Services Holdings (POSH) for subsea installation work on the ONGC Pipeline Replacement Project X (PRP-X). The contract covers installing riser clamps and bow strings for ONGC’s offshore pipeline replacement programme. According to the company’s …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "International Green Fuels Alliance sets up committees to spearhead decarbonisation initiatives",
+   "link": "https://ship.energy/information/international-green-fuels-alliance-sets-up-committees-to-spearhead-decarbonisation-initiatives/",
+   "published": "2026-11-19T11:54:16+00:00",
+   "summary": "In a move which is intended to support Hong Kong’s ambition to be a new fuels bunkering hub, the International Green Fuels Alliance (IGFA) has established three committees which will focus on alternative fuels infrastructure, standards and certification, and trading. The announcement about the new committees was made during the Alliance’s Second Council Meeting and Seminar in Hong Kong earlier this week, which formed",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Marinakis-backed Capital Tankers gets Oslo main board green light",
+   "link": "https://splash247.com/marinakis-backed-capital-tankers-makes-move-to-oslo-main-board/",
+   "published": "2026-11-19T11:45:00+00:00",
+   "summary": "Evangelos Marinakis-backed Capital Tankers has secured approval to move its shares to Oslo’s main stock market, eight months after making its Norwegian trading debut through a $500m equity placement. Oslo Børs confirmed on Thursday that it had decided to admit the Greek-controlled tanker owner to trading on the regulated Euronext Oslo Børs market, clearing a …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Stamford firms up 10 MR tankers in China",
+   "link": "https://splash247.com/stamford-firms-up-10-mr-tankers-in-china/",
+   "published": "2026-11-19T11:27:00+00:00",
+   "summary": "Singapore-based Stamford Shipping has firmed up an order for 10 MR product tankers at China’s Nantong CIMC Sinopacific Offshore & Engineering (CIMC SOE), with the yard also securing two vessels of the same design from an unidentified European owner. The shipbuilder, part of Hong Kong-listed CIMC Enric, has confirmed that construction contracts covering all 12 …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Monjasa bunker tanker completes intermediate drydocking in Spain",
+   "link": "https://ship.energy/energy/monjasa-bunker-tanker-completes-intermediate-drydocking-in-spain/",
+   "published": "2026-11-19T11:21:37+00:00",
+   "summary": "The Monjasa Promoter, a 3,600 DWT bunker tanker owned and operated by Monjasa, has completed its intermediate drydocking at Astilleros de Santander S.A.U. Shipyard in Spain. The vessel entered dry dock on 19 October for its Lloyd’s Register Intermediate Survey, alongside planned maintenance, repairs, inspections and general upgrades, ship management company, and Monjasa Group subsidiary, Montec, said in a social medi",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Star Bulk Carriers Corp. Reports Net Profit Of $141.9 Million For The Third Quarter Of 2026",
+   "link": "https://www.hellenicshippingnews.com/star-bulk-carriers-corp-reports-net-profit-of-141-9-million-for-the-third-quarter-of-2026/",
+   "published": "2026-11-19T11:00:59+00:00",
+   "summary": "Star Bulk Carriers Corp., a global shipping company focusing on the transportation of dry bulk cargoes, today announced its unaudited financial and operating results for the third quarter of 2026. Unless otherwise indicated or unless the context requires otherwise, all references in this press release to “we,” “us,” “our,” or similar references, mean Star Bulk ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sanctioned Tankers Carry 60% of Russian Oil in October: Monthly Intelligence Report",
+   "link": "https://www.hellenicshippingnews.com/sanctioned-tankers-carry-60-of-russian-oil-in-october-monthly-intelligence-report/",
+   "published": "2026-11-19T11:00:57+00:00",
+   "summary": "This analysis was produced by Windward’s Maritime Intelligence Operations Center (MIOC), a mission-critical capability powered by Windward’s maritime intelligence experts and operating as a seamless extension of your team. This is a sample of what we deliver. Vessel identifiers and ownership entities have been redacted for external distribution; AIS-based assessments are probabilistic and intended solely ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "US ethanol offers lower GHG abatement costs than methanol, ammonia: study",
+   "link": "https://www.hellenicshippingnews.com/us-ethanol-offers-lower-ghg-abatement-costs-than-methanol-ammonia-study/",
+   "published": "2026-11-19T11:00:55+00:00",
+   "summary": "US corn-based ethanol could offer shipowners a cheaper route to reducing greenhouse gas emissions than low-carbon methanol and ammonia, potentially opening a new marine fuel market for American producers as the global fleet of methanol-capable vessels expands, according to a study released last week. Ethanol could abate about 2.09 metric tons of CO2 equivalent for ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Future Fuel Talks: Predictable pricing can make blue ammonia more attractive to shipowners – NH3 Clean Energy",
+   "link": "https://www.hellenicshippingnews.com/future-fuel-talks-predictable-pricing-can-make-blue-ammonia-more-attractive-to-shipowners-nh3-clean-energy/",
+   "published": "2026-11-19T11:00:53+00:00",
+   "summary": "Long-term price certainty could give blue ammonia an advantage in a market where shipowners must weigh the cost of switching fuels against the emissions reductions they can achieve, Charles Whitfield told ENGINE. Charles Whitfield is the chairman of Australian clean ammonia developer NH3 Clean Energy. The company is developing a blue ammonia facility in Western ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Lauritzen Bulkers takes delivery of methanol-capable vessel in Cebu",
+   "link": "https://www.hellenicshippingnews.com/lauritzen-bulkers-takes-delivery-of-methanol-capable-vessel-in-cebu/",
+   "published": "2026-11-19T11:00:51+00:00",
+   "summary": "Danish dry bulk shipping company Lauritzen Bulkers has taken delivery of the methanol-capable newbuild Brave Bulker from Tsuneishi Shipbuilding’s Cebu yard in the Philippines. The 81,000-dwt Kamsarmax bulker is equipped with a dual-fuel engine capable of operating on either methanol or conventional marine fuels. Kamsarmax vessels are the largest bulk carriers that can enter Guinea’s ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Paratus and Vantris explore sale of Brazilian subsea venture",
+   "link": "https://splash247.com/paratus-and-vantris-explore-sale-of-brazilian-subsea-venture/",
+   "published": "2026-11-19T11:00:00+00:00",
+   "summary": "Paratus Energy Services and Malaysia’s Vantris Energy are looking into a potential sale of their jointly owned Brazilian subsea services business, Seagems, as part of a strategic review. The two companies, which each hold a 50% stake in Seagems, said they are jointly assessing third-party interest in acquiring the business as a whole. Seagems owns …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ALNG locks in LNG duo with oil major",
+   "link": "https://splash247.com/alng-locks-in-lng-duo-with-oil-major/",
+   "published": "2026-11-19T10:41:00+00:00",
+   "summary": "Norwegian LNG carrier owner ALNG has secured period charters for both its vessels with an unnamed international oil major, taking its entire fleet out of the spot market after a difficult third quarter. The Oslo-listed company, formerly known as Awilco LNG, disclosed that it entered into contracts in October for the 2013-built, 156,000 cu m …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Golar expects Argentina’s SESA to conclude LNG offtake deals in Q1 2027",
+   "link": "https://lngprime.com/americas/golar-expects-argentinas-sesa-to-conclude-lng-offtake-deals-in-q1-2027/200249/",
+   "published": "2026-11-19T09:49:56+00:00",
+   "summary": "Floating LNG player Golar LNG said Argentina's Southern Energy (SESA), in which it holds a 10 percent stake, is in \"very advanced\" discussions to sell the next 3 million tonnes of production.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "SEFE, Tourmaline seal eight-year gas supply deal",
+   "link": "https://lngprime.com/americas/sefe-tourmaline-seal-eight-year-gas-supply-deal/200251/",
+   "published": "2026-11-19T09:08:46+00:00",
+   "summary": "German gas and LNG importer Securing Energy for Europe (SEFE) has signed an eight-year gas supply contract with Canada’s largest natural gas producer Tourmaline.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DP World boosts Maputo port investment to $200m",
+   "link": "",
+   "published": "2026-11-19T08:11:33+00:00",
+   "summary": "DP World boosts Maputo port investment to $200m, nearly tripling capacity to 650,000 teu by 2027",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cosco Shipping inaugurates China Southwest regional HQ",
+   "link": "",
+   "published": "2026-11-19T06:59:13+00:00",
+   "summary": "Two landmark cooperation agreements signed in Chongqing to bolster the New International Land-Sea Trade Corridor",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Weekly tanker and dry bulk time charter rates - 18 November",
+   "link": "",
+   "published": "2026-11-19T06:45:03+00:00",
+   "summary": "Dry bulk and tanker shipping time charter rates",
    "source": "Seatrade Maritime",
    "kind": "market",
    "nordic": false
@@ -958,6 +1253,15 @@
    "link": "https://maritime-executive.com/article/wreck-of-australias-first-home-built-navy-warship-discovered",
    "published": "2026-11-19T04:17:00+00:00",
    "summary": "Maritime archaeologists in Australia have discovered the wreck of a warship that is synonymous with the country’s naval history and one that boasts of...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Key Senate Committee Casts Doubt on White House \"Battleship\" Plans",
+   "link": "https://maritime-executive.com/article/key-senate-committee-casts-doubt-on-white-house-battleship-plans",
+   "published": "2026-11-19T03:37:00+00:00",
+   "summary": "The White House's plans for growing the U.S. Navy's fleet appear to be headed for some swift changes on Capitol Hill, starting with a proposed cut to...",
    "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
@@ -10890,22 +11194,6 @@
    "link": "https://gcaptain.com/eu-puts-icebreakers-shipping-security-at-center-of-new-arctic-strategy/",
    "published": "2026-10-20T15:43:34+00:00",
    "summary": "The European Union unveiled a new Arctic strategy Tuesday aimed at strengthening maritime security, expanding icebreaker capacity and protecting critical infrastructure as melting sea ice opens new shipping routes and...",
-   "source": "gCaptain",
-   "kind": "market"
-  },
-  {
-   "title": "China Sends Naval Forces to Monitor US Warship Near Disputed Shoal",
-   "link": "https://gcaptain.com/china-sends-naval-forces-to-monitor-us-warship-near-disputed-shoal/",
-   "published": "2026-10-20T12:16:08+00:00",
-   "summary": "China's military said on Tuesday it had sent forces to watch a US warship that \"illegally\" entered waters around a disputed shoal in the South China Sea, while further north in the waterway, Taiwan reported a standoff with a Chinese vessel.",
-   "source": "gCaptain",
-   "kind": "market"
-  },
-  {
-   "title": "Maersk and Hateco Plan $3.5 Billion Vietnam Rail Freight Project",
-   "link": "https://gcaptain.com/maersk-and-hateco-plan-3-5-billion-vietnam-rail-freight-project/",
-   "published": "2026-10-20T12:12:59+00:00",
-   "summary": "A.P. Moller-Maersk A/S, the world’s No. 2 container carrier, signed an agreement with Vietnamese conglomerate Hateco to develop a railway freight terminal network in Vietnam during President To Lam’s official visit to Denmark.",
    "source": "gCaptain",
    "kind": "market"
   }
