@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T06:31:15+00:00",
+ "updated": "2026-11-20T06:33:35+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
@@ -7,7 +7,7 @@
    "status": "active",
    "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. The LPG tanker TARA GAS remained on fire and adrift off Oman after an attack that left 11 injured, and US guidance has widened a blockade to cover vessels loading Iranian cargo at sea.",
    "why_it_matters": "Hull strikes and blockade guidance raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
-   "latest": "TARA GAS still burning and adrift with 11 injured; US blockade extended to vessels loading Iranian cargo at sea; clean tanker freight reported slumping as Gulf transits slow.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,15 +16,11 @@
     "brent",
     "vlsfo_fuj"
    ],
-   "sources": [
-    "TARA GAS Burning Off Oman as Another Tanker Attack Leaves 11 Injured",
-    "U.S. Naval Blockade Now Covers Vessels That Load Iranian Cargo at Sea",
-    "Clean tankers freight slumps as Persian Gulf transits slow amid attacks"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-19",
-   "days_running": 21,
-   "days_since_update": 0
+   "days_running": 22,
+   "days_since_update": 1
   },
   {
    "id": "black-sea-attacks",
@@ -38,13 +34,11 @@
     "bpi",
     "bsi"
    ],
-   "sources": [
-    "Attacks on shipping in the Black Sea"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-18",
-   "days_running": 21,
-   "days_since_update": 1
+   "days_running": 22,
+   "days_since_update": 2
   },
   {
    "id": "russian-refining-and-diesel",
@@ -52,7 +46,7 @@
    "status": "active",
    "what": "Ukrainian drone attacks have cut Russian refineries' combined crude processing by 45% since late October, on top of a Russian ban on most diesel exports extended to end-January and contested reports of a US-Russia diesel arrangement.",
    "why_it_matters": "Lost Russian refining and export restrictions reshape clean product ton-miles, pulling diesel from longer-haul sources and changing MR and LR employment and crude export balances.",
-   "latest": "MarineLink reports Russian crude processing down 45% since late October due to drone strikes.",
+   "latest": null,
    "watch": [
     "mr_tc2_tce",
     "mr_tc14_tce",
@@ -60,13 +54,11 @@
     "refining_margin",
     "gasoil"
    ],
-   "sources": [
-    "Ukrainian Drone Attacks Halve Russian Oil Refining in November"
-   ],
+   "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 1,
-   "days_since_update": 0
+   "days_running": 2,
+   "days_since_update": 1
   },
   {
    "id": "shadow-fleet-sanctions",
@@ -80,31 +72,29 @@
     "suezmax_tce",
     "brent"
    ],
-   "sources": [
-    "Sanctions and evasion in the shadow fleet"
-   ],
+   "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-17",
-   "days_running": 14,
-   "days_since_update": 2
+   "days_running": 15,
+   "days_since_update": 3
   },
   {
    "id": "china-ship-port-fees",
-   "title": "US port fees on Chinese-built and Chinese-operated ships",
-   "status": "watch",
-   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue. Separately, a US panel is urging an FMC probe into Chinese port state control detentions of Panama-flagged ships.",
-   "why_it_matters": "Reinstated fees or retaliatory detentions would change the cost and risk of deploying particular tonnage into US and Chinese trades and affect chartering preferences across sectors.",
-   "latest": "US panel urges an FMC investigation, sanctions and IMO referrals over China's detentions of Panama-flagged ships.",
+   "title": "US-China ship fees and port state control friction",
+   "status": "active",
+   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue. A US congressional committee is now urging sanctions over China's detention of Panama-flagged ships.",
+   "why_it_matters": "Reinstated fees, sanctions or retaliatory detentions would change the cost and risk of deploying particular tonnage into US and Chinese trades and affect chartering preferences across sectors.",
+   "latest": "A US congressional committee is urging sanctions over China's detention of Panama-flagged ships, escalating the dispute beyond the suspended port fees.",
    "watch": [
     "bdi",
     "bdry"
    ],
    "sources": [
-    "US panel urges FMC probe into China’s PSC vessel detentions"
+    "US Committee Urges Sanctions Over China’s Detention of Panama-Flagged Ships"
    ],
    "first_seen": "2026-11-11",
-   "last_update": "2026-11-19",
-   "days_running": 9,
+   "last_update": "2026-11-20",
+   "days_running": 10,
    "days_since_update": 0
   },
   {
@@ -113,17 +103,15 @@
    "status": "active",
    "what": "The Los Angeles-Long Beach port complex is bracing for a strike, with employers warning of severe supply chain disruption if last-ditch talks fail.",
    "why_it_matters": "A stoppage at the largest US West Coast gateway would disrupt container flows, berth availability and inland logistics, with knock-on congestion for vessels scheduled to call.",
-   "latest": "Seatrade reports employers warning of severe disruption if last-ditch talks fail.",
+   "latest": null,
    "watch": [
     "bdry"
    ],
-   "sources": [
-    "LA-Long Beach port complex braces for strike"
-   ],
+   "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 1,
-   "days_since_update": 0
+   "days_running": 2,
+   "days_since_update": 1
   }
  ]
 }
