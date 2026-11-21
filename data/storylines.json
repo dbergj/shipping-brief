@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-20T06:33:35+00:00",
+ "updated": "2026-11-21T06:29:29+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. The LPG tanker TARA GAS remained on fire and adrift off Oman after an attack that left 11 injured, and US guidance has widened a blockade to cover vessels loading Iranian cargo at sea.",
-   "why_it_matters": "Hull strikes and blockade guidance raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
-   "latest": null,
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. UKMTO said on Friday that another tanker was struck by a projectile and caught fire while outbound through the strait, extending a wave of attacks on merchant ships.",
+   "why_it_matters": "Hull strikes raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
+   "latest": "A further tanker was hit and set on fire in the strait on Friday; separately, Banchero Costa reports Arabian Gulf crude exports down 27.6% in January-October.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,11 +16,16 @@
     "brent",
     "vlsfo_fuj"
    ],
-   "sources": [],
+   "sources": [
+    "Tanker On Fire After Struck By Projectile Near Strait of Hormuz",
+    "Another Tanker Hit in Strait of Hormuz as Maritime Attacks Surge Worldwide",
+    "Tanker Market: Arabian Gulf Crude Oil Exports Down 27.6% This Year",
+    "Iran War Oil Premium Evaporates as Global Crude Supplies Surge"
+   ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-19",
-   "days_running": 22,
-   "days_since_update": 1
+   "last_update": "2026-11-21",
+   "days_running": 23,
+   "days_since_update": 0
   },
   {
    "id": "black-sea-attacks",
@@ -28,24 +33,26 @@
    "status": "watch",
    "what": "Drone strikes on merchant ships in the Black Sea have continued through November, with two vessels sunk off Bulgaria and crew injured following an earlier wheat carrier capsizing.",
    "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
-   "latest": null,
+   "latest": "No direct update today; trade press notes the Russian Navy has lost ships in the Black Sea and is stretched by escort duties.",
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
-   "sources": [],
+   "sources": [
+    "Russian Navy Back in the Mediterranean Escorting a Cargo Flotilla"
+   ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-18",
-   "days_running": 22,
-   "days_since_update": 2
+   "last_update": "2026-11-21",
+   "days_running": 23,
+   "days_since_update": 0
   },
   {
    "id": "russian-refining-and-diesel",
    "title": "Russian refining damage and diesel export limits",
-   "status": "active",
-   "what": "Ukrainian drone attacks have cut Russian refineries' combined crude processing by 45% since late October, on top of a Russian ban on most diesel exports extended to end-January and contested reports of a US-Russia diesel arrangement.",
-   "why_it_matters": "Lost Russian refining and export restrictions reshape clean product ton-miles, pulling diesel from longer-haul sources and changing MR and LR employment and crude export balances.",
+   "status": "watch",
+   "what": "Ukrainian drone attacks have cut Russian refineries' combined crude processing by 45% since late October, on top of a Russian ban on most diesel exports extended to end-January.",
+   "why_it_matters": "Lost Russian refining and export restrictions reshape clean product ton-miles, pulling diesel from longer-haul sources and changing MR and LR employment.",
    "latest": null,
    "watch": [
     "mr_tc2_tce",
@@ -57,61 +64,63 @@
    "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 2,
-   "days_since_update": 1
+   "days_running": 3,
+   "days_since_update": 2
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
-   "status": "watch",
-   "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations.",
-   "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties, documents and vessel positions, and can strand tonnage outside compliant trade.",
-   "latest": null,
+   "status": "active",
+   "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations. The Russian Navy is now reported escorting sanctioned dark-fleet tankers and a cargo flotilla in the Mediterranean.",
+   "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties and vessel positions, and naval escorting signals that sanctioned trades are being defended rather than curtailed.",
+   "latest": "Reports that the Russian Navy, stretched after Black Sea losses, is escorting sanctioned dark-fleet tankers in the Mediterranean.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Russian Navy Back in the Mediterranean Escorting a Cargo Flotilla"
+   ],
    "first_seen": "2026-11-06",
-   "last_update": "2026-11-17",
-   "days_running": 15,
-   "days_since_update": 3
+   "last_update": "2026-11-21",
+   "days_running": 16,
+   "days_since_update": 0
   },
   {
    "id": "china-ship-port-fees",
    "title": "US-China ship fees and port state control friction",
-   "status": "active",
-   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue. A US congressional committee is now urging sanctions over China's detention of Panama-flagged ships.",
-   "why_it_matters": "Reinstated fees, sanctions or retaliatory detentions would change the cost and risk of deploying particular tonnage into US and Chinese trades and affect chartering preferences across sectors.",
-   "latest": "A US congressional committee is urging sanctions over China's detention of Panama-flagged ships, escalating the dispute beyond the suspended port fees.",
+   "status": "watch",
+   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue, while a US congressional committee urges sanctions over China's detention of Panama-flagged ships.",
+   "why_it_matters": "Reinstated fees, sanctions or retaliatory detentions would change the cost and risk of deploying particular tonnage into US and Chinese trades.",
+   "latest": null,
    "watch": [
     "bdi",
     "bdry"
    ],
-   "sources": [
-    "US Committee Urges Sanctions Over China’s Detention of Panama-Flagged Ships"
-   ],
+   "sources": [],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-20",
-   "days_running": 10,
-   "days_since_update": 0
+   "days_running": 11,
+   "days_since_update": 1
   },
   {
    "id": "la-long-beach-strike",
    "title": "Strike threat at LA-Long Beach",
    "status": "active",
-   "what": "The Los Angeles-Long Beach port complex is bracing for a strike, with employers warning of severe supply chain disruption if last-ditch talks fail.",
+   "what": "The Los Angeles-Long Beach port complex is bracing for a strike as a deadline nears, with employers warning of severe supply chain disruption if talks fail.",
    "why_it_matters": "A stoppage at the largest US West Coast gateway would disrupt container flows, berth availability and inland logistics, with knock-on congestion for vessels scheduled to call.",
-   "latest": null,
+   "latest": "More than 110 US trade associations publicly urged employers and union leaders to reach a deal as the strike deadline approaches.",
    "watch": [
     "bdry"
    ],
-   "sources": [],
+   "sources": [
+    "More Than 110 Trade Groups Urge Deal as LA-Long Beach Port Strike Deadline Nears"
+   ],
    "first_seen": "2026-11-19",
-   "last_update": "2026-11-19",
-   "days_running": 2,
-   "days_since_update": 1
+   "last_update": "2026-11-21",
+   "days_running": 3,
+   "days_since_update": 0
   }
  ]
 }
