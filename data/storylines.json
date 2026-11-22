@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-21T06:29:29+00:00",
+ "updated": "2026-11-22T13:35:56+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. UKMTO said on Friday that another tanker was struck by a projectile and caught fire while outbound through the strait, extending a wave of attacks on merchant ships.",
-   "why_it_matters": "Hull strikes raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
-   "latest": "A further tanker was hit and set on fire in the strait on Friday; separately, Banchero Costa reports Arabian Gulf crude exports down 27.6% in January-October.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. Two further tanker incidents were reported near Oman and a vessel struck a mine east of Hormuz, after UKMTO said a tanker was hit by a projectile and caught fire while outbound through the strait.",
+   "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
+   "latest": "gCaptain reported two tanker incidents near Oman and a mine strike east of Hormuz; Banchero Costa reported Arabian Gulf crude exports down 27.6% year to date on the war in Iran.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -17,14 +17,34 @@
     "vlsfo_fuj"
    ],
    "sources": [
+    "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
     "Tanker On Fire After Struck By Projectile Near Strait of Hormuz",
-    "Another Tanker Hit in Strait of Hormuz as Maritime Attacks Surge Worldwide",
-    "Tanker Market: Arabian Gulf Crude Oil Exports Down 27.6% This Year",
-    "Iran War Oil Premium Evaporates as Global Crude Supplies Surge"
+    "Tanker Market: Arabian Gulf Crude Oil Exports Down 27.6% This Year"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-21",
-   "days_running": 23,
+   "last_update": "2026-11-22",
+   "days_running": 24,
+   "days_since_update": 0
+  },
+  {
+   "id": "baltic-drone-strikes",
+   "title": "Drone strikes on shipping in the Baltic and Gulf of Finland",
+   "status": "active",
+   "what": "The Russian RoRo Sparta II, linked to military logistics, was struck by a suspected drone on Saturday while sailing in the Baltic, catching fire and drifting into Finnish territorial waters.",
+   "why_it_matters": "Attacks in the Baltic extend the risk zone for merchant shipping well beyond the Black Sea, with implications for war-risk cover, routing and port calls in Northern Europe.",
+   "latest": "First reported strike: Sparta II abandoned and burning in the Gulf of Finland after a suspected drone attack.",
+   "watch": [
+    "bdi",
+    "bsi",
+    "vlsfo_rott"
+   ],
+   "sources": [
+    "Russian Military RoRo Abandoned After Drone Attack in the Baltic",
+    "Russian Military-Linked Cargo Ship Burns After Suspected Drone Strike in Gulf of Finland"
+   ],
+   "first_seen": "2026-11-22",
+   "last_update": "2026-11-22",
+   "days_running": 1,
    "days_since_update": 0
   },
   {
@@ -33,19 +53,17 @@
    "status": "watch",
    "what": "Drone strikes on merchant ships in the Black Sea have continued through November, with two vessels sunk off Bulgaria and crew injured following an earlier wheat carrier capsizing.",
    "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
-   "latest": "No direct update today; trade press notes the Russian Navy has lost ships in the Black Sea and is stretched by escort duties.",
+   "latest": null,
    "watch": [
     "bdi",
     "bpi",
     "bsi"
    ],
-   "sources": [
-    "Russian Navy Back in the Mediterranean Escorting a Cargo Flotilla"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-21",
-   "days_running": 23,
-   "days_since_update": 0
+   "days_running": 24,
+   "days_since_update": 1
   },
   {
    "id": "russian-refining-and-diesel",
@@ -64,28 +82,26 @@
    "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 3,
-   "days_since_update": 2
+   "days_running": 4,
+   "days_since_update": 3
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
-   "status": "active",
-   "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations. The Russian Navy is now reported escorting sanctioned dark-fleet tankers and a cargo flotilla in the Mediterranean.",
+   "status": "watch",
+   "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations. The Russian Navy is reported escorting sanctioned dark-fleet tankers in the Mediterranean.",
    "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties and vessel positions, and naval escorting signals that sanctioned trades are being defended rather than curtailed.",
-   "latest": "Reports that the Russian Navy, stretched after Black Sea losses, is escorting sanctioned dark-fleet tankers in the Mediterranean.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
     "brent"
    ],
-   "sources": [
-    "Russian Navy Back in the Mediterranean Escorting a Cargo Flotilla"
-   ],
+   "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-21",
-   "days_running": 16,
-   "days_since_update": 0
+   "days_running": 17,
+   "days_since_update": 1
   },
   {
    "id": "china-ship-port-fees",
@@ -101,26 +117,8 @@
    "sources": [],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-20",
-   "days_running": 11,
-   "days_since_update": 1
-  },
-  {
-   "id": "la-long-beach-strike",
-   "title": "Strike threat at LA-Long Beach",
-   "status": "active",
-   "what": "The Los Angeles-Long Beach port complex is bracing for a strike as a deadline nears, with employers warning of severe supply chain disruption if talks fail.",
-   "why_it_matters": "A stoppage at the largest US West Coast gateway would disrupt container flows, berth availability and inland logistics, with knock-on congestion for vessels scheduled to call.",
-   "latest": "More than 110 US trade associations publicly urged employers and union leaders to reach a deal as the strike deadline approaches.",
-   "watch": [
-    "bdry"
-   ],
-   "sources": [
-    "More Than 110 Trade Groups Urge Deal as LA-Long Beach Port Strike Deadline Nears"
-   ],
-   "first_seen": "2026-11-19",
-   "last_update": "2026-11-21",
-   "days_running": 3,
-   "days_since_update": 0
+   "days_running": 12,
+   "days_since_update": 2
   }
  ]
 }

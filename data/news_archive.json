@@ -869,18 +869,6 @@
    "nordic": true
   },
   {
-   "title": "International Seaways entered a material agreement",
-   "summary": "",
-   "link": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/tm2628139d1_8k.htm",
-   "published": "2026-10-23T12:00:00+00:00",
-   "source": "SEC EDGAR",
-   "ticker": "INSW",
-   "company": "International Seaways",
-   "category": "8-K",
-   "kind": "company",
-   "rank": 2
-  },
-  {
    "title": "Himalaya Shipping Ltd.(HSHP) Ex cash Dividends US$0.20 today on Euronext",
    "link": "https://newsweb.oslobors.no/message/687044",
    "published": "2026-11-20T07:00:03+00:00",
@@ -1092,11 +1080,92 @@
    "nordic": false
   },
   {
+   "title": "LA-LB labour group signs truce with employers",
+   "link": "",
+   "published": "2026-11-21T22:07:21+00:00",
+   "summary": "Tentative agreement averting strike subject to ratification by rank-and-file port workers",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Balaena and Kongsberg Maritime Sign Agreement on Arctic Hunter USV",
+   "link": "https://maritime-executive.com/article/balaena-and-kongsberg-maritime-sign-agreement-on-arctic-hunter-usv",
+   "published": "2026-11-21T21:55:00+00:00",
+   "summary": "British-owned shipbuilding and maritime engineering group Balaena has signed a Memorandum of Understanding (MoU) with Norwegian maritime technology le...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
+   "link": "https://gcaptain.com/two-tanker-incidents-reported-near-oman-vessel-hit-mine-east-of-hormuz/",
+   "published": "2026-11-21T19:38:29+00:00",
+   "summary": "Nov 21 (Reuters) – A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russian Military RoRo Abandoned After Drone Attack in the Baltic",
+   "link": "https://maritime-executive.com/article/russian-military-roro-attacked-by-drones-in-the-baltic-near-finland",
+   "published": "2026-11-21T18:26:21+00:00",
+   "summary": "The Russian RoRo cargo ship Sparta II, well-known for carrying military cargo, was struck Saturday morning while sailing in the Baltic. There are conf...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ASIA LNG MOC PERFORMANCE: Deliveries conclude for record volume of 148.5 TBtu during August MOC",
+   "link": "https://www.hellenicshippingnews.com/asia-lng-moc-performance-deliveries-conclude-for-record-volume-of-148-5-tbtu-during-august-moc-2/",
+   "published": "2026-11-21T18:00:23+00:00",
+   "summary": "Participants in the Asia LNG Platts Market on Close assessment process concluded physical deliveries for a record volume of 148.5 TBtu during August, according to operational trade performance data compiled by Platts, part of S&P Global Energy. The milestone topples the last high recorded just a month ago, when 34 trades – amounting to 113 ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Russian Military-Linked Cargo Ship Burns After Suspected Drone Strike in Gulf of Finland",
+   "link": "https://gcaptain.com/russian-military-linked-cargo-ship-burns-after-suspected-drone-strike-in-gulf-of-finland/",
+   "published": "2026-11-21T16:34:08+00:00",
+   "summary": "A Russian cargo ship linked to Moscow’s military logistics network caught fire after a drone strike in the Gulf of Finland on Saturday, drifting into Finnish territorial waters and triggering...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "SFL Expands Orca AI Deployment Following Successful Initial Rollout",
+   "link": "https://maritime-executive.com/article/sfl-expands-orca-ai-deployment-following-successful-initial-rollout",
+   "published": "2026-11-21T15:55:00+00:00",
+   "summary": "International shipowner and charterer SFL Corporation Ltd is expanding Orca AI across 44 vessels, establishing a common approach to navigational safet...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
    "title": "Energy Efficiency in Boiler, Steam System & Cargo Operations on Oil Tankers",
    "link": "https://maritime-executive.com/article/energy-efficiency-in-boiler-steam-system-cargo-operations-on-oil-tankers",
-   "published": "2026-11-21T01:32:37+00:00",
+   "published": "2026-11-21T15:32:37+00:00",
    "summary": "ClassNK has granted its Innovation Endorsement for Products & Solutions to ‘Energy Efficiency in Boiler, Steam Systems and Cargo Operations on Oil Tan...",
    "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Damen Delivers Shoalbuster 3209 to Cafimar",
+   "link": "https://maritime-executive.com/article/damen-delivers-shoalbuster-3209-to-cafimar",
+   "published": "2026-11-21T15:27:30+00:00",
+   "summary": "Damen Shipyards Group has delivered a Shoalbuster (SBu) 3209 to Italian towage company Cafimar. The vessel was delivered at Damen Shipyard Gorinchem j...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Southern California Port Employers, Watchmen Union Reach Tentative Deal",
+   "link": "https://gcaptain.com/southern-california-port-employers-watchmen-union-reach-tentative-deal/",
+   "published": "2026-11-21T13:58:36+00:00",
+   "summary": "Nov 21 (Reuters) – The Pacific Maritime Association (PMA) employers group at the Los Angeles and Long Beach ports said on Saturday it had reached a tentative agreement with the union for security...",
+   "source": "gCaptain",
    "kind": "market",
    "nordic": false
   },
@@ -1105,15 +1174,6 @@
    "link": "https://maritime-executive.com/article/russian-navy-back-in-the-mediterranean-escorting-a-cargo-flotilla",
    "published": "2026-11-21T00:06:00+00:00",
    "summary": "The Russian Navy is under increasing pressure, having lost ships in the Black Sea, and stretched further by having to escort sanctioned dark fleet tan...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Damen Delivers Shoalbuster 3209 to Cafimar",
-   "link": "https://maritime-executive.com/article/damen-delivers-shoalbuster-3209-to-cafimar",
-   "published": "2026-11-20T23:27:30+00:00",
-   "summary": "Damen Shipyards Group has delivered a Shoalbuster (SBu) 3209 to Italian towage company Cafimar. The vessel was delivered at Damen Shipyard Gorinchem j...",
    "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
