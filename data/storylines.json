@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-22T13:35:56+00:00",
+ "updated": "2026-11-23T16:26:16+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
    "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue. Two further tanker incidents were reported near Oman and a vessel struck a mine east of Hormuz, after UKMTO said a tanker was hit by a projectile and caught fire while outbound through the strait.",
-   "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
-   "latest": "gCaptain reported two tanker incidents near Oman and a mine strike east of Hormuz; Banchero Costa reported Arabian Gulf crude exports down 27.6% year to date on the war in Iran.",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue, following tanker incidents near Oman, a mine strike east of Hormuz and a projectile hit on an outbound tanker. Tracking and identity obfuscation around the strait is now also in question.",
+   "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles. Unreliable AIS signalling makes vessel vetting and position verification harder.",
+   "latest": "An Iranian tanker with no track record signalled on Monday that it had sailed past a US blockade outside the Strait of Hormuz, raising questions about obfuscation tactics and the limits of traffic analysis.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -17,13 +17,11 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Two Tanker Incidents Reported Near Oman; Vessel Hit Mine East Of Hormuz",
-    "Tanker On Fire After Struck By Projectile Near Strait of Hormuz",
-    "Tanker Market: Arabian Gulf Crude Oil Exports Down 27.6% This Year"
+    "Fake Iran Tanker Highlights Uncertainty Around Hormuz Traffic"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-22",
-   "days_running": 24,
+   "last_update": "2026-11-23",
+   "days_running": 25,
    "days_since_update": 0
   },
   {
@@ -32,20 +30,17 @@
    "status": "active",
    "what": "The Russian RoRo Sparta II, linked to military logistics, was struck by a suspected drone on Saturday while sailing in the Baltic, catching fire and drifting into Finnish territorial waters.",
    "why_it_matters": "Attacks in the Baltic extend the risk zone for merchant shipping well beyond the Black Sea, with implications for war-risk cover, routing and port calls in Northern Europe.",
-   "latest": "First reported strike: Sparta II abandoned and burning in the Gulf of Finland after a suspected drone attack.",
+   "latest": null,
    "watch": [
     "bdi",
     "bsi",
     "vlsfo_rott"
    ],
-   "sources": [
-    "Russian Military RoRo Abandoned After Drone Attack in the Baltic",
-    "Russian Military-Linked Cargo Ship Burns After Suspected Drone Strike in Gulf of Finland"
-   ],
+   "sources": [],
    "first_seen": "2026-11-22",
    "last_update": "2026-11-22",
-   "days_running": 1,
-   "days_since_update": 0
+   "days_running": 2,
+   "days_since_update": 1
   },
   {
    "id": "black-sea-attacks",
@@ -62,8 +57,8 @@
    "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-21",
-   "days_running": 24,
-   "days_since_update": 1
+   "days_running": 25,
+   "days_since_update": 2
   },
   {
    "id": "russian-refining-and-diesel",
@@ -82,15 +77,15 @@
    "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 4,
-   "days_since_update": 3
+   "days_running": 5,
+   "days_since_update": 4
   },
   {
    "id": "shadow-fleet-sanctions",
    "title": "Sanctions and evasion in the shadow fleet",
    "status": "watch",
    "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations. The Russian Navy is reported escorting sanctioned dark-fleet tankers in the Mediterranean.",
-   "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties and vessel positions, and naval escorting signals that sanctioned trades are being defended rather than curtailed.",
+   "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties and vessel positions, and obfuscated signalling makes that verification harder.",
    "latest": null,
    "watch": [
     "vlcc_tce",
@@ -100,8 +95,8 @@
    "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-21",
-   "days_running": 17,
-   "days_since_update": 1
+   "days_running": 18,
+   "days_since_update": 2
   },
   {
    "id": "china-ship-port-fees",
@@ -117,8 +112,8 @@
    "sources": [],
    "first_seen": "2026-11-11",
    "last_update": "2026-11-20",
-   "days_running": 12,
-   "days_since_update": 2
+   "days_running": 13,
+   "days_since_update": 3
   }
  ]
 }
