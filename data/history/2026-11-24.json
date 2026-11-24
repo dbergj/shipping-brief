@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-24",
+ "values": {
+  "brent": 90.71,
+  "wti": 80.41,
+  "ttf": 85.78,
+  "henry_hub": 3.193,
+  "coal_api2": 131.75,
+  "gasoil": 3.7055,
+  "gasoline": 2.4076,
+  "bdry": 12.66,
+  "bwet": 760.03,
+  "bci": 4779.0,
+  "bpi": 2149.0,
+  "bsi": 1809.0,
+  "bdi": 3000,
+  "vlsfo_sing": 842.0,
+  "vlsfo_rott": 705.5,
+  "vlsfo_fuj": 800.0,
+  "vlsfo_hou": 720.5,
+  "refining_margin": 64.92,
+  "brent_wti_spread": 10.3
+ }
+}
