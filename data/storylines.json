@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-23T16:26:16+00:00",
+ "updated": "2026-11-24T16:16:31+00:00",
  "stories": [
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
-   "status": "active",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue, following tanker incidents near Oman, a mine strike east of Hormuz and a projectile hit on an outbound tanker. Tracking and identity obfuscation around the strait is now also in question.",
-   "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles. Unreliable AIS signalling makes vessel vetting and position verification harder.",
-   "latest": "An Iranian tanker with no track record signalled on Monday that it had sailed past a US blockade outside the Strait of Hormuz, raising questions about obfuscation tactics and the limits of traffic analysis.",
+   "status": "watch",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue, following tanker incidents near Oman, a mine strike east of Hormuz and a projectile hit on an outbound tanker. Tracking and identity obfuscation around the strait is also in question.",
+   "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
+   "latest": null,
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -16,31 +16,32 @@
     "brent",
     "vlsfo_fuj"
    ],
-   "sources": [
-    "Fake Iran Tanker Highlights Uncertainty Around Hormuz Traffic"
-   ],
+   "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-23",
-   "days_running": 25,
-   "days_since_update": 0
+   "days_running": 26,
+   "days_since_update": 1
   },
   {
-   "id": "baltic-drone-strikes",
-   "title": "Drone strikes on shipping in the Baltic and Gulf of Finland",
+   "id": "strikes-on-russian-linked-shipping",
+   "title": "Drone strikes on Russian-linked shipping beyond the Black Sea",
    "status": "active",
-   "what": "The Russian RoRo Sparta II, linked to military logistics, was struck by a suspected drone on Saturday while sailing in the Baltic, catching fire and drifting into Finnish territorial waters.",
-   "why_it_matters": "Attacks in the Baltic extend the risk zone for merchant shipping well beyond the Black Sea, with implications for war-risk cover, routing and port calls in Northern Europe.",
-   "latest": null,
+   "what": "The Russian RoRo Sparta II, linked to military logistics, was struck by a suspected drone in the Baltic on Saturday and drifted into Finnish waters. Ukraine has now confirmed a drone attack at the weekend on a Russian military vessel and a cargo ship in Libyan waters.",
+   "why_it_matters": "Strikes in the Baltic and now the Mediterranean extend the war-risk zone for merchant shipping far beyond the Black Sea, with implications for insurance cover, routing and port calls.",
+   "latest": "Ukraine's foreign minister said on Tuesday the Libyan-waters attack was legitimate self-defence, after criticism from Tripoli.",
    "watch": [
     "bdi",
     "bsi",
-    "vlsfo_rott"
+    "vlsfo_rott",
+    "brent"
    ],
-   "sources": [],
-   "first_seen": "2026-11-22",
-   "last_update": "2026-11-22",
-   "days_running": 2,
-   "days_since_update": 1
+   "sources": [
+    "Ukraine Insists Attack on Russian Ships in Libya was Self-Defense"
+   ],
+   "first_seen": "2026-11-24",
+   "last_update": "2026-11-24",
+   "days_running": 1,
+   "days_since_update": 0
   },
   {
    "id": "black-sea-attacks",
@@ -57,8 +58,8 @@
    "sources": [],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-21",
-   "days_running": 25,
-   "days_since_update": 2
+   "days_running": 26,
+   "days_since_update": 3
   },
   {
    "id": "russian-refining-and-diesel",
@@ -77,8 +78,8 @@
    "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 5,
-   "days_since_update": 4
+   "days_running": 6,
+   "days_since_update": 5
   },
   {
    "id": "shadow-fleet-sanctions",
@@ -95,25 +96,31 @@
    "sources": [],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-21",
-   "days_running": 18,
-   "days_since_update": 2
+   "days_running": 19,
+   "days_since_update": 3
   },
   {
-   "id": "china-ship-port-fees",
-   "title": "US-China ship fees and port state control friction",
-   "status": "watch",
-   "what": "The US has extended its suspension of port fees targeting Chinese-built and Chinese-operated vessels for another two months while trade talks continue, while a US congressional committee urges sanctions over China's detention of Panama-flagged ships.",
-   "why_it_matters": "Reinstated fees, sanctions or retaliatory detentions would change the cost and risk of deploying particular tonnage into US and Chinese trades.",
-   "latest": null,
+   "id": "imo-netzero-framework",
+   "title": "IMO net-zero rules for LNG and alternative fuels",
+   "status": "active",
+   "what": "The IMO's Marine Environment Protection Committee opens MEPC85 on 30 November without final rules on how LNG, bio-LNG and e-LNG carbon values are measured under the Net-Zero Framework.",
+   "why_it_matters": "The accounting treatment of LNG determines the compliance economics of LNG-fuelled tonnage, directly affecting newbuilding orders such as Maersk's twelve LNG-powered 24,000 TEU ships.",
+   "latest": "Trade press reports carbon values for LNG, bio-LNG and e-LNG remain open a week before the decision; Maersk ordered 12 LNG-powered 24,000 TEU newbuilds for 2030-31 delivery.",
    "watch": [
-    "bdi",
-    "bdry"
+    "ttf",
+    "henry_hub",
+    "lng_blng1",
+    "lng_blng2",
+    "lng_blng3"
    ],
-   "sources": [],
-   "first_seen": "2026-11-11",
-   "last_update": "2026-11-20",
-   "days_running": 13,
-   "days_since_update": 3
+   "sources": [
+    "LNG, bio-LNG carbon values still open a week before IMO net-zero decision: e-NG",
+    "Maersk orders 12 LNG-powered 24,000 TEU container ships"
+   ],
+   "first_seen": "2026-11-24",
+   "last_update": "2026-11-24",
+   "days_running": 1,
+   "days_since_update": 0
   }
  ]
 }

@@ -14,6 +14,19 @@
    "nordic": true
   },
   {
+   "title": "BW LPG Limited   Financial Results for Q3 2026",
+   "link": "https://newsweb.oslobors.no/message/687251",
+   "published": "2026-11-24T06:00:24+00:00",
+   "source": "Oslo Børs",
+   "ticker": "BWLPG",
+   "company": "BW LPG Limited",
+   "category": "Half-year report",
+   "kind": "company",
+   "routine": false,
+   "rank": 1,
+   "nordic": true
+  },
+  {
    "title": "Stainless Tankers announces financial results for the three months ended September 30, 2026",
    "link": "https://newsweb.oslobors.no/message/686261",
    "published": "2026-11-12T06:00:00+00:00",
@@ -63,6 +76,19 @@
    "kind": "company",
    "routine": false,
    "rank": 1,
+   "nordic": true
+  },
+  {
+   "title": "BW LPG Limited   Key information relating to the cash dividend for Q3 2026",
+   "link": "https://newsweb.oslobors.no/message/687253",
+   "published": "2026-11-24T06:01:05+00:00",
+   "source": "Oslo Børs",
+   "ticker": "BWLPG",
+   "company": "BW LPG Limited",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
    "nordic": true
   },
   {
@@ -947,6 +973,32 @@
    "nordic": true
   },
   {
+   "title": "Capital Tankers Corp.   Approval and publication of prospectus and transfer of listing from Euronext Growth Oslo to Euronext Oslo Børs",
+   "link": "https://newsweb.oslobors.no/message/687310",
+   "published": "2026-11-24T14:59:06+00:00",
+   "source": "Oslo Børs",
+   "ticker": "CAPT",
+   "company": "Capital Tankers Corp.",
+   "category": "Prospectus",
+   "kind": "company",
+   "routine": false,
+   "rank": 3,
+   "nordic": true
+  },
+  {
+   "title": "Stolt-Nielsen Limited shares trade ex-dividend",
+   "link": "https://newsweb.oslobors.no/message/687246",
+   "published": "2026-11-24T06:00:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "SNI",
+   "company": "Stolt-Nielsen Limited",
+   "category": "Ex Date",
+   "kind": "company",
+   "routine": false,
+   "rank": 4,
+   "nordic": true
+  },
+  {
    "title": "Höegh Autoliners ASA: Ex dividend USD 0.5219 today",
    "link": "https://newsweb.oslobors.no/message/687129",
    "published": "2026-11-23T06:30:00+00:00",
@@ -1180,6 +1232,330 @@
    "published": "2026-11-25T12:00:00+00:00",
    "summary": "Jamming and spoofing attacks are rising fast across busy waterways, putting crews, cargo and insurance claims at risk. Join maritime and satellite experts to discover how proven technology fights back.",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk orders 12 LNG-powered 24,000 TEU container ships",
+   "link": "https://ship.energy/energy/maersk-orders-12-lng-powered-24000-teu-container-ships/",
+   "published": "2026-11-24T15:30:49+00:00",
+   "summary": "Container shipping giant Maersk has announced it has ordered 12 LNG-powered, 24,000 TEU (twenty-foot equivalent unit) newbuilds. Upon delivery, which is scheduled for 2030 and 2031, the vessels will be the largest vessels in the Maersk fleet, the company said in a statement sent to ship.energy today (24 November). ‘With their capacity, the vessels are well-suited for deployment on the most cargo-intensive services an",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Work underway on £3.8 million project to advance greener shipping at Port of Inverness",
+   "link": "https://ship.energy/energy/work-underway-on-3-8-million-project-to-advance-greener-shipping-at-port-of-inverness/",
+   "published": "2026-11-24T14:39:06+00:00",
+   "summary": "A major upgrade of the Port of Inverness’ Longman Quay that will support the adoption of port electrification and less carbon-intensive fuels has got underway. The £3.8 million project includes installing infrastructure for shore power and new ducting to allow the Scottish port to offer alternative marine fuels, including hydrogen and LNG, as they become available. Just under 50% of the project funding comes from the",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Danaos bags $611m in fresh boxship charters",
+   "link": "https://splash247.com/danaos-bags-611m-in-fresh-boxship-charters/",
+   "published": "2026-11-24T14:37:17+00:00",
+   "summary": "Greek containership owner Danaos has secured another $611m in contracted revenue through a string of new fixtures and charter extensions, taking its forward revenue backlog to $5bn. The John Coustas-led company revealed the deals in its latest quarterly update, with a comparison of its fleet employment schedules showing fresh contracts for six containership newbuildings alongside …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping’s silo mentality carries a $20bn price tag",
+   "link": "",
+   "published": "2026-11-24T14:21:19+00:00",
+   "summary": "Torvald Klaveness argues that fragmented commercial interests are preventing the shipping industry from realising billions of dollars in annual savings.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Connected engines unlock fuel savings and greater reliability",
+   "link": "",
+   "published": "2026-11-24T14:13:04+00:00",
+   "summary": "Always-on connectivity enables shore-based engineers to identify performance issues, reduce fuel consumption and prevent downtime.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ShipVet Appoints New CEO as Founder Steps Back",
+   "link": "https://www.marinelink.com/news/shipvet-appoints-new-ceo-founder-steps-544557",
+   "published": "2026-11-24T14:10:32+00:00",
+   "summary": "Marine assurance and vessel vetting company ShipVet has appointed James Stairmand as chief executive officer, effective November 2026, as founder Captain Fintan Cullen moves to a non-executive role.Stairmand, previously the company's chief commercial officer…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EnEarth takes control of Scottish carbon storage project",
+   "link": "https://splash247.com/enearth-takes-control-of-scottish-carbon-storage-project/",
+   "published": "2026-11-24T14:00:00+00:00",
+   "summary": "Carbon storage developer EnEarth has agreed to acquire Storegga’s 30% stake in the Acorn carbon capture and storage project in northeast Scotland, taking over as lead developer of the North Sea scheme. The transaction will transfer Storegga’s project interest and development responsibilities to EnEarth, together with the management team and staff currently working on Acorn. …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Coast Guard Orders Salvage Assessment of ‘Healy’ Engine After Major Failure",
+   "link": "https://gcaptain.com/coast-guard-orders-salvage-assessment-of-healy-engine-after-major-failure/",
+   "published": "2026-11-24T13:50:31+00:00",
+   "summary": "The U.S. Coast Guard has sought a specialized salvage inspection of the damaged No. 2 diesel generator aboard USCGC Healy, seeking to identify components that can be reclaimed and reused following a catastrophic engine failure.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ukraine Insists Attack on Russian Ships in Libya was Self-Defense",
+   "link": "https://gcaptain.com/ukraine-insists-attack-on-russian-ships-in-libya-was-self-defense/",
+   "published": "2026-11-24T13:40:38+00:00",
+   "summary": "Ukraine's foreign minister said on Tuesday a drone attack against a Russian military vessel and cargo ship in Libyan waters at the weekend was a legitimate act of self-defense, following criticism from the government in Tripoli.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DOF Strikes Sale-and-Leaseback Deal for Skandi Forza CSV",
+   "link": "https://www.marinelink.com/news/dof-strikes-saleandleaseback-deal-skandi-544555",
+   "published": "2026-11-24T13:28:40+00:00",
+   "summary": "Norwegian offshore vessel operator DOF Group has agreed to sell its construction support vessel (CSV) Skandi Forza in a transaction that will allow the company to continue using the vessel under a two-year bareboat charter.The 2008-built vessel…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Baltic Dry Index climbs to 3068 up 68 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-climbs-to-3068-up-68-points/",
+   "published": "2026-11-24T13:00:15+00:00",
+   "summary": "Today, Tuesday, November 24 2026, the Baltic Dry Index climbed 68 points, 3068 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry hit a ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DOF sells CSV in $35m gain deal",
+   "link": "https://splash247.com/dof-sells-csv-in-35m-gain-deal/",
+   "published": "2026-11-24T13:00:00+00:00",
+   "summary": "Norwegian offshore vessel owner DOF has agreed to sell its 2008-built subsea construction vessel (CSV) Skandi Forza, while retaining access to the ship through a two-year bareboat charterback arrangement. The vessel is expected to be delivered to its new owners in the fourth quarter of 2026, with DOF continuing to operate it under the charter …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Banks and public lenders ‘keep billions flowing to fossil-fuel-only ships’, claims new report from South Korean NGO",
+   "link": "https://ship.energy/energy/banks-and-public-lenders-keep-billions-flowing-to-fossil-fuel-only-ships-claims-new-report-from-south-korean-ngo/",
+   "published": "2026-11-24T12:47:32+00:00",
+   "summary": "South Korea-based NGO Solutions for Our Climate (SFOC) has published a new report which claims that: ‘Private and public financial institutions are continuing to channel billions of dollars into the construction of ships that can only run on fossil fuels.’ In compiling its report, SFOC examined lending by the 10 largest commercial bank creditors to shipping-related entities of the world’s top 10 containership groups,",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Engen-led consortium sets out plans for Durban LNG-to-power project",
+   "link": "https://ship.energy/energy/engen-led-consortium-sets-out-plans-for-durban-lng-to-power-project/",
+   "published": "2026-11-24T12:46:16+00:00",
+   "summary": "A consortium led by African energy company Engen has confirmed plans for a ZAR 40 billion (£1.7 billion) project which would include an LNG import terminal at the Port of Durban, associated pipeline infrastructure and a 1.9 GW combined cycle gas turbine (CCGT) power plant, and could also provide the infrastructure to offer LNG bunkering services at the port The power plant would be located at the Engen refinery site ",
+   "source": "Bunkerspot",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Zelenskyy Confirms Ukraine Hit Russian Ship in Gulf of Finland",
+   "link": "https://gcaptain.com/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland/",
+   "published": "2026-11-24T12:40:14+00:00",
+   "summary": "President Volodymyr Zelenskyy said Ukraine was responsible for a drone strike on a Russian cargo ship in the Gulf of Finland in a widening campaign of retaliation against Moscow’s full-scale invasion.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Torvald Klaveness puts $7bn price tag on shipping inefficiencies",
+   "link": "https://splash247.com/torvald-klaveness-puts-7bn-price-tag-on-shipping-inefficiencies/",
+   "published": "2026-11-24T12:01:36+00:00",
+   "summary": "Norwegian shipping group Torvald Klaveness has identified around $7bn in potential annual savings across dry bulk and product tanker shipping, with excessive transaction costs, underutilised vessels and poor port coordination among the industry’s biggest sources of inefficiency. The Oslo-based company’s new study, examining approximately $190bn in annual freight spending across the two sectors, suggests the …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Indonesia clears offshore gas development for Eni-Petronas venture",
+   "link": "https://splash247.com/indonesia-clears-offshore-gas-development-for-eni-petronas-venture/",
+   "published": "2026-11-24T12:00:00+00:00",
+   "summary": "Indonesian authorities have approved the development plan for the Geliga gas field offshore East Kalimantan, paving the way for a major new deepwater production hub involving an FPSO vessel and 15 subsea wells. The approval, announced by Italian energy major Eni, covers the integrated development of Geliga and neighbouring Gula in the Kutei Basin, containing …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "One Maritime Generation targets specialist shipmanagement niche",
+   "link": "https://splash247.com/one-maritime-generation-targets-specialist-shipmanagement-niche/",
+   "published": "2026-11-24T11:51:56+00:00",
+   "summary": "Two German shipping professionals from markedly different maritime backgrounds have established a shipmanagement company in Hamburg, targeting a niche in the market for vessels engaged in complex and unconventional operations. One Maritime Generation brings together Gerda Rohden, a veteran of German family-owned shipping, and Anna-Maria Renken, a qualified lawyer whose maritime career spans commercial shipping, …",
+   "source": "Splash247",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Elaine Chao Calls for Investment, Innovation to Rebuild U.S. Maritime Industry",
+   "link": "https://www.marinelink.com/news/elaine-chao-calls-investment-innovation-544550",
+   "published": "2026-11-24T11:38:43+00:00",
+   "summary": "Former U.S. Transportation Secretary Elaine Chao called for a coordinated effort involving government, private industry and international allies to strengthen American shipbuilding capacity, modernize maritime infrastructure and develop the workforce needed to support a more competitive U.S.",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "DEME Lands Offshore Works Contract for Canadian Gas Pipeline",
+   "link": "https://www.marinelink.com/news/deme-lands-offshore-works-contract-544548",
+   "published": "2026-11-24T11:19:21+00:00",
+   "summary": "Belgian marine engineering company DEME has secured a major subcontract from Allseas for marine construction works on the Prince Rupert Gas Transmission (PRGT) pipeline project in British Columbia, Canada.The contract covers marine works associated with the pipeline's 50-kilometre offshore section…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LNG, bio-LNG carbon values still open a week before IMO net-zero decision: e-NG",
+   "link": "https://www.hellenicshippingnews.com/lng-bio-lng-carbon-values-still-open-a-week-before-imo-net-zero-decision-e-ng/",
+   "published": "2026-11-24T11:00:59+00:00",
+   "summary": "The International Maritime Organization’s Marine Environment Protection Committee will open the Marine Environment Protection Committee85 meeting on Nov. 30 without final rules on how LNG, bio-LNG and e-LNG are measured under the Net-Zero Framework, leaving the compliance value of those fuels unsettled, according to the e-NG Coalition, an industry group promoting e-methane. Default LNG values ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "How chokepoint disruption reshapes maritime risk",
+   "link": "https://www.hellenicshippingnews.com/how-chokepoint-disruption-reshapes-maritime-risk/",
+   "published": "2026-11-24T11:00:57+00:00",
+   "summary": "Around 90% of world trade travels by sea, much of it through a relatively small number of narrow maritime passages. For shipowners, operators and marine insurers, the risks around those chokepoints are familiar. What is harder to judge is how quickly disruption at one can change conditions elsewhere. Conflict has disturbed established routes over the ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LNG Bunker Snapshot: Europe’s supply worries lift ARA as Singapore falls",
+   "link": "https://www.hellenicshippingnews.com/lng-bunker-snapshot-europes-supply-worries-lift-ara-as-singapore-falls/",
+   "published": "2026-11-24T11:00:55+00:00",
+   "summary": "ARA Rotterdam’s LNG bunker price has risen in line with TTF. Front-month TTF has climbed by $1.05/MMBtu ($55/mt) to $29.64/MMBtu ($1,541/mt). Rotterdam’s bunker premium has edged up from $2.75/MMBtu ($143/mt) a week ago to $2.79/MMBtu ($145/mt), and the Baltic premium from $4.73/MMBtu ($246/mt) to $4.77/MMBtu ($248/mt). TTF has risen after easing a bit, when milder ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "LNG shipping stocks: Red week by global sell-off",
+   "link": "https://www.hellenicshippingnews.com/lng-shipping-stocks-red-week-by-global-sell-off/",
+   "published": "2026-11-24T11:00:53+00:00",
+   "summary": "The UP World LNG Shipping Index fell 9.91 points (4.56%) to close at 207.23, swept up in a broad global sell-off — the S&P 500 lost 8.61%, its worst week since April 2025, on a sharp shift in sentiment toward technology shares. The UPI fell less than the S&P, partly because its Asian constituents had ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Posco wraps up acquisition of US shale gas assets",
+   "link": "https://lngprime.com/americas/posco-wraps-up-acquisition-of-us-shale-gas-assets/200515/",
+   "published": "2026-11-24T10:53:53+00:00",
+   "summary": "Posco International, a unit of South Korean steel producer Posco, has completed the acquisition of Chord Energy's non-operated US shale gas assets",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Singapore Shipping orders PCTC pair from Guangzhou Shipyard International",
+   "link": "",
+   "published": "2026-11-24T10:23:26+00:00",
+   "summary": "First partnership to deliver LNG dual-fuel car carriers for the owner’s long-term fleet renewal and low-carbon shipping road map.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UK MCA proposes increase in statutory maritime fees",
+   "link": "",
+   "published": "2026-11-24T09:53:11+00:00",
+   "summary": "Consultation launched on fee hike to boost income by over 40%, simplified charges for ship surveys, seafarer certification and registration services.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Trung Nam awards gas turbine gig for Vietnam LNG power plant",
+   "link": "https://lngprime.com/asia/trung-nam-awards-gas-turbine-gig-for-vietnam-lng-power-plant/200507/",
+   "published": "2026-11-24T09:52:21+00:00",
+   "summary": "Vietnam's Trung Nam Construction Investment has awarded a gas turbine contract to Italian firm Ansaldo Energia for its planned Ca Na LNG-to-power project in Vietnam.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Petronas names third FLNG in South Korea",
+   "link": "https://lngprime.com/asia/petronas-names-third-flng-in-south-korea/200503/",
+   "published": "2026-11-24T09:07:36+00:00",
+   "summary": "Malaysian energy giant Petronas has officially named its third floating LNG production unit, PFLNG Tiga, at the Samsung Heavy Industries Geoje yard in South Korea.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Cheniere seeks OK to begin site preparation activities for Sabine Pass LNG expansion",
+   "link": "https://lngprime.com/americas/cheniere-seeks-ok-to-begin-site-preparation-activities-for-sabine-pass-lng-expansion/200494/",
+   "published": "2026-11-24T08:33:05+00:00",
+   "summary": "US LNG exporter Cheniere is seeking approval from the Federal Energy Regulatory Commission to begin initial site preparation for the planned Sabine Pass Stage 5 LNG expansion project in Louisiana.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "SHI, Tesser, NTNU and DNV Sign MOU to Develop Nuclear-Powered Vessel",
+   "link": "https://maritime-executive.com/article/shi-tesser-ntnu-and-dnv-sign-mou-to-develop-nuclear-powered-vessel",
+   "published": "2026-11-24T04:55:00+00:00",
+   "summary": "Samsung Heavy Industries Co., Ltd. (SHI), Tesser Atomics (Tesser), the Norwegian University of Science and Technology Department of Ocean Operations a...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "AIS Awarded Offshore Wind Contract by LS Marine Solution",
+   "link": "https://maritime-executive.com/article/ais-awarded-offshore-wind-contract-by-ls-marine-solution",
+   "published": "2026-11-24T04:54:00+00:00",
+   "summary": "AIS has successfully secured a significant contract with LS Marine Solution for the supply of NjordGuard cable protection systems (CPS) and bellmouths...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Bristol Harbor Group and The Shearer Group Become Employee-Owned",
+   "link": "https://maritime-executive.com/article/bristol-harbor-group-and-the-shearer-group-become-employee-owned",
+   "published": "2026-11-24T04:53:00+00:00",
+   "summary": "Bristol Harbor Group, Inc. (BHGI) and The Shearer Group, Inc. (TSGI) are proud to announce that both companies are now 100% employee owned through an...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "HMM and NEXTPOWER Agree on Green Sailing Service Partnership",
+   "link": "https://maritime-executive.com/article/hmm-and-nextpower-agree-on-green-sailing-service-partnership",
+   "published": "2026-11-24T04:52:00+00:00",
+   "summary": "HMM has entered into a strategic partnership with NEXTPOWER, a U.S.-based global renewable energy company, under its Green Sailing Service program.Thi...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ports America Appoints Craig Mygatt as Chief Executive Officer",
+   "link": "https://maritime-executive.com/article/ports-america-appoints-craig-mygatt-as-chief-executive-officer",
+   "published": "2026-11-24T04:52:00+00:00",
+   "summary": "Ports America's Board of Directors has appointed Craig Mygatt as Chief Executive Officer, effective December 28, 2026. Scott Anderson, who has served...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Probes Suspected Iranian Cyberattacks on Up to 50 Ships, WSJ Reports",
+   "link": "https://gcaptain.com/u-s-probes-suspected-iranian-cyberattacks-on-up-to-50-ships-wsj-reports/",
+   "published": "2026-11-24T03:55:04+00:00",
+   "summary": "The United States is investigating Iran's potential involvement in dozens of cyberattacks against energy tankers amid concerns that Tehran is widening the war with cyber operations and terror plots against Americans far from the Middle East, the Wall Street Journal reported on Monday.",
+   "source": "gCaptain",
    "kind": "market",
    "nordic": false
   },
@@ -12258,24 +12634,6 @@
    "link": "https://gcaptain.com/sri-lanka-rescues-40-iranian-sailors/",
    "published": "2026-10-25T17:56:45+00:00",
    "summary": "By Uditha Jayasinghe COLOMBO, Oct 25 (Reuters) – Sri Lanka coordinated the rescue of 40 Iranian sailors from multiple commercial ships in international waters off the coast of the country and supported...",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Borr Drilling Rig Sinks Off Gabon, One Person Dead And Four Missing",
-   "link": "https://gcaptain.com/borr-drilling-rig-sinks-off-gabon-one-person-dead-and-four-missing/",
-   "published": "2026-10-25T15:07:34+00:00",
-   "summary": "By Gnaneshwar Rajan and Colleen Goko Oct 25 (Reuters) – Borr Drilling’s BORR.N Prospector 5 drilling rig sank late on Saturday off the coast of Mayumba, Gabon, killing one worker and leaving four others...",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Romania Blames Russia For Drone That Sinks Cargo Ship; 1 Killed, 3 Missing",
-   "link": "https://gcaptain.com/romania-blames-russia-for-drone-that-sinks-cargo-ship-1-killed-3-missing/",
-   "published": "2026-10-25T01:52:30+00:00",
-   "summary": "BUCHAREST, Oct 23 (Reuters) – Romanian President Nicusor Dan accused Russia of escalating its attacks on NATO’s eastern flank on Friday, after a drone strike sank a cargo ship off the Romanian Black Sea...",
    "source": "gCaptain",
    "kind": "market",
    "nordic": false
