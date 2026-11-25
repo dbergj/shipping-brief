@@ -1,6 +1,27 @@
 {
- "updated": "2026-11-24T16:16:31+00:00",
+ "updated": "2026-11-25T16:00:31+00:00",
  "stories": [
+  {
+   "id": "saudi-houthi-escalation",
+   "title": "Saudi-Houthi strikes hit energy and port infrastructure",
+   "status": "active",
+   "what": "Riyadh, the Houthi-controlled port of Hodeidah and the Saudi terminal at Ras Tanura were hit in an exchange of fire, after a Houthi attack damaged an office tower in Riyadh and Saudi forces struck Hodeidah overnight Tuesday.",
+   "why_it_matters": "Strikes on a major crude loading terminal and a Red Sea port threaten liftings, raise war-risk premiums and can reroute crude and product tonnage away from the region.",
+   "latest": "Reported today; Brent is $93.07, up 1.8%, which may partly reflect the strikes.",
+   "watch": [
+    "brent",
+    "vlcc_tce",
+    "suezmax_tce",
+    "vlsfo_fuj"
+   ],
+   "sources": [
+    "Riyadh, Hodeidah and Ras Tanura Hit in Saudi-Houthi Exchange of Fire"
+   ],
+   "first_seen": "2026-11-25",
+   "last_update": "2026-11-25",
+   "days_running": 1,
+   "days_since_update": 0
+  },
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
@@ -16,19 +37,21 @@
     "brent",
     "vlsfo_fuj"
    ],
-   "sources": [],
+   "sources": [
+    "Riyadh, Hodeidah and Ras Tanura Hit in Saudi-Houthi Exchange of Fire"
+   ],
    "first_seen": "2026-10-30",
    "last_update": "2026-11-23",
-   "days_running": 26,
-   "days_since_update": 1
+   "days_running": 27,
+   "days_since_update": 2
   },
   {
    "id": "strikes-on-russian-linked-shipping",
    "title": "Drone strikes on Russian-linked shipping beyond the Black Sea",
    "status": "active",
-   "what": "The Russian RoRo Sparta II, linked to military logistics, was struck by a suspected drone in the Baltic on Saturday and drifted into Finnish waters. Ukraine has now confirmed a drone attack at the weekend on a Russian military vessel and a cargo ship in Libyan waters.",
-   "why_it_matters": "Strikes in the Baltic and now the Mediterranean extend the war-risk zone for merchant shipping far beyond the Black Sea, with implications for insurance cover, routing and port calls.",
-   "latest": "Ukraine's foreign minister said on Tuesday the Libyan-waters attack was legitimate self-defence, after criticism from Tripoli.",
+   "what": "The Russian RoRo Sparta II was struck by a suspected drone in the Baltic and drifted into Finnish waters. Ukrainian drone boats attacked Russian warships at the port of Benghazi in Libya.",
+   "why_it_matters": "Strikes in the Baltic and the Mediterranean extend the war-risk zone for merchant shipping far beyond the Black Sea, with implications for insurance cover, routing and port calls.",
+   "latest": "Libya's Tripoli-based government says it had no knowledge of the Benghazi drone boat attack, and Ukraine denies interfering in Libyan affairs.",
    "watch": [
     "bdi",
     "bsi",
@@ -36,30 +59,12 @@
     "brent"
    ],
    "sources": [
-    "Ukraine Insists Attack on Russian Ships in Libya was Self-Defense"
+    "Ukraine Denies Interfering in Libyan Affairs After Benghazi Drone Strike"
    ],
    "first_seen": "2026-11-24",
-   "last_update": "2026-11-24",
-   "days_running": 1,
+   "last_update": "2026-11-25",
+   "days_running": 2,
    "days_since_update": 0
-  },
-  {
-   "id": "black-sea-attacks",
-   "title": "Attacks on shipping in the Black Sea",
-   "status": "watch",
-   "what": "Drone strikes on merchant ships in the Black Sea have continued through November, with two vessels sunk off Bulgaria and crew injured following an earlier wheat carrier capsizing.",
-   "why_it_matters": "Strikes on ships and port infrastructure threaten grain and dry bulk loadings and add insurance and routing costs for any vessel calling in the region.",
-   "latest": null,
-   "watch": [
-    "bdi",
-    "bpi",
-    "bsi"
-   ],
-   "sources": [],
-   "first_seen": "2026-10-30",
-   "last_update": "2026-11-21",
-   "days_running": 26,
-   "days_since_update": 3
   },
   {
    "id": "russian-refining-and-diesel",
@@ -75,11 +80,13 @@
     "refining_margin",
     "gasoil"
    ],
-   "sources": [],
+   "sources": [
+    "Most Large Fuel Tankers Now Ship ‘Dirty’ Crude, Upending Trading"
+   ],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 6,
-   "days_since_update": 5
+   "days_running": 7,
+   "days_since_update": 6
   },
   {
    "id": "shadow-fleet-sanctions",
@@ -93,19 +100,21 @@
     "suezmax_tce",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Webinar on-Demand Now: Seatrade Maritime News webinar tackles the rising threat of GPS/GNSS attacks on global shipping"
+   ],
    "first_seen": "2026-11-06",
    "last_update": "2026-11-21",
-   "days_running": 19,
-   "days_since_update": 3
+   "days_running": 20,
+   "days_since_update": 4
   },
   {
    "id": "imo-netzero-framework",
    "title": "IMO net-zero rules for LNG and alternative fuels",
    "status": "active",
    "what": "The IMO's Marine Environment Protection Committee opens MEPC85 on 30 November without final rules on how LNG, bio-LNG and e-LNG carbon values are measured under the Net-Zero Framework.",
-   "why_it_matters": "The accounting treatment of LNG determines the compliance economics of LNG-fuelled tonnage, directly affecting newbuilding orders such as Maersk's twelve LNG-powered 24,000 TEU ships.",
-   "latest": "Trade press reports carbon values for LNG, bio-LNG and e-LNG remain open a week before the decision; Maersk ordered 12 LNG-powered 24,000 TEU newbuilds for 2030-31 delivery.",
+   "why_it_matters": "The accounting treatment of LNG determines the compliance economics of LNG-fuelled tonnage and newbuilding decisions, including LNG carrier and dual-fuel orders now being placed.",
+   "latest": "No MEPC news today, but Bonny Gas Transport ordered two more LNG carriers at Hudong-Zhonghua and an LNG dual-fuel PCTC entered service for SUARDIAZ.",
    "watch": [
     "ttf",
     "henry_hub",
@@ -114,12 +123,12 @@
     "lng_blng3"
    ],
    "sources": [
-    "LNG, bio-LNG carbon values still open a week before IMO net-zero decision: e-NG",
-    "Maersk orders 12 LNG-powered 24,000 TEU container ships"
+    "Nigeria LNG’s BGT orders more vessels from Hudong-Zhonghua",
+    "New LNG dual fuel PCTC begins operations with SUARDIAZ Group"
    ],
    "first_seen": "2026-11-24",
-   "last_update": "2026-11-24",
-   "days_running": 1,
+   "last_update": "2026-11-25",
+   "days_running": 2,
    "days_since_update": 0
   }
  ]
