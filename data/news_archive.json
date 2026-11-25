@@ -92,6 +92,19 @@
    "nordic": true
   },
   {
+   "title": "Kinetics LNG Holdings Limited - Q3 2026 Financial Results",
+   "link": "https://newsweb.oslobors.no/message/687437",
+   "published": "2026-11-25T16:30:00+00:00",
+   "source": "Oslo Børs",
+   "ticker": "KNLH",
+   "company": "Kinetics LNG Holdings Limited",
+   "category": "Press release",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
    "title": "Diana Shipping Inc. Announces Key Leadership Appointment and Organizational Changes to Support Its Long-Term Strategy",
    "link": "https://newsweb.oslobors.no/message/687424",
    "published": "2026-11-25T15:05:27+00:00",
@@ -1288,6 +1301,186 @@
    "published": "2027-03-16T15:00:00+00:00",
    "summary": "",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "ETS for maritime revision – The EU must not miss the opportunity to protect its ports and maritime connectivity",
+   "link": "https://www.hellenicshippingnews.com/ets-for-maritime-revision-the-eu-must-not-miss-the-opportunity-to-protect-its-ports-and-maritime-connectivity/",
+   "published": "2026-11-25T22:00:59+00:00",
+   "summary": "Ahead of the European Parliament’s Environment Committee vote on the maritime EU Emissions Trading System (ETS), FEPORT, representing European private port companies and terminal operators, the European Transport Workers’ Federation (ETF), the European Shippers’ Council (ESC), CLECAT, representing freight forwarders and logistics providers, the European Community Association of Ship Brokers and Agents (ECASBA), the E",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Ship Recycling Showing Signs of Weakness in India, Stronger Elsewhere",
+   "link": "https://www.hellenicshippingnews.com/ship-recycling-showing-signs-of-weakness-in-india-stronger-elsewhere/",
+   "published": "2026-11-25T22:00:59+00:00",
+   "summary": "The ship recycling market has shown mixed signs across the major markets, during the course of the past week. In its latest weekly report, Best Oasis (www.best-oasis.com), a leading cash buyer of ships said that “the Indian ship recycling market has weakened this week, primarily influenced by currency fluctuations, resulting in softer buying indications across ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "WSC report highlights global renewable marine fuel opportunities as dual-fuel fleet set to meet 20% of liner energy demand by 2030",
+   "link": "https://www.hellenicshippingnews.com/wsc-report-highlights-global-renewable-marine-fuel-opportunities-as-dual-fuel-fleet-set-to-meet-20-of-liner-energy-demand-by-2030/",
+   "published": "2026-11-25T22:00:58+00:00",
+   "summary": "Investment in new container ships and vehicle carriers is creating a substantial potential market for renewable marine fuels, according to a new report released today by the World Shipping Council. By around 2030, ships already operating or on order that are capable of using renewable marine fuels are expected to account for more than one-fifth ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index Scales Near 2-Month Peak",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-scales-near-2-month-peak/",
+   "published": "2026-11-25T22:00:57+00:00",
+   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, was up for a third session on Wednesday, rising 1.3% to its highest since October 2 at 3,107 points. Gains were broad-based across vessel segments. The panamax index, which usually carries 60,000 to 70,000 tons of coal or grain, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New clause available for tanker ship-to-ship transfers and special operations",
+   "link": "https://www.hellenicshippingnews.com/new-clause-available-for-tanker-ship-to-ship-transfers-and-special-operations/",
+   "published": "2026-11-25T22:00:57+00:00",
+   "summary": "We have published a new standard clause for ship-to-ship transfers and other transfer operations involving tankers and gas tankers. The BIMCO Tanker Ship-to-Ship Transfer and Special Operations Clause 2026 provides a contractual framework for allocating the operational responsibilities, costs and risks associated with these increasingly important operations. The new clause covers cargo operations carried out ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "EU Votes to Reject Indian Scrap Yards Despite Last-Minute Industry Push",
+   "link": "https://maritime-executive.com/article/eu-votes-to-reject-indian-scrap-yards-despite-last-minute-industry-push",
+   "published": "2026-11-25T20:52:14+00:00",
+   "summary": "Efforts to get two Indian ship recycling facilities added to the EU’s approved list of facilities appear to be failing unless the full EU overrides th...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Trump Administration Proposes New Tariffs on China, EU and SE Asia",
+   "link": "https://maritime-executive.com/article/trump-administration-proposes-new-tariffs-on-china-eu-and-se-asia",
+   "published": "2026-11-25T20:00:00+00:00",
+   "summary": "Tariffs are back, the U.S. Trade Representative's office announced on Wednesday. The White House's trade-regulation office says that it has finished a...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Sri Lanka Provides Port of Refuge to Cargo Ship with Flooded Engine Room",
+   "link": "https://maritime-executive.com/article/sri-lanka-provides-port-of-refuge-to-cargo-ship-with-flooded-engine-room",
+   "published": "2026-11-25T19:57:02+00:00",
+   "summary": "The Hambantota International Port (HIP) in Sri Lanka is highlighting its efforts to provide a port of refuge for a disabled cargo ship. The AAL Gibral...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "French Navy Intercepts Stateless Tanker in Pacific Smuggling Meth",
+   "link": "https://maritime-executive.com/article/french-navy-intercepts-stateless-tanker-in-pacific-smuggling-meth",
+   "published": "2026-11-25T19:22:55+00:00",
+   "summary": "French forces intercepted a suspicious small tanker as it was crossing the Pacific near French Polynesia. The investigation confirmed it was a statele...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Freire Shipyard Celebrates Launch of New Greenpeace Vessel",
+   "link": "https://www.marinelink.com/news/freire-shipyard-celebrates-launch-new-544591",
+   "published": "2026-11-25T19:15:58+00:00",
+   "summary": "Freire Shipyard celebrated the launch ceremony of NB 737 on November 25, 2026 in Vigo, marking a milestone in the construction of Greenpeace International's new flagship vessel. Designed to support environmental campaigns and scientific research worldwide while minimizing fossil fuel consumption…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NGO Catalogs Financial Support for Conventional Bunker-Fueled Ships",
+   "link": "https://maritime-executive.com/article/banks-public-lenders-on-the-spot-for-financing-fossil-fuel-ships",
+   "published": "2026-11-25T18:20:00+00:00",
+   "summary": "Top global lenders continue to channel billions of dollars into the construction of ships that only run on fossil fuels, reflecting commercial realiti...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Maersk confirms new 12-ship order",
+   "link": "",
+   "published": "2026-11-25T18:15:23+00:00",
+   "summary": "Dual-fuel ultra-large containerships set for delivery in 2030 and 2031, adding to swollen boxship orderbook.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "Claus-Peter Offen inks first boxship newbuilds in 19 years",
+   "link": "",
+   "published": "2026-11-25T17:36:08+00:00",
+   "summary": "Contract with Guangzhou Shipyard International marks the German owner’s maiden newbuilding collaboration with a Chinese shipyard",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "U.S. Targets China, EU With New Tariffs Citing Overcapacity",
+   "link": "https://gcaptain.com/u-s-targets-china-eu-with-new-tariffs-citing-overcapacity/",
+   "published": "2026-11-25T17:35:31+00:00",
+   "summary": "The US announced plans to impose a fresh round of tariffs on goods from China, the European Union and a dozen other economies under President Donald Trump’s push to restore sweeping global import taxes that the Supreme Court found unconstitutional.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "IMO Sounds Alarm Over Shortage of Training Berths for Future Seafarers",
+   "link": "https://gcaptain.com/imo-sounds-alarm-over-shortage-of-training-berths-for-future-seafarers/",
+   "published": "2026-11-25T17:31:59+00:00",
+   "summary": "The International Maritime Organization (IMO) is calling on shipping companies to make more training berths available to cadets, highlighting a longstanding disconnect between the industry’s need for qualified seafarers and...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Red Sea and Indian Ocean Nations Advance Plans for Combined Maritime Security Force",
+   "link": "https://gcaptain.com/red-sea-and-indian-ocean-nations-advance-plans-for-combined-maritime-security-force/",
+   "published": "2026-11-25T17:30:24+00:00",
+   "summary": "Countries bordering the Red Sea and Western Indian Ocean are moving toward establishing a combined maritime task force to combat piracy, strengthen regional security and protect commercial shipping across some...",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "New BWC terminal expands marine access for Chevron",
+   "link": "",
+   "published": "2026-11-25T17:23:55+00:00",
+   "summary": "$316m Pascagoula facility adds deepwater berth capable of handling MR and Panamax tankers.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Italy Rebukes Ukraine Over Attacks on Russian Ships in Libya",
+   "link": "https://gcaptain.com/italy-rebukes-ukraine-over-attacks-on-russian-ships-in-libya/",
+   "published": "2026-11-25T16:44:12+00:00",
+   "summary": "Italy has told Ukraine it was wrong to attack Russian ships in Libyan waters and warned Kyiv not to spread the war to new areas, Foreign Minister Antonio Tajani told Corriere della Sera newspaper on Wednesday.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Eni, Repsol to Invest $2b in PDVSA Joint Venture",
+   "link": "https://www.marinelink.com/news/eni-repsol-invest-b-pdvsa-joint-venture-544587",
+   "published": "2026-11-25T16:22:19+00:00",
+   "summary": "Spain's Repsol and Italy's Eni have \"committed to jointly investing\" $2 billion in five years in their joint venture with Venezuelan state energy firm PDVSA, according to a macroeconomic framework the Venezuelan government published on Tuesday.The two oil companies have operated in the South America",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Canary Islands Receive Recording-Breaking Number of Migrants In Single Day",
+   "link": "https://www.marinelink.com/news/canary-islands-receive-recordingbreaking-544586",
+   "published": "2026-11-25T16:17:26+00:00",
+   "summary": "A record 2,100-plus migrants arrived in Spain's Canary Islands over 24 hours in overcrowded boats, maritime rescue service data showed on Wednesday, prompting regional leader Fernando Clavijo to call for a European-level response to the crisis.\"The Canaries can't take it anymore.",
+   "source": "MarineLink",
    "kind": "market",
    "nordic": false
   },
