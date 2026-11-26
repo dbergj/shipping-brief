@@ -1,34 +1,33 @@
 {
- "updated": "2026-11-25T16:00:31+00:00",
+ "updated": "2026-11-26T15:42:15+00:00",
  "stories": [
   {
-   "id": "saudi-houthi-escalation",
-   "title": "Saudi-Houthi strikes hit energy and port infrastructure",
+   "id": "us-tariff-round",
+   "title": "New US tariffs on China, EU and others",
    "status": "active",
-   "what": "Riyadh, the Houthi-controlled port of Hodeidah and the Saudi terminal at Ras Tanura were hit in an exchange of fire, after a Houthi attack damaged an office tower in Riyadh and Saudi forces struck Hodeidah overnight Tuesday.",
-   "why_it_matters": "Strikes on a major crude loading terminal and a Red Sea port threaten liftings, raise war-risk premiums and can reroute crude and product tonnage away from the region.",
-   "latest": "Reported today; Brent is $93.07, up 1.8%, which may partly reflect the strikes.",
+   "what": "The US announced plans for a fresh round of tariffs on goods from China, the European Union and a dozen other economies, citing overcapacity, after the Supreme Court found earlier sweeping import taxes unconstitutional.",
+   "why_it_matters": "Tariff rounds redirect and distort container trade flows and can disrupt box shipping volumes and routings.",
+   "latest": "Tariffs announced today; trade press reports they could again disrupt and distort container shipping and trade.",
    "watch": [
-    "brent",
-    "vlcc_tce",
-    "suezmax_tce",
-    "vlsfo_fuj"
+    "bdi",
+    "bdry"
    ],
    "sources": [
-    "Riyadh, Hodeidah and Ras Tanura Hit in Saudi-Houthi Exchange of Fire"
+    "U.S. Targets China, EU With New Tariffs Citing Overcapacity",
+    "Tariffs return to haunt box shipping"
    ],
-   "first_seen": "2026-11-25",
-   "last_update": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "last_update": "2026-11-26",
    "days_running": 1,
    "days_since_update": 0
   },
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
-   "status": "watch",
-   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue, following tanker incidents near Oman, a mine strike east of Hormuz and a projectile hit on an outbound tanker. Tracking and identity obfuscation around the strait is also in question.",
+   "status": "active",
+   "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue, following tanker incidents near Oman, a mine strike east of Hormuz and a projectile hit on an outbound tanker.",
    "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
-   "latest": null,
+   "latest": "Gibson reported that tanker day rates for Hormuz transits remain above $1 million despite charter rates coming off historic highs.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -38,33 +37,50 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Riyadh, Hodeidah and Ras Tanura Hit in Saudi-Houthi Exchange of Fire"
+    "Gibson: Tanker Day Rates for Hormuz Transits Remain Above $1 Million"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-23",
-   "days_running": 27,
-   "days_since_update": 2
+   "last_update": "2026-11-26",
+   "days_running": 28,
+   "days_since_update": 0
+  },
+  {
+   "id": "saudi-houthi-escalation",
+   "title": "Saudi-Houthi strikes hit energy and port infrastructure",
+   "status": "watch",
+   "what": "Riyadh, the Houthi-controlled port of Hodeidah and the Saudi terminal at Ras Tanura were hit in an exchange of fire earlier this week.",
+   "why_it_matters": "Strikes on a major crude loading terminal and a Red Sea port threaten liftings, raise war-risk premiums and can reroute crude and product tonnage away from the region.",
+   "latest": null,
+   "watch": [
+    "brent",
+    "vlcc_tce",
+    "suezmax_tce",
+    "vlsfo_fuj"
+   ],
+   "sources": [],
+   "first_seen": "2026-11-25",
+   "last_update": "2026-11-25",
+   "days_running": 2,
+   "days_since_update": 1
   },
   {
    "id": "strikes-on-russian-linked-shipping",
    "title": "Drone strikes on Russian-linked shipping beyond the Black Sea",
-   "status": "active",
-   "what": "The Russian RoRo Sparta II was struck by a suspected drone in the Baltic and drifted into Finnish waters. Ukrainian drone boats attacked Russian warships at the port of Benghazi in Libya.",
-   "why_it_matters": "Strikes in the Baltic and the Mediterranean extend the war-risk zone for merchant shipping far beyond the Black Sea, with implications for insurance cover, routing and port calls.",
-   "latest": "Libya's Tripoli-based government says it had no knowledge of the Benghazi drone boat attack, and Ukraine denies interfering in Libyan affairs.",
+   "status": "watch",
+   "what": "The Russian RoRo Sparta II was struck by a suspected drone in the Baltic and drifted into Finnish waters, and Ukrainian drone boats attacked Russian warships at Benghazi in Libya.",
+   "why_it_matters": "Strikes in the Baltic and Mediterranean extend the war-risk zone for merchant shipping far beyond the Black Sea, affecting insurance cover, routing and port calls.",
+   "latest": null,
    "watch": [
     "bdi",
     "bsi",
     "vlsfo_rott",
     "brent"
    ],
-   "sources": [
-    "Ukraine Denies Interfering in Libyan Affairs After Benghazi Drone Strike"
-   ],
+   "sources": [],
    "first_seen": "2026-11-24",
    "last_update": "2026-11-25",
-   "days_running": 2,
-   "days_since_update": 0
+   "days_running": 3,
+   "days_since_update": 1
   },
   {
    "id": "russian-refining-and-diesel",
@@ -80,33 +96,11 @@
     "refining_margin",
     "gasoil"
    ],
-   "sources": [
-    "Most Large Fuel Tankers Now Ship ‘Dirty’ Crude, Upending Trading"
-   ],
+   "sources": [],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 7,
-   "days_since_update": 6
-  },
-  {
-   "id": "shadow-fleet-sanctions",
-   "title": "Sanctions and evasion in the shadow fleet",
-   "status": "watch",
-   "what": "Sanctions pressure on the shadow fleet is widening, with EU measures targeting shipowners, managers, insurers and financial networks, adding to earlier US designations. The Russian Navy is reported escorting sanctioned dark-fleet tankers in the Mediterranean.",
-   "why_it_matters": "Designations force charterers and underwriters to re-verify counterparties and vessel positions, and obfuscated signalling makes that verification harder.",
-   "latest": null,
-   "watch": [
-    "vlcc_tce",
-    "suezmax_tce",
-    "brent"
-   ],
-   "sources": [
-    "Webinar on-Demand Now: Seatrade Maritime News webinar tackles the rising threat of GPS/GNSS attacks on global shipping"
-   ],
-   "first_seen": "2026-11-06",
-   "last_update": "2026-11-21",
-   "days_running": 20,
-   "days_since_update": 4
+   "days_running": 8,
+   "days_since_update": 7
   },
   {
    "id": "imo-netzero-framework",
@@ -114,7 +108,7 @@
    "status": "active",
    "what": "The IMO's Marine Environment Protection Committee opens MEPC85 on 30 November without final rules on how LNG, bio-LNG and e-LNG carbon values are measured under the Net-Zero Framework.",
    "why_it_matters": "The accounting treatment of LNG determines the compliance economics of LNG-fuelled tonnage and newbuilding decisions, including LNG carrier and dual-fuel orders now being placed.",
-   "latest": "No MEPC news today, but Bonny Gas Transport ordered two more LNG carriers at Hudong-Zhonghua and an LNG dual-fuel PCTC entered service for SUARDIAZ.",
+   "latest": "No rules news today, but further alternative-fuel tonnage was reported: COSL ordered 46 LNG-powered PSVs in China, SeaRoad took delivery of an LNG-powered RoRo, and Hudong-Zhonghua set a Chinese record with 12 large LNG carriers delivered this year.",
    "watch": [
     "ttf",
     "henry_hub",
@@ -123,12 +117,13 @@
     "lng_blng3"
    ],
    "sources": [
-    "Nigeria LNG’s BGT orders more vessels from Hudong-Zhonghua",
-    "New LNG dual fuel PCTC begins operations with SUARDIAZ Group"
+    "COSL orders 46 LNG-powered PSVs in China",
+    "SeaRoad takes delivery of LNG-powered Ro-Ro",
+    "Hudong-Zhonghua hits new LNG carrier delivery record"
    ],
    "first_seen": "2026-11-24",
-   "last_update": "2026-11-25",
-   "days_running": 2,
+   "last_update": "2026-11-26",
+   "days_running": 3,
    "days_since_update": 0
   }
  ]
