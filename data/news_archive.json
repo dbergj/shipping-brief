@@ -1207,6 +1207,19 @@
    "nordic": true
   },
   {
+   "title": "NOTIFICATION OF MAJOR HOLDINGS",
+   "link": "https://newsweb.oslobors.no/message/687593",
+   "published": "2026-11-26T17:19:51+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
+   "nordic": true
+  },
+  {
    "title": "Rentefastsettelse",
    "link": "https://newsweb.oslobors.no/message/687504",
    "published": "2026-11-26T12:09:48+00:00",
@@ -1366,6 +1379,114 @@
    "published": "2027-03-16T15:00:00+00:00",
    "summary": "",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VLCC Supply Builds as Gulf–China Loadings Hold Steady",
+   "link": "https://www.hellenicshippingnews.com/vlcc-supply-builds-as-gulf-china-loadings-hold-steady/",
+   "published": "2026-11-26T22:00:59+00:00",
+   "summary": "VLCC earnings fell first on Atlantic routes in Week 45 and then on Gulf routes in Week 46. Over the same period, Signal Ocean’s net-supply data showed more VLCCs available for Arabian Gulf–China loading. Net supply for the Arabian Gulf–China trade averaged 93.2 vessels in 1–22 November, 13.2% above the full-October average of 82.3 and ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Greek-Owned Fleet Retains Global Lead, While Greek Flag Remains Outside the Top Five",
+   "link": "https://www.hellenicshippingnews.com/greek-owned-fleet-retains-global-lead-while-greek-flag-remains-outside-the-top-five/",
+   "published": "2026-11-26T22:00:59+00:00",
+   "summary": "Greece maintained its position as the world’s leading shipowning nation in 2025, accounting for 15.8 per cent of global shipping capacity, according to the United Nations Conference on Trade and Development (UNCTAD) Review of Maritime Transport 2026. The Greek-owned fleet totalled 5,168 vessels, with a combined carrying capacity of approximately 397.1 million deadweight tons (dwt), ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Global maritime trade set to stall in 2026 amid shipping disruptions and trade uncertainty",
+   "link": "https://www.hellenicshippingnews.com/global-maritime-trade-set-to-stall-in-2026-amid-shipping-disruptions-and-trade-uncertainty/",
+   "published": "2026-11-26T22:00:58+00:00",
+   "summary": "Global maritime trade is expected to stagnate in 2026 amid disruptions to major shipping routes and chokepoints, as well as wider trade uncertainty, according to the Review of Maritime Transport 2026, released by UN Trade and Development (UNCTAD). Disruptions across major shipping routes and chokepoints have forced vessels onto longer journeys, extending transit times, increasing ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Global shipping’s changing map: Where trade connections are growing and vulnerabilities are deepening",
+   "link": "https://www.hellenicshippingnews.com/global-shippings-changing-map-where-trade-connections-are-growing-and-vulnerabilities-are-deepening/",
+   "published": "2026-11-26T22:00:57+00:00",
+   "summary": "Global maritime trade is being reshaped by geopolitical tensions, changing production networks and shifting shipping routes. In the 2026 Review of Maritime Transport, UN Trade and Development (UNCTAD) examines how these changes are affecting developing regions. The report highlights a rising number of ship visits at African ports, an increase in the average sizes of ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tanker Shipping Market Overview & Outlook: Disruptions still dominate tanker market outlook",
+   "link": "https://www.hellenicshippingnews.com/tanker-shipping-market-overview-outlook-disruptions-still-dominate-tanker-market-outlook/",
+   "published": "2026-11-26T22:00:57+00:00",
+   "summary": "“This year, tanker markets have been affected by disruption to transits through the Strait of Hormuz, the Houthi blockade of Saudi Arabian Red Sea exports, and attacks on Russian refineries and on ships in the Black Sea. As a result, year to date, crude oil and dirty-product cargo volumes are down 5% on last year, ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iraqi Navy Seizes Tugboats Suspected of Fuel Smuggling",
+   "link": "https://maritime-executive.com/article/iraqi-navy-seizes-tugboats-suspected-of-fuel-smuggling",
+   "published": "2026-11-26T20:06:42+00:00",
+   "summary": "The Iraqi Navy highlighted its interception of two tugboats, which it asserts had illegally entered territorial waters and were suspected of involveme...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Fincantieri Delivers Hybrid Hydrogen-Powered Cruise Ship to Viking",
+   "link": "https://maritime-executive.com/article/fincantieri-delivers-hybrid-hydrogen-powered-cruise-ship-to-viking",
+   "published": "2026-11-26T18:28:45+00:00",
+   "summary": "Fincantieri delivered the first of two new cruise ships to Viking that are outfitted with the latest advancements in hydrogen propulsion. While the sh...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hormuz-bound ships drive rush for GPS resilience technology",
+   "link": "",
+   "published": "2026-11-26T17:39:58+00:00",
+   "summary": "Shipowners are flying alternative positioning equipment to the Middle East for immediate installation ahead of Strait of Hormuz transits.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seafarer Dies and Others Hospitalized as Product Tanker Capsizes off Spain",
+   "link": "https://maritime-executive.com/article/seafarer-dies-and-others-hospitalized-after-product-tanker-capsizes-off-spa",
+   "published": "2026-11-26T16:50:09+00:00",
+   "summary": "Spain mounted a search and rescue operation overnight into Thursday, November 26, after a product tanker laden with a cargo of diesel fuel capsized. T...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Seafarer seriously injured in Hormuz tanker attack",
+   "link": "",
+   "published": "2026-11-26T16:06:15+00:00",
+   "summary": "Hong Kong-flagged tanker Kun Peng struck during outbound transit leading to engine room fire.",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Hormuz Tanker Traffic Rises This Month Even as Attacks Increase",
+   "link": "https://gcaptain.com/hormuz-tanker-traffic-rises-this-month-even-as-attacks-increase/",
+   "published": "2026-11-26T14:48:04+00:00",
+   "summary": "Tanker traffic through the Strait of Hormuz has risen this month, according to data from Vortexa, even as attacks on vessels in the contested waterway have increased.",
+   "source": "gCaptain",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Crew Member Dies After Diesel Tanker Capsizes Off Ibiza, No Pollution So Far",
+   "link": "https://gcaptain.com/crew-member-dies-after-diesel-tanker-capsizes-off-ibiza-no-pollution-so-far/",
+   "published": "2026-11-26T14:44:22+00:00",
+   "summary": "At least one crew member aboard a ship carrying diesel has died after the vessel capsized and partially sank off the Spanish island of Ibiza on Thursday, regional authorities said, adding there were no signs of pollution so far.",
+   "source": "gCaptain",
    "kind": "market",
    "nordic": false
   },
@@ -12958,249 +13079,6 @@
    "published": "2026-10-28T02:03:00+00:00",
    "summary": "The Tripartite Joint Industry Working Group (JIWG) has released two new frameworks that can help improve the exchange of operations and emissions data...",
    "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "VLCC transits climb at Hormuz; steady at Bab al-Mandab for second day",
-   "link": "https://www.hellenicshippingnews.com/vlcc-transits-climb-at-hormuz-steady-at-bab-al-mandab-for-second-day/",
-   "published": "2026-10-27T22:00:59+00:00",
-   "summary": "The Strait of Hormuz had six VLCC transits on Oct. 25, the most since Oct. 17, while the Bab al-Mandab Strait recorded one VLCC on both Oct. 24 and Oct. 25, S&P Global Commodities at Sea said in an Oct. 26 report. Hormuz traffic in total was steady at 17 ships on Oct. 24 and ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Russian Diesel Returns: A New Atlantic Trade Dynamic",
-   "link": "https://www.hellenicshippingnews.com/russian-diesel-returns-a-new-atlantic-trade-dynamic/",
-   "published": "2026-10-27T22:00:59+00:00",
-   "summary": "A new market development for tankers could be shaping up, after the latest agreement between US and Russia, regarding diesel exports across the Atlantic. In its latest weekly report, shipbroker Xclusiv said that “the latest developments in US–Russian energy relations could mark another turning point for the product tanker market, as Washington’s decision to temporarily ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Maritime industry advances harmonisation of digital emissions reporting",
-   "link": "https://www.hellenicshippingnews.com/maritime-industry-advances-harmonisation-of-digital-emissions-reporting/",
-   "published": "2026-10-27T22:00:58+00:00",
-   "summary": "The Tripartite Joint Industry Working Group (JIWG) has released two new frameworks that can help improve the exchange of operations and emissions data across the maritime industry. The JIWG, chaired by BIMCO, was established under the Tripartite, a forum bringing together shipowners and operators, shipbuilders, and classification societies. As part of its work to develop ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "IUMI’s annual Stats Report highlights modest market development amid continued soft conditions across all main business lines",
-   "link": "https://www.hellenicshippingnews.com/iumis-annual-stats-report-highlights-modest-market-development-amid-continued-soft-conditions-across-all-main-business-lines/",
-   "published": "2026-10-27T22:00:57+00:00",
-   "summary": "The International Union of Marine Insurance (IUMI) has, today, released its 2026 analysis of the global marine insurance market – the IUMI “Stats Report”. This annual document reports on the state of the marine insurance sector within the framework of the global economy, trade and shipping. Data is collected from a wide range of national ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Baltic Dry Index Falls to 1-Week Low",
-   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-1-week-low/",
-   "published": "2026-10-27T22:00:53+00:00",
-   "summary": "The Baltic Exchange’s dry bulk freight index, which tracks rates for ships carrying dry bulk commodities, declined for a third session on Tuesday, falling roughly 1% to its lowest since October 20 at 2,603 points. The capesize index, which typically transports 150,000-ton cargoes, including iron ore and coal, was also down for a third day, ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "NTSB Calls for New Rules for Uncrewed Vessels After Lake Erie Collision",
-   "link": "https://gcaptain.com/ntsb-calls-for-new-rules-for-uncrewed-vessels-after-lake-erie-collision/",
-   "published": "2026-10-27T21:38:20+00:00",
-   "summary": "Investigation finds NOAA research vessel was difficult to detect and lacked proper monitoring, exposing gaps in U.S. maritime safety regulations. The National Transportation Safety Board (NTSB) is calling on the...",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "An Imperiled UK Fishing Fleet Could Be Used for Defense",
-   "link": "https://maritime-executive.com/article/an-imperiled-uk-fishing-fleet-could-be-used-for-defense",
-   "published": "2026-10-27T21:04:10+00:00",
-   "summary": "British waters may be full of Russian trawlers looking for anything but fish, and more interested in cables and pipelines. But the United Kingdom’s ow...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Hanwha Transitions Ownership of Philly Shipyard as It Seeks Defense Work",
-   "link": "https://maritime-executive.com/article/hanwha-transitions-ownership-of-philly-shipyard-as-it-seeks-defense-work",
-   "published": "2026-10-27T20:38:00+00:00",
-   "summary": "Hanwha Group is reorganizing the ownership and management of the Philly Shipyard, which it acquired nearly two years ago, as it continues to seek U.S....",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Russia Says Northern Sea Route Transit Cargo to Nearly Double in 2026",
-   "link": "https://gcaptain.com/russia-says-northern-sea-route-transit-cargo-to-nearly-double-in-2026/",
-   "published": "2026-10-27T20:14:56+00:00",
-   "summary": "Russia expects cargo transits along the Northern Sea Route (NSR) to more than double in 2026, marking a substantial increase in Arctic shipping despite Western sanctions, although volumes remain far below Moscow’s original ambitions for the route.",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "NTSB Calls for Better Regulation of USV Navigational Safety",
-   "link": "https://maritime-executive.com/article/ntsb-calls-for-better-regulation-of-usv-navigational-safety",
-   "published": "2026-10-27T19:53:39+00:00",
-   "summary": "Following an inquiry into a 2024 collision, the National Transportation Safety Board has recommended changes to the manner in which small unmanned ves...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Trump Administration Awards $498 Million for U.S. Port Upgrades, Below Recent Funding Levels",
-   "link": "https://gcaptain.com/trump-administration-awards-498-million-for-u-s-port-upgrades-below-recent-funding-levels/",
-   "published": "2026-10-27T19:35:58+00:00",
-   "summary": "The Trump administration announced $498 million in federal grants Tuesday to modernize U.S. ports, funding 35 projects across 19 states ranging from aging dock replacements and cargo-handling equipment to fuel...",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Villa Vie Odyssey’s ‘Endless’ World Cruise Comes to a Halt in Cambodia as Fuel Costs Soar",
-   "link": "https://gcaptain.com/villa-vie-odysseys-endless-world-cruise-comes-to-a-halt-in-cambodia-as-fuel-costs-soar/",
-   "published": "2026-10-27T19:24:42+00:00",
-   "summary": "Villa Vie Residences has suspended operations of its residential cruise ship Villa Vie Odyssey in Cambodia, forcing residents to disembark as soaring fuel costs push the company toward financial restructuring....",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Passengers Told to Disembark as Villa Vie Residences Suspends Operations",
-   "link": "https://maritime-executive.com/article/passengers-told-to-disembark-as-villa-vie-residences-suspends-operations",
-   "published": "2026-10-27T18:55:38+00:00",
-   "summary": "After passing the two-year mark at the beginning of the month, Villa Vie Residences has now informed all the passengers on the “endless cruise” to dis...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "ESAB Launches Rogue ET 230iP AC/DC Welder",
-   "link": "https://www.marinelink.com/news/esab-launches-rogue-et-ip-acdc-welder-543945",
-   "published": "2026-10-27T18:44:51+00:00",
-   "summary": "ESAB has introduced the Rogue ET 230iP AC/DC TIG/Stick welder. The Rogue combines AC/DC TIG welding capabilities with controls that make it easier for welders of all skill levels to optimize arc performance and weld quality. Featuring ESAB’s 5-in.",
-   "source": "MarineLink",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Bottom Trawlers Do Huge Amounts of Damage to Life on Undersea Mountains",
-   "link": "https://maritime-executive.com/article/bottom-trawlers-do-huge-amounts-of-damage-to-life-on-undersea-mountains",
-   "published": "2026-10-27T18:36:43+00:00",
-   "summary": "Tens of thousands of underwater mountains dot the ocean floor around the world. A few break the surface, such as the Hawaiian island chain. The rest a...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Baleària floats out its first fully electric fast ferry, which will connect Tarifa and Tangier from summer 2027",
-   "link": "https://www.hellenicshippingnews.com/balearia-floats-out-its-first-fully-electric-fast-ferry-which-will-connect-tarifa-and-tangier-from-summer-2027/",
-   "published": "2026-10-27T18:00:59+00:00",
-   "summary": "Baleària has floated out its first fully electric fast ferry at Armon Shipyards in Gijón. The vessel will connect Tarifa and Tangier from summer 2027. The second vessel, currently under construction, will join the fleet after the summer. Both catamarans will serve the first green corridor between Spain and Morocco, with an exclusively electric power ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Klaveness Combination Carriers ASA: Solid Q3, record Q4 outlook",
-   "link": "https://www.hellenicshippingnews.com/klaveness-combination-carriers-asa-solid-q3-record-q4-outlook/",
-   "published": "2026-10-27T18:00:57+00:00",
-   "summary": "Klaveness Combination Carriers ASA (“KCC”) delivered one of its strongest quarters in its history in Q3 2026, reporting EBITDA of USD 40.4 million and Profit after tax of USD 23.6 million. CEO Engebret Dahm commented: “KCC delivered another solid quarter, supported by strong markets, improved trading efficiency and a higher number of earning days following ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Utkilen takes delivery of second LNG-capable tanker",
-   "link": "https://www.hellenicshippingnews.com/utkilen-takes-delivery-of-second-lng-capable-tanker/",
-   "published": "2026-10-27T18:00:55+00:00",
-   "summary": "Norwegian shipping company Utkilen has taken delivery of M/T Listraum, the second of four LNG-capable tankers under construction at Icdas Shipyard in Türkiye. The 7,500-dwt vessel features an LNG-capable engine. It is also equipped with battery systems and shore power connections. The first vessel, M/T Havstraum, was delivered in January this year. Utkilen has not ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Alfa Laval posts record orders as data centre and shipping demand drives growth",
-   "link": "https://www.hellenicshippingnews.com/alfa-laval-posts-record-orders-as-data-centre-and-shipping-demand-drives-growth/",
-   "published": "2026-10-27T18:00:53+00:00",
-   "summary": "Alfa Laval AB reported record order intake in the third quarter on Tuesday, supported by strong demand from data centres, shipbuilding and biofuels, although the company expects activity to ease somewhat in the final three months of the year. Order intake rose 36% year on year to SEK 23.23 billion, while net sales increased 8% ...",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Breakwave Dry Bulk Shipping Report 10.27.2026",
-   "link": "https://www.hellenicshippingnews.com/breakwave-dry-bulk-shipping-report-10-27-2026/",
-   "published": "2026-10-27T18:00:52+00:00",
-   "summary": "Capesize Spot Index Stabilizes but Risk Remain Abound – The recent correction in Capesize spot rates appears to have established Source: Breakwave Advisors",
-   "source": "Hellenic Shipping News",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Iranian Forces Threaten Sinokor with “Legal Action” for Hormuz Violations",
-   "link": "https://maritime-executive.com/article/iranian-forces-threaten-sinokor-with-legal-action-for-hormuz-violations",
-   "published": "2026-10-27T17:40:27+00:00",
-   "summary": "Iran’s so-called Persian Gulf Strait Authority, which claims jurisdiction over the Strait of Hormuz, has for the first time singled out one shipping c...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Houthi Missile Strikes Saudi Oil Refinery",
-   "link": "https://www.marinelink.com/news/houthi-missile-strikes-saudi-oil-refinery-543943",
-   "published": "2026-10-27T16:59:45+00:00",
-   "summary": "Yemen's Iran-aligned Houthis said on Tuesday they had hit Saudi Arabia's Ras Tanura oil refinery, the ⁠biggest in the kingdom, with a ballistic missile.The Houthis also said they had attacked Saudi military aircraft and repelled an advance by Saudi-backed forces near the Bab el-Mandeb Strait…",
-   "source": "MarineLink",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Türkiye Pushes For Further Hydrocarbon Exploration by Year’s End",
-   "link": "https://www.marinelink.com/news/trkiye-pushes-further-hydrocarbon-543942",
-   "published": "2026-10-27T16:57:32+00:00",
-   "summary": "Turkey may reach agreements to make acquisitions or further explore for hydrocarbons by the end of the year as part of its target to produce 1 million barrels of oil and natural gas a day, Energy Minister Alparslan Bayraktar said on Tuesday.Speaking at the Turkey Energy Summit in Istanbul…",
-   "source": "MarineLink",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Oil Prices Fall Amidst Middle East Peace Talks",
-   "link": "https://www.marinelink.com/news/oil-prices-fall-amidst-middle-east-peace-543941",
-   "published": "2026-10-27T16:54:47+00:00",
-   "summary": "Oil futures fell on Tuesday as attention turned to Middle East peace talks, though prices remain near multi-month highs as the Houthi-Saudi Arabia conflict rages and the potential for fresh US-Israeli attacks hangs over the market.Brent crude futures were down $1.00…",
-   "source": "MarineLink",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "New RAmparts 3800 Ship-Handling/Fire-Fighting 2 Tug Design for Ningbo Port",
-   "link": "https://gcaptain.com/new-ramparts-3800-ship-handling-fire-fighting-2-tug-design-for-ningbo-port/",
-   "published": "2026-10-27T16:54:10+00:00",
-   "summary": "Robert Allan Ltd. is pleased to announce the award to design a new RAmparts 3800 Ship-Handling/Fire-Fighting 2 (FiFi 2) tug for Ningbo Port. The vessel will be constructed by Jiangsu Zhenjiang Shipyard...",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Oil Tanker Tycoon’s WhatsApp Messages Drive Big Market Moves",
-   "link": "https://gcaptain.com/oil-tanker-tycoons-whatsapp-messages-drive-big-market-moves/",
-   "published": "2026-10-27T16:49:34+00:00",
-   "summary": "The messages from the world’s biggest supertanker owner often begin with pleasantries: “Dear Ladies and Gentlemen.” Within minutes, the WhatsApps are the talk of the oil-tanker industry, a multibillion-dollar corner of the energy market that’s been plunged into chaos by the Iran war this year, and where word of mouth is the main way information spreads.",
-   "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Russia Ships Less Crude Even as Key Baltic Port’s Flows Rebound",
-   "link": "https://gcaptain.com/russia-ships-less-crude-even-as-key-baltic-ports-flows-rebound/",
-   "published": "2026-10-27T16:41:16+00:00",
-   "summary": "Russia shipped the least crude in more than a month, even as operations at its key Baltic port recovered strongly from an earlier halt.",
-   "source": "gCaptain",
    "kind": "market",
    "nordic": false
   }
