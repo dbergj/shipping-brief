@@ -1,33 +1,13 @@
 {
- "updated": "2026-11-26T15:42:15+00:00",
+ "updated": "2026-11-27T15:32:25+00:00",
  "stories": [
-  {
-   "id": "us-tariff-round",
-   "title": "New US tariffs on China, EU and others",
-   "status": "active",
-   "what": "The US announced plans for a fresh round of tariffs on goods from China, the European Union and a dozen other economies, citing overcapacity, after the Supreme Court found earlier sweeping import taxes unconstitutional.",
-   "why_it_matters": "Tariff rounds redirect and distort container trade flows and can disrupt box shipping volumes and routings.",
-   "latest": "Tariffs announced today; trade press reports they could again disrupt and distort container shipping and trade.",
-   "watch": [
-    "bdi",
-    "bdry"
-   ],
-   "sources": [
-    "U.S. Targets China, EU With New Tariffs Citing Overcapacity",
-    "Tariffs return to haunt box shipping"
-   ],
-   "first_seen": "2026-11-26",
-   "last_update": "2026-11-26",
-   "days_running": 1,
-   "days_since_update": 0
-  },
   {
    "id": "hormuz-vessel-attacks",
    "title": "Attacks and escalation around Hormuz",
    "status": "active",
    "what": "Attacks on commercial shipping in and around the Strait of Hormuz continue, following tanker incidents near Oman, a mine strike east of Hormuz and a projectile hit on an outbound tanker.",
    "why_it_matters": "Hull strikes and mines raise war-risk premiums for Arabian Gulf liftings, slow transits and shrink the pool of willing owners, reshaping crude, product and gas ton-miles.",
-   "latest": "Gibson reported that tanker day rates for Hormuz transits remain above $1 million despite charter rates coming off historic highs.",
+   "latest": "Vortexa data cited by gCaptain shows tanker traffic through the strait has risen this month despite the increase in attacks; separately, Windward flagged two OFAC-sanctioned tankers apparently preparing to run the US blockade at the edge of the Gulf of Oman.",
    "watch": [
     "vlcc_tce",
     "suezmax_tce",
@@ -37,12 +17,55 @@
     "vlsfo_fuj"
    ],
    "sources": [
-    "Gibson: Tanker Day Rates for Hormuz Transits Remain Above $1 Million"
+    "Hormuz Tanker Traffic Rises This Month Even as Attacks Increase",
+    "OFAC Iran-sanctioned tanker crosses US blockade"
    ],
    "first_seen": "2026-10-30",
-   "last_update": "2026-11-26",
-   "days_running": 28,
+   "last_update": "2026-11-27",
+   "days_running": 29,
    "days_since_update": 0
+  },
+  {
+   "id": "imo-netzero-framework",
+   "title": "IMO net-zero rules for LNG and alternative fuels",
+   "status": "active",
+   "what": "The IMO's Marine Environment Protection Committee opens MEPC85 on 30 November without final rules on how LNG, bio-LNG and e-LNG carbon values are measured under the Net-Zero Framework.",
+   "why_it_matters": "The accounting treatment of LNG determines the compliance economics of LNG-fuelled tonnage and newbuilding decisions, including LNG carrier and dual-fuel orders now being placed.",
+   "latest": "Spot LNG shipping rates in both the Atlantic and Pacific fell for a third consecutive week, and MISC reported lower LNG earnings and expects spot LNG carrier rates to stay under pressure near term.",
+   "watch": [
+    "ttf",
+    "henry_hub",
+    "lng_blng1",
+    "lng_blng2",
+    "lng_blng3"
+   ],
+   "sources": [
+    "Atlantic and Pacific LNG rates down for third week in a row",
+    "MISC reports lower LNG earnings in Q3"
+   ],
+   "first_seen": "2026-11-24",
+   "last_update": "2026-11-27",
+   "days_running": 4,
+   "days_since_update": 0
+  },
+  {
+   "id": "us-tariff-round",
+   "title": "New US tariffs on China, EU and others",
+   "status": "active",
+   "what": "The US announced plans for a fresh round of tariffs on goods from China, the European Union and a dozen other economies, citing overcapacity, after the Supreme Court found earlier sweeping import taxes unconstitutional.",
+   "why_it_matters": "Tariff rounds redirect and distort container trade flows and can disrupt box shipping volumes and routings.",
+   "latest": null,
+   "watch": [
+    "bdi",
+    "bdry"
+   ],
+   "sources": [
+    "Baltic Dry Index falls to 3137 down 15 points"
+   ],
+   "first_seen": "2026-11-26",
+   "last_update": "2026-11-26",
+   "days_running": 2,
+   "days_since_update": 1
   },
   {
    "id": "saudi-houthi-escalation",
@@ -57,11 +80,13 @@
     "suezmax_tce",
     "vlsfo_fuj"
    ],
-   "sources": [],
+   "sources": [
+    "Hormuz Tanker Traffic Rises This Month Even as Attacks Increase"
+   ],
    "first_seen": "2026-11-25",
    "last_update": "2026-11-25",
-   "days_running": 2,
-   "days_since_update": 1
+   "days_running": 3,
+   "days_since_update": 2
   },
   {
    "id": "strikes-on-russian-linked-shipping",
@@ -76,11 +101,13 @@
     "vlsfo_rott",
     "brent"
    ],
-   "sources": [],
+   "sources": [
+    "Baltic Dry Index falls to 3137 down 15 points"
+   ],
    "first_seen": "2026-11-24",
    "last_update": "2026-11-25",
-   "days_running": 3,
-   "days_since_update": 1
+   "days_running": 4,
+   "days_since_update": 2
   },
   {
    "id": "russian-refining-and-diesel",
@@ -96,35 +123,13 @@
     "refining_margin",
     "gasoil"
    ],
-   "sources": [],
+   "sources": [
+    "Baltic Dry Index falls to 3137 down 15 points"
+   ],
    "first_seen": "2026-11-19",
    "last_update": "2026-11-19",
-   "days_running": 8,
-   "days_since_update": 7
-  },
-  {
-   "id": "imo-netzero-framework",
-   "title": "IMO net-zero rules for LNG and alternative fuels",
-   "status": "active",
-   "what": "The IMO's Marine Environment Protection Committee opens MEPC85 on 30 November without final rules on how LNG, bio-LNG and e-LNG carbon values are measured under the Net-Zero Framework.",
-   "why_it_matters": "The accounting treatment of LNG determines the compliance economics of LNG-fuelled tonnage and newbuilding decisions, including LNG carrier and dual-fuel orders now being placed.",
-   "latest": "No rules news today, but further alternative-fuel tonnage was reported: COSL ordered 46 LNG-powered PSVs in China, SeaRoad took delivery of an LNG-powered RoRo, and Hudong-Zhonghua set a Chinese record with 12 large LNG carriers delivered this year.",
-   "watch": [
-    "ttf",
-    "henry_hub",
-    "lng_blng1",
-    "lng_blng2",
-    "lng_blng3"
-   ],
-   "sources": [
-    "COSL orders 46 LNG-powered PSVs in China",
-    "SeaRoad takes delivery of LNG-powered Ro-Ro",
-    "Hudong-Zhonghua hits new LNG carrier delivery record"
-   ],
-   "first_seen": "2026-11-24",
-   "last_update": "2026-11-26",
-   "days_running": 3,
-   "days_since_update": 0
+   "days_running": 9,
+   "days_since_update": 8
   }
  ]
 }

@@ -93,6 +93,58 @@
   },
   {
    "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/687677",
+   "published": "2026-11-27T13:21:50+00:00",
+   "source": "Oslo Børs",
+   "ticker": "VLCC",
+   "company": "Volare Shipping Ltd.",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/687643",
+   "published": "2026-11-27T12:57:48+00:00",
+   "source": "Oslo Børs",
+   "ticker": "ODF",
+   "company": "Odfjell SE",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Finansiell kalender",
+   "link": "https://newsweb.oslobors.no/message/687642",
+   "published": "2026-11-27T12:57:48+00:00",
+   "source": "Oslo Børs",
+   "ticker": "ODF",
+   "company": "Odfjell SE",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Financial calendar",
+   "link": "https://newsweb.oslobors.no/message/687605",
+   "published": "2026-11-27T05:12:22+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HAUTO",
+   "company": "Höegh Autoliners ASA",
+   "category": "Regulated information",
+   "kind": "company",
+   "routine": false,
+   "rank": 2,
+   "nordic": true
+  },
+  {
+   "title": "Financial calendar",
    "link": "https://newsweb.oslobors.no/message/687560",
    "published": "2026-11-26T12:21:38+00:00",
    "source": "Oslo Børs",
@@ -1078,31 +1130,6 @@
    "nordic": true
   },
   {
-   "title": "Scorpio Tankers Inc. Announces Financial Results for the Third Quarter of 2026 and An Increase to its Quarterly Dividend",
-   "summary": "MONACO--(GLOBE NEWSWIRE - October 28, 2026) - Scorpio Tankers Inc. (NYSE: STNG) (\"Scorpio Tankers\" or the \"Company\") today reported its results for the three and nine months ended September 30, 2026. The Company also announced that its board of directors (the \"Board of Directors\") has declared a quarterly cash dividend on its common shares of $0.75 per share.",
-   "link": "https://www.sec.gov/Archives/edgar/data/1483934/000162828026067899/stng6k-q32026epr.htm",
-   "published": "2026-10-28T12:00:00+00:00",
-   "source": "SEC EDGAR",
-   "ticker": "STNG",
-   "company": "Scorpio Tankers",
-   "category": "6-K",
-   "kind": "company",
-   "rank": 2
-  },
-  {
-   "title": "Wallenius Wilhelmsen extends fleet renewal program",
-   "link": "https://newsweb.oslobors.no/message/684950",
-   "published": "2026-10-28T06:00:00+00:00",
-   "source": "Oslo Børs",
-   "ticker": "WAWI",
-   "company": "Wallenius Wilhelmsen ASA",
-   "category": "Press release",
-   "kind": "company",
-   "routine": false,
-   "rank": 2,
-   "nordic": true
-  },
-  {
    "title": "Capital Tankers Corp.   Approval and publication of prospectus and transfer of listing from Euronext Growth Oslo to Euronext Oslo Børs",
    "link": "https://newsweb.oslobors.no/message/687310",
    "published": "2026-11-24T14:59:06+00:00",
@@ -1113,6 +1140,19 @@
    "kind": "company",
    "routine": false,
    "rank": 3,
+   "nordic": true
+  },
+  {
+   "title": "2020 Bulkers Ltd. (Euronext Oslo Børs  2020  and Euronext NOTC  2020T ): Mandatory notification of trade",
+   "link": "https://newsweb.oslobors.no/message/687681",
+   "published": "2026-11-27T14:02:05+00:00",
+   "source": "Oslo Børs",
+   "ticker": "2020",
+   "company": "2020 Bulkers Ltd.",
+   "category": "Managers’ Transaction",
+   "kind": "company",
+   "routine": false,
+   "rank": 4,
    "nordic": true
   },
   {
@@ -1204,6 +1244,19 @@
    "kind": "company",
    "routine": false,
    "rank": 4,
+   "nordic": true
+  },
+  {
+   "title": "NOTIFICATION OF MAJOR HOLDINGS",
+   "link": "https://newsweb.oslobors.no/message/687620",
+   "published": "2026-11-27T07:09:23+00:00",
+   "source": "Oslo Børs",
+   "ticker": "HSHP",
+   "company": "Himalaya Shipping Ltd",
+   "category": "Shareholding disclosure",
+   "kind": "company",
+   "routine": true,
+   "rank": 8,
    "nordic": true
   },
   {
@@ -1379,6 +1432,159 @@
    "published": "2027-03-16T15:00:00+00:00",
    "summary": "",
    "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MISC Profit Surges 78%, LNG Fleet Expansion Accelerates",
+   "link": "https://www.marinelink.com/news/misc-profit-surges-lng-fleet-expansion-544592",
+   "published": "2026-11-27T14:50:19+00:00",
+   "summary": "Strong petroleum shipping markets, offshore construction activity and fleet renewal lifted MISC's third-quarter results, although the Malaysian shipping group sees contrasting prospects for tanker and LNG carrier markets.Malaysia's MISC Berhad…",
+   "source": "MarineLink",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Baltic Dry Index falls to 3137 down 15 points",
+   "link": "https://www.hellenicshippingnews.com/baltic-dry-index-falls-to-3137-down-15-points/",
+   "published": "2026-11-27T13:00:50+00:00",
+   "summary": "Today, Friday, November 27 2026, the Baltic Dry Index decreased by 15 points, reaching 3137 points. Baltic Dry Index is compiled by the London-based Baltic Exchange and covers prices for transported cargo such as coal, grain and iron ore. The index is based on a daily survey of agents all over the world. Baltic Dry ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Atlantic and Pacific LNG rates down for third week in a row",
+   "link": "https://lngprime.com/americas/atlantic-and-pacific-lng-rates-down-for-third-week-in-a-row/200662/",
+   "published": "2026-11-27T11:08:26+00:00",
+   "summary": "Atlantic and Pacific spot liquefied natural gas (LNG) shipping rates dropped for the third week in a row, according to Spark Commodities.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shell, IRH seal LNG supply deal",
+   "link": "https://lngprime.com/contracts-and-tenders/shell-irh-seal-lng-supply-deal/200686/",
+   "published": "2026-11-27T11:06:10+00:00",
+   "summary": "IRH Global Trading, part of UAE-based IRH, has signed a term deal to buy liquefied natural gas (LNG) from a unit of UK-based LNG giant Shell.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Shipping fuel shocks could hit consumer prices in vulnerable economies nearly twice as hard",
+   "link": "https://www.hellenicshippingnews.com/shipping-fuel-shocks-could-hit-consumer-prices-in-vulnerable-economies-nearly-twice-as-hard/",
+   "published": "2026-11-27T11:00:59+00:00",
+   "summary": "A sustained 70–80% rise in maritime fuel costs could increase consumer prices by 0.35% in least developed countries (LDCs), almost twice the global average of 0.19%. Small island developing states (SIDS) could also face disproportionate impacts, with consumer prices estimated to rise by 0.27%, according to the Review of Maritime Transport 2026, published by UN ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "UK port congestion, empty-container restrictions add upward pressure to freight rates",
+   "link": "https://www.hellenicshippingnews.com/uk-port-congestion-empty-container-restrictions-add-upward-pressure-to-freight-rates/",
+   "published": "2026-11-27T11:00:57+00:00",
+   "summary": "Congestion across the UK container logistics network is tightening effective vessel and equipment capacity, adding upward pressure to freight prices as carriers contend with import backlogs, schedule disruption and restrictions on empty-container returns. Maersk said in a Nov. 24 customer advisory that sustained high import volumes, network congestion, adverse weather and recent rail disruption had ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": true
+  },
+  {
+   "title": "BIMCO regrets European Parliament vote to exclude Indian yards",
+   "link": "https://www.hellenicshippingnews.com/bimco-regrets-european-parliament-vote-to-exclude-indian-yards/",
+   "published": "2026-11-27T11:00:55+00:00",
+   "summary": "BIMCO is concerned by the European Parliament’s decision on 25 November to reject the inclusion of two Indian yards on the European List of ship recycling facilities. The two yards have undergone an extensive, independent inspection process carried out by the EU Commission, the results of which are publicly available in the Commission’s inspection reports. ...",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "VHBS New ConTex Container Ship Time Charter Assessment Index Week 48",
+   "link": "https://www.hellenicshippingnews.com/vhbs-new-contex-container-ship-time-charter-assessment-index-week-48-3/",
+   "published": "2026-11-27T11:00:54+00:00",
+   "summary": "The New ConTex gained another 5 points this week, bringing the index to 1,697. This represents an increase of 0.3% week-on-week and 1.1% over the Source: Verband Hamburger und Bremer Schiffsmakler e.V",
+   "source": "Hellenic Shipping News",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "OFAC Iran-sanctioned tanker crosses US blockade",
+   "link": "",
+   "published": "2026-11-27T09:41:27+00:00",
+   "summary": "Windward flagged up two OFAC sanctioned tankers that appeared to be openly lining up attempts to run the US blockade at the edge of the Gulf of Oman",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "MISC reports lower LNG earnings in Q3",
+   "link": "https://lngprime.com/asia/misc-reports-lower-lng-earnings-in-q3/200648/",
+   "published": "2026-11-27T09:26:33+00:00",
+   "summary": "Malaysia’s LNG shipping player MISC, a unit of Petronas, said its LNG business posted lower operating profit and revenue in the third quarter of this year. MISC also expects spot LNG carrier rates to remain under pressure in the near term amid ongoing Middle East LNG supply disruptions.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Petronas takes FID on Suriname FLNG project",
+   "link": "https://lngprime.com/americas/petronas-takes-fid-on-suriname-flng-project/200638/",
+   "published": "2026-11-27T07:53:21+00:00",
+   "summary": "Malaysian energy giant Petronas and Suriname’s state-owned oil and gas company Staatsolie have taken the final investment decision on the $1.6 billion Sloanea gas field development in offshore Block 52, which includes a floating liquefied natural gas (FLNG) facility.",
+   "source": "LNG Prime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Guangdong plans Greater Bay Area world-class port cluster by 2030",
+   "link": "",
+   "published": "2026-11-27T07:12:58+00:00",
+   "summary": "Annual cargo handling capacity of Guangdong is expected to hit 2.4 billion tonnes",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Trump’s latest tariffs could undermine sea trade growth in 2027",
+   "link": "",
+   "published": "2026-11-27T06:43:57+00:00",
+   "summary": "Unctad projected a recovery in seaborne trade growth next year, but the forecast was made before the latest US tariff announcement",
+   "source": "Seatrade Maritime",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "AIS Awarded Offshore Wind Contract by LS Marine Solution",
+   "link": "https://maritime-executive.com/article/ais-awarded-offshore-wind-contract-by-ls-marine-solution",
+   "published": "2026-11-27T04:54:00+00:00",
+   "summary": "AIS has successfully secured a significant contract with LS Marine Solution for the supply of NjordGuard cable protection systems (CPS) and bellmouths...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "NorthStandard Celebrates 10th Anniversary of Shanghai Office",
+   "link": "https://maritime-executive.com/article/northstandard-celebrates-10th-anniversary-of-shanghai-office",
+   "published": "2026-11-27T02:13:00+00:00",
+   "summary": "NorthStandard is marking the 10th anniversary of its Shanghai office, a milestone in nearly four decades of relationships with the Chinese shipping co...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Tackling Fraudulent Registries Together",
+   "link": "https://maritime-executive.com/article/tackling-fraudulent-registries-together",
+   "published": "2026-11-27T02:13:00+00:00",
+   "summary": "Strong national systems and international information sharing are crucial to tackling fraudulent registries and fraudulent ship registration practices...",
+   "source": "Maritime Executive",
+   "kind": "market",
+   "nordic": false
+  },
+  {
+   "title": "Iceland Has Deadliest Maritime Accident in Decades as Fishing Vessel Sinks",
+   "link": "https://maritime-executive.com/article/iceland-has-deadliest-maritime-accident-in-decades-as-fishing-vessel-sinks",
+   "published": "2026-11-26T23:11:58+00:00",
+   "summary": "Iceland is reporting that it suffered one of its deadliest maritime accidents in decades as a fishing boat went down in heavy seas east of the Island....",
+   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
@@ -2729,15 +2935,6 @@
    "published": "2026-11-24T08:33:05+00:00",
    "summary": "US LNG exporter Cheniere is seeking approval from the Federal Energy Regulatory Commission to begin initial site preparation for the planned Sabine Pass Stage 5 LNG expansion project in Louisiana.",
    "source": "LNG Prime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "AIS Awarded Offshore Wind Contract by LS Marine Solution",
-   "link": "https://maritime-executive.com/article/ais-awarded-offshore-wind-contract-by-ls-marine-solution",
-   "published": "2026-11-24T04:54:00+00:00",
-   "summary": "AIS has successfully secured a significant contract with LS Marine Solution for the supply of NjordGuard cable protection systems (CPS) and bellmouths...",
-   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   },
@@ -12800,285 +12997,6 @@
    "published": "2026-10-28T16:27:19+00:00",
    "summary": "(Bloomberg) — The US military said vessels that have no need to move between ports in the Gulf of Oman and the Strait of Hormuz should stay away, as tensions...",
    "source": "gCaptain",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Hydroniq Coolers delivers marine cooling system for Washington State hybrid ferry",
-   "link": "https://ship.energy/energy/hydroniq-coolers-delivers-marine-cooling-system-for-washington-state-hybrid-ferry/",
-   "published": "2026-10-28T15:08:12+00:00",
-   "summary": "Norway-based Hydroniq Coolers has announced the ‘early delivery’ of a marine cooling system that will be installed on board the first of Washington State Ferries’ new generation of hybrid-electric ferries that will be delivered in 2030. Hydroniq Coolers has delivered a complete, ready-to-install Rack cooler with multiple freshwater systems. The cooler reduces the temperature of the main engine and auxiliary systems u",
-   "source": "Bunkerspot",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Gulf of Aden piracy warning as US issues Iran blockade update",
-   "link": "",
-   "published": "2026-10-28T14:07:11+00:00",
-   "summary": "US forces reiterate blockade warnings to shipping as PGSA blacklist expands to 125 vessels.",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Bahri profit leaps almost 900% in third quarter",
-   "link": "",
-   "published": "2026-10-28T13:52:33+00:00",
-   "summary": "Saudi owner reaps financial rewards of hot VLCC market despite four ship attacks and two seafarer fatalities in 2026.",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Noble offloads idle drillship for $38m",
-   "link": "https://splash247.com/noble-offloads-idle-drillship-for-38m/",
-   "published": "2026-10-28T12:31:29+00:00",
-   "summary": "US offshore drilling contractor Noble Corporation has agreed to sell its 2013-built, sixth-generation drillship, Noble Globetrotter II, for $38m as it continues to dispose of underutilised drilling assets. The transaction is expected to close in the fourth quarter of 2026. Noble has not disclosed the buyer’s identity or the rig’s intended future use. However, chief executive Robert …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "MOL announces delivery of Japan’s first coal carrier equipped with Wind Challenger wind-assisted propulsion",
-   "link": "https://ship.energy/information/mol-announces-delivery-of-japans-first-coal-carrier-equipped-with-wind-challenger-wind-assisted-propulsion/",
-   "published": "2026-10-28T11:50:53+00:00",
-   "summary": "Japan’s ‘first coal carrier equipped with a Wind Challenger hard sail wind-assisted propulsion system’ has entered into service, according to Mitsui O.S.K. Lines (MOL). In a statement issued today (28 October), MOL said the LNG dual-fuel coal carrier Maizuru Kazenomai has been built as a dedicated vessel for Kansai Electric Power Co., Inc. and will transport coal to the Maizuru Power Plant in Kyoto Prefecture, Japan.",
-   "source": "Bunkerspot",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Seatrade Maritime and DP World to host Inaugural Seatrade Maritime UAE Summit in Dubai",
-   "link": "",
-   "published": "2026-10-28T11:09:10+00:00",
-   "summary": "Summit to host the launch of the 2026 Leading Maritime Cities report by Menon Economics and DNV.",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Wallenius Wilhelmsen adds up to $1.5bn in newbuild orders in China",
-   "link": "",
-   "published": "2026-10-28T10:46:16+00:00",
-   "summary": "Four firm dual-fuel PCTCs and options for eight more take Wallenius Wilhelmsen's renewal programme to 26 vessels",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Norway lines up full-scale test of marine nuclear propulsion system",
-   "link": "https://splash247.com/norway-lines-up-full-scale-test-of-marine-nuclear-propulsion-system/",
-   "published": "2026-10-28T10:30:00+00:00",
-   "summary": "A Norwegian-led consortium involving shipbuilder Vard and offshore vessel owner Island Offshore is preparing to build and test an integrated nuclear propulsion system, targeting its first vessel deployment in 2031 or 2032. The Marine Nuclear Propulsion System (MarNuPS) project, led by Emerald Nuclear Norway, will move from engineering studies to physical integration and testing, with …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Inpex wraps up Abadi LNG FEED work",
-   "link": "https://lngprime.com/asia/inpex-wraps-up-abadi-lng-feed-work/199077/",
-   "published": "2026-10-28T10:17:31+00:00",
-   "summary": "Japan's Inpex has completed the front-end engineering design (FEED) work for the Abadi LNG project in Indonesia, the company confirmed to LNG Prime on Wednesday.",
-   "source": "LNG Prime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Stade FSRU cooling down LNG tanks in Rotterdam ahead of November launch",
-   "link": "https://lngprime.com/europe/stade-fsru-cooling-down-lng-tanks-in-rotterdam-ahead-of-november-launch/199081/",
-   "published": "2026-10-28T10:16:25+00:00",
-   "summary": "The 2021-built 174,000-cbm FSRU Energos Force is in the Dutch port of Rotterdam to cool down its LNG tanks before operations begin in Germany’s Stade next month, state-owned LNG terminal operator DET told LNG Prime.",
-   "source": "LNG Prime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Jera, Petrobangla ink MoU to explore LNG cooperation",
-   "link": "https://lngprime.com/asia/jera-petrobangla-ink-mou-to-explore-lng-cooperation/199104/",
-   "published": "2026-10-28T10:10:11+00:00",
-   "summary": "Japan’s power firm and LNG trader, Jera, and Bangladesh Oil, Gas & Mineral Corporation (Petrobangla) have signed a non-binding memorandum of understanding (MoU) to explore potential cooperation in Bangladesh’s energy sector, including liquefied natural gas (LNG) supply.",
-   "source": "LNG Prime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "South Korean shipyard set for offshore wind makeover",
-   "link": "https://splash247.com/south-korean-shipyard-set-for-offshore-wind-makeover/",
-   "published": "2026-10-28T10:00:00+00:00",
-   "summary": "Four South Korean companies have signed an agreement to transform part of the Gunsan shipyard into an offshore wind manufacturing hub, with plans to produce large turbines, towers and offshore substations. HJ Heavy Industries, J-Ocean Heavy Industries, Myeongun Industrial Development and turbine manufacturer Unison signed a memorandum of understanding to develop the facility on South …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Woodside exits delayed Timor-Leste gas project",
-   "link": "https://splash247.com/woodside-exits-delayed-timor-leste-gas-project/",
-   "published": "2026-10-28T09:38:00+00:00",
-   "summary": "Australian energy major Woodside has agreed to sell its entire 33.44% stake in the long-delayed Greater Sunrise gas development to Timor-Leste’s state-owned energy company TIMOR GAP for up to $200m. The agreement could bring one of the region’s largest undeveloped offshore gas resources under full Timorese ownership, following a separate agreement for TIMOR GAP to …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Wallenius Wilhelmsen orders LNG-powered vessels in China",
-   "link": "https://lngprime.com/asia/wallenius-wilhelmsen-orders-lng-powered-vessels-in-china/199083/",
-   "published": "2026-10-28T09:17:35+00:00",
-   "summary": "Norway-based shipping firm Wallenius Wilhelmsen has ordered four LNG dual-fuel RoRo vessels with options for more",
-   "source": "LNG Prime",
-   "kind": "market",
-   "nordic": true
-  },
-  {
-   "title": "Will Trump extend Jones Act waivers beyond 15 November?",
-   "link": "",
-   "published": "2026-10-28T09:08:28+00:00",
-   "summary": "The US mid-term elections will be over when the latest round of Jones Act waivers expire leaving a question of further extensions",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Containership orderbook heads towards 16m teu",
-   "link": "https://splash247.com/containership-orderbook-heads-towards-16m-teu/",
-   "published": "2026-10-28T08:30:28+00:00",
-   "summary": "The containership industry’s extraordinary ordering spree is showing no signs of slowing, with the global orderbook now exceeding 15m teu and another wave of megamax contracts poised to push the total towards 16m teu before the end of the year. The latest figures from Alphaliner show that approximately 40 additional large containerships are expected to …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Iran singles out Sinokor",
-   "link": "https://splash247.com/iran-singles-out-sinokor/",
-   "published": "2026-10-28T08:15:12+00:00",
-   "summary": "Iran has threatened South Korean tanker giant Sinokor, the world’s dominant VLCC owner, with sweeping action against its fleet from November 1, accusing the company of repeatedly violating Tehran’s restrictions on shipping through the Strait of Hormuz. Iran’s Persian Gulf Strait Authority (PGSA) has said Sinokor vessels have committed more transit violations than any other …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Sanctioned Russian tankers head for US carrying diesel",
-   "link": "https://splash247.com/sanctioned-russian-tankers-head-for-us-carrying-diesel/",
-   "published": "2026-10-28T08:06:53+00:00",
-   "summary": "Three tankers carrying Russian diesel are heading towards the United States under the controversial agreement between presidents Donald Trump and Vladimir Putin, with Moscow preparing to dispatch a fourth vessel today. Russian deputy prime minister Alexander Novak confirmed yesterday that three shipments were underway, despite mounting opposition from US lawmakers who argue the deal breaches …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Shipping’s $275m lesson in the limits of sanctions screening",
-   "link": "https://splash247.com/shippings-275m-lesson-in-the-limits-of-sanctions-screening/",
-   "published": "2026-10-28T07:54:13+00:00",
-   "summary": "A sanctions settlement has exposed a fundamental weakness in shipping’s compliance systems. Wolfgang Lehmacher reports. On paper, Adani Enterprises did what compliance manuals demand. According to OFAC, before each LPG cargo arrived, it screened ships, operators and sellers against the US sanctions list. The names were clean. In May 2026, Adani agreed to pay $275m …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Newbuild orders at Chinese shipyards surge 163% in first nine months",
-   "link": "",
-   "published": "2026-10-28T07:54:02+00:00",
-   "summary": "China’s shipbuilding sector maintains global dominance in the first three quarters of 2026",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Lila Global lines up its finest asset play to date",
-   "link": "https://splash247.com/lila-global-lines-up-its-finest-asset-play-to-date/",
-   "published": "2026-10-28T07:47:13+00:00",
-   "summary": "Lila Global appears to be lining up its finest asset deal to date. In mid-August, a suezmax firmly in the shadow fleet age bracket made headlines after changing hands for just under $50m, with the price tag showing that tanker values in this segment showed no signs of cooling down. The vessel, Sonangol Namibe (158,425 …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "US maritime regulators sound alarm over forwarder identity theft",
-   "link": "",
-   "published": "2026-10-28T07:41:32+00:00",
-   "summary": "Overseas operators stealing domestic freight forwarder license numbers triggers cross-agency scrutiny",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Japan’s Kyushu Electric inks LNG Canada deal",
-   "link": "https://lngprime.com/americas/japans-kyushu-electric-inks-lng-canada-deal/199062/",
-   "published": "2026-10-28T07:30:06+00:00",
-   "summary": "Japan’s Kyushu Electric Power has signed a basic agreement with Diamond Global Energy, a unit of Mitsubishi, to buy liquefied natural gas (LNG) from the second phase of the Shell-led LNG Canada project in Kitimat.",
-   "source": "LNG Prime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Maritime CEO Forum: Shipping’s wartime boom tests discipline",
-   "link": "https://splash247.com/maritime-ceo-forum-shippings-wartime-boom-tests-discipline/",
-   "published": "2026-10-28T07:26:05+00:00",
-   "summary": "Shipping may be enjoying one of its strongest booms in decades, but the extraordinary profits generated by geopolitical turmoil are raising difficult questions about risk, investment and what happens when the wars end, delegates at yesterday’s Maritime CEO Forum in Monaco heard. Opening the event at the Yacht Club de Monaco, Splash editor Sam Chambers …",
-   "source": "Splash247",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Poland’s Orlen opens LNG trading office in Singapore",
-   "link": "https://lngprime.com/europe/polands-orlen-opens-lng-trading-office-in-singapore/199069/",
-   "published": "2026-10-28T07:15:13+00:00",
-   "summary": "Poland's Orlen is further expanding its liquefied natural gas (LNG) trading business by opening a new office in Singapore.",
-   "source": "LNG Prime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Iran war 8 months on – 121 vessels attacked, 24 seafarers killed",
-   "link": "",
-   "published": "2026-10-28T04:43:34+00:00",
-   "summary": "The number of attacks on ships has ramped up sharply in the last month at least 34 confirmed attacks since 28 September",
-   "source": "Seatrade Maritime",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "ILWU Watchmen May Strike at LA/Long Beach, With Effects on Half the Port",
-   "link": "https://maritime-executive.com/article/ilwu-watchmen-may-strike-at-la-long-beach-with-effects-on-half-the-port",
-   "published": "2026-10-28T03:36:55+00:00",
-   "summary": "A union representing security watchmen at the twin ports of Los Angeles and Long Beach has warned that it will go on strike if talks on a new collecti...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Austal USA Hosts Vice Chief of Naval Operations",
-   "link": "https://maritime-executive.com/article/austal-usa-hosts-vice-chief-of-naval-operations-and-other-navy-leadership-at-navy-additive-manufacturing-center-of-excellence-in-danville",
-   "published": "2026-10-28T02:06:00+00:00",
-   "summary": "Austal USA welcomed Admiral James Kilby, Vice Chief of Naval Operations, at the Navy’s Additive Manufacturing Center of Excellence (AMCoE) in Danville...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Babcock’s Supplier Day Showcases UK Industry Opportunities",
-   "link": "https://maritime-executive.com/article/babcock-s-supplier-day-showcases-uk-industry-opportunities-in-indonesia-s-4bn-maritime-programme",
-   "published": "2026-10-28T02:05:00+00:00",
-   "summary": "Babcock International Group (Babcock), the defence company, has welcomed suppliers, industry partners and Indonesian and UK Government stakeholders to...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "CYTUR Secures Dual Class Recognition from Japan and Italy",
-   "link": "https://maritime-executive.com/article/cytur-secures-dual-class-recognition-from-japan-and-italy-for-maritime-cybersecurity-solution-cytur-sbom",
-   "published": "2026-10-28T02:04:00+00:00",
-   "summary": "CYTUR Inc., a maritime cybersecurity specialist led by CEO Yonghyun Jo, announced that its shipboard equipment cybersecurity management platform, CYTU...",
-   "source": "Maritime Executive",
-   "kind": "market",
-   "nordic": false
-  },
-  {
-   "title": "Maritime Industry Advances Harmonisation of Digital Emissions Reporting",
-   "link": "https://maritime-executive.com/article/maritime-industry-advances-harmonisation-of-digital-emissions-reporting",
-   "published": "2026-10-28T02:03:00+00:00",
-   "summary": "The Tripartite Joint Industry Working Group (JIWG) has released two new frameworks that can help improve the exchange of operations and emissions data...",
-   "source": "Maritime Executive",
    "kind": "market",
    "nordic": false
   }
